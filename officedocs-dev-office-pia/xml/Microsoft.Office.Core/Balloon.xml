@@ -1,0 +1,629 @@
+<Type Name="Balloon" FullName="Microsoft.Office.Core.Balloon">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b978291d98fbee8f572e76ae54e7063dd52fe070" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657993" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Balloon : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Balloon implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Balloon" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Balloon&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Balloon : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0324-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>代表其中 Office 助手显示信息气球。</summary>
+    <remarks>
+      <para>气球可包含如复选框和标签控件。</para>使用
+      <para><see cref="P:Microsoft.Office.Core.Assistant.NewBalloon" />属性可返回<b>气球</b>对象。不存在的<b>Balloon</b>对象; 集合每次只有一个气球可以是可见的。但是，就可以定义多个气球和显示它们时所需的任何一个。</para>使用
+      <para><see cref="M:Microsoft.Office.Core.Balloon.Show" />方法，以使指定的气球可见。使用<see cref="P:Microsoft.Office.Core.Balloon.Callback" />属性来运行过程基于非模态气球 （仍可见时用户应用程序中的工作方式的气球） 中的选项。使用<see cref="M:Microsoft.Office.Core.Balloon.Close" />方法关闭非模态气球。</para><para>您可以重复使用气球对象已经创建由分配给一个变量的对象并显示该变量时需要它。</para><para>或者，而不是使用单独的变量，您可以放在 balloon 对象数组。</para><para /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Animation">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoAnimationType Animation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoAnimationType Animation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Animation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Animation As MsoAnimationType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoAnimationType Animation { Microsoft::Office::Core::MsoAnimationType get(); void set(Microsoft::Office::Core::MsoAnimationType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809357)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809357)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809357)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置 Office 助手动画效果。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>某些本主题中的内容不可能适用于某些语言版本。</para>仅在显示气球提示时，
+          <para>助理会动画效果。"Clippit"是默认助理， <b>msoAnimationIdle</b>是助理的默认动画类型。</para><para>具体取决于所选的助手程序<b>动画</b>属性设置可能会也可能不明显动画中产生。但是，所有<see cref="T:Microsoft.Office.Core.MsoAnimationType" />常数可用于所有助手。不同的常数可能会产生相同的动画的注释。</para><para>以下<b>MsoAnimationType</b>常量表示重复指定的操作，直到关闭助理，或者直到取消<b>Animation</b>属性将重置与另一个动画的动画：</para><para><b>msoAnimationCheckingSomething</b></para><para><b>msoAnimationGetTechy</b></para><para><b>msoAnimationListensToComputer</b></para><para><b>msoAnimationSearching</b></para><para><b>msoAnimationThinking</b></para><para><b>msoAnimationWorkingAtSomething</b></para><para><b>msoAnimationWritingNotingSomething</b></para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>Application</b>对象，代表容器应用程序的对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BalloonType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoBalloonType BalloonType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoBalloonType BalloonType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.BalloonType" />
+      <MemberSignature Language="VB.NET" Value="Public Property BalloonType As MsoBalloonType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoBalloonType BalloonType { Microsoft::Office::Core::MsoBalloonType get(); void set(Microsoft::Office::Core::MsoBalloonType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置的 Office 助手将的气球的类型。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>某些本主题中的内容不可能适用于某些语言版本。</para>
+          <para>创建时<see cref="T:Microsoft.Office.Core.Balloon" />对象，该属性最初设置为<b>试图</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Button">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoButtonSetType Button { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoButtonSetType Button" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Button" />
+      <MemberSignature Language="VB.NET" Value="Public Property Button As MsoButtonSetType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoButtonSetType Button { Microsoft::Office::Core::MsoButtonSetType get(); void set(Microsoft::Office::Core::MsoButtonSetType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonSetType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置按钮显示 Office 助手气球底部的类型。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>某些本主题中的内容不可能适用于某些语言版本。</para>
+          <para>创建时<see cref="T:Microsoft.Office.Core.Balloon" />对象，该属性最初设置为<b>msoButtonSetOK</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Callback">
+      <MemberSignature Language="C#" Value="public string Callback { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Callback" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Callback" />
+      <MemberSignature Language="VB.NET" Value="Public Property Callback As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Callback { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809361)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809361)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809361)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置从一个非模态气球运行过程的名称。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>必须编写<b>回调</b>属性所指定的过程接受两个或三个参数，具体取决于您所使用的属性。如果使用向导<b>回调</b>属性，您必须编写过程接受两个参数： 长整型值，该值代表<see cref="T:Microsoft.Office.Core.MsoBalloonButtonType" />的按钮，用户单击，并唯一标识气球的长整型整数值。如果使用一个非模态气球<b>回调</b>属性，您必须编写过程接受三个参数： Balloon 对象调用该过程;长整型值，该值代表按钮的<b>msoBalloonButtonType</b>值用户单击;长整型，如中气球的唯一标识调用过程，气球和<see cref="P:Microsoft.Office.Core.Balloon.Private" />属性。</para>
+          <para>回调过程必须包含在其下的至少一个条件<see cref="M:Microsoft.Office.Core.Balloon.Close" />方法应用于<see cref="T:Microsoft.Office.Core.Balloon" />对象传递给它; 否则，不能消除无模式气球。</para>
+          <para>如果指定存储在单独的类模块中的过程，您必须在分配给<b>Callback</b>属性 (例如，"Sheet1.MyCallback) 的值包括模块名称。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Checkboxes">
+      <MemberSignature Language="C#" Value="public object Checkboxes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Checkboxes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Checkboxes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Checkboxes As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Checkboxes { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Core.BalloonCheckboxes" />集合，代表指定气球中包含的所有复选框。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Balloon.Close" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809368)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>关闭活动的无模式气球。</summary>
+        <remarks>
+          <para>仅在回调过程中，应使用此方法。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性的工作方式的示例，它会返回 1297307460，如果在 Microsoft Word 中; 创建该对象代表字符串"MSWD"如果在 Microsoft Excel 中创建对象，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有"MSWD"的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.Balloon.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Heading">
+      <MemberSignature Language="C#" Value="public string Heading { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Heading" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Heading" />
+      <MemberSignature Language="VB.NET" Value="Public Property Heading As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Heading { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809351)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置 Office 助手气球中显示的标题。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>某些本主题中的内容不可能适用于某些语言版本。</para>您可以指定要在使用以下语法的气球标题中显示的图形的
+          <para>: {<paramref name="type location sizing_factor" />}，其中<paramref name="type" />是 bmp （位图） 或 wmf （Windows 图元文件）<paramref name="location" />为 ID 或路径和文件名称的资源和<paramref name="sizing_factor" />指定的宽度wmf （bmp 省略）。</para><para>气球标题还支持带下划线的文本和具有一种 16 系统调色板的颜色应用到它的文本。若要显示在标题中带下划线的文本，请使用语法 {<paramref name="ul" />} 或 {<paramref name="ul 1" />};使用 {<paramref name="ul 0" />} 关闭下划线。若要更改的标题文本的颜色，前面的字符序列的文本字符串 {<paramref name="cf number" />}，其中号码是下表中列出的系统颜色号码之一。</para><list type="table"><item><description><b>0</b></description><description>黑色</description></item><item><description><b>1</b></description><description>深红色</description></item><item><description><b>2</b></description><description>深绿色</description></item><item><description><b>3</b></description><description>深黄色</description></item><item><description><b>4</b></description><description>深蓝色</description></item><item><description><b>5</b></description><description>深洋红色</description></item><item><description><b>6</b></description><description>深蓝绿色</description></item><item><description><b>7</b></description><description>浅灰色</description></item><item><description><b>248</b></description><description>中型灰色</description></item><item><description><b>249</b></description><description>红色</description></item><item><description><b>250</b></description><description>绿色</description></item><item><description><b>251</b></description><description>黄色</description></item><item><description><b>252</b></description><description>蓝色</description></item><item><description><b>253</b></description><description>洋红色</description></item><item><description><b>254</b></description><description>蓝绿色</description></item><item><description><b>255</b></description><description>白色</description></item></list><para>指定以外的上述系统颜色值的数字，如果的标题文本为黑色。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Icon">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoIconType Icon { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoIconType Icon" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Icon" />
+      <MemberSignature Language="VB.NET" Value="Public Property Icon As MsoIconType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoIconType Icon { Microsoft::Office::Core::MsoIconType get(); void set(Microsoft::Office::Core::MsoIconType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809349)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809349)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809349)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoIconType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置 Office 助手气球的左上角部分中显示的图标类型。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>本主题中的内容的一些可能不适用于某些语言版本。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Labels">
+      <MemberSignature Language="C#" Value="public object Labels { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Labels" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Labels" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Labels As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Labels { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Core.BalloonLabels" />代表按钮标签、 编号的标签，并指定 Office 助手气球中包含的项目符号标签的集合。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>本主题中的内容的一些可能不适用于某些语言版本。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoModeType Mode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoModeType Mode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Mode" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mode As MsoModeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoModeType Mode { Microsoft::Office::Core::MsoModeType get(); void set(Microsoft::Office::Core::MsoModeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809355)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809355)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809355)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoModeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置的 Office 助手气球模式行为。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>某些本主题中的内容不可能适用于某些语言版本。</para>
+          <para>创建时<see cref="T:Microsoft.Office.Core.Balloon" />对象，该属性最初设置为<b>msoModeModal</b>。</para>如果为气球的<b>Mode</b>属性设置为<b>msoModeModeless</b><para>，气球可见时，用户就可以在应用程序中工作。如果该属性设置为<b>msoModeModal</b>，用户必须取消气球才能继续以在应用程序。当用户单击无处不在屏幕上，如果该属性设置为<b>msoModeAutoDown</b>，取消气球。</para>如果为气球的<b>Mode</b>属性设置为<b>msoModeModeless</b>和值的
+          <para><see cref="P:Microsoft.Office.Core.Balloon.Callback" />属性未提供，则会发生错误。<see cref="M:Microsoft.Office.Core.Balloon.Close" />仅当<b>Mode</b>属性设置为<b>msoModeModeless</b><b>回调</b>属性指定的过程中使用方法。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809366)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809366)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置指定对象的名称。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回指定对象的父对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Private">
+      <MemberSignature Language="C#" Value="public int Private { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Private" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Private" />
+      <MemberSignature Language="VB.NET" Value="Public Property Private As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Private { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809363)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809363)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809363)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个标识 Office 助手气球启动回调过程的整数。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>某些本主题中的内容不可能适用于某些语言版本。</para>
+          <para>此属性是非常有用，如果从多个气球运行相同的回调过程。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAvoidRectangle">
+      <MemberSignature Language="C#" Value="public void SetAvoidRectangle (int Left, int Top, int Right, int Bottom);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetAvoidRectangle([in]int32 Left, [in]int32 Top, [in]int32 Right, [in]int32 Bottom) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Balloon.SetAvoidRectangle(System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetAvoidRectangle (Left As Integer, Top As Integer, Right As Integer, Bottom As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetAvoidRectangle(int Left, int Top, int Right, int Bottom);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809365)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Left" Type="System.Int32" />
+        <Parameter Name="Top" Type="System.Int32" />
+        <Parameter Name="Right" Type="System.Int32" />
+        <Parameter Name="Bottom" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Left">
+          <b>必选。</b> Office 助手气球将避开显示时的屏幕区域的坐标 （相对于屏幕，并以磅为单位）。</param>
+        <param name="Top">
+          <b>必选。</b> Office 助手气球将避开显示时的屏幕区域的坐标 （相对于屏幕，并以磅为单位）。</param>
+        <param name="Right">
+          <b>必选。</b> Office 助手气球将避开显示时的屏幕区域的坐标 （相对于屏幕，并以磅为单位）。</param>
+        <param name="Bottom">
+          <b>必选。</b> Office 助手气球将避开显示时的屏幕区域的坐标 （相对于屏幕，并以磅为单位）。</param>
+        <summary>防止在屏幕上的指定区域中显示 Office 助手气球。</summary>
+        <remarks>
+          <para>某些本主题中的内容不可能适用于某些语言版本。</para>
+          <para>此属性返回<see cref="T:Microsoft.Office.Core.Assistant" />对象。</para>
+          <para>此属性用来避免重叠的自定义对话框和向导从 Office 助手气球。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Show">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoBalloonButtonType Show ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Office.Core.MsoBalloonButtonType Show() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Balloon.Show" />
+      <MemberSignature Language="VB.NET" Value="Public Function Show () As MsoBalloonButtonType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::MsoBalloonButtonType Show();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809367)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonButtonType</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>显示指定的 balloon 对象并返回<see cref="T:Microsoft.Office.Core.MsoBalloonButtonType" />常量。</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>返回的常量指示用户的按钮或标签气球中单击。</para>
+          <para>此属性返回该表达式返回<see cref="T:Microsoft.Office.Core.Balloon" />对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="public string Text { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Text" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Balloon.Text" />
+      <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Text { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809353)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809353)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809353)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置在标题之后，但在标签或 Office 助手气球中的复选框之前显示的文本。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>某些本主题中的内容不可能适用于某些语言版本。</para>您可以指定通过使用以下语法来显示的特定图形的
+          <para>: {<paramref name="type location sizing_factor" />}，其中<paramref name="type" />是 bmp （位图） 或 wmf （Windows 图元文件）;<paramref name="location" />是资源 ID 或路径和文件名称;和<paramref name="sizing_factor" />表示.wmf 文件的宽度 (<paramref name="sizing_factor" />省略.bmp 文件)。</para><para><see cref="T:Microsoft.Office.Core.Balloon" />对象还支持带下划线的文本和具有一种 16 系统调色板的颜色应用到它的文本。若要显示带下划线的文本，请使用语法 {<paramref name="ul" />} 或 {<paramref name="ul 1" />};使用 {<paramref name="ul 0" />} 关闭下划线。若要更改文本的颜色，前面的字符序列的文本字符串 {<paramref name="cf number" />}，其中号码是下表中列出的系统颜色号码之一。</para><list type="table"><item><description><b>0</b></description><description>黑色</description></item><item><description><b>1</b></description><description>深红色</description></item><item><description><b>2</b></description><description>深绿色</description></item><item><description><b>3</b></description><description>深黄色</description></item><item><description><b>4</b></description><description>深蓝色</description></item><item><description><b>5</b></description><description>深洋红色</description></item><item><description><b>6</b></description><description>深蓝绿色</description></item><item><description><b>7</b></description><description>浅灰色</description></item><item><description><b>248</b></description><description>中型灰色</description></item><item><description><b>249</b></description><description>红色</description></item><item><description><b>250</b></description><description>绿色</description></item><item><description><b>251</b></description><description>黄色</description></item><item><description><b>252</b></description><description>蓝色</description></item><item><description><b>253</b></description><description>洋红色</description></item><item><description><b>254</b></description><description>蓝绿色</description></item><item><description><b>255</b></description><description>白色</description></item></list><para>Office 助手气球中的文本指定以外的上述系统颜色值的数字，如果为黑色。</para><para /></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

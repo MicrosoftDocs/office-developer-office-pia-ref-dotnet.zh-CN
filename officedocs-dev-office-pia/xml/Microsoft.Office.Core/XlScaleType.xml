@@ -1,0 +1,74 @@
+<Type Name="XlScaleType" FullName="Microsoft.Office.Core.XlScaleType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e8121f6b1e89afd15d423f49828dadfdc356de97" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657709" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlScaleType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlScaleType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlScaleType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlScaleType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlScaleType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("6A0D7E5C-F9AD-4927-A850-5638891724B2")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定数值轴的刻度类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlScaleLinear">
+      <MemberSignature Language="C#" Value="xlScaleLinear" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlScaleType xlScaleLinear = int32(-4132)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlScaleType.xlScaleLinear" />
+      <MemberSignature Language="VB.NET" Value="xlScaleLinear" />
+      <MemberSignature Language="C++ CLI" Value="xlScaleLinear" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlScaleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4132</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  线性。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlScaleLogarithmic">
+      <MemberSignature Language="C#" Value="xlScaleLogarithmic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlScaleType xlScaleLogarithmic = int32(-4133)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlScaleType.xlScaleLogarithmic" />
+      <MemberSignature Language="VB.NET" Value="xlScaleLogarithmic" />
+      <MemberSignature Language="C++ CLI" Value="xlScaleLogarithmic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlScaleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4133</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  对数。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

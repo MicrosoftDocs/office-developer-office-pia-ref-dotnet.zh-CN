@@ -1,0 +1,85 @@
+<Type Name="MsoBroadcastCapabilities" FullName="Microsoft.Office.Core.MsoBroadcastCapabilities">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a986a928ac2f31f3225fce74da52056a32b3bdd8" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657804" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoBroadcastCapabilities" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBroadcastCapabilities extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBroadcastCapabilities" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoBroadcastCapabilities" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoBroadcastCapabilities" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定适用于文档或演示文稿广播会话的应用程序功能。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BroadcastCapFileSizeLimited">
+      <MemberSignature Language="C#" Value="BroadcastCapFileSizeLimited" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBroadcastCapabilities BroadcastCapFileSizeLimited = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBroadcastCapabilities.BroadcastCapFileSizeLimited" />
+      <MemberSignature Language="VB.NET" Value="BroadcastCapFileSizeLimited" />
+      <MemberSignature Language="C++ CLI" Value="BroadcastCapFileSizeLimited" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBroadcastCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>正在将广播文件的大小被限制。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="BroadcastCapSupportsMeetingNotes">
+      <MemberSignature Language="C#" Value="BroadcastCapSupportsMeetingNotes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBroadcastCapabilities BroadcastCapSupportsMeetingNotes = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBroadcastCapabilities.BroadcastCapSupportsMeetingNotes" />
+      <MemberSignature Language="VB.NET" Value="BroadcastCapSupportsMeetingNotes" />
+      <MemberSignature Language="C++ CLI" Value="BroadcastCapSupportsMeetingNotes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBroadcastCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>演示者和与会者可以共享的便笺。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="BroadcastCapSupportsUpdateDoc">
+      <MemberSignature Language="C#" Value="BroadcastCapSupportsUpdateDoc" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBroadcastCapabilities BroadcastCapSupportsUpdateDoc = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBroadcastCapabilities.BroadcastCapSupportsUpdateDoc" />
+      <MemberSignature Language="VB.NET" Value="BroadcastCapSupportsUpdateDoc" />
+      <MemberSignature Language="C++ CLI" Value="BroadcastCapSupportsUpdateDoc" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBroadcastCapabilities</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>演示者和与会者可以更新对文件进行在广播过程中。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

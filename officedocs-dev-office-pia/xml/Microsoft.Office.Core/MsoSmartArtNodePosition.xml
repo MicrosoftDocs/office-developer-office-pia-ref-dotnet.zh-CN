@@ -1,0 +1,123 @@
+<Type Name="MsoSmartArtNodePosition" FullName="Microsoft.Office.Core.MsoSmartArtNodePosition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f05d48fe1b521128617b3a71ac5bbffb6a106043" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658069" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoSmartArtNodePosition" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSmartArtNodePosition extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSmartArtNodePosition" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoSmartArtNodePosition" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoSmartArtNodePosition" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoSmartArtNodeAbove">
+      <MemberSignature Language="C#" Value="msoSmartArtNodeAbove" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSmartArtNodePosition msoSmartArtNodeAbove = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSmartArtNodePosition.msoSmartArtNodeAbove" />
+      <MemberSignature Language="VB.NET" Value="msoSmartArtNodeAbove" />
+      <MemberSignature Language="C++ CLI" Value="msoSmartArtNodeAbove" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSmartArtNodePosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoSmartArtNodeAfter">
+      <MemberSignature Language="C#" Value="msoSmartArtNodeAfter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSmartArtNodePosition msoSmartArtNodeAfter = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSmartArtNodePosition.msoSmartArtNodeAfter" />
+      <MemberSignature Language="VB.NET" Value="msoSmartArtNodeAfter" />
+      <MemberSignature Language="C++ CLI" Value="msoSmartArtNodeAfter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSmartArtNodePosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoSmartArtNodeBefore">
+      <MemberSignature Language="C#" Value="msoSmartArtNodeBefore" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSmartArtNodePosition msoSmartArtNodeBefore = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSmartArtNodePosition.msoSmartArtNodeBefore" />
+      <MemberSignature Language="VB.NET" Value="msoSmartArtNodeBefore" />
+      <MemberSignature Language="C++ CLI" Value="msoSmartArtNodeBefore" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSmartArtNodePosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoSmartArtNodeBelow">
+      <MemberSignature Language="C#" Value="msoSmartArtNodeBelow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSmartArtNodePosition msoSmartArtNodeBelow = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSmartArtNodePosition.msoSmartArtNodeBelow" />
+      <MemberSignature Language="VB.NET" Value="msoSmartArtNodeBelow" />
+      <MemberSignature Language="C++ CLI" Value="msoSmartArtNodeBelow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSmartArtNodePosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoSmartArtNodeDefault">
+      <MemberSignature Language="C#" Value="msoSmartArtNodeDefault" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSmartArtNodePosition msoSmartArtNodeDefault = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSmartArtNodePosition.msoSmartArtNodeDefault" />
+      <MemberSignature Language="VB.NET" Value="msoSmartArtNodeDefault" />
+      <MemberSignature Language="C++ CLI" Value="msoSmartArtNodeDefault" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSmartArtNodePosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

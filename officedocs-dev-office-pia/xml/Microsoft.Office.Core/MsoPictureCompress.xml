@@ -1,0 +1,85 @@
+<Type Name="MsoPictureCompress" FullName="Microsoft.Office.Core.MsoPictureCompress">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="549e0fe1786a9947385a3ee2331378980c15828d" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657407" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoPictureCompress" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPictureCompress extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPictureCompress" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoPictureCompress" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoPictureCompress" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定是否将压缩图片或不时插入到文件。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoPictureCompressDocDefault">
+      <MemberSignature Language="C#" Value="msoPictureCompressDocDefault" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureCompress msoPictureCompressDocDefault = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureCompress.msoPictureCompressDocDefault" />
+      <MemberSignature Language="VB.NET" Value="msoPictureCompressDocDefault" />
+      <MemberSignature Language="C++ CLI" Value="msoPictureCompressDocDefault" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureCompress</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>图片是压缩或不根据文档的设置。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPictureCompressFalse">
+      <MemberSignature Language="C#" Value="msoPictureCompressFalse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureCompress msoPictureCompressFalse = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureCompress.msoPictureCompressFalse" />
+      <MemberSignature Language="VB.NET" Value="msoPictureCompressFalse" />
+      <MemberSignature Language="C++ CLI" Value="msoPictureCompressFalse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureCompress</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>图片不压缩。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPictureCompressTrue">
+      <MemberSignature Language="C#" Value="msoPictureCompressTrue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureCompress msoPictureCompressTrue = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureCompress.msoPictureCompressTrue" />
+      <MemberSignature Language="VB.NET" Value="msoPictureCompressTrue" />
+      <MemberSignature Language="C++ CLI" Value="msoPictureCompressTrue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureCompress</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>将压缩图片。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

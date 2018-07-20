@@ -1,0 +1,85 @@
+<Type Name="BackstageGroupStyle" FullName="Microsoft.Office.Core.BackstageGroupStyle">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="99e99d3b1dfe023c7f9f2c98db651d0db4296e8b" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657999" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum BackstageGroupStyle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed BackstageGroupStyle extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.BackstageGroupStyle" />
+  <TypeSignature Language="VB.NET" Value="Public Enum BackstageGroupStyle" />
+  <TypeSignature Language="C++ CLI" Value="public enum class BackstageGroupStyle" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定用于定义“文件”选项卡上的组样式的常量。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BackstageGroupStyleError">
+      <MemberSignature Language="C#" Value="BackstageGroupStyleError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.BackstageGroupStyle BackstageGroupStyleError = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.BackstageGroupStyle.BackstageGroupStyleError" />
+      <MemberSignature Language="VB.NET" Value="BackstageGroupStyleError" />
+      <MemberSignature Language="C++ CLI" Value="BackstageGroupStyleError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.BackstageGroupStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>错误样式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="BackstageGroupStyleNormal">
+      <MemberSignature Language="C#" Value="BackstageGroupStyleNormal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.BackstageGroupStyle BackstageGroupStyleNormal = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.BackstageGroupStyle.BackstageGroupStyleNormal" />
+      <MemberSignature Language="VB.NET" Value="BackstageGroupStyleNormal" />
+      <MemberSignature Language="C++ CLI" Value="BackstageGroupStyleNormal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.BackstageGroupStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>正常样式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="BackstageGroupStyleWarning">
+      <MemberSignature Language="C#" Value="BackstageGroupStyleWarning" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.BackstageGroupStyle BackstageGroupStyleWarning = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.BackstageGroupStyle.BackstageGroupStyleWarning" />
+      <MemberSignature Language="VB.NET" Value="BackstageGroupStyleWarning" />
+      <MemberSignature Language="C++ CLI" Value="BackstageGroupStyleWarning" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.BackstageGroupStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>警告样式。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,112 @@
+<Type Name="XlTickMark" FullName="Microsoft.Office.Core.XlTickMark">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ca49c7a3bdfd149a8243416e65ea2a0e4c7052b6" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658272" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlTickMark" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlTickMark extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlTickMark" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlTickMark" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlTickMark" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("E5EAD0BB-3A16-48F3-BECD-5839F6B552CA")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定坐标轴的主要和次要刻度线标志的位置。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlTickMarkCross">
+      <MemberSignature Language="C#" Value="xlTickMarkCross" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlTickMark xlTickMarkCross = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlTickMark.xlTickMarkCross" />
+      <MemberSignature Language="VB.NET" Value="xlTickMarkCross" />
+      <MemberSignature Language="C++ CLI" Value="xlTickMarkCross" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlTickMark</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  跨轴。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlTickMarkInside">
+      <MemberSignature Language="C#" Value="xlTickMarkInside" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlTickMark xlTickMarkInside = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlTickMark.xlTickMarkInside" />
+      <MemberSignature Language="VB.NET" Value="xlTickMarkInside" />
+      <MemberSignature Language="C++ CLI" Value="xlTickMarkInside" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlTickMark</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  在轴内。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlTickMarkNone">
+      <MemberSignature Language="C#" Value="xlTickMarkNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlTickMark xlTickMarkNone = int32(-4142)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlTickMark.xlTickMarkNone" />
+      <MemberSignature Language="VB.NET" Value="xlTickMarkNone" />
+      <MemberSignature Language="C++ CLI" Value="xlTickMarkNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlTickMark</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4142</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  无标志。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlTickMarkOutside">
+      <MemberSignature Language="C#" Value="xlTickMarkOutside" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlTickMark xlTickMarkOutside = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlTickMark.xlTickMarkOutside" />
+      <MemberSignature Language="VB.NET" Value="xlTickMarkOutside" />
+      <MemberSignature Language="C++ CLI" Value="xlTickMarkOutside" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlTickMark</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  在轴外。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

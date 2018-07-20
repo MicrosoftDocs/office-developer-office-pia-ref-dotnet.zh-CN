@@ -1,0 +1,155 @@
+<Type Name="IRibbonControl" FullName="Microsoft.Office.Core.IRibbonControl">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="68773fd86e42dc3132be028386c9b8eeaf465f51" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658119" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IRibbonControl" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRibbonControl" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IRibbonControl" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRibbonControl" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IRibbonControl" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0395-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>表示传给每个功能区用户界面 (UI) 控件回调过程的对象。</summary>
+    <remarks>
+      <para>
+        <b>IRibbonControl</b>对象包含的名称 (ID) 的控件和的当前<b>Window</b>对象的功能区 UI 控件。</para>
+      <para />
+    </remarks>
+    <example>
+      <para>以下用 C# 编写的示例演示了从一个按钮控件和切换按钮控件的<b>onAction</b>事件过程调用的两个过程。在第一个过程中，表示控件的<b>IRibbonControl</b>对象传递到过程，并指示按钮已按下按钮的 ID 以及显示一个消息框。第二个过程是类似于第一个并添加了一个<b>布尔</b>参数，指示已按下按钮。</para>
+      <code>&lt;span class="label"&gt;public void ButtonOnAction(IRibbonControl control) 
+   MessageBox.Show("Button clicked: " + control.Id); 
+} 
+ 
+public void ToggleButtonOnAction(IRibbonControl control, bool pressed) 
+{ 
+ 
+ 
+...if (pressed) 
+ 
+      MessageBox.Show("ToggleButton was switched on."); 
+ 
+ 
+   else 
+      MessageBox.Show("ToggleButton was switched off."); 
+ 
+}&lt;/span&gt;</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName="Context">
+      <MemberSignature Language="C#" Value="public object Context { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Context" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IRibbonControl.Context" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Context As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Context { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>代表包含触发回调过程的功能区用户界面的活动窗口。只读。</summary>
+        <value>对象</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IRibbonControl.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取在功能区 XML 标记自定义文件中指定的控件的 ID。只读。</summary>
+        <value>字符串</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tag">
+      <MemberSignature Language="C#" Value="public string Tag { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Tag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IRibbonControl.Tag" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tag As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Tag { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>用于存储任意字符串，并在运行时获取这些字符串。只读</summary>
+        <value>字符串</value>
+        <remarks>
+          <para>通常，您可以区分功能区用户界面 XML 自定义文件中使用的<b>Id</b>属性的控件。但是，有限制可以包含的 Id （任何非字母数字字符，且它们都必须是唯一）。 <b>Tag</b>属性不具有这些限制，因此可以使用它在下列情况下，其中 ID 不起作用：</para>
+          <list type="bullet">
+            <item>
+              <para>如果需要存储您控件，如文件名的特殊字符串。 例如： tag="C:\path\file.xlsm。"</para>
+            </item>如果您想要的多个控件的
+            <item><para>相同的方式处理回调过程，但您不想要维护所有其 Id （这必须是唯一的） 的列表。 例如，您无法具有功能区上的不同选项卡上的按钮，所有具有标记 ="blue"，然后只需签<b>Tag</b>属性而不是<b>ID</b>属性时设置某些常见操作。</para></item></list>
+          <para />
+          <para />
+        </remarks>
+        <example>
+          <para>在用于自定义功能区用户界面 XML 中，您可以设置标记，如下所示。当调用 MyFunction 操作时，您可以阅读<b>Tag</b>属性，将等于"某些字符串"。</para>
+          <code>&lt;span class="label"&gt;&amp;lt;button id=”mybutton” tag=”some string” onAction=”MyFunction”/&amp;gt;&lt;/span&gt;</code>
+        </example>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

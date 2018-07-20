@@ -1,0 +1,66 @@
+<Type Name="MsoBarRow" FullName="Microsoft.Office.Core.MsoBarRow">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5650527d79739a971c04ba176445fc7f9efd32fe" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657909" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoBarRow" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBarRow extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBarRow" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoBarRow" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoBarRow" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定命令栏是位于相对于同一停靠区域中的其他命令栏的第一行还是最后一行。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoBarRowFirst">
+      <MemberSignature Language="C#" Value="msoBarRowFirst" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBarRow msoBarRowFirst = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBarRow.msoBarRowFirst" />
+      <MemberSignature Language="VB.NET" Value="msoBarRowFirst" />
+      <MemberSignature Language="C++ CLI" Value="msoBarRowFirst" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBarRow</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>停靠区域的第一行。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBarRowLast">
+      <MemberSignature Language="C#" Value="msoBarRowLast" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBarRow msoBarRowLast = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBarRow.msoBarRowLast" />
+      <MemberSignature Language="VB.NET" Value="msoBarRowLast" />
+      <MemberSignature Language="C++ CLI" Value="msoBarRowLast" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBarRow</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>停靠区域的最后一行。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

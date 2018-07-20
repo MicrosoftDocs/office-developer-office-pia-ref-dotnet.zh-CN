@@ -1,0 +1,1073 @@
+<Type Name="MsoPatternType" FullName="Microsoft.Office.Core.MsoPatternType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="02282470a715404cfd5fe1a0a3dee92b2e249707" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657915" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoPatternType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPatternType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPatternType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoPatternType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoPatternType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定形状中所使用的填充图案。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoPattern10Percent">
+      <MemberSignature Language="C#" Value="msoPattern10Percent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPattern10Percent = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPattern10Percent" />
+      <MemberSignature Language="VB.NET" Value="msoPattern10Percent" />
+      <MemberSignature Language="C++ CLI" Value="msoPattern10Percent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>前景色的 10%。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPattern20Percent">
+      <MemberSignature Language="C#" Value="msoPattern20Percent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPattern20Percent = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPattern20Percent" />
+      <MemberSignature Language="VB.NET" Value="msoPattern20Percent" />
+      <MemberSignature Language="C++ CLI" Value="msoPattern20Percent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>前景色的 20%。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPattern25Percent">
+      <MemberSignature Language="C#" Value="msoPattern25Percent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPattern25Percent = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPattern25Percent" />
+      <MemberSignature Language="VB.NET" Value="msoPattern25Percent" />
+      <MemberSignature Language="C++ CLI" Value="msoPattern25Percent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>前景色的 25%。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPattern30Percent">
+      <MemberSignature Language="C#" Value="msoPattern30Percent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPattern30Percent = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPattern30Percent" />
+      <MemberSignature Language="VB.NET" Value="msoPattern30Percent" />
+      <MemberSignature Language="C++ CLI" Value="msoPattern30Percent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>前景色的 30%。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPattern40Percent">
+      <MemberSignature Language="C#" Value="msoPattern40Percent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPattern40Percent = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPattern40Percent" />
+      <MemberSignature Language="VB.NET" Value="msoPattern40Percent" />
+      <MemberSignature Language="C++ CLI" Value="msoPattern40Percent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>前景色的 40%。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPattern50Percent">
+      <MemberSignature Language="C#" Value="msoPattern50Percent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPattern50Percent = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPattern50Percent" />
+      <MemberSignature Language="VB.NET" Value="msoPattern50Percent" />
+      <MemberSignature Language="C++ CLI" Value="msoPattern50Percent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>前景色的 50%。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPattern5Percent">
+      <MemberSignature Language="C#" Value="msoPattern5Percent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPattern5Percent = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPattern5Percent" />
+      <MemberSignature Language="VB.NET" Value="msoPattern5Percent" />
+      <MemberSignature Language="C++ CLI" Value="msoPattern5Percent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>前景色的 5%。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPattern60Percent">
+      <MemberSignature Language="C#" Value="msoPattern60Percent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPattern60Percent = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPattern60Percent" />
+      <MemberSignature Language="VB.NET" Value="msoPattern60Percent" />
+      <MemberSignature Language="C++ CLI" Value="msoPattern60Percent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>前景色的 60%。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPattern70Percent">
+      <MemberSignature Language="C#" Value="msoPattern70Percent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPattern70Percent = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPattern70Percent" />
+      <MemberSignature Language="VB.NET" Value="msoPattern70Percent" />
+      <MemberSignature Language="C++ CLI" Value="msoPattern70Percent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>前景色的 70%。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPattern75Percent">
+      <MemberSignature Language="C#" Value="msoPattern75Percent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPattern75Percent = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPattern75Percent" />
+      <MemberSignature Language="VB.NET" Value="msoPattern75Percent" />
+      <MemberSignature Language="C++ CLI" Value="msoPattern75Percent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>前景色的 75%。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPattern80Percent">
+      <MemberSignature Language="C#" Value="msoPattern80Percent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPattern80Percent = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPattern80Percent" />
+      <MemberSignature Language="VB.NET" Value="msoPattern80Percent" />
+      <MemberSignature Language="C++ CLI" Value="msoPattern80Percent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>前景色的 80%。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPattern90Percent">
+      <MemberSignature Language="C#" Value="msoPattern90Percent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPattern90Percent = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPattern90Percent" />
+      <MemberSignature Language="VB.NET" Value="msoPattern90Percent" />
+      <MemberSignature Language="C++ CLI" Value="msoPattern90Percent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>前景色的 90%。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternCross">
+      <MemberSignature Language="C#" Value="msoPatternCross" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternCross = int32(51)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternCross" />
+      <MemberSignature Language="VB.NET" Value="msoPatternCross" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternCross" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>51</MemberValue>
+      <Docs>
+        <summary>十字线</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternDarkDownwardDiagonal">
+      <MemberSignature Language="C#" Value="msoPatternDarkDownwardDiagonal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternDarkDownwardDiagonal = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternDarkDownwardDiagonal" />
+      <MemberSignature Language="VB.NET" Value="msoPatternDarkDownwardDiagonal" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternDarkDownwardDiagonal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>在从上运行于形状的右侧的前景色的粗线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternDarkHorizontal">
+      <MemberSignature Language="C#" Value="msoPatternDarkHorizontal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternDarkHorizontal = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternDarkHorizontal" />
+      <MemberSignature Language="VB.NET" Value="msoPatternDarkHorizontal" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternDarkHorizontal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>中的前景色的粗水平线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternDarkUpwardDiagonal">
+      <MemberSignature Language="C#" Value="msoPatternDarkUpwardDiagonal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternDarkUpwardDiagonal = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternDarkUpwardDiagonal" />
+      <MemberSignature Language="VB.NET" Value="msoPatternDarkUpwardDiagonal" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternDarkUpwardDiagonal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>在从上运行于形状的左侧的前景色的粗线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternDarkVertical">
+      <MemberSignature Language="C#" Value="msoPatternDarkVertical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternDarkVertical = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternDarkVertical" />
+      <MemberSignature Language="VB.NET" Value="msoPatternDarkVertical" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternDarkVertical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>中的前景色的粗垂直线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternDashedDownwardDiagonal">
+      <MemberSignature Language="C#" Value="msoPatternDashedDownwardDiagonal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternDashedDownwardDiagonal = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternDashedDownwardDiagonal" />
+      <MemberSignature Language="VB.NET" Value="msoPatternDashedDownwardDiagonal" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternDashedDownwardDiagonal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary>虚线行中运行从顶部到该形状的右侧的前景色。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternDashedHorizontal">
+      <MemberSignature Language="C#" Value="msoPatternDashedHorizontal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternDashedHorizontal = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternDashedHorizontal" />
+      <MemberSignature Language="VB.NET" Value="msoPatternDashedHorizontal" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternDashedHorizontal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>中的前景色的虚线的水平线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternDashedUpwardDiagonal">
+      <MemberSignature Language="C#" Value="msoPatternDashedUpwardDiagonal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternDashedUpwardDiagonal = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternDashedUpwardDiagonal" />
+      <MemberSignature Language="VB.NET" Value="msoPatternDashedUpwardDiagonal" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternDashedUpwardDiagonal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary>虚线行中运行从顶部到该形状的左边的前景色。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternDashedVertical">
+      <MemberSignature Language="C#" Value="msoPatternDashedVertical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternDashedVertical = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternDashedVertical" />
+      <MemberSignature Language="VB.NET" Value="msoPatternDashedVertical" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternDashedVertical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary>中的前景色的虚线的垂直线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternDiagonalBrick">
+      <MemberSignature Language="C#" Value="msoPatternDiagonalBrick" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternDiagonalBrick = int32(40)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternDiagonalBrick" />
+      <MemberSignature Language="VB.NET" Value="msoPatternDiagonalBrick" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternDiagonalBrick" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>40</MemberValue>
+      <Docs>
+        <summary>沿对角线运行经过图形的矩形砖形图案。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternDiagonalCross">
+      <MemberSignature Language="C#" Value="msoPatternDiagonalCross" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternDiagonalCross = int32(54)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternDiagonalCross" />
+      <MemberSignature Language="VB.NET" Value="msoPatternDiagonalCross" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternDiagonalCross" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>54</MemberValue>
+      <Docs>
+        <summary>对角十字线</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternDivot">
+      <MemberSignature Language="C#" Value="msoPatternDivot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternDivot = int32(46)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternDivot" />
+      <MemberSignature Language="VB.NET" Value="msoPatternDivot" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternDivot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>46</MemberValue>
+      <Docs>
+        <summary>小倾斜的形状交替行中运行的前景色中向下形状。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternDottedDiamond">
+      <MemberSignature Language="C#" Value="msoPatternDottedDiamond" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternDottedDiamond = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternDottedDiamond" />
+      <MemberSignature Language="VB.NET" Value="msoPatternDottedDiamond" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternDottedDiamond" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>在运行沿对角线向窗体菱形经过图形的前景色的虚线的垂直线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternDottedGrid">
+      <MemberSignature Language="C#" Value="msoPatternDottedGrid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternDottedGrid = int32(45)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternDottedGrid" />
+      <MemberSignature Language="VB.NET" Value="msoPatternDottedGrid" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternDottedGrid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>45</MemberValue>
+      <Docs>
+        <summary>虚线的垂直线中的前景色运行水平和垂直方向与形状之间的窗体网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternDownwardDiagonal">
+      <MemberSignature Language="C#" Value="msoPatternDownwardDiagonal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternDownwardDiagonal = int32(52)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternDownwardDiagonal" />
+      <MemberSignature Language="VB.NET" Value="msoPatternDownwardDiagonal" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternDownwardDiagonal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>52</MemberValue>
+      <Docs>
+        <summary>下对角线</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternHorizontal">
+      <MemberSignature Language="C#" Value="msoPatternHorizontal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternHorizontal = int32(49)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternHorizontal" />
+      <MemberSignature Language="VB.NET" Value="msoPatternHorizontal" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternHorizontal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>49</MemberValue>
+      <Docs>
+        <summary>水平</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternHorizontalBrick">
+      <MemberSignature Language="C#" Value="msoPatternHorizontalBrick" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternHorizontalBrick = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternHorizontalBrick" />
+      <MemberSignature Language="VB.NET" Value="msoPatternHorizontalBrick" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternHorizontalBrick" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary>运行水平经过图形的矩形砖形图案。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternLargeCheckerBoard">
+      <MemberSignature Language="C#" Value="msoPatternLargeCheckerBoard" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternLargeCheckerBoard = int32(36)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternLargeCheckerBoard" />
+      <MemberSignature Language="VB.NET" Value="msoPatternLargeCheckerBoard" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternLargeCheckerBoard" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>36</MemberValue>
+      <Docs>
+        <summary>在交替前景/背景色的平方。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternLargeConfetti">
+      <MemberSignature Language="C#" Value="msoPatternLargeConfetti" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternLargeConfetti = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternLargeConfetti" />
+      <MemberSignature Language="VB.NET" Value="msoPatternLargeConfetti" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternLargeConfetti" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary>中的前景色的大型点分散在形状。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternLargeGrid">
+      <MemberSignature Language="C#" Value="msoPatternLargeGrid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternLargeGrid = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternLargeGrid" />
+      <MemberSignature Language="VB.NET" Value="msoPatternLargeGrid" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternLargeGrid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary>实线，广泛分布垂直线中的前景色运行水平和垂直方向到窗体网格线在形状。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternLightDownwardDiagonal">
+      <MemberSignature Language="C#" Value="msoPatternLightDownwardDiagonal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternLightDownwardDiagonal = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternLightDownwardDiagonal" />
+      <MemberSignature Language="VB.NET" Value="msoPatternLightDownwardDiagonal" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternLightDownwardDiagonal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>在从上运行于形状的右侧的前景色的细线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternLightHorizontal">
+      <MemberSignature Language="C#" Value="msoPatternLightHorizontal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternLightHorizontal = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternLightHorizontal" />
+      <MemberSignature Language="VB.NET" Value="msoPatternLightHorizontal" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternLightHorizontal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>中的前景色的细水平线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternLightUpwardDiagonal">
+      <MemberSignature Language="C#" Value="msoPatternLightUpwardDiagonal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternLightUpwardDiagonal = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternLightUpwardDiagonal" />
+      <MemberSignature Language="VB.NET" Value="msoPatternLightUpwardDiagonal" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternLightUpwardDiagonal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>在从上运行于形状的左侧的前景色的细线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternLightVertical">
+      <MemberSignature Language="C#" Value="msoPatternLightVertical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternLightVertical = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternLightVertical" />
+      <MemberSignature Language="VB.NET" Value="msoPatternLightVertical" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternLightVertical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>中的前景色的垂直细线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternMixed">
+      <MemberSignature Language="C#" Value="msoPatternMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternMixed" />
+      <MemberSignature Language="VB.NET" Value="msoPatternMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>不支持。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternNarrowHorizontal">
+      <MemberSignature Language="C#" Value="msoPatternNarrowHorizontal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternNarrowHorizontal = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternNarrowHorizontal" />
+      <MemberSignature Language="VB.NET" Value="msoPatternNarrowHorizontal" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternNarrowHorizontal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary>窄一致水平行中的前景色。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternNarrowVertical">
+      <MemberSignature Language="C#" Value="msoPatternNarrowVertical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternNarrowVertical = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternNarrowVertical" />
+      <MemberSignature Language="VB.NET" Value="msoPatternNarrowVertical" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternNarrowVertical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary>窄一致中的前景色的垂直线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternOutlinedDiamond">
+      <MemberSignature Language="C#" Value="msoPatternOutlinedDiamond" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternOutlinedDiamond = int32(41)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternOutlinedDiamond" />
+      <MemberSignature Language="VB.NET" Value="msoPatternOutlinedDiamond" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternOutlinedDiamond" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>41</MemberValue>
+      <Docs>
+        <summary>在运行沿对角线向窗体菱形经过图形的前景色的实心垂直线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternPlaid">
+      <MemberSignature Language="C#" Value="msoPatternPlaid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternPlaid = int32(42)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternPlaid" />
+      <MemberSignature Language="VB.NET" Value="msoPatternPlaid" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternPlaid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>42</MemberValue>
+      <Docs>
+        <summary>在运行垂直耦合非常粗线与水平运行前景色的 40%的前景色的非常条粗实线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternShingle">
+      <MemberSignature Language="C#" Value="msoPatternShingle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternShingle = int32(47)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternShingle" />
+      <MemberSignature Language="VB.NET" Value="msoPatternShingle" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternShingle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>47</MemberValue>
+      <Docs>
+        <summary>重叠的曲线的矩形形状之间沿对角线运行。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternSmallCheckerBoard">
+      <MemberSignature Language="C#" Value="msoPatternSmallCheckerBoard" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternSmallCheckerBoard = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternSmallCheckerBoard" />
+      <MemberSignature Language="VB.NET" Value="msoPatternSmallCheckerBoard" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternSmallCheckerBoard" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>在交替前景/背景色的小平方。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternSmallConfetti">
+      <MemberSignature Language="C#" Value="msoPatternSmallConfetti" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternSmallConfetti = int32(37)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternSmallConfetti" />
+      <MemberSignature Language="VB.NET" Value="msoPatternSmallConfetti" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternSmallConfetti" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>37</MemberValue>
+      <Docs>
+        <summary>中的前景色的小点分散在形状。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternSmallGrid">
+      <MemberSignature Language="C#" Value="msoPatternSmallGrid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternSmallGrid = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternSmallGrid" />
+      <MemberSignature Language="VB.NET" Value="msoPatternSmallGrid" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternSmallGrid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>实线，最分布垂直线中的前景色运行水平和垂直方向到窗体网格线在形状。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternSolidDiamond">
+      <MemberSignature Language="C#" Value="msoPatternSolidDiamond" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternSolidDiamond = int32(39)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternSolidDiamond" />
+      <MemberSignature Language="VB.NET" Value="msoPatternSolidDiamond" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternSolidDiamond" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>39</MemberValue>
+      <Docs>
+        <summary>菱形形状交替前景/背景颜色。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternSphere">
+      <MemberSignature Language="C#" Value="msoPatternSphere" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternSphere = int32(43)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternSphere" />
+      <MemberSignature Language="VB.NET" Value="msoPatternSphere" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternSphere" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>43</MemberValue>
+      <Docs>
+        <summary>经过图形面向行中的前景色和背景色用于使其显示三维效果的圆。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternTrellis">
+      <MemberSignature Language="C#" Value="msoPatternTrellis" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternTrellis = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternTrellis" />
+      <MemberSignature Language="VB.NET" Value="msoPatternTrellis" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternTrellis" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>斜网格中的前景色的模式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternUpwardDiagonal">
+      <MemberSignature Language="C#" Value="msoPatternUpwardDiagonal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternUpwardDiagonal = int32(53)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternUpwardDiagonal" />
+      <MemberSignature Language="VB.NET" Value="msoPatternUpwardDiagonal" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternUpwardDiagonal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>53</MemberValue>
+      <Docs>
+        <summary>上对角线</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternVertical">
+      <MemberSignature Language="C#" Value="msoPatternVertical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternVertical = int32(50)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternVertical" />
+      <MemberSignature Language="VB.NET" Value="msoPatternVertical" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternVertical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>50</MemberValue>
+      <Docs>
+        <summary>垂直</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternWave">
+      <MemberSignature Language="C#" Value="msoPatternWave" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternWave = int32(48)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternWave" />
+      <MemberSignature Language="VB.NET" Value="msoPatternWave" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternWave" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>48</MemberValue>
+      <Docs>
+        <summary>中的前景色的波浪线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternWeave">
+      <MemberSignature Language="C#" Value="msoPatternWeave" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternWeave = int32(44)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternWeave" />
+      <MemberSignature Language="VB.NET" Value="msoPatternWeave" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternWeave" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>44</MemberValue>
+      <Docs>
+        <summary>编织模式中运行沿对角线经过图形的前景色。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternWideDownwardDiagonal">
+      <MemberSignature Language="C#" Value="msoPatternWideDownwardDiagonal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternWideDownwardDiagonal = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternWideDownwardDiagonal" />
+      <MemberSignature Language="VB.NET" Value="msoPatternWideDownwardDiagonal" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternWideDownwardDiagonal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>在从上运行于形状的右侧的前景色的广泛空格分隔的线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternWideUpwardDiagonal">
+      <MemberSignature Language="C#" Value="msoPatternWideUpwardDiagonal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternWideUpwardDiagonal = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternWideUpwardDiagonal" />
+      <MemberSignature Language="VB.NET" Value="msoPatternWideUpwardDiagonal" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternWideUpwardDiagonal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>在从上运行于形状的左侧的前景色的广泛空格分隔的线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPatternZigZag">
+      <MemberSignature Language="C#" Value="msoPatternZigZag" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPatternType msoPatternZigZag = int32(38)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPatternType.msoPatternZigZag" />
+      <MemberSignature Language="VB.NET" Value="msoPatternZigZag" />
+      <MemberSignature Language="C++ CLI" Value="msoPatternZigZag" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <MemberValue>38</MemberValue>
+      <Docs>
+        <summary>之字形运行水平经过图形的行。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,126 @@
+<Type Name="MsoCalloutDropType" FullName="Microsoft.Office.Core.MsoCalloutDropType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6448af2d2cd6642e1967fff38285cb5115428e82" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658297" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoCalloutDropType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCalloutDropType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCalloutDropType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoCalloutDropType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoCalloutDropType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定标注线条相对于文本边界框的起始位置。</summary>
+    <remarks>
+      <para>与<b>CalloutFormat</b>对象的<b>PresetDrop</b>方法一起使用。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoCalloutDropBottom">
+      <MemberSignature Language="C#" Value="msoCalloutDropBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCalloutDropType msoCalloutDropBottom = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCalloutDropType.msoCalloutDropBottom" />
+      <MemberSignature Language="VB.NET" Value="msoCalloutDropBottom" />
+      <MemberSignature Language="C++ CLI" Value="msoCalloutDropBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCalloutDropType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>底端对齐。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCalloutDropCenter">
+      <MemberSignature Language="C#" Value="msoCalloutDropCenter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCalloutDropType msoCalloutDropCenter = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCalloutDropType.msoCalloutDropCenter" />
+      <MemberSignature Language="VB.NET" Value="msoCalloutDropCenter" />
+      <MemberSignature Language="C++ CLI" Value="msoCalloutDropCenter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCalloutDropType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>居中。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCalloutDropCustom">
+      <MemberSignature Language="C#" Value="msoCalloutDropCustom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCalloutDropType msoCalloutDropCustom = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCalloutDropType.msoCalloutDropCustom" />
+      <MemberSignature Language="VB.NET" Value="msoCalloutDropCustom" />
+      <MemberSignature Language="C++ CLI" Value="msoCalloutDropCustom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCalloutDropType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>自定义。如果该值用作 <b>PresetDrop</b> 属性的值，则 <b>CalloutFormat</b> 对象的 <b>Drop</b> 和 <b>AutoAttach</b> 属性用于确定标注线连接到文本框的位置。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCalloutDropMixed">
+      <MemberSignature Language="C#" Value="msoCalloutDropMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCalloutDropType msoCalloutDropMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCalloutDropType.msoCalloutDropMixed" />
+      <MemberSignature Language="VB.NET" Value="msoCalloutDropMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoCalloutDropMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCalloutDropType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>只返回值，表示其他状态的组合。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCalloutDropTop">
+      <MemberSignature Language="C#" Value="msoCalloutDropTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCalloutDropType msoCalloutDropTop = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCalloutDropType.msoCalloutDropTop" />
+      <MemberSignature Language="VB.NET" Value="msoCalloutDropTop" />
+      <MemberSignature Language="C++ CLI" Value="msoCalloutDropTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCalloutDropType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>向上。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,123 @@
+<Type Name="MsoClipboardFormat" FullName="Microsoft.Office.Core.MsoClipboardFormat">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a24c42e2e3087a464fbd8cf11a22d6fbe66999aa" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658014" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoClipboardFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoClipboardFormat extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoClipboardFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoClipboardFormat" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoClipboardFormat" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoClipboardFormatHTML">
+      <MemberSignature Language="C#" Value="msoClipboardFormatHTML" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoClipboardFormat msoClipboardFormatHTML = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoClipboardFormat.msoClipboardFormatHTML" />
+      <MemberSignature Language="VB.NET" Value="msoClipboardFormatHTML" />
+      <MemberSignature Language="C++ CLI" Value="msoClipboardFormatHTML" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoClipboardFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoClipboardFormatMixed">
+      <MemberSignature Language="C#" Value="msoClipboardFormatMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoClipboardFormat msoClipboardFormatMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoClipboardFormat.msoClipboardFormatMixed" />
+      <MemberSignature Language="VB.NET" Value="msoClipboardFormatMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoClipboardFormatMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoClipboardFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoClipboardFormatNative">
+      <MemberSignature Language="C#" Value="msoClipboardFormatNative" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoClipboardFormat msoClipboardFormatNative = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoClipboardFormat.msoClipboardFormatNative" />
+      <MemberSignature Language="VB.NET" Value="msoClipboardFormatNative" />
+      <MemberSignature Language="C++ CLI" Value="msoClipboardFormatNative" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoClipboardFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoClipboardFormatPlainText">
+      <MemberSignature Language="C#" Value="msoClipboardFormatPlainText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoClipboardFormat msoClipboardFormatPlainText = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoClipboardFormat.msoClipboardFormatPlainText" />
+      <MemberSignature Language="VB.NET" Value="msoClipboardFormatPlainText" />
+      <MemberSignature Language="C++ CLI" Value="msoClipboardFormatPlainText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoClipboardFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoClipboardFormatRTF">
+      <MemberSignature Language="C#" Value="msoClipboardFormatRTF" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoClipboardFormat msoClipboardFormatRTF = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoClipboardFormat.msoClipboardFormatRTF" />
+      <MemberSignature Language="VB.NET" Value="msoClipboardFormatRTF" />
+      <MemberSignature Language="C++ CLI" Value="msoClipboardFormatRTF" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoClipboardFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,71 @@
+<Type Name="MsoFileFindListBy" FullName="Microsoft.Office.Core.MsoFileFindListBy">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a317378c427aeb91316f831738cb4cd785518db6" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658038" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoFileFindListBy" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFileFindListBy extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFileFindListBy" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoFileFindListBy" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoFileFindListBy" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>此枚举适用于仅限 Macintosh，不应使用。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoListbyName">
+      <MemberSignature Language="C#" Value="msoListbyName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileFindListBy msoListbyName = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileFindListBy.msoListbyName" />
+      <MemberSignature Language="VB.NET" Value="msoListbyName" />
+      <MemberSignature Language="C++ CLI" Value="msoListbyName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileFindListBy</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>此成员仅适用于 Macintosh 并且不应使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoListbyTitle">
+      <MemberSignature Language="C#" Value="msoListbyTitle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileFindListBy msoListbyTitle = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileFindListBy.msoListbyTitle" />
+      <MemberSignature Language="VB.NET" Value="msoListbyTitle" />
+      <MemberSignature Language="C++ CLI" Value="msoListbyTitle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileFindListBy</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>此成员仅适用于 Macintosh 并且不应使用。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

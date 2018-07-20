@@ -1,0 +1,59 @@
+<Type Name="ICommandBarsEvents" FullName="Microsoft.Office.Core.ICommandBarsEvents">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e43f1fee430be2ca5ae949b876523e9f4cd914b6" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657367" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ICommandBarsEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICommandBarsEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ICommandBarsEvents" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICommandBarsEvents" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ICommandBarsEvents" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("55F88892-7708-11D1-ACEB-006008961DA5")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>仅供内部使用。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OnUpdate">
+      <MemberSignature Language="C#" Value="public void OnUpdate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnUpdate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ICommandBarsEvents.OnUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnUpdate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnUpdate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

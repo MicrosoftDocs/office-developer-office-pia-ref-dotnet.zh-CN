@@ -1,0 +1,317 @@
+<Type Name="Scripts" FullName="Microsoft.Office.Core.Scripts">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3d47d002587c045d30ad740a840c614a1267790d" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657449" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Scripts : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Scripts implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Scripts" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Scripts&#xA;Implements _IMsoDispObj, IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Scripts : Microsoft::Office::Core::_IMsoDispObj, System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0340-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>一<see cref="T:Microsoft.Office.Core.Script" />代表指定文档中的 HTML 脚本的集合的对象。</summary>
+    <remarks>
+      <para>
+        <b>Scripts</b>集合包含的所有<b>脚本</b>对象在给定文档中，按源顺序 （对象添加到源文件的<b>脚本</b>中的顺序）。源顺序不受文档中的脚本的位置 （标题或正文文本）。可以使用适当的对象 （例如，Microsoft Word 中的<b>Document</b>对象） 的<b>脚本</b>属性访问<b>脚本</b>集合。</para>
+      <para>访问脚本或将脚本添加到 Microsoft Word 文档、 Microsoft Excel 工作表或 Microsoft PowerPoint 幻灯片，您可以使用<b>脚本</b>对象。您还可以使用<b>Scripts</b>集合访问任何 HTML 页或脚本中的 Microsoft Office 应用程序中打开的。</para>
+      <para>注意 Microsoft Access 不使用此共享的 Office 组件。</para>
+      <para>
+        <b>Script</b>对象添加到<b>脚本</b>集合中，键入<b>msoScriptAnchor</b>的<b>Shape</b>对象时自动添加到文档。在 Excel 工作表或 PowerPoint 幻灯片，该形状添加到<b>Shapes</b>集合;在 Word 文档中，该形状添加到<b>InlineShapes</b>集合。使用的<b>脚本</b>添加到文档<see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" />方法。</para>
+      <para>访问<b>Scripts</b>集合中的某特定项，请使用<see cref="M:Microsoft.Office.Core.Scripts.Item(System.Object)" />方法提供的 ID 属性和&lt;脚本&gt;标记或索引号，该值指示脚本的集合中的位置。ID 必须是唯一的文档中。对于重复的 ID 属性的第一个脚本找到具有返回的 ID。</para>
+      <para>使用<see cref="P:Microsoft.Office.Core.Scripts.Count" />属性来确定指定文档中的<b>脚本</b>对象的数目。</para>
+      <para>使用<see cref="M:Microsoft.Office.Core.Scripts.Delete" />方法，以从<b>脚本</b>集合中删除脚本。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Script Add (object Anchor, Microsoft.Office.Core.MsoScriptLocation Location = Microsoft.Office.Core.MsoScriptLocation.msoScriptLocationInBody, Microsoft.Office.Core.MsoScriptLanguage Language = Microsoft.Office.Core.MsoScriptLanguage.msoScriptLanguageVisualBasic, string Id = &quot;&quot;, string Extended = &quot;&quot;, string ScriptText = &quot;&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Script Add([in]object Anchor, [in]valuetype Microsoft.Office.Core.MsoScriptLocation Location, [in]valuetype Microsoft.Office.Core.MsoScriptLanguage Language, [in]string Id, [in]string Extended, [in]string ScriptText) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Optional Anchor As Object, Optional Location As MsoScriptLocation = Microsoft.Office.Core.MsoScriptLocation.msoScriptLocationInBody, Optional Language As MsoScriptLanguage = Microsoft.Office.Core.MsoScriptLanguage.msoScriptLanguageVisualBasic, Optional Id As String = &quot;&quot;, Optional Extended As String = &quot;&quot;, Optional ScriptText As String = &quot;&quot;) As Script" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.Script</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Anchor" Type="System.Object">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.Runtime.CompilerServices.IDispatchConstant</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="Location" Type="Microsoft.Office.Core.MsoScriptLocation" />
+        <Parameter Name="Language" Type="Microsoft.Office.Core.MsoScriptLanguage" />
+        <Parameter Name="Id" Type="System.String" />
+        <Parameter Name="Extended" Type="System.String" />
+        <Parameter Name="ScriptText" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Anchor">可选<b>对象</b>(仅在 Microsoft Excel 中)。 <paramref name="Anchor" />参数接受 Excel<b>区域</b>对象，它指定 Excel<b>工作表</b>上的脚本定位标记的位置。 您无法向 Excel 图表插入脚本定位标记。</param>
+        <param name="Location">可选<see cref="T:Microsoft.Office.Core.MsoScriptLocation" />。 指定文档中的脚本定位标记的位置。 如果已指定<paramref name="Anchor" />参数<paramref name="Location" />不使用参数;位置<paramref name="Anchor" />参数确定脚本定位标记的位置。</param>
+        <param name="Language">可选<see cref="T:Microsoft.Office.Core.MsoScriptLanguage" />。 指定的脚本语言。</param>
+        <param name="Id">可选的<b>字符串</b>。 ID&lt;脚本&gt;中 HTML 标记。 <paramref name="Id" />参数指定用于命名元素 SGML 标识符。 有效的标识符包括的以字母开头，且由字母数字字符; 任何字符串字符串还可以包括下划线字符 (_)。 ID 必须是唯一的 HTML 文档。 此参数将导出的 ID 属性为&lt;脚本&gt;标记。</param>
+        <param name="Extended">可选的<b>字符串</b>。 指定要添加到属性&lt;脚本&gt;标记 (语言和 ID 属性导出至<paramref name="Language" />和<paramref name="Id" />参数和不应通过导出<paramref name="Extended" />参数)。 默认值为空字符串。 使用 HTML 相同的空格分隔属性。 Microsoft Office 主机应用程序不提供任何种检查传递属性的语法。</param>
+        <param name="ScriptText">可选的<b>字符串</b>。 指定的脚本块中包含的文本。 默认值为空字符串。 Microsoft Office 主机应用程序不检查脚本的语法。</param>
+        <summary>添加<see cref="T:Microsoft.Office.Core.Script" />对象传递给<see cref="T:Microsoft.Office.Core.Scripts" />之一的下列对象的集合： Microsoft Word; 中的<b>文档</b>或<b>范围</b>对象Microsoft Excel; 中的<b>工作表</b>或<b>图表</b>对象或<b>幻灯片</b>、 <b>SlideRange</b>，幻灯片<b>母版</b>，或 title Microsoft PowerPoint 中的<b>Master</b>对象。</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>与脚本块关联的形状不导出或显示为 HTML 格式的形状; 仅的脚本块返回导出。</para>
+          <para>您不能使用<b>Add</b>方法将脚本定位标记添加到 PowerPoint 幻灯片范围包含多个幻灯片。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Scripts.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>Application</b>对象，代表容器应用程序的对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Scripts.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个指示指定集合中的项目数的<b>整数</b>。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>某些本主题中的内容不可能适用于某些语言版本。</para>
+          <para>返回计数是指定文档中的脚本块的数目。在 Microsoft Word 中，Scripts.Count 返回总数内嵌和组合的浮动脚本定位标记。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Scripts.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>如果指定的对象在 Microsoft Word 中创建的此属性返回 1297307460，它表示字符串 MSWD;如果在 Microsoft Excel 中创建，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.Scripts.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Scripts.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809349)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>从集合中删除指定的对象。</summary>
+        <remarks>
+          <para>为<see cref="T:Microsoft.Office.Core.Scripts" />集合，并使用<b>Delete</b>方法从指定的 Microsoft Word 文档、 Microsoft Excel 工作表或 Microsoft PowerPoint 幻灯片中删除所有脚本。脚本定位标记表示主机应用程序中的形状。因此，从 Excel 和 PowerPoint 中的<b>Shapes</b>集合和<b>InlineShapes</b>和 Word 中的<b>形状</b>集合中删除与每个脚本定位标记的类型<b>msoScriptAnchor</b>关联的<b>Shape</b>对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Scripts.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Script Item (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.Script Item([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Scripts.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Item (Index As Object) As Script" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::Script ^ Item(System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.Script</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">所需的<b>对象</b>。 要返回的 ID 或索引号的脚本。</param>
+        <summary>返回的成员<see cref="T:Microsoft.Office.Core.Scripts" />集合。</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>接受的索引号或想要返回的 Microsoft Office 应用程序的脚本 ID。<b>Item</b>方法接受一个<b>Object</b>值，可以接受是序号 （索引值），它返回脚本存储<b>Scripts</b>集合中该位置或一个代表的名称或 ID 的<b>字符串</b>值脚本。</para>
+          <para>
+            <b>脚本</b>集合包含所有源顺序中的给定文档中的脚本 (顺序<see cref="T:Microsoft.Office.Core.Script" />对象出现在源文件)。在源而无论其身在文档中的顺序中维护脚本 — 即，无论它们是标题或正文文本中。</para>您可以使用<b>Item</b>方法使用的 ID 访问<b>Scripts</b>集合中的脚本的
+          <para>&lt;脚本&gt;标记。ID 属性的&lt;脚本&gt;标记等同于<see cref="P:Microsoft.Office.Core.Script.Id" /><b>脚本</b>对象的属性。如果有重复或多个 Id 在文档和您使用一个<b>Script</b>对象对象的<b>Id</b>属性使用<b>Item</b>方法访问脚本，Office 将返回与的 ID; 匹配的第一个脚本具有相同的 ID 的其他脚本将被忽略。</para><para>新脚本定位标记添加到集合追加到末尾的<b>Scripts</b>集合添加到文档中的顺序。保存为 html 格式，关闭，并且再在宿主应用程序中打开文档之前，按此顺序保持脚本定位标记。以下步骤导致<b>Scripts</b>集合编制脚本定位标记可能不同于顺序添加到该文档中显示的顺序。因此，建议使用该<b>脚本</b>对象，而不是脚本的位置，集合中的<b>Id</b>属性以确保正标识该脚本。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Scripts.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回指定对象的<b>父</b>对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

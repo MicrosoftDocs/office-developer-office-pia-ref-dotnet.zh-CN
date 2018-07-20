@@ -1,0 +1,180 @@
+<Type Name="MsoButtonStyle" FullName="Microsoft.Office.Core.MsoButtonStyle">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="565094836a6e2a1983d41157f41d5e9e65f37199" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658262" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoButtonStyle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoButtonStyle extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoButtonStyle" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoButtonStyle" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoButtonStyle" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定命令栏按钮的样式。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoButtonAutomatic">
+      <MemberSignature Language="C#" Value="msoButtonAutomatic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonStyle msoButtonAutomatic = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonStyle.msoButtonAutomatic" />
+      <MemberSignature Language="VB.NET" Value="msoButtonAutomatic" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonAutomatic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>默认行为。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonCaption">
+      <MemberSignature Language="C#" Value="msoButtonCaption" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonStyle msoButtonCaption = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonStyle.msoButtonCaption" />
+      <MemberSignature Language="VB.NET" Value="msoButtonCaption" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonCaption" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>仅文本。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonIcon">
+      <MemberSignature Language="C#" Value="msoButtonIcon" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonStyle msoButtonIcon = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonStyle.msoButtonIcon" />
+      <MemberSignature Language="VB.NET" Value="msoButtonIcon" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonIcon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>仅图像。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonIconAndCaption">
+      <MemberSignature Language="C#" Value="msoButtonIconAndCaption" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonStyle msoButtonIconAndCaption = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonStyle.msoButtonIconAndCaption" />
+      <MemberSignature Language="VB.NET" Value="msoButtonIconAndCaption" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonIconAndCaption" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>图像和文本，且文本位于图像的右侧。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonIconAndCaptionBelow">
+      <MemberSignature Language="C#" Value="msoButtonIconAndCaptionBelow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonStyle msoButtonIconAndCaptionBelow = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonStyle.msoButtonIconAndCaptionBelow" />
+      <MemberSignature Language="VB.NET" Value="msoButtonIconAndCaptionBelow" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonIconAndCaptionBelow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>下方带文本的图像。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonIconAndWrapCaption">
+      <MemberSignature Language="C#" Value="msoButtonIconAndWrapCaption" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonStyle msoButtonIconAndWrapCaption = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonStyle.msoButtonIconAndWrapCaption" />
+      <MemberSignature Language="VB.NET" Value="msoButtonIconAndWrapCaption" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonIconAndWrapCaption" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>右侧带自动换行文本的图像。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonIconAndWrapCaptionBelow">
+      <MemberSignature Language="C#" Value="msoButtonIconAndWrapCaptionBelow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonStyle msoButtonIconAndWrapCaptionBelow = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonStyle.msoButtonIconAndWrapCaptionBelow" />
+      <MemberSignature Language="VB.NET" Value="msoButtonIconAndWrapCaptionBelow" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonIconAndWrapCaptionBelow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>下方带自动换行文本的图像。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonWrapCaption">
+      <MemberSignature Language="C#" Value="msoButtonWrapCaption" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonStyle msoButtonWrapCaption = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonStyle.msoButtonWrapCaption" />
+      <MemberSignature Language="VB.NET" Value="msoButtonWrapCaption" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonWrapCaption" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>仅文本，且文本居中并自动换行。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

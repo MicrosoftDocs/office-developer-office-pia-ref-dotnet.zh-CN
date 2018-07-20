@@ -1,0 +1,349 @@
+<Type Name="IBlogExtensibility" FullName="Microsoft.Office.Core.IBlogExtensibility">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fb00ae654ec9e5663ff48fe1466a8e8b00117ebc" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658226" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IBlogExtensibility" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBlogExtensibility" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IBlogExtensibility" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IBlogExtensibility" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IBlogExtensibility" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03C4-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>一个提供日志处理功能的对象。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BlogProviderProperties">
+      <MemberSignature Language="C#" Value="public void BlogProviderProperties (out string BlogProvider, out string FriendlyName, out Microsoft.Office.Core.MsoBlogCategorySupport CategorySupport, out bool Padding);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BlogProviderProperties([out] string&amp; BlogProvider, [out] string&amp; FriendlyName, [out] valuetype Microsoft.Office.Core.MsoBlogCategorySupport&amp; CategorySupport, [out] bool&amp; Padding) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.BlogProviderProperties(System.String@,System.String@,Microsoft.Office.Core.MsoBlogCategorySupport@,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BlogProviderProperties (ByRef BlogProvider As String, ByRef FriendlyName As String, ByRef CategorySupport As MsoBlogCategorySupport, ByRef Padding As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BlogProviderProperties([Runtime::InteropServices::Out] System::String ^ % BlogProvider, [Runtime::InteropServices::Out] System::String ^ % FriendlyName, [Runtime::InteropServices::Out] Microsoft::Office::Core::MsoBlogCategorySupport % CategorySupport, [Runtime::InteropServices::Out] bool % Padding);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="BlogProvider" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="FriendlyName" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="CategorySupport" Type="Microsoft.Office.Core.MsoBlogCategorySupport&amp;" RefType="out" />
+        <Parameter Name="Padding" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="BlogProvider">博客提供商的名称。</param>
+        <param name="FriendlyName">代表用户界面上显示的名称。</param>
+        <param name="CategorySupport">代表提供商支持的类别数目。</param>
+        <param name="Padding">指定是否识别表格边距。</param>
+        <summary>包含有关提供商的信息。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCategories">
+      <MemberSignature Language="C#" Value="public void GetCategories (string Account, int ParentWindow, object Document, out Array Categories);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetCategories([in]string Account, [in]int32 ParentWindow, [in]object Document, [out] class System.Array&amp; Categories) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.GetCategories(System.String,System.Int32,System.Object,System.Array@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetCategories (Account As String, ParentWindow As Integer, Document As Object, ByRef Categories As Array)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetCategories(System::String ^ Account, int ParentWindow, System::Object ^ Document, [Runtime::InteropServices::Out] Array ^ % Categories);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Account" Type="System.String" />
+        <Parameter Name="ParentWindow" Type="System.Int32" />
+        <Parameter Name="Document" Type="System.Object" />
+        <Parameter Name="Categories" Type="System.Array&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Account">代表帐户注册表项的 GUID。</param>
+        <param name="ParentWindow">代表宿主窗口的 HWND。</param>
+        <param name="Document">当前文档。</param>
+        <param name="Categories">提供商支持的类别列表。</param>
+        <summary>此方法返回帐户的博客类别列表中，因此 Microsoft Office Word 便可填充类别下拉列表。</summary>
+        <remarks>
+          <para>博客帐户设置存储在注册表中，在\\HKCU\Software\Microsoft\Office\Common\Blog\Account。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRecentPosts">
+      <MemberSignature Language="C#" Value="public void GetRecentPosts (string Account, int ParentWindow, object Document, out Array PostTitles, out Array PostDates, out Array PostIDs);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetRecentPosts([in]string Account, [in]int32 ParentWindow, [in]object Document, [out] class System.Array&amp; PostTitles, [out] class System.Array&amp; PostDates, [out] class System.Array&amp; PostIDs) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.GetRecentPosts(System.String,System.Int32,System.Object,System.Array@,System.Array@,System.Array@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetRecentPosts (Account As String, ParentWindow As Integer, Document As Object, ByRef PostTitles As Array, ByRef PostDates As Array, ByRef PostIDs As Array)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetRecentPosts(System::String ^ Account, int ParentWindow, System::Object ^ Document, [Runtime::InteropServices::Out] Array ^ % PostTitles, [Runtime::InteropServices::Out] Array ^ % PostDates, [Runtime::InteropServices::Out] Array ^ % PostIDs);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Account" Type="System.String" />
+        <Parameter Name="ParentWindow" Type="System.Int32" />
+        <Parameter Name="Document" Type="System.Object" />
+        <Parameter Name="PostTitles" Type="System.Array&amp;" RefType="out" />
+        <Parameter Name="PostDates" Type="System.Array&amp;" RefType="out" />
+        <Parameter Name="PostIDs" Type="System.Array&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Account">代表帐户注册表项的 GUID。 博客帐户设置存储在注册表中，在\\HKCU\Software\Microsoft\Office\Common\Blog\Account。</param>
+        <param name="ParentWindow">包含 Office Word 从其中调用的窗口的 HWND。</param>
+        <param name="Document">当前文档。</param>
+        <param name="PostTitles">包含最近十五篇张贴内容的标题。</param>
+        <param name="PostDates">包含最近十五篇张贴内容的日期。</param>
+        <param name="PostIDs">包含最近十五篇张贴内容的 ID。</param>
+        <summary>返回列表中的用户最近十五博客文章的 Microsoft Office Word，然后显示打开现有张贴内容对话框中。 此方法不实际返回博客张贴的内容。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUserBlogs">
+      <MemberSignature Language="C#" Value="public void GetUserBlogs (string Account, int ParentWindow, object Document, out Array BlogNames, out Array BlogIDs, out Array BlogURLs);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetUserBlogs([in]string Account, [in]int32 ParentWindow, [in]object Document, [out] class System.Array&amp; BlogNames, [out] class System.Array&amp; BlogIDs, [out] class System.Array&amp; BlogURLs) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.GetUserBlogs(System.String,System.Int32,System.Object,System.Array@,System.Array@,System.Array@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetUserBlogs (Account As String, ParentWindow As Integer, Document As Object, ByRef BlogNames As Array, ByRef BlogIDs As Array, ByRef BlogURLs As Array)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetUserBlogs(System::String ^ Account, int ParentWindow, System::Object ^ Document, [Runtime::InteropServices::Out] Array ^ % BlogNames, [Runtime::InteropServices::Out] Array ^ % BlogIDs, [Runtime::InteropServices::Out] Array ^ % BlogURLs);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Account" Type="System.String" />
+        <Parameter Name="ParentWindow" Type="System.Int32" />
+        <Parameter Name="Document" Type="System.Object" />
+        <Parameter Name="BlogNames" Type="System.Array&amp;" RefType="out" />
+        <Parameter Name="BlogIDs" Type="System.Array&amp;" RefType="out" />
+        <Parameter Name="BlogURLs" Type="System.Array&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Account">代表帐户注册表项的 GUID。 博客帐户设置存储在注册表中，在\\HKCU\Software\Microsoft\Office\Common\Blog\Account。</param>
+        <param name="ParentWindow">包含 Microsoft Office Word 从其中调用的窗口的 HWND。</param>
+        <param name="Document">当前文档。</param>
+        <param name="BlogNames">包含当前帐户下的所有博客名称。</param>
+        <param name="BlogIDs">包含当前帐户下的所有博客 ID。</param>
+        <param name="BlogURLs">包含当前帐户下的所有博客 URL。</param>
+        <summary>返回与指定帐户相关的用户博客的列表和详细信息。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="public void Open (string Account, string PostID, int ParentWindow, out string xHTML, out string Title, out string DatePosted, out Array Categories);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Open([in]string Account, [in]string PostID, [in]int32 ParentWindow, [out] string&amp; xHTML, [out] string&amp; Title, [out] string&amp; DatePosted, [out] class System.Array&amp; Categories) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.Open(System.String,System.String,System.Int32,System.String@,System.String@,System.String@,System.Array@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Open (Account As String, PostID As String, ParentWindow As Integer, ByRef xHTML As String, ByRef Title As String, ByRef DatePosted As String, ByRef Categories As Array)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Open(System::String ^ Account, System::String ^ PostID, int ParentWindow, [Runtime::InteropServices::Out] System::String ^ % xHTML, [Runtime::InteropServices::Out] System::String ^ % Title, [Runtime::InteropServices::Out] System::String ^ % DatePosted, [Runtime::InteropServices::Out] Array ^ % Categories);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Account" Type="System.String" />
+        <Parameter Name="PostID" Type="System.String" />
+        <Parameter Name="ParentWindow" Type="System.Int32" />
+        <Parameter Name="xHTML" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="Title" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="DatePosted" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="Categories" Type="System.Array&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Account">代表帐户注册表项的 GUID。 博客帐户设置存储在注册表中，在\\HKCU\Software\Microsoft\Office\Common\Blog\Account。</param>
+        <param name="PostID">张贴内容的 ID。</param>
+        <param name="ParentWindow">包含 Microsoft Office Word 从其中调用的窗口的 HWND。</param>
+        <param name="xHTML">代表当前文档的 xHTML。</param>
+        <param name="Title">张贴内容的标题。</param>
+        <param name="DatePosted">条目发布的日期。</param>
+        <param name="Categories">提供商支持的类别列表。</param>
+        <summary>打开由博客 ID 指定的博客 （英文） 它是由基于用户选择的项目打开现有张贴内容对话框中进行调用。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublishPost">
+      <MemberSignature Language="C#" Value="public void PublishPost (string Account, int ParentWindow, object Document, string xHTML, string Title, string DateTime, Array Categories, bool Draft, out string PostID, out string PublishMessage);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PublishPost([in]string Account, [in]int32 ParentWindow, [in]object Document, [in]string xHTML, [in]string Title, [in]string DateTime, [in]class System.Array Categories, [in]bool Draft, [out] string&amp; PostID, [out] string&amp; PublishMessage) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.PublishPost(System.String,System.Int32,System.Object,System.String,System.String,System.String,System.Array,System.Boolean,System.String@,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PublishPost (Account As String, ParentWindow As Integer, Document As Object, xHTML As String, Title As String, DateTime As String, Categories As Array, Draft As Boolean, ByRef PostID As String, ByRef PublishMessage As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PublishPost(System::String ^ Account, int ParentWindow, System::Object ^ Document, System::String ^ xHTML, System::String ^ Title, System::String ^ DateTime, Array ^ Categories, bool Draft, [Runtime::InteropServices::Out] System::String ^ % PostID, [Runtime::InteropServices::Out] System::String ^ % PublishMessage);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Account" Type="System.String" />
+        <Parameter Name="ParentWindow" Type="System.Int32" />
+        <Parameter Name="Document" Type="System.Object" />
+        <Parameter Name="xHTML" Type="System.String" />
+        <Parameter Name="Title" Type="System.String" />
+        <Parameter Name="DateTime" Type="System.String" />
+        <Parameter Name="Categories" Type="System.Array" />
+        <Parameter Name="Draft" Type="System.Boolean" />
+        <Parameter Name="PostID" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="PublishMessage" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Account">代表帐户注册表项的 GUID。 博客帐户设置存储在注册表中，在\\HKCU\Software\Microsoft\Office\Common\Blog\Account。</param>
+        <param name="ParentWindow">包含 Microsoft Office Word 从其中调用的窗口的 HWND。</param>
+        <param name="Document">当前文档。</param>
+        <param name="xHTML">代表当前文档的 xHTML。</param>
+        <param name="Title">张贴内容的标题。</param>
+        <param name="DateTime">条目发布的日期。</param>
+        <param name="Categories">提供商支持的类别列表。</param>
+        <param name="Draft">指定是否为张贴内容的草稿版本。</param>
+        <param name="PostID">如果已重新发布此张贴内容，则为原始张贴内容的 ID。</param>
+        <param name="PublishMessage">指定发布栏中显示的内容。</param>
+        <summary>提交当前张贴内容以便由提供商将其发布。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RepublishPost">
+      <MemberSignature Language="C#" Value="public void RepublishPost (string Account, int ParentWindow, object Document, string PostID, string xHTML, string Title, string DateTime, Array Categories, bool Draft, out string PublishMessage);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RepublishPost([in]string Account, [in]int32 ParentWindow, [in]object Document, [in]string PostID, [in]string xHTML, [in]string Title, [in]string DateTime, [in]class System.Array Categories, [in]bool Draft, [out] string&amp; PublishMessage) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.RepublishPost(System.String,System.Int32,System.Object,System.String,System.String,System.String,System.String,System.Array,System.Boolean,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RepublishPost (Account As String, ParentWindow As Integer, Document As Object, PostID As String, xHTML As String, Title As String, DateTime As String, Categories As Array, Draft As Boolean, ByRef PublishMessage As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RepublishPost(System::String ^ Account, int ParentWindow, System::Object ^ Document, System::String ^ PostID, System::String ^ xHTML, System::String ^ Title, System::String ^ DateTime, Array ^ Categories, bool Draft, [Runtime::InteropServices::Out] System::String ^ % PublishMessage);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Account" Type="System.String" />
+        <Parameter Name="ParentWindow" Type="System.Int32" />
+        <Parameter Name="Document" Type="System.Object" />
+        <Parameter Name="PostID" Type="System.String" />
+        <Parameter Name="xHTML" Type="System.String" />
+        <Parameter Name="Title" Type="System.String" />
+        <Parameter Name="DateTime" Type="System.String" />
+        <Parameter Name="Categories" Type="System.Array" />
+        <Parameter Name="Draft" Type="System.Boolean" />
+        <Parameter Name="PublishMessage" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Account">代表帐户注册表项的 GUID。 博客帐户设置存储在注册表中，在\\HKCU\Software\Microsoft\Office\Common\Blog\Account。</param>
+        <param name="ParentWindow">包含 Microsoft Office Word 从其中调用的窗口的 HWND。</param>
+        <param name="Document">当前文档。</param>
+        <param name="PostID">张贴内容的 ID。</param>
+        <param name="xHTML">代表当前文档的 xHTML。</param>
+        <param name="Title">张贴内容的标题。</param>
+        <param name="DateTime">条目发布的日期。</param>
+        <param name="Categories">提供商支持的类别列表。</param>
+        <param name="Draft">指定是否为张贴内容的草稿版本。</param>
+        <param name="PublishMessage">指定发布栏中显示的内容。</param>
+        <summary>提交当前张贴内容以便可以重新发布服务提供商。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetupBlogAccount">
+      <MemberSignature Language="C#" Value="public void SetupBlogAccount (string Account, int ParentWindow, object Document, bool NewAccount, out bool ShowPictureUI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetupBlogAccount([in]string Account, [in]int32 ParentWindow, [in]object Document, [in]bool NewAccount, [out] bool&amp; ShowPictureUI) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IBlogExtensibility.SetupBlogAccount(System.String,System.Int32,System.Object,System.Boolean,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetupBlogAccount (Account As String, ParentWindow As Integer, Document As Object, NewAccount As Boolean, ByRef ShowPictureUI As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetupBlogAccount(System::String ^ Account, int ParentWindow, System::Object ^ Document, bool NewAccount, [Runtime::InteropServices::Out] bool % ShowPictureUI);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Account" Type="System.String" />
+        <Parameter Name="ParentWindow" Type="System.Int32" />
+        <Parameter Name="Document" Type="System.Object" />
+        <Parameter Name="NewAccount" Type="System.Boolean" />
+        <Parameter Name="ShowPictureUI" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Account">代表帐户注册表项的 GUID。 博客帐户设置存储在注册表中，在\\HKCU\Software\Microsoft\Office\Common\Blog\Account。</param>
+        <param name="ParentWindow">包含 Microsoft Word 从其中调用的窗口的 HWND。</param>
+        <param name="Document">当前文档。</param>
+        <param name="NewAccount">指示是否为新帐户。</param>
+        <param name="ShowPictureUI">指示是否需要显示 Microsoft Office Word 的图片用户界面。</param>
+        <summary>当从“博客宿主”下拉列表中选择提供商的名称时或当用户在“博客帐户”对话框中请求更改提供商帐户时，将从“选择帐户”对话框中调用此方法。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

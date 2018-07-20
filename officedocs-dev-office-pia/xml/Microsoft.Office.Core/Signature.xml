@@ -1,0 +1,698 @@
+<Type Name="Signature" FullName="Microsoft.Office.Core.Signature">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="692a3655f3986b05dce9797d0d3a96395e540a60" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658051" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Signature : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Signature implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Signature" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Signature&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Signature : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0411-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>对应于附加到文档的数字签名。</summary>
+    <remarks>
+      <para>
+        <b>Signature</b>对象包含在<see cref="T:Microsoft.Office.Core.SignatureSet" /><b>Document</b>对象的集合。</para>您可以将<b>Signature</b>对象添加到<b>SignatureSet</b>集合使用
+      <para><see cref="M:Microsoft.Office.Core.SignatureSet.Add" />方法，您可以返回现有成员使用<see cref="P:Microsoft.Office.Core.SignatureSet.Item(System.Int32)" />方法。若要删除<b>SignatureSet</b>集合中的<b>签名</b>，使用<see cref="M:Microsoft.Office.Core.Signature.Delete" /><b>Signature</b>对象的方法。</para><para /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Signature.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>Application</b>对象，代表容器应用程序的对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachCertificate">
+      <MemberSignature Language="C#" Value="public bool AttachCertificate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AttachCertificate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Signature.AttachCertificate" />
+      <MemberSignature Language="VB.NET" Value="Public Property AttachCertificate As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AttachCertificate { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>确定数字证书，如果对应于指定<see cref="T:Microsoft.Office.Core.Signature" />对象附加到文档。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性将返回<b>True</b>如果对应于指定的<b>Signature</b>对象的数字证书附加到该文档。<b>False</b>如果签名不附加到文档。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanSetup">
+      <MemberSignature Language="C#" Value="public bool CanSetup { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanSetup" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Signature.CanSetup" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanSetup As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanSetup { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个<b>布尔</b>值，该值指示用户是否可以设置的属性<see cref="T:Microsoft.Office.Core.Signature" />对象。 只读。</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Signature.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>如果指定的对象在 Microsoft Word 中创建的此属性返回 1297307460，它表示字符串 MSWD;如果在 Microsoft Excel 中创建，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.Signature.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Signature.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809350)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>从集合中删除指定的对象。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Details">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.SignatureInfo Details { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.SignatureInfo Details" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Signature.Details" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Details As SignatureInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SignatureInfo ^ Details { Microsoft::Office::Core::SignatureInfo ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809357)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809357)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取有关签名的信息。只读。</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.SignatureInfo" />
+        </value>
+        <remarks>
+          <para>在可以读取的信息是与签名关联的证书是否已到期、 签名是否有效，和签名是否是只读的。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpireDate">
+      <MemberSignature Language="C#" Value="public object ExpireDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ExpireDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Signature.ExpireDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExpireDate As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ExpireDate { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>对象</b>表示的日期对应的数字签名<see cref="T:Microsoft.Office.Core.Signature" />对象将过期。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCertificateExpired">
+      <MemberSignature Language="C#" Value="public bool IsCertificateExpired { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCertificateExpired" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Signature.IsCertificateExpired" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCertificateExpired As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsCertificateExpired { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809352)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809352)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>确定是否数字证书的对应于<see cref="T:Microsoft.Office.Core.Signature" />对象已过期。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性将返回<b>True</b>如果对应于<b>Signature</b>对象的数字证书已过期;<b>False</b>如果证书没有过期。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCertificateRevoked">
+      <MemberSignature Language="C#" Value="public bool IsCertificateRevoked { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCertificateRevoked" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Signature.IsCertificateRevoked" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCertificateRevoked As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsCertificateRevoked { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809353)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809353)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>确定是否数字证书的对应于<see cref="T:Microsoft.Office.Core.Signature" />对象已被吊销的证书的颁发者。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性返回<b>True</b> ，如果对应于<b>Signature</b>对象的数字证书已吊销的证书; 的颁发者<b>False</b>如果证书未被吊销。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSignatureLine">
+      <MemberSignature Language="C#" Value="public bool IsSignatureLine { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSignatureLine" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Signature.IsSignatureLine" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSignatureLine As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSignatureLine { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809361)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809361)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个指示此行是否为签名行的值。只读。</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSigned">
+      <MemberSignature Language="C#" Value="public bool IsSigned { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSigned" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Signature.IsSigned" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSigned As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSigned { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809355)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809355)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个 <b>Boolean</b> 类型的值，指示是否已成功签署文档。只读。</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Issuer">
+      <MemberSignature Language="C#" Value="public string Issuer { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Issuer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Signature.Issuer" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Issuer As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Issuer { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个表示对应的数字证书的颁发者名称的<b>字符串</b><see cref="T:Microsoft.Office.Core.Signature" />对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsValid">
+      <MemberSignature Language="C#" Value="public bool IsValid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsValid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Signature.IsValid" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsValid As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsValid { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>确定是否的数字签名的对应于<see cref="T:Microsoft.Office.Core.Signature" />对象是有效的签名。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性将返回<b>True</b><b>Signature</b>对象所对应的数字签名时有效的签名。<b>False</b>如果它不是有效的签名。签名可能无效，原因，从证书已过期包含它的文档中的更改。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Signature.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809351)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回指定对象的<b>父</b>对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Setup">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.SignatureSetup Setup { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.SignatureSetup Setup" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Signature.Setup" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Setup As SignatureSetup" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SignatureSetup ^ Setup { Microsoft::Office::Core::SignatureSetup ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809360)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809360)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureSetup</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取<see cref="T:Microsoft.Office.Core.SignatureSetup" />对象，提供访问一个签名数据包的各种属性。 只读。</summary>
+        <value>
+          <b>SignatureSetup</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowDetails">
+      <MemberSignature Language="C#" Value="public void ShowDetails ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowDetails() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Signature.ShowDetails" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowDetails ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowDetails();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809358)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>显示与签名数据包相关的详细信息。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sign">
+      <MemberSignature Language="C#" Value="public void Sign (object varSigImg, object varDelSuggSigner, object varDelSuggSignerLine2, object varDelSuggSignerEmail);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Sign([in]object varSigImg, [in]object varDelSuggSigner, [in]object varDelSuggSignerLine2, [in]object varDelSuggSignerEmail) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Signature.Sign(System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Sign (Optional varSigImg As Object, Optional varDelSuggSigner As Object, Optional varDelSuggSignerLine2 As Object, Optional varDelSuggSignerEmail As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809356)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varSigImg" Type="System.Object" />
+        <Parameter Name="varDelSuggSigner" Type="System.Object" />
+        <Parameter Name="varDelSuggSignerLine2" Type="System.Object" />
+        <Parameter Name="varDelSuggSignerEmail" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varSigImg">签名行的图形图像。</param>
+        <param name="varDelSuggSigner">建议签署人。</param>
+        <param name="varDelSuggSignerLine2">附加签名行。</param>
+        <param name="varDelSuggSignerEmail">建议的签名人的电子邮件地址。</param>
+        <summary>创建一个签名数据包。</summary>
+        <remarks>
+          <para>当调用<b>Sign</b>方法时，Microsoft Office 创建清单，并调用签名提供程序以在文档中创建的每个流哈希。然后，office 将捆绑到一个未签署的 XMLDSIG 模板和调用要修改 XMLDSIG （如果需要），然后对其进行签名的提供程序获得的结果。产生的签名签名然后传递回要存储的 Office。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignatureLineShape">
+      <MemberSignature Language="C#" Value="public object SignatureLineShape { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object SignatureLineShape" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Signature.SignatureLineShape" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SignatureLineShape As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ SignatureLineShape { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809362)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809362)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取<see cref="T:Microsoft.Office.Core.Shape" />与<see cref="T:Microsoft.Office.Core.Signature" />对象的签名行。 只读。</summary>
+        <value>
+          <b>对象</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignDate">
+      <MemberSignature Language="C#" Value="public object SignDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object SignDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Signature.SignDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SignDate As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ SignDate { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809354)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809354)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>对象</b>表示的日期和时间的数字证书对应于<see cref="T:Microsoft.Office.Core.Signature" />对象附加到文档。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Signer">
+      <MemberSignature Language="C#" Value="public string Signer { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Signer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Signature.Signer" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Signer As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Signer { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个表示的连接对应的数字证书的人员名称的<b>字符串</b><see cref="T:Microsoft.Office.Core.Signature" />到文档的对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortHint">
+      <MemberSignature Language="C#" Value="public int SortHint { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SortHint" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Signature.SortHint" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SortHint As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SortHint { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809363)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809363)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个代表数据包（包含多个签名）中的签名排序顺序的值。只读。</summary>
+        <value>
+          <b>Integer</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

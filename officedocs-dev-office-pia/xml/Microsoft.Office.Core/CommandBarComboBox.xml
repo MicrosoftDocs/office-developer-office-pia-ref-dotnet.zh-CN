@@ -1,0 +1,44 @@
+<Type Name="CommandBarComboBox" FullName="Microsoft.Office.Core.CommandBarComboBox">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1821e42cf04a96e07aa4f7c4db3da02d50c6ade8" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658283" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface CommandBarComboBox : Microsoft.Office.Core._CommandBarComboBox, Microsoft.Office.Core._CommandBarComboBoxEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CommandBarComboBox implements class Microsoft.Office.Core._CommandBarComboBox, class Microsoft.Office.Core._CommandBarComboBoxEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CommandBarComboBox" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CommandBarComboBox&#xA;Implements _CommandBarComboBox, _CommandBarComboBoxEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CommandBarComboBox : Microsoft::Office::Core::_CommandBarComboBox, Microsoft::Office::Core::_CommandBarComboBoxEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._CommandBarComboBox</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._CommandBarComboBoxEvents_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Core.CommandBarComboBoxClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C030C-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>代表命令栏中的一个组合框控件。</summary>
+    <remarks>
+      <para>使用<b>控件</b>(<paramref name="index" />)，其中<paramref name="index" />为控件，可返回<b>CommandBarComboBox</b>对象的索引编号。( <see cref="P:Microsoft.Office.Core._CommandBarComboBox.Type" /><b>MsoControlEdit</b>、 <b>msoControlDropdown</b>、 <b>msoControlComboBox</b>、 <b>msoControlButtonDropdown</b>、 <b>msoControlSplitDropdown</b>、 <b>msoControlOCXDropdown</b>，必须为控件属性<b>msoControlGraphicCombo</b>或<b>msoControlGraphicDropdown</b>。）</para>
+      <para>还可以使用<see cref="M:Microsoft.Office.Core._CommandBars.FindControl(System.Object,System.Object,System.Object,System.Object)" />方法返回<b>CommandBarComboBox</b>对象。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

@@ -1,0 +1,465 @@
+<Type Name="MsoMetaPropertyType" FullName="Microsoft.Office.Core.MsoMetaPropertyType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e85bee5b73f894a21bfac2783d0b13321c8d35c2" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658093" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoMetaPropertyType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoMetaPropertyType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoMetaPropertyType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoMetaPropertyType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoMetaPropertyType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定元数据属性类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoMetaPropertyTypeBoolean">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeBoolean" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeBoolean = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeBoolean" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeBoolean" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeBoolean" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>代表 Boolean 值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeBusinessData">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeBusinessData" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeBusinessData = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeBusinessData" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeBusinessData" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeBusinessData" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeBusinessDataSecondary">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeBusinessDataSecondary" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeBusinessDataSecondary = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeBusinessDataSecondary" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeBusinessDataSecondary" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeBusinessDataSecondary" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeCalculated">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeCalculated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeCalculated = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeCalculated" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeCalculated" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeCalculated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>代表计算值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeChoice">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeChoice" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeChoice = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeChoice" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeChoice" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeChoice" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>代表一个或多个选项中的值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeComputed">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeComputed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeComputed = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeComputed" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeComputed" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeComputed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>代表计算值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeCurrency">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeCurrency" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeCurrency = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeCurrency" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeCurrency" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeCurrency" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>代表 Currency 值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeDateTime">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeDateTime" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeDateTime = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeDateTime" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeDateTime" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeDateTime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>代表 DateTime 值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeFillInChoice">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeFillInChoice" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeFillInChoice = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeFillInChoice" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeFillInChoice" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeFillInChoice" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>代表由用户写入的两个或多个选项中的值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeGuid">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeGuid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeGuid = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeGuid" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeGuid" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeGuid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>代表 GUID 值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeInteger">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeInteger" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeInteger = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeInteger" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeInteger" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeInteger" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>代表 Integer 值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeLookup">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeLookup" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeLookup = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeLookup" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeLookup" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeLookup" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>代表用于查阅其他值的值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeMax">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeMax" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeMax = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeMax" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeMax" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeMax" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>代表一个范围的最大值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeMultiChoice">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeMultiChoice" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeMultiChoice = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeMultiChoice" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeMultiChoice" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeMultiChoice" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>代表选项的集合。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeMultiChoiceFillIn">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeMultiChoiceFillIn" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeMultiChoiceFillIn = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeMultiChoiceFillIn" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeMultiChoiceFillIn" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeMultiChoiceFillIn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>代表需要用户写入值的选项的集合。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeMultiChoiceLookup">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeMultiChoiceLookup" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeMultiChoiceLookup = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeMultiChoiceLookup" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeMultiChoiceLookup" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeMultiChoiceLookup" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>代表用于查阅其他值的选项的集合。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeNote">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeNote" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeNote = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeNote" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeNote" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeNote" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>代表一个或多个句子的值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeNumber">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeNumber" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeNumber = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeNumber" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeNumber" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeNumber" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>代表普通数字数据类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeText">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeText = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeText" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeText" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>代表 Text 值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeUnknown">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeUnknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeUnknown = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeUnknown" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeUnknown" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeUnknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>代表未知值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeUrl">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeUrl = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeUrl" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeUrl" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>代表 URL。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeUser">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeUser" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeUser = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeUser" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeUser" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeUser" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>代表用户类别。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMetaPropertyTypeUserMulti">
+      <MemberSignature Language="C#" Value="msoMetaPropertyTypeUserMulti" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMetaPropertyType msoMetaPropertyTypeUserMulti = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMetaPropertyType.msoMetaPropertyTypeUserMulti" />
+      <MemberSignature Language="VB.NET" Value="msoMetaPropertyTypeUserMulti" />
+      <MemberSignature Language="C++ CLI" Value="msoMetaPropertyTypeUserMulti" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

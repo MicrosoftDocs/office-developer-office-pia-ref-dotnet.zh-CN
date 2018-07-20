@@ -1,0 +1,150 @@
+<Type Name="_CustomTaskPaneEvents_SinkHelper" FullName="Microsoft.Office.Core._CustomTaskPaneEvents_SinkHelper">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="be5d7e96adec2f200614eaa4df00a4a4f07a98a2" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658381" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class _CustomTaskPaneEvents_SinkHelper : Microsoft.Office.Core._CustomTaskPaneEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _CustomTaskPaneEvents_SinkHelper extends System.Object implements class Microsoft.Office.Core._CustomTaskPaneEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomTaskPaneEvents_SinkHelper" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class _CustomTaskPaneEvents_SinkHelper&#xA;Implements _CustomTaskPaneEvents" />
+  <TypeSignature Language="C++ CLI" Value="public ref class _CustomTaskPaneEvents_SinkHelper sealed : Microsoft::Office::Core::_CustomTaskPaneEvents" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._CustomTaskPaneEvents</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>仅供内部使用。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DockPositionStateChange">
+      <MemberSignature Language="C#" Value="public override void DockPositionStateChange (Microsoft.Office.Core.CustomTaskPane );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void DockPositionStateChange(class Microsoft.Office.Core.CustomTaskPane ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomTaskPaneEvents_SinkHelper.DockPositionStateChange(Microsoft.Office.Core.CustomTaskPane)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub DockPositionStateChange ( As CustomTaskPane)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void DockPositionStateChange(Microsoft::Office::Core::CustomTaskPane ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomTaskPaneEvents.DockPositionStateChange(Microsoft.Office.Core.CustomTaskPane)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Core.CustomTaskPane" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_DockPositionStateChangeDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler m_DockPositionStateChangeDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler m_DockPositionStateChangeDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core._CustomTaskPaneEvents_SinkHelper.m_DockPositionStateChangeDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_DockPositionStateChangeDelegate As _CustomTaskPaneEvents_DockPositionStateChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Core::_CustomTaskPaneEvents_DockPositionStateChangeEventHandler ^ m_DockPositionStateChangeDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_dwCookie">
+      <MemberSignature Language="C#" Value="public int m_dwCookie;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 m_dwCookie" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core._CustomTaskPaneEvents_SinkHelper.m_dwCookie" />
+      <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
+      <MemberSignature Language="C++ CLI" Value="public: int m_dwCookie;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_VisibleStateChangeDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler m_VisibleStateChangeDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler m_VisibleStateChangeDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core._CustomTaskPaneEvents_SinkHelper.m_VisibleStateChangeDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_VisibleStateChangeDelegate As _CustomTaskPaneEvents_VisibleStateChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Core::_CustomTaskPaneEvents_VisibleStateChangeEventHandler ^ m_VisibleStateChangeDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core._CustomTaskPaneEvents_VisibleStateChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VisibleStateChange">
+      <MemberSignature Language="C#" Value="public override void VisibleStateChange (Microsoft.Office.Core.CustomTaskPane );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void VisibleStateChange(class Microsoft.Office.Core.CustomTaskPane ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomTaskPaneEvents_SinkHelper.VisibleStateChange(Microsoft.Office.Core.CustomTaskPane)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub VisibleStateChange ( As CustomTaskPane)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void VisibleStateChange(Microsoft::Office::Core::CustomTaskPane ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomTaskPaneEvents.VisibleStateChange(Microsoft.Office.Core.CustomTaskPane)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Core.CustomTaskPane" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

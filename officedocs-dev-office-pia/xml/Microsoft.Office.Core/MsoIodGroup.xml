@@ -1,0 +1,90 @@
+<Type Name="MsoIodGroup" FullName="Microsoft.Office.Core.MsoIodGroup">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="525488edca11f498cf29427ed0965e6074cbc1df" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657639" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoIodGroup" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoIodGroup extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoIodGroup" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoIodGroup" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoIodGroup" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("750D0562-9930-40DD-9DA7-887B50F2111F")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoIodGroupPIAs">
+      <MemberSignature Language="C#" Value="msoIodGroupPIAs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoIodGroup msoIodGroupPIAs = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoIodGroup.msoIodGroupPIAs" />
+      <MemberSignature Language="VB.NET" Value="msoIodGroupPIAs" />
+      <MemberSignature Language="C++ CLI" Value="msoIodGroupPIAs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoIodGroup</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoIodGroupVSTOR35Mgd">
+      <MemberSignature Language="C#" Value="msoIodGroupVSTOR35Mgd" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoIodGroup msoIodGroupVSTOR35Mgd = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoIodGroup.msoIodGroupVSTOR35Mgd" />
+      <MemberSignature Language="VB.NET" Value="msoIodGroupVSTOR35Mgd" />
+      <MemberSignature Language="C++ CLI" Value="msoIodGroupVSTOR35Mgd" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoIodGroup</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoIodGroupVSTOR40Mgd">
+      <MemberSignature Language="C#" Value="msoIodGroupVSTOR40Mgd" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoIodGroup msoIodGroupVSTOR40Mgd = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoIodGroup.msoIodGroupVSTOR40Mgd" />
+      <MemberSignature Language="VB.NET" Value="msoIodGroupVSTOR40Mgd" />
+      <MemberSignature Language="C++ CLI" Value="msoIodGroupVSTOR40Mgd" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoIodGroup</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

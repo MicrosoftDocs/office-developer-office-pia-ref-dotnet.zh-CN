@@ -1,0 +1,41 @@
+<Type Name="_CustomTaskPaneEvents_DockPositionStateChangeEventHandler" FullName="Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7cab72a5bafd523597af85be03e2d3b900afc7c1" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657629" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void _CustomTaskPaneEvents_DockPositionStateChangeEventHandler(CustomTaskPane CustomTaskPaneInst);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _CustomTaskPaneEvents_DockPositionStateChangeEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomTaskPaneEvents_DockPositionStateChangeEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub _CustomTaskPaneEvents_DockPositionStateChangeEventHandler(CustomTaskPaneInst As CustomTaskPane)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void _CustomTaskPaneEvents_DockPositionStateChangeEventHandler(CustomTaskPane ^ CustomTaskPaneInst);" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="CustomTaskPaneInst" Type="Microsoft.Office.Core.CustomTaskPane" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="CustomTaskPaneInst">To be added.</param>
+    <summary>仅供内部使用。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

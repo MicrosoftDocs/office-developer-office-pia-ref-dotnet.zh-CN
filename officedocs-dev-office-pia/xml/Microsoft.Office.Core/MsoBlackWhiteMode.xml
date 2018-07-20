@@ -1,0 +1,237 @@
+<Type Name="MsoBlackWhiteMode" FullName="Microsoft.Office.Core.MsoBlackWhiteMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f0852aff5c375c8efc87350b7676dd624ea519de" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658027" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoBlackWhiteMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBlackWhiteMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBlackWhiteMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoBlackWhiteMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoBlackWhiteMode" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定在以黑白模式查看时如何显示形状。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoBlackWhiteAutomatic">
+      <MemberSignature Language="C#" Value="msoBlackWhiteAutomatic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBlackWhiteMode msoBlackWhiteAutomatic = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBlackWhiteMode.msoBlackWhiteAutomatic" />
+      <MemberSignature Language="VB.NET" Value="msoBlackWhiteAutomatic" />
+      <MemberSignature Language="C++ CLI" Value="msoBlackWhiteAutomatic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBlackWhiteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>默认行为。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBlackWhiteBlack">
+      <MemberSignature Language="C#" Value="msoBlackWhiteBlack" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBlackWhiteMode msoBlackWhiteBlack = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBlackWhiteMode.msoBlackWhiteBlack" />
+      <MemberSignature Language="VB.NET" Value="msoBlackWhiteBlack" />
+      <MemberSignature Language="C++ CLI" Value="msoBlackWhiteBlack" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBlackWhiteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>黑色。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBlackWhiteBlackTextAndLine">
+      <MemberSignature Language="C#" Value="msoBlackWhiteBlackTextAndLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBlackWhiteMode msoBlackWhiteBlackTextAndLine = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBlackWhiteMode.msoBlackWhiteBlackTextAndLine" />
+      <MemberSignature Language="VB.NET" Value="msoBlackWhiteBlackTextAndLine" />
+      <MemberSignature Language="C++ CLI" Value="msoBlackWhiteBlackTextAndLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBlackWhiteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>白色轮廓，灰度填充。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBlackWhiteDontShow">
+      <MemberSignature Language="C#" Value="msoBlackWhiteDontShow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBlackWhiteMode msoBlackWhiteDontShow = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBlackWhiteMode.msoBlackWhiteDontShow" />
+      <MemberSignature Language="VB.NET" Value="msoBlackWhiteDontShow" />
+      <MemberSignature Language="C++ CLI" Value="msoBlackWhiteDontShow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBlackWhiteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>不显示。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBlackWhiteGrayOutline">
+      <MemberSignature Language="C#" Value="msoBlackWhiteGrayOutline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBlackWhiteMode msoBlackWhiteGrayOutline = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBlackWhiteMode.msoBlackWhiteGrayOutline" />
+      <MemberSignature Language="VB.NET" Value="msoBlackWhiteGrayOutline" />
+      <MemberSignature Language="C++ CLI" Value="msoBlackWhiteGrayOutline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBlackWhiteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>灰色轮廓，白色填充。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBlackWhiteGrayScale">
+      <MemberSignature Language="C#" Value="msoBlackWhiteGrayScale" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBlackWhiteMode msoBlackWhiteGrayScale = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBlackWhiteMode.msoBlackWhiteGrayScale" />
+      <MemberSignature Language="VB.NET" Value="msoBlackWhiteGrayScale" />
+      <MemberSignature Language="C++ CLI" Value="msoBlackWhiteGrayScale" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBlackWhiteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>灰度。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBlackWhiteHighContrast">
+      <MemberSignature Language="C#" Value="msoBlackWhiteHighContrast" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBlackWhiteMode msoBlackWhiteHighContrast = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBlackWhiteMode.msoBlackWhiteHighContrast" />
+      <MemberSignature Language="VB.NET" Value="msoBlackWhiteHighContrast" />
+      <MemberSignature Language="C++ CLI" Value="msoBlackWhiteHighContrast" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBlackWhiteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>黑色轮廓，白色填充。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBlackWhiteInverseGrayScale">
+      <MemberSignature Language="C#" Value="msoBlackWhiteInverseGrayScale" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBlackWhiteMode msoBlackWhiteInverseGrayScale = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBlackWhiteMode.msoBlackWhiteInverseGrayScale" />
+      <MemberSignature Language="VB.NET" Value="msoBlackWhiteInverseGrayScale" />
+      <MemberSignature Language="C++ CLI" Value="msoBlackWhiteInverseGrayScale" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBlackWhiteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>逆转灰度。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBlackWhiteLightGrayScale">
+      <MemberSignature Language="C#" Value="msoBlackWhiteLightGrayScale" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBlackWhiteMode msoBlackWhiteLightGrayScale = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBlackWhiteMode.msoBlackWhiteLightGrayScale" />
+      <MemberSignature Language="VB.NET" Value="msoBlackWhiteLightGrayScale" />
+      <MemberSignature Language="C++ CLI" Value="msoBlackWhiteLightGrayScale" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBlackWhiteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>浅灰度。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBlackWhiteMixed">
+      <MemberSignature Language="C#" Value="msoBlackWhiteMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBlackWhiteMode msoBlackWhiteMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBlackWhiteMode.msoBlackWhiteMixed" />
+      <MemberSignature Language="VB.NET" Value="msoBlackWhiteMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoBlackWhiteMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBlackWhiteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>不支持。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBlackWhiteWhite">
+      <MemberSignature Language="C#" Value="msoBlackWhiteWhite" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBlackWhiteMode msoBlackWhiteWhite = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBlackWhiteMode.msoBlackWhiteWhite" />
+      <MemberSignature Language="VB.NET" Value="msoBlackWhiteWhite" />
+      <MemberSignature Language="C++ CLI" Value="msoBlackWhiteWhite" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBlackWhiteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>白色。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

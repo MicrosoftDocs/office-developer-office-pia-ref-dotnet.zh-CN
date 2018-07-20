@@ -1,0 +1,540 @@
+<Type Name="SharedWorkspaceTask" FullName="Microsoft.Office.Core.SharedWorkspaceTask">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="269af9eed73565e3123231fe6db6c8beaa6ea80c" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657668" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface SharedWorkspaceTask : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SharedWorkspaceTask implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SharedWorkspaceTask" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SharedWorkspaceTask&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SharedWorkspaceTask : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0379-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>此对象、 成员或枚举已弃用，不应在代码中使用。<b>SharedWorkspaceTask</b>对象代表共享的文档工作区中的任务。</summary>
+    <remarks>
+      <para>此对象所在的<see cref="T:Microsoft.Office.Core.SharedWorkspaceTasks" />集合。</para>
+      <para>使用<b>SharedWorkspaceTask</b>对象可管理分配给共享工作区中的文档的协作成员的任务。</para>
+      <para>使用<b>项目</b>(<paramref name="index" />) 的<b>SharedWorkspaceTasks</b>集合可返回特定的<b>SharedWorkspaceTask</b>对象的方法。</para>使用
+      <para><see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Title" />属性设置将显示任务的文本和共享工作区网页上的共享工作区任务窗格的任务选项卡。使用<see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Description" />属性可提供有关该任务的其他信息。</para><para>分配到的工作区成员的任务使用<see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.AssignedTo" />属性和成员的域用户姓名。指定截止日期任务使用<see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.DueDate" />属性。</para><para>使用<see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Priority" />和<see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Status" />属性以指示任务的相对重要性并更新任务的状态。</para><para>使用<see cref="M:Microsoft.Office.Core.SharedWorkspaceTask.Save" />方法可将更改上载到服务器上，在修改<b>SharedWorkspaceTask</b>对象的属性之后。</para><para>使用<see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.CreatedBy" />， <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.CreatedDate" />， <see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.ModifiedBy" />，和<see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.ModifiedDate" />属性可返回有关历史记录每项任务的信息。</para><para /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTask.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>Application</b>对象，代表容器应用程序的对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssignedTo">
+      <MemberSignature Language="C#" Value="public string AssignedTo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AssignedTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTask.AssignedTo" />
+      <MemberSignature Language="VB.NET" Value="Public Property AssignedTo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AssignedTo { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" />向其分配任务。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>可选<see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.AssignedTo" />的共享工作区任务的属性返回的显示名称或<see cref="P:Microsoft.Office.Core.SharedWorkspaceMember.Name" />属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" />向其分配任务。但是，使用<see cref="P:Microsoft.Office.Core.SharedWorkspaceMember.DomainName" />的<b>SharedWorkspaceMember</b>要设置该属性的属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatedBy">
+      <MemberSignature Language="C#" Value="public string CreatedBy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CreatedBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTask.CreatedBy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreatedBy As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CreatedBy { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回创建的共享工作区对象的成员的友好名称。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>CreatedBy</b>属性返回的<b>DWSMember</b>对象的<b>Name</b>属性中存储的友好名称。</para>
+          <para>
+            <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />和<see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" />对象不具有<b>CreatedBy</b>属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatedDate">
+      <MemberSignature Language="C#" Value="public object CreatedDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CreatedDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTask.CreatedDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreatedDate As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CreatedDate { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回日期和时间时创建的共享工作区对象。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />和<see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" />对象不具有<b>CreatedDate</b>属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTask.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>如果指定的对象在 Microsoft Word 中创建的此属性返回 1297307460，它表示字符串 MSWD;如果在 Microsoft Excel 中创建，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SharedWorkspaceTask.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>删除当前的对象。</summary>
+        <remarks>
+          <para>如果用户不具有从共享工作区中删除当前对象的权限，则此方法将失败。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public string Description { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Description" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTask.Description" />
+      <MemberSignature Language="VB.NET" Value="Public Property Description As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Description { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个描述性的<b>String</b>值，指定<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>Description</b>属性是可选的当新的共享工作区链接或任务创建的并且可以为空。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DueDate">
+      <MemberSignature Language="C#" Value="public object DueDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object DueDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTask.DueDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property DueDate As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ DueDate { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置可选的到期日期和时间的<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifiedBy">
+      <MemberSignature Language="C#" Value="public string ModifiedBy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ModifiedBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTask.ModifiedBy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ModifiedBy As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ModifiedBy { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回上次修改对象的用户的名称。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>对于共享工作区对象， <b>ModifiedBy</b>属性返回的<b>DWSMember</b>对象的<b>Name</b>属性中存储的友好名称。</para>
+          <para>
+            <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />和<see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" />对象不具有<b>ModifiedBy</b>属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifiedDate">
+      <MemberSignature Language="C#" Value="public object ModifiedDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ModifiedDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTask.ModifiedDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ModifiedDate As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ModifiedDate { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回日期和时间上次修改共享工作区对象。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />和<see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" />对象不具有<b>ModifiedDate</b>属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTask.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回指定对象的<b>父</b>对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Priority">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoSharedWorkspaceTaskPriority Priority { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoSharedWorkspaceTaskPriority Priority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTask.Priority" />
+      <MemberSignature Language="VB.NET" Value="Public Property Priority As MsoSharedWorkspaceTaskPriority" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoSharedWorkspaceTaskPriority Priority { Microsoft::Office::Core::MsoSharedWorkspaceTaskPriority get(); void set(Microsoft::Office::Core::MsoSharedWorkspaceTaskPriority value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSharedWorkspaceTaskPriority</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置指定共享工作区任务的状态。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>可以自定义的服务器上的共享工作区任务架构。架构的自定义项可能会影响<see cref="T:Microsoft.Office.Core.MsoSharedWorkspaceTaskPriority" />设置何时<see cref="M:Microsoft.Office.Core.SharedWorkspaceTasks.Add(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)" />或<see cref="M:Microsoft.Office.Core.SharedWorkspaceTask.Save" />调用方法。<b>优先级</b>属性值映射，如下所示：</para>
+          <list type="bullet">
+            <item>
+              <para>已下载值 1 映射到<b>msoSharedWorkspaceTaskPriority</b> 1 (<b>msoSharedWorkspaceTaskPriorityHigh</b>)。下载的值 2 通过 N-1 映射到<b>msoSharedWorkspaceTaskPriority</b> 2 (<b>msoSharedWorkspaceTaskPriorityNormal</b>)。下载的值 N 映射到<b>msoSharedWorkspaceTaskPriority</b> 3 (<b>msoSharedWorkspaceTaskPriorityLow</b>)。</para>
+            </item>
+            <item>
+              <para>上载枚举值 1 到 3 映射到架构值 1 到 3。如果用户指定的值未映射到定义架构中的任何值，则以无提示方式忽略用户指定的值和<see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Status" />属性未更新的服务器上。</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Save() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SharedWorkspaceTask.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>上载以编程方式为所做的更改<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />到服务器。</summary>
+        <remarks>
+          <para>使用<b>Save</b>方法可更改共享工作区链接或任务的属性后将更改上载到服务器。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus Status { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus Status" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTask.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Property Status As MsoSharedWorkspaceTaskStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoSharedWorkspaceTaskStatus Status { Microsoft::Office::Core::MsoSharedWorkspaceTaskStatus get(); void set(Microsoft::Office::Core::MsoSharedWorkspaceTaskStatus value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置指定共享工作区任务的状态。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>可以自定义的服务器上的共享工作区任务架构。架构的自定义项可能会影响<see cref="T:Microsoft.Office.Core.MsoSharedWorkspaceTaskPriority" />设置何时<see cref="M:Microsoft.Office.Core.SharedWorkspaceTasks.Add(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)" />或<see cref="M:Microsoft.Office.Core.SharedWorkspaceTask.Save" />调用方法。<b>状态</b>属性值映射，如下所示：</para>
+          <list type="bullet">
+            <item>
+              <para>已下载值 1 至 5 映射到<b>msoSharedWorkspaceTaskStatus</b>枚举值 1 至 5。超过 5 架构值映射到枚举值 1 (<b>msoSharedWorkspaceTaskStatusInProgress</b>)。</para>
+            </item>
+            <item>
+              <para>上载枚举值 1 至 5 映射到架构值 1 至 5。用户指定的值未映射到定义架构中的任何值，如果用户指定的值将被忽略和服务器上未更新的<b>状态</b>属性。</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Title">
+      <MemberSignature Language="C#" Value="public string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Title" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTask.Title" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Title As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置的标题<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>Title</b>属性是共享工作区任务的单个必需的属性。使用可选<see cref="P:Microsoft.Office.Core.SharedWorkspaceTask.Description" />属性来提供或返回有关任务的其他信息。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

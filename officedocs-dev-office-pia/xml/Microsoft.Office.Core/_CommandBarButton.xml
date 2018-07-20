@@ -1,0 +1,2480 @@
+<Type Name="_CommandBarButton" FullName="Microsoft.Office.Core._CommandBarButton">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c6bfd8d29e589e579f5eae507ab43562f407648f" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657722" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _CommandBarButton : Microsoft.Office.Core.CommandBarControl" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CommandBarButton implements class Microsoft.Office.Core.CommandBarControl" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBarButton" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _CommandBarButton&#xA;Implements CommandBarControl" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _CommandBarButton : Microsoft::Office::Core::CommandBarControl" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core.CommandBarControl</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C030E-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>代表命令栏中的一个按钮控件。</summary>
+    <remarks>
+      <para>使用<b>控件</b>(<paramref name="index" />)，其中<paramref name="index" />为控件，可返回一个<b>CommandBarButton</b>对象的索引编号。(<see cref="P:Microsoft.Office.Core._CommandBarButton.Type" />控件属性必须<b>msoControlButton</b>。)</para>
+      <para>还可以使用<see cref="M:Microsoft.Office.Core._CommandBars.FindControl(System.Object,System.Object,System.Object,System.Object)" />方法可返回一个<b>CommandBarButton</b>对象。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="accChild">
+      <MemberSignature Language="C#" Value="public object accChild[object varChild] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object accChild(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.accChild(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property accChild(varChild As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ accChild[System::Object ^] { System::Object ^ get(System::Object ^ varChild); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.accChild(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-5002)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varChild" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varChild">To be added.</param>
+        <summary>仅供内部使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accChildCount">
+      <MemberSignature Language="C#" Value="public int accChildCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 accChildCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.accChildCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property accChildCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int accChildCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.accChildCount</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-5001)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>仅供内部使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accDefaultAction">
+      <MemberSignature Language="C#" Value="public string accDefaultAction[object varChild] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string accDefaultAction(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.accDefaultAction(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property accDefaultAction(Optional varChild As Object) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ accDefaultAction[System::Object ^] { System::String ^ get(System::Object ^ varChild); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.accDefaultAction(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5013)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-5013)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varChild" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varChild">To be added.</param>
+        <summary>仅供内部使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accDescription">
+      <MemberSignature Language="C#" Value="public string accDescription[object varChild] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string accDescription(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.accDescription(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property accDescription(Optional varChild As Object) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ accDescription[System::Object ^] { System::String ^ get(System::Object ^ varChild); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.accDescription(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5005)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-5005)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varChild" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varChild">To be added.</param>
+        <summary>仅供内部使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accDoDefaultAction">
+      <MemberSignature Language="C#" Value="public void accDoDefaultAction (object varChild);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void accDoDefaultAction([in]object varChild) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.accDoDefaultAction(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub accDoDefaultAction (Optional varChild As Object)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core.CommandBarControl.accDoDefaultAction(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5018)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varChild" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varChild">To be added.</param>
+        <summary>仅供内部使用。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accFocus">
+      <MemberSignature Language="C#" Value="public object accFocus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object accFocus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.accFocus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property accFocus As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ accFocus { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.accFocus</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5011)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-5011)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>仅供内部使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accHelp">
+      <MemberSignature Language="C#" Value="public string accHelp[object varChild] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string accHelp(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.accHelp(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property accHelp(Optional varChild As Object) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ accHelp[System::Object ^] { System::String ^ get(System::Object ^ varChild); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.accHelp(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5008)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-5008)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varChild" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varChild">To be added.</param>
+        <summary>仅供内部使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accHelpTopic">
+      <MemberSignature Language="C#" Value="public int accHelpTopic[out string pszHelpFile, object varChild] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 accHelpTopic(string, object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.accHelpTopic(System.String@,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property accHelpTopic(ByRef pszHelpFile As String, Optional varChild As Object) As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int accHelpTopic[System::String ^ %, System::Object ^] { int get([Runtime::InteropServices::Out] System::String ^ % pszHelpFile, System::Object ^ varChild); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.accHelpTopic(System.String@,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5009)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-5009)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pszHelpFile" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="varChild" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="pszHelpFile">To be added.</param>
+        <param name="varChild">To be added.</param>
+        <summary>仅供内部使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accHitTest">
+      <MemberSignature Language="C#" Value="public object accHitTest (int xLeft, int yTop);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object accHitTest([in]int32 xLeft, [in]int32 yTop) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.accHitTest(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function accHitTest (xLeft As Integer, yTop As Integer) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ accHitTest(int xLeft, int yTop);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core.CommandBarControl.accHitTest(System.Int32,System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5017)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="xLeft" Type="System.Int32" />
+        <Parameter Name="yTop" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="xLeft">To be added.</param>
+        <param name="yTop">To be added.</param>
+        <summary>仅供内部使用。</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accKeyboardShortcut">
+      <MemberSignature Language="C#" Value="public string accKeyboardShortcut[object varChild] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string accKeyboardShortcut(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.accKeyboardShortcut(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property accKeyboardShortcut(Optional varChild As Object) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ accKeyboardShortcut[System::Object ^] { System::String ^ get(System::Object ^ varChild); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.accKeyboardShortcut(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5010)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-5010)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varChild" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varChild">To be added.</param>
+        <summary>仅供内部使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accLocation">
+      <MemberSignature Language="C#" Value="public void accLocation (out int pxLeft, out int pyTop, out int pcxWidth, out int pcyHeight, object varChild);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void accLocation([out] int32&amp; pxLeft, [out] int32&amp; pyTop, [out] int32&amp; pcxWidth, [out] int32&amp; pcyHeight, [in]object varChild) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.accLocation(System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub accLocation (ByRef pxLeft As Integer, ByRef pyTop As Integer, ByRef pcxWidth As Integer, ByRef pcyHeight As Integer, Optional varChild As Object)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core.CommandBarControl.accLocation(System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5015)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pxLeft" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="pyTop" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="pcxWidth" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="pcyHeight" Type="System.Int32&amp;" RefType="out" />
+        <Parameter Name="varChild" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="pxLeft">To be added.</param>
+        <param name="pyTop">To be added.</param>
+        <param name="pcxWidth">To be added.</param>
+        <param name="pcyHeight">To be added.</param>
+        <param name="varChild">To be added.</param>
+        <summary>仅供内部使用。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accName">
+      <MemberSignature Language="C#" Value="public string accName[object varChild] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string accName(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.accName(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Property accName(Optional varChild As Object) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ accName[System::Object ^] { System::String ^ get(System::Object ^ varChild); void set(System::Object ^ varChild, System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.accName(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5003)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-5003)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-5003)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varChild" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varChild">To be added.</param>
+        <summary>仅供内部使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accNavigate">
+      <MemberSignature Language="C#" Value="public object accNavigate (int navDir, object varStart);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object accNavigate([in]int32 navDir, [in]object varStart) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.accNavigate(System.Int32,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function accNavigate (navDir As Integer, Optional varStart As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core.CommandBarControl.accNavigate(System.Int32,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5016)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="navDir" Type="System.Int32" />
+        <Parameter Name="varStart" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="navDir">To be added.</param>
+        <param name="varStart">To be added.</param>
+        <summary>仅供内部使用。</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accParent">
+      <MemberSignature Language="C#" Value="public object accParent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object accParent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.accParent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property accParent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ accParent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.accParent</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-5000)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>仅供内部使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accRole">
+      <MemberSignature Language="C#" Value="public object accRole[object varChild] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object accRole(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.accRole(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property accRole(Optional varChild As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ accRole[System::Object ^] { System::Object ^ get(System::Object ^ varChild); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.accRole(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5006)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-5006)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varChild" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varChild">To be added.</param>
+        <summary>仅供内部使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accSelect">
+      <MemberSignature Language="C#" Value="public void accSelect (int flagsSelect, object varChild);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void accSelect([in]int32 flagsSelect, [in]object varChild) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.accSelect(System.Int32,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub accSelect (flagsSelect As Integer, Optional varChild As Object)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core.CommandBarControl.accSelect(System.Int32,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5014)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="flagsSelect" Type="System.Int32" />
+        <Parameter Name="varChild" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="flagsSelect">To be added.</param>
+        <param name="varChild">To be added.</param>
+        <summary>仅供内部使用。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accSelection">
+      <MemberSignature Language="C#" Value="public object accSelection { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object accSelection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.accSelection" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property accSelection As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ accSelection { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.accSelection</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5012)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-5012)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>仅供内部使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accState">
+      <MemberSignature Language="C#" Value="public object accState[object varChild] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object accState(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.accState(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property accState(Optional varChild As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ accState[System::Object ^] { System::Object ^ get(System::Object ^ varChild); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.accState(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5007)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-5007)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varChild" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varChild">To be added.</param>
+        <summary>仅供内部使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="accValue">
+      <MemberSignature Language="C#" Value="public string accValue[object varChild] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string accValue(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.accValue(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Property accValue(Optional varChild As Object) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ accValue[System::Object ^] { System::String ^ get(System::Object ^ varChild); void set(System::Object ^ varChild, System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.accValue(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-5004)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-5004)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-5004)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varChild" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varChild">To be added.</param>
+        <summary>仅供内部使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>Application</b>对象，代表容器应用程序的对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginGroup">
+      <MemberSignature Language="C#" Value="public bool BeginGroup { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool BeginGroup" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.BeginGroup" />
+      <MemberSignature Language="VB.NET" Value="Public Property BeginGroup As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BeginGroup { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.BeginGroup</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874880)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874880)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610874880)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个值，指示是否指定的命令栏控件将显示一组控件的命令栏上的开头。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuiltIn">
+      <MemberSignature Language="C#" Value="public bool BuiltIn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool BuiltIn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.BuiltIn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BuiltIn As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BuiltIn { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.BuiltIn</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874882)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874882)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个值，指示指定的命令栏控件是否内置控件的容器应用程序。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>返回<b>True</b>如果指定的命令栏或命令栏控件的内置命令栏或控件的容器应用程序和<b>False</b>如果它是一个自定义命令栏或控件，或者它内置控制其<see cref="P:Microsoft.Office.Core.CommandBar.BuiltIn" />属性已设置.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuiltInFace">
+      <MemberSignature Language="C#" Value="public bool BuiltInFace { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool BuiltInFace" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.BuiltInFace" />
+      <MemberSignature Language="VB.NET" Value="Public Property BuiltInFace As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BuiltInFace { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610940416)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610940416)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610940416)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个值，指示命令栏按钮控件的表面是其原始内置图标。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性仅可设置为<b>True</b>，这将图符重新设置为内置的图标。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Caption">
+      <MemberSignature Language="C#" Value="public string Caption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Caption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Caption" />
+      <MemberSignature Language="VB.NET" Value="Public Property Caption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Caption { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.Caption</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874883)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874883)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610874883)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个命令栏控件的标题文本。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>作为默认的屏幕提示还显示控件的标题。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Control">
+      <MemberSignature Language="C#" Value="public object Control { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Control" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Control" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Control As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Control { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.Control</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874885)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874885)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>仅供内部使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.CommandBarControl Copy (object Bar, object Before);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.CommandBarControl Copy([in]object Bar, [in]object Before) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.Copy(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (Optional Bar As Object, Optional Before As Object) As CommandBarControl" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core.CommandBarControl.Copy(System.Object,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874886)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CommandBarControl</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Bar" Type="System.Object" />
+        <Parameter Name="Before" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Bar">可选的<b>对象</b>。 一个数字，指示新控件的命令栏上的位置。 将位于此位置的控件之前插入新的控件。 如果省略此参数，控件将被复制到的命令栏的末尾。</param>
+        <param name="Before">可选的<b>对象</b>。 A<see cref="T:Microsoft.Office.Core.CommandBar" />对象，表示目标命令栏。 如果省略此参数，控件将被复制到命令栏控件已存在。</param>
+        <summary>将一个命令栏控件复制到已有的命令栏中。</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyFace">
+      <MemberSignature Language="C#" Value="public void CopyFace ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CopyFace() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.CopyFace" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CopyFace ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CopyFace();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610940418)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>将命令栏按钮控件的图标复制到“剪贴板”中。</summary>
+        <remarks>
+          <para>使用<see cref="M:Microsoft.Office.Core._CommandBarButton.PasteFace" />方法粘贴到一个按钮图标剪贴板的内容。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个值，指示在其中创建指定的对象的应用程序。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>如果指定的对象在 Microsoft Word 中创建的此属性返回 1297307460，后者表示字符串"MSWD";如果在 Microsoft Excel 中创建，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符，就像<b>Application</b>属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (object Temporary);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete([in]object Temporary) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.Delete(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete (Optional Temporary As Object)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core.CommandBarControl.Delete(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874887)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Temporary" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Temporary">可选的<b>对象</b>。 <b>True</b>当前会话中删除控件。 应用程序将再次下一个会话中显示该控件。</param>
+        <summary>从其集合中删除指定的对象。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DescriptionText">
+      <MemberSignature Language="C#" Value="public string DescriptionText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DescriptionText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.DescriptionText" />
+      <MemberSignature Language="VB.NET" Value="Public Property DescriptionText As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DescriptionText { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.DescriptionText</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874888)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874888)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610874888)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个命令栏控件的说明。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>说明不显示给用户，但其可用于其他开发人员控件行为归档。</para>
+          <para>气球帮助在 Macintosh 上为使用此属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public bool Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Enabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Enabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.Enabled</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874890)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874890)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610874890)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个值，指示是否启用指定的命令栏控件。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>如果将<b>Enabled</b>属性设置为<b>True</b>时，应用程序确定命令栏控件; 的状态设置为<b>False</b>将强制要禁用的控件。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Execute">
+      <MemberSignature Language="C#" Value="public void Execute ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Execute() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.Execute" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Execute ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Execute();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core.CommandBarControl.Execute</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874892)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>运行的过程或内置命令分配给指定的命令栏控件。</summary>
+        <remarks>
+          <para>对于自定义控件，使用<see cref="P:Microsoft.Office.Core._CommandBarButton.OnAction" />属性指定要运行的过程。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FaceId">
+      <MemberSignature Language="C#" Value="public int FaceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 FaceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.FaceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property FaceId As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int FaceId { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610940419)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610940419)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610940419)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个命令栏按钮控件的表面的 ID 号。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>FaceId</b>属性指示查找，不的函数，命令栏按钮。</para>
+          <para>
+            <see cref="P:Microsoft.Office.Core.CommandBarControl.Id" />属性<see cref="T:Microsoft.Office.Core.CommandBarControl" />对象确定按钮的功能。</para>
+          <para>与自定义图标的命令栏按钮，<b>其 FaceId</b>属性的值为 0 （零）。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Height">
+      <MemberSignature Language="C#" Value="public int Height { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Height" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Height" />
+      <MemberSignature Language="VB.NET" Value="Public Property Height As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Height { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.Height</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874893)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874893)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610874893)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个命令栏控件的高度。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HelpContextId">
+      <MemberSignature Language="C#" Value="public int HelpContextId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 HelpContextId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.HelpContextId" />
+      <MemberSignature Language="VB.NET" Value="Public Property HelpContextId As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int HelpContextId { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.HelpContextId</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874895)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874895)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610874895)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置附加到命令栏控件的帮助主题的帮助上下文 ID 号。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>若要使用此属性，则必须设置<see cref="P:Microsoft.Office.Core._CommandBarButton.HelpFile" />属性。SHIFT + F1 响应帮助主题。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HelpFile">
+      <MemberSignature Language="C#" Value="public string HelpFile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string HelpFile" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.HelpFile" />
+      <MemberSignature Language="VB.NET" Value="Public Property HelpFile As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ HelpFile { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.HelpFile</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874897)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874897)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610874897)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置文件名附加到命令栏控件的帮助主题。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>若要使用此属性，则必须设置<see cref="P:Microsoft.Office.Core._CommandBarButton.HelpContextId" />属性。按 SHIFT + F1 用户响应帮助主题。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HyperlinkType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoCommandBarButtonHyperlinkType HyperlinkType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoCommandBarButtonHyperlinkType HyperlinkType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.HyperlinkType" />
+      <MemberSignature Language="VB.NET" Value="Public Property HyperlinkType As MsoCommandBarButtonHyperlinkType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoCommandBarButtonHyperlinkType HyperlinkType { Microsoft::Office::Core::MsoCommandBarButtonHyperlinkType get(); void set(Microsoft::Office::Core::MsoCommandBarButtonHyperlinkType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610940428)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610940428)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610940428)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCommandBarButtonHyperlinkType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置与指定的命令栏按钮相关联的超链接的类型。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public int Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Id { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.Id</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874899)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874899)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个内置命令栏控件的 ID。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>控件的 ID 决定了该控件的内置操作。所有自定义控件的<b>Id</b>属性值为 1。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Index">
+      <MemberSignature Language="C#" Value="public int Index { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Index" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Index" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.Index</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874900)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874900)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个值，指示集合中对象的索引号。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>第一个命令栏控件的位置为 1。分隔符不计入中<see cref="T:Microsoft.Office.Core.CommandBarControls" />集合。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceId">
+      <MemberSignature Language="C#" Value="public int InstanceId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 InstanceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.InstanceId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstanceId As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int InstanceId { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.InstanceId</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874901)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874901)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>仅供内部使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceIdPtr">
+      <MemberSignature Language="C#" Value="public object InstanceIdPtr { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object InstanceIdPtr" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.InstanceIdPtr" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstanceIdPtr As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ InstanceIdPtr { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610940434)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610940434)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>仅供内部使用。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPriorityDropped">
+      <MemberSignature Language="C#" Value="public bool IsPriorityDropped { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPriorityDropped" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.IsPriorityDropped" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsPriorityDropped As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPriorityDropped { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.IsPriorityDropped</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874925)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874925)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个值，指示该控件当前是否已删除从菜单或工具栏根据使用统计信息和布局空间。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>请注意返回的值不表示与由设置控件的可见性<see cref="P:Microsoft.Office.Core._CommandBarButton.Visible" />属性。如果<b>IsPriorityDropped</b>为<b>True</b>不立即可见个性化的菜单或工具栏上的控件<b>可见性</b>设置为<b>True</b> 。</para>若要确定时到集<b>IsPriorityDropped</b>为<b>True</b>的特定菜单项，Microsoft Office 维护总数的次数用该菜单项和在其中用户具有不同的应用程序会话的数量的记录的
+          <para>无需使用的特定菜单项，在为此菜单项，相同的菜单中使用另一个菜单项。当此值到达一定的阈值时，会减少使用次数。当计数为零时， <b>IsPriorityDropped</b>设置为<b>True</b>。程序员无法设置会话值、 阈值值或<b>IsPriorityDropped</b>属性。但是，可以使用程序员<see cref="P:Microsoft.Office.Core._CommandBars.AdaptiveMenus" />属性禁用应用程序中的特定菜单的自适应菜单。</para><para>，以确定何时为特定的工具栏控件，设置为<b>True</b>的<b>IsPriorityDropped</b> Office 维护一组中的所有已上次执行该工具栏上的控件的顺序。工具栏将始终显示尽可能多的控件，因为它具有空间来显示，请顺序最近用于最近最少使用。控件替换<see cref="P:Microsoft.Office.Core._CommandBarButton.Priority" />将始终显示设为 1 和工具栏将换行，如有必要，显示这些控件。编程人员可以使用<b>Priority</b>属性，以确保始终显示特定的工具栏上的控件，或重新定位工具栏，以便他们具有足够空间来显示所有的控件。</para><para>您可以使用下表预测其个性化菜单上的菜单项将仍可见之前菜单项的<b>IsPriorityDropped</b>属性设置为<b>True</b>的会话的数目。</para><list type="table"><item><description><paramref name="0,1" /></description>3
+            </item><item><description><paramref name="2" /></description>6
+            </item><item><description><paramref name="3" /></description>9
+            </item><item><description><paramref name="4, 5" /></description>12
+            </item><item><description><paramref name="6-8" /></description>17
+            </item><item><description><paramref name="9-13" /></description>23
+            </item><item><description><paramref name="14-24" /></description>29
+            </item><item><description><paramref name="25 or more" /></description>31
+            </item></list><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="public int Left { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Left" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Left" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Left As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Left { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.Left</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874903)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874903)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个值，指示相对于屏幕左边缘的指定的命令栏控件的水平位置 （以像素为单位）。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>本主题中的内容的一些可能不适用于某些语言版本。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mask">
+      <MemberSignature Language="C#" Value="public stdole.IPictureDisp Mask { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.IPictureDisp Mask" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Mask" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mask As IPictureDisp" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property stdole::IPictureDisp ^ Mask { stdole::IPictureDisp ^ get(); void set(stdole::IPictureDisp ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.IPictureDisp")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610940432)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610940432)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610940432)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.IPictureDisp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>IPictureDisp</b>对象，表示的掩码图像<see cref="T:Microsoft.Office.Core._CommandBarButton" />对象。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>掩码映像确定是透明的按钮图像部分。</para>
+          <para>时创建您计划使用作为掩码图像的图像，所有要透明区域应该为白色，您想要显示的区域的所有应为黑色。</para>
+          <para>始终的图片后设置掩码<see cref="T:Microsoft.Office.Core.CommandBarButton" />对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.CommandBarControl Move (object Bar, object Before);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.CommandBarControl Move([in]object Bar, [in]object Before) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.Move(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (Optional Bar As Object, Optional Before As Object) As CommandBarControl" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core.CommandBarControl.Move(System.Object,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874902)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CommandBarControl</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Bar" Type="System.Object" />
+        <Parameter Name="Before" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Bar">表示控件位置的数字。控件将插到该位置的控件之前。如果忽略该参数，控件插入到同一命令栏。</param>
+        <param name="Before">A<see cref="T:Microsoft.Office.Core.CommandBar" />对象，表示目标命令栏控件。 如果省略此参数，则该控件移到当前所在的命令栏的末尾。</param>
+        <summary>将指定的命令栏控件移动到已有的命令栏。</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OLEUsage">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoControlOLEUsage OLEUsage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoControlOLEUsage OLEUsage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.OLEUsage" />
+      <MemberSignature Language="VB.NET" Value="Public Property OLEUsage As MsoControlOLEUsage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoControlOLEUsage OLEUsage { Microsoft::Office::Core::MsoControlOLEUsage get(); void set(Microsoft::Office::Core::MsoControlOLEUsage value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.OLEUsage</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874904)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874904)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610874904)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlOLEUsage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置的 OLE 客户端和 OLE 服务器角色合并两个 Microsoft Office 应用程序时，则将使用在其中一个命令栏控件。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>旨在，可以与其他 Office 应用程序合并时在 Office 应用程序中指定如何单个外接程序应用程序的命令栏控件将表示该属性。如果在客户端和服务器实现了命令栏，客户端控件的控件中嵌入的命令栏控件。</para>
+          <para>自定义这些控件标记为只客户端 （或既不客户端和服务器） 将从服务器，和控件标记为只服务器 （或既不服务器和客户端） 中删除会丢弃客户端中。合并的其余控件。</para>
+          <para>如果合并的应用程序之一不是 Office 应用程序，常规 OLE 菜单合并则使用，该控制通过<see cref="P:Microsoft.Office.Core.CommandBarPopup.OLEMenuGroup" />属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnAction">
+      <MemberSignature Language="C#" Value="public string OnAction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OnAction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.OnAction" />
+      <MemberSignature Language="VB.NET" Value="Public Property OnAction As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OnAction { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.OnAction</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874906)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874906)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610874906)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置在用户单击或更改命令栏控件的值时将运行 Visual Basic 过程的名称。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>容器应用程序确定的值是否为合法的宏名。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parameter">
+      <MemberSignature Language="C#" Value="public string Parameter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Parameter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Parameter" />
+      <MemberSignature Language="VB.NET" Value="Public Property Parameter As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Parameter { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.Parameter</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874909)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874909)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610874909)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个值，应用程序可用于执行命令。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>如果指定的参数设置为内置控件，该应用程序可以修改它的默认行为，如果它可以分析和使用新值。如果该参数设置为自定义控件、 它可以用于将信息发送到 Visual Basic 过程，或可用于保留有关控件的信息 (类似于第二个<see cref="P:Microsoft.Office.Core._CommandBarButton.Tag" />属性值)。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.CommandBar Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CommandBar Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As CommandBar" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::CommandBar ^ Parent { Microsoft::Office::Core::CommandBar ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.Parent</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874908)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874908)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CommandBar</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个值，指示指定的对象的父对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PasteFace">
+      <MemberSignature Language="C#" Value="public void PasteFace ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PasteFace() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.PasteFace" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PasteFace ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PasteFace();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610940421)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>粘贴到指定命令栏按钮控件剪贴板的内容。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Picture">
+      <MemberSignature Language="C#" Value="public stdole.IPictureDisp Picture { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.IPictureDisp Picture" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Picture" />
+      <MemberSignature Language="VB.NET" Value="Public Property Picture As IPictureDisp" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property stdole::IPictureDisp ^ Picture { stdole::IPictureDisp ^ get(); void set(stdole::IPictureDisp ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.IPictureDisp")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610940430)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610940430)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610940430)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.IPictureDisp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个<b>IPictureDisp</b>对象，该对象表示的图像<see cref="T:Microsoft.Office.Core._CommandBarButton" />对象。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>更改按钮的图像时，您还需要使用<see cref="P:Microsoft.Office.Core._CommandBarButton.Mask" />属性来设置屏蔽图像。屏蔽图像确定按钮图像的哪些部分是透明的。始终的图片后设置掩码<see cref="T:Microsoft.Office.Core.CommandBarButton" />对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Priority">
+      <MemberSignature Language="C#" Value="public int Priority { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Priority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Priority" />
+      <MemberSignature Language="VB.NET" Value="Public Property Priority As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Priority { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.Priority</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874911)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874911)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610874911)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个命令栏控件的优先级。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A 控件的优先级来确定是否控件可以删除从停靠的命令栏中，是否命令栏控件不能容纳单个行中。无法容纳单个行中的控件放置从右到左的命令栏。</para>
+          <para>有效优先级号码为 0 （零） 到 7，默认值为 3。1 表示无法从工具栏中删除该控件的优先级。其他优先级值将被忽略。</para>
+          <para>菜单项的命令栏控件不使用<b>Priority</b>属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved1">
+      <MemberSignature Language="C#" Value="public void Reserved1 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reserved1() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.Reserved1" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reserved1 ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reserved1();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core.CommandBarControl.Reserved1</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874926)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>仅供内部使用。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved2">
+      <MemberSignature Language="C#" Value="public void Reserved2 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reserved2() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.Reserved2" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reserved2 ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reserved2();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core.CommandBarControl.Reserved2</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874927)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>仅供内部使用。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved3">
+      <MemberSignature Language="C#" Value="public void Reserved3 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reserved3() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.Reserved3" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reserved3 ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reserved3();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core.CommandBarControl.Reserved3</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874928)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>仅供内部使用。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved4">
+      <MemberSignature Language="C#" Value="public void Reserved4 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reserved4() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.Reserved4" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reserved4 ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reserved4();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core.CommandBarControl.Reserved4</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874929)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>仅供内部使用。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved5">
+      <MemberSignature Language="C#" Value="public void Reserved5 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reserved5() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.Reserved5" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reserved5 ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reserved5();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core.CommandBarControl.Reserved5</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874930)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>仅供内部使用。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved6">
+      <MemberSignature Language="C#" Value="public void Reserved6 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reserved6() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.Reserved6" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reserved6 ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reserved6();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core.CommandBarControl.Reserved6</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874931)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>仅供内部使用。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reserved7">
+      <MemberSignature Language="C#" Value="public void Reserved7 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reserved7() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.Reserved7" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reserved7 ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reserved7();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core.CommandBarControl.Reserved7</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874932)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>仅供内部使用。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reset">
+      <MemberSignature Language="C#" Value="public void Reset ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reset() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.Reset" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reset ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reset();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core.CommandBarControl.Reset</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874913)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>将内置命令栏控件重置为其初始功能和图符。</summary>
+        <remarks>
+          <para>重置一个内置控件将恢复该控件原来的操作，并将每个控件的属性重置回其原始状态。内置命令栏重置删除自定义控件并恢复内置控件。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFocus">
+      <MemberSignature Language="C#" Value="public void SetFocus ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetFocus() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButton.SetFocus" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetFocus ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetFocus();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core.CommandBarControl.SetFocus</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874914)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>将键盘焦点移动到指定的命令栏控件。</summary>
+        <remarks>
+          <para>控件被禁用，或不可见，如果此方法将失败。</para>
+          <para>控件上的重点是不明显。使用此方法后，您会注意到三个维度突出显示在控件上的。按箭头键将具有到达控件按键盘控制导航的工具栏中中,。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShortcutText">
+      <MemberSignature Language="C#" Value="public string ShortcutText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ShortcutText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.ShortcutText" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShortcutText As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ShortcutText { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610940422)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610940422)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610940422)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置时菜单、 子菜单或快捷菜单上显示按钮旁边的按钮控件显示快捷键文本。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>您可以设置该属性仅对包含的命令栏按钮<see cref="P:Microsoft.Office.Core._CommandBarButton.OnAction" />宏。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoButtonState State { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoButtonState State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.State" />
+      <MemberSignature Language="VB.NET" Value="Public Property State As MsoButtonState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoButtonState State { Microsoft::Office::Core::MsoButtonState get(); void set(Microsoft::Office::Core::MsoButtonState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610940424)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610940424)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610940424)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个命令栏按钮控件的外观。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Style">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoButtonStyle Style { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoButtonStyle Style" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Style" />
+      <MemberSignature Language="VB.NET" Value="Public Property Style As MsoButtonStyle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoButtonStyle Style { Microsoft::Office::Core::MsoButtonStyle get(); void set(Microsoft::Office::Core::MsoButtonStyle value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610940426)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610940426)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610940426)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个命令栏按钮控件的显示的方式。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tag">
+      <MemberSignature Language="C#" Value="public string Tag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Tag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Tag" />
+      <MemberSignature Language="VB.NET" Value="Public Property Tag As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Tag { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.Tag</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874915)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874915)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610874915)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置命令栏控件，如可用作在过程中，参数的数据或标识的控件的信息的信息。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>若要避免与事件触发时在同一个类的重复调用，定义的事件的唯一的<b>Tag</b>属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TooltipText">
+      <MemberSignature Language="C#" Value="public string TooltipText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TooltipText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.TooltipText" />
+      <MemberSignature Language="VB.NET" Value="Public Property TooltipText As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TooltipText { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.TooltipText</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874917)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874917)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610874917)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个命令栏控件的屏幕提示中显示的文本。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>默认情况下的值<see cref="P:Microsoft.Office.Core._CommandBarButton.Caption" />属性用作屏幕提示。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="public int Top { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Top" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Top" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Top As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Top { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.Top</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874919)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874919)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回从指定的命令栏控件的上边缘到屏幕的上边缘的距离 （以像素为单位）。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>本主题中的内容的一些可能不适用于某些语言版本。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoControlType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoControlType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As MsoControlType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoControlType Type { Microsoft::Office::Core::MsoControlType get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.Type</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874920)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874920)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回命令栏控件的类型。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public bool Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Property Visible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Visible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.Visible</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874921)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874921)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610874921)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置一个值，指示指定的对象是否可见。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>某些本主题中的内容不可能适用于某些语言版本。</para>
+          <para>
+            <b>Visible</b>属性对于新创建的自定义命令栏是<b>False</b>默认。</para>
+          <para>
+            <see cref="P:Microsoft.Office.Core._CommandBarButton.Enabled" />之前的 visible 属性设置为<b>True</b>的命令栏的属性必须设置为<b>True</b> 。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public int Width { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Width" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CommandBarButton.Width" />
+      <MemberSignature Language="VB.NET" Value="Public Property Width As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Width { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.CommandBarControl.Width</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610874923)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610874923)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610874923)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置指定的命令栏控件的宽度 （以像素为单位）。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

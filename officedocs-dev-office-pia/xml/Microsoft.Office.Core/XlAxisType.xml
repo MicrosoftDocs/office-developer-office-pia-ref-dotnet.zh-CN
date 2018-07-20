@@ -1,0 +1,93 @@
+<Type Name="XlAxisType" FullName="Microsoft.Office.Core.XlAxisType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="03774cf7d5867be835a9ee3a65070965d5e3ca5d" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657393" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlAxisType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlAxisType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlAxisType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlAxisType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlAxisType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("23D8FDAA-ABF3-4735-99B8-F234EA2BE64C")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定坐标轴类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlCategory">
+      <MemberSignature Language="C#" Value="xlCategory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlAxisType xlCategory = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlAxisType.xlCategory" />
+      <MemberSignature Language="VB.NET" Value="xlCategory" />
+      <MemberSignature Language="C++ CLI" Value="xlCategory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlAxisType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  坐标轴显示类别。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlSeriesAxis">
+      <MemberSignature Language="C#" Value="xlSeriesAxis" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlAxisType xlSeriesAxis = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlAxisType.xlSeriesAxis" />
+      <MemberSignature Language="VB.NET" Value="xlSeriesAxis" />
+      <MemberSignature Language="C++ CLI" Value="xlSeriesAxis" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlAxisType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  坐标轴显示数据系列。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlValue">
+      <MemberSignature Language="C#" Value="xlValue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlAxisType xlValue = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlAxisType.xlValue" />
+      <MemberSignature Language="VB.NET" Value="xlValue" />
+      <MemberSignature Language="C++ CLI" Value="xlValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlAxisType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  坐标轴显示值。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

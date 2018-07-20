@@ -1,0 +1,3524 @@
+<Type Name="MsoAutoShapeType" FullName="Microsoft.Office.Core.MsoAutoShapeType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a05ac2c8ecb9d1c218001213b2128f8761649120" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657756" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoAutoShapeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoAutoShapeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoAutoShapeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoAutoShapeType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoAutoShapeType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定 <b>AutoShape</b> 对象的形状类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoShape10pointStar">
+      <MemberSignature Language="C#" Value="msoShape10pointStar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShape10pointStar = int32(149)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShape10pointStar" />
+      <MemberSignature Language="VB.NET" Value="msoShape10pointStar" />
+      <MemberSignature Language="C++ CLI" Value="msoShape10pointStar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>149</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShape12pointStar">
+      <MemberSignature Language="C#" Value="msoShape12pointStar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShape12pointStar = int32(150)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShape12pointStar" />
+      <MemberSignature Language="VB.NET" Value="msoShape12pointStar" />
+      <MemberSignature Language="C++ CLI" Value="msoShape12pointStar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>150</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShape16pointStar">
+      <MemberSignature Language="C#" Value="msoShape16pointStar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShape16pointStar = int32(94)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShape16pointStar" />
+      <MemberSignature Language="VB.NET" Value="msoShape16pointStar" />
+      <MemberSignature Language="C++ CLI" Value="msoShape16pointStar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>94</MemberValue>
+      <Docs>
+        <summary>十六角星。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShape24pointStar">
+      <MemberSignature Language="C#" Value="msoShape24pointStar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShape24pointStar = int32(95)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShape24pointStar" />
+      <MemberSignature Language="VB.NET" Value="msoShape24pointStar" />
+      <MemberSignature Language="C++ CLI" Value="msoShape24pointStar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>95</MemberValue>
+      <Docs>
+        <summary>二十四角星。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShape32pointStar">
+      <MemberSignature Language="C#" Value="msoShape32pointStar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShape32pointStar = int32(96)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShape32pointStar" />
+      <MemberSignature Language="VB.NET" Value="msoShape32pointStar" />
+      <MemberSignature Language="C++ CLI" Value="msoShape32pointStar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>96</MemberValue>
+      <Docs>
+        <summary>三十二角星。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShape4pointStar">
+      <MemberSignature Language="C#" Value="msoShape4pointStar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShape4pointStar = int32(91)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShape4pointStar" />
+      <MemberSignature Language="VB.NET" Value="msoShape4pointStar" />
+      <MemberSignature Language="C++ CLI" Value="msoShape4pointStar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>91</MemberValue>
+      <Docs>
+        <summary>四角星。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShape5pointStar">
+      <MemberSignature Language="C#" Value="msoShape5pointStar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShape5pointStar = int32(92)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShape5pointStar" />
+      <MemberSignature Language="VB.NET" Value="msoShape5pointStar" />
+      <MemberSignature Language="C++ CLI" Value="msoShape5pointStar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>92</MemberValue>
+      <Docs>
+        <summary>五角星。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShape6pointStar">
+      <MemberSignature Language="C#" Value="msoShape6pointStar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShape6pointStar = int32(147)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShape6pointStar" />
+      <MemberSignature Language="VB.NET" Value="msoShape6pointStar" />
+      <MemberSignature Language="C++ CLI" Value="msoShape6pointStar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>147</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShape7pointStar">
+      <MemberSignature Language="C#" Value="msoShape7pointStar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShape7pointStar = int32(148)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShape7pointStar" />
+      <MemberSignature Language="VB.NET" Value="msoShape7pointStar" />
+      <MemberSignature Language="C++ CLI" Value="msoShape7pointStar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>148</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShape8pointStar">
+      <MemberSignature Language="C#" Value="msoShape8pointStar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShape8pointStar = int32(93)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShape8pointStar" />
+      <MemberSignature Language="VB.NET" Value="msoShape8pointStar" />
+      <MemberSignature Language="C++ CLI" Value="msoShape8pointStar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>93</MemberValue>
+      <Docs>
+        <summary>八角星。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeActionButtonBackorPrevious">
+      <MemberSignature Language="C#" Value="msoShapeActionButtonBackorPrevious" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeActionButtonBackorPrevious = int32(129)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeActionButtonBackorPrevious" />
+      <MemberSignature Language="VB.NET" Value="msoShapeActionButtonBackorPrevious" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeActionButtonBackorPrevious" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>129</MemberValue>
+      <Docs>
+        <summary>“后退”或“上一个”按钮。支持鼠标单击和鼠标移过操作。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeActionButtonBeginning">
+      <MemberSignature Language="C#" Value="msoShapeActionButtonBeginning" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeActionButtonBeginning = int32(131)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeActionButtonBeginning" />
+      <MemberSignature Language="VB.NET" Value="msoShapeActionButtonBeginning" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeActionButtonBeginning" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>131</MemberValue>
+      <Docs>
+        <summary>“开始”按钮。支持鼠标单击和鼠标移过操作。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeActionButtonCustom">
+      <MemberSignature Language="C#" Value="msoShapeActionButtonCustom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeActionButtonCustom = int32(125)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeActionButtonCustom" />
+      <MemberSignature Language="VB.NET" Value="msoShapeActionButtonCustom" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeActionButtonCustom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>125</MemberValue>
+      <Docs>
+        <summary>不带默认图片或文本的按钮。支持鼠标单击和鼠标移过操作。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeActionButtonDocument">
+      <MemberSignature Language="C#" Value="msoShapeActionButtonDocument" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeActionButtonDocument = int32(134)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeActionButtonDocument" />
+      <MemberSignature Language="VB.NET" Value="msoShapeActionButtonDocument" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeActionButtonDocument" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>134</MemberValue>
+      <Docs>
+        <summary>“文档”按钮。支持鼠标单击和鼠标移过操作。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeActionButtonEnd">
+      <MemberSignature Language="C#" Value="msoShapeActionButtonEnd" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeActionButtonEnd = int32(132)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeActionButtonEnd" />
+      <MemberSignature Language="VB.NET" Value="msoShapeActionButtonEnd" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeActionButtonEnd" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>132</MemberValue>
+      <Docs>
+        <summary>“结束”按钮。支持鼠标单击和鼠标移过操作。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeActionButtonForwardorNext">
+      <MemberSignature Language="C#" Value="msoShapeActionButtonForwardorNext" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeActionButtonForwardorNext = int32(130)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeActionButtonForwardorNext" />
+      <MemberSignature Language="VB.NET" Value="msoShapeActionButtonForwardorNext" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeActionButtonForwardorNext" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>130</MemberValue>
+      <Docs>
+        <summary>“前进”或“下一个”按钮。支持鼠标单击和鼠标移过操作。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeActionButtonHelp">
+      <MemberSignature Language="C#" Value="msoShapeActionButtonHelp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeActionButtonHelp = int32(127)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeActionButtonHelp" />
+      <MemberSignature Language="VB.NET" Value="msoShapeActionButtonHelp" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeActionButtonHelp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>127</MemberValue>
+      <Docs>
+        <summary>帮助按钮。支持鼠标单击和鼠标移过操作。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeActionButtonHome">
+      <MemberSignature Language="C#" Value="msoShapeActionButtonHome" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeActionButtonHome = int32(126)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeActionButtonHome" />
+      <MemberSignature Language="VB.NET" Value="msoShapeActionButtonHome" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeActionButtonHome" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>126</MemberValue>
+      <Docs>
+        <summary>“主页”按钮。支持鼠标单击和鼠标移过操作。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeActionButtonInformation">
+      <MemberSignature Language="C#" Value="msoShapeActionButtonInformation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeActionButtonInformation = int32(128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeActionButtonInformation" />
+      <MemberSignature Language="VB.NET" Value="msoShapeActionButtonInformation" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeActionButtonInformation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>“信息”按钮。支持鼠标单击和鼠标移过操作。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeActionButtonMovie">
+      <MemberSignature Language="C#" Value="msoShapeActionButtonMovie" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeActionButtonMovie = int32(136)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeActionButtonMovie" />
+      <MemberSignature Language="VB.NET" Value="msoShapeActionButtonMovie" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeActionButtonMovie" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>136</MemberValue>
+      <Docs>
+        <summary>“影片”按钮。支持鼠标单击和鼠标移过操作。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeActionButtonReturn">
+      <MemberSignature Language="C#" Value="msoShapeActionButtonReturn" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeActionButtonReturn = int32(133)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeActionButtonReturn" />
+      <MemberSignature Language="VB.NET" Value="msoShapeActionButtonReturn" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeActionButtonReturn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>133</MemberValue>
+      <Docs>
+        <summary>“返回”按钮。支持鼠标单击和鼠标移过操作。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeActionButtonSound">
+      <MemberSignature Language="C#" Value="msoShapeActionButtonSound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeActionButtonSound = int32(135)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeActionButtonSound" />
+      <MemberSignature Language="VB.NET" Value="msoShapeActionButtonSound" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeActionButtonSound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>135</MemberValue>
+      <Docs>
+        <summary>“声音”按钮。支持鼠标单击和鼠标移过操作。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeArc">
+      <MemberSignature Language="C#" Value="msoShapeArc" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeArc = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeArc" />
+      <MemberSignature Language="VB.NET" Value="msoShapeArc" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeArc" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>弧形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeBalloon">
+      <MemberSignature Language="C#" Value="msoShapeBalloon" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeBalloon = int32(137)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeBalloon" />
+      <MemberSignature Language="VB.NET" Value="msoShapeBalloon" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeBalloon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>137</MemberValue>
+      <Docs>
+        <summary>气球。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeBentArrow">
+      <MemberSignature Language="C#" Value="msoShapeBentArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeBentArrow = int32(41)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeBentArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeBentArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeBentArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>41</MemberValue>
+      <Docs>
+        <summary>带 90 度圆角的箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeBentUpArrow">
+      <MemberSignature Language="C#" Value="msoShapeBentUpArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeBentUpArrow = int32(44)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeBentUpArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeBentUpArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeBentUpArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>44</MemberValue>
+      <Docs>
+        <summary>带 90 度直角的箭头。默认情况下上指。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeBevel">
+      <MemberSignature Language="C#" Value="msoShapeBevel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeBevel = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeBevel" />
+      <MemberSignature Language="VB.NET" Value="msoShapeBevel" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeBevel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>凹凸效果。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeBlockArc">
+      <MemberSignature Language="C#" Value="msoShapeBlockArc" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeBlockArc = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeBlockArc" />
+      <MemberSignature Language="VB.NET" Value="msoShapeBlockArc" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeBlockArc" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>空心弧。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeCan">
+      <MemberSignature Language="C#" Value="msoShapeCan" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeCan = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeCan" />
+      <MemberSignature Language="VB.NET" Value="msoShapeCan" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeCan" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>圆柱形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeChartPlus">
+      <MemberSignature Language="C#" Value="msoShapeChartPlus" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeChartPlus = int32(182)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeChartPlus" />
+      <MemberSignature Language="VB.NET" Value="msoShapeChartPlus" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeChartPlus" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>182</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeChartStar">
+      <MemberSignature Language="C#" Value="msoShapeChartStar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeChartStar = int32(181)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeChartStar" />
+      <MemberSignature Language="VB.NET" Value="msoShapeChartStar" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeChartStar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>181</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeChartX">
+      <MemberSignature Language="C#" Value="msoShapeChartX" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeChartX = int32(180)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeChartX" />
+      <MemberSignature Language="VB.NET" Value="msoShapeChartX" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeChartX" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>180</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeChevron">
+      <MemberSignature Language="C#" Value="msoShapeChevron" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeChevron = int32(52)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeChevron" />
+      <MemberSignature Language="VB.NET" Value="msoShapeChevron" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeChevron" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>52</MemberValue>
+      <Docs>
+        <summary>V 形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeChord">
+      <MemberSignature Language="C#" Value="msoShapeChord" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeChord = int32(161)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeChord" />
+      <MemberSignature Language="VB.NET" Value="msoShapeChord" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeChord" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>161</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeCircularArrow">
+      <MemberSignature Language="C#" Value="msoShapeCircularArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeCircularArrow = int32(60)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeCircularArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeCircularArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeCircularArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>60</MemberValue>
+      <Docs>
+        <summary>带 180 度圆角的箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeCloud">
+      <MemberSignature Language="C#" Value="msoShapeCloud" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeCloud = int32(179)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeCloud" />
+      <MemberSignature Language="VB.NET" Value="msoShapeCloud" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeCloud" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>179</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeCloudCallout">
+      <MemberSignature Language="C#" Value="msoShapeCloudCallout" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeCloudCallout = int32(108)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeCloudCallout" />
+      <MemberSignature Language="VB.NET" Value="msoShapeCloudCallout" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeCloudCallout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>108</MemberValue>
+      <Docs>
+        <summary>云形标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeCorner">
+      <MemberSignature Language="C#" Value="msoShapeCorner" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeCorner = int32(162)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeCorner" />
+      <MemberSignature Language="VB.NET" Value="msoShapeCorner" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeCorner" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>162</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeCornerTabs">
+      <MemberSignature Language="C#" Value="msoShapeCornerTabs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeCornerTabs = int32(169)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeCornerTabs" />
+      <MemberSignature Language="VB.NET" Value="msoShapeCornerTabs" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeCornerTabs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>169</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeCross">
+      <MemberSignature Language="C#" Value="msoShapeCross" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeCross = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeCross" />
+      <MemberSignature Language="VB.NET" Value="msoShapeCross" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeCross" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>十字形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeCube">
+      <MemberSignature Language="C#" Value="msoShapeCube" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeCube = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeCube" />
+      <MemberSignature Language="VB.NET" Value="msoShapeCube" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeCube" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>立方。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeCurvedDownArrow">
+      <MemberSignature Language="C#" Value="msoShapeCurvedDownArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeCurvedDownArrow = int32(48)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeCurvedDownArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeCurvedDownArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeCurvedDownArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>48</MemberValue>
+      <Docs>
+        <summary>上弧形箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeCurvedDownRibbon">
+      <MemberSignature Language="C#" Value="msoShapeCurvedDownRibbon" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeCurvedDownRibbon = int32(100)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeCurvedDownRibbon" />
+      <MemberSignature Language="VB.NET" Value="msoShapeCurvedDownRibbon" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeCurvedDownRibbon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>100</MemberValue>
+      <Docs>
+        <summary>下凸弯带形横幅。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeCurvedLeftArrow">
+      <MemberSignature Language="C#" Value="msoShapeCurvedLeftArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeCurvedLeftArrow = int32(46)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeCurvedLeftArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeCurvedLeftArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeCurvedLeftArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>46</MemberValue>
+      <Docs>
+        <summary>右弧形箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeCurvedRightArrow">
+      <MemberSignature Language="C#" Value="msoShapeCurvedRightArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeCurvedRightArrow = int32(45)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeCurvedRightArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeCurvedRightArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeCurvedRightArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>45</MemberValue>
+      <Docs>
+        <summary>左弧形箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeCurvedUpArrow">
+      <MemberSignature Language="C#" Value="msoShapeCurvedUpArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeCurvedUpArrow = int32(47)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeCurvedUpArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeCurvedUpArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeCurvedUpArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>47</MemberValue>
+      <Docs>
+        <summary>下弧形箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeCurvedUpRibbon">
+      <MemberSignature Language="C#" Value="msoShapeCurvedUpRibbon" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeCurvedUpRibbon = int32(99)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeCurvedUpRibbon" />
+      <MemberSignature Language="VB.NET" Value="msoShapeCurvedUpRibbon" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeCurvedUpRibbon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>99</MemberValue>
+      <Docs>
+        <summary>上凸弯带形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeDecagon">
+      <MemberSignature Language="C#" Value="msoShapeDecagon" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeDecagon = int32(144)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeDecagon" />
+      <MemberSignature Language="VB.NET" Value="msoShapeDecagon" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeDecagon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>144</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeDiagonalStripe">
+      <MemberSignature Language="C#" Value="msoShapeDiagonalStripe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeDiagonalStripe = int32(141)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeDiagonalStripe" />
+      <MemberSignature Language="VB.NET" Value="msoShapeDiagonalStripe" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeDiagonalStripe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>141</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeDiamond">
+      <MemberSignature Language="C#" Value="msoShapeDiamond" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeDiamond = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeDiamond" />
+      <MemberSignature Language="VB.NET" Value="msoShapeDiamond" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeDiamond" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>菱形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeDodecagon">
+      <MemberSignature Language="C#" Value="msoShapeDodecagon" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeDodecagon = int32(146)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeDodecagon" />
+      <MemberSignature Language="VB.NET" Value="msoShapeDodecagon" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeDodecagon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>146</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeDonut">
+      <MemberSignature Language="C#" Value="msoShapeDonut" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeDonut = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeDonut" />
+      <MemberSignature Language="VB.NET" Value="msoShapeDonut" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeDonut" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>环形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeDoubleBrace">
+      <MemberSignature Language="C#" Value="msoShapeDoubleBrace" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeDoubleBrace = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeDoubleBrace" />
+      <MemberSignature Language="VB.NET" Value="msoShapeDoubleBrace" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeDoubleBrace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary>双大括号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeDoubleBracket">
+      <MemberSignature Language="C#" Value="msoShapeDoubleBracket" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeDoubleBracket = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeDoubleBracket" />
+      <MemberSignature Language="VB.NET" Value="msoShapeDoubleBracket" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeDoubleBracket" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>双括号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeDoubleWave">
+      <MemberSignature Language="C#" Value="msoShapeDoubleWave" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeDoubleWave = int32(104)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeDoubleWave" />
+      <MemberSignature Language="VB.NET" Value="msoShapeDoubleWave" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeDoubleWave" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>104</MemberValue>
+      <Docs>
+        <summary>双波形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeDownArrow">
+      <MemberSignature Language="C#" Value="msoShapeDownArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeDownArrow = int32(36)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeDownArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeDownArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeDownArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>36</MemberValue>
+      <Docs>
+        <summary>下箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeDownArrowCallout">
+      <MemberSignature Language="C#" Value="msoShapeDownArrowCallout" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeDownArrowCallout = int32(56)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeDownArrowCallout" />
+      <MemberSignature Language="VB.NET" Value="msoShapeDownArrowCallout" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeDownArrowCallout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>56</MemberValue>
+      <Docs>
+        <summary>带下箭头的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeDownRibbon">
+      <MemberSignature Language="C#" Value="msoShapeDownRibbon" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeDownRibbon = int32(98)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeDownRibbon" />
+      <MemberSignature Language="VB.NET" Value="msoShapeDownRibbon" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeDownRibbon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>98</MemberValue>
+      <Docs>
+        <summary>中心区域位于弯带末端下方的弯带形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeExplosion1">
+      <MemberSignature Language="C#" Value="msoShapeExplosion1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeExplosion1 = int32(89)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeExplosion1" />
+      <MemberSignature Language="VB.NET" Value="msoShapeExplosion1" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeExplosion1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>89</MemberValue>
+      <Docs>
+        <summary>爆炸形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeExplosion2">
+      <MemberSignature Language="C#" Value="msoShapeExplosion2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeExplosion2 = int32(90)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeExplosion2" />
+      <MemberSignature Language="VB.NET" Value="msoShapeExplosion2" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeExplosion2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>90</MemberValue>
+      <Docs>
+        <summary>爆炸形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartAlternateProcess">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartAlternateProcess" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartAlternateProcess = int32(62)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartAlternateProcess" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartAlternateProcess" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartAlternateProcess" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>62</MemberValue>
+      <Docs>
+        <summary>其他过程流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartCard">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartCard" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartCard = int32(75)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartCard" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartCard" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartCard" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>75</MemberValue>
+      <Docs>
+        <summary>资料卡流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartCollate">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartCollate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartCollate = int32(79)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartCollate" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartCollate" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartCollate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>79</MemberValue>
+      <Docs>
+        <summary>对照流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartConnector">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartConnector" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartConnector = int32(73)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartConnector" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartConnector" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartConnector" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>73</MemberValue>
+      <Docs>
+        <summary>联系流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartData">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartData" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartData = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartData" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartData" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartData" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>数据流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartDecision">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartDecision" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartDecision = int32(63)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartDecision" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartDecision" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartDecision" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>63</MemberValue>
+      <Docs>
+        <summary>决策流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartDelay">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartDelay" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartDelay = int32(84)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartDelay" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartDelay" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartDelay" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>84</MemberValue>
+      <Docs>
+        <summary>延期流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartDirectAccessStorage">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartDirectAccessStorage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartDirectAccessStorage = int32(87)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartDirectAccessStorage" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartDirectAccessStorage" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartDirectAccessStorage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>87</MemberValue>
+      <Docs>
+        <summary>磁鼓流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartDisplay">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartDisplay" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartDisplay = int32(88)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartDisplay" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartDisplay" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartDisplay" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>88</MemberValue>
+      <Docs>
+        <summary>显示流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartDocument">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartDocument" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartDocument = int32(67)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartDocument" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartDocument" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartDocument" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>67</MemberValue>
+      <Docs>
+        <summary>文档流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartExtract">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartExtract" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartExtract = int32(81)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartExtract" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartExtract" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartExtract" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>81</MemberValue>
+      <Docs>
+        <summary>摘录流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartInternalStorage">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartInternalStorage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartInternalStorage = int32(66)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartInternalStorage" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartInternalStorage" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartInternalStorage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>66</MemberValue>
+      <Docs>
+        <summary>内部贮存流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartMagneticDisk">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartMagneticDisk" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartMagneticDisk = int32(86)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartMagneticDisk" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartMagneticDisk" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartMagneticDisk" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>86</MemberValue>
+      <Docs>
+        <summary>磁盘流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartManualInput">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartManualInput" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartManualInput = int32(71)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartManualInput" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartManualInput" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartManualInput" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>71</MemberValue>
+      <Docs>
+        <summary>手动输入流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartManualOperation">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartManualOperation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartManualOperation = int32(72)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartManualOperation" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartManualOperation" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartManualOperation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>72</MemberValue>
+      <Docs>
+        <summary>手动操作流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartMerge">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartMerge" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartMerge = int32(82)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartMerge" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartMerge" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartMerge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>82</MemberValue>
+      <Docs>
+        <summary>合并流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartMultidocument">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartMultidocument" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartMultidocument = int32(68)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartMultidocument" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartMultidocument" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartMultidocument" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>68</MemberValue>
+      <Docs>
+        <summary>多文档流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartOfflineStorage">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartOfflineStorage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartOfflineStorage = int32(139)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartOfflineStorage" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartOfflineStorage" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartOfflineStorage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>139</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartOffpageConnector">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartOffpageConnector" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartOffpageConnector = int32(74)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartOffpageConnector" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartOffpageConnector" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartOffpageConnector" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>74</MemberValue>
+      <Docs>
+        <summary>离页连接符流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartOr">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartOr" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartOr = int32(78)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartOr" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartOr" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartOr" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>78</MemberValue>
+      <Docs>
+        <summary>“或者”流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartPredefinedProcess">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartPredefinedProcess" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartPredefinedProcess = int32(65)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartPredefinedProcess" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartPredefinedProcess" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartPredefinedProcess" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>65</MemberValue>
+      <Docs>
+        <summary>预定义过程流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartPreparation">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartPreparation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartPreparation = int32(70)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartPreparation" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartPreparation" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartPreparation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>70</MemberValue>
+      <Docs>
+        <summary>准备流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartProcess">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartProcess" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartProcess = int32(61)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartProcess" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartProcess" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartProcess" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>61</MemberValue>
+      <Docs>
+        <summary>过程流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartPunchedTape">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartPunchedTape" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartPunchedTape = int32(76)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartPunchedTape" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartPunchedTape" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartPunchedTape" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>76</MemberValue>
+      <Docs>
+        <summary>资料带流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartSequentialAccessStorage">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartSequentialAccessStorage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartSequentialAccessStorage = int32(85)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartSequentialAccessStorage" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartSequentialAccessStorage" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartSequentialAccessStorage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>85</MemberValue>
+      <Docs>
+        <summary>磁带流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartSort">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartSort" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartSort = int32(80)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartSort" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartSort" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartSort" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>80</MemberValue>
+      <Docs>
+        <summary>排序流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartStoredData">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartStoredData" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartStoredData = int32(83)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartStoredData" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartStoredData" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartStoredData" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>83</MemberValue>
+      <Docs>
+        <summary>库存数据流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartSummingJunction">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartSummingJunction" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartSummingJunction = int32(77)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartSummingJunction" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartSummingJunction" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartSummingJunction" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>77</MemberValue>
+      <Docs>
+        <summary>汇总连接流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFlowchartTerminator">
+      <MemberSignature Language="C#" Value="msoShapeFlowchartTerminator" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFlowchartTerminator = int32(69)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFlowchartTerminator" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFlowchartTerminator" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFlowchartTerminator" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>69</MemberValue>
+      <Docs>
+        <summary>终止流程图符号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFoldedCorner">
+      <MemberSignature Language="C#" Value="msoShapeFoldedCorner" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFoldedCorner = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFoldedCorner" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFoldedCorner" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFoldedCorner" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>折角形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFrame">
+      <MemberSignature Language="C#" Value="msoShapeFrame" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFrame = int32(158)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFrame" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFrame" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFrame" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>158</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeFunnel">
+      <MemberSignature Language="C#" Value="msoShapeFunnel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeFunnel = int32(174)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeFunnel" />
+      <MemberSignature Language="VB.NET" Value="msoShapeFunnel" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeFunnel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>174</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeGear6">
+      <MemberSignature Language="C#" Value="msoShapeGear6" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeGear6 = int32(172)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeGear6" />
+      <MemberSignature Language="VB.NET" Value="msoShapeGear6" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeGear6" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>172</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeGear9">
+      <MemberSignature Language="C#" Value="msoShapeGear9" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeGear9 = int32(173)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeGear9" />
+      <MemberSignature Language="VB.NET" Value="msoShapeGear9" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeGear9" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>173</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeHalfFrame">
+      <MemberSignature Language="C#" Value="msoShapeHalfFrame" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeHalfFrame = int32(159)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeHalfFrame" />
+      <MemberSignature Language="VB.NET" Value="msoShapeHalfFrame" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeHalfFrame" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>159</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeHeart">
+      <MemberSignature Language="C#" Value="msoShapeHeart" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeHeart = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeHeart" />
+      <MemberSignature Language="VB.NET" Value="msoShapeHeart" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeHeart" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>心形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeHeptagon">
+      <MemberSignature Language="C#" Value="msoShapeHeptagon" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeHeptagon = int32(145)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeHeptagon" />
+      <MemberSignature Language="VB.NET" Value="msoShapeHeptagon" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeHeptagon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>145</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeHexagon">
+      <MemberSignature Language="C#" Value="msoShapeHexagon" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeHexagon = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeHexagon" />
+      <MemberSignature Language="VB.NET" Value="msoShapeHexagon" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeHexagon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>六边形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeHorizontalScroll">
+      <MemberSignature Language="C#" Value="msoShapeHorizontalScroll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeHorizontalScroll = int32(102)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeHorizontalScroll" />
+      <MemberSignature Language="VB.NET" Value="msoShapeHorizontalScroll" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeHorizontalScroll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>102</MemberValue>
+      <Docs>
+        <summary>横卷形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeIsoscelesTriangle">
+      <MemberSignature Language="C#" Value="msoShapeIsoscelesTriangle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeIsoscelesTriangle = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeIsoscelesTriangle" />
+      <MemberSignature Language="VB.NET" Value="msoShapeIsoscelesTriangle" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeIsoscelesTriangle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>等腰三角形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLeftArrow">
+      <MemberSignature Language="C#" Value="msoShapeLeftArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLeftArrow = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLeftArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLeftArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLeftArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary>左箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLeftArrowCallout">
+      <MemberSignature Language="C#" Value="msoShapeLeftArrowCallout" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLeftArrowCallout = int32(54)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLeftArrowCallout" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLeftArrowCallout" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLeftArrowCallout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>54</MemberValue>
+      <Docs>
+        <summary>带左箭头的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLeftBrace">
+      <MemberSignature Language="C#" Value="msoShapeLeftBrace" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLeftBrace = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLeftBrace" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLeftBrace" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLeftBrace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary>左大括号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLeftBracket">
+      <MemberSignature Language="C#" Value="msoShapeLeftBracket" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLeftBracket = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLeftBracket" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLeftBracket" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLeftBracket" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary>左括号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLeftCircularArrow">
+      <MemberSignature Language="C#" Value="msoShapeLeftCircularArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLeftCircularArrow = int32(176)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLeftCircularArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLeftCircularArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLeftCircularArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>176</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLeftRightArrow">
+      <MemberSignature Language="C#" Value="msoShapeLeftRightArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLeftRightArrow = int32(37)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLeftRightArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLeftRightArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLeftRightArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>37</MemberValue>
+      <Docs>
+        <summary>左右双向箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLeftRightArrowCallout">
+      <MemberSignature Language="C#" Value="msoShapeLeftRightArrowCallout" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLeftRightArrowCallout = int32(57)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLeftRightArrowCallout" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLeftRightArrowCallout" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLeftRightArrowCallout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>57</MemberValue>
+      <Docs>
+        <summary>带左右双向箭头的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLeftRightCircularArrow">
+      <MemberSignature Language="C#" Value="msoShapeLeftRightCircularArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLeftRightCircularArrow = int32(177)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLeftRightCircularArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLeftRightCircularArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLeftRightCircularArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>177</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLeftRightRibbon">
+      <MemberSignature Language="C#" Value="msoShapeLeftRightRibbon" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLeftRightRibbon = int32(140)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLeftRightRibbon" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLeftRightRibbon" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLeftRightRibbon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>140</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLeftRightUpArrow">
+      <MemberSignature Language="C#" Value="msoShapeLeftRightUpArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLeftRightUpArrow = int32(40)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLeftRightUpArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLeftRightUpArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLeftRightUpArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>40</MemberValue>
+      <Docs>
+        <summary>左右上三向箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLeftUpArrow">
+      <MemberSignature Language="C#" Value="msoShapeLeftUpArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLeftUpArrow = int32(43)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLeftUpArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLeftUpArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLeftUpArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>43</MemberValue>
+      <Docs>
+        <summary>左上双向箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLightningBolt">
+      <MemberSignature Language="C#" Value="msoShapeLightningBolt" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLightningBolt = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLightningBolt" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLightningBolt" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLightningBolt" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>闪电形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLineCallout1">
+      <MemberSignature Language="C#" Value="msoShapeLineCallout1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLineCallout1 = int32(109)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLineCallout1" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLineCallout1" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLineCallout1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>109</MemberValue>
+      <Docs>
+        <summary>带边框和水平标注线的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLineCallout1AccentBar">
+      <MemberSignature Language="C#" Value="msoShapeLineCallout1AccentBar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLineCallout1AccentBar = int32(113)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLineCallout1AccentBar" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLineCallout1AccentBar" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLineCallout1AccentBar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>113</MemberValue>
+      <Docs>
+        <summary>带水平强调线的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLineCallout1BorderandAccentBar">
+      <MemberSignature Language="C#" Value="msoShapeLineCallout1BorderandAccentBar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLineCallout1BorderandAccentBar = int32(121)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLineCallout1BorderandAccentBar" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLineCallout1BorderandAccentBar" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLineCallout1BorderandAccentBar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>121</MemberValue>
+      <Docs>
+        <summary>带边框和水平强调线的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLineCallout1NoBorder">
+      <MemberSignature Language="C#" Value="msoShapeLineCallout1NoBorder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLineCallout1NoBorder = int32(117)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLineCallout1NoBorder" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLineCallout1NoBorder" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLineCallout1NoBorder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>117</MemberValue>
+      <Docs>
+        <summary>带水平线的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLineCallout2">
+      <MemberSignature Language="C#" Value="msoShapeLineCallout2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLineCallout2 = int32(110)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLineCallout2" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLineCallout2" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLineCallout2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>110</MemberValue>
+      <Docs>
+        <summary>带对角直线的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLineCallout2AccentBar">
+      <MemberSignature Language="C#" Value="msoShapeLineCallout2AccentBar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLineCallout2AccentBar = int32(114)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLineCallout2AccentBar" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLineCallout2AccentBar" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLineCallout2AccentBar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>114</MemberValue>
+      <Docs>
+        <summary>带对角标注线和强调线的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLineCallout2BorderandAccentBar">
+      <MemberSignature Language="C#" Value="msoShapeLineCallout2BorderandAccentBar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLineCallout2BorderandAccentBar = int32(122)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLineCallout2BorderandAccentBar" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLineCallout2BorderandAccentBar" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLineCallout2BorderandAccentBar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>122</MemberValue>
+      <Docs>
+        <summary>带边框、对角直线和强调线的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLineCallout2NoBorder">
+      <MemberSignature Language="C#" Value="msoShapeLineCallout2NoBorder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLineCallout2NoBorder = int32(118)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLineCallout2NoBorder" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLineCallout2NoBorder" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLineCallout2NoBorder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>118</MemberValue>
+      <Docs>
+        <summary>不带边框和对角标注线的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLineCallout3">
+      <MemberSignature Language="C#" Value="msoShapeLineCallout3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLineCallout3 = int32(111)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLineCallout3" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLineCallout3" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLineCallout3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>111</MemberValue>
+      <Docs>
+        <summary>带倾斜线的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLineCallout3AccentBar">
+      <MemberSignature Language="C#" Value="msoShapeLineCallout3AccentBar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLineCallout3AccentBar = int32(115)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLineCallout3AccentBar" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLineCallout3AccentBar" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLineCallout3AccentBar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>115</MemberValue>
+      <Docs>
+        <summary>带倾斜标注线和强调线的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLineCallout3BorderandAccentBar">
+      <MemberSignature Language="C#" Value="msoShapeLineCallout3BorderandAccentBar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLineCallout3BorderandAccentBar = int32(123)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLineCallout3BorderandAccentBar" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLineCallout3BorderandAccentBar" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLineCallout3BorderandAccentBar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>123</MemberValue>
+      <Docs>
+        <summary>带边框、倾斜标注线和强调线的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLineCallout3NoBorder">
+      <MemberSignature Language="C#" Value="msoShapeLineCallout3NoBorder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLineCallout3NoBorder = int32(119)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLineCallout3NoBorder" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLineCallout3NoBorder" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLineCallout3NoBorder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>119</MemberValue>
+      <Docs>
+        <summary>不带边框和倾斜标注线的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLineCallout4">
+      <MemberSignature Language="C#" Value="msoShapeLineCallout4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLineCallout4 = int32(112)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLineCallout4" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLineCallout4" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLineCallout4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>112</MemberValue>
+      <Docs>
+        <summary>带 U 型标注线段的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLineCallout4AccentBar">
+      <MemberSignature Language="C#" Value="msoShapeLineCallout4AccentBar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLineCallout4AccentBar = int32(116)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLineCallout4AccentBar" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLineCallout4AccentBar" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLineCallout4AccentBar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>116</MemberValue>
+      <Docs>
+        <summary>带强调线和 U 型标注线段的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLineCallout4BorderandAccentBar">
+      <MemberSignature Language="C#" Value="msoShapeLineCallout4BorderandAccentBar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLineCallout4BorderandAccentBar = int32(124)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLineCallout4BorderandAccentBar" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLineCallout4BorderandAccentBar" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLineCallout4BorderandAccentBar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>124</MemberValue>
+      <Docs>
+        <summary>带边框、强调线和 U 型标注线段的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLineCallout4NoBorder">
+      <MemberSignature Language="C#" Value="msoShapeLineCallout4NoBorder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLineCallout4NoBorder = int32(120)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLineCallout4NoBorder" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLineCallout4NoBorder" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLineCallout4NoBorder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>120</MemberValue>
+      <Docs>
+        <summary>不带边框和 U 型标注线段的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeLineInverse">
+      <MemberSignature Language="C#" Value="msoShapeLineInverse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeLineInverse = int32(183)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeLineInverse" />
+      <MemberSignature Language="VB.NET" Value="msoShapeLineInverse" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeLineInverse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>183</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeMathDivide">
+      <MemberSignature Language="C#" Value="msoShapeMathDivide" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeMathDivide = int32(166)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeMathDivide" />
+      <MemberSignature Language="VB.NET" Value="msoShapeMathDivide" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeMathDivide" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>166</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeMathEqual">
+      <MemberSignature Language="C#" Value="msoShapeMathEqual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeMathEqual = int32(167)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeMathEqual" />
+      <MemberSignature Language="VB.NET" Value="msoShapeMathEqual" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeMathEqual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>167</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeMathMinus">
+      <MemberSignature Language="C#" Value="msoShapeMathMinus" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeMathMinus = int32(164)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeMathMinus" />
+      <MemberSignature Language="VB.NET" Value="msoShapeMathMinus" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeMathMinus" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>164</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeMathMultiply">
+      <MemberSignature Language="C#" Value="msoShapeMathMultiply" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeMathMultiply = int32(165)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeMathMultiply" />
+      <MemberSignature Language="VB.NET" Value="msoShapeMathMultiply" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeMathMultiply" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>165</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeMathNotEqual">
+      <MemberSignature Language="C#" Value="msoShapeMathNotEqual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeMathNotEqual = int32(168)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeMathNotEqual" />
+      <MemberSignature Language="VB.NET" Value="msoShapeMathNotEqual" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeMathNotEqual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>168</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeMathPlus">
+      <MemberSignature Language="C#" Value="msoShapeMathPlus" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeMathPlus = int32(163)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeMathPlus" />
+      <MemberSignature Language="VB.NET" Value="msoShapeMathPlus" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeMathPlus" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>163</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeMixed">
+      <MemberSignature Language="C#" Value="msoShapeMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeMixed" />
+      <MemberSignature Language="VB.NET" Value="msoShapeMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>只返回值，表示其他状态的组合。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeMoon">
+      <MemberSignature Language="C#" Value="msoShapeMoon" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeMoon = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeMoon" />
+      <MemberSignature Language="VB.NET" Value="msoShapeMoon" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeMoon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>新月形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeNonIsoscelesTrapezoid">
+      <MemberSignature Language="C#" Value="msoShapeNonIsoscelesTrapezoid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeNonIsoscelesTrapezoid = int32(143)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeNonIsoscelesTrapezoid" />
+      <MemberSignature Language="VB.NET" Value="msoShapeNonIsoscelesTrapezoid" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeNonIsoscelesTrapezoid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>143</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeNoSymbol">
+      <MemberSignature Language="C#" Value="msoShapeNoSymbol" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeNoSymbol = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeNoSymbol" />
+      <MemberSignature Language="VB.NET" Value="msoShapeNoSymbol" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeNoSymbol" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>禁止符。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeNotchedRightArrow">
+      <MemberSignature Language="C#" Value="msoShapeNotchedRightArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeNotchedRightArrow = int32(50)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeNotchedRightArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeNotchedRightArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeNotchedRightArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>50</MemberValue>
+      <Docs>
+        <summary>燕尾形右箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeNotPrimitive">
+      <MemberSignature Language="C#" Value="msoShapeNotPrimitive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeNotPrimitive = int32(138)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeNotPrimitive" />
+      <MemberSignature Language="VB.NET" Value="msoShapeNotPrimitive" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeNotPrimitive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>138</MemberValue>
+      <Docs>
+        <summary>不支持。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeOctagon">
+      <MemberSignature Language="C#" Value="msoShapeOctagon" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeOctagon = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeOctagon" />
+      <MemberSignature Language="VB.NET" Value="msoShapeOctagon" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeOctagon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>八边形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeOval">
+      <MemberSignature Language="C#" Value="msoShapeOval" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeOval = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeOval" />
+      <MemberSignature Language="VB.NET" Value="msoShapeOval" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeOval" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>椭圆形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeOvalCallout">
+      <MemberSignature Language="C#" Value="msoShapeOvalCallout" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeOvalCallout = int32(107)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeOvalCallout" />
+      <MemberSignature Language="VB.NET" Value="msoShapeOvalCallout" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeOvalCallout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>107</MemberValue>
+      <Docs>
+        <summary>椭圆形标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeParallelogram">
+      <MemberSignature Language="C#" Value="msoShapeParallelogram" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeParallelogram = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeParallelogram" />
+      <MemberSignature Language="VB.NET" Value="msoShapeParallelogram" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeParallelogram" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>平行四边形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapePentagon">
+      <MemberSignature Language="C#" Value="msoShapePentagon" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapePentagon = int32(51)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapePentagon" />
+      <MemberSignature Language="VB.NET" Value="msoShapePentagon" />
+      <MemberSignature Language="C++ CLI" Value="msoShapePentagon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>51</MemberValue>
+      <Docs>
+        <summary>五边形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapePie">
+      <MemberSignature Language="C#" Value="msoShapePie" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapePie = int32(142)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapePie" />
+      <MemberSignature Language="VB.NET" Value="msoShapePie" />
+      <MemberSignature Language="C++ CLI" Value="msoShapePie" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>142</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapePieWedge">
+      <MemberSignature Language="C#" Value="msoShapePieWedge" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapePieWedge = int32(175)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapePieWedge" />
+      <MemberSignature Language="VB.NET" Value="msoShapePieWedge" />
+      <MemberSignature Language="C++ CLI" Value="msoShapePieWedge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>175</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapePlaque">
+      <MemberSignature Language="C#" Value="msoShapePlaque" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapePlaque = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapePlaque" />
+      <MemberSignature Language="VB.NET" Value="msoShapePlaque" />
+      <MemberSignature Language="C++ CLI" Value="msoShapePlaque" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary>缺角矩形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapePlaqueTabs">
+      <MemberSignature Language="C#" Value="msoShapePlaqueTabs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapePlaqueTabs = int32(171)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapePlaqueTabs" />
+      <MemberSignature Language="VB.NET" Value="msoShapePlaqueTabs" />
+      <MemberSignature Language="C++ CLI" Value="msoShapePlaqueTabs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>171</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeQuadArrow">
+      <MemberSignature Language="C#" Value="msoShapeQuadArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeQuadArrow = int32(39)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeQuadArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeQuadArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeQuadArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>39</MemberValue>
+      <Docs>
+        <summary>四向箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeQuadArrowCallout">
+      <MemberSignature Language="C#" Value="msoShapeQuadArrowCallout" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeQuadArrowCallout = int32(59)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeQuadArrowCallout" />
+      <MemberSignature Language="VB.NET" Value="msoShapeQuadArrowCallout" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeQuadArrowCallout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>59</MemberValue>
+      <Docs>
+        <summary>带四向箭头的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeRectangle">
+      <MemberSignature Language="C#" Value="msoShapeRectangle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeRectangle = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeRectangle" />
+      <MemberSignature Language="VB.NET" Value="msoShapeRectangle" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeRectangle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>矩形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeRectangularCallout">
+      <MemberSignature Language="C#" Value="msoShapeRectangularCallout" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeRectangularCallout = int32(105)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeRectangularCallout" />
+      <MemberSignature Language="VB.NET" Value="msoShapeRectangularCallout" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeRectangularCallout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>105</MemberValue>
+      <Docs>
+        <summary>矩形标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeRegularPentagon">
+      <MemberSignature Language="C#" Value="msoShapeRegularPentagon" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeRegularPentagon = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeRegularPentagon" />
+      <MemberSignature Language="VB.NET" Value="msoShapeRegularPentagon" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeRegularPentagon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>五边形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeRightArrow">
+      <MemberSignature Language="C#" Value="msoShapeRightArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeRightArrow = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeRightArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeRightArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeRightArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary>右箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeRightArrowCallout">
+      <MemberSignature Language="C#" Value="msoShapeRightArrowCallout" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeRightArrowCallout = int32(53)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeRightArrowCallout" />
+      <MemberSignature Language="VB.NET" Value="msoShapeRightArrowCallout" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeRightArrowCallout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>53</MemberValue>
+      <Docs>
+        <summary>带右箭头的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeRightBrace">
+      <MemberSignature Language="C#" Value="msoShapeRightBrace" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeRightBrace = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeRightBrace" />
+      <MemberSignature Language="VB.NET" Value="msoShapeRightBrace" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeRightBrace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>右大括号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeRightBracket">
+      <MemberSignature Language="C#" Value="msoShapeRightBracket" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeRightBracket = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeRightBracket" />
+      <MemberSignature Language="VB.NET" Value="msoShapeRightBracket" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeRightBracket" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary>右括号。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeRightTriangle">
+      <MemberSignature Language="C#" Value="msoShapeRightTriangle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeRightTriangle = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeRightTriangle" />
+      <MemberSignature Language="VB.NET" Value="msoShapeRightTriangle" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeRightTriangle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>直角三角形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeRound1Rectangle">
+      <MemberSignature Language="C#" Value="msoShapeRound1Rectangle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeRound1Rectangle = int32(151)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeRound1Rectangle" />
+      <MemberSignature Language="VB.NET" Value="msoShapeRound1Rectangle" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeRound1Rectangle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>151</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeRound2DiagRectangle">
+      <MemberSignature Language="C#" Value="msoShapeRound2DiagRectangle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeRound2DiagRectangle = int32(153)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeRound2DiagRectangle" />
+      <MemberSignature Language="VB.NET" Value="msoShapeRound2DiagRectangle" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeRound2DiagRectangle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>153</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeRound2SameRectangle">
+      <MemberSignature Language="C#" Value="msoShapeRound2SameRectangle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeRound2SameRectangle = int32(152)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeRound2SameRectangle" />
+      <MemberSignature Language="VB.NET" Value="msoShapeRound2SameRectangle" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeRound2SameRectangle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>152</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeRoundedRectangle">
+      <MemberSignature Language="C#" Value="msoShapeRoundedRectangle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeRoundedRectangle = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeRoundedRectangle" />
+      <MemberSignature Language="VB.NET" Value="msoShapeRoundedRectangle" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeRoundedRectangle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>圆角矩形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeRoundedRectangularCallout">
+      <MemberSignature Language="C#" Value="msoShapeRoundedRectangularCallout" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeRoundedRectangularCallout = int32(106)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeRoundedRectangularCallout" />
+      <MemberSignature Language="VB.NET" Value="msoShapeRoundedRectangularCallout" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeRoundedRectangularCallout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>106</MemberValue>
+      <Docs>
+        <summary>圆角矩形标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeSmileyFace">
+      <MemberSignature Language="C#" Value="msoShapeSmileyFace" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeSmileyFace = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeSmileyFace" />
+      <MemberSignature Language="VB.NET" Value="msoShapeSmileyFace" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeSmileyFace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>笑脸。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeSnip1Rectangle">
+      <MemberSignature Language="C#" Value="msoShapeSnip1Rectangle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeSnip1Rectangle = int32(155)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeSnip1Rectangle" />
+      <MemberSignature Language="VB.NET" Value="msoShapeSnip1Rectangle" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeSnip1Rectangle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>155</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeSnip2DiagRectangle">
+      <MemberSignature Language="C#" Value="msoShapeSnip2DiagRectangle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeSnip2DiagRectangle = int32(157)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeSnip2DiagRectangle" />
+      <MemberSignature Language="VB.NET" Value="msoShapeSnip2DiagRectangle" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeSnip2DiagRectangle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>157</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeSnip2SameRectangle">
+      <MemberSignature Language="C#" Value="msoShapeSnip2SameRectangle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeSnip2SameRectangle = int32(156)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeSnip2SameRectangle" />
+      <MemberSignature Language="VB.NET" Value="msoShapeSnip2SameRectangle" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeSnip2SameRectangle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>156</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeSnipRoundRectangle">
+      <MemberSignature Language="C#" Value="msoShapeSnipRoundRectangle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeSnipRoundRectangle = int32(154)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeSnipRoundRectangle" />
+      <MemberSignature Language="VB.NET" Value="msoShapeSnipRoundRectangle" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeSnipRoundRectangle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>154</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeSquareTabs">
+      <MemberSignature Language="C#" Value="msoShapeSquareTabs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeSquareTabs = int32(170)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeSquareTabs" />
+      <MemberSignature Language="VB.NET" Value="msoShapeSquareTabs" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeSquareTabs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>170</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStripedRightArrow">
+      <MemberSignature Language="C#" Value="msoShapeStripedRightArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeStripedRightArrow = int32(49)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeStripedRightArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStripedRightArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStripedRightArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>49</MemberValue>
+      <Docs>
+        <summary>尾部带条纹的右箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeSun">
+      <MemberSignature Language="C#" Value="msoShapeSun" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeSun = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeSun" />
+      <MemberSignature Language="VB.NET" Value="msoShapeSun" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeSun" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>太阳。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeSwooshArrow">
+      <MemberSignature Language="C#" Value="msoShapeSwooshArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeSwooshArrow = int32(178)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeSwooshArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeSwooshArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeSwooshArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>178</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeTear">
+      <MemberSignature Language="C#" Value="msoShapeTear" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeTear = int32(160)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeTear" />
+      <MemberSignature Language="VB.NET" Value="msoShapeTear" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeTear" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>160</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeTrapezoid">
+      <MemberSignature Language="C#" Value="msoShapeTrapezoid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeTrapezoid = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeTrapezoid" />
+      <MemberSignature Language="VB.NET" Value="msoShapeTrapezoid" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeTrapezoid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>梯形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeUpArrow">
+      <MemberSignature Language="C#" Value="msoShapeUpArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeUpArrow = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeUpArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeUpArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeUpArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary>上箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeUpArrowCallout">
+      <MemberSignature Language="C#" Value="msoShapeUpArrowCallout" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeUpArrowCallout = int32(55)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeUpArrowCallout" />
+      <MemberSignature Language="VB.NET" Value="msoShapeUpArrowCallout" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeUpArrowCallout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>55</MemberValue>
+      <Docs>
+        <summary>带上箭头的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeUpDownArrow">
+      <MemberSignature Language="C#" Value="msoShapeUpDownArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeUpDownArrow = int32(38)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeUpDownArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeUpDownArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeUpDownArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>38</MemberValue>
+      <Docs>
+        <summary>上下双向箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeUpDownArrowCallout">
+      <MemberSignature Language="C#" Value="msoShapeUpDownArrowCallout" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeUpDownArrowCallout = int32(58)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeUpDownArrowCallout" />
+      <MemberSignature Language="VB.NET" Value="msoShapeUpDownArrowCallout" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeUpDownArrowCallout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>58</MemberValue>
+      <Docs>
+        <summary>带上下双向箭头的标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeUpRibbon">
+      <MemberSignature Language="C#" Value="msoShapeUpRibbon" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeUpRibbon = int32(97)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeUpRibbon" />
+      <MemberSignature Language="VB.NET" Value="msoShapeUpRibbon" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeUpRibbon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>97</MemberValue>
+      <Docs>
+        <summary>中心区域位于弯带末端上方的弯带形横幅。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeUTurnArrow">
+      <MemberSignature Language="C#" Value="msoShapeUTurnArrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeUTurnArrow = int32(42)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeUTurnArrow" />
+      <MemberSignature Language="VB.NET" Value="msoShapeUTurnArrow" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeUTurnArrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>42</MemberValue>
+      <Docs>
+        <summary>U 型箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeVerticalScroll">
+      <MemberSignature Language="C#" Value="msoShapeVerticalScroll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeVerticalScroll = int32(101)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeVerticalScroll" />
+      <MemberSignature Language="VB.NET" Value="msoShapeVerticalScroll" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeVerticalScroll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>101</MemberValue>
+      <Docs>
+        <summary>竖卷形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeWave">
+      <MemberSignature Language="C#" Value="msoShapeWave" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoShapeType msoShapeWave = int32(103)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoShapeType.msoShapeWave" />
+      <MemberSignature Language="VB.NET" Value="msoShapeWave" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeWave" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoShapeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>103</MemberValue>
+      <Docs>
+        <summary>波形。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

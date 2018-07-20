@@ -1,0 +1,66 @@
+<Type Name="EncryptionCipherMode" FullName="Microsoft.Office.Core.EncryptionCipherMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fe8e5641b4c08d73903a1f79d1135b0d0d5d5f79" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657379" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum EncryptionCipherMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EncryptionCipherMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.EncryptionCipherMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum EncryptionCipherMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class EncryptionCipherMode" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="cipherModeCBC">
+      <MemberSignature Language="C#" Value="cipherModeCBC" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.EncryptionCipherMode cipherModeCBC = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.EncryptionCipherMode.cipherModeCBC" />
+      <MemberSignature Language="VB.NET" Value="cipherModeCBC" />
+      <MemberSignature Language="C++ CLI" Value="cipherModeCBC" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.EncryptionCipherMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="cipherModeECB">
+      <MemberSignature Language="C#" Value="cipherModeECB" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.EncryptionCipherMode cipherModeECB = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.EncryptionCipherMode.cipherModeECB" />
+      <MemberSignature Language="VB.NET" Value="cipherModeECB" />
+      <MemberSignature Language="C++ CLI" Value="cipherModeECB" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.EncryptionCipherMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,123 @@
+<Type Name="MsoSharedWorkspaceTaskStatus" FullName="Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="db8475f92afc0ced8e452ed392f55162298945e2" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657398" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoSharedWorkspaceTaskStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSharedWorkspaceTaskStatus extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoSharedWorkspaceTaskStatus" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoSharedWorkspaceTaskStatus" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定共享工作区任务的状态。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoSharedWorkspaceTaskStatusCompleted">
+      <MemberSignature Language="C#" Value="msoSharedWorkspaceTaskStatusCompleted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus msoSharedWorkspaceTaskStatusCompleted = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus.msoSharedWorkspaceTaskStatusCompleted" />
+      <MemberSignature Language="VB.NET" Value="msoSharedWorkspaceTaskStatusCompleted" />
+      <MemberSignature Language="C++ CLI" Value="msoSharedWorkspaceTaskStatusCompleted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>已完成，</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSharedWorkspaceTaskStatusDeferred">
+      <MemberSignature Language="C#" Value="msoSharedWorkspaceTaskStatusDeferred" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus msoSharedWorkspaceTaskStatusDeferred = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus.msoSharedWorkspaceTaskStatusDeferred" />
+      <MemberSignature Language="VB.NET" Value="msoSharedWorkspaceTaskStatusDeferred" />
+      <MemberSignature Language="C++ CLI" Value="msoSharedWorkspaceTaskStatusDeferred" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>推迟。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSharedWorkspaceTaskStatusInProgress">
+      <MemberSignature Language="C#" Value="msoSharedWorkspaceTaskStatusInProgress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus msoSharedWorkspaceTaskStatusInProgress = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus.msoSharedWorkspaceTaskStatusInProgress" />
+      <MemberSignature Language="VB.NET" Value="msoSharedWorkspaceTaskStatusInProgress" />
+      <MemberSignature Language="C++ CLI" Value="msoSharedWorkspaceTaskStatusInProgress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>进行中。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSharedWorkspaceTaskStatusNotStarted">
+      <MemberSignature Language="C#" Value="msoSharedWorkspaceTaskStatusNotStarted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus msoSharedWorkspaceTaskStatusNotStarted = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus.msoSharedWorkspaceTaskStatusNotStarted" />
+      <MemberSignature Language="VB.NET" Value="msoSharedWorkspaceTaskStatusNotStarted" />
+      <MemberSignature Language="C++ CLI" Value="msoSharedWorkspaceTaskStatusNotStarted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>未启动。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSharedWorkspaceTaskStatusWaiting">
+      <MemberSignature Language="C#" Value="msoSharedWorkspaceTaskStatusWaiting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus msoSharedWorkspaceTaskStatusWaiting = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus.msoSharedWorkspaceTaskStatusWaiting" />
+      <MemberSignature Language="VB.NET" Value="msoSharedWorkspaceTaskStatusWaiting" />
+      <MemberSignature Language="C++ CLI" Value="msoSharedWorkspaceTaskStatusWaiting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>正在等待。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

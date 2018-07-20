@@ -1,0 +1,222 @@
+<Type Name="MsoPresetExtrusionDirection" FullName="Microsoft.Office.Core.MsoPresetExtrusionDirection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="11820a7321d6c0fe55af12aaeb51d20e579cda4e" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658165" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoPresetExtrusionDirection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetExtrusionDirection extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetExtrusionDirection" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetExtrusionDirection" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoPresetExtrusionDirection" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定延伸部分经过的路径偏离延伸形状 （延伸的正面） 的方向。</summary>
+    <remarks>
+      <para>
+        <b>ThreeDFormat</b>对象的<b>PresetExtrusionDirection</b>属性一起使用。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoExtrusionBottom">
+      <MemberSignature Language="C#" Value="msoExtrusionBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetExtrusionDirection msoExtrusionBottom = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetExtrusionDirection.msoExtrusionBottom" />
+      <MemberSignature Language="VB.NET" Value="msoExtrusionBottom" />
+      <MemberSignature Language="C++ CLI" Value="msoExtrusionBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetExtrusionDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>底端对齐。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoExtrusionBottomLeft">
+      <MemberSignature Language="C#" Value="msoExtrusionBottomLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetExtrusionDirection msoExtrusionBottomLeft = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetExtrusionDirection.msoExtrusionBottomLeft" />
+      <MemberSignature Language="VB.NET" Value="msoExtrusionBottomLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoExtrusionBottomLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetExtrusionDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>左下。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoExtrusionBottomRight">
+      <MemberSignature Language="C#" Value="msoExtrusionBottomRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetExtrusionDirection msoExtrusionBottomRight = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetExtrusionDirection.msoExtrusionBottomRight" />
+      <MemberSignature Language="VB.NET" Value="msoExtrusionBottomRight" />
+      <MemberSignature Language="C++ CLI" Value="msoExtrusionBottomRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetExtrusionDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>右下。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoExtrusionLeft">
+      <MemberSignature Language="C#" Value="msoExtrusionLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetExtrusionDirection msoExtrusionLeft = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetExtrusionDirection.msoExtrusionLeft" />
+      <MemberSignature Language="VB.NET" Value="msoExtrusionLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoExtrusionLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetExtrusionDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>靠左。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoExtrusionNone">
+      <MemberSignature Language="C#" Value="msoExtrusionNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetExtrusionDirection msoExtrusionNone = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetExtrusionDirection.msoExtrusionNone" />
+      <MemberSignature Language="VB.NET" Value="msoExtrusionNone" />
+      <MemberSignature Language="C++ CLI" Value="msoExtrusionNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetExtrusionDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>不延伸。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoExtrusionRight">
+      <MemberSignature Language="C#" Value="msoExtrusionRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetExtrusionDirection msoExtrusionRight = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetExtrusionDirection.msoExtrusionRight" />
+      <MemberSignature Language="VB.NET" Value="msoExtrusionRight" />
+      <MemberSignature Language="C++ CLI" Value="msoExtrusionRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetExtrusionDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>靠右。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoExtrusionTop">
+      <MemberSignature Language="C#" Value="msoExtrusionTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetExtrusionDirection msoExtrusionTop = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetExtrusionDirection.msoExtrusionTop" />
+      <MemberSignature Language="VB.NET" Value="msoExtrusionTop" />
+      <MemberSignature Language="C++ CLI" Value="msoExtrusionTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetExtrusionDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>顶端对齐。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoExtrusionTopLeft">
+      <MemberSignature Language="C#" Value="msoExtrusionTopLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetExtrusionDirection msoExtrusionTopLeft = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetExtrusionDirection.msoExtrusionTopLeft" />
+      <MemberSignature Language="VB.NET" Value="msoExtrusionTopLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoExtrusionTopLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetExtrusionDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>左上。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoExtrusionTopRight">
+      <MemberSignature Language="C#" Value="msoExtrusionTopRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetExtrusionDirection msoExtrusionTopRight = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetExtrusionDirection.msoExtrusionTopRight" />
+      <MemberSignature Language="VB.NET" Value="msoExtrusionTopRight" />
+      <MemberSignature Language="C++ CLI" Value="msoExtrusionTopRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetExtrusionDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>右上。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPresetExtrusionDirectionMixed">
+      <MemberSignature Language="C#" Value="msoPresetExtrusionDirectionMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetExtrusionDirection msoPresetExtrusionDirectionMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetExtrusionDirection.msoPresetExtrusionDirectionMixed" />
+      <MemberSignature Language="VB.NET" Value="msoPresetExtrusionDirectionMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoPresetExtrusionDirectionMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetExtrusionDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>只返回值，表示其他状态的组合。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

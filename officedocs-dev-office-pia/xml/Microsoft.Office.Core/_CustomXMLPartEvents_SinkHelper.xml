@@ -1,0 +1,207 @@
+<Type Name="_CustomXMLPartEvents_SinkHelper" FullName="Microsoft.Office.Core._CustomXMLPartEvents_SinkHelper">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3e8ce982454e4ec0e63696b6c80a16f4eb060dcd" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657373" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class _CustomXMLPartEvents_SinkHelper : Microsoft.Office.Core._CustomXMLPartEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _CustomXMLPartEvents_SinkHelper extends System.Object implements class Microsoft.Office.Core._CustomXMLPartEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomXMLPartEvents_SinkHelper" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class _CustomXMLPartEvents_SinkHelper&#xA;Implements _CustomXMLPartEvents" />
+  <TypeSignature Language="C++ CLI" Value="public ref class _CustomXMLPartEvents_SinkHelper sealed : Microsoft::Office::Core::_CustomXMLPartEvents" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._CustomXMLPartEvents</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="m_dwCookie">
+      <MemberSignature Language="C#" Value="public int m_dwCookie;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 m_dwCookie" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core._CustomXMLPartEvents_SinkHelper.m_dwCookie" />
+      <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
+      <MemberSignature Language="C++ CLI" Value="public: int m_dwCookie;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_NodeAfterDeleteDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterDeleteEventHandler m_NodeAfterDeleteDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterDeleteEventHandler m_NodeAfterDeleteDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core._CustomXMLPartEvents_SinkHelper.m_NodeAfterDeleteDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_NodeAfterDeleteDelegate As _CustomXMLPartEvents_NodeAfterDeleteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Core::_CustomXMLPartEvents_NodeAfterDeleteEventHandler ^ m_NodeAfterDeleteDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterDeleteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_NodeAfterInsertDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterInsertEventHandler m_NodeAfterInsertDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterInsertEventHandler m_NodeAfterInsertDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core._CustomXMLPartEvents_SinkHelper.m_NodeAfterInsertDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_NodeAfterInsertDelegate As _CustomXMLPartEvents_NodeAfterInsertEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Core::_CustomXMLPartEvents_NodeAfterInsertEventHandler ^ m_NodeAfterInsertDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterInsertEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_NodeAfterReplaceDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterReplaceEventHandler m_NodeAfterReplaceDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterReplaceEventHandler m_NodeAfterReplaceDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core._CustomXMLPartEvents_SinkHelper.m_NodeAfterReplaceDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_NodeAfterReplaceDelegate As _CustomXMLPartEvents_NodeAfterReplaceEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Core::_CustomXMLPartEvents_NodeAfterReplaceEventHandler ^ m_NodeAfterReplaceDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterReplaceEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NodeAfterDelete">
+      <MemberSignature Language="C#" Value="public override void NodeAfterDelete (Microsoft.Office.Core.CustomXMLNode , Microsoft.Office.Core.CustomXMLNode , Microsoft.Office.Core.CustomXMLNode , bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void NodeAfterDelete(class Microsoft.Office.Core.CustomXMLNode , class Microsoft.Office.Core.CustomXMLNode , class Microsoft.Office.Core.CustomXMLNode , bool ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPartEvents_SinkHelper.NodeAfterDelete(Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.CustomXMLNode,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub NodeAfterDelete ( As CustomXMLNode,  As CustomXMLNode,  As CustomXMLNode,  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void NodeAfterDelete(Microsoft::Office::Core::CustomXMLNode ^ , Microsoft::Office::Core::CustomXMLNode ^ , Microsoft::Office::Core::CustomXMLNode ^ , bool );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomXMLPartEvents.NodeAfterDelete(Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.CustomXMLNode,System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Core.CustomXMLNode" />
+        <Parameter Name="" Type="Microsoft.Office.Core.CustomXMLNode" />
+        <Parameter Name="" Type="Microsoft.Office.Core.CustomXMLNode" />
+        <Parameter Name="" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <param name="">To be added.</param>
+        <param name="">To be added.</param>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NodeAfterInsert">
+      <MemberSignature Language="C#" Value="public override void NodeAfterInsert (Microsoft.Office.Core.CustomXMLNode , bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void NodeAfterInsert(class Microsoft.Office.Core.CustomXMLNode , bool ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPartEvents_SinkHelper.NodeAfterInsert(Microsoft.Office.Core.CustomXMLNode,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub NodeAfterInsert ( As CustomXMLNode,  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void NodeAfterInsert(Microsoft::Office::Core::CustomXMLNode ^ , bool );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomXMLPartEvents.NodeAfterInsert(Microsoft.Office.Core.CustomXMLNode,System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Core.CustomXMLNode" />
+        <Parameter Name="" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NodeAfterReplace">
+      <MemberSignature Language="C#" Value="public override void NodeAfterReplace (Microsoft.Office.Core.CustomXMLNode , Microsoft.Office.Core.CustomXMLNode , bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void NodeAfterReplace(class Microsoft.Office.Core.CustomXMLNode , class Microsoft.Office.Core.CustomXMLNode , bool ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPartEvents_SinkHelper.NodeAfterReplace(Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.CustomXMLNode,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub NodeAfterReplace ( As CustomXMLNode,  As CustomXMLNode,  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void NodeAfterReplace(Microsoft::Office::Core::CustomXMLNode ^ , Microsoft::Office::Core::CustomXMLNode ^ , bool );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomXMLPartEvents.NodeAfterReplace(Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.CustomXMLNode,System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Core.CustomXMLNode" />
+        <Parameter Name="" Type="Microsoft.Office.Core.CustomXMLNode" />
+        <Parameter Name="" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <param name="">To be added.</param>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

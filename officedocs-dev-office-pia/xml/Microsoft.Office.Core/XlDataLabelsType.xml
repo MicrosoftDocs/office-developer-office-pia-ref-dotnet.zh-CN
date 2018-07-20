@@ -1,0 +1,147 @@
+<Type Name="XlDataLabelsType" FullName="Microsoft.Office.Core.XlDataLabelsType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c40056d28af725f781f18c2576e71755cd231d57" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657943" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlDataLabelsType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlDataLabelsType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlDataLabelsType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlDataLabelsType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlDataLabelsType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定要应用的数据标签的类型。 默认值通常是<see cref="F:Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowValue" />。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlDataLabelsShowBubbleSizes">
+      <MemberSignature Language="C#" Value="xlDataLabelsShowBubbleSizes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelsType xlDataLabelsShowBubbleSizes = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowBubbleSizes" />
+      <MemberSignature Language="VB.NET" Value="xlDataLabelsShowBubbleSizes" />
+      <MemberSignature Language="C++ CLI" Value="xlDataLabelsShowBubbleSizes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  显示关于绝对值的气泡图的大小。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDataLabelsShowLabel">
+      <MemberSignature Language="C#" Value="xlDataLabelsShowLabel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelsType xlDataLabelsShowLabel = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowLabel" />
+      <MemberSignature Language="VB.NET" Value="xlDataLabelsShowLabel" />
+      <MemberSignature Language="C++ CLI" Value="xlDataLabelsShowLabel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  数据点所属的分类。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDataLabelsShowLabelAndPercent">
+      <MemberSignature Language="C#" Value="xlDataLabelsShowLabelAndPercent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelsType xlDataLabelsShowLabelAndPercent = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowLabelAndPercent" />
+      <MemberSignature Language="VB.NET" Value="xlDataLabelsShowLabelAndPercent" />
+      <MemberSignature Language="C++ CLI" Value="xlDataLabelsShowLabelAndPercent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  类别点和总计的百分比。 仅用于饼图和圆环图。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDataLabelsShowNone">
+      <MemberSignature Language="C#" Value="xlDataLabelsShowNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelsType xlDataLabelsShowNone = int32(-4142)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowNone" />
+      <MemberSignature Language="VB.NET" Value="xlDataLabelsShowNone" />
+      <MemberSignature Language="C++ CLI" Value="xlDataLabelsShowNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4142</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  无数据标签。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDataLabelsShowPercent">
+      <MemberSignature Language="C#" Value="xlDataLabelsShowPercent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelsType xlDataLabelsShowPercent = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowPercent" />
+      <MemberSignature Language="VB.NET" Value="xlDataLabelsShowPercent" />
+      <MemberSignature Language="C++ CLI" Value="xlDataLabelsShowPercent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  总计的百分比。 仅用于饼图和圆环图。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDataLabelsShowValue">
+      <MemberSignature Language="C#" Value="xlDataLabelsShowValue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelsType xlDataLabelsShowValue = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowValue" />
+      <MemberSignature Language="VB.NET" Value="xlDataLabelsShowValue" />
+      <MemberSignature Language="C++ CLI" Value="xlDataLabelsShowValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  （假定如果不指定此参数） 数据点的值。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,112 @@
+<Type Name="XlChartOrientation" FullName="Microsoft.Office.Core.XlChartOrientation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="463aefccfecfa57c3f55a5aac685c75745bf387b" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657716" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlChartOrientation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlChartOrientation extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlChartOrientation" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlChartOrientation" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlChartOrientation" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("94E08815-49E8-45BB-9BC2-8972405756CF")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlDownward">
+      <MemberSignature Language="C#" Value="xlDownward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartOrientation xlDownward = int32(-4170)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartOrientation.xlDownward" />
+      <MemberSignature Language="VB.NET" Value="xlDownward" />
+      <MemberSignature Language="C++ CLI" Value="xlDownward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartOrientation</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4170</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlHorizontal">
+      <MemberSignature Language="C#" Value="xlHorizontal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartOrientation xlHorizontal = int32(-4128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartOrientation.xlHorizontal" />
+      <MemberSignature Language="VB.NET" Value="xlHorizontal" />
+      <MemberSignature Language="C++ CLI" Value="xlHorizontal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartOrientation</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4128</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlUpward">
+      <MemberSignature Language="C#" Value="xlUpward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartOrientation xlUpward = int32(-4171)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartOrientation.xlUpward" />
+      <MemberSignature Language="VB.NET" Value="xlUpward" />
+      <MemberSignature Language="C++ CLI" Value="xlUpward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartOrientation</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4171</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlVertical">
+      <MemberSignature Language="C#" Value="xlVertical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlChartOrientation xlVertical = int32(-4166)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlChartOrientation.xlVertical" />
+      <MemberSignature Language="VB.NET" Value="xlVertical" />
+      <MemberSignature Language="C++ CLI" Value="xlVertical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartOrientation</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4166</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

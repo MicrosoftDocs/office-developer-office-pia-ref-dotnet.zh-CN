@@ -1,0 +1,93 @@
+<Type Name="MsoFileFindView" FullName="Microsoft.Office.Core.MsoFileFindView">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a471734eb18f174baf4c3a3aa68d273a02ef6e99" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657368" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoFileFindView" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFileFindView extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFileFindView" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoFileFindView" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoFileFindView" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>指定要用于文件查找过程视图。</summary>
+    <remarks>
+      <para>用于<b>FileFind</b>对象。不再支持此对象。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoViewFileInfo">
+      <MemberSignature Language="C#" Value="msoViewFileInfo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileFindView msoViewFileInfo = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileFindView.msoViewFileInfo" />
+      <MemberSignature Language="VB.NET" Value="msoViewFileInfo" />
+      <MemberSignature Language="C++ CLI" Value="msoViewFileInfo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileFindView</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>查看文件信息。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoViewPreview">
+      <MemberSignature Language="C#" Value="msoViewPreview" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileFindView msoViewPreview = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileFindView.msoViewPreview" />
+      <MemberSignature Language="VB.NET" Value="msoViewPreview" />
+      <MemberSignature Language="C++ CLI" Value="msoViewPreview" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileFindView</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>查看文件的预览。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoViewSummaryInfo">
+      <MemberSignature Language="C#" Value="msoViewSummaryInfo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileFindView msoViewSummaryInfo = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileFindView.msoViewSummaryInfo" />
+      <MemberSignature Language="VB.NET" Value="msoViewSummaryInfo" />
+      <MemberSignature Language="C++ CLI" Value="msoViewSummaryInfo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileFindView</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>查看摘要信息。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

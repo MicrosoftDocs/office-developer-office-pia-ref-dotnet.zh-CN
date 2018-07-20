@@ -1,0 +1,60 @@
+<Type Name="_CommandBarsEvents_Event" FullName="Microsoft.Office.Core._CommandBarsEvents_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="da9a1e0e9ffe20ebb4f6997e2201eab06348b5ec" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658379" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _CommandBarsEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CommandBarsEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBarsEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _CommandBarsEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _CommandBarsEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core._CommandBarsEvents), typeof(Microsoft.Office.Core._CommandBarsEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>事件接口 for Microsoft Office<see cref="T:Microsoft.Office.Core.CommandBars" />对象的事件。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OnUpdate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler OnUpdate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler OnUpdate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core._CommandBarsEvents_Event.OnUpdate" />
+      <MemberSignature Language="VB.NET" Value="Event OnUpdate As _CommandBarsEvents_OnUpdateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::_CommandBarsEvents_OnUpdateEventHandler ^ OnUpdate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core._CommandBarsEvents_OnUpdateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>该事件发生于命令栏改变时。</summary>
+        <remarks>
+          <para>
+            <b>OnUpdate</b>事件识别的<see cref="T:Microsoft.Office.Core.CommandBar" />对象及其所有命令栏控件。通过对命令栏或命令栏控件的任何更改或对命令栏或命令栏控件的状态的任何更改都会触发此事件。这些更改可能会导致选定文本或单元格，例如。由于大量<b>OnUpdate</b>事件可以正常使用过程中发生的因此开发人员使用此事件时应谨慎。强烈建议检查是否已添加或删除的自定义命令栏的主要使用此事件的<see cref="T:Microsoft.Office.Core.COMAddIn" />对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

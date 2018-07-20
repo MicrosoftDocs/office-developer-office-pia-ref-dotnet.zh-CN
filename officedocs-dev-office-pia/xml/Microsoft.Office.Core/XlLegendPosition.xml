@@ -1,0 +1,150 @@
+<Type Name="XlLegendPosition" FullName="Microsoft.Office.Core.XlLegendPosition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8bc42774129acd6dad66a219207057feae988872" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657420" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlLegendPosition" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlLegendPosition extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlLegendPosition" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlLegendPosition" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlLegendPosition" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("04D217CD-1859-4786-B583-07BA2092A552")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定图例在图表上的位置。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlLegendPositionBottom">
+      <MemberSignature Language="C#" Value="xlLegendPositionBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlLegendPosition xlLegendPositionBottom = int32(-4107)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlLegendPosition.xlLegendPositionBottom" />
+      <MemberSignature Language="VB.NET" Value="xlLegendPositionBottom" />
+      <MemberSignature Language="C++ CLI" Value="xlLegendPositionBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlLegendPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4107</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  位于图表下方。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLegendPositionCorner">
+      <MemberSignature Language="C#" Value="xlLegendPositionCorner" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlLegendPosition xlLegendPositionCorner = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlLegendPosition.xlLegendPositionCorner" />
+      <MemberSignature Language="VB.NET" Value="xlLegendPositionCorner" />
+      <MemberSignature Language="C++ CLI" Value="xlLegendPositionCorner" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlLegendPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  位于图表边框的右上角。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLegendPositionCustom">
+      <MemberSignature Language="C#" Value="xlLegendPositionCustom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlLegendPosition xlLegendPositionCustom = int32(-4161)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlLegendPosition.xlLegendPositionCustom" />
+      <MemberSignature Language="VB.NET" Value="xlLegendPositionCustom" />
+      <MemberSignature Language="C++ CLI" Value="xlLegendPositionCustom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlLegendPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4161</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  位于自定义的位置上。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLegendPositionLeft">
+      <MemberSignature Language="C#" Value="xlLegendPositionLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlLegendPosition xlLegendPositionLeft = int32(-4131)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlLegendPosition.xlLegendPositionLeft" />
+      <MemberSignature Language="VB.NET" Value="xlLegendPositionLeft" />
+      <MemberSignature Language="C++ CLI" Value="xlLegendPositionLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlLegendPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4131</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  位于图表的左侧。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLegendPositionRight">
+      <MemberSignature Language="C#" Value="xlLegendPositionRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlLegendPosition xlLegendPositionRight = int32(-4152)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlLegendPosition.xlLegendPositionRight" />
+      <MemberSignature Language="VB.NET" Value="xlLegendPositionRight" />
+      <MemberSignature Language="C++ CLI" Value="xlLegendPositionRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlLegendPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4152</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  位于图表的右侧。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLegendPositionTop">
+      <MemberSignature Language="C#" Value="xlLegendPositionTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlLegendPosition xlLegendPositionTop = int32(-4160)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlLegendPosition.xlLegendPositionTop" />
+      <MemberSignature Language="VB.NET" Value="xlLegendPositionTop" />
+      <MemberSignature Language="C++ CLI" Value="xlLegendPositionTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlLegendPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4160</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  位于图表的上方。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

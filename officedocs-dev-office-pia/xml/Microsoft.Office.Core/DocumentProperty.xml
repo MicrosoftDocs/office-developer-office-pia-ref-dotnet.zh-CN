@@ -1,0 +1,293 @@
+<Type Name="DocumentProperty" FullName="Microsoft.Office.Core.DocumentProperty">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="be826a73e8f4e085cc5edc2a6bc0a3254ae53c15" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657823" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface DocumentProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DocumentProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.DocumentProperty" />
+  <TypeSignature Language="VB.NET" Value="Public Interface DocumentProperty" />
+  <TypeSignature Language="C++ CLI" Value="public interface class DocumentProperty" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("2DF8D04E-5BFA-101B-BDE5-00AA0044DE52")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>代表容器文档的自定义或内置文档属性。</summary>
+    <remarks>
+      <para>
+        <b>DocumentProperty</b>对象所在的<see cref="T:Microsoft.Office.Core.DocumentProperties" />集合。</para>使用<b>BuiltinDocumentProperties</b><para>(<paramref name="index" />)，其中<paramref name="index" />是名称或索引号的内置文档属性，返回单个<b>DocumentProperty</b>对象表示的特定的内置文档属性。使用<b>CustomDocumentProperties</b>(<paramref name="index" />)，其中<paramref name="index" />是名称或自定义文档属性，返回一个代表特定自定义文档属性的<b>DocumentProperty</b>对象的索引号。</para><para>下面的列表包含所有可用的内置文档属性的名称：</para><para>标题</para><para>主题</para><para>作者</para><para>关键字</para><para>注释</para><para>模板</para><para>上一个作者</para><para>修订号</para><para>应用程序名称</para><para>上次打印日期</para><para>创建日期</para><para>上次保存时间</para><para>编辑时间总计</para><para>网页数量</para><para>单词数</para><para>字符数</para><para>安全</para><para>类别</para><para>格式</para><para>管理器</para><para>公司</para><para>字节数</para><para>行数</para><para>段落数</para><para>幻灯片数</para><para>备注数</para><para>隐藏幻灯片数</para><para>数多媒体剪辑</para><para>容器应用程序不一定是定义每个内置文档属性的值。如果给定应用程序没有定义某个内置文档属性的值，则返回<see cref="P:Microsoft.Office.Core.DocumentProperty.Value" />文档属性的属性将导致出错。</para><para /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentProperty.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743820)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>Application</b>对象，代表容器应用程序的对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentProperty.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743821)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>如果指定的对象在 Microsoft Word 中创建的此属性返回 1297307460，它表示字符串 MSWD;如果在 Microsoft Excel 中创建，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.DocumentProperty.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.DocumentProperty.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>删除自定义的文档属性。</summary>
+        <remarks>
+          <para>不能删除内置文档属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LinkSource">
+      <MemberSignature Language="C#" Value="public string LinkSource { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LinkSource" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentProperty.LinkSource" />
+      <MemberSignature Language="VB.NET" Value="Public Property LinkSource As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LinkSource { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置链接的自定义文档属性的源。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性适用仅与自定义文档属性; 不能使用该内置文档属性。</para>
+          <para>指定链接的链接源由容器应用程序。</para>
+          <para>设置<b>LinkSource</b>属性集<see cref="P:Microsoft.Office.Core.DocumentProperty.LinkToContent" />属性设置为<b>True</b>。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LinkToContent">
+      <MemberSignature Language="C#" Value="public bool LinkToContent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LinkToContent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentProperty.LinkToContent" />
+      <MemberSignature Language="VB.NET" Value="Public Property LinkToContent As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LinkToContent { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>确定是否自定义文档属性的值链接到容器文档的内容。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性返回<b>True</b> ，如果自定义文档属性的值链接到容器文档; 的内容<b>False</b>如果值为静态。</para>
+          <para>此属性仅适用于自定义文档属性。对于内置文档属性，此属性的值为<b>False</b>。</para>使用
+          <para><see cref="P:Microsoft.Office.Core.DocumentProperty.LinkSource" />属性设置为指定的源链接属性。设置<b>LinkSource</b>属性会将<b>LinkToContent</b>属性设置为<b>True</b>。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentProperty.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.LCIDConversion(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.LCIDConversion(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置指定对象的名称。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentProperty.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回指定对象的<b>父</b>对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoDocProperties Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoDocProperties Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentProperty.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As MsoDocProperties" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoDocProperties Type { Microsoft::Office::Core::MsoDocProperties get(); void set(Microsoft::Office::Core::MsoDocProperties value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.LCIDConversion(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.LCIDConversion(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDocProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置文档属性类型。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性是只读的内置文档属性;读/写自定义文档属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public object this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentProperty.Value" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Value As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.LCIDConversion(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.LCIDConversion(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置文档属性的值。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>如果容器应用程序没有定义某个内置文档属性的值，则读取该文档属性的<b>Value</b>属性将导致出错。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,123 @@
+<Type Name="MsoMergeCmd" FullName="Microsoft.Office.Core.MsoMergeCmd">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2217f97a67e967f96c17754da727b165a37258c0" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657649" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoMergeCmd" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoMergeCmd extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoMergeCmd" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoMergeCmd" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoMergeCmd" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定合并形状操作的输出。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoMergeCombine">
+      <MemberSignature Language="C#" Value="msoMergeCombine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMergeCmd msoMergeCombine = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMergeCmd.msoMergeCombine" />
+      <MemberSignature Language="VB.NET" Value="msoMergeCombine" />
+      <MemberSignature Language="C++ CLI" Value="msoMergeCombine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMergeCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>从选定的形状中创建一个新建形状。 如果选定的形状重叠，其相互重叠的区域剪切出，或被丢弃。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMergeFragment">
+      <MemberSignature Language="C#" Value="msoMergeFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMergeCmd msoMergeFragment = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMergeCmd.msoMergeFragment" />
+      <MemberSignature Language="VB.NET" Value="msoMergeFragment" />
+      <MemberSignature Language="C++ CLI" Value="msoMergeFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMergeCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>形状分成较小的部分或从相交的行或重叠的形状创建新建形状。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMergeIntersect">
+      <MemberSignature Language="C#" Value="msoMergeIntersect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMergeCmd msoMergeIntersect = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMergeCmd.msoMergeIntersect" />
+      <MemberSignature Language="VB.NET" Value="msoMergeIntersect" />
+      <MemberSignature Language="C++ CLI" Value="msoMergeIntersect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMergeCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>窗体的区域其中选定的形状重叠，消除非重叠的区域的新闭合的形状。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMergeSubtract">
+      <MemberSignature Language="C#" Value="msoMergeSubtract" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMergeCmd msoMergeSubtract = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMergeCmd.msoMergeSubtract" />
+      <MemberSignature Language="VB.NET" Value="msoMergeSubtract" />
+      <MemberSignature Language="C++ CLI" Value="msoMergeSubtract" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMergeCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>通过从主选定内容中减去后续选择其中重叠的区域中创建一个新建形状。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMergeUnion">
+      <MemberSignature Language="C#" Value="msoMergeUnion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMergeCmd msoMergeUnion = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMergeCmd.msoMergeUnion" />
+      <MemberSignature Language="VB.NET" Value="msoMergeUnion" />
+      <MemberSignature Language="C++ CLI" Value="msoMergeUnion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMergeCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>从两个或多个交迭形状的周边创建一个新建形状。 新的形状是一套所有从原图形数据点。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

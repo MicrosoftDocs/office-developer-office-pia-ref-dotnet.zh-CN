@@ -1,0 +1,123 @@
+<Type Name="MsoCalloutType" FullName="Microsoft.Office.Core.MsoCalloutType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a289999307c2557cc778ef1eb90a75d5b62bb17f" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658067" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoCalloutType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCalloutType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCalloutType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoCalloutType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoCalloutType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定标注线的类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoCalloutFour">
+      <MemberSignature Language="C#" Value="msoCalloutFour" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCalloutType msoCalloutFour = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCalloutType.msoCalloutFour" />
+      <MemberSignature Language="VB.NET" Value="msoCalloutFour" />
+      <MemberSignature Language="C++ CLI" Value="msoCalloutFour" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCalloutType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>标注线由两条线段组成，连接到文本边界框的右侧。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCalloutMixed">
+      <MemberSignature Language="C#" Value="msoCalloutMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCalloutType msoCalloutMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCalloutType.msoCalloutMixed" />
+      <MemberSignature Language="VB.NET" Value="msoCalloutMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoCalloutMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCalloutType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>只返回值，表示其他状态的组合。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCalloutOne">
+      <MemberSignature Language="C#" Value="msoCalloutOne" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCalloutType msoCalloutOne = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCalloutType.msoCalloutOne" />
+      <MemberSignature Language="VB.NET" Value="msoCalloutOne" />
+      <MemberSignature Language="C++ CLI" Value="msoCalloutOne" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCalloutType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>单线段水平标注线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCalloutThree">
+      <MemberSignature Language="C#" Value="msoCalloutThree" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCalloutType msoCalloutThree = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCalloutType.msoCalloutThree" />
+      <MemberSignature Language="VB.NET" Value="msoCalloutThree" />
+      <MemberSignature Language="C++ CLI" Value="msoCalloutThree" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCalloutType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>标注线由两条线段组成，连接到文本边界框的左侧。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCalloutTwo">
+      <MemberSignature Language="C#" Value="msoCalloutTwo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCalloutType msoCalloutTwo = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCalloutType.msoCalloutTwo" />
+      <MemberSignature Language="VB.NET" Value="msoCalloutTwo" />
+      <MemberSignature Language="C++ CLI" Value="msoCalloutTwo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCalloutType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>单线段倾斜标注线。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

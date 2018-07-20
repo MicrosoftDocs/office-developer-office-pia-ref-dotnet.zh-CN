@@ -1,0 +1,123 @@
+<Type Name="MsoTabStopType" FullName="Microsoft.Office.Core.MsoTabStopType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="873017440da307af41aa955c8534ca9b0a76fc46" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657595" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoTabStopType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTabStopType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTabStopType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoTabStopType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoTabStopType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoTabStopCenter">
+      <MemberSignature Language="C#" Value="msoTabStopCenter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTabStopType msoTabStopCenter = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopCenter" />
+      <MemberSignature Language="VB.NET" Value="msoTabStopCenter" />
+      <MemberSignature Language="C++ CLI" Value="msoTabStopCenter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTabStopType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoTabStopDecimal">
+      <MemberSignature Language="C#" Value="msoTabStopDecimal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTabStopType msoTabStopDecimal = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopDecimal" />
+      <MemberSignature Language="VB.NET" Value="msoTabStopDecimal" />
+      <MemberSignature Language="C++ CLI" Value="msoTabStopDecimal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTabStopType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoTabStopLeft">
+      <MemberSignature Language="C#" Value="msoTabStopLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTabStopType msoTabStopLeft = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopLeft" />
+      <MemberSignature Language="VB.NET" Value="msoTabStopLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoTabStopLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTabStopType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoTabStopMixed">
+      <MemberSignature Language="C#" Value="msoTabStopMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTabStopType msoTabStopMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopMixed" />
+      <MemberSignature Language="VB.NET" Value="msoTabStopMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoTabStopMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTabStopType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoTabStopRight">
+      <MemberSignature Language="C#" Value="msoTabStopRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTabStopType msoTabStopRight = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTabStopType.msoTabStopRight" />
+      <MemberSignature Language="VB.NET" Value="msoTabStopRight" />
+      <MemberSignature Language="C++ CLI" Value="msoTabStopRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTabStopType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,74 @@
+<Type Name="XlSizeRepresents" FullName="Microsoft.Office.Core.XlSizeRepresents">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c640f688228499bf5e7112a7aa198cc6378b71e2" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657882" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlSizeRepresents" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlSizeRepresents extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlSizeRepresents" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlSizeRepresents" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlSizeRepresents" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("8B544093-ECC1-43E3-80EF-25D6FBCC7540")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指示大小的度量值与什么有关。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlSizeIsArea">
+      <MemberSignature Language="C#" Value="xlSizeIsArea" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlSizeRepresents xlSizeIsArea = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlSizeRepresents.xlSizeIsArea" />
+      <MemberSignature Language="VB.NET" Value="xlSizeIsArea" />
+      <MemberSignature Language="C++ CLI" Value="xlSizeIsArea" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlSizeRepresents</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  大小的度量值用于区域。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlSizeIsWidth">
+      <MemberSignature Language="C#" Value="xlSizeIsWidth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlSizeRepresents xlSizeIsWidth = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlSizeRepresents.xlSizeIsWidth" />
+      <MemberSignature Language="VB.NET" Value="xlSizeIsWidth" />
+      <MemberSignature Language="C++ CLI" Value="xlSizeIsWidth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlSizeRepresents</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  大小的度量值用于宽度。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

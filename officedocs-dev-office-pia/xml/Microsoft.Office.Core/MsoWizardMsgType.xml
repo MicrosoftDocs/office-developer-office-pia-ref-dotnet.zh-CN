@@ -1,0 +1,126 @@
+<Type Name="MsoWizardMsgType" FullName="Microsoft.Office.Core.MsoWizardMsgType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7c94445d9a2a67e5c04a8ef0bacdb63f056308a7" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657661" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoWizardMsgType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoWizardMsgType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoWizardMsgType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoWizardMsgType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoWizardMsgType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定在其下调用向导的回调过程的上下文。</summary>
+    <remarks>
+      <para>用作回调过程专为使用设计自定义向导中的参数。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoWizardMsgLocalStateOff">
+      <MemberSignature Language="C#" Value="msoWizardMsgLocalStateOff" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWizardMsgType msoWizardMsgLocalStateOff = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWizardMsgType.msoWizardMsgLocalStateOff" />
+      <MemberSignature Language="VB.NET" Value="msoWizardMsgLocalStateOff" />
+      <MemberSignature Language="C++ CLI" Value="msoWizardMsgLocalStateOff" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWizardMsgType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>用户在判定或分支气球中单击了鼠标右键。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWizardMsgLocalStateOn">
+      <MemberSignature Language="C#" Value="msoWizardMsgLocalStateOn" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWizardMsgType msoWizardMsgLocalStateOn = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWizardMsgType.msoWizardMsgLocalStateOn" />
+      <MemberSignature Language="VB.NET" Value="msoWizardMsgLocalStateOn" />
+      <MemberSignature Language="C++ CLI" Value="msoWizardMsgLocalStateOn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWizardMsgType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>不支持。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWizardMsgResuming">
+      <MemberSignature Language="C#" Value="msoWizardMsgResuming" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWizardMsgType msoWizardMsgResuming = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWizardMsgType.msoWizardMsgResuming" />
+      <MemberSignature Language="VB.NET" Value="msoWizardMsgResuming" />
+      <MemberSignature Language="C++ CLI" Value="msoWizardMsgResuming" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWizardMsgType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>如果为<b>Act</b>参数指定了<b>msoWizardActResume</b> ，则传递到<b>ActivateWizard</b>方法。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWizardMsgShowHelp">
+      <MemberSignature Language="C#" Value="msoWizardMsgShowHelp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWizardMsgType msoWizardMsgShowHelp = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWizardMsgType.msoWizardMsgShowHelp" />
+      <MemberSignature Language="VB.NET" Value="msoWizardMsgShowHelp" />
+      <MemberSignature Language="C++ CLI" Value="msoWizardMsgShowHelp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWizardMsgType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>用户在判定或分支气球中单击了鼠标左键。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWizardMsgSuspending">
+      <MemberSignature Language="C#" Value="msoWizardMsgSuspending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWizardMsgType msoWizardMsgSuspending = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWizardMsgType.msoWizardMsgSuspending" />
+      <MemberSignature Language="VB.NET" Value="msoWizardMsgSuspending" />
+      <MemberSignature Language="C++ CLI" Value="msoWizardMsgSuspending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWizardMsgType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>如果为<b>Act</b>参数指定了<b>msoWizardActSuspend</b> ，则传递到<b>ActivateWizard</b>方法。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

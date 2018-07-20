@@ -1,0 +1,142 @@
+<Type Name="MsoBaselineAlignment" FullName="Microsoft.Office.Core.MsoBaselineAlignment">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c345bb0b34b3b9a45cea3c1249bc6cf08bf93af1" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657779" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoBaselineAlignment" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBaselineAlignment extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBaselineAlignment" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoBaselineAlignment" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoBaselineAlignment" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoBaselineAlignAuto">
+      <MemberSignature Language="C#" Value="msoBaselineAlignAuto" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBaselineAlignment msoBaselineAlignAuto = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBaselineAlignment.msoBaselineAlignAuto" />
+      <MemberSignature Language="VB.NET" Value="msoBaselineAlignAuto" />
+      <MemberSignature Language="C++ CLI" Value="msoBaselineAlignAuto" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBaselineAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBaselineAlignBaseline">
+      <MemberSignature Language="C#" Value="msoBaselineAlignBaseline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBaselineAlignment msoBaselineAlignBaseline = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBaselineAlignment.msoBaselineAlignBaseline" />
+      <MemberSignature Language="VB.NET" Value="msoBaselineAlignBaseline" />
+      <MemberSignature Language="C++ CLI" Value="msoBaselineAlignBaseline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBaselineAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBaselineAlignCenter">
+      <MemberSignature Language="C#" Value="msoBaselineAlignCenter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBaselineAlignment msoBaselineAlignCenter = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBaselineAlignment.msoBaselineAlignCenter" />
+      <MemberSignature Language="VB.NET" Value="msoBaselineAlignCenter" />
+      <MemberSignature Language="C++ CLI" Value="msoBaselineAlignCenter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBaselineAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBaselineAlignFarEast50">
+      <MemberSignature Language="C#" Value="msoBaselineAlignFarEast50" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBaselineAlignment msoBaselineAlignFarEast50 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBaselineAlignment.msoBaselineAlignFarEast50" />
+      <MemberSignature Language="VB.NET" Value="msoBaselineAlignFarEast50" />
+      <MemberSignature Language="C++ CLI" Value="msoBaselineAlignFarEast50" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBaselineAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBaselineAlignMixed">
+      <MemberSignature Language="C#" Value="msoBaselineAlignMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBaselineAlignment msoBaselineAlignMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBaselineAlignment.msoBaselineAlignMixed" />
+      <MemberSignature Language="VB.NET" Value="msoBaselineAlignMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoBaselineAlignMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBaselineAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBaselineAlignTop">
+      <MemberSignature Language="C#" Value="msoBaselineAlignTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBaselineAlignment msoBaselineAlignTop = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBaselineAlignment.msoBaselineAlignTop" />
+      <MemberSignature Language="VB.NET" Value="msoBaselineAlignTop" />
+      <MemberSignature Language="C++ CLI" Value="msoBaselineAlignTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBaselineAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

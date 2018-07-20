@@ -1,0 +1,123 @@
+<Type Name="MsoTextTabAlign" FullName="Microsoft.Office.Core.MsoTextTabAlign">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="046887b21a5d7cbb90c5a8cd15da980f642305e5" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657742" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoTextTabAlign" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextTabAlign extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextTabAlign" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoTextTabAlign" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoTextTabAlign" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指示对制表位或换行符的文本对齐方式。 默认值是<see cref="F:Microsoft.Office.Core.MsoTextTabAlign.msoTabAlignLeft" />。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoTabAlignCenter">
+      <MemberSignature Language="C#" Value="msoTabAlignCenter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextTabAlign msoTabAlignCenter = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextTabAlign.msoTabAlignCenter" />
+      <MemberSignature Language="VB.NET" Value="msoTabAlignCenter" />
+      <MemberSignature Language="C++ CLI" Value="msoTabAlignCenter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextTabAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>指定下一个制表位或换行符之前的后续文本以指定的制表位为中间点。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTabAlignDecimal">
+      <MemberSignature Language="C#" Value="msoTabAlignDecimal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextTabAlign msoTabAlignDecimal = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextTabAlign.msoTabAlignDecimal" />
+      <MemberSignature Language="VB.NET" Value="msoTabAlignDecimal" />
+      <MemberSignature Language="C++ CLI" Value="msoTabAlignDecimal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextTabAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>指定在后续文本中搜索出现的第一处代表小数点的字符。然后，对齐下一个制表位或换行符之前的文本，使该小数点在指定的制表位处开始。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTabAlignLeft">
+      <MemberSignature Language="C#" Value="msoTabAlignLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextTabAlign msoTabAlignLeft = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextTabAlign.msoTabAlignLeft" />
+      <MemberSignature Language="VB.NET" Value="msoTabAlignLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoTabAlignLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextTabAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>指定以下文本在指定的制表位后立即启动。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTabAlignMixed">
+      <MemberSignature Language="C#" Value="msoTabAlignMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextTabAlign msoTabAlignMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextTabAlign.msoTabAlignMixed" />
+      <MemberSignature Language="VB.NET" Value="msoTabAlignMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoTabAlignMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextTabAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>指定使用相对于制表位的混和文本对齐方式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTabAlignRight">
+      <MemberSignature Language="C#" Value="msoTabAlignRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextTabAlign msoTabAlignRight = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextTabAlign.msoTabAlignRight" />
+      <MemberSignature Language="VB.NET" Value="msoTabAlignRight" />
+      <MemberSignature Language="C++ CLI" Value="msoTabAlignRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextTabAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>指定下一个制表位或换行符之前的后续文本与指定的制表位右对齐。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

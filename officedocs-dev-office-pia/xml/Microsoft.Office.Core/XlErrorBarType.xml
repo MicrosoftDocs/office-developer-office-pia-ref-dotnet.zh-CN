@@ -1,0 +1,128 @@
+<Type Name="XlErrorBarType" FullName="Microsoft.Office.Core.XlErrorBarType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8385fc03706a0f429388562889e0b199ea7ddfbd" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658274" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlErrorBarType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlErrorBarType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlErrorBarType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlErrorBarType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlErrorBarType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定误差线标记的区域。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlErrorBarTypeCustom">
+      <MemberSignature Language="C#" Value="xlErrorBarTypeCustom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlErrorBarType xlErrorBarTypeCustom = int32(-4114)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlErrorBarType.xlErrorBarTypeCustom" />
+      <MemberSignature Language="VB.NET" Value="xlErrorBarTypeCustom" />
+      <MemberSignature Language="C++ CLI" Value="xlErrorBarTypeCustom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlErrorBarType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4114</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  区域由固定值或单元格值设置。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlErrorBarTypeFixedValue">
+      <MemberSignature Language="C#" Value="xlErrorBarTypeFixedValue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlErrorBarType xlErrorBarTypeFixedValue = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlErrorBarType.xlErrorBarTypeFixedValue" />
+      <MemberSignature Language="VB.NET" Value="xlErrorBarTypeFixedValue" />
+      <MemberSignature Language="C++ CLI" Value="xlErrorBarTypeFixedValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlErrorBarType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  固定长度误差线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlErrorBarTypePercent">
+      <MemberSignature Language="C#" Value="xlErrorBarTypePercent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlErrorBarType xlErrorBarTypePercent = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlErrorBarType.xlErrorBarTypePercent" />
+      <MemberSignature Language="VB.NET" Value="xlErrorBarTypePercent" />
+      <MemberSignature Language="C++ CLI" Value="xlErrorBarTypePercent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlErrorBarType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  误差线覆盖的区域百分比。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlErrorBarTypeStDev">
+      <MemberSignature Language="C#" Value="xlErrorBarTypeStDev" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlErrorBarType xlErrorBarTypeStDev = int32(-4155)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlErrorBarType.xlErrorBarTypeStDev" />
+      <MemberSignature Language="VB.NET" Value="xlErrorBarTypeStDev" />
+      <MemberSignature Language="C++ CLI" Value="xlErrorBarTypeStDev" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlErrorBarType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4155</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  显示指定数目的标准偏差的区域。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlErrorBarTypeStError">
+      <MemberSignature Language="C#" Value="xlErrorBarTypeStError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlErrorBarType xlErrorBarTypeStError = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlErrorBarType.xlErrorBarTypeStError" />
+      <MemberSignature Language="VB.NET" Value="xlErrorBarTypeStError" />
+      <MemberSignature Language="C++ CLI" Value="xlErrorBarTypeStError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlErrorBarType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  显示标准误差区域。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

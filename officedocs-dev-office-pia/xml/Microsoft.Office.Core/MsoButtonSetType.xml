@@ -1,0 +1,313 @@
+<Type Name="MsoButtonSetType" FullName="Microsoft.Office.Core.MsoButtonSetType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="93c424994e9b6c136d0a8854443777a2128df78e" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657810" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoButtonSetType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoButtonSetType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoButtonSetType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoButtonSetType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoButtonSetType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoButtonSetAbortRetryIgnore">
+      <MemberSignature Language="C#" Value="msoButtonSetAbortRetryIgnore" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonSetType msoButtonSetAbortRetryIgnore = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonSetType.msoButtonSetAbortRetryIgnore" />
+      <MemberSignature Language="VB.NET" Value="msoButtonSetAbortRetryIgnore" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonSetAbortRetryIgnore" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonSetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonSetBackClose">
+      <MemberSignature Language="C#" Value="msoButtonSetBackClose" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonSetType msoButtonSetBackClose = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonSetType.msoButtonSetBackClose" />
+      <MemberSignature Language="VB.NET" Value="msoButtonSetBackClose" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonSetBackClose" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonSetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonSetBackNextClose">
+      <MemberSignature Language="C#" Value="msoButtonSetBackNextClose" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonSetType msoButtonSetBackNextClose = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonSetType.msoButtonSetBackNextClose" />
+      <MemberSignature Language="VB.NET" Value="msoButtonSetBackNextClose" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonSetBackNextClose" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonSetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonSetBackNextSnooze">
+      <MemberSignature Language="C#" Value="msoButtonSetBackNextSnooze" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonSetType msoButtonSetBackNextSnooze = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonSetType.msoButtonSetBackNextSnooze" />
+      <MemberSignature Language="VB.NET" Value="msoButtonSetBackNextSnooze" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonSetBackNextSnooze" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonSetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonSetCancel">
+      <MemberSignature Language="C#" Value="msoButtonSetCancel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonSetType msoButtonSetCancel = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonSetType.msoButtonSetCancel" />
+      <MemberSignature Language="VB.NET" Value="msoButtonSetCancel" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonSetCancel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonSetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonSetNextClose">
+      <MemberSignature Language="C#" Value="msoButtonSetNextClose" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonSetType msoButtonSetNextClose = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonSetType.msoButtonSetNextClose" />
+      <MemberSignature Language="VB.NET" Value="msoButtonSetNextClose" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonSetNextClose" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonSetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonSetNone">
+      <MemberSignature Language="C#" Value="msoButtonSetNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonSetType msoButtonSetNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonSetType.msoButtonSetNone" />
+      <MemberSignature Language="VB.NET" Value="msoButtonSetNone" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonSetNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonSetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonSetOK">
+      <MemberSignature Language="C#" Value="msoButtonSetOK" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonSetType msoButtonSetOK = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonSetType.msoButtonSetOK" />
+      <MemberSignature Language="VB.NET" Value="msoButtonSetOK" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonSetOK" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonSetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonSetOkCancel">
+      <MemberSignature Language="C#" Value="msoButtonSetOkCancel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonSetType msoButtonSetOkCancel = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonSetType.msoButtonSetOkCancel" />
+      <MemberSignature Language="VB.NET" Value="msoButtonSetOkCancel" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonSetOkCancel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonSetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonSetRetryCancel">
+      <MemberSignature Language="C#" Value="msoButtonSetRetryCancel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonSetType msoButtonSetRetryCancel = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonSetType.msoButtonSetRetryCancel" />
+      <MemberSignature Language="VB.NET" Value="msoButtonSetRetryCancel" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonSetRetryCancel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonSetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonSetSearchClose">
+      <MemberSignature Language="C#" Value="msoButtonSetSearchClose" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonSetType msoButtonSetSearchClose = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonSetType.msoButtonSetSearchClose" />
+      <MemberSignature Language="VB.NET" Value="msoButtonSetSearchClose" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonSetSearchClose" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonSetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonSetTipsOptionsClose">
+      <MemberSignature Language="C#" Value="msoButtonSetTipsOptionsClose" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonSetType msoButtonSetTipsOptionsClose = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonSetType.msoButtonSetTipsOptionsClose" />
+      <MemberSignature Language="VB.NET" Value="msoButtonSetTipsOptionsClose" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonSetTipsOptionsClose" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonSetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonSetYesAllNoCancel">
+      <MemberSignature Language="C#" Value="msoButtonSetYesAllNoCancel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonSetType msoButtonSetYesAllNoCancel = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonSetType.msoButtonSetYesAllNoCancel" />
+      <MemberSignature Language="VB.NET" Value="msoButtonSetYesAllNoCancel" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonSetYesAllNoCancel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonSetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonSetYesNo">
+      <MemberSignature Language="C#" Value="msoButtonSetYesNo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonSetType msoButtonSetYesNo = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonSetType.msoButtonSetYesNo" />
+      <MemberSignature Language="VB.NET" Value="msoButtonSetYesNo" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonSetYesNo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonSetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonSetYesNoCancel">
+      <MemberSignature Language="C#" Value="msoButtonSetYesNoCancel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonSetType msoButtonSetYesNoCancel = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonSetType.msoButtonSetYesNoCancel" />
+      <MemberSignature Language="VB.NET" Value="msoButtonSetYesNoCancel" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonSetYesNoCancel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonSetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

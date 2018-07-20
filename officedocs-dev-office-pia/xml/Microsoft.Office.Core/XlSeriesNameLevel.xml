@@ -1,0 +1,93 @@
+<Type Name="XlSeriesNameLevel" FullName="Microsoft.Office.Core.XlSeriesNameLevel">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4a23b9311629d8d8ddef211492e16299c6942534" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658278" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlSeriesNameLevel" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlSeriesNameLevel extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlSeriesNameLevel" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlSeriesNameLevel" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlSeriesNameLevel" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("76D9466C-84C2-4355-81FE-CB1B9CB03C19")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定的系列标签级别的系列标签。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlSeriesNameLevelAll">
+      <MemberSignature Language="C#" Value="xlSeriesNameLevelAll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlSeriesNameLevel xlSeriesNameLevelAll = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlSeriesNameLevel.xlSeriesNameLevelAll" />
+      <MemberSignature Language="VB.NET" Value="xlSeriesNameLevelAll" />
+      <MemberSignature Language="C++ CLI" Value="xlSeriesNameLevelAll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlSeriesNameLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  设置系列名称为系列名称的所有级别范围 w/中的图表。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlSeriesNameLevelCustom">
+      <MemberSignature Language="C#" Value="xlSeriesNameLevelCustom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlSeriesNameLevel xlSeriesNameLevelCustom = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlSeriesNameLevel.xlSeriesNameLevelCustom" />
+      <MemberSignature Language="VB.NET" Value="xlSeriesNameLevelCustom" />
+      <MemberSignature Language="C++ CLI" Value="xlSeriesNameLevelCustom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlSeriesNameLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指示文字的系列名称中的数据。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlSeriesNameLevelNone">
+      <MemberSignature Language="C#" Value="xlSeriesNameLevelNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlSeriesNameLevel xlSeriesNameLevelNone = int32(-3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlSeriesNameLevel.xlSeriesNameLevelNone" />
+      <MemberSignature Language="VB.NET" Value="xlSeriesNameLevelNone" />
+      <MemberSignature Language="C++ CLI" Value="xlSeriesNameLevelNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlSeriesNameLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>-3</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  设置图表; 中没有分类标签而是使用默认自动索引标签。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

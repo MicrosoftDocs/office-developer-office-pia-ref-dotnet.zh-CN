@@ -1,0 +1,183 @@
+<Type Name="MsoSyncStatusType" FullName="Microsoft.Office.Core.MsoSyncStatusType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="590fab7bdce81914d7571e3ac72c638ba64a316e" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657650" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoSyncStatusType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSyncStatusType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSyncStatusType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoSyncStatusType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoSyncStatusType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定与服务器副本的活动文档的本地副本的同步状态。</summary>
+    <remarks>
+      <para>用于<see cref="P:Microsoft.Office.Core.Sync.Status" />属性<see cref="T:Microsoft.Office.Core.Sync" />对象。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoSyncStatusConflict">
+      <MemberSignature Language="C#" Value="msoSyncStatusConflict" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncStatusType msoSyncStatusConflict = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncStatusType.msoSyncStatusConflict" />
+      <MemberSignature Language="VB.NET" Value="msoSyncStatusConflict" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncStatusConflict" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>本地副本和服务器副本都发生更改。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncStatusError">
+      <MemberSignature Language="C#" Value="msoSyncStatusError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncStatusType msoSyncStatusError = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncStatusType.msoSyncStatusError" />
+      <MemberSignature Language="VB.NET" Value="msoSyncStatusError" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncStatusError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>发生错误。使用 <b>Sync</b> 对象的 <b>ErrorType</b> 属性确定确切的错误。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncStatusLatest">
+      <MemberSignature Language="C#" Value="msoSyncStatusLatest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncStatusType msoSyncStatusLatest = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncStatusType.msoSyncStatusLatest" />
+      <MemberSignature Language="VB.NET" Value="msoSyncStatusLatest" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncStatusLatest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>文档已处于同步状态。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncStatusLocalChanges">
+      <MemberSignature Language="C#" Value="msoSyncStatusLocalChanges" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncStatusType msoSyncStatusLocalChanges = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncStatusType.msoSyncStatusLocalChanges" />
+      <MemberSignature Language="VB.NET" Value="msoSyncStatusLocalChanges" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncStatusLocalChanges" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>仅本地副本发生更改。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncStatusNewerAvailable">
+      <MemberSignature Language="C#" Value="msoSyncStatusNewerAvailable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncStatusType msoSyncStatusNewerAvailable = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncStatusType.msoSyncStatusNewerAvailable" />
+      <MemberSignature Language="VB.NET" Value="msoSyncStatusNewerAvailable" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncStatusNewerAvailable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>仅服务器副本发生更改。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncStatusNoSharedWorkspace">
+      <MemberSignature Language="C#" Value="msoSyncStatusNoSharedWorkspace" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncStatusType msoSyncStatusNoSharedWorkspace = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncStatusType.msoSyncStatusNoSharedWorkspace" />
+      <MemberSignature Language="VB.NET" Value="msoSyncStatusNoSharedWorkspace" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncStatusNoSharedWorkspace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>无共享工作区。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncStatusNotRoaming">
+      <MemberSignature Language="C#" Value="msoSyncStatusNotRoaming" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncStatusType msoSyncStatusNotRoaming = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncStatusType.msoSyncStatusNotRoaming" />
+      <MemberSignature Language="VB.NET" Value="msoSyncStatusNotRoaming" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncStatusNotRoaming" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>不需要同步。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncStatusSuspended">
+      <MemberSignature Language="C#" Value="msoSyncStatusSuspended" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncStatusType msoSyncStatusSuspended = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncStatusType.msoSyncStatusSuspended" />
+      <MemberSignature Language="VB.NET" Value="msoSyncStatusSuspended" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncStatusSuspended" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>同步已挂起。 您可以使用<b>Sync</b>对象的<b>Unsuspend</b>方法可恢复同步。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

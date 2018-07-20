@@ -1,0 +1,470 @@
+<Type Name="MsoFileType" FullName="Microsoft.Office.Core.MsoFileType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="533362f711283922d02f855e9674a085b97623ca" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658163" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoFileType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFileType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFileType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoFileType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoFileType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>指定文件的类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoFileTypeAllFiles">
+      <MemberSignature Language="C#" Value="msoFileTypeAllFiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeAllFiles = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeAllFiles" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeAllFiles" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeAllFiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>所有文件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeBinders">
+      <MemberSignature Language="C#" Value="msoFileTypeBinders" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeBinders = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeBinders" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeBinders" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeBinders" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Microsoft 活页夹文件 (*.obd)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeCalendarItem">
+      <MemberSignature Language="C#" Value="msoFileTypeCalendarItem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeCalendarItem = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeCalendarItem" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeCalendarItem" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeCalendarItem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>日历项目文件 （*.ics 或 *.vsc）。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeContactItem">
+      <MemberSignature Language="C#" Value="msoFileTypeContactItem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeContactItem = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeContactItem" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeContactItem" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeContactItem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>联系人项目文件 (*.vcf)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeDatabases">
+      <MemberSignature Language="C#" Value="msoFileTypeDatabases" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeDatabases = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeDatabases" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeDatabases" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeDatabases" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>数据库文件 (*.mdb)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeDataConnectionFiles">
+      <MemberSignature Language="C#" Value="msoFileTypeDataConnectionFiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeDataConnectionFiles = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeDataConnectionFiles" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeDataConnectionFiles" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeDataConnectionFiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>数据连接文件 (*.mdf)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeDesignerFiles">
+      <MemberSignature Language="C#" Value="msoFileTypeDesignerFiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeDesignerFiles = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeDesignerFiles" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeDesignerFiles" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeDesignerFiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>Visual Basic 活动设计器文件 (*.dsr)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeDocumentImagingFiles">
+      <MemberSignature Language="C#" Value="msoFileTypeDocumentImagingFiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeDocumentImagingFiles = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeDocumentImagingFiles" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeDocumentImagingFiles" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeDocumentImagingFiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>Microsoft Document Imaging 文件 (*.mdi)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeExcelWorkbooks">
+      <MemberSignature Language="C#" Value="msoFileTypeExcelWorkbooks" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeExcelWorkbooks = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeExcelWorkbooks" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeExcelWorkbooks" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeExcelWorkbooks" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Microsoft Excel 工作簿 (*.wbk)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeJournalItem">
+      <MemberSignature Language="C#" Value="msoFileTypeJournalItem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeJournalItem = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeJournalItem" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeJournalItem" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeJournalItem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>Microsoft Outlook 日记项目</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeMailItem">
+      <MemberSignature Language="C#" Value="msoFileTypeMailItem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeMailItem = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeMailItem" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeMailItem" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeMailItem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>邮件项目文件 (*.msg)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeNoteItem">
+      <MemberSignature Language="C#" Value="msoFileTypeNoteItem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeNoteItem = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeNoteItem" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeNoteItem" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeNoteItem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>Microsoft Outlook 会议纪录项目。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeOfficeFiles">
+      <MemberSignature Language="C#" Value="msoFileTypeOfficeFiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeOfficeFiles = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeOfficeFiles" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeOfficeFiles" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeOfficeFiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>文件的任何以下扩展名: *.doc、 *.xls，*.ppt、 *.pps、 *.obd、 *.mdb、 *.mpd，*.dot、 *.xlt，*.pot、 *.obt、 *.htm，或 *.html。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeOutlookItems">
+      <MemberSignature Language="C#" Value="msoFileTypeOutlookItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeOutlookItems = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeOutlookItems" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeOutlookItems" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeOutlookItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>任何 Microsoft Outlook 项目文件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypePhotoDrawFiles">
+      <MemberSignature Language="C#" Value="msoFileTypePhotoDrawFiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypePhotoDrawFiles = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypePhotoDrawFiles" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypePhotoDrawFiles" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypePhotoDrawFiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>PhotoDraw 项文件 (*.mix)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypePowerPointPresentations">
+      <MemberSignature Language="C#" Value="msoFileTypePowerPointPresentations" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypePowerPointPresentations = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypePowerPointPresentations" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypePowerPointPresentations" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypePowerPointPresentations" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>PowerPoint 演示文稿文件 (*.ppt)，PowerPoint 模板文件 (*.pot)，或 PowerPoint 幻灯片放映文件 (*.pps)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeProjectFiles">
+      <MemberSignature Language="C#" Value="msoFileTypeProjectFiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeProjectFiles = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeProjectFiles" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeProjectFiles" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeProjectFiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>项目文件 (*.mpd)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypePublisherFiles">
+      <MemberSignature Language="C#" Value="msoFileTypePublisherFiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypePublisherFiles = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypePublisherFiles" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypePublisherFiles" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypePublisherFiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>Microsoft Publisher 文件 (*.pub)</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeTaskItem">
+      <MemberSignature Language="C#" Value="msoFileTypeTaskItem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeTaskItem = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeTaskItem" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeTaskItem" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeTaskItem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>Microsoft Outlook 任务项。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeTemplates">
+      <MemberSignature Language="C#" Value="msoFileTypeTemplates" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeTemplates = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeTemplates" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeTemplates" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeTemplates" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Microsoft PowerPoint 模板 (*.pot)，Word 模板 (*.dot)，Excel 模板 (*.xlt)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeVisioFiles">
+      <MemberSignature Language="C#" Value="msoFileTypeVisioFiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeVisioFiles = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeVisioFiles" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeVisioFiles" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeVisioFiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>Microsoft Visio 文件 (*.vsd)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeWebPages">
+      <MemberSignature Language="C#" Value="msoFileTypeWebPages" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeWebPages = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeWebPages" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeWebPages" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeWebPages" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>HTML 文件 (*.htm 或 *.html)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileTypeWordDocuments">
+      <MemberSignature Language="C#" Value="msoFileTypeWordDocuments" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileType msoFileTypeWordDocuments = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileType.msoFileTypeWordDocuments" />
+      <MemberSignature Language="VB.NET" Value="msoFileTypeWordDocuments" />
+      <MemberSignature Language="C++ CLI" Value="msoFileTypeWordDocuments" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Microsoft Word 文档文件 (*.doc)。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

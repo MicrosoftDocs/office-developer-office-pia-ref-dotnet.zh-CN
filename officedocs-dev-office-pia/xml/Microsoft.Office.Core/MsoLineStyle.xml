@@ -1,0 +1,142 @@
+<Type Name="MsoLineStyle" FullName="Microsoft.Office.Core.MsoLineStyle">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="833cc2f5edd228cd54818b9b45712d0018057e1e" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657399" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoLineStyle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoLineStyle extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoLineStyle" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoLineStyle" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoLineStyle" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定线型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoLineSingle">
+      <MemberSignature Language="C#" Value="msoLineSingle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineStyle msoLineSingle = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineStyle.msoLineSingle" />
+      <MemberSignature Language="VB.NET" Value="msoLineSingle" />
+      <MemberSignature Language="C++ CLI" Value="msoLineSingle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>单线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStyleMixed">
+      <MemberSignature Language="C#" Value="msoLineStyleMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineStyle msoLineStyleMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineStyle.msoLineStyleMixed" />
+      <MemberSignature Language="VB.NET" Value="msoLineStyleMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStyleMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>不支持。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineThickBetweenThin">
+      <MemberSignature Language="C#" Value="msoLineThickBetweenThin" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineStyle msoLineThickBetweenThin = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineStyle.msoLineThickBetweenThin" />
+      <MemberSignature Language="VB.NET" Value="msoLineThickBetweenThin" />
+      <MemberSignature Language="C++ CLI" Value="msoLineThickBetweenThin" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>粗线每一侧各带一条细线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineThickThin">
+      <MemberSignature Language="C#" Value="msoLineThickThin" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineStyle msoLineThickThin = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineStyle.msoLineThickThin" />
+      <MemberSignature Language="VB.NET" Value="msoLineThickThin" />
+      <MemberSignature Language="C++ CLI" Value="msoLineThickThin" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>粗线位于细线旁边。当水平放置时，粗线位于细线上方。当垂直放置时，粗线位于细线左侧。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineThinThick">
+      <MemberSignature Language="C#" Value="msoLineThinThick" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineStyle msoLineThinThick = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineStyle.msoLineThinThick" />
+      <MemberSignature Language="VB.NET" Value="msoLineThinThick" />
+      <MemberSignature Language="C++ CLI" Value="msoLineThinThick" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>粗线位于细线旁边。当水平放置时，粗线位于细线下方。当垂直放置时，粗线位于细线右侧。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineThinThin">
+      <MemberSignature Language="C#" Value="msoLineThinThin" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineStyle msoLineThinThin = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineStyle.msoLineThinThin" />
+      <MemberSignature Language="VB.NET" Value="msoLineThinThin" />
+      <MemberSignature Language="C++ CLI" Value="msoLineThinThin" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>双细线。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

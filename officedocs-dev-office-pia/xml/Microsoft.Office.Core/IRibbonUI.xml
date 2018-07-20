@@ -1,0 +1,258 @@
+<Type Name="IRibbonUI" FullName="Microsoft.Office.Core.IRibbonUI">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f912fe8c8db15a87c031bae5d14f2fe64d719567" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657822" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IRibbonUI" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRibbonUI" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IRibbonUI" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRibbonUI" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IRibbonUI" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03A7-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>由 <b>onLoad</b> 过程（在 <b>customUI</b> 标记上指定）返回的对象。该对象包含用于使控件属性失效的方法，以及用于刷新用户界面的方法。</summary>
+    <remarks>
+      <para>使用 COM 加载项中的回调过程，可以自定义功能区用户界面 (UI)。主机应用程序启动时，调用<b>onLoad</b>回调过程。 回调过程然后返回一个<b>IRibbonUI</b>对象，该对象指向用户界面 (UI)。该对象用于调用<b>Invalidate</b>、 <b>InvalidateControl</b>，和<b>Refresh</b>方法。</para>
+      <para />
+    </remarks>
+    <example>
+      <para>在以下示例中，启动主机应用程序将触发<b>onLoad</b>事件过程，然后调用创建一个<b>IRibbonUI</b>对象，该对象代表功能区 UI 的过程。 接下来，回调过程将定义使所有缓存控件失效并随后刷新 UI。</para>
+      <para>以下是 Office 加载自定义功能区的 XML 标记：</para>
+      <code>&amp;lt;customUI … onLoad=”MyAddInInitialize” …&amp;gt;</code>
+      <para>下面是<b>onLoad</b>事件的回调方法：</para>
+      <code>Dim MyRibbon As IRibbonUI
+Sub MyAddInInitialize(Ribbon As IRibbonUI)
+    Set MyRibbon = Ribbon
+End Sub
+
+Sub myFunction()
+    ‘ Invalidates the caches of all of this add-in’s controls 
+    MyRibbon.Invalidate()            
+End Sub</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName="ActivateTab">
+      <MemberSignature Language="C#" Value="public void ActivateTab (string ControlID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ActivateTab([in]string ControlID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonUI.ActivateTab(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ActivateTab (ControlID As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ActivateTab(System::String ^ ControlID);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">指定要激活的自定义功能区选项卡的标识符。</param>
+        <summary>激活指定的自定义选项卡。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActivateTabMso">
+      <MemberSignature Language="C#" Value="public void ActivateTabMso (string ControlID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ActivateTabMso([in]string ControlID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonUI.ActivateTabMso(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ActivateTabMso (ControlID As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ActivateTabMso(System::String ^ ControlID);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">指定要激活的自定义功能区选项卡的标识符。</param>
+        <summary>激活指定的内置选项卡。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActivateTabQ">
+      <MemberSignature Language="C#" Value="public void ActivateTabQ (string ControlID, string Namespace);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ActivateTabQ([in]string ControlID, [in]string Namespace) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonUI.ActivateTabQ(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ActivateTabQ (ControlID As String, Namespace As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ActivateTabQ(System::String ^ ControlID, System::String ^ Namespace);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.String" />
+        <Parameter Name="Namespace" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">指定要激活的自定义功能区选项卡的标识符。</param>
+        <param name="Namespace">指定该选项卡元素的命名空间。</param>
+        <summary>激活 Microsoft Office Fluent 功能区 UI 上的指定自定义选项卡。 使用选项卡，其中包括标识符的完全限定的名称和选项卡的命名空间。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalidate">
+      <MemberSignature Language="C#" Value="public void Invalidate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Invalidate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonUI.Invalidate" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Invalidate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Invalidate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>使功能区用户界面所有控件的缓存值失效。</summary>
+        <remarks>
+          <para>使用 COM 加载项中的回调过程，可以自定义功能区用户界面。对于每个加载项的回调实现，缓存响应。 例如，如果外接程序编写器实现按钮<b>getImage</b>回调过程，该函数调用一次加载图像，并随后如果图像需要更新，则缓存的图像使用而不是重新调用该过程。此过程保持就地一直使用外接程序的缓存的值时使用<b>Invalidate</b>方法，是无效，回调过程会再次调用，并将返回的响应缓存。 外接程序可以然后强制立即更新用户界面通过调用<b>Refresh</b>方法。</para>
+          <para />
+        </remarks>
+        <example>
+          <para>在以下示例中，启动主机应用程序将触发<b>onLoad</b>事件过程，然后调用创建一个对象，表示功能区 UI 的过程。 接下来，回调过程将定义使所有用户界面上的控件失效并随后刷新 UI。</para>
+          <para>以下是 Office 加载自定义功能区的 XML 标记：</para>
+          <code>&amp;lt;customUI … onLoad=”MyAddInInitialize” …&amp;gt;</code>
+          <para>下面是<b>onLoad</b>事件的回调方法：</para>
+          <code>Dim MyRibbon As IRibbonUI
+Sub MyAddInInitialize(Ribbon As IRibbonUI)
+    Set MyRibbon = Ribbon
+End Sub
+
+Sub myFunction()
+    ‘ Invalidates the caches of all of this add-in’s controls 
+    MyRibbon.Invalidate()            
+End Sub</code>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidateControl">
+      <MemberSignature Language="C#" Value="public void InvalidateControl (string ControlID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InvalidateControl([in]string ControlID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonUI.InvalidateControl(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub InvalidateControl (ControlID As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InvalidateControl(System::String ^ ControlID);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">指定将失效的控件的 ID。</param>
+        <summary>使功能区用户界面上单个控件的缓存值失效。</summary>
+        <remarks>
+          <para>使用 COM 加载项中的回调过程，可以自定义功能区用户界面。对于每个加载项的回调实现，缓存响应。 例如，如果外接程序编写器实现按钮<b>getImage</b>回调过程，该函数调用一次加载图像，并随后如果图像需要更新，则缓存的图像使用而不是重新调用该过程。此过程保持就地一直使用外接程序的缓存的值时使用<b>InvalidateControl</b>方法，是无效的控件，会再次调用回调过程并返回的响应缓存。</para>
+          <para />
+        </remarks>
+        <example>
+          <para>在以下示例中，启动主机应用程序将触发<b>onLoad</b>事件过程，然后调用创建一个对象，表示功能区 UI 的过程。 接下来，将定义回调过程使失效 UI 上的控件，并随后刷新 UI。</para>
+          <para>以下是 Office 加载自定义功能区的 XML 标记：</para>
+          <code>&amp;lt;customUI … onLoad=”MyAddInInitialize” …&amp;gt;</code>
+          <para>下面是<b>onLoad</b>事件的回调方法：</para>
+          <code>Dim MyRibbon As IRibbonUI
+Sub MyAddInInitialize(Ribbon As IRibbonUI)
+    Set MyRibbon = Ribbon
+End Sub
+
+Sub myFunction()
+    ‘ Invalidates the cache of a single control 
+    MyRibbon.InvalidateControl(“control5”)            
+End Sub</code>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidateControlMso">
+      <MemberSignature Language="C#" Value="public void InvalidateControlMso (string ControlID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InvalidateControlMso([in]string ControlID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonUI.InvalidateControlMso(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub InvalidateControlMso (ControlID As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InvalidateControlMso(System::String ^ ControlID);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ControlID" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="ControlID">指定将失效的控件的标识符。</param>
+        <summary>用于使内置控件失效。</summary>
+        <remarks>
+          <para>使控件失效将重画屏幕，并使运行该控件相关联的所有回调过程。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

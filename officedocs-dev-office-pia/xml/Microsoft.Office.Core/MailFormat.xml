@@ -1,0 +1,85 @@
+<Type Name="MailFormat" FullName="Microsoft.Office.Core.MailFormat">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="06fa2214b2037dc2fc80ed1713f2198d8423d981" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658025" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MailFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MailFormat extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MailFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MailFormat" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MailFormat" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定一封电子邮件的格式。 这些格式对应于 Microsoft Outlook 中的电子邮件支持的格式。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="mfHTML">
+      <MemberSignature Language="C#" Value="mfHTML" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MailFormat mfHTML = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MailFormat.mfHTML" />
+      <MemberSignature Language="VB.NET" Value="mfHTML" />
+      <MemberSignature Language="C++ CLI" Value="mfHTML" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MailFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>超文本标记语言 (HTML) 格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="mfPlainText">
+      <MemberSignature Language="C#" Value="mfPlainText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MailFormat mfPlainText = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MailFormat.mfPlainText" />
+      <MemberSignature Language="VB.NET" Value="mfPlainText" />
+      <MemberSignature Language="C++ CLI" Value="mfPlainText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MailFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>纯文本。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="mfRTF">
+      <MemberSignature Language="C#" Value="mfRTF" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MailFormat mfRTF = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MailFormat.mfRTF" />
+      <MemberSignature Language="VB.NET" Value="mfRTF" />
+      <MemberSignature Language="C++ CLI" Value="mfRTF" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MailFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>富文本格式 (RTF) 格式。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

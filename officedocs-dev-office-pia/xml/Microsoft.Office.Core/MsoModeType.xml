@@ -1,0 +1,85 @@
+<Type Name="MsoModeType" FullName="Microsoft.Office.Core.MsoModeType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ccdc30b7e3f3eb03d7b36ee315d97ab04da39693" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657628" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoModeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoModeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoModeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoModeType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoModeType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoModeAutoDown">
+      <MemberSignature Language="C#" Value="msoModeAutoDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoModeType msoModeAutoDown = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoModeType.msoModeAutoDown" />
+      <MemberSignature Language="VB.NET" Value="msoModeAutoDown" />
+      <MemberSignature Language="C++ CLI" Value="msoModeAutoDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoModeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoModeModal">
+      <MemberSignature Language="C#" Value="msoModeModal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoModeType msoModeModal = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoModeType.msoModeModal" />
+      <MemberSignature Language="VB.NET" Value="msoModeModal" />
+      <MemberSignature Language="C++ CLI" Value="msoModeModal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoModeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoModeModeless">
+      <MemberSignature Language="C#" Value="msoModeModeless" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoModeType msoModeModeless = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoModeType.msoModeModeless" />
+      <MemberSignature Language="VB.NET" Value="msoModeModeless" />
+      <MemberSignature Language="C++ CLI" Value="msoModeModeless" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoModeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

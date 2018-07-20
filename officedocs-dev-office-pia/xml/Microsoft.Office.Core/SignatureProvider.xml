@@ -1,0 +1,406 @@
+<Type Name="SignatureProvider" FullName="Microsoft.Office.Core.SignatureProvider">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f75e580a44e443c0cdc1870bf2d4671939974dc2" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658206" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface SignatureProvider" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SignatureProvider" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SignatureProvider" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SignatureProvider" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SignatureProvider" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000CD6A3-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>代表签名提供程序加载项。</summary>
+    <remarks>
+      <para>
+        <b>注意</b>： 签名提供程序以独占方式在自定义 COM 加载项中实现，而不能在 Microsoft Visual Basic for Applications (VBA)。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GenerateSignatureLineImage">
+      <MemberSignature Language="C#" Value="public stdole.IPictureDisp GenerateSignatureLineImage (Microsoft.Office.Core.SignatureLineImage siglnimg, Microsoft.Office.Core.SignatureSetup psigsetup, Microsoft.Office.Core.SignatureInfo psiginfo, object XmlDsigStream);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class stdole.IPictureDisp GenerateSignatureLineImage([in]valuetype Microsoft.Office.Core.SignatureLineImage siglnimg, [in]class Microsoft.Office.Core.SignatureSetup psigsetup, [in]class Microsoft.Office.Core.SignatureInfo psiginfo, [in]object XmlDsigStream) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SignatureProvider.GenerateSignatureLineImage(Microsoft.Office.Core.SignatureLineImage,Microsoft.Office.Core.SignatureSetup,Microsoft.Office.Core.SignatureInfo,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GenerateSignatureLineImage (siglnimg As SignatureLineImage, psigsetup As SignatureSetup, psiginfo As SignatureInfo, XmlDsigStream As Object) As IPictureDisp" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; stdole::IPictureDisp ^ GenerateSignatureLineImage(Microsoft::Office::Core::SignatureLineImage siglnimg, Microsoft::Office::Core::SignatureSetup ^ psigsetup, Microsoft::Office::Core::SignatureInfo ^ psiginfo, System::Object ^ XmlDsigStream);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.IPictureDisp</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.IPictureDisp")</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="siglnimg" Type="Microsoft.Office.Core.SignatureLineImage" />
+        <Parameter Name="psigsetup" Type="Microsoft.Office.Core.SignatureSetup" />
+        <Parameter Name="psiginfo" Type="Microsoft.Office.Core.SignatureInfo" />
+        <Parameter Name="XmlDsigStream" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="siglnimg">如果为签名行图形，则包含相应的名称。</param>
+        <param name="psigsetup">指定签名提供程序加载项的初始设置。</param>
+        <param name="psiginfo">指定有关签名提供程序加载项的信息。</param>
+        <param name="XmlDsigStream">To be added.</param>
+        <summary>获取签名行图像。</summary>
+        <returns>
+          <b>IPictureDisp</b>
+        </returns>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Core.SignatureProvider" />中自定义签名提供程序加载项以独占方式使用对象。每个文档的内容中显示的图像的情况下调用此方法。该方法可异步调用。例如，该方法可能签名设置之后调用"签名"图像和"无 software"图像直接中。然后可以在"已登录"图像签名后调用该方法。可使用的四个图像： </para>
+          <list type="bullet">
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Core.SignatureLineImage.siglnimgSoftwareRequired" />： 如果在用户计算机上未安装签名提供程序加载项，向用户显示该图像。如果用户尝试登录或查看签名行，它们将重定向至提供程序提供的超链接中指定<see cref="M:Microsoft.Office.Core.SignatureProvider.GetProviderDetail(Microsoft.Office.Core.SignatureProviderDetail)" />方法。</para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Core.SignatureLineImage.siglnimgUnsigned" />： 此图像将显示未签署的签名图像。一般情况下，当文档加载与未签署的签名行时，签名提供程序将提示获取最新的签名图像，并显示此图像。</para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Core.SignatureLineImage.siglnimgSignedValid" />： 这是已签名和有效签名行时显示的图像 (或者更具体地说，签名和签名不会注册为无效)。文档打开时，假定的所有已签署的签名有效，直到验证过程已完成，此时显示"已签名/无效"图像无效签名。由于签名验证耗时，签名验证运行与 Office 并行后台线程上。由于加载项实现签名验证，您的代码运行与 Office 并行并不应尝试在签名或验证过程中显示用户界面。</para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Core.SignatureLineImage.siglnimgSignedInvalid" />： 这是我们显示时签署签名行但没有问题与签名，如修改文档或用户的证书已被吊销的图像。由于加载项实现签名验证，您可以决定如何以及何时签名无效。</para>
+            </item>
+          </list>
+          <para />
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProviderDetail">
+      <MemberSignature Language="C#" Value="public object GetProviderDetail (Microsoft.Office.Core.SignatureProviderDetail sigprovdet);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetProviderDetail([in]valuetype Microsoft.Office.Core.SignatureProviderDetail sigprovdet) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SignatureProvider.GetProviderDetail(Microsoft.Office.Core.SignatureProviderDetail)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetProviderDetail (sigprovdet As SignatureProviderDetail) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetProviderDetail(Microsoft::Office::Core::SignatureProviderDetail sigprovdet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743815)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sigprovdet" Type="Microsoft.Office.Core.SignatureProviderDetail" />
+      </Parameters>
+      <Docs>
+        <param name="sigprovdet">包含一个枚举值，该枚举值代表要向加载项查询的信息的类型。</param>
+        <summary>向签名提供程序加载项查询各种详细信息。</summary>
+        <returns>
+          <b>对象</b>
+        </returns>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Core.SignatureProvider" />中自定义签名提供程序加载项以独占方式使用对象。此方法用于查询外接程序程序三条信息：</para>
+          <list type="bullet">
+            <item>
+              <para>哪种哈希算法执行外接程序支持？</para>
+            </item>
+            <item>
+              <para>外接程序仅用户界面 (UI) 或哈希和验证支持？如果返回<b>True</b> ，则 Microsoft Office 不调用外接程序哈希或验证，仅显示用户界面。</para>
+            </item>
+            <item>
+              <para>什么 URL 应外接程序为用户提供如果用户缺少签名加载项？</para>
+            </item>
+          </list>
+          <para />
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HashStream">
+      <MemberSignature Language="C#" Value="public Array HashStream (object QueryContinue, object Stream);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Array HashStream([in]object QueryContinue, [in]object Stream) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SignatureProvider.HashStream(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function HashStream (QueryContinue As Object, Stream As Object) As Array" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Array ^ HashStream(System::Object ^ QueryContinue, System::Object ^ Stream);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743816)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Array</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="QueryContinue" Type="System.Object" />
+        <Parameter Name="Stream" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="QueryContinue">提供了一种方式，可向主机应用程序进行查询以获得继续进行哈希处理的许可。</param>
+        <param name="Stream">包含数据流。</param>
+        <summary>允许签名提供程序加载项为文档创建一个哈希值，您可以使用该值来确定在进行数字签名后文档内容是否被篡改过。</summary>
+        <returns>
+          <b>数组</b>
+        </returns>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Core.SignatureProvider" />中自定义签名提供程序加载项以独占方式使用对象。每个签名在文档中的数据流一次调用此方法。返回值是一个代表哈希值计算使用的哈希算法的字节数组。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotifySignatureAdded">
+      <MemberSignature Language="C#" Value="public void NotifySignatureAdded (object ParentWindow, Microsoft.Office.Core.SignatureSetup psigsetup, Microsoft.Office.Core.SignatureInfo psiginfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NotifySignatureAdded([in]object ParentWindow, [in]class Microsoft.Office.Core.SignatureSetup psigsetup, [in]class Microsoft.Office.Core.SignatureInfo psiginfo) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SignatureProvider.NotifySignatureAdded(System.Object,Microsoft.Office.Core.SignatureSetup,Microsoft.Office.Core.SignatureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub NotifySignatureAdded (ParentWindow As Object, psigsetup As SignatureSetup, psiginfo As SignatureInfo)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void NotifySignatureAdded(System::Object ^ ParentWindow, Microsoft::Office::Core::SignatureSetup ^ psigsetup, Microsoft::Office::Core::SignatureInfo ^ psiginfo);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ParentWindow" Type="System.Object" />
+        <Parameter Name="psigsetup" Type="Microsoft.Office.Core.SignatureSetup" />
+        <Parameter Name="psiginfo" Type="Microsoft.Office.Core.SignatureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="ParentWindow">允许主机应用程序获取包含所显示对话框的窗口的句柄。</param>
+        <param name="psigsetup">包含签名提供程序的初始设置。</param>
+        <param name="psiginfo">包含有关签名提供程序加载项的信息。</param>
+        <summary>用于显示一个对话框，通知用户签署过程已完成并为加载项提供附加功能。</summary>
+        <remarks>
+          <para>签名过程完成后，调用此方法。允许签名提供程序加载项能够向外接程序中添加其他功能。例如，如果您想要提供用户无法对其签名的文档将上载存档服务，您无法使用此方法来启动该过程。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowSignatureDetails">
+      <MemberSignature Language="C#" Value="public void ShowSignatureDetails (object ParentWindow, Microsoft.Office.Core.SignatureSetup psigsetup, Microsoft.Office.Core.SignatureInfo psiginfo, object XmlDsigStream, out Microsoft.Office.Core.ContentVerificationResults pcontverres, out Microsoft.Office.Core.CertificateVerificationResults pcertverres);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowSignatureDetails([in]object ParentWindow, [in]class Microsoft.Office.Core.SignatureSetup psigsetup, [in]class Microsoft.Office.Core.SignatureInfo psiginfo, [in]object XmlDsigStream, [out] valuetype Microsoft.Office.Core.ContentVerificationResults&amp; pcontverres, [out] valuetype Microsoft.Office.Core.CertificateVerificationResults&amp; pcertverres) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SignatureProvider.ShowSignatureDetails(System.Object,Microsoft.Office.Core.SignatureSetup,Microsoft.Office.Core.SignatureInfo,System.Object,Microsoft.Office.Core.ContentVerificationResults@,Microsoft.Office.Core.CertificateVerificationResults@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowSignatureDetails (ParentWindow As Object, psigsetup As SignatureSetup, psiginfo As SignatureInfo, XmlDsigStream As Object, ByRef pcontverres As ContentVerificationResults, ByRef pcertverres As CertificateVerificationResults)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowSignatureDetails(System::Object ^ ParentWindow, Microsoft::Office::Core::SignatureSetup ^ psigsetup, Microsoft::Office::Core::SignatureInfo ^ psiginfo, System::Object ^ XmlDsigStream, [Runtime::InteropServices::Out] Microsoft::Office::Core::ContentVerificationResults % pcontverres, [Runtime::InteropServices::Out] Microsoft::Office::Core::CertificateVerificationResults % pcertverres);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743814)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ParentWindow" Type="System.Object" />
+        <Parameter Name="psigsetup" Type="Microsoft.Office.Core.SignatureSetup" />
+        <Parameter Name="psiginfo" Type="Microsoft.Office.Core.SignatureInfo" />
+        <Parameter Name="XmlDsigStream" Type="System.Object" />
+        <Parameter Name="pcontverres" Type="Microsoft.Office.Core.ContentVerificationResults&amp;" RefType="out" />
+        <Parameter Name="pcertverres" Type="Microsoft.Office.Core.CertificateVerificationResults&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="ParentWindow">包含窗口的句柄，该窗口中包含签名详细信息。</param>
+        <param name="psigsetup">指定签名提供程序的初始设置。</param>
+        <param name="psiginfo">指定有关已签署签名行的信息。</param>
+        <param name="XmlDsigStream">代表数据流或 XML 的二进制大对象。</param>
+        <param name="pcontverres">包含一个值，代表验证签名内容的结果。</param>
+        <param name="pcertverres">包含一个值，代表验证签名证书的结果。</param>
+        <summary>使签名提供程序加载项能够显示有关已签署的签名行的详细信息，并显示一个安全的时间戳等其他已存储的信息。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowSignatureSetup">
+      <MemberSignature Language="C#" Value="public void ShowSignatureSetup (object ParentWindow, Microsoft.Office.Core.SignatureSetup psigsetup);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowSignatureSetup([in]object ParentWindow, [in]class Microsoft.Office.Core.SignatureSetup psigsetup) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SignatureProvider.ShowSignatureSetup(System.Object,Microsoft.Office.Core.SignatureSetup)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowSignatureSetup (ParentWindow As Object, psigsetup As SignatureSetup)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowSignatureSetup(System::Object ^ ParentWindow, Microsoft::Office::Core::SignatureSetup ^ psigsetup);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ParentWindow" Type="System.Object" />
+        <Parameter Name="psigsetup" Type="Microsoft.Office.Core.SignatureSetup" />
+      </Parameters>
+      <Docs>
+        <param name="ParentWindow">包含窗口的句柄，该窗口中包含“签名设置”对话框。</param>
+        <param name="psigsetup">指定签名提供程序的初始设置。</param>
+        <summary>使签名提供程序加载项能够向用户显示“签名设置”对话框。</summary>
+        <remarks>
+          <para>此方法用于两个插入时间配置过程和用户如果以后想要重新配置签名行。您在此回调过程中显示签名设置对话框，等待用户选择确定或取消。不需要显示签名设置对话框中，除非明确需要从作者有关签名行的信息。如果您可以回无需用户输入的 Microsoft Office 提供所有必要的详细信息，则没有对话框是所必需的。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowSigningCeremony">
+      <MemberSignature Language="C#" Value="public void ShowSigningCeremony (object ParentWindow, Microsoft.Office.Core.SignatureSetup psigsetup, Microsoft.Office.Core.SignatureInfo psiginfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowSigningCeremony([in]object ParentWindow, [in]class Microsoft.Office.Core.SignatureSetup psigsetup, [in]class Microsoft.Office.Core.SignatureInfo psiginfo) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SignatureProvider.ShowSigningCeremony(System.Object,Microsoft.Office.Core.SignatureSetup,Microsoft.Office.Core.SignatureInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowSigningCeremony (ParentWindow As Object, psigsetup As SignatureSetup, psiginfo As SignatureInfo)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowSigningCeremony(System::Object ^ ParentWindow, Microsoft::Office::Core::SignatureSetup ^ psigsetup, Microsoft::Office::Core::SignatureInfo ^ psiginfo);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ParentWindow" Type="System.Object" />
+        <Parameter Name="psigsetup" Type="Microsoft.Office.Core.SignatureSetup" />
+        <Parameter Name="psiginfo" Type="Microsoft.Office.Core.SignatureInfo" />
+      </Parameters>
+      <Docs>
+        <param name="ParentWindow">包含窗口的句柄，该窗口中包含“签名”对话框。</param>
+        <param name="psigsetup">指定签名提供程序的初始设置。</param>
+        <param name="psiginfo">指定有关签名提供程序的信息。</param>
+        <summary>使签名提供程序加载项能够向用户显示“签名”对话框，从而允许用户指定他们的身份并随后获得验证。</summary>
+        <remarks>
+          <para>Microsoft Office 应用程序时用户尝试登录签名行，或呼叫外接程序内部调用此方法<see cref="M:Microsoft.Office.Core.Signature.Sign(System.Object,System.Object,System.Object,System.Object)" />上的 Office 应用程序的对象模型中方法<see cref="T:Microsoft.Office.Core.Signature" />对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignXmlDsig">
+      <MemberSignature Language="C#" Value="public void SignXmlDsig (object QueryContinue, Microsoft.Office.Core.SignatureSetup psigsetup, Microsoft.Office.Core.SignatureInfo psiginfo, object XmlDsigStream);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SignXmlDsig([in]object QueryContinue, [in]class Microsoft.Office.Core.SignatureSetup psigsetup, [in]class Microsoft.Office.Core.SignatureInfo psiginfo, [in]object XmlDsigStream) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SignatureProvider.SignXmlDsig(System.Object,Microsoft.Office.Core.SignatureSetup,Microsoft.Office.Core.SignatureInfo,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SignXmlDsig (QueryContinue As Object, psigsetup As SignatureSetup, psiginfo As SignatureInfo, XmlDsigStream As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SignXmlDsig(System::Object ^ QueryContinue, Microsoft::Office::Core::SignatureSetup ^ psigsetup, Microsoft::Office::Core::SignatureInfo ^ psiginfo, System::Object ^ XmlDsigStream);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="QueryContinue" Type="System.Object" />
+        <Parameter Name="psigsetup" Type="Microsoft.Office.Core.SignatureSetup" />
+        <Parameter Name="psiginfo" Type="Microsoft.Office.Core.SignatureInfo" />
+        <Parameter Name="XmlDsigStream" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="QueryContinue">提供了一种方式，可查询主机应用程序以获得继续进行验证操作的许可。</param>
+        <param name="psigsetup">指定有关签名行的配置信息。</param>
+        <param name="psiginfo">指定从签署仪式中捕获的信息。</param>
+        <param name="XmlDsigStream">代表一个包含 XML 的数据流，该数据流又代表一个 <b>XMLDSIG</b> 对象。</param>
+        <summary>用于签署 XMLDSIG 模板。</summary>
+        <remarks>
+          <para>XMLDSIG 是一种基于标准的签名格式<a href="http://www.w3.org/TR/xmldsig-core/">http://www.w3.org/TR/xmldsig-core/</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerifyXmlDsig">
+      <MemberSignature Language="C#" Value="public void VerifyXmlDsig (object QueryContinue, Microsoft.Office.Core.SignatureSetup psigsetup, Microsoft.Office.Core.SignatureInfo psiginfo, object XmlDsigStream, out Microsoft.Office.Core.ContentVerificationResults pcontverres, out Microsoft.Office.Core.CertificateVerificationResults pcertverres);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void VerifyXmlDsig([in]object QueryContinue, [in]class Microsoft.Office.Core.SignatureSetup psigsetup, [in]class Microsoft.Office.Core.SignatureInfo psiginfo, [in]object XmlDsigStream, [out] valuetype Microsoft.Office.Core.ContentVerificationResults&amp; pcontverres, [out] valuetype Microsoft.Office.Core.CertificateVerificationResults&amp; pcertverres) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SignatureProvider.VerifyXmlDsig(System.Object,Microsoft.Office.Core.SignatureSetup,Microsoft.Office.Core.SignatureInfo,System.Object,Microsoft.Office.Core.ContentVerificationResults@,Microsoft.Office.Core.CertificateVerificationResults@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub VerifyXmlDsig (QueryContinue As Object, psigsetup As SignatureSetup, psiginfo As SignatureInfo, XmlDsigStream As Object, ByRef pcontverres As ContentVerificationResults, ByRef pcertverres As CertificateVerificationResults)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void VerifyXmlDsig(System::Object ^ QueryContinue, Microsoft::Office::Core::SignatureSetup ^ psigsetup, Microsoft::Office::Core::SignatureInfo ^ psiginfo, System::Object ^ XmlDsigStream, [Runtime::InteropServices::Out] Microsoft::Office::Core::ContentVerificationResults % pcontverres, [Runtime::InteropServices::Out] Microsoft::Office::Core::CertificateVerificationResults % pcertverres);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="QueryContinue" Type="System.Object" />
+        <Parameter Name="psigsetup" Type="Microsoft.Office.Core.SignatureSetup" />
+        <Parameter Name="psiginfo" Type="Microsoft.Office.Core.SignatureInfo" />
+        <Parameter Name="XmlDsigStream" Type="System.Object" />
+        <Parameter Name="pcontverres" Type="Microsoft.Office.Core.ContentVerificationResults&amp;" RefType="out" />
+        <Parameter Name="pcertverres" Type="Microsoft.Office.Core.CertificateVerificationResults&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="QueryContinue">提供了一种方式，可查询主机应用程序以获得继续进行验证操作的许可。</param>
+        <param name="psigsetup">指定有关签名行的配置信息。</param>
+        <param name="psiginfo">指定从签署仪式中捕获的信息。</param>
+        <param name="XmlDsigStream">代表一个包含 XML 的数据流，该数据流又代表一个 <b>XMLDSIG</b> 对象。</param>
+        <param name="pcontverres">指定签名验证操作的状态。</param>
+        <param name="pcertverres">指定签名证书验证的状态。</param>
+        <summary>基于文档的签署状态和用于签名的证书的合法性来验证签名。</summary>
+        <remarks>
+          <para>XMLDSIG 是一个基于标准的签名格式 （<a href="http://www.w3.org/TR/xmldsig-core/">http://www.w3.org/TR/xmldsig-core/</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

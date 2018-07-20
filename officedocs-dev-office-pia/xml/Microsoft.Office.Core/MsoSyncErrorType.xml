@@ -1,0 +1,351 @@
+<Type Name="MsoSyncErrorType" FullName="Microsoft.Office.Core.MsoSyncErrorType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0bf744061efc805fbf1e67a45069aefd4727ad75" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657997" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoSyncErrorType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSyncErrorType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSyncErrorType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoSyncErrorType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoSyncErrorType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定文档同步错误。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoSyncErrorCouldNotCompare">
+      <MemberSignature Language="C#" Value="msoSyncErrorCouldNotCompare" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncErrorType msoSyncErrorCouldNotCompare = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncErrorType.msoSyncErrorCouldNotCompare" />
+      <MemberSignature Language="VB.NET" Value="msoSyncErrorCouldNotCompare" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncErrorCouldNotCompare" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>无法比较源文件和目标文件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncErrorCouldNotConnect">
+      <MemberSignature Language="C#" Value="msoSyncErrorCouldNotConnect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncErrorType msoSyncErrorCouldNotConnect = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncErrorType.msoSyncErrorCouldNotConnect" />
+      <MemberSignature Language="VB.NET" Value="msoSyncErrorCouldNotConnect" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncErrorCouldNotConnect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>无法连接。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncErrorCouldNotOpen">
+      <MemberSignature Language="C#" Value="msoSyncErrorCouldNotOpen" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncErrorType msoSyncErrorCouldNotOpen = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncErrorType.msoSyncErrorCouldNotOpen" />
+      <MemberSignature Language="VB.NET" Value="msoSyncErrorCouldNotOpen" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncErrorCouldNotOpen" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>无法打开文件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncErrorCouldNotResolve">
+      <MemberSignature Language="C#" Value="msoSyncErrorCouldNotResolve" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncErrorType msoSyncErrorCouldNotResolve = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncErrorType.msoSyncErrorCouldNotResolve" />
+      <MemberSignature Language="VB.NET" Value="msoSyncErrorCouldNotResolve" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncErrorCouldNotResolve" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>无法解析文件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncErrorCouldNotUpdate">
+      <MemberSignature Language="C#" Value="msoSyncErrorCouldNotUpdate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncErrorType msoSyncErrorCouldNotUpdate = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncErrorType.msoSyncErrorCouldNotUpdate" />
+      <MemberSignature Language="VB.NET" Value="msoSyncErrorCouldNotUpdate" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncErrorCouldNotUpdate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>无法更新目标文件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncErrorFileInUse">
+      <MemberSignature Language="C#" Value="msoSyncErrorFileInUse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncErrorType msoSyncErrorFileInUse = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncErrorType.msoSyncErrorFileInUse" />
+      <MemberSignature Language="VB.NET" Value="msoSyncErrorFileInUse" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncErrorFileInUse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>目标文件正在使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncErrorFileNotFound">
+      <MemberSignature Language="C#" Value="msoSyncErrorFileNotFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncErrorType msoSyncErrorFileNotFound = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncErrorType.msoSyncErrorFileNotFound" />
+      <MemberSignature Language="VB.NET" Value="msoSyncErrorFileNotFound" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncErrorFileNotFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>找不到目标文件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncErrorFileTooLarge">
+      <MemberSignature Language="C#" Value="msoSyncErrorFileTooLarge" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncErrorType msoSyncErrorFileTooLarge = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncErrorType.msoSyncErrorFileTooLarge" />
+      <MemberSignature Language="VB.NET" Value="msoSyncErrorFileTooLarge" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncErrorFileTooLarge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>文件太大，无法同步。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncErrorNone">
+      <MemberSignature Language="C#" Value="msoSyncErrorNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncErrorType msoSyncErrorNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncErrorType.msoSyncErrorNone" />
+      <MemberSignature Language="VB.NET" Value="msoSyncErrorNone" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncErrorNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>没有错误。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncErrorNoNetwork">
+      <MemberSignature Language="C#" Value="msoSyncErrorNoNetwork" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncErrorType msoSyncErrorNoNetwork = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncErrorType.msoSyncErrorNoNetwork" />
+      <MemberSignature Language="VB.NET" Value="msoSyncErrorNoNetwork" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncErrorNoNetwork" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>没有可用的网络。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncErrorOutOfSpace">
+      <MemberSignature Language="C#" Value="msoSyncErrorOutOfSpace" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncErrorType msoSyncErrorOutOfSpace = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncErrorType.msoSyncErrorOutOfSpace" />
+      <MemberSignature Language="VB.NET" Value="msoSyncErrorOutOfSpace" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncErrorOutOfSpace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>空间不足。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncErrorUnauthorizedUser">
+      <MemberSignature Language="C#" Value="msoSyncErrorUnauthorizedUser" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncErrorType msoSyncErrorUnauthorizedUser = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncErrorType.msoSyncErrorUnauthorizedUser" />
+      <MemberSignature Language="VB.NET" Value="msoSyncErrorUnauthorizedUser" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncErrorUnauthorizedUser" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>用户未经授权。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncErrorUnknown">
+      <MemberSignature Language="C#" Value="msoSyncErrorUnknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncErrorType msoSyncErrorUnknown = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncErrorType.msoSyncErrorUnknown" />
+      <MemberSignature Language="VB.NET" Value="msoSyncErrorUnknown" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncErrorUnknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>未知错误。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncErrorUnknownDownload">
+      <MemberSignature Language="C#" Value="msoSyncErrorUnknownDownload" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncErrorType msoSyncErrorUnknownDownload = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncErrorType.msoSyncErrorUnknownDownload" />
+      <MemberSignature Language="VB.NET" Value="msoSyncErrorUnknownDownload" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncErrorUnknownDownload" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>下载错误。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncErrorUnknownUpload">
+      <MemberSignature Language="C#" Value="msoSyncErrorUnknownUpload" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncErrorType msoSyncErrorUnknownUpload = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncErrorType.msoSyncErrorUnknownUpload" />
+      <MemberSignature Language="VB.NET" Value="msoSyncErrorUnknownUpload" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncErrorUnknownUpload" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>上载错误。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncErrorVirusDownload">
+      <MemberSignature Language="C#" Value="msoSyncErrorVirusDownload" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncErrorType msoSyncErrorVirusDownload = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncErrorType.msoSyncErrorVirusDownload" />
+      <MemberSignature Language="VB.NET" Value="msoSyncErrorVirusDownload" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncErrorVirusDownload" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>下载了病毒。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncErrorVirusUpload">
+      <MemberSignature Language="C#" Value="msoSyncErrorVirusUpload" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncErrorType msoSyncErrorVirusUpload = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncErrorType.msoSyncErrorVirusUpload" />
+      <MemberSignature Language="VB.NET" Value="msoSyncErrorVirusUpload" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncErrorVirusUpload" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>上载了病毒。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

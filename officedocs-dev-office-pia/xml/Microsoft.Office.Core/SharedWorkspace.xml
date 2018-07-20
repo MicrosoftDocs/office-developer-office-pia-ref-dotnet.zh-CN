@@ -1,0 +1,585 @@
+<Type Name="SharedWorkspace" FullName="Microsoft.Office.Core.SharedWorkspace">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="71a452a8173817374f9c4faa7efc94b837c407ff" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657450" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface SharedWorkspace : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SharedWorkspace implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SharedWorkspace" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SharedWorkspace&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SharedWorkspace : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0385-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>此对象、 成员或枚举已弃用，不应在代码中使用。<b>SharedWorkspace</b>对象使开发人员将活动文档添加到服务器上的 Microsoft Windows SharePoint Services 文档工作区和管理共享工作区中的其他对象。</summary>
+    <remarks>
+      <para>Microsoft Office Word 2003<b>文档</b>对象、 Microsoft Office Excel 2003<b>工作簿</b>对象和 Microsoft Office PowerPoint 2003<b>演示文稿</b>对象的<b>SharedWorkspace</b>属性返回<b>SharedWorkspace</b>对象。</para>要添加到 Windows SharePoint Services 文档工作区的服务器上的活动 Word、 Excel 或 PowerPoint 文档以便充分利用工作区的协作功能，或要断开连接或删除的
+      <para>使用<b>SharedWorkspace</b>对象文档工作区。使用<b>SharedWorkspace</b>对象的集合，以管理文件、 文件夹、 链接、 成员和共享文档与相关的任务。</para><para><b>SharedWorkspace</b>对象模型提供了工作区中存储的文档。<b>文档</b>、<b>工作簿</b>和<b>演示文稿</b>对象的<b>SharedWorkspace</b>属性不返回任何内容时不共享文档。使用<see cref="P:Microsoft.Office.Core.SharedWorkspace.Connected" /><b>SharedWorkspace</b>对象以确定是否在活动文档实际上中保存并连接到共享工作区的属性。</para><para>用户需要相应的权限才能使用<b>SharedWorkspace</b>对象层次结构中的对象、 属性和方法。</para><para>使用<see cref="T:Microsoft.Office.Core.SharedWorkspaceFiles" />集合，通过访问<see cref="P:Microsoft.Office.Core.SharedWorkspace.Files" />要管理文档和文件保存在共享工作区中的<b>SharedWorkspace</b>对象的属性。</para><para>使用<see cref="T:Microsoft.Office.Core.SharedWorkspaceFolders" />集合，通过访问<see cref="P:Microsoft.Office.Core.SharedWorkspace.Folders" /><b>SharedWorkspace</b>对象的可管理共享工作区主文档库文件夹中的子文件夹的属性。</para><para>使用<see cref="T:Microsoft.Office.Core.SharedWorkspaceLinks" />集合，通过访问<see cref="P:Microsoft.Office.Core.SharedWorkspace.Links" /><b>SharedWorkspace</b>对象，可管理指向其他文档和信息感兴趣的协作成员中共享的文档属性工作区。</para><para>使用<see cref="T:Microsoft.Office.Core.SharedWorkspaceMembers" />集合，通过访问<see cref="P:Microsoft.Office.Core.SharedWorkspace.Members" />要管理用户有权参与共享工作区并在保存工作区中的共享文档进行协作的<b>SharedWorkspace</b>对象的属性。</para><para>使用<see cref="T:Microsoft.Office.Core.SharedWorkspaceTasks" />集合，通过访问<see cref="P:Microsoft.Office.Core.SharedWorkspace.Tasks" />要管理分配给共享工作区中的文档的协作成员的任务的<b>SharedWorkspace</b>对象的属性。</para>使用
+      <para><see cref="M:Microsoft.Office.Core.SharedWorkspace.CreateNew(System.Object,System.Object)" />方法来创建新的文档工作区并将活动文档添加到工作区。使用<see cref="P:Microsoft.Office.Core.SharedWorkspace.Name" />和<see cref="P:Microsoft.Office.Core.SharedWorkspace.URL" />属性可返回有关在工作区信息。</para><para><b>SharedWorkspace</b>对象使用本地缓存的对象和服务器的属性。开发人员可能需要更新此缓存之前执行某些操作，或将缓存的属性更改保存回服务器。使用<see cref="M:Microsoft.Office.Core.SharedWorkspace.Refresh" />方法刷新服务器上，从本地缓存并使用<b>SharedWorkspace</b>对象的<see cref="P:Microsoft.Office.Core.SharedWorkspace.LastRefreshed" />属性可以确定当刷新操作上次发生。使用<b>Save</b>方法的<see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />后才能将更改上载到服务器的本地修改其属性的对象。</para>使用
+      <para><see cref="M:Microsoft.Office.Core.SharedWorkspace.Disconnect" />方法，以断开活动文档的本地副本与共享工作区中，同时保持在工作区中的共享的副本不变。使用<see cref="M:Microsoft.Office.Core.SharedWorkspace.RemoveDocument" />方法，以从共享工作区中完全删除共享的文档。</para><para>用户需要相应的权限才能使用<b>SharedWorkspace</b>对象层次结构中的对象、 属性和方法。使用<paramref name="Role" />添加到成员时参数<see cref="T:Microsoft.Office.Core.SharedWorkspaceMembers" />集合指定的特定于每个工作区成员的权限集。</para>使用<b>SharedWorkspace</b>对象模型时的
+      <para>，就可以创建条件不显示在活动文档的共享工作区窗格中的用户界面与同步<b>SharedWorkspace</b>对象缓存的位置。例如，如果<b>CreateNew</b>方法以编程方式向活动文档的新的工作区共享工作区窗格处于打开状态时，将继续共享工作区窗格显示创建按钮。在上述情况下，如果用户将不再有效的共享工作区窗格中进行选择，将引发错误和执行一次刷新操作以将显示与当前文档状态和共享工作区数据同步。</para><para><see cref="T:Microsoft.Office.Interop.Word.Document" />， <see cref="T:Microsoft.Office.Interop.Excel.Workbook" />，并<b>演示文稿</b>对象还包括<b>Sync</b>属性返回<see cref="T:Microsoft.Office.Core.Sync" />对象。使用<b>Sync</b>对象及其属性和方法管理同步的本地副本和服务器副本的共享文档。</para><para /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>Application</b>对象，代表容器应用程序的对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Connected">
+      <MemberSignature Language="C#" Value="public bool Connected { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Connected" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Connected" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Connected As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Connected { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>Boolean</b>值，该值指示在活动文档当前中保存并连接到共享工作区。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>使用<see cref="M:Microsoft.Office.Core.SharedWorkspace.Disconnect" />方法<see cref="T:Microsoft.Office.Core.SharedWorkspace" />要断开活动文档的本地副本与共享工作区对象。使用<see cref="M:Microsoft.Office.Core.SharedWorkspace.RemoveDocument" />方法，以从共享工作区中删除文档。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateNew">
+      <MemberSignature Language="C#" Value="public void CreateNew (object URL, object Name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CreateNew([in]object URL, [in]object Name) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SharedWorkspace.CreateNew(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CreateNew (Optional URL As Object, Optional Name As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="URL" Type="System.Object" />
+        <Parameter Name="Name" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="URL">可选的<b>字符串</b>。 在其中创建新的共享工作区是父文件夹的 URL。 如果未提供一个 URL，在用户的默认服务器位置创建新的共享工作区。</param>
+        <param name="Name">可选的<b>字符串</b>。 新的共享工作区的名称。 默认值为不带文件扩展名为活动文档的名称。 例如，如果您为 Budget.xls 创建共享工作区，新的共享工作区的名称将成为"预算"。</param>
+        <summary>在服务器上创建新文档工作区并将活动文档添加到新的共享工作区。</summary>
+        <remarks>
+          <para>
+            <b>CreateNew</b>方法用于创建活动文档的新共享工作区。省略 2 的可选参数创建工作区在用户的默认服务器位置使用活动文档的名称。</para>如果活动文档有未保存的更改， 
+          <para><b>CreateNew</b>方法将引发错误。必须先保存文档，然后将其添加到共享工作区。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>如果指定的对象在 Microsoft Word 中创建的此属性返回 1297307460，它表示字符串 MSWD;如果在 Microsoft Excel 中创建，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.SharedWorkspace.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SharedWorkspace.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>删除当前共享工作区以及其中的所有数据。</summary>
+        <remarks>
+          <para>
+            <b>Delete</b>方法将失败，如果用户不具有删除当前共享工作区的权限。</para>如果活动文档直接通过打开工作区中，删除工作区后文档
+          <para>不再将保存在磁盘上。开发人员必须记住要关闭它之前, 保存到新位置的文档或文档将不再存在。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Disconnect">
+      <MemberSignature Language="C#" Value="public void Disconnect ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Disconnect() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SharedWorkspace.Disconnect" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Disconnect ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Disconnect();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>断开活动文档的本地副本与共享工作区的连接。</summary>
+        <remarks>
+          <para>使用<b>Disconnect</b>方法可断开活动文档中的共享工作区的本地副本。此方法将共享的文档留在服务器。但是的本地副本将不再与共享副本进行同步，并且不再共享工作区的其他协作功能受益。使用<see cref="M:Microsoft.Office.Core.SharedWorkspace.RemoveDocument" />方法，以从服务器中删除共享的文档。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Files">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.SharedWorkspaceFiles Files { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.SharedWorkspaceFiles Files" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Files" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Files As SharedWorkspaceFiles" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SharedWorkspaceFiles ^ Files { Microsoft::Office::Core::SharedWorkspaceFiles ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SharedWorkspaceFiles</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Core.SharedWorkspaceFiles" />集合，代表与当前共享工作区关联的文档库中存储的文件的列表。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Folders">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.SharedWorkspaceFolders Folders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.SharedWorkspaceFolders Folders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Folders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Folders As SharedWorkspaceFolders" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SharedWorkspaceFolders ^ Folders { Microsoft::Office::Core::SharedWorkspaceFolders ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SharedWorkspaceFolders</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Core.SharedWorkspaceFolders" />集合，代表与当前共享工作区相关的文档库中的子文件夹的列表。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>SharedWorkspaceFolders</b>集合中不包含根文档库文件夹本身，默认情况下名为"Shared Documents"。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastRefreshed">
+      <MemberSignature Language="C#" Value="public object LastRefreshed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object LastRefreshed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.LastRefreshed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastRefreshed As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ LastRefreshed { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回日期和时间时<see cref="M:Microsoft.Office.Core.SharedWorkspace.Refresh" />最近调用的方法。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>如果调用过<b>Refresh</b>方法， <b>LastRefreshed</b>属性就会产生错误。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Links">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.SharedWorkspaceLinks Links { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.SharedWorkspaceLinks Links" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Links" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Links As SharedWorkspaceLinks" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SharedWorkspaceLinks ^ Links { Microsoft::Office::Core::SharedWorkspaceLinks ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SharedWorkspaceLinks</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Core.SharedWorkspaceLinks" />集合，代表保存在当前共享工作区中的链接列表。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Members">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.SharedWorkspaceMembers Members { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.SharedWorkspaceMembers Members" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Members" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Members As SharedWorkspaceMembers" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SharedWorkspaceMembers ^ Members { Microsoft::Office::Core::SharedWorkspaceMembers ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SharedWorkspaceMembers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Core.SharedWorkspaceMembers" />集合，代表当前共享工作区中的成员的列表。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Name" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置指定对象的名称。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回指定对象的<b>父</b>对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Refresh">
+      <MemberSignature Language="C#" Value="public void Refresh ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Refresh() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SharedWorkspace.Refresh" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Refresh ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Refresh();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>刷新的本地高速缓存<see cref="T:Microsoft.Office.Core.SharedWorkspace" />对象的文件、 文件夹、 链接、 成员和任务从服务器。</summary>
+        <remarks>
+          <para>使用<b>Refresh</b>方法以确保您使用的对象和共享工作区从其属性的最新列表。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveDocument">
+      <MemberSignature Language="C#" Value="public void RemoveDocument ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveDocument() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SharedWorkspace.RemoveDocument" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveDocument ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveDocument();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>从共享工作区中删除活动文档。</summary>
+        <remarks>
+          <para>如果用户没有从服务器中删除共享工作区文档的权限，然后服务器副本会保持不变，但文档的本地副本会断开连接从共享工作区。文档具有直接从工作区中，打开并使用<b>RemoveDocument</b>的工作区从然后删除其中的情况下，文档必须保存到另一个位置，然后再关闭;否则，它将保留在工作区中。</para>
+          <para>使用<see cref="M:Microsoft.Office.Core.SharedWorkspace.Disconnect" />方法来分离共享工作区中文档的本地副本，而无需删除共享的副本。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceURL">
+      <MemberSignature Language="C#" Value="public string SourceURL { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SourceURL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.SourceURL" />
+      <MemberSignature Language="VB.NET" Value="Public Property SourceURL As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SourceURL { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>指定文档修订在单独的文档工作区后更改应发布到共享文档的公共副本的位置。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Microsoft Windows SharePoint Services 的用户界面允许用户从文档库的公用的共享的文档复制到单独的文档工作区为了临时协作，然后将更改发布回原始源位置。<b>SourceURL</b>属性指示存储在临时工作区中的文档副本的原始源位置。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tasks">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.SharedWorkspaceTasks Tasks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.SharedWorkspaceTasks Tasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.Tasks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tasks As SharedWorkspaceTasks" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SharedWorkspaceTasks ^ Tasks { Microsoft::Office::Core::SharedWorkspaceTasks ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SharedWorkspaceTasks</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Core.SharedWorkspaceTasks" /><b />集合，代表列表中的当前共享工作区中的任务。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="URL">
+      <MemberSignature Language="C#" Value="public string URL { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string URL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspace.URL" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property URL As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ URL { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回共享工作区顶级统一资源定位器 (URL)。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>URL</b>属性返回共享工作区的地址，格式如下： http://server/sites/user/workspace/。</para>
+          <para>
+            <b>URL</b>属性返回 URL 编码的字符串。例如，空格文件夹名称中的由 %20。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

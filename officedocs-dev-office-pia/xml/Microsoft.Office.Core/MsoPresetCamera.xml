@@ -1,0 +1,1225 @@
+<Type Name="MsoPresetCamera" FullName="Microsoft.Office.Core.MsoPresetCamera">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="32f0cb2eae3cddecf7325f40dede0bc02686c10f" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657446" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoPresetCamera" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetCamera extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetCamera" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetCamera" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoPresetCamera" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指示由指定对象使用的效果照相机类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoCameraIsometricBottomDown">
+      <MemberSignature Language="C#" Value="msoCameraIsometricBottomDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricBottomDown = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricBottomDown" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricBottomDown" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricBottomDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>指定等长底部朝下。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricBottomUp">
+      <MemberSignature Language="C#" Value="msoCameraIsometricBottomUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricBottomUp = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricBottomUp" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricBottomUp" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricBottomUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>指定等长底部朝上。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricLeftDown">
+      <MemberSignature Language="C#" Value="msoCameraIsometricLeftDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricLeftDown = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricLeftDown" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricLeftDown" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricLeftDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>指定等轴左下。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricLeftUp">
+      <MemberSignature Language="C#" Value="msoCameraIsometricLeftUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricLeftUp = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricLeftUp" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricLeftUp" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricLeftUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>指定等轴左上。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricOffAxis1Left">
+      <MemberSignature Language="C#" Value="msoCameraIsometricOffAxis1Left" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricOffAxis1Left = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricOffAxis1Left" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricOffAxis1Left" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricOffAxis1Left" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary>指定等长 OffAxis1 朝左。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricOffAxis1Right">
+      <MemberSignature Language="C#" Value="msoCameraIsometricOffAxis1Right" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricOffAxis1Right = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricOffAxis1Right" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricOffAxis1Right" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricOffAxis1Right" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary>指定等长 OffAxis1 朝右。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricOffAxis1Top">
+      <MemberSignature Language="C#" Value="msoCameraIsometricOffAxis1Top" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricOffAxis1Top = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricOffAxis1Top" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricOffAxis1Top" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricOffAxis1Top" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary>指定等长 OffAxis1 朝上。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricOffAxis2Left">
+      <MemberSignature Language="C#" Value="msoCameraIsometricOffAxis2Left" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricOffAxis2Left = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricOffAxis2Left" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricOffAxis2Left" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricOffAxis2Left" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary>指定等长 OffAxis2 朝左。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricOffAxis2Right">
+      <MemberSignature Language="C#" Value="msoCameraIsometricOffAxis2Right" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricOffAxis2Right = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricOffAxis2Right" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricOffAxis2Right" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricOffAxis2Right" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>指定等长 OffAxis2 朝右。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricOffAxis2Top">
+      <MemberSignature Language="C#" Value="msoCameraIsometricOffAxis2Top" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricOffAxis2Top = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricOffAxis2Top" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricOffAxis2Top" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricOffAxis2Top" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary>指定等长 OffAxis2 朝上。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricOffAxis3Bottom">
+      <MemberSignature Language="C#" Value="msoCameraIsometricOffAxis3Bottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricOffAxis3Bottom = int32(36)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricOffAxis3Bottom" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricOffAxis3Bottom" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricOffAxis3Bottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>36</MemberValue>
+      <Docs>
+        <summary>指定等长 OffAxis3 朝下。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricOffAxis3Left">
+      <MemberSignature Language="C#" Value="msoCameraIsometricOffAxis3Left" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricOffAxis3Left = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricOffAxis3Left" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricOffAxis3Left" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricOffAxis3Left" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary>指定等长 OffAxis3 朝左。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricOffAxis3Right">
+      <MemberSignature Language="C#" Value="msoCameraIsometricOffAxis3Right" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricOffAxis3Right = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricOffAxis3Right" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricOffAxis3Right" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricOffAxis3Right" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary>指定等长 OffAxis3 朝右。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricOffAxis4Bottom">
+      <MemberSignature Language="C#" Value="msoCameraIsometricOffAxis4Bottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricOffAxis4Bottom = int32(39)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricOffAxis4Bottom" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricOffAxis4Bottom" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricOffAxis4Bottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>39</MemberValue>
+      <Docs>
+        <summary>指定等长 OffAxis4 朝下。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricOffAxis4Left">
+      <MemberSignature Language="C#" Value="msoCameraIsometricOffAxis4Left" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricOffAxis4Left = int32(37)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricOffAxis4Left" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricOffAxis4Left" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricOffAxis4Left" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>37</MemberValue>
+      <Docs>
+        <summary>指定等长 OffAxis4 朝左。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricOffAxis4Right">
+      <MemberSignature Language="C#" Value="msoCameraIsometricOffAxis4Right" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricOffAxis4Right = int32(38)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricOffAxis4Right" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricOffAxis4Right" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricOffAxis4Right" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>38</MemberValue>
+      <Docs>
+        <summary>指定等长 OffAxis4 朝右。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricRightDown">
+      <MemberSignature Language="C#" Value="msoCameraIsometricRightDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricRightDown = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricRightDown" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricRightDown" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricRightDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary>指定等轴右上。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricRightUp">
+      <MemberSignature Language="C#" Value="msoCameraIsometricRightUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricRightUp = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricRightUp" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricRightUp" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricRightUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>指定等轴右上。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricTopDown">
+      <MemberSignature Language="C#" Value="msoCameraIsometricTopDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricTopDown = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricTopDown" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricTopDown" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricTopDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>指定等长顶部朝下。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraIsometricTopUp">
+      <MemberSignature Language="C#" Value="msoCameraIsometricTopUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraIsometricTopUp = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraIsometricTopUp" />
+      <MemberSignature Language="VB.NET" Value="msoCameraIsometricTopUp" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraIsometricTopUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>指定等长顶部朝上。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraLegacyObliqueBottom">
+      <MemberSignature Language="C#" Value="msoCameraLegacyObliqueBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraLegacyObliqueBottom = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraLegacyObliqueBottom" />
+      <MemberSignature Language="VB.NET" Value="msoCameraLegacyObliqueBottom" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraLegacyObliqueBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>指定旧式倾斜朝下。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraLegacyObliqueBottomLeft">
+      <MemberSignature Language="C#" Value="msoCameraLegacyObliqueBottomLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraLegacyObliqueBottomLeft = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraLegacyObliqueBottomLeft" />
+      <MemberSignature Language="VB.NET" Value="msoCameraLegacyObliqueBottomLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraLegacyObliqueBottomLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>指定旧式倾斜朝左下方。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraLegacyObliqueBottomRight">
+      <MemberSignature Language="C#" Value="msoCameraLegacyObliqueBottomRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraLegacyObliqueBottomRight = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraLegacyObliqueBottomRight" />
+      <MemberSignature Language="VB.NET" Value="msoCameraLegacyObliqueBottomRight" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraLegacyObliqueBottomRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>指定旧式倾斜朝右下方。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraLegacyObliqueFront">
+      <MemberSignature Language="C#" Value="msoCameraLegacyObliqueFront" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraLegacyObliqueFront = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraLegacyObliqueFront" />
+      <MemberSignature Language="VB.NET" Value="msoCameraLegacyObliqueFront" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraLegacyObliqueFront" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>指定旧式倾斜朝前。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraLegacyObliqueLeft">
+      <MemberSignature Language="C#" Value="msoCameraLegacyObliqueLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraLegacyObliqueLeft = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraLegacyObliqueLeft" />
+      <MemberSignature Language="VB.NET" Value="msoCameraLegacyObliqueLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraLegacyObliqueLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>指定旧式倾斜朝左。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraLegacyObliqueRight">
+      <MemberSignature Language="C#" Value="msoCameraLegacyObliqueRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraLegacyObliqueRight = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraLegacyObliqueRight" />
+      <MemberSignature Language="VB.NET" Value="msoCameraLegacyObliqueRight" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraLegacyObliqueRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>指定旧式倾斜朝右。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraLegacyObliqueTop">
+      <MemberSignature Language="C#" Value="msoCameraLegacyObliqueTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraLegacyObliqueTop = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraLegacyObliqueTop" />
+      <MemberSignature Language="VB.NET" Value="msoCameraLegacyObliqueTop" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraLegacyObliqueTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>指定旧式倾斜朝上。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraLegacyObliqueTopLeft">
+      <MemberSignature Language="C#" Value="msoCameraLegacyObliqueTopLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraLegacyObliqueTopLeft = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraLegacyObliqueTopLeft" />
+      <MemberSignature Language="VB.NET" Value="msoCameraLegacyObliqueTopLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraLegacyObliqueTopLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>指定旧式倾斜左上方。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraLegacyObliqueTopRight">
+      <MemberSignature Language="C#" Value="msoCameraLegacyObliqueTopRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraLegacyObliqueTopRight = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraLegacyObliqueTopRight" />
+      <MemberSignature Language="VB.NET" Value="msoCameraLegacyObliqueTopRight" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraLegacyObliqueTopRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>指定旧式倾斜右上方。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraLegacyPerspectiveBottom">
+      <MemberSignature Language="C#" Value="msoCameraLegacyPerspectiveBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraLegacyPerspectiveBottom = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraLegacyPerspectiveBottom" />
+      <MemberSignature Language="VB.NET" Value="msoCameraLegacyPerspectiveBottom" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraLegacyPerspectiveBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>指定旧式下透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraLegacyPerspectiveBottomLeft">
+      <MemberSignature Language="C#" Value="msoCameraLegacyPerspectiveBottomLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraLegacyPerspectiveBottomLeft = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraLegacyPerspectiveBottomLeft" />
+      <MemberSignature Language="VB.NET" Value="msoCameraLegacyPerspectiveBottomLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraLegacyPerspectiveBottomLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>指定旧式左下透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraLegacyPerspectiveBottomRight">
+      <MemberSignature Language="C#" Value="msoCameraLegacyPerspectiveBottomRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraLegacyPerspectiveBottomRight = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraLegacyPerspectiveBottomRight" />
+      <MemberSignature Language="VB.NET" Value="msoCameraLegacyPerspectiveBottomRight" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraLegacyPerspectiveBottomRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>指定旧式右下透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraLegacyPerspectiveFront">
+      <MemberSignature Language="C#" Value="msoCameraLegacyPerspectiveFront" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraLegacyPerspectiveFront = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraLegacyPerspectiveFront" />
+      <MemberSignature Language="VB.NET" Value="msoCameraLegacyPerspectiveFront" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraLegacyPerspectiveFront" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>指定旧式前透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraLegacyPerspectiveLeft">
+      <MemberSignature Language="C#" Value="msoCameraLegacyPerspectiveLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraLegacyPerspectiveLeft = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraLegacyPerspectiveLeft" />
+      <MemberSignature Language="VB.NET" Value="msoCameraLegacyPerspectiveLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraLegacyPerspectiveLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>指定旧式左透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraLegacyPerspectiveRight">
+      <MemberSignature Language="C#" Value="msoCameraLegacyPerspectiveRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraLegacyPerspectiveRight = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraLegacyPerspectiveRight" />
+      <MemberSignature Language="VB.NET" Value="msoCameraLegacyPerspectiveRight" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraLegacyPerspectiveRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>指定旧式右透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraLegacyPerspectiveTop">
+      <MemberSignature Language="C#" Value="msoCameraLegacyPerspectiveTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraLegacyPerspectiveTop = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraLegacyPerspectiveTop" />
+      <MemberSignature Language="VB.NET" Value="msoCameraLegacyPerspectiveTop" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraLegacyPerspectiveTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>指定旧式上透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraLegacyPerspectiveTopLeft">
+      <MemberSignature Language="C#" Value="msoCameraLegacyPerspectiveTopLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraLegacyPerspectiveTopLeft = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraLegacyPerspectiveTopLeft" />
+      <MemberSignature Language="VB.NET" Value="msoCameraLegacyPerspectiveTopLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraLegacyPerspectiveTopLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>指定旧式左上透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraLegacyPerspectiveTopRight">
+      <MemberSignature Language="C#" Value="msoCameraLegacyPerspectiveTopRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraLegacyPerspectiveTopRight = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraLegacyPerspectiveTopRight" />
+      <MemberSignature Language="VB.NET" Value="msoCameraLegacyPerspectiveTopRight" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraLegacyPerspectiveTopRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>指定旧式右上透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraObliqueBottom">
+      <MemberSignature Language="C#" Value="msoCameraObliqueBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraObliqueBottom = int32(46)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraObliqueBottom" />
+      <MemberSignature Language="VB.NET" Value="msoCameraObliqueBottom" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraObliqueBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>46</MemberValue>
+      <Docs>
+        <summary>指定倾斜朝下。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraObliqueBottomLeft">
+      <MemberSignature Language="C#" Value="msoCameraObliqueBottomLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraObliqueBottomLeft = int32(45)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraObliqueBottomLeft" />
+      <MemberSignature Language="VB.NET" Value="msoCameraObliqueBottomLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraObliqueBottomLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>45</MemberValue>
+      <Docs>
+        <summary>指定倾斜左下方。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraObliqueBottomRight">
+      <MemberSignature Language="C#" Value="msoCameraObliqueBottomRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraObliqueBottomRight = int32(47)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraObliqueBottomRight" />
+      <MemberSignature Language="VB.NET" Value="msoCameraObliqueBottomRight" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraObliqueBottomRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>47</MemberValue>
+      <Docs>
+        <summary>指定倾斜右下方。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraObliqueLeft">
+      <MemberSignature Language="C#" Value="msoCameraObliqueLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraObliqueLeft = int32(43)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraObliqueLeft" />
+      <MemberSignature Language="VB.NET" Value="msoCameraObliqueLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraObliqueLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>43</MemberValue>
+      <Docs>
+        <summary>指定倾斜朝左。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraObliqueRight">
+      <MemberSignature Language="C#" Value="msoCameraObliqueRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraObliqueRight = int32(44)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraObliqueRight" />
+      <MemberSignature Language="VB.NET" Value="msoCameraObliqueRight" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraObliqueRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>44</MemberValue>
+      <Docs>
+        <summary>指定倾斜朝右。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraObliqueTop">
+      <MemberSignature Language="C#" Value="msoCameraObliqueTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraObliqueTop = int32(41)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraObliqueTop" />
+      <MemberSignature Language="VB.NET" Value="msoCameraObliqueTop" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraObliqueTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>41</MemberValue>
+      <Docs>
+        <summary>指定倾斜朝上。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraObliqueTopLeft">
+      <MemberSignature Language="C#" Value="msoCameraObliqueTopLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraObliqueTopLeft = int32(40)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraObliqueTopLeft" />
+      <MemberSignature Language="VB.NET" Value="msoCameraObliqueTopLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraObliqueTopLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>40</MemberValue>
+      <Docs>
+        <summary>指定倾斜左上方。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraObliqueTopRight">
+      <MemberSignature Language="C#" Value="msoCameraObliqueTopRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraObliqueTopRight = int32(42)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraObliqueTopRight" />
+      <MemberSignature Language="VB.NET" Value="msoCameraObliqueTopRight" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraObliqueTopRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>42</MemberValue>
+      <Docs>
+        <summary>指定倾斜右上方。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraOrthographicFront">
+      <MemberSignature Language="C#" Value="msoCameraOrthographicFront" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraOrthographicFront = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraOrthographicFront" />
+      <MemberSignature Language="VB.NET" Value="msoCameraOrthographicFront" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraOrthographicFront" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>指定正射影图朝前。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraPerspectiveAbove">
+      <MemberSignature Language="C#" Value="msoCameraPerspectiveAbove" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraPerspectiveAbove = int32(51)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraPerspectiveAbove" />
+      <MemberSignature Language="VB.NET" Value="msoCameraPerspectiveAbove" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraPerspectiveAbove" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>51</MemberValue>
+      <Docs>
+        <summary>指定上透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraPerspectiveAboveLeftFacing">
+      <MemberSignature Language="C#" Value="msoCameraPerspectiveAboveLeftFacing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraPerspectiveAboveLeftFacing = int32(53)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraPerspectiveAboveLeftFacing" />
+      <MemberSignature Language="VB.NET" Value="msoCameraPerspectiveAboveLeftFacing" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraPerspectiveAboveLeftFacing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>53</MemberValue>
+      <Docs>
+        <summary>指定左上透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraPerspectiveAboveRightFacing">
+      <MemberSignature Language="C#" Value="msoCameraPerspectiveAboveRightFacing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraPerspectiveAboveRightFacing = int32(54)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraPerspectiveAboveRightFacing" />
+      <MemberSignature Language="VB.NET" Value="msoCameraPerspectiveAboveRightFacing" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraPerspectiveAboveRightFacing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>54</MemberValue>
+      <Docs>
+        <summary>指定右上透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraPerspectiveBelow">
+      <MemberSignature Language="C#" Value="msoCameraPerspectiveBelow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraPerspectiveBelow = int32(52)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraPerspectiveBelow" />
+      <MemberSignature Language="VB.NET" Value="msoCameraPerspectiveBelow" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraPerspectiveBelow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>52</MemberValue>
+      <Docs>
+        <summary>指定下透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraPerspectiveContrastingLeftFacing">
+      <MemberSignature Language="C#" Value="msoCameraPerspectiveContrastingLeftFacing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraPerspectiveContrastingLeftFacing = int32(55)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraPerspectiveContrastingLeftFacing" />
+      <MemberSignature Language="VB.NET" Value="msoCameraPerspectiveContrastingLeftFacing" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraPerspectiveContrastingLeftFacing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>55</MemberValue>
+      <Docs>
+        <summary>指定左向对比透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraPerspectiveContrastingRightFacing">
+      <MemberSignature Language="C#" Value="msoCameraPerspectiveContrastingRightFacing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraPerspectiveContrastingRightFacing = int32(56)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraPerspectiveContrastingRightFacing" />
+      <MemberSignature Language="VB.NET" Value="msoCameraPerspectiveContrastingRightFacing" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraPerspectiveContrastingRightFacing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>56</MemberValue>
+      <Docs>
+        <summary>指定右向对比透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraPerspectiveFront">
+      <MemberSignature Language="C#" Value="msoCameraPerspectiveFront" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraPerspectiveFront = int32(48)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraPerspectiveFront" />
+      <MemberSignature Language="VB.NET" Value="msoCameraPerspectiveFront" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraPerspectiveFront" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>48</MemberValue>
+      <Docs>
+        <summary>指定前透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraPerspectiveHeroicExtremeLeftFacing">
+      <MemberSignature Language="C#" Value="msoCameraPerspectiveHeroicExtremeLeftFacing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraPerspectiveHeroicExtremeLeftFacing = int32(59)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraPerspectiveHeroicExtremeLeftFacing" />
+      <MemberSignature Language="VB.NET" Value="msoCameraPerspectiveHeroicExtremeLeftFacing" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraPerspectiveHeroicExtremeLeftFacing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>59</MemberValue>
+      <Docs>
+        <summary>指定极左极大透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraPerspectiveHeroicExtremeRightFacing">
+      <MemberSignature Language="C#" Value="msoCameraPerspectiveHeroicExtremeRightFacing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraPerspectiveHeroicExtremeRightFacing = int32(60)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraPerspectiveHeroicExtremeRightFacing" />
+      <MemberSignature Language="VB.NET" Value="msoCameraPerspectiveHeroicExtremeRightFacing" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraPerspectiveHeroicExtremeRightFacing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>60</MemberValue>
+      <Docs>
+        <summary>指定极右极大透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraPerspectiveHeroicLeftFacing">
+      <MemberSignature Language="C#" Value="msoCameraPerspectiveHeroicLeftFacing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraPerspectiveHeroicLeftFacing = int32(57)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraPerspectiveHeroicLeftFacing" />
+      <MemberSignature Language="VB.NET" Value="msoCameraPerspectiveHeroicLeftFacing" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraPerspectiveHeroicLeftFacing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>57</MemberValue>
+      <Docs>
+        <summary>指定左向极大透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraPerspectiveHeroicRightFacing">
+      <MemberSignature Language="C#" Value="msoCameraPerspectiveHeroicRightFacing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraPerspectiveHeroicRightFacing = int32(58)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraPerspectiveHeroicRightFacing" />
+      <MemberSignature Language="VB.NET" Value="msoCameraPerspectiveHeroicRightFacing" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraPerspectiveHeroicRightFacing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>58</MemberValue>
+      <Docs>
+        <summary>指定右向极大透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraPerspectiveLeft">
+      <MemberSignature Language="C#" Value="msoCameraPerspectiveLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraPerspectiveLeft = int32(49)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraPerspectiveLeft" />
+      <MemberSignature Language="VB.NET" Value="msoCameraPerspectiveLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraPerspectiveLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>49</MemberValue>
+      <Docs>
+        <summary>指定左透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraPerspectiveRelaxed">
+      <MemberSignature Language="C#" Value="msoCameraPerspectiveRelaxed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraPerspectiveRelaxed = int32(61)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraPerspectiveRelaxed" />
+      <MemberSignature Language="VB.NET" Value="msoCameraPerspectiveRelaxed" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraPerspectiveRelaxed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>61</MemberValue>
+      <Docs>
+        <summary>指定宽松透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraPerspectiveRelaxedModerately">
+      <MemberSignature Language="C#" Value="msoCameraPerspectiveRelaxedModerately" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraPerspectiveRelaxedModerately = int32(62)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraPerspectiveRelaxedModerately" />
+      <MemberSignature Language="VB.NET" Value="msoCameraPerspectiveRelaxedModerately" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraPerspectiveRelaxedModerately" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>62</MemberValue>
+      <Docs>
+        <summary>指定适度宽松透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCameraPerspectiveRight">
+      <MemberSignature Language="C#" Value="msoCameraPerspectiveRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoCameraPerspectiveRight = int32(50)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoCameraPerspectiveRight" />
+      <MemberSignature Language="VB.NET" Value="msoCameraPerspectiveRight" />
+      <MemberSignature Language="C++ CLI" Value="msoCameraPerspectiveRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>50</MemberValue>
+      <Docs>
+        <summary>指定右透视。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPresetCameraMixed">
+      <MemberSignature Language="C#" Value="msoPresetCameraMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetCamera msoPresetCameraMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetCamera.msoPresetCameraMixed" />
+      <MemberSignature Language="VB.NET" Value="msoPresetCameraMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoPresetCameraMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>指定混和效果。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

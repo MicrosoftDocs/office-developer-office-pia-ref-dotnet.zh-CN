@@ -1,0 +1,150 @@
+<Type Name="IDocumentInspector" FullName="Microsoft.Office.Core.IDocumentInspector">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6dc49c2a97cc771ebddfb7fd2025f06a984df10f" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658017" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IDocumentInspector" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDocumentInspector" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IDocumentInspector" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDocumentInspector" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IDocumentInspector" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000CD706-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(1)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(256)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>表示通过该接口的方法<see cref="T:Microsoft.Office.Core.IDocumentInspector" />对象的访问。</summary>
+    <remarks>
+      <para>
+        <b>注意</b>：<see cref="T:Microsoft.Office.Core.IDocumentInspector" />对象的自定义文档检查器模块作者使用的是，不能用于 Visual Basic for Applications (VBA)。</para>
+      <para>
+        <see cref="T:Microsoft.Office.Core.IDocumentInspector" />提供对访问<see cref="M:Microsoft.Office.Core.IDocumentInspector.GetInfo(System.String@,System.String@)" />， <see cref="M:Microsoft.Office.Core.IDocumentInspector.Inspect(System.Object,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@,System.String@)" />，和<see cref="M:Microsoft.Office.Core.IDocumentInspector.Fix(System.Object,System.Int32,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" />方法。<see cref="T:Microsoft.Office.Core.IDocumentInspector" />对象用于自定义文档检查器模块。这是相比之下模块的都附带了 1st_Office12。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Fix">
+      <MemberSignature Language="C#" Value="public void Fix (object Doc, int hwnd, out Microsoft.Office.Core.MsoDocInspectorStatus Status, out string Result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Fix([in]object Doc, [in]int32 hwnd, [out] valuetype Microsoft.Office.Core.MsoDocInspectorStatus&amp; Status, [out] string&amp; Result) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IDocumentInspector.Fix(System.Object,System.Int32,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Fix (Doc As Object, hwnd As Integer, ByRef Status As MsoDocInspectorStatus, ByRef Result As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Fix(System::Object ^ Doc, int hwnd, [Runtime::InteropServices::Out] Microsoft::Office::Core::MsoDocInspectorStatus % Status, [Runtime::InteropServices::Out] System::String ^ % Result);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="System.Object" />
+        <Parameter Name="hwnd" Type="System.Int32" />
+        <Parameter Name="Status" Type="Microsoft.Office.Core.MsoDocInspectorStatus&amp;" RefType="out" />
+        <Parameter Name="Result" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">指定 nn 对象代表容器对象。</param>
+        <param name="hwnd">指定活动文档窗口的唯一标识符。</param>
+        <param name="Status">指定枚举类型的值，该值指示操作的状态。</param>
+        <param name="Result">包含操作的结果。</param>
+        <summary>通过使用自定义文档检查器模块对特定信息项或文档属性执行某些操作。</summary>
+        <remarks>
+          <para>下表介绍了<see cref="T:Microsoft.Office.Core.MsoDocInspectorStatus" />成员。</para>
+          <list type="table">
+            <item>
+              <description>
+                <b>msoDocInspectorStatusDocOk</b>
+              </description>
+              <description>0</description>
+            </item>
+            <item>
+              <description>
+                <b>msoDocInspectorStatusIssueFound</b>
+              </description>
+              <description>1</description>
+            </item>
+            <item>
+              <description>
+                <b>msoDocInspectorStatusError</b>
+              </description>
+              <description>2</description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetInfo">
+      <MemberSignature Language="C#" Value="public void GetInfo (out string Name, out string Desc);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetInfo([out] string&amp; Name, [out] string&amp; Desc) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IDocumentInspector.GetInfo(System.String@,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetInfo (ByRef Name As String, ByRef Desc As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetInfo([Runtime::InteropServices::Out] System::String ^ % Name, [Runtime::InteropServices::Out] System::String ^ % Desc);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="Desc" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Name">代表模块的名称。</param>
+        <param name="Desc">代表模块的说明。</param>
+        <summary>获取有关自定义文档检查器模块的信息。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Inspect">
+      <MemberSignature Language="C#" Value="public void Inspect (object Doc, out Microsoft.Office.Core.MsoDocInspectorStatus Status, out string Result, out string Action);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Inspect([in]object Doc, [out] valuetype Microsoft.Office.Core.MsoDocInspectorStatus&amp; Status, [out] string&amp; Result, [out] string&amp; Action) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IDocumentInspector.Inspect(System.Object,Microsoft.Office.Core.MsoDocInspectorStatus@,System.String@,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Inspect (Doc As Object, ByRef Status As MsoDocInspectorStatus, ByRef Result As String, ByRef Action As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Inspect(System::Object ^ Doc, [Runtime::InteropServices::Out] Microsoft::Office::Core::MsoDocInspectorStatus % Status, [Runtime::InteropServices::Out] System::String ^ % Result, [Runtime::InteropServices::Out] System::String ^ % Action);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="System.Object" />
+        <Parameter Name="Status" Type="Microsoft.Office.Core.MsoDocInspectorStatus&amp;" RefType="out" />
+        <Parameter Name="Result" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="Action" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">代表容器文档的对象。</param>
+        <param name="Status">
+          <see cref="T:Microsoft.Office.Core.MsoDocInspectorStatus" />值，它代表检查的结果。</param>
+        <param name="Result">包含的信息项或文档中找到的文档属性的列表。</param>
+        <param name="Action">向用户指明根据检查的结果要采取什么操作。</param>
+        <summary>通过使用自定义文档检查器模块检查文档的特定信息项或文档属性。</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

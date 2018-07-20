@@ -1,0 +1,123 @@
+<Type Name="MsoBulletType" FullName="Microsoft.Office.Core.MsoBulletType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3b646778f1be8926727526c2e05a96ae7612dcb0" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657748" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoBulletType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBulletType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBulletType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoBulletType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoBulletType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoBulletMixed">
+      <MemberSignature Language="C#" Value="msoBulletMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBulletType msoBulletMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBulletType.msoBulletMixed" />
+      <MemberSignature Language="VB.NET" Value="msoBulletMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBulletType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletNone">
+      <MemberSignature Language="C#" Value="msoBulletNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBulletType msoBulletNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBulletType.msoBulletNone" />
+      <MemberSignature Language="VB.NET" Value="msoBulletNone" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBulletType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletNumbered">
+      <MemberSignature Language="C#" Value="msoBulletNumbered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBulletType msoBulletNumbered = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBulletType.msoBulletNumbered" />
+      <MemberSignature Language="VB.NET" Value="msoBulletNumbered" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletNumbered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBulletType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletPicture">
+      <MemberSignature Language="C#" Value="msoBulletPicture" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBulletType msoBulletPicture = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBulletType.msoBulletPicture" />
+      <MemberSignature Language="VB.NET" Value="msoBulletPicture" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletPicture" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBulletType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletUnnumbered">
+      <MemberSignature Language="C#" Value="msoBulletUnnumbered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBulletType msoBulletUnnumbered = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBulletType.msoBulletUnnumbered" />
+      <MemberSignature Language="VB.NET" Value="msoBulletUnnumbered" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletUnnumbered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBulletType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

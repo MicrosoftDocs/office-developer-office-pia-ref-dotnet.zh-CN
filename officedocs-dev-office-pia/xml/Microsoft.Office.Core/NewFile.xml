@@ -1,0 +1,210 @@
+<Type Name="NewFile" FullName="Microsoft.Office.Core.NewFile">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="07407c6dd30110ea03cd474624417ed74fca0047" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657765" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface NewFile : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NewFile implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.NewFile" />
+  <TypeSignature Language="VB.NET" Value="Public Interface NewFile&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class NewFile : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0936-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <b>NewFile</b>对象代表某些 Microsoft Office 应用程序中的新项目任务窗格上列出的项目。</summary>
+    <remarks>
+      <para>下表显示要用于访问<b>NewFile</b>对象中每个应用程序的属性。</para>
+      <list type="table">
+        <item>
+          <description>Microsoft Access</description>
+          <description>
+            <b>NewFileTaskPane</b>
+          </description>
+        </item>
+        <item>
+          <description>Microsoft Excel</description>
+          <description>
+            <b>NewWorkbook</b>
+          </description>
+        </item>
+        <item>
+          <description>Microsoft FrontPage</description>
+          <description>
+            <b>NewPageOrWeb</b>
+          </description>
+        </item>
+        <item>
+          <description>Microsoft PowerPoint</description>
+          <description>
+            <b>NewPresentation</b>
+          </description>
+        </item>
+        <item>
+          <description>Microsoft Word</description>
+          <description>
+            <b>NewDocument</b>
+          </description>
+        </item>
+      </list>
+      <para>使用<see cref="M:Microsoft.Office.Core.NewFile.Add(System.String,System.Object,System.Object,System.Object)" />方法将新项添加到新项目任务窗格。使用<see cref="M:Microsoft.Office.Core.NewFile.Remove(System.String,System.Object,System.Object,System.Object)" />方法，从新项目任务窗格中删除项目。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public bool Add (string FileName, object Section, object DisplayName, object Action);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Add([in]string FileName, [in]object Section, [in]object DisplayName, [in]object Action) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.NewFile.Add(System.String,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (FileName As String, Optional Section As Object, Optional DisplayName As Object, Optional Action As Object) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FileName" Type="System.String" />
+        <Parameter Name="Section" Type="System.Object" />
+        <Parameter Name="DisplayName" Type="System.Object" />
+        <Parameter Name="Action" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="FileName">必需的 <b>字符串</b> 。 要添加到任务窗格文件列表的文件的名称。</param>
+        <param name="Section">可选的<b>对象</b>。 要向其中添加该文件部分。 可以是任意<see cref="T:Microsoft.Office.Core.MsoFileNewSection" />常量。</param>
+        <param name="DisplayName">可选的<b>对象</b>。 任务窗格中显示的文本。</param>
+        <param name="Action">可选的<b>对象</b>。 当用户单击项目上执行的操作。 可以是任意<see cref="T:Microsoft.Office.Core.MsoFileNewAction" />常量。</param>
+        <summary>将新项添加到新项目任务窗格。</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>此方法返回<b>True</b>如果项目已成功添加;<b>False</b>否则为。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.NewFile.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>Application</b>对象，代表容器应用程序的对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.NewFile.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>如果指定的对象在 Microsoft Word 中创建的此属性返回 1297307460，它表示字符串 MSWD;如果在 Microsoft Excel 中创建，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.NewFile.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public bool Remove (string FileName, object Section, object DisplayName, object Action);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Remove([in]string FileName, [in]object Section, [in]object DisplayName, [in]object Action) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.NewFile.Remove(System.String,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Remove (FileName As String, Optional Section As Object, Optional DisplayName As Object, Optional Action As Object) As Boolean" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FileName" Type="System.String" />
+        <Parameter Name="Section" Type="System.Object" />
+        <Parameter Name="DisplayName" Type="System.Object" />
+        <Parameter Name="Action" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="FileName">必需的 <b>字符串</b> 。 文件引用的名称。</param>
+        <param name="Section">可选的<b>对象</b>。 任务窗格的部分中的文件引用所在。 可以是任意<see cref="T:Microsoft.Office.Core.MsoFileNewSection" />常量。</param>
+        <param name="DisplayName">可选的<b>对象</b>。 文件引用的显示文本。</param>
+        <param name="Action">可选的<b>对象</b>。 当用户单击的项采取的操作。 可以是任意<see cref="T:Microsoft.Office.Core.MsoFileNewAction" />常量。</param>
+        <summary>从新项目任务窗格中删除一项。</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

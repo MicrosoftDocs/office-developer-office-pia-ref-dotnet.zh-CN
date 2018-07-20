@@ -1,0 +1,868 @@
+<Type Name="MsoShadowType" FullName="Microsoft.Office.Core.MsoShadowType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="576aa6c216690d0c1182f75e590a0828e6efe990" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657757" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoShadowType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoShadowType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoShadowType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoShadowType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoShadowType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定显示与形状的阴影类型。</summary>
+    <remarks>
+      <para>
+        <see cref="T:Microsoft.Office.Core.MsoShadowType" />常量进行编号根据中设置绘图工具栏中显示阴影样式及其顺序 （从左到右、 从上到下）。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoShadow1">
+      <MemberSignature Language="C#" Value="msoShadow1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow1 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow1" />
+      <MemberSignature Language="VB.NET" Value="msoShadow1" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>第一个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow10">
+      <MemberSignature Language="C#" Value="msoShadow10" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow10 = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow10" />
+      <MemberSignature Language="VB.NET" Value="msoShadow10" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow10" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>第十个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow11">
+      <MemberSignature Language="C#" Value="msoShadow11" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow11 = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow11" />
+      <MemberSignature Language="VB.NET" Value="msoShadow11" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow11" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>第十一个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow12">
+      <MemberSignature Language="C#" Value="msoShadow12" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow12 = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow12" />
+      <MemberSignature Language="VB.NET" Value="msoShadow12" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow12" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>第十二个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow13">
+      <MemberSignature Language="C#" Value="msoShadow13" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow13 = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow13" />
+      <MemberSignature Language="VB.NET" Value="msoShadow13" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow13" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>第十三个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow14">
+      <MemberSignature Language="C#" Value="msoShadow14" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow14 = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow14" />
+      <MemberSignature Language="VB.NET" Value="msoShadow14" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow14" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>第十四个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow15">
+      <MemberSignature Language="C#" Value="msoShadow15" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow15 = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow15" />
+      <MemberSignature Language="VB.NET" Value="msoShadow15" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow15" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>第十五个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow16">
+      <MemberSignature Language="C#" Value="msoShadow16" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow16 = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow16" />
+      <MemberSignature Language="VB.NET" Value="msoShadow16" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow16" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>第十六个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow17">
+      <MemberSignature Language="C#" Value="msoShadow17" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow17 = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow17" />
+      <MemberSignature Language="VB.NET" Value="msoShadow17" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow17" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>第十七个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow18">
+      <MemberSignature Language="C#" Value="msoShadow18" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow18 = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow18" />
+      <MemberSignature Language="VB.NET" Value="msoShadow18" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow18" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>第十八个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow19">
+      <MemberSignature Language="C#" Value="msoShadow19" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow19 = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow19" />
+      <MemberSignature Language="VB.NET" Value="msoShadow19" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow19" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>第十九个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow2">
+      <MemberSignature Language="C#" Value="msoShadow2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow2 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow2" />
+      <MemberSignature Language="VB.NET" Value="msoShadow2" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>第二个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow20">
+      <MemberSignature Language="C#" Value="msoShadow20" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow20 = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow20" />
+      <MemberSignature Language="VB.NET" Value="msoShadow20" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow20" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>第二十个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow21">
+      <MemberSignature Language="C#" Value="msoShadow21" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow21 = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow21" />
+      <MemberSignature Language="VB.NET" Value="msoShadow21" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow21" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>第二十一个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow22">
+      <MemberSignature Language="C#" Value="msoShadow22" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow22 = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow22" />
+      <MemberSignature Language="VB.NET" Value="msoShadow22" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow22" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>第二个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow23">
+      <MemberSignature Language="C#" Value="msoShadow23" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow23 = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow23" />
+      <MemberSignature Language="VB.NET" Value="msoShadow23" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow23" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>第二十三个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow24">
+      <MemberSignature Language="C#" Value="msoShadow24" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow24 = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow24" />
+      <MemberSignature Language="VB.NET" Value="msoShadow24" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow24" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>二十规定阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow25">
+      <MemberSignature Language="C#" Value="msoShadow25" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow25 = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow25" />
+      <MemberSignature Language="VB.NET" Value="msoShadow25" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow25" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>第二十五阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow26">
+      <MemberSignature Language="C#" Value="msoShadow26" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow26 = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow26" />
+      <MemberSignature Language="VB.NET" Value="msoShadow26" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow26" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>第二十第六个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow27">
+      <MemberSignature Language="C#" Value="msoShadow27" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow27 = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow27" />
+      <MemberSignature Language="VB.NET" Value="msoShadow27" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow27" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary>第二十第七个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow28">
+      <MemberSignature Language="C#" Value="msoShadow28" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow28 = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow28" />
+      <MemberSignature Language="VB.NET" Value="msoShadow28" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow28" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary>第二十八阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow29">
+      <MemberSignature Language="C#" Value="msoShadow29" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow29 = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow29" />
+      <MemberSignature Language="VB.NET" Value="msoShadow29" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow29" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary>第二十第九个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow3">
+      <MemberSignature Language="C#" Value="msoShadow3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow3 = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow3" />
+      <MemberSignature Language="VB.NET" Value="msoShadow3" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>第三个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow30">
+      <MemberSignature Language="C#" Value="msoShadow30" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow30 = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow30" />
+      <MemberSignature Language="VB.NET" Value="msoShadow30" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow30" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary>第三十个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow31">
+      <MemberSignature Language="C#" Value="msoShadow31" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow31 = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow31" />
+      <MemberSignature Language="VB.NET" Value="msoShadow31" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow31" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary>三十第一个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow32">
+      <MemberSignature Language="C#" Value="msoShadow32" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow32 = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow32" />
+      <MemberSignature Language="VB.NET" Value="msoShadow32" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow32" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>三十第二个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow33">
+      <MemberSignature Language="C#" Value="msoShadow33" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow33 = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow33" />
+      <MemberSignature Language="VB.NET" Value="msoShadow33" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow33" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary>第三十三的阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow34">
+      <MemberSignature Language="C#" Value="msoShadow34" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow34 = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow34" />
+      <MemberSignature Language="VB.NET" Value="msoShadow34" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow34" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary>三十规定阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow35">
+      <MemberSignature Language="C#" Value="msoShadow35" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow35 = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow35" />
+      <MemberSignature Language="VB.NET" Value="msoShadow35" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow35" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary>三十第五个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow36">
+      <MemberSignature Language="C#" Value="msoShadow36" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow36 = int32(36)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow36" />
+      <MemberSignature Language="VB.NET" Value="msoShadow36" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow36" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>36</MemberValue>
+      <Docs>
+        <summary>三十第六个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow37">
+      <MemberSignature Language="C#" Value="msoShadow37" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow37 = int32(37)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow37" />
+      <MemberSignature Language="VB.NET" Value="msoShadow37" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow37" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>37</MemberValue>
+      <Docs>
+        <summary>三十第七个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow38">
+      <MemberSignature Language="C#" Value="msoShadow38" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow38 = int32(38)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow38" />
+      <MemberSignature Language="VB.NET" Value="msoShadow38" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow38" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>38</MemberValue>
+      <Docs>
+        <summary>三十二十八阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow39">
+      <MemberSignature Language="C#" Value="msoShadow39" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow39 = int32(39)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow39" />
+      <MemberSignature Language="VB.NET" Value="msoShadow39" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow39" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>39</MemberValue>
+      <Docs>
+        <summary>三十第九个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow4">
+      <MemberSignature Language="C#" Value="msoShadow4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow4 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow4" />
+      <MemberSignature Language="VB.NET" Value="msoShadow4" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>第四个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow40">
+      <MemberSignature Language="C#" Value="msoShadow40" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow40 = int32(40)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow40" />
+      <MemberSignature Language="VB.NET" Value="msoShadow40" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow40" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>40</MemberValue>
+      <Docs>
+        <summary>Fortieth 阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow41">
+      <MemberSignature Language="C#" Value="msoShadow41" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow41 = int32(41)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow41" />
+      <MemberSignature Language="VB.NET" Value="msoShadow41" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow41" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>41</MemberValue>
+      <Docs>
+        <summary>40 第一个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow42">
+      <MemberSignature Language="C#" Value="msoShadow42" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow42 = int32(42)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow42" />
+      <MemberSignature Language="VB.NET" Value="msoShadow42" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow42" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>42</MemberValue>
+      <Docs>
+        <summary>40 第二个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow43">
+      <MemberSignature Language="C#" Value="msoShadow43" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow43 = int32(43)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow43" />
+      <MemberSignature Language="VB.NET" Value="msoShadow43" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow43" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>43</MemberValue>
+      <Docs>
+        <summary>40 第三的阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow5">
+      <MemberSignature Language="C#" Value="msoShadow5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow5 = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow5" />
+      <MemberSignature Language="VB.NET" Value="msoShadow5" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>第五个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow6">
+      <MemberSignature Language="C#" Value="msoShadow6" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow6 = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow6" />
+      <MemberSignature Language="VB.NET" Value="msoShadow6" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow6" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>第六个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow7">
+      <MemberSignature Language="C#" Value="msoShadow7" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow7 = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow7" />
+      <MemberSignature Language="VB.NET" Value="msoShadow7" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow7" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>第七个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow8">
+      <MemberSignature Language="C#" Value="msoShadow8" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow8 = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow8" />
+      <MemberSignature Language="VB.NET" Value="msoShadow8" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>第八个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadow9">
+      <MemberSignature Language="C#" Value="msoShadow9" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadow9 = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadow9" />
+      <MemberSignature Language="VB.NET" Value="msoShadow9" />
+      <MemberSignature Language="C++ CLI" Value="msoShadow9" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>第九个阴影类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShadowMixed">
+      <MemberSignature Language="C#" Value="msoShadowMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShadowType msoShadowMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShadowType.msoShadowMixed" />
+      <MemberSignature Language="VB.NET" Value="msoShadowMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoShadowMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShadowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>不支持。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

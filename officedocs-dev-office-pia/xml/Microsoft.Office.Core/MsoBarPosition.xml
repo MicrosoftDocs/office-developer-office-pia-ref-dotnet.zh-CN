@@ -1,0 +1,161 @@
+<Type Name="MsoBarPosition" FullName="Microsoft.Office.Core.MsoBarPosition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3e12e9444c6e001189db1b6688c17432719b2f49" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657803" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoBarPosition" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBarPosition extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBarPosition" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoBarPosition" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoBarPosition" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定命令栏的位置或行为。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoBarBottom">
+      <MemberSignature Language="C#" Value="msoBarBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBarPosition msoBarBottom = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBarPosition.msoBarBottom" />
+      <MemberSignature Language="VB.NET" Value="msoBarBottom" />
+      <MemberSignature Language="C++ CLI" Value="msoBarBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBarPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>命令栏固定在应用程序窗口的底部。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBarFloating">
+      <MemberSignature Language="C#" Value="msoBarFloating" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBarPosition msoBarFloating = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBarPosition.msoBarFloating" />
+      <MemberSignature Language="VB.NET" Value="msoBarFloating" />
+      <MemberSignature Language="C++ CLI" Value="msoBarFloating" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBarPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>命令栏浮动在应用程序窗口顶端。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBarLeft">
+      <MemberSignature Language="C#" Value="msoBarLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBarPosition msoBarLeft = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBarPosition.msoBarLeft" />
+      <MemberSignature Language="VB.NET" Value="msoBarLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoBarLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBarPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>命令栏固定在应用程序窗口的左侧。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBarMenuBar">
+      <MemberSignature Language="C#" Value="msoBarMenuBar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBarPosition msoBarMenuBar = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBarPosition.msoBarMenuBar" />
+      <MemberSignature Language="VB.NET" Value="msoBarMenuBar" />
+      <MemberSignature Language="C++ CLI" Value="msoBarMenuBar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBarPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>命令栏将为菜单栏（仅限 Macintosh）。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBarPopup">
+      <MemberSignature Language="C#" Value="msoBarPopup" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBarPosition msoBarPopup = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBarPosition.msoBarPopup" />
+      <MemberSignature Language="VB.NET" Value="msoBarPopup" />
+      <MemberSignature Language="C++ CLI" Value="msoBarPopup" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBarPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>命令栏将为快捷菜单。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBarRight">
+      <MemberSignature Language="C#" Value="msoBarRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBarPosition msoBarRight = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBarPosition.msoBarRight" />
+      <MemberSignature Language="VB.NET" Value="msoBarRight" />
+      <MemberSignature Language="C++ CLI" Value="msoBarRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBarPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>命令栏固定在应用程序窗口的右侧。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBarTop">
+      <MemberSignature Language="C#" Value="msoBarTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBarPosition msoBarTop = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBarPosition.msoBarTop" />
+      <MemberSignature Language="VB.NET" Value="msoBarTop" />
+      <MemberSignature Language="C++ CLI" Value="msoBarTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBarPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>命令栏固定在应用程序窗口的顶部。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

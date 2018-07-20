@@ -1,0 +1,180 @@
+<Type Name="MsoBarProtection" FullName="Microsoft.Office.Core.MsoBarProtection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="df69faf9e7d98ef73be708e9f98496309c213297" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657774" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoBarProtection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBarProtection extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBarProtection" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoBarProtection" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoBarProtection" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定如何防止用户对命令栏进行自定义。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoBarNoChangeDock">
+      <MemberSignature Language="C#" Value="msoBarNoChangeDock" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBarProtection msoBarNoChangeDock = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBarProtection.msoBarNoChangeDock" />
+      <MemberSignature Language="VB.NET" Value="msoBarNoChangeDock" />
+      <MemberSignature Language="C++ CLI" Value="msoBarNoChangeDock" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBarProtection</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>不能更改停靠设置。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBarNoChangeVisible">
+      <MemberSignature Language="C#" Value="msoBarNoChangeVisible" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBarProtection msoBarNoChangeVisible = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBarProtection.msoBarNoChangeVisible" />
+      <MemberSignature Language="VB.NET" Value="msoBarNoChangeVisible" />
+      <MemberSignature Language="C++ CLI" Value="msoBarNoChangeVisible" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBarProtection</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>不能隐藏命令栏。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBarNoCustomize">
+      <MemberSignature Language="C#" Value="msoBarNoCustomize" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBarProtection msoBarNoCustomize = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBarProtection.msoBarNoCustomize" />
+      <MemberSignature Language="VB.NET" Value="msoBarNoCustomize" />
+      <MemberSignature Language="C++ CLI" Value="msoBarNoCustomize" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBarProtection</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>不能自定义命令栏。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBarNoHorizontalDock">
+      <MemberSignature Language="C#" Value="msoBarNoHorizontalDock" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBarProtection msoBarNoHorizontalDock = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBarProtection.msoBarNoHorizontalDock" />
+      <MemberSignature Language="VB.NET" Value="msoBarNoHorizontalDock" />
+      <MemberSignature Language="C++ CLI" Value="msoBarNoHorizontalDock" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBarProtection</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>命令栏不能固定在顶部或底部。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBarNoMove">
+      <MemberSignature Language="C#" Value="msoBarNoMove" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBarProtection msoBarNoMove = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBarProtection.msoBarNoMove" />
+      <MemberSignature Language="VB.NET" Value="msoBarNoMove" />
+      <MemberSignature Language="C++ CLI" Value="msoBarNoMove" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBarProtection</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>不能移动命令栏。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBarNoProtection">
+      <MemberSignature Language="C#" Value="msoBarNoProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBarProtection msoBarNoProtection = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBarProtection.msoBarNoProtection" />
+      <MemberSignature Language="VB.NET" Value="msoBarNoProtection" />
+      <MemberSignature Language="C++ CLI" Value="msoBarNoProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBarProtection</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>用户可以自定义命令栏的所有方面。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBarNoResize">
+      <MemberSignature Language="C#" Value="msoBarNoResize" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBarProtection msoBarNoResize = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBarProtection.msoBarNoResize" />
+      <MemberSignature Language="VB.NET" Value="msoBarNoResize" />
+      <MemberSignature Language="C++ CLI" Value="msoBarNoResize" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBarProtection</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>不能调整命令栏的大小。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBarNoVerticalDock">
+      <MemberSignature Language="C#" Value="msoBarNoVerticalDock" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBarProtection msoBarNoVerticalDock = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBarProtection.msoBarNoVerticalDock" />
+      <MemberSignature Language="VB.NET" Value="msoBarNoVerticalDock" />
+      <MemberSignature Language="C++ CLI" Value="msoBarNoVerticalDock" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBarProtection</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>命令栏不能固定在左侧或右侧。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

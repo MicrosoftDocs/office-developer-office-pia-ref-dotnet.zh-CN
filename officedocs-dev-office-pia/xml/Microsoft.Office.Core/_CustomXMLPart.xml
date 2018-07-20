@@ -1,0 +1,569 @@
+<Type Name="_CustomXMLPart" FullName="Microsoft.Office.Core._CustomXMLPart">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="39da742c05be0b18a6b3f5cd128987d38d9112f2" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657596" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _CustomXMLPart : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CustomXMLPart implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomXMLPart" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _CustomXMLPart&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _CustomXMLPart : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000CDB05-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>代表一个<see cref="T:Microsoft.Office.Core._CustomXMLPart" />中<see cref="T:Microsoft.Office.Core._CustomXMLParts" />集合。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddNode">
+      <MemberSignature Language="C#" Value="public void AddNode (Microsoft.Office.Core.CustomXMLNode Parent, string Name = &quot;&quot;, string NamespaceURI = &quot;&quot;, Microsoft.Office.Core.CustomXMLNode NextSibling = null, Microsoft.Office.Core.MsoCustomXMLNodeType NodeType = Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement, string NodeValue = &quot;&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddNode([in]class Microsoft.Office.Core.CustomXMLNode Parent, [in]string Name, [in]string NamespaceURI, [in]class Microsoft.Office.Core.CustomXMLNode NextSibling, [in]valuetype Microsoft.Office.Core.MsoCustomXMLNodeType NodeType, [in]string NodeValue) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPart.AddNode(Microsoft.Office.Core.CustomXMLNode,System.String,System.String,Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.MsoCustomXMLNodeType,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddNode (Parent As CustomXMLNode, Optional Name As String = &quot;&quot;, Optional NamespaceURI As String = &quot;&quot;, Optional NextSibling As CustomXMLNode = null, Optional NodeType As MsoCustomXMLNodeType = Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement, Optional NodeValue As String = &quot;&quot;)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809352)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Parent" Type="Microsoft.Office.Core.CustomXMLNode" />
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="NamespaceURI" Type="System.String" />
+        <Parameter Name="NextSibling" Type="Microsoft.Office.Core.CustomXMLNode" />
+        <Parameter Name="NodeType" Type="Microsoft.Office.Core.MsoCustomXMLNodeType" />
+        <Parameter Name="NodeValue" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Parent">代表应该在其下添加此节点的节点。如果添加属性，则该参数指示应该向其添加属性的元素。</param>
+        <param name="Name">代表要添加的节点的基本名称。</param>
+        <param name="NamespaceURI">代表要追加的元素的命名空间。 此参数所需追加类型的节点<see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />或<see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />，否则它将被忽略。</param>
+        <param name="NextSibling">代表应成为新节点的下一个同级节点。 如果未指定，该节点将添加到末尾的父节点的子级。 此参数，则忽略的类型中添加的<see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeAttribute" />。 如果节点不是子元素的父对象，将显示一个错误。</param>
+        <param name="NodeType">指定要追加的节点的类型。 如果未指定参数，则假定为类型的<see cref="F:Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement" />。</param>
+        <param name="NodeValue">用于为允许文本的那些节点设置所追加节点的值。如果节点不允许文本，则忽略该参数。</param>
+        <summary>将节点添加到 XML 树。</summary>
+        <remarks>
+          <para>如果<see cref="M:Microsoft.Office.Core._CustomXMLPart.AddNode(Microsoft.Office.Core.CustomXMLNode,System.String,System.String,Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.MsoCustomXMLNodeType,System.String)" />操作将导致树结构无效，则不执行追加并显示一条错误消息。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomXMLPart.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取<b>应用程序</b>对象，该对象代表容器应用程序的<see cref="T:Microsoft.Office.Core._CustomXMLPart" />对象。 只读。</summary>
+        <value>
+          <b>对象</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuiltIn">
+      <MemberSignature Language="C#" Value="public bool BuiltIn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool BuiltIn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomXMLPart.BuiltIn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BuiltIn As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BuiltIn { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个值，该值指示是否<see cref="T:Microsoft.Office.Core._CustomXMLPart" />是内置。 只读</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomXMLPart.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个 32 位整数，表示在其中应用程序<see cref="T:Microsoft.Office.Core._CustomXMLPart" />对象的创建。 只读。</summary>
+        <value>
+          <b>Integer</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPart.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809353)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>删除当前<see cref="T:Microsoft.Office.Core._CustomXMLPart" />从数据存储 （<b>IXMLDataStore</b>接口）。</summary>
+        <remarks>
+          <para>如果尝试删除包含核心属性的部件，无法执行的操作，并显示一条错误消息。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DocumentElement">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.CustomXMLNode DocumentElement { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CustomXMLNode DocumentElement" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomXMLPart.DocumentElement" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DocumentElement As CustomXMLNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::CustomXMLNode ^ DocumentElement { Microsoft::Office::Core::CustomXMLNode ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CustomXMLNode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取文档中数据绑定区域的根元素。如果该区域为空，则该属性将返回 <b>Nothing</b>。只读。</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.CustomXMLNode" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Errors">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.CustomXMLValidationErrors Errors { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CustomXMLValidationErrors Errors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomXMLPart.Errors" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Errors As CustomXMLValidationErrors" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::CustomXMLValidationErrors ^ Errors { Microsoft::Office::Core::CustomXMLValidationErrors ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809358)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809358)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CustomXMLValidationErrors</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取<see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" />提供访问权限的任何 XML 验证错误，如果存在的对象。 如果没有验证错误存在，则此属性返回<b>Nothing</b>。 只读。</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomXMLPart.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个包含分配给当前的 GUID 的<b>字符串</b><see cref="T:Microsoft.Office.Core._CustomXMLPart" />对象。 只读。</summary>
+        <value>
+          <b>字符串</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public bool Load (string FilePath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Load([in]string FilePath) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPart.Load(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Load (FilePath As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Load(System::String ^ FilePath);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809354)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FilePath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="FilePath">指向用户计算机上或包含要加载的 XML 的网络上的文件。</param>
+        <summary>允许模板作者填充<see cref="T:Microsoft.Office.Core._CustomXMLPart" />从现有文件。  如果装载已成功，则返回<b>True</b> 。</summary>
+        <returns>
+          <b>Boolean</b>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadXML">
+      <MemberSignature Language="C#" Value="public bool LoadXML (string XML);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool LoadXML([in]string XML) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPart.LoadXML(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function LoadXML (XML As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool LoadXML(System::String ^ XML);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809355)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="XML" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="XML">包含要加载的 XML。</param>
+        <summary>允许模板作者填充<see cref="T:Microsoft.Office.Core._CustomXMLPart" />对象的 XML 字符串。 如果装载已成功，则返回<b>True</b> 。</summary>
+        <returns>
+          <b>Boolean</b>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NamespaceManager">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.CustomXMLPrefixMappings NamespaceManager { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CustomXMLPrefixMappings NamespaceManager" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomXMLPart.NamespaceManager" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NamespaceManager As CustomXMLPrefixMappings" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::CustomXMLPrefixMappings ^ NamespaceManager { Microsoft::Office::Core::CustomXMLPrefixMappings ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809350)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809350)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CustomXMLPrefixMappings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一组命名空间前缀映射用于当前<see cref="T:Microsoft.Office.Core._CustomXMLPart" />对象。 只读。</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.CustomXMLPrefixMappings" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NamespaceURI">
+      <MemberSignature Language="C#" Value="public string NamespaceURI { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NamespaceURI" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomXMLPart.NamespaceURI" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NamespaceURI As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NamespaceURI { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取的命名空间的唯一地址标识符<see cref="T:Microsoft.Office.Core._CustomXMLPart" />对象。 只读。</summary>
+        <value>
+          <b>字符串</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomXMLPart.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取对象的父<see cref="T:Microsoft.Office.Core._CustomXMLPart" />对象。 只读。</summary>
+        <value>
+          <b>对象</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SchemaCollection">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.CustomXMLSchemaCollection SchemaCollection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CustomXMLSchemaCollection SchemaCollection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomXMLPart.SchemaCollection" />
+      <MemberSignature Language="VB.NET" Value="Public Property SchemaCollection As CustomXMLSchemaCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::CustomXMLSchemaCollection ^ SchemaCollection { Microsoft::Office::Core::CustomXMLSchemaCollection ^ get(); void set(Microsoft::Office::Core::CustomXMLSchemaCollection ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CustomXMLSchemaCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置<see cref="T:Microsoft.Office.Core.CustomXMLSchemaCollection" />对象代表架构附加到文档中的数据的绑定区域。 为可读/写属性。</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.CustomXMLSchemaCollection" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectNodes">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.CustomXMLNodes SelectNodes (string XPath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.CustomXMLNodes SelectNodes([in]string XPath) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPart.SelectNodes(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SelectNodes (XPath As String) As CustomXMLNodes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::CustomXMLNodes ^ SelectNodes(System::String ^ XPath);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809356)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CustomXMLNodes</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="XPath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="XPath">包含 XPath 表达式。</param>
+        <summary>从自定义 XML 部件中选择节点的集合。</summary>
+        <returns>
+          <see cref="T:Microsoft.Office.Core.CustomXMLNodes" />
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectSingleNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.CustomXMLNode SelectSingleNode (string XPath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.CustomXMLNode SelectSingleNode([in]string XPath) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomXMLPart.SelectSingleNode(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SelectSingleNode (XPath As String) As CustomXMLNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::CustomXMLNode ^ SelectSingleNode(System::String ^ XPath);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809357)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CustomXMLNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="XPath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="XPath">包含一个 XPath 表达式。</param>
+        <summary>选择自定义 XML 部件内与 XPath 表达式匹配的单个节点。</summary>
+        <returns>
+          <see cref="T:Microsoft.Office.Core.CustomXMLNodes" />
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XML">
+      <MemberSignature Language="C#" Value="public string XML { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string XML" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomXMLPart.XML" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property XML As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ XML { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809351)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取当前的 XML 表示形式<see cref="T:Microsoft.Office.Core._CustomXMLPart" />对象。 只读。</summary>
+        <value>
+          <b>String</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

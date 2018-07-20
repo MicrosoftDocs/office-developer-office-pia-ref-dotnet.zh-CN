@@ -1,0 +1,242 @@
+<Type Name="XlDataLabelPosition" FullName="Microsoft.Office.Core.XlDataLabelPosition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="74973526cc49e18b708f0af7cc41f4e67f822040" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657885" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlDataLabelPosition" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlDataLabelPosition extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlDataLabelPosition" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlDataLabelPosition" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlDataLabelPosition" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指示数据标签相对于数据标记的位置。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlLabelPositionAbove">
+      <MemberSignature Language="C#" Value="xlLabelPositionAbove" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelPosition xlLabelPositionAbove = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelPosition.xlLabelPositionAbove" />
+      <MemberSignature Language="VB.NET" Value="xlLabelPositionAbove" />
+      <MemberSignature Language="C++ CLI" Value="xlLabelPositionAbove" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  数据标签位于点的上方。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLabelPositionBelow">
+      <MemberSignature Language="C#" Value="xlLabelPositionBelow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelPosition xlLabelPositionBelow = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelPosition.xlLabelPositionBelow" />
+      <MemberSignature Language="VB.NET" Value="xlLabelPositionBelow" />
+      <MemberSignature Language="C++ CLI" Value="xlLabelPositionBelow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  数据标签位于点的下方。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLabelPositionBestFit">
+      <MemberSignature Language="C#" Value="xlLabelPositionBestFit" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelPosition xlLabelPositionBestFit = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelPosition.xlLabelPositionBestFit" />
+      <MemberSignature Language="VB.NET" Value="xlLabelPositionBestFit" />
+      <MemberSignature Language="C++ CLI" Value="xlLabelPositionBestFit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  Office 应用程序控制数据标签的位置。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLabelPositionCenter">
+      <MemberSignature Language="C#" Value="xlLabelPositionCenter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelPosition xlLabelPositionCenter = int32(-4108)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelPosition.xlLabelPositionCenter" />
+      <MemberSignature Language="VB.NET" Value="xlLabelPositionCenter" />
+      <MemberSignature Language="C++ CLI" Value="xlLabelPositionCenter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4108</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  数据标签以数据点为中心点或者位于条形图或饼图内部。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLabelPositionCustom">
+      <MemberSignature Language="C#" Value="xlLabelPositionCustom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelPosition xlLabelPositionCustom = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelPosition.xlLabelPositionCustom" />
+      <MemberSignature Language="VB.NET" Value="xlLabelPositionCustom" />
+      <MemberSignature Language="C++ CLI" Value="xlLabelPositionCustom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  数据标签以数据点为中心点或者位于条形图或饼图内部。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLabelPositionInsideBase">
+      <MemberSignature Language="C#" Value="xlLabelPositionInsideBase" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelPosition xlLabelPositionInsideBase = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelPosition.xlLabelPositionInsideBase" />
+      <MemberSignature Language="VB.NET" Value="xlLabelPositionInsideBase" />
+      <MemberSignature Language="C++ CLI" Value="xlLabelPositionInsideBase" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  数据标签位于任意位置。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLabelPositionInsideEnd">
+      <MemberSignature Language="C#" Value="xlLabelPositionInsideEnd" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelPosition xlLabelPositionInsideEnd = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelPosition.xlLabelPositionInsideEnd" />
+      <MemberSignature Language="VB.NET" Value="xlLabelPositionInsideEnd" />
+      <MemberSignature Language="C++ CLI" Value="xlLabelPositionInsideEnd" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  数据标签位于任意位置。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLabelPositionLeft">
+      <MemberSignature Language="C#" Value="xlLabelPositionLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelPosition xlLabelPositionLeft = int32(-4131)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelPosition.xlLabelPositionLeft" />
+      <MemberSignature Language="VB.NET" Value="xlLabelPositionLeft" />
+      <MemberSignature Language="C++ CLI" Value="xlLabelPositionLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4131</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  数据标签位于条形图或饼图底部。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLabelPositionMixed">
+      <MemberSignature Language="C#" Value="xlLabelPositionMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelPosition xlLabelPositionMixed = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelPosition.xlLabelPositionMixed" />
+      <MemberSignature Language="VB.NET" Value="xlLabelPositionMixed" />
+      <MemberSignature Language="C++ CLI" Value="xlLabelPositionMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  数据标签位于条形图或饼图底部。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLabelPositionOutsideEnd">
+      <MemberSignature Language="C#" Value="xlLabelPositionOutsideEnd" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelPosition xlLabelPositionOutsideEnd = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelPosition.xlLabelPositionOutsideEnd" />
+      <MemberSignature Language="VB.NET" Value="xlLabelPositionOutsideEnd" />
+      <MemberSignature Language="C++ CLI" Value="xlLabelPositionOutsideEnd" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  数据标签位于条形图或饼图顶部。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLabelPositionRight">
+      <MemberSignature Language="C#" Value="xlLabelPositionRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelPosition xlLabelPositionRight = int32(-4152)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelPosition.xlLabelPositionRight" />
+      <MemberSignature Language="VB.NET" Value="xlLabelPositionRight" />
+      <MemberSignature Language="C++ CLI" Value="xlLabelPositionRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4152</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  数据标签位于条形图或饼图顶部。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

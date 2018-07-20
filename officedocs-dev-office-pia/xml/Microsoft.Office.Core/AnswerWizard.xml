@@ -1,0 +1,222 @@
+<Type Name="AnswerWizard" FullName="Microsoft.Office.Core.AnswerWizard">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2f63a7e2898af1d9dea244a238d194201a4ece2f" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658000" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface AnswerWizard : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AnswerWizard implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.AnswerWizard" />
+  <TypeSignature Language="VB.NET" Value="Public Interface AnswerWizard&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class AnswerWizard : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0360-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>代表应答向导中的 Microsoft Office 应用程序。</summary>
+    <remarks>
+      <para>某些本主题中的内容不可能适用于某些语言版本。</para>
+      <para>没有每个应用程序，只有一个应答向导和<b>AnswerWizard</b>对象的所有更改或<see cref="T:Microsoft.Office.Core.AnswerWizardFiles" />集合影响活动的 Office 应用程序立即。</para>使用
+      <para><see cref="M:Microsoft.Office.Core.AnswerWizard.ClearFileList" />方法，以从列表中删除所有项文件可用于当前应答向导。使用此方法可确保供 Office 主机应用程序的默认文件不再是可通过应答向导，如时您替换自定义访问。AW 文件。</para>使用
+      <para><see cref="M:Microsoft.Office.Core.AnswerWizard.ResetFileList" />方法，以还原到默认列表的文件的 Office 主机应用程序当前应答向导的文件列表。您还可以通过将自定义文件的名称添加到相应的注册表项; 建立在 Windows 注册表中的自定义的默认文件列表只有在应答然后还原该注册表项中指定的文件。</para>使用
+      <para><see cref="P:Microsoft.Office.Core.AnswerWizard.Files" />属性获取应答向导文件引用的集合。<b>Files</b>属性返回的字符串引用的集合。AW 文件。</para><para /></remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.AnswerWizard.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>Application</b>对象，代表容器应用程序的对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearFileList">
+      <MemberSignature Language="C#" Value="public void ClearFileList ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearFileList() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.AnswerWizard.ClearFileList" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearFileList ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearFileList();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>清除当前 AnswerWizard，包括 Microsoft Office 主机应用程序的文件的默认列表的文件的列表。</summary>
+        <remarks>
+          <para>此方法用于删除指定应用程序当前文件列表中的所有条目。您可以使用它，以确保主机应用程序的默认 AnswerWizard 文件无对用户可用。然后可以通过使用生成的文件的自定义列表<see cref="M:Microsoft.Office.Core.AnswerWizardFiles.Add(System.String)" />方法<see cref="T:Microsoft.Office.Core.AnswerWizardFiles" />集合。</para>
+          <para>要还原为主机应用程序设置的默认 AnswerWizard 文件，请使用<see cref="M:Microsoft.Office.Core.AnswerWizard.ResetFileList" />方法。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.AnswerWizard.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>此属性的工作方式的示例，它会返回 1297307460，如果在 Microsoft Word 中; 创建该对象代表字符串"MSWD"如果在 Microsoft Excel 中创建对象，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符，就像<b>Application</b>属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Files">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.AnswerWizardFiles Files { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.AnswerWizardFiles Files" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.AnswerWizard.Files" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Files As AnswerWizardFiles" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::AnswerWizardFiles ^ Files { Microsoft::Office::Core::AnswerWizardFiles ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.AnswerWizardFiles</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Core.AnswerWizardFiles" />表示当前 AnswerWizard 文件可用列表集合。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.AnswerWizard.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回指定对象的<b>父</b>对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetFileList">
+      <MemberSignature Language="C#" Value="public void ResetFileList ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ResetFileList() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.AnswerWizard.ResetFileList" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ResetFileList ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ResetFileList();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>重置当前 AnswerWizard 到 Microsoft Office 主机应用程序的文件的默认列表的文件的列表。</summary>
+        <remarks>
+          <para>使用此方法，以还原到宿主应用程序在 Windows 注册表中的列表的当前 AnswerWizard 文件列表中的所有条目。您可以通过将自定义文件的名称添加到相应的注册表项来建立注册表中的自定义的默认文件列表。</para>
+          <para>
+            <b>警告</b>错误地编辑注册表可能会严重损坏操作系统，需要重新安装它。Microsoft 无法保证可以解析错误地编辑注册表导致的问题。编辑注册表之前, 备份任何有价值的数据。有关使用和保护您的计算机的注册表中的最新信息，请参阅 Microsoft Windows 帮助。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

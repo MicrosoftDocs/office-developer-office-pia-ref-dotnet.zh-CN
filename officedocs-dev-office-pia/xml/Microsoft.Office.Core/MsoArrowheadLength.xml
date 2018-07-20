@@ -1,0 +1,104 @@
+<Type Name="MsoArrowheadLength" FullName="Microsoft.Office.Core.MsoArrowheadLength">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0084641f26b41bd49138ee4f03d63d501c08ac90" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658218" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoArrowheadLength" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoArrowheadLength extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoArrowheadLength" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoArrowheadLength" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoArrowheadLength" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定线条末端的箭头长度。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoArrowheadLengthMedium">
+      <MemberSignature Language="C#" Value="msoArrowheadLengthMedium" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoArrowheadLength msoArrowheadLengthMedium = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoArrowheadLength.msoArrowheadLengthMedium" />
+      <MemberSignature Language="VB.NET" Value="msoArrowheadLengthMedium" />
+      <MemberSignature Language="C++ CLI" Value="msoArrowheadLengthMedium" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoArrowheadLength</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>中等。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoArrowheadLengthMixed">
+      <MemberSignature Language="C#" Value="msoArrowheadLengthMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoArrowheadLength msoArrowheadLengthMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoArrowheadLength.msoArrowheadLengthMixed" />
+      <MemberSignature Language="VB.NET" Value="msoArrowheadLengthMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoArrowheadLengthMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoArrowheadLength</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>只返回值，表示指定形状范围中其他状态的组合。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoArrowheadLong">
+      <MemberSignature Language="C#" Value="msoArrowheadLong" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoArrowheadLength msoArrowheadLong = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoArrowheadLength.msoArrowheadLong" />
+      <MemberSignature Language="VB.NET" Value="msoArrowheadLong" />
+      <MemberSignature Language="C++ CLI" Value="msoArrowheadLong" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoArrowheadLength</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>长。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoArrowheadShort">
+      <MemberSignature Language="C#" Value="msoArrowheadShort" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoArrowheadLength msoArrowheadShort = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoArrowheadLength.msoArrowheadShort" />
+      <MemberSignature Language="VB.NET" Value="msoArrowheadShort" />
+      <MemberSignature Language="C++ CLI" Value="msoArrowheadShort" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoArrowheadLength</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>短。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

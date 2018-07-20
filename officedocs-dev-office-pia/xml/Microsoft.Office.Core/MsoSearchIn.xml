@@ -1,0 +1,104 @@
+<Type Name="MsoSearchIn" FullName="Microsoft.Office.Core.MsoSearchIn">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a19d384944087a632fba716fb90bf6365de4c3df" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657994" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoSearchIn" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSearchIn extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSearchIn" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoSearchIn" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoSearchIn" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoSearchInCustom">
+      <MemberSignature Language="C#" Value="msoSearchInCustom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSearchIn msoSearchInCustom = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSearchIn.msoSearchInCustom" />
+      <MemberSignature Language="VB.NET" Value="msoSearchInCustom" />
+      <MemberSignature Language="C++ CLI" Value="msoSearchInCustom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSearchIn</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSearchInMyComputer">
+      <MemberSignature Language="C#" Value="msoSearchInMyComputer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSearchIn msoSearchInMyComputer = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSearchIn.msoSearchInMyComputer" />
+      <MemberSignature Language="VB.NET" Value="msoSearchInMyComputer" />
+      <MemberSignature Language="C++ CLI" Value="msoSearchInMyComputer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSearchIn</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSearchInMyNetworkPlaces">
+      <MemberSignature Language="C#" Value="msoSearchInMyNetworkPlaces" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSearchIn msoSearchInMyNetworkPlaces = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSearchIn.msoSearchInMyNetworkPlaces" />
+      <MemberSignature Language="VB.NET" Value="msoSearchInMyNetworkPlaces" />
+      <MemberSignature Language="C++ CLI" Value="msoSearchInMyNetworkPlaces" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSearchIn</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSearchInOutlook">
+      <MemberSignature Language="C#" Value="msoSearchInOutlook" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSearchIn msoSearchInOutlook = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSearchIn.msoSearchInOutlook" />
+      <MemberSignature Language="VB.NET" Value="msoSearchInOutlook" />
+      <MemberSignature Language="C++ CLI" Value="msoSearchInOutlook" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSearchIn</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

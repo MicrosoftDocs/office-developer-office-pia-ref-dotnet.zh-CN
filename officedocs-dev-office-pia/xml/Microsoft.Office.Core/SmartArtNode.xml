@@ -1,0 +1,696 @@
+<Type Name="SmartArtNode" FullName="Microsoft.Office.Core.SmartArtNode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4a10f538dc53dcbd7190b050e96ba06931c977fc" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657843" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface SmartArtNode : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SmartArtNode implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SmartArtNode" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SmartArtNode&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SmartArtNode : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03C8-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>SmartArt 图形的数据模型中的单个语义节点。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.SmartArtNode AddNode (Microsoft.Office.Core.MsoSmartArtNodePosition Position = Microsoft.Office.Core.MsoSmartArtNodePosition.msoSmartArtNodeDefault, Microsoft.Office.Core.MsoSmartArtNodeType Type = Microsoft.Office.Core.MsoSmartArtNodeType.msoSmartArtNodeTypeDefault);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.SmartArtNode AddNode([in]valuetype Microsoft.Office.Core.MsoSmartArtNodePosition Position, [in]valuetype Microsoft.Office.Core.MsoSmartArtNodeType Type) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SmartArtNode.AddNode(Microsoft.Office.Core.MsoSmartArtNodePosition,Microsoft.Office.Core.MsoSmartArtNodeType)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddNode (Optional Position As MsoSmartArtNodePosition = Microsoft.Office.Core.MsoSmartArtNodePosition.msoSmartArtNodeDefault, Optional Type As MsoSmartArtNodeType = Microsoft.Office.Core.MsoSmartArtNodeType.msoSmartArtNodeTypeDefault) As SmartArtNode" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SmartArtNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Position" Type="Microsoft.Office.Core.MsoSmartArtNodePosition" />
+        <Parameter Name="Type" Type="Microsoft.Office.Core.MsoSmartArtNodeType" />
+      </Parameters>
+      <Docs>
+        <param name="Position">在数据模型中指定的<b>SmartArtNode</b>位置。 例如，<see cref="F:Microsoft.Office.Core.MsoSmartArtNodePosition.msoSmartArtNodeAbove" />或<see cref="F:Microsoft.Office.Core.MsoSmartArtNodePosition.msoSmartArtNodeAfter" />。</param>
+        <param name="Type">指定添加<b>SmartArtNode</b>的类型。 例如，<see cref="F:Microsoft.Office.Core.MsoSmartArtNodeType.msoSmartArtNodeTypeAssistant" />或<see cref="F:Microsoft.Office.Core.MsoSmartArtNodeType.msoSmartArtNodeTypeDefault" />。</param>
+        <summary>将新的 SmartArt 节点添加到数据模型中指定的方式<paramref name="Position" />值和<paramref name="Type" />。</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartArtNode.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个代表<b>SmartArtNode</b>对象的容器应用程序的<b>Application</b>对象。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>只读的。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartArtNode.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个指示在其中创建<b>SmartArtNode</b>对象的应用程序的 32 位整数。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>只读的。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SmartArtNode.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>删除当前的 SmartArt 节点。</summary>
+        <remarks>
+          <para>当删除节点时，获取升级的第一个子级。下面的数据模型中：</para>
+          <list type="bullet">
+            <item>
+              <para>A</para>
+            </item>
+            <item>
+              <para>D</para>
+            </item>
+          </list>
+          <para>B 将被删除，如果在数据模型然后外观如下所示：</para>
+          <list type="bullet">
+            <item>
+              <para>A</para>
+            </item>
+            <item>
+              <para>D</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Demote">
+      <MemberSignature Language="C#" Value="public void Demote ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Demote() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SmartArtNode.Demote" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Demote ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Demote();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>将当前节点在数据模型中降低一级。</summary>
+        <remarks>
+          <para>内容窗格中工作时，此功能模拟 Microsoft Office Fluent 功能区 UI 中的降级按钮。例如，给定以下的数据模型：</para>
+          <list type="bullet">
+            <item>
+              <para>A</para>
+            </item>
+            <item>
+              <para>B</para>
+            </item>
+            <item>
+              <para>D</para>
+            </item>
+          </list>
+          <para>B 将被降级，则生成的数据模型如下所示：</para>
+          <list type="bullet">
+            <item>
+              <para>A</para>
+            </item>
+            <item>
+              <para>D</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Hidden">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState Hidden { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState Hidden" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartArtNode.Hidden" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Hidden As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Hidden { Microsoft::Office::Core::MsoTriState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>如果此节点在数据模型中的隐藏的节点，则返回<b>true</b> 。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>只读的。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Larger">
+      <MemberSignature Language="C#" Value="public void Larger ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Larger() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SmartArtNode.Larger" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Larger ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Larger();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>SmartArt 的大小增大。 为 SmartArt 模仿 Microsoft Office Fluent 功能区格式选项卡上的较大按钮的行为。</summary>
+        <remarks>
+          <para>实际的增加量取决于节点的布局。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Level">
+      <MemberSignature Language="C#" Value="public int Level { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Level" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartArtNode.Level" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Level As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Level { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回层次结构中的节点的级别。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>级别从 1 开始和向上递增。如果节点没有级别，则返回 0。例如，在下面的数据模型中，A 和 F 具有级别 1 的、 B 和 D 具有 2，级别和 C 和 E 具有级别为 3。</para>
+          <list type="bullet">
+            <item>
+              <para>A</para>
+            </item>
+            <item>
+              <para>F</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Nodes">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.SmartArtNodes Nodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.SmartArtNodes Nodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartArtNode.Nodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Nodes As SmartArtNodes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SmartArtNodes ^ Nodes { Microsoft::Office::Core::SmartArtNodes ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SmartArtNodes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回的子级与此 SmartArt 节点关联的节点。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>只读的。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrgChartLayout">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoOrgChartLayoutType OrgChartLayout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoOrgChartLayoutType OrgChartLayout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartArtNode.OrgChartLayout" />
+      <MemberSignature Language="VB.NET" Value="Public Property OrgChartLayout As MsoOrgChartLayoutType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoOrgChartLayoutType OrgChartLayout { Microsoft::Office::Core::MsoOrgChartLayoutType get(); void set(Microsoft::Office::Core::MsoOrgChartLayoutType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoOrgChartLayoutType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置<see cref="T:Microsoft.Office.Core.MsoOrgChartLayoutType" />如果存在与此节点相关联。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>是可能的成员：</para>
+          <list type="bullet">
+            <item>
+              <para>msoOrgChartLayoutBothHanging</para>
+            </item>
+            <item>
+              <para>msoOrgChartLayoutDefault </para>
+            </item>
+            <item>
+              <para>msoOrgChartLayoutLeftHanging </para>
+            </item>
+            <item>
+              <para>msoOrgChartLayoutMixed </para>
+            </item>
+            <item>
+              <para>msoOrgChartLayoutRightHanging </para>
+            </item>
+            <item>
+              <para>msoOrgChartLayoutStandard</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartArtNode.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取调用对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.SmartArtNode ParentNode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.SmartArtNode ParentNode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartArtNode.ParentNode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentNode As SmartArtNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SmartArtNode ^ ParentNode { Microsoft::Office::Core::SmartArtNode ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SmartArtNode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<b>SmartArtNode</b>的此<b>SmartArtNode</b>对象的父。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>只读的。如果此节点是根节点，则返回错误。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Promote">
+      <MemberSignature Language="C#" Value="public void Promote ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Promote() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SmartArtNode.Promote" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Promote ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Promote();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>将当前节点（以及它的所有子级）在数据模型中提升一级。</summary>
+        <remarks>
+          <para>内容窗格中工作时，此功能模拟 Microsoft Office Fluent 功能区 UI 上的升级按钮。例如，给定以下的数据模型：</para>
+          <list type="bullet">
+            <item>
+              <para>A</para>
+            </item>
+            <item>
+              <para>D</para>
+            </item>
+          </list>
+          <para>B 进行升级，则生成的数据模型如下所示：</para>
+          <list type="bullet">
+            <item>
+              <para>A</para>
+            </item>
+            <item>
+              <para>B</para>
+            </item>
+            <item>
+              <para>D</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReorderDown">
+      <MemberSignature Language="C#" Value="public void ReorderDown ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ReorderDown() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SmartArtNode.ReorderDown" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ReorderDown ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReorderDown();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>将节点与项目符号列表中的下一个节点交换。 此方法对节点的整个系列进行重新排序。</summary>
+        <remarks>
+          <para>此方法将模拟单击位于 SmartArt 工具选项卡上设计组上向下重新排序的 Microsoft Office Fluent 功能区用户界面上的向下重新排序按钮。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReorderUp">
+      <MemberSignature Language="C#" Value="public void ReorderUp ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ReorderUp() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SmartArtNode.ReorderUp" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ReorderUp ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReorderUp();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>将节点与项目符号列表中上一个节点交换。 此方法对节点的整个系列进行重新排序。</summary>
+        <remarks>
+          <para>此方法将模拟单击位于 SmartArt 工具选项卡上设计组上重新排序设置 Microsoft Office Fluent 功能区用户界面上的重新排序向上按钮。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Shapes">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ShapeRange Shapes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.ShapeRange Shapes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartArtNode.Shapes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Shapes As ShapeRange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ShapeRange ^ Shapes { Microsoft::Office::Core::ShapeRange ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ShapeRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回与此<b>SmartArtNode</b>对象关联的形状范围。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>若要查找该范围，使用<see cref="P:Microsoft.Office.Core.Shapes.Count" />属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Smaller">
+      <MemberSignature Language="C#" Value="public void Smaller ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Smaller() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SmartArtNode.Smaller" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Smaller ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Smaller();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>减小 SmartArt 的大小。模拟 SmartArt 的 Microsoft Office Fluent 功能区用户界面的“格式”选项卡上的“减小”按钮的行为。</summary>
+        <remarks>
+          <para>减小量取决于节点的布局大小。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFrame2">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextFrame2 TextFrame2 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextFrame2 TextFrame2" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartArtNode.TextFrame2" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextFrame2 As TextFrame2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextFrame2 ^ TextFrame2 { Microsoft::Office::Core::TextFrame2 ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextFrame2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<b>SmartArtNode</b>对象相关联的文本。</summary>
+        <value>返回<see cref="T:Microsoft.Office.Core.TextFrame2" />。</value>
+        <remarks>
+          <para>只读的。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoSmartArtNodeType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoSmartArtNodeType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartArtNode.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As MsoSmartArtNodeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoSmartArtNodeType Type { Microsoft::Office::Core::MsoSmartArtNodeType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSmartArtNodeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回 SmartArt 节点的类型。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>只读的。可能的值为<see cref="F:Microsoft.Office.Core.MsoSmartArtNodeType.msoSmartArtNodeTypeAssistant" />或<see cref="F:Microsoft.Office.Core.MsoSmartArtNodeType.msoSmartArtNodeTypeDefault" />。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

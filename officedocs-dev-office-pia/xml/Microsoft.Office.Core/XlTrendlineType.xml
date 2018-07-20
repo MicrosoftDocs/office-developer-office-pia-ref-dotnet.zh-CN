@@ -1,0 +1,147 @@
+<Type Name="XlTrendlineType" FullName="Microsoft.Office.Core.XlTrendlineType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="213d707b5d8c7fe876e3cda0e6ee30f8c5493f3f" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658276" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlTrendlineType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlTrendlineType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlTrendlineType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlTrendlineType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlTrendlineType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定如何计算平滑处理数据中微小波动的趋势线。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlExponential">
+      <MemberSignature Language="C#" Value="xlExponential" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlTrendlineType xlExponential = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlTrendlineType.xlExponential" />
+      <MemberSignature Language="VB.NET" Value="xlExponential" />
+      <MemberSignature Language="C++ CLI" Value="xlExponential" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlTrendlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  使用公式（如 y=ab^x）计算数据点的最小平方拟合值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLinear">
+      <MemberSignature Language="C#" Value="xlLinear" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlTrendlineType xlLinear = int32(-4132)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlTrendlineType.xlLinear" />
+      <MemberSignature Language="VB.NET" Value="xlLinear" />
+      <MemberSignature Language="C++ CLI" Value="xlLinear" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlTrendlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4132</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  使用线性公式 y = mx + b 计算数据点的最小平方拟合值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLogarithmic">
+      <MemberSignature Language="C#" Value="xlLogarithmic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlTrendlineType xlLogarithmic = int32(-4133)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlTrendlineType.xlLogarithmic" />
+      <MemberSignature Language="VB.NET" Value="xlLogarithmic" />
+      <MemberSignature Language="C++ CLI" Value="xlLogarithmic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlTrendlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4133</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  使用公式 y = c ln x + b 计算数据点的最小平方拟合值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMovingAvg">
+      <MemberSignature Language="C#" Value="xlMovingAvg" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlTrendlineType xlMovingAvg = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlTrendlineType.xlMovingAvg" />
+      <MemberSignature Language="VB.NET" Value="xlMovingAvg" />
+      <MemberSignature Language="C++ CLI" Value="xlMovingAvg" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlTrendlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  使用通过数据系列中某些部分计算出的一系列平均值。 点的数目等于为期间指定的数字小于系列中数据点的总数。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPolynomial">
+      <MemberSignature Language="C#" Value="xlPolynomial" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlTrendlineType xlPolynomial = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlTrendlineType.xlPolynomial" />
+      <MemberSignature Language="VB.NET" Value="xlPolynomial" />
+      <MemberSignature Language="C++ CLI" Value="xlPolynomial" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlTrendlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  使用公式（如 y = ax^6 + bx^5 + cx^4 + dx^3 + ex^2 + fx + g）计算数据点的最小平方拟合值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPower">
+      <MemberSignature Language="C#" Value="xlPower" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlTrendlineType xlPower = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlTrendlineType.xlPower" />
+      <MemberSignature Language="VB.NET" Value="xlPower" />
+      <MemberSignature Language="C++ CLI" Value="xlPower" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlTrendlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  使用公式（如 y = ax^b）计算数据点的最小平方拟合值。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,245 @@
+<Type Name="XlDisplayUnit" FullName="Microsoft.Office.Core.XlDisplayUnit">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="46decea4c2a91689af2655c4804a3a4ed4a6f206" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658065" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlDisplayUnit" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlDisplayUnit extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlDisplayUnit" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlDisplayUnit" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlDisplayUnit" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("BF78D790-8DCF-4CF1-9CD4-4FCEB78EBE14")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指示度量的数字单位。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlDisplayUnitCustom">
+      <MemberSignature Language="C#" Value="xlDisplayUnitCustom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDisplayUnit xlDisplayUnitCustom = int32(-4114)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDisplayUnit.xlDisplayUnitCustom" />
+      <MemberSignature Language="VB.NET" Value="xlDisplayUnitCustom" />
+      <MemberSignature Language="C++ CLI" Value="xlDisplayUnitCustom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDisplayUnit</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4114</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定自定义单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDisplayUnitNone">
+      <MemberSignature Language="C#" Value="xlDisplayUnitNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDisplayUnit xlDisplayUnitNone = int32(-4142)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDisplayUnit.xlDisplayUnitNone" />
+      <MemberSignature Language="VB.NET" Value="xlDisplayUnitNone" />
+      <MemberSignature Language="C++ CLI" Value="xlDisplayUnitNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDisplayUnit</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4142</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  不显示单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlHundredMillions">
+      <MemberSignature Language="C#" Value="xlHundredMillions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDisplayUnit xlHundredMillions = int32(-8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDisplayUnit.xlHundredMillions" />
+      <MemberSignature Language="VB.NET" Value="xlHundredMillions" />
+      <MemberSignature Language="C++ CLI" Value="xlHundredMillions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDisplayUnit</ReturnType>
+      </ReturnValue>
+      <MemberValue>-8</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定亿单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlHundreds">
+      <MemberSignature Language="C#" Value="xlHundreds" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDisplayUnit xlHundreds = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDisplayUnit.xlHundreds" />
+      <MemberSignature Language="VB.NET" Value="xlHundreds" />
+      <MemberSignature Language="C++ CLI" Value="xlHundreds" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDisplayUnit</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定百单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlHundredThousands">
+      <MemberSignature Language="C#" Value="xlHundredThousands" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDisplayUnit xlHundredThousands = int32(-5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDisplayUnit.xlHundredThousands" />
+      <MemberSignature Language="VB.NET" Value="xlHundredThousands" />
+      <MemberSignature Language="C++ CLI" Value="xlHundredThousands" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDisplayUnit</ReturnType>
+      </ReturnValue>
+      <MemberValue>-5</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定十万单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMillionMillions">
+      <MemberSignature Language="C#" Value="xlMillionMillions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDisplayUnit xlMillionMillions = int32(-10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDisplayUnit.xlMillionMillions" />
+      <MemberSignature Language="VB.NET" Value="xlMillionMillions" />
+      <MemberSignature Language="C++ CLI" Value="xlMillionMillions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDisplayUnit</ReturnType>
+      </ReturnValue>
+      <MemberValue>-10</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定万亿单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMillions">
+      <MemberSignature Language="C#" Value="xlMillions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDisplayUnit xlMillions = int32(-6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDisplayUnit.xlMillions" />
+      <MemberSignature Language="VB.NET" Value="xlMillions" />
+      <MemberSignature Language="C++ CLI" Value="xlMillions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDisplayUnit</ReturnType>
+      </ReturnValue>
+      <MemberValue>-6</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定百万单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlTenMillions">
+      <MemberSignature Language="C#" Value="xlTenMillions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDisplayUnit xlTenMillions = int32(-7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDisplayUnit.xlTenMillions" />
+      <MemberSignature Language="VB.NET" Value="xlTenMillions" />
+      <MemberSignature Language="C++ CLI" Value="xlTenMillions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDisplayUnit</ReturnType>
+      </ReturnValue>
+      <MemberValue>-7</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定千万单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlTenThousands">
+      <MemberSignature Language="C#" Value="xlTenThousands" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDisplayUnit xlTenThousands = int32(-4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDisplayUnit.xlTenThousands" />
+      <MemberSignature Language="VB.NET" Value="xlTenThousands" />
+      <MemberSignature Language="C++ CLI" Value="xlTenThousands" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDisplayUnit</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定万单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlThousandMillions">
+      <MemberSignature Language="C#" Value="xlThousandMillions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDisplayUnit xlThousandMillions = int32(-9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDisplayUnit.xlThousandMillions" />
+      <MemberSignature Language="VB.NET" Value="xlThousandMillions" />
+      <MemberSignature Language="C++ CLI" Value="xlThousandMillions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDisplayUnit</ReturnType>
+      </ReturnValue>
+      <MemberValue>-9</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定十亿单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlThousands">
+      <MemberSignature Language="C#" Value="xlThousands" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDisplayUnit xlThousands = int32(-3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDisplayUnit.xlThousands" />
+      <MemberSignature Language="VB.NET" Value="xlThousands" />
+      <MemberSignature Language="C++ CLI" Value="xlThousands" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDisplayUnit</ReturnType>
+      </ReturnValue>
+      <MemberValue>-3</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定千单位。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

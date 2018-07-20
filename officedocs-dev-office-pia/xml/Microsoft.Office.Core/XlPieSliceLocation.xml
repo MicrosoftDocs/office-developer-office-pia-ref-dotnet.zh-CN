@@ -1,0 +1,74 @@
+<Type Name="XlPieSliceLocation" FullName="Microsoft.Office.Core.XlPieSliceLocation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ba670d3e6fa59e32079a5e0f571c38da6e3c6d78" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657692" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlPieSliceLocation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlPieSliceLocation extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlPieSliceLocation" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlPieSliceLocation" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlPieSliceLocation" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("B270C821-56A3-4F6D-9274-74E6CDF4D10C")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlHorizontalCoordinate">
+      <MemberSignature Language="C#" Value="xlHorizontalCoordinate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlPieSliceLocation xlHorizontalCoordinate = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlPieSliceLocation.xlHorizontalCoordinate" />
+      <MemberSignature Language="VB.NET" Value="xlHorizontalCoordinate" />
+      <MemberSignature Language="C++ CLI" Value="xlHorizontalCoordinate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlPieSliceLocation</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlVerticalCoordinate">
+      <MemberSignature Language="C#" Value="xlVerticalCoordinate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlPieSliceLocation xlVerticalCoordinate = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlPieSliceLocation.xlVerticalCoordinate" />
+      <MemberSignature Language="VB.NET" Value="xlVerticalCoordinate" />
+      <MemberSignature Language="C++ CLI" Value="xlVerticalCoordinate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlPieSliceLocation</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

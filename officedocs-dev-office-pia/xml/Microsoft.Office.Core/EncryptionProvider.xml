@@ -1,0 +1,353 @@
+<Type Name="EncryptionProvider" FullName="Microsoft.Office.Core.EncryptionProvider">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d47f94e5632932307e068c56805ab362f5180bfc" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657879" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface EncryptionProvider" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract EncryptionProvider" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.EncryptionProvider" />
+  <TypeSignature Language="VB.NET" Value="Public Interface EncryptionProvider" />
+  <TypeSignature Language="C++ CLI" Value="public interface class EncryptionProvider" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000CD809-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>提供用于设置权限、应用基础加密和解密的加密技术以及进行用户身份验证的方法。</summary>
+    <remarks>
+      <para>加密提供程序是通过自定义 COM 加载项实现的。您提供了 Office 文档的外接程序特定信息存储任何信息您需要加密、 解密、 应用权限，并显示权限安装或身份验证的用户界面中的存储。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Authenticate">
+      <MemberSignature Language="C#" Value="public int Authenticate (object ParentWindow, object EncryptionData, out uint PermissionsMask);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Authenticate([in]object ParentWindow, [in]object EncryptionData, [out] unsigned int32&amp; PermissionsMask) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.EncryptionProvider.Authenticate(System.Object,System.Object,System.UInt32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Authenticate (ParentWindow As Object, EncryptionData As Object, ByRef PermissionsMask As UInteger) As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int Authenticate(System::Object ^ ParentWindow, System::Object ^ EncryptionData, [Runtime::InteropServices::Out] System::UInt32 % PermissionsMask);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ParentWindow" Type="System.Object" />
+        <Parameter Name="EncryptionData" Type="System.Object" />
+        <Parameter Name="PermissionsMask" Type="System.UInt32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="ParentWindow">指定为了显示加密设置而调用的窗口。</param>
+        <param name="EncryptionData">包含当前文档的加密数据。</param>
+        <param name="PermissionsMask">加密提供程序加载项显示的用户界面。</param>
+        <summary>用于确定用户是否具有打开加密文档的适当权限。</summary>
+        <returns>
+          <b>Integer</b>
+        </returns>
+        <remarks>
+          <para>这是 COM 加载项加密提供程序其中显示任何用户界面是适用于应用加密。例如，密码加密提供程序将提示用户的密码。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloneSession">
+      <MemberSignature Language="C#" Value="public int CloneSession (int SessionHandle);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CloneSession([in]int32 SessionHandle) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.EncryptionProvider.CloneSession(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CloneSession (SessionHandle As Integer) As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int CloneSession(int SessionHandle);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SessionHandle" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="SessionHandle">克隆的会话的 ID。</param>
+        <summary>创建第二个，工作副本<see cref="T:Microsoft.Office.Core.EncryptionProvider" />对象的加密会话为即将保存的文件。</summary>
+        <returns>
+          <b>Integer</b>
+        </returns>
+        <remarks>
+          <para>此方法的输出是具有相同的加密设置的另一个会话句柄。当执行自动保存操作发生时，将提供此会话句柄。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DecryptStream">
+      <MemberSignature Language="C#" Value="public void DecryptStream (int SessionHandle, string StreamName, object EncryptedStream, object UnencryptedStream);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DecryptStream([in]int32 SessionHandle, [in]string StreamName, [in]object EncryptedStream, [in]object UnencryptedStream) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.EncryptionProvider.DecryptStream(System.Int32,System.String,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DecryptStream (SessionHandle As Integer, StreamName As String, EncryptedStream As Object, UnencryptedStream As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DecryptStream(int SessionHandle, System::String ^ StreamName, System::Object ^ EncryptedStream, System::Object ^ UnencryptedStream);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743815)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SessionHandle" Type="System.Int32" />
+        <Parameter Name="StreamName" Type="System.String" />
+        <Parameter Name="EncryptedStream" Type="System.Object" />
+        <Parameter Name="UnencryptedStream" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="SessionHandle">当前会话的 ID。</param>
+        <param name="StreamName">数据流的 ID。</param>
+        <param name="EncryptedStream">已加密数据流。</param>
+        <param name="UnencryptedStream">解密之前的数据流。</param>
+        <summary>对文档的加密数据流进行解密并将其返回。</summary>
+        <remarks>
+          <para>当打开文档时，和加载项已验证打开文档的用户进行身份验证后，将由 COM 加载项调用此方法。此方法是函数的反函数<see cref="M:Microsoft.Office.Core.EncryptionProvider.EncryptStream(System.Int32,System.String,System.Object,System.Object)" />方法，并将加密的数据回纯 （未加密） 的数据。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptStream">
+      <MemberSignature Language="C#" Value="public void EncryptStream (int SessionHandle, string StreamName, object UnencryptedStream, object EncryptedStream);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EncryptStream([in]int32 SessionHandle, [in]string StreamName, [in]object UnencryptedStream, [in]object EncryptedStream) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.EncryptionProvider.EncryptStream(System.Int32,System.String,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EncryptStream (SessionHandle As Integer, StreamName As String, UnencryptedStream As Object, EncryptedStream As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EncryptStream(int SessionHandle, System::String ^ StreamName, System::Object ^ UnencryptedStream, System::Object ^ EncryptedStream);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743814)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SessionHandle" Type="System.Int32" />
+        <Parameter Name="StreamName" Type="System.String" />
+        <Parameter Name="UnencryptedStream" Type="System.Object" />
+        <Parameter Name="EncryptedStream" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="SessionHandle">当前会话的 ID。</param>
+        <param name="StreamName">加密的文档数据流的名称。</param>
+        <param name="UnencryptedStream">加密之前的数据流。</param>
+        <param name="EncryptedStream">加密后的数据流信息。</param>
+        <summary>加密并返回文档的数据流。</summary>
+        <remarks>
+          <para>调用此方法通常由 COM 加载项期间保存操作。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndSession">
+      <MemberSignature Language="C#" Value="public void EndSession (int SessionHandle);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndSession([in]int32 SessionHandle) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.EncryptionProvider.EndSession(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndSession (SessionHandle As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndSession(int SessionHandle);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SessionHandle" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="SessionHandle">当前会话的 ID。</param>
+        <summary>结束当前加密会话。</summary>
+        <remarks>
+          <para>期间保存操作，<see cref="M:Microsoft.Office.Core.EncryptionProvider.CloneSession(System.Int32)" />方法由 COM 加载项创建的第二个，工作副本<see cref="T:Microsoft.Office.Core.EncryptionProvider" />对象加密会话即将保存的文件。下一步<see cref="M:Microsoft.Office.Core.EncryptionProvider.Save(System.Int32,System.Object)" />调用方法以获取您想要保留有关加密设置的任何自定义信息。本文档稍后重新打开时，提供了此信息。然后<see cref="M:Microsoft.Office.Core.EncryptionProvider.EncryptStream(System.Int32,System.String,System.Object,System.Object)" />方法调用它可提供程序使文档的全部内容。最后，若要完成此过程，<see cref="M:Microsoft.Office.Core.EncryptionProvider.EndSession(System.Int32)" />方法，用于克隆的会话句柄。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProviderDetail">
+      <MemberSignature Language="C#" Value="public object GetProviderDetail (Microsoft.Office.Core.EncryptionProviderDetail encprovdet);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetProviderDetail([in]valuetype Microsoft.Office.Core.EncryptionProviderDetail encprovdet) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.EncryptionProvider.GetProviderDetail(Microsoft.Office.Core.EncryptionProviderDetail)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetProviderDetail (encprovdet As EncryptionProviderDetail) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetProviderDetail(Microsoft::Office::Core::EncryptionProviderDetail encprovdet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="encprovdet" Type="Microsoft.Office.Core.EncryptionProviderDetail" />
+      </Parameters>
+      <Docs>
+        <param name="encprovdet">指定所需的加密信息。</param>
+        <summary>显示有关当前文档的加密的信息。</summary>
+        <returns>object</returns>
+        <remarks>
+          <para>此方法可以查询<see cref="T:Microsoft.Office.Core.EncryptionProvider" />对象的信息，如，什么是没有自定义 COM 加载项安装，哪种算法的用户的下载 URL 您实现，以及使用哪些密码模式。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewSession">
+      <MemberSignature Language="C#" Value="public int NewSession (object ParentWindow);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 NewSession([in]object ParentWindow) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.EncryptionProvider.NewSession(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function NewSession (ParentWindow As Object) As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int NewSession(System::Object ^ ParentWindow);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ParentWindow" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="ParentWindow">指定为了显示加密设置而调用的窗口。</param>
+        <summary>使用<see cref="T:Microsoft.Office.Core.EncryptionProvider" />对象创建新的加密会话。 在内存中该文档时，缓存加密、 用户和权限的特定于文档的信息的提供程序将使用此会话。</summary>
+        <returns>
+          <b>Integer</b>
+        </returns>
+        <remarks>
+          <para>此方法由 COM 加载项调用。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public int Save (int SessionHandle, object EncryptionData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Save([in]int32 SessionHandle, [in]object EncryptionData) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.EncryptionProvider.Save(System.Int32,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Save (SessionHandle As Integer, EncryptionData As Object) As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int Save(int SessionHandle, System::Object ^ EncryptionData);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SessionHandle" Type="System.Int32" />
+        <Parameter Name="EncryptionData" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="SessionHandle">当前会话的 ID。</param>
+        <param name="EncryptionData">包含加密信息。</param>
+        <summary>保存加密的文档。</summary>
+        <returns>
+          <b>Integer</b>
+        </returns>
+        <remarks>
+          <para>当 Office Open XML 文件格式 （这是唯一支持的自定义文件的加密的格式） 保存文件时，然后提供程序调用 COM 加载项对文档进行加密。如果您尝试将保存到不支持自定义文件的加密的格式，并且您具有适当的权限时才这样，Microsoft Office 将保存无加密的文档。这样可以将文档导出为不支持加密或权限管理的格式。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowSettings">
+      <MemberSignature Language="C#" Value="public void ShowSettings (int SessionHandle, object ParentWindow, bool ReadOnly, out bool Remove);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowSettings([in]int32 SessionHandle, [in]object ParentWindow, [in]bool ReadOnly, [out] bool&amp; Remove) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.EncryptionProvider.ShowSettings(System.Int32,System.Object,System.Boolean,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowSettings (SessionHandle As Integer, ParentWindow As Object, ReadOnly As Boolean, ByRef Remove As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowSettings(int SessionHandle, System::Object ^ ParentWindow, bool ReadOnly, [Runtime::InteropServices::Out] bool % Remove);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743816)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SessionHandle" Type="System.Int32" />
+        <Parameter Name="ParentWindow" Type="System.Object" />
+        <Parameter Name="ReadOnly" Type="System.Boolean" />
+        <Parameter Name="Remove" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="SessionHandle">当前会话的 ID。</param>
+        <param name="ParentWindow">指定为了显示加密设置而调用的窗口。</param>
+        <param name="ReadOnly">指定是否希望用户能更改加密设置。</param>
+        <param name="Remove">如果<b>，则返回 True</b>，文档的加密过程中将删除下一个保存操作。</param>
+        <summary>用于显示当前文档的加密设置的对话框。</summary>
+        <remarks>
+          <para>仅可以在已加密的文档上调用此方法。可以使用此方法 COM 加载项，以显示您喜欢的任何用户体验基于用户的使命。例如，在纯加密方案中，您可以显示一个对话框，更改文档的密码。在权限管理方案中，您可以决定是显示对话框中的更改权限还是显示用户的权限。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

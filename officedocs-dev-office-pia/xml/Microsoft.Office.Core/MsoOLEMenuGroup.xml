@@ -1,0 +1,161 @@
+<Type Name="MsoOLEMenuGroup" FullName="Microsoft.Office.Core.MsoOLEMenuGroup">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="505b5e38ea2008fd61a7598068a22ce34f3621a8" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657651" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoOLEMenuGroup" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoOLEMenuGroup extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoOLEMenuGroup" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoOLEMenuGroup" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoOLEMenuGroup" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定在合并 OLE 服务器的菜单组与 OLE 客户端的菜单组时（即，将一个容器应用程序类型的对象嵌入另一个应用程序中时），命令栏弹出式控件所属的菜单组。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoOLEMenuGroupContainer">
+      <MemberSignature Language="C#" Value="msoOLEMenuGroupContainer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoOLEMenuGroup msoOLEMenuGroupContainer = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoOLEMenuGroup.msoOLEMenuGroupContainer" />
+      <MemberSignature Language="VB.NET" Value="msoOLEMenuGroupContainer" />
+      <MemberSignature Language="C++ CLI" Value="msoOLEMenuGroupContainer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoOLEMenuGroup</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>“容器”菜单。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoOLEMenuGroupEdit">
+      <MemberSignature Language="C#" Value="msoOLEMenuGroupEdit" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoOLEMenuGroup msoOLEMenuGroupEdit = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoOLEMenuGroup.msoOLEMenuGroupEdit" />
+      <MemberSignature Language="VB.NET" Value="msoOLEMenuGroupEdit" />
+      <MemberSignature Language="C++ CLI" Value="msoOLEMenuGroupEdit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoOLEMenuGroup</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>编辑菜单。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoOLEMenuGroupFile">
+      <MemberSignature Language="C#" Value="msoOLEMenuGroupFile" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoOLEMenuGroup msoOLEMenuGroupFile = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoOLEMenuGroup.msoOLEMenuGroupFile" />
+      <MemberSignature Language="VB.NET" Value="msoOLEMenuGroupFile" />
+      <MemberSignature Language="C++ CLI" Value="msoOLEMenuGroupFile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoOLEMenuGroup</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>文件菜单。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoOLEMenuGroupHelp">
+      <MemberSignature Language="C#" Value="msoOLEMenuGroupHelp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoOLEMenuGroup msoOLEMenuGroupHelp = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoOLEMenuGroup.msoOLEMenuGroupHelp" />
+      <MemberSignature Language="VB.NET" Value="msoOLEMenuGroupHelp" />
+      <MemberSignature Language="C++ CLI" Value="msoOLEMenuGroupHelp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoOLEMenuGroup</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>帮助菜单。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoOLEMenuGroupNone">
+      <MemberSignature Language="C#" Value="msoOLEMenuGroupNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoOLEMenuGroup msoOLEMenuGroupNone = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoOLEMenuGroup.msoOLEMenuGroupNone" />
+      <MemberSignature Language="VB.NET" Value="msoOLEMenuGroupNone" />
+      <MemberSignature Language="C++ CLI" Value="msoOLEMenuGroupNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoOLEMenuGroup</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>不合并弹出式控件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoOLEMenuGroupObject">
+      <MemberSignature Language="C#" Value="msoOLEMenuGroupObject" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoOLEMenuGroup msoOLEMenuGroupObject = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoOLEMenuGroup.msoOLEMenuGroupObject" />
+      <MemberSignature Language="VB.NET" Value="msoOLEMenuGroupObject" />
+      <MemberSignature Language="C++ CLI" Value="msoOLEMenuGroupObject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoOLEMenuGroup</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>“对象”菜单。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoOLEMenuGroupWindow">
+      <MemberSignature Language="C#" Value="msoOLEMenuGroupWindow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoOLEMenuGroup msoOLEMenuGroupWindow = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoOLEMenuGroup.msoOLEMenuGroupWindow" />
+      <MemberSignature Language="VB.NET" Value="msoOLEMenuGroupWindow" />
+      <MemberSignature Language="C++ CLI" Value="msoOLEMenuGroupWindow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoOLEMenuGroup</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>“窗口”菜单。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

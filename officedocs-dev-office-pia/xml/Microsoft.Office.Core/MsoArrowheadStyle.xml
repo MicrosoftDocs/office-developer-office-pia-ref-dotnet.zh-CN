@@ -1,0 +1,161 @@
+<Type Name="MsoArrowheadStyle" FullName="Microsoft.Office.Core.MsoArrowheadStyle">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="685a90de1312d53a19e528458df5463d448ffc1e" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657898" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoArrowheadStyle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoArrowheadStyle extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoArrowheadStyle" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoArrowheadStyle" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoArrowheadStyle" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定线条末端的箭头样式。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoArrowheadDiamond">
+      <MemberSignature Language="C#" Value="msoArrowheadDiamond" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoArrowheadStyle msoArrowheadDiamond = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoArrowheadStyle.msoArrowheadDiamond" />
+      <MemberSignature Language="VB.NET" Value="msoArrowheadDiamond" />
+      <MemberSignature Language="C++ CLI" Value="msoArrowheadDiamond" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoArrowheadStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>菱形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoArrowheadNone">
+      <MemberSignature Language="C#" Value="msoArrowheadNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoArrowheadStyle msoArrowheadNone = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoArrowheadStyle.msoArrowheadNone" />
+      <MemberSignature Language="VB.NET" Value="msoArrowheadNone" />
+      <MemberSignature Language="C++ CLI" Value="msoArrowheadNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoArrowheadStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>无箭头。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoArrowheadOpen">
+      <MemberSignature Language="C#" Value="msoArrowheadOpen" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoArrowheadStyle msoArrowheadOpen = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoArrowheadStyle.msoArrowheadOpen" />
+      <MemberSignature Language="VB.NET" Value="msoArrowheadOpen" />
+      <MemberSignature Language="C++ CLI" Value="msoArrowheadOpen" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoArrowheadStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>开放。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoArrowheadOval">
+      <MemberSignature Language="C#" Value="msoArrowheadOval" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoArrowheadStyle msoArrowheadOval = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoArrowheadStyle.msoArrowheadOval" />
+      <MemberSignature Language="VB.NET" Value="msoArrowheadOval" />
+      <MemberSignature Language="C++ CLI" Value="msoArrowheadOval" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoArrowheadStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>椭圆形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoArrowheadStealth">
+      <MemberSignature Language="C#" Value="msoArrowheadStealth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoArrowheadStyle msoArrowheadStealth = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoArrowheadStyle.msoArrowheadStealth" />
+      <MemberSignature Language="VB.NET" Value="msoArrowheadStealth" />
+      <MemberSignature Language="C++ CLI" Value="msoArrowheadStealth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoArrowheadStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>燕尾形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoArrowheadStyleMixed">
+      <MemberSignature Language="C#" Value="msoArrowheadStyleMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoArrowheadStyle msoArrowheadStyleMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoArrowheadStyle.msoArrowheadStyleMixed" />
+      <MemberSignature Language="VB.NET" Value="msoArrowheadStyleMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoArrowheadStyleMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoArrowheadStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>只返回值，表示其他状态的组合。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoArrowheadTriangle">
+      <MemberSignature Language="C#" Value="msoArrowheadTriangle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoArrowheadStyle msoArrowheadTriangle = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoArrowheadStyle.msoArrowheadTriangle" />
+      <MemberSignature Language="VB.NET" Value="msoArrowheadTriangle" />
+      <MemberSignature Language="C++ CLI" Value="msoArrowheadTriangle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoArrowheadStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>三角形。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

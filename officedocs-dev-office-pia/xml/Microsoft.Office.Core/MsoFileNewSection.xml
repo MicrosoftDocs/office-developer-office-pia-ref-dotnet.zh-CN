@@ -1,0 +1,126 @@
+<Type Name="MsoFileNewSection" FullName="Microsoft.Office.Core.MsoFileNewSection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="04f59ace0cc9317005497d00ec3bc83a24552d6a" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657643" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoFileNewSection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFileNewSection extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFileNewSection" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoFileNewSection" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoFileNewSection" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定要在其中添加文件或文件引用所在窗格的任务部分。</summary>
+    <remarks>
+      <para>使用<b>Add</b>方法与<b>NewFile</b>对象的<b>Remove</b>方法。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoBottomSection">
+      <MemberSignature Language="C#" Value="msoBottomSection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileNewSection msoBottomSection = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileNewSection.msoBottomSection" />
+      <MemberSignature Language="VB.NET" Value="msoBottomSection" />
+      <MemberSignature Language="C++ CLI" Value="msoBottomSection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileNewSection</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>“底部”部分。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoNew">
+      <MemberSignature Language="C#" Value="msoNew" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileNewSection msoNew = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileNewSection.msoNew" />
+      <MemberSignature Language="VB.NET" Value="msoNew" />
+      <MemberSignature Language="C++ CLI" Value="msoNew" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileNewSection</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>“新建”部分。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoNewfromExistingFile">
+      <MemberSignature Language="C#" Value="msoNewfromExistingFile" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileNewSection msoNewfromExistingFile = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileNewSection.msoNewfromExistingFile" />
+      <MemberSignature Language="VB.NET" Value="msoNewfromExistingFile" />
+      <MemberSignature Language="C++ CLI" Value="msoNewfromExistingFile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileNewSection</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>“根据现有文件新建”部分。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoNewfromTemplate">
+      <MemberSignature Language="C#" Value="msoNewfromTemplate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileNewSection msoNewfromTemplate = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileNewSection.msoNewfromTemplate" />
+      <MemberSignature Language="VB.NET" Value="msoNewfromTemplate" />
+      <MemberSignature Language="C++ CLI" Value="msoNewfromTemplate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileNewSection</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>“根据模板新建”部分。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoOpenDocument">
+      <MemberSignature Language="C#" Value="msoOpenDocument" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileNewSection msoOpenDocument = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileNewSection.msoOpenDocument" />
+      <MemberSignature Language="VB.NET" Value="msoOpenDocument" />
+      <MemberSignature Language="C++ CLI" Value="msoOpenDocument" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileNewSection</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>“打开文档”部分。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

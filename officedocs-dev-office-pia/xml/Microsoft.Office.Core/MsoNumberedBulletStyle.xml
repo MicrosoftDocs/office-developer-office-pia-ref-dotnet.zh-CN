@@ -1,0 +1,826 @@
+<Type Name="MsoNumberedBulletStyle" FullName="Microsoft.Office.Core.MsoNumberedBulletStyle">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d94373df28b628acdd9e6d5db59873c57c193e3b" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658320" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoNumberedBulletStyle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoNumberedBulletStyle extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoNumberedBulletStyle" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoNumberedBulletStyle" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoNumberedBulletStyle" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoBulletAlphaLCParenBoth">
+      <MemberSignature Language="C#" Value="msoBulletAlphaLCParenBoth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletAlphaLCParenBoth = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletAlphaLCParenBoth" />
+      <MemberSignature Language="VB.NET" Value="msoBulletAlphaLCParenBoth" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletAlphaLCParenBoth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletAlphaLCParenRight">
+      <MemberSignature Language="C#" Value="msoBulletAlphaLCParenRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletAlphaLCParenRight = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletAlphaLCParenRight" />
+      <MemberSignature Language="VB.NET" Value="msoBulletAlphaLCParenRight" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletAlphaLCParenRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletAlphaLCPeriod">
+      <MemberSignature Language="C#" Value="msoBulletAlphaLCPeriod" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletAlphaLCPeriod = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletAlphaLCPeriod" />
+      <MemberSignature Language="VB.NET" Value="msoBulletAlphaLCPeriod" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletAlphaLCPeriod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletAlphaUCParenBoth">
+      <MemberSignature Language="C#" Value="msoBulletAlphaUCParenBoth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletAlphaUCParenBoth = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletAlphaUCParenBoth" />
+      <MemberSignature Language="VB.NET" Value="msoBulletAlphaUCParenBoth" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletAlphaUCParenBoth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletAlphaUCParenRight">
+      <MemberSignature Language="C#" Value="msoBulletAlphaUCParenRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletAlphaUCParenRight = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletAlphaUCParenRight" />
+      <MemberSignature Language="VB.NET" Value="msoBulletAlphaUCParenRight" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletAlphaUCParenRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletAlphaUCPeriod">
+      <MemberSignature Language="C#" Value="msoBulletAlphaUCPeriod" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletAlphaUCPeriod = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletAlphaUCPeriod" />
+      <MemberSignature Language="VB.NET" Value="msoBulletAlphaUCPeriod" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletAlphaUCPeriod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletArabicAbjadDash">
+      <MemberSignature Language="C#" Value="msoBulletArabicAbjadDash" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletArabicAbjadDash = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletArabicAbjadDash" />
+      <MemberSignature Language="VB.NET" Value="msoBulletArabicAbjadDash" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletArabicAbjadDash" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletArabicAlphaDash">
+      <MemberSignature Language="C#" Value="msoBulletArabicAlphaDash" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletArabicAlphaDash = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletArabicAlphaDash" />
+      <MemberSignature Language="VB.NET" Value="msoBulletArabicAlphaDash" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletArabicAlphaDash" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletArabicDBPeriod">
+      <MemberSignature Language="C#" Value="msoBulletArabicDBPeriod" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletArabicDBPeriod = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletArabicDBPeriod" />
+      <MemberSignature Language="VB.NET" Value="msoBulletArabicDBPeriod" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletArabicDBPeriod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletArabicDBPlain">
+      <MemberSignature Language="C#" Value="msoBulletArabicDBPlain" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletArabicDBPlain = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletArabicDBPlain" />
+      <MemberSignature Language="VB.NET" Value="msoBulletArabicDBPlain" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletArabicDBPlain" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletArabicParenBoth">
+      <MemberSignature Language="C#" Value="msoBulletArabicParenBoth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletArabicParenBoth = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletArabicParenBoth" />
+      <MemberSignature Language="VB.NET" Value="msoBulletArabicParenBoth" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletArabicParenBoth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletArabicParenRight">
+      <MemberSignature Language="C#" Value="msoBulletArabicParenRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletArabicParenRight = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletArabicParenRight" />
+      <MemberSignature Language="VB.NET" Value="msoBulletArabicParenRight" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletArabicParenRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletArabicPeriod">
+      <MemberSignature Language="C#" Value="msoBulletArabicPeriod" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletArabicPeriod = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletArabicPeriod" />
+      <MemberSignature Language="VB.NET" Value="msoBulletArabicPeriod" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletArabicPeriod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletArabicPlain">
+      <MemberSignature Language="C#" Value="msoBulletArabicPlain" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletArabicPlain = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletArabicPlain" />
+      <MemberSignature Language="VB.NET" Value="msoBulletArabicPlain" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletArabicPlain" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletCircleNumDBPlain">
+      <MemberSignature Language="C#" Value="msoBulletCircleNumDBPlain" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletCircleNumDBPlain = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletCircleNumDBPlain" />
+      <MemberSignature Language="VB.NET" Value="msoBulletCircleNumDBPlain" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletCircleNumDBPlain" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletCircleNumWDBlackPlain">
+      <MemberSignature Language="C#" Value="msoBulletCircleNumWDBlackPlain" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletCircleNumWDBlackPlain = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletCircleNumWDBlackPlain" />
+      <MemberSignature Language="VB.NET" Value="msoBulletCircleNumWDBlackPlain" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletCircleNumWDBlackPlain" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletCircleNumWDWhitePlain">
+      <MemberSignature Language="C#" Value="msoBulletCircleNumWDWhitePlain" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletCircleNumWDWhitePlain = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletCircleNumWDWhitePlain" />
+      <MemberSignature Language="VB.NET" Value="msoBulletCircleNumWDWhitePlain" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletCircleNumWDWhitePlain" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletHebrewAlphaDash">
+      <MemberSignature Language="C#" Value="msoBulletHebrewAlphaDash" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletHebrewAlphaDash = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletHebrewAlphaDash" />
+      <MemberSignature Language="VB.NET" Value="msoBulletHebrewAlphaDash" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletHebrewAlphaDash" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletHindiAlpha1Period">
+      <MemberSignature Language="C#" Value="msoBulletHindiAlpha1Period" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletHindiAlpha1Period = int32(40)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletHindiAlpha1Period" />
+      <MemberSignature Language="VB.NET" Value="msoBulletHindiAlpha1Period" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletHindiAlpha1Period" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>40</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletHindiAlphaPeriod">
+      <MemberSignature Language="C#" Value="msoBulletHindiAlphaPeriod" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletHindiAlphaPeriod = int32(36)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletHindiAlphaPeriod" />
+      <MemberSignature Language="VB.NET" Value="msoBulletHindiAlphaPeriod" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletHindiAlphaPeriod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>36</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletHindiNumParenRight">
+      <MemberSignature Language="C#" Value="msoBulletHindiNumParenRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletHindiNumParenRight = int32(39)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletHindiNumParenRight" />
+      <MemberSignature Language="VB.NET" Value="msoBulletHindiNumParenRight" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletHindiNumParenRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>39</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletHindiNumPeriod">
+      <MemberSignature Language="C#" Value="msoBulletHindiNumPeriod" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletHindiNumPeriod = int32(37)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletHindiNumPeriod" />
+      <MemberSignature Language="VB.NET" Value="msoBulletHindiNumPeriod" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletHindiNumPeriod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>37</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletKanjiKoreanPeriod">
+      <MemberSignature Language="C#" Value="msoBulletKanjiKoreanPeriod" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletKanjiKoreanPeriod = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletKanjiKoreanPeriod" />
+      <MemberSignature Language="VB.NET" Value="msoBulletKanjiKoreanPeriod" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletKanjiKoreanPeriod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletKanjiKoreanPlain">
+      <MemberSignature Language="C#" Value="msoBulletKanjiKoreanPlain" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletKanjiKoreanPlain = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletKanjiKoreanPlain" />
+      <MemberSignature Language="VB.NET" Value="msoBulletKanjiKoreanPlain" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletKanjiKoreanPlain" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletKanjiSimpChinDBPeriod">
+      <MemberSignature Language="C#" Value="msoBulletKanjiSimpChinDBPeriod" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletKanjiSimpChinDBPeriod = int32(38)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletKanjiSimpChinDBPeriod" />
+      <MemberSignature Language="VB.NET" Value="msoBulletKanjiSimpChinDBPeriod" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletKanjiSimpChinDBPeriod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>38</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletRomanLCParenBoth">
+      <MemberSignature Language="C#" Value="msoBulletRomanLCParenBoth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletRomanLCParenBoth = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletRomanLCParenBoth" />
+      <MemberSignature Language="VB.NET" Value="msoBulletRomanLCParenBoth" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletRomanLCParenBoth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletRomanLCParenRight">
+      <MemberSignature Language="C#" Value="msoBulletRomanLCParenRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletRomanLCParenRight = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletRomanLCParenRight" />
+      <MemberSignature Language="VB.NET" Value="msoBulletRomanLCParenRight" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletRomanLCParenRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletRomanLCPeriod">
+      <MemberSignature Language="C#" Value="msoBulletRomanLCPeriod" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletRomanLCPeriod = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletRomanLCPeriod" />
+      <MemberSignature Language="VB.NET" Value="msoBulletRomanLCPeriod" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletRomanLCPeriod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletRomanUCParenBoth">
+      <MemberSignature Language="C#" Value="msoBulletRomanUCParenBoth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletRomanUCParenBoth = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletRomanUCParenBoth" />
+      <MemberSignature Language="VB.NET" Value="msoBulletRomanUCParenBoth" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletRomanUCParenBoth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletRomanUCParenRight">
+      <MemberSignature Language="C#" Value="msoBulletRomanUCParenRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletRomanUCParenRight = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletRomanUCParenRight" />
+      <MemberSignature Language="VB.NET" Value="msoBulletRomanUCParenRight" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletRomanUCParenRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletRomanUCPeriod">
+      <MemberSignature Language="C#" Value="msoBulletRomanUCPeriod" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletRomanUCPeriod = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletRomanUCPeriod" />
+      <MemberSignature Language="VB.NET" Value="msoBulletRomanUCPeriod" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletRomanUCPeriod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletSimpChinPeriod">
+      <MemberSignature Language="C#" Value="msoBulletSimpChinPeriod" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletSimpChinPeriod = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletSimpChinPeriod" />
+      <MemberSignature Language="VB.NET" Value="msoBulletSimpChinPeriod" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletSimpChinPeriod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletSimpChinPlain">
+      <MemberSignature Language="C#" Value="msoBulletSimpChinPlain" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletSimpChinPlain = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletSimpChinPlain" />
+      <MemberSignature Language="VB.NET" Value="msoBulletSimpChinPlain" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletSimpChinPlain" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletStyleMixed">
+      <MemberSignature Language="C#" Value="msoBulletStyleMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletStyleMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletStyleMixed" />
+      <MemberSignature Language="VB.NET" Value="msoBulletStyleMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletStyleMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletThaiAlphaParenBoth">
+      <MemberSignature Language="C#" Value="msoBulletThaiAlphaParenBoth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletThaiAlphaParenBoth = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletThaiAlphaParenBoth" />
+      <MemberSignature Language="VB.NET" Value="msoBulletThaiAlphaParenBoth" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletThaiAlphaParenBoth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletThaiAlphaParenRight">
+      <MemberSignature Language="C#" Value="msoBulletThaiAlphaParenRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletThaiAlphaParenRight = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletThaiAlphaParenRight" />
+      <MemberSignature Language="VB.NET" Value="msoBulletThaiAlphaParenRight" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletThaiAlphaParenRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletThaiAlphaPeriod">
+      <MemberSignature Language="C#" Value="msoBulletThaiAlphaPeriod" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletThaiAlphaPeriod = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletThaiAlphaPeriod" />
+      <MemberSignature Language="VB.NET" Value="msoBulletThaiAlphaPeriod" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletThaiAlphaPeriod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletThaiNumParenBoth">
+      <MemberSignature Language="C#" Value="msoBulletThaiNumParenBoth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletThaiNumParenBoth = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletThaiNumParenBoth" />
+      <MemberSignature Language="VB.NET" Value="msoBulletThaiNumParenBoth" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletThaiNumParenBoth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletThaiNumParenRight">
+      <MemberSignature Language="C#" Value="msoBulletThaiNumParenRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletThaiNumParenRight = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletThaiNumParenRight" />
+      <MemberSignature Language="VB.NET" Value="msoBulletThaiNumParenRight" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletThaiNumParenRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletThaiNumPeriod">
+      <MemberSignature Language="C#" Value="msoBulletThaiNumPeriod" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletThaiNumPeriod = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletThaiNumPeriod" />
+      <MemberSignature Language="VB.NET" Value="msoBulletThaiNumPeriod" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletThaiNumPeriod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletTradChinPeriod">
+      <MemberSignature Language="C#" Value="msoBulletTradChinPeriod" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletTradChinPeriod = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletTradChinPeriod" />
+      <MemberSignature Language="VB.NET" Value="msoBulletTradChinPeriod" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletTradChinPeriod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBulletTradChinPlain">
+      <MemberSignature Language="C#" Value="msoBulletTradChinPlain" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoNumberedBulletStyle msoBulletTradChinPlain = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoNumberedBulletStyle.msoBulletTradChinPlain" />
+      <MemberSignature Language="VB.NET" Value="msoBulletTradChinPlain" />
+      <MemberSignature Language="C++ CLI" Value="msoBulletTradChinPlain" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

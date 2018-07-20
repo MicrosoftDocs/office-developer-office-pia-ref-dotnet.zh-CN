@@ -1,0 +1,2441 @@
+<Type Name="MsoChartElementType" FullName="Microsoft.Office.Core.MsoChartElementType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3bebe9aa264e01910ff2f4fbf8e3188bad0a2729" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658001" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoChartElementType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoChartElementType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoChartElementType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoChartElementType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoChartElementType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定是否以及如何显示图表元素。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoElementChartFloorNone">
+      <MemberSignature Language="C#" Value="msoElementChartFloorNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementChartFloorNone = int32(1200)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementChartFloorNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementChartFloorNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementChartFloorNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1200</MemberValue>
+      <Docs>
+        <summary>不显示图表基底。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementChartFloorShow">
+      <MemberSignature Language="C#" Value="msoElementChartFloorShow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementChartFloorShow = int32(1201)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementChartFloorShow" />
+      <MemberSignature Language="VB.NET" Value="msoElementChartFloorShow" />
+      <MemberSignature Language="C++ CLI" Value="msoElementChartFloorShow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1201</MemberValue>
+      <Docs>
+        <summary>显示图表基底。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementChartTitleAboveChart">
+      <MemberSignature Language="C#" Value="msoElementChartTitleAboveChart" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementChartTitleAboveChart = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementChartTitleAboveChart" />
+      <MemberSignature Language="VB.NET" Value="msoElementChartTitleAboveChart" />
+      <MemberSignature Language="C++ CLI" Value="msoElementChartTitleAboveChart" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>在图表上方显示标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementChartTitleCenteredOverlay">
+      <MemberSignature Language="C#" Value="msoElementChartTitleCenteredOverlay" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementChartTitleCenteredOverlay = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementChartTitleCenteredOverlay" />
+      <MemberSignature Language="VB.NET" Value="msoElementChartTitleCenteredOverlay" />
+      <MemberSignature Language="C++ CLI" Value="msoElementChartTitleCenteredOverlay" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>将标题显示为居中覆盖。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementChartTitleNone">
+      <MemberSignature Language="C#" Value="msoElementChartTitleNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementChartTitleNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementChartTitleNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementChartTitleNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementChartTitleNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>不显示图表基底。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementChartWallNone">
+      <MemberSignature Language="C#" Value="msoElementChartWallNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementChartWallNone = int32(1100)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementChartWallNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementChartWallNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementChartWallNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1100</MemberValue>
+      <Docs>
+        <summary>不显示图表背景墙。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementChartWallShow">
+      <MemberSignature Language="C#" Value="msoElementChartWallShow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementChartWallShow = int32(1101)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementChartWallShow" />
+      <MemberSignature Language="VB.NET" Value="msoElementChartWallShow" />
+      <MemberSignature Language="C++ CLI" Value="msoElementChartWallShow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1101</MemberValue>
+      <Docs>
+        <summary>显示图表背景墙。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementDataLabelBestFit">
+      <MemberSignature Language="C#" Value="msoElementDataLabelBestFit" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementDataLabelBestFit = int32(210)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementDataLabelBestFit" />
+      <MemberSignature Language="VB.NET" Value="msoElementDataLabelBestFit" />
+      <MemberSignature Language="C++ CLI" Value="msoElementDataLabelBestFit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>210</MemberValue>
+      <Docs>
+        <summary>使用数据标签最佳位置。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementDataLabelBottom">
+      <MemberSignature Language="C#" Value="msoElementDataLabelBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementDataLabelBottom = int32(209)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementDataLabelBottom" />
+      <MemberSignature Language="VB.NET" Value="msoElementDataLabelBottom" />
+      <MemberSignature Language="C++ CLI" Value="msoElementDataLabelBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>209</MemberValue>
+      <Docs>
+        <summary>在底部显示数据标签。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementDataLabelCallout">
+      <MemberSignature Language="C#" Value="msoElementDataLabelCallout" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementDataLabelCallout = int32(211)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementDataLabelCallout" />
+      <MemberSignature Language="VB.NET" Value="msoElementDataLabelCallout" />
+      <MemberSignature Language="C++ CLI" Value="msoElementDataLabelCallout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>211</MemberValue>
+      <Docs>
+        <summary>数据标签显示为标注。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementDataLabelCenter">
+      <MemberSignature Language="C#" Value="msoElementDataLabelCenter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementDataLabelCenter = int32(202)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementDataLabelCenter" />
+      <MemberSignature Language="VB.NET" Value="msoElementDataLabelCenter" />
+      <MemberSignature Language="C++ CLI" Value="msoElementDataLabelCenter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>202</MemberValue>
+      <Docs>
+        <summary>居中显示数据标签。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementDataLabelInsideBase">
+      <MemberSignature Language="C#" Value="msoElementDataLabelInsideBase" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementDataLabelInsideBase = int32(204)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementDataLabelInsideBase" />
+      <MemberSignature Language="VB.NET" Value="msoElementDataLabelInsideBase" />
+      <MemberSignature Language="C++ CLI" Value="msoElementDataLabelInsideBase" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>204</MemberValue>
+      <Docs>
+        <summary>在底端内侧显示数据标签。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementDataLabelInsideEnd">
+      <MemberSignature Language="C#" Value="msoElementDataLabelInsideEnd" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementDataLabelInsideEnd = int32(203)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementDataLabelInsideEnd" />
+      <MemberSignature Language="VB.NET" Value="msoElementDataLabelInsideEnd" />
+      <MemberSignature Language="C++ CLI" Value="msoElementDataLabelInsideEnd" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>203</MemberValue>
+      <Docs>
+        <summary>在顶端内侧显示数据标签。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementDataLabelLeft">
+      <MemberSignature Language="C#" Value="msoElementDataLabelLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementDataLabelLeft = int32(206)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementDataLabelLeft" />
+      <MemberSignature Language="VB.NET" Value="msoElementDataLabelLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoElementDataLabelLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>206</MemberValue>
+      <Docs>
+        <summary>靠左显示数据标签。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementDataLabelNone">
+      <MemberSignature Language="C#" Value="msoElementDataLabelNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementDataLabelNone = int32(200)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementDataLabelNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementDataLabelNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementDataLabelNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>200</MemberValue>
+      <Docs>
+        <summary>不显示数据标签。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementDataLabelOutSideEnd">
+      <MemberSignature Language="C#" Value="msoElementDataLabelOutSideEnd" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementDataLabelOutSideEnd = int32(205)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementDataLabelOutSideEnd" />
+      <MemberSignature Language="VB.NET" Value="msoElementDataLabelOutSideEnd" />
+      <MemberSignature Language="C++ CLI" Value="msoElementDataLabelOutSideEnd" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>205</MemberValue>
+      <Docs>
+        <summary>在顶端外侧显示数据标签。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementDataLabelRight">
+      <MemberSignature Language="C#" Value="msoElementDataLabelRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementDataLabelRight = int32(207)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementDataLabelRight" />
+      <MemberSignature Language="VB.NET" Value="msoElementDataLabelRight" />
+      <MemberSignature Language="C++ CLI" Value="msoElementDataLabelRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>207</MemberValue>
+      <Docs>
+        <summary>靠右显示数据标签。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementDataLabelShow">
+      <MemberSignature Language="C#" Value="msoElementDataLabelShow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementDataLabelShow = int32(201)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementDataLabelShow" />
+      <MemberSignature Language="VB.NET" Value="msoElementDataLabelShow" />
+      <MemberSignature Language="C++ CLI" Value="msoElementDataLabelShow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>201</MemberValue>
+      <Docs>
+        <summary>显示数据标签。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementDataLabelTop">
+      <MemberSignature Language="C#" Value="msoElementDataLabelTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementDataLabelTop = int32(208)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementDataLabelTop" />
+      <MemberSignature Language="VB.NET" Value="msoElementDataLabelTop" />
+      <MemberSignature Language="C++ CLI" Value="msoElementDataLabelTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>208</MemberValue>
+      <Docs>
+        <summary>在顶部显示数据标签。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementDataTableNone">
+      <MemberSignature Language="C#" Value="msoElementDataTableNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementDataTableNone = int32(500)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementDataTableNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementDataTableNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementDataTableNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>500</MemberValue>
+      <Docs>
+        <summary>不显示模拟运算表。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementDataTableShow">
+      <MemberSignature Language="C#" Value="msoElementDataTableShow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementDataTableShow = int32(501)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementDataTableShow" />
+      <MemberSignature Language="VB.NET" Value="msoElementDataTableShow" />
+      <MemberSignature Language="C++ CLI" Value="msoElementDataTableShow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>501</MemberValue>
+      <Docs>
+        <summary>显示模拟运算表。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementDataTableWithLegendKeys">
+      <MemberSignature Language="C#" Value="msoElementDataTableWithLegendKeys" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementDataTableWithLegendKeys = int32(502)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementDataTableWithLegendKeys" />
+      <MemberSignature Language="VB.NET" Value="msoElementDataTableWithLegendKeys" />
+      <MemberSignature Language="C++ CLI" Value="msoElementDataTableWithLegendKeys" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>502</MemberValue>
+      <Docs>
+        <summary>显示带图例项标示的模拟运算表。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementErrorBarNone">
+      <MemberSignature Language="C#" Value="msoElementErrorBarNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementErrorBarNone = int32(700)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementErrorBarNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementErrorBarNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementErrorBarNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>700</MemberValue>
+      <Docs>
+        <summary>不显示误差线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementErrorBarPercentage">
+      <MemberSignature Language="C#" Value="msoElementErrorBarPercentage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementErrorBarPercentage = int32(702)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementErrorBarPercentage" />
+      <MemberSignature Language="VB.NET" Value="msoElementErrorBarPercentage" />
+      <MemberSignature Language="C++ CLI" Value="msoElementErrorBarPercentage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>702</MemberValue>
+      <Docs>
+        <summary>显示百分比误差线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementErrorBarStandardDeviation">
+      <MemberSignature Language="C#" Value="msoElementErrorBarStandardDeviation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementErrorBarStandardDeviation = int32(703)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementErrorBarStandardDeviation" />
+      <MemberSignature Language="VB.NET" Value="msoElementErrorBarStandardDeviation" />
+      <MemberSignature Language="C++ CLI" Value="msoElementErrorBarStandardDeviation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>703</MemberValue>
+      <Docs>
+        <summary>显示标准偏差误差线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementErrorBarStandardError">
+      <MemberSignature Language="C#" Value="msoElementErrorBarStandardError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementErrorBarStandardError = int32(701)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementErrorBarStandardError" />
+      <MemberSignature Language="VB.NET" Value="msoElementErrorBarStandardError" />
+      <MemberSignature Language="C++ CLI" Value="msoElementErrorBarStandardError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>701</MemberValue>
+      <Docs>
+        <summary>显示标准误差线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementLegendBottom">
+      <MemberSignature Language="C#" Value="msoElementLegendBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementLegendBottom = int32(104)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementLegendBottom" />
+      <MemberSignature Language="VB.NET" Value="msoElementLegendBottom" />
+      <MemberSignature Language="C++ CLI" Value="msoElementLegendBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>104</MemberValue>
+      <Docs>
+        <summary>在底部显示图例。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementLegendLeft">
+      <MemberSignature Language="C#" Value="msoElementLegendLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementLegendLeft = int32(103)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementLegendLeft" />
+      <MemberSignature Language="VB.NET" Value="msoElementLegendLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoElementLegendLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>103</MemberValue>
+      <Docs>
+        <summary>在左侧显示图例。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementLegendLeftOverlay">
+      <MemberSignature Language="C#" Value="msoElementLegendLeftOverlay" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementLegendLeftOverlay = int32(106)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementLegendLeftOverlay" />
+      <MemberSignature Language="VB.NET" Value="msoElementLegendLeftOverlay" />
+      <MemberSignature Language="C++ CLI" Value="msoElementLegendLeftOverlay" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>106</MemberValue>
+      <Docs>
+        <summary>在左侧叠放图例。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementLegendNone">
+      <MemberSignature Language="C#" Value="msoElementLegendNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementLegendNone = int32(100)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementLegendNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementLegendNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementLegendNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>100</MemberValue>
+      <Docs>
+        <summary>不显示图例。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementLegendRight">
+      <MemberSignature Language="C#" Value="msoElementLegendRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementLegendRight = int32(101)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementLegendRight" />
+      <MemberSignature Language="VB.NET" Value="msoElementLegendRight" />
+      <MemberSignature Language="C++ CLI" Value="msoElementLegendRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>101</MemberValue>
+      <Docs>
+        <summary>在右侧显示图例。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementLegendRightOverlay">
+      <MemberSignature Language="C#" Value="msoElementLegendRightOverlay" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementLegendRightOverlay = int32(105)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementLegendRightOverlay" />
+      <MemberSignature Language="VB.NET" Value="msoElementLegendRightOverlay" />
+      <MemberSignature Language="C++ CLI" Value="msoElementLegendRightOverlay" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>105</MemberValue>
+      <Docs>
+        <summary>在右侧叠放图例。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementLegendTop">
+      <MemberSignature Language="C#" Value="msoElementLegendTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementLegendTop = int32(102)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementLegendTop" />
+      <MemberSignature Language="VB.NET" Value="msoElementLegendTop" />
+      <MemberSignature Language="C++ CLI" Value="msoElementLegendTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>102</MemberValue>
+      <Docs>
+        <summary>在顶部显示图例。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementLineDropHiLoLine">
+      <MemberSignature Language="C#" Value="msoElementLineDropHiLoLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementLineDropHiLoLine = int32(804)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementLineDropHiLoLine" />
+      <MemberSignature Language="VB.NET" Value="msoElementLineDropHiLoLine" />
+      <MemberSignature Language="C++ CLI" Value="msoElementLineDropHiLoLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>804</MemberValue>
+      <Docs>
+        <summary>显示垂直线和高/低线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementLineDropLine">
+      <MemberSignature Language="C#" Value="msoElementLineDropLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementLineDropLine = int32(801)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementLineDropLine" />
+      <MemberSignature Language="VB.NET" Value="msoElementLineDropLine" />
+      <MemberSignature Language="C++ CLI" Value="msoElementLineDropLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>801</MemberValue>
+      <Docs>
+        <summary>显示垂直线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementLineHiLoLine">
+      <MemberSignature Language="C#" Value="msoElementLineHiLoLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementLineHiLoLine = int32(802)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementLineHiLoLine" />
+      <MemberSignature Language="VB.NET" Value="msoElementLineHiLoLine" />
+      <MemberSignature Language="C++ CLI" Value="msoElementLineHiLoLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>802</MemberValue>
+      <Docs>
+        <summary>显示高/低线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementLineNone">
+      <MemberSignature Language="C#" Value="msoElementLineNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementLineNone = int32(800)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementLineNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementLineNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementLineNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>800</MemberValue>
+      <Docs>
+        <summary>不显示线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementLineSeriesLine">
+      <MemberSignature Language="C#" Value="msoElementLineSeriesLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementLineSeriesLine = int32(803)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementLineSeriesLine" />
+      <MemberSignature Language="VB.NET" Value="msoElementLineSeriesLine" />
+      <MemberSignature Language="C++ CLI" Value="msoElementLineSeriesLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>803</MemberValue>
+      <Docs>
+        <summary>显示系列线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPlotAreaNone">
+      <MemberSignature Language="C#" Value="msoElementPlotAreaNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPlotAreaNone = int32(1000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPlotAreaNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementPlotAreaNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPlotAreaNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1000</MemberValue>
+      <Docs>
+        <summary>不显示绘图区。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPlotAreaShow">
+      <MemberSignature Language="C#" Value="msoElementPlotAreaShow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPlotAreaShow = int32(1001)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPlotAreaShow" />
+      <MemberSignature Language="VB.NET" Value="msoElementPlotAreaShow" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPlotAreaShow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1001</MemberValue>
+      <Docs>
+        <summary>显示绘图区。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryCategoryAxisBillions">
+      <MemberSignature Language="C#" Value="msoElementPrimaryCategoryAxisBillions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryCategoryAxisBillions = int32(374)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryCategoryAxisBillions" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryCategoryAxisBillions" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryCategoryAxisBillions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>374</MemberValue>
+      <Docs>
+        <summary>使用十亿作为主分类轴单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryCategoryAxisLogScale">
+      <MemberSignature Language="C#" Value="msoElementPrimaryCategoryAxisLogScale" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryCategoryAxisLogScale = int32(375)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryCategoryAxisLogScale" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryCategoryAxisLogScale" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryCategoryAxisLogScale" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>375</MemberValue>
+      <Docs>
+        <summary>对主分类轴使用对数刻度。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryCategoryAxisMillions">
+      <MemberSignature Language="C#" Value="msoElementPrimaryCategoryAxisMillions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryCategoryAxisMillions = int32(373)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryCategoryAxisMillions" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryCategoryAxisMillions" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryCategoryAxisMillions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>373</MemberValue>
+      <Docs>
+        <summary>使用百万作为主分类轴单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryCategoryAxisNone">
+      <MemberSignature Language="C#" Value="msoElementPrimaryCategoryAxisNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryCategoryAxisNone = int32(348)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryCategoryAxisNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryCategoryAxisNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryCategoryAxisNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>348</MemberValue>
+      <Docs>
+        <summary>不显示主分类轴。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryCategoryAxisReverse">
+      <MemberSignature Language="C#" Value="msoElementPrimaryCategoryAxisReverse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryCategoryAxisReverse = int32(351)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryCategoryAxisReverse" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryCategoryAxisReverse" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryCategoryAxisReverse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>351</MemberValue>
+      <Docs>
+        <summary>反转主分类轴。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryCategoryAxisShow">
+      <MemberSignature Language="C#" Value="msoElementPrimaryCategoryAxisShow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryCategoryAxisShow = int32(349)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryCategoryAxisShow" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryCategoryAxisShow" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryCategoryAxisShow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>349</MemberValue>
+      <Docs>
+        <summary>显示主分类轴。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryCategoryAxisThousands">
+      <MemberSignature Language="C#" Value="msoElementPrimaryCategoryAxisThousands" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryCategoryAxisThousands = int32(372)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryCategoryAxisThousands" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryCategoryAxisThousands" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryCategoryAxisThousands" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>372</MemberValue>
+      <Docs>
+        <summary>使用千作为主分类轴单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryCategoryAxisTitleAdjacentToAxis">
+      <MemberSignature Language="C#" Value="msoElementPrimaryCategoryAxisTitleAdjacentToAxis" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryCategoryAxisTitleAdjacentToAxis = int32(301)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryCategoryAxisTitleAdjacentToAxis" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryCategoryAxisTitleAdjacentToAxis" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryCategoryAxisTitleAdjacentToAxis" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>301</MemberValue>
+      <Docs>
+        <summary>紧邻轴显示主分类轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryCategoryAxisTitleBelowAxis">
+      <MemberSignature Language="C#" Value="msoElementPrimaryCategoryAxisTitleBelowAxis" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryCategoryAxisTitleBelowAxis = int32(302)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryCategoryAxisTitleBelowAxis" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryCategoryAxisTitleBelowAxis" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryCategoryAxisTitleBelowAxis" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>302</MemberValue>
+      <Docs>
+        <summary>在轴下方显示主分类轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryCategoryAxisTitleHorizontal">
+      <MemberSignature Language="C#" Value="msoElementPrimaryCategoryAxisTitleHorizontal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryCategoryAxisTitleHorizontal = int32(305)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryCategoryAxisTitleHorizontal" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryCategoryAxisTitleHorizontal" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryCategoryAxisTitleHorizontal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>305</MemberValue>
+      <Docs>
+        <summary>水平显示主分类轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryCategoryAxisTitleNone">
+      <MemberSignature Language="C#" Value="msoElementPrimaryCategoryAxisTitleNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryCategoryAxisTitleNone = int32(300)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryCategoryAxisTitleNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryCategoryAxisTitleNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryCategoryAxisTitleNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>300</MemberValue>
+      <Docs>
+        <summary>不显示主分类轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryCategoryAxisTitleRotated">
+      <MemberSignature Language="C#" Value="msoElementPrimaryCategoryAxisTitleRotated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryCategoryAxisTitleRotated = int32(303)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryCategoryAxisTitleRotated" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryCategoryAxisTitleRotated" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryCategoryAxisTitleRotated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>303</MemberValue>
+      <Docs>
+        <summary>旋转主分类轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryCategoryAxisTitleVertical">
+      <MemberSignature Language="C#" Value="msoElementPrimaryCategoryAxisTitleVertical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryCategoryAxisTitleVertical = int32(304)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryCategoryAxisTitleVertical" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryCategoryAxisTitleVertical" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryCategoryAxisTitleVertical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>304</MemberValue>
+      <Docs>
+        <summary>垂直显示主分类轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryCategoryAxisWithoutLabels">
+      <MemberSignature Language="C#" Value="msoElementPrimaryCategoryAxisWithoutLabels" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryCategoryAxisWithoutLabels = int32(350)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryCategoryAxisWithoutLabels" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryCategoryAxisWithoutLabels" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryCategoryAxisWithoutLabels" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>350</MemberValue>
+      <Docs>
+        <summary>无标签显示主分类轴。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryCategoryGridLinesMajor">
+      <MemberSignature Language="C#" Value="msoElementPrimaryCategoryGridLinesMajor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryCategoryGridLinesMajor = int32(334)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryCategoryGridLinesMajor" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryCategoryGridLinesMajor" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryCategoryGridLinesMajor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>334</MemberValue>
+      <Docs>
+        <summary>沿主分类轴显示主要网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryCategoryGridLinesMinor">
+      <MemberSignature Language="C#" Value="msoElementPrimaryCategoryGridLinesMinor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryCategoryGridLinesMinor = int32(333)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryCategoryGridLinesMinor" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryCategoryGridLinesMinor" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryCategoryGridLinesMinor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>333</MemberValue>
+      <Docs>
+        <summary>沿主分类轴显示次要网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryCategoryGridLinesMinorMajor">
+      <MemberSignature Language="C#" Value="msoElementPrimaryCategoryGridLinesMinorMajor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryCategoryGridLinesMinorMajor = int32(335)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryCategoryGridLinesMinorMajor" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryCategoryGridLinesMinorMajor" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryCategoryGridLinesMinorMajor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>335</MemberValue>
+      <Docs>
+        <summary>沿主分类轴同时显示主要网格线和次要网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryCategoryGridLinesNone">
+      <MemberSignature Language="C#" Value="msoElementPrimaryCategoryGridLinesNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryCategoryGridLinesNone = int32(332)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryCategoryGridLinesNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryCategoryGridLinesNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryCategoryGridLinesNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>332</MemberValue>
+      <Docs>
+        <summary>不沿主分类轴显示网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryValueAxisBillions">
+      <MemberSignature Language="C#" Value="msoElementPrimaryValueAxisBillions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryValueAxisBillions = int32(356)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryValueAxisBillions" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryValueAxisBillions" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryValueAxisBillions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>356</MemberValue>
+      <Docs>
+        <summary>使用十亿作为主数值轴单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryValueAxisLogScale">
+      <MemberSignature Language="C#" Value="msoElementPrimaryValueAxisLogScale" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryValueAxisLogScale = int32(357)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryValueAxisLogScale" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryValueAxisLogScale" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryValueAxisLogScale" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>357</MemberValue>
+      <Docs>
+        <summary>对主数值轴使用对数刻度。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryValueAxisMillions">
+      <MemberSignature Language="C#" Value="msoElementPrimaryValueAxisMillions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryValueAxisMillions = int32(355)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryValueAxisMillions" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryValueAxisMillions" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryValueAxisMillions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>355</MemberValue>
+      <Docs>
+        <summary>使用百万作为主数值轴单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryValueAxisNone">
+      <MemberSignature Language="C#" Value="msoElementPrimaryValueAxisNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryValueAxisNone = int32(352)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryValueAxisNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryValueAxisNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryValueAxisNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>352</MemberValue>
+      <Docs>
+        <summary>不显示主数值轴。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryValueAxisShow">
+      <MemberSignature Language="C#" Value="msoElementPrimaryValueAxisShow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryValueAxisShow = int32(353)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryValueAxisShow" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryValueAxisShow" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryValueAxisShow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>353</MemberValue>
+      <Docs>
+        <summary>显示主数值轴。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryValueAxisThousands">
+      <MemberSignature Language="C#" Value="msoElementPrimaryValueAxisThousands" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryValueAxisThousands = int32(354)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryValueAxisThousands" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryValueAxisThousands" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryValueAxisThousands" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>354</MemberValue>
+      <Docs>
+        <summary>使用千作为主数值轴单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryValueAxisTitleAdjacentToAxis">
+      <MemberSignature Language="C#" Value="msoElementPrimaryValueAxisTitleAdjacentToAxis" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryValueAxisTitleAdjacentToAxis = int32(306)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryValueAxisTitleAdjacentToAxis" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryValueAxisTitleAdjacentToAxis" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryValueAxisTitleAdjacentToAxis" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>306</MemberValue>
+      <Docs>
+        <summary>紧邻轴放置主数值轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryValueAxisTitleBelowAxis">
+      <MemberSignature Language="C#" Value="msoElementPrimaryValueAxisTitleBelowAxis" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryValueAxisTitleBelowAxis = int32(308)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryValueAxisTitleBelowAxis" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryValueAxisTitleBelowAxis" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryValueAxisTitleBelowAxis" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>308</MemberValue>
+      <Docs>
+        <summary>在轴下方放置主数值轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryValueAxisTitleHorizontal">
+      <MemberSignature Language="C#" Value="msoElementPrimaryValueAxisTitleHorizontal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryValueAxisTitleHorizontal = int32(311)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryValueAxisTitleHorizontal" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryValueAxisTitleHorizontal" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryValueAxisTitleHorizontal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>311</MemberValue>
+      <Docs>
+        <summary>水平显示主数值轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryValueAxisTitleNone">
+      <MemberSignature Language="C#" Value="msoElementPrimaryValueAxisTitleNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryValueAxisTitleNone = int32(306)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryValueAxisTitleNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryValueAxisTitleNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryValueAxisTitleNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>306</MemberValue>
+      <Docs>
+        <summary>不显示主数值轴。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryValueAxisTitleRotated">
+      <MemberSignature Language="C#" Value="msoElementPrimaryValueAxisTitleRotated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryValueAxisTitleRotated = int32(309)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryValueAxisTitleRotated" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryValueAxisTitleRotated" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryValueAxisTitleRotated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>309</MemberValue>
+      <Docs>
+        <summary>旋转主数值轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryValueAxisTitleVertical">
+      <MemberSignature Language="C#" Value="msoElementPrimaryValueAxisTitleVertical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryValueAxisTitleVertical = int32(310)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryValueAxisTitleVertical" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryValueAxisTitleVertical" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryValueAxisTitleVertical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>310</MemberValue>
+      <Docs>
+        <summary>垂直显示主数值轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryValueGridLinesMajor">
+      <MemberSignature Language="C#" Value="msoElementPrimaryValueGridLinesMajor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryValueGridLinesMajor = int32(330)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryValueGridLinesMajor" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryValueGridLinesMajor" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryValueGridLinesMajor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>330</MemberValue>
+      <Docs>
+        <summary>沿主数值轴显示主要网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryValueGridLinesMinor">
+      <MemberSignature Language="C#" Value="msoElementPrimaryValueGridLinesMinor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryValueGridLinesMinor = int32(329)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryValueGridLinesMinor" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryValueGridLinesMinor" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryValueGridLinesMinor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>329</MemberValue>
+      <Docs>
+        <summary>沿主数值轴显示次要网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryValueGridLinesMinorMajor">
+      <MemberSignature Language="C#" Value="msoElementPrimaryValueGridLinesMinorMajor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryValueGridLinesMinorMajor = int32(331)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryValueGridLinesMinorMajor" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryValueGridLinesMinorMajor" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryValueGridLinesMinorMajor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>331</MemberValue>
+      <Docs>
+        <summary>沿主数值轴同时显示主要网格线和次要网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementPrimaryValueGridLinesNone">
+      <MemberSignature Language="C#" Value="msoElementPrimaryValueGridLinesNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementPrimaryValueGridLinesNone = int32(328)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementPrimaryValueGridLinesNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementPrimaryValueGridLinesNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementPrimaryValueGridLinesNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>328</MemberValue>
+      <Docs>
+        <summary>不沿主数值轴显示网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryCategoryAxisBillions">
+      <MemberSignature Language="C#" Value="msoElementSecondaryCategoryAxisBillions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryCategoryAxisBillions = int32(378)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryCategoryAxisBillions" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryCategoryAxisBillions" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryCategoryAxisBillions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>378</MemberValue>
+      <Docs>
+        <summary>使用十亿作为次分类轴单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryCategoryAxisLogScale">
+      <MemberSignature Language="C#" Value="msoElementSecondaryCategoryAxisLogScale" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryCategoryAxisLogScale = int32(379)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryCategoryAxisLogScale" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryCategoryAxisLogScale" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryCategoryAxisLogScale" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>379</MemberValue>
+      <Docs>
+        <summary>对次分类轴使用对数刻度。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryCategoryAxisMillions">
+      <MemberSignature Language="C#" Value="msoElementSecondaryCategoryAxisMillions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryCategoryAxisMillions = int32(377)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryCategoryAxisMillions" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryCategoryAxisMillions" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryCategoryAxisMillions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>377</MemberValue>
+      <Docs>
+        <summary>使用百万作为次分类轴单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryCategoryAxisNone">
+      <MemberSignature Language="C#" Value="msoElementSecondaryCategoryAxisNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryCategoryAxisNone = int32(358)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryCategoryAxisNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryCategoryAxisNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryCategoryAxisNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>358</MemberValue>
+      <Docs>
+        <summary>不显示次分类轴。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryCategoryAxisReverse">
+      <MemberSignature Language="C#" Value="msoElementSecondaryCategoryAxisReverse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryCategoryAxisReverse = int32(361)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryCategoryAxisReverse" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryCategoryAxisReverse" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryCategoryAxisReverse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>361</MemberValue>
+      <Docs>
+        <summary>反转次分类轴。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryCategoryAxisShow">
+      <MemberSignature Language="C#" Value="msoElementSecondaryCategoryAxisShow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryCategoryAxisShow = int32(359)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryCategoryAxisShow" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryCategoryAxisShow" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryCategoryAxisShow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>359</MemberValue>
+      <Docs>
+        <summary>显示次分类轴。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryCategoryAxisThousands">
+      <MemberSignature Language="C#" Value="msoElementSecondaryCategoryAxisThousands" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryCategoryAxisThousands = int32(376)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryCategoryAxisThousands" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryCategoryAxisThousands" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryCategoryAxisThousands" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>376</MemberValue>
+      <Docs>
+        <summary>使用千作为次分类轴单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryCategoryAxisTitleAdjacentToAxis">
+      <MemberSignature Language="C#" Value="msoElementSecondaryCategoryAxisTitleAdjacentToAxis" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryCategoryAxisTitleAdjacentToAxis = int32(313)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryCategoryAxisTitleAdjacentToAxis" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryCategoryAxisTitleAdjacentToAxis" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryCategoryAxisTitleAdjacentToAxis" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>313</MemberValue>
+      <Docs>
+        <summary>显示次分类轴的轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryCategoryAxisTitleBelowAxis">
+      <MemberSignature Language="C#" Value="msoElementSecondaryCategoryAxisTitleBelowAxis" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryCategoryAxisTitleBelowAxis = int32(314)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryCategoryAxisTitleBelowAxis" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryCategoryAxisTitleBelowAxis" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryCategoryAxisTitleBelowAxis" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>314</MemberValue>
+      <Docs>
+        <summary>显示次分类轴标题下方。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryCategoryAxisTitleHorizontal">
+      <MemberSignature Language="C#" Value="msoElementSecondaryCategoryAxisTitleHorizontal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryCategoryAxisTitleHorizontal = int32(317)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryCategoryAxisTitleHorizontal" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryCategoryAxisTitleHorizontal" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryCategoryAxisTitleHorizontal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>317</MemberValue>
+      <Docs>
+        <summary>水平显示次分类轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryCategoryAxisTitleNone">
+      <MemberSignature Language="C#" Value="msoElementSecondaryCategoryAxisTitleNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryCategoryAxisTitleNone = int32(312)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryCategoryAxisTitleNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryCategoryAxisTitleNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryCategoryAxisTitleNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>312</MemberValue>
+      <Docs>
+        <summary>不显示次分类轴。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryCategoryAxisTitleRotated">
+      <MemberSignature Language="C#" Value="msoElementSecondaryCategoryAxisTitleRotated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryCategoryAxisTitleRotated = int32(315)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryCategoryAxisTitleRotated" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryCategoryAxisTitleRotated" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryCategoryAxisTitleRotated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>315</MemberValue>
+      <Docs>
+        <summary>旋转次分类轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryCategoryAxisTitleVertical">
+      <MemberSignature Language="C#" Value="msoElementSecondaryCategoryAxisTitleVertical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryCategoryAxisTitleVertical = int32(316)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryCategoryAxisTitleVertical" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryCategoryAxisTitleVertical" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryCategoryAxisTitleVertical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>316</MemberValue>
+      <Docs>
+        <summary>垂直显示次分类轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryCategoryAxisWithoutLabels">
+      <MemberSignature Language="C#" Value="msoElementSecondaryCategoryAxisWithoutLabels" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryCategoryAxisWithoutLabels = int32(360)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryCategoryAxisWithoutLabels" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryCategoryAxisWithoutLabels" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryCategoryAxisWithoutLabels" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>360</MemberValue>
+      <Docs>
+        <summary>无标签显示次分类轴。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryCategoryGridLinesMajor">
+      <MemberSignature Language="C#" Value="msoElementSecondaryCategoryGridLinesMajor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryCategoryGridLinesMajor = int32(342)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryCategoryGridLinesMajor" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryCategoryGridLinesMajor" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryCategoryGridLinesMajor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>342</MemberValue>
+      <Docs>
+        <summary>沿次分类轴显示主要网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryCategoryGridLinesMinor">
+      <MemberSignature Language="C#" Value="msoElementSecondaryCategoryGridLinesMinor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryCategoryGridLinesMinor = int32(341)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryCategoryGridLinesMinor" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryCategoryGridLinesMinor" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryCategoryGridLinesMinor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>341</MemberValue>
+      <Docs>
+        <summary>沿次分类轴显示次要网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryCategoryGridLinesMinorMajor">
+      <MemberSignature Language="C#" Value="msoElementSecondaryCategoryGridLinesMinorMajor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryCategoryGridLinesMinorMajor = int32(343)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryCategoryGridLinesMinorMajor" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryCategoryGridLinesMinorMajor" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryCategoryGridLinesMinorMajor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>343</MemberValue>
+      <Docs>
+        <summary>沿次分类轴同时显示主要网格线和次要网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryCategoryGridLinesNone">
+      <MemberSignature Language="C#" Value="msoElementSecondaryCategoryGridLinesNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryCategoryGridLinesNone = int32(340)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryCategoryGridLinesNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryCategoryGridLinesNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryCategoryGridLinesNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>340</MemberValue>
+      <Docs>
+        <summary>不沿次分类轴显示网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryValueAxisBillions">
+      <MemberSignature Language="C#" Value="msoElementSecondaryValueAxisBillions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryValueAxisBillions = int32(366)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryValueAxisBillions" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryValueAxisBillions" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryValueAxisBillions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>366</MemberValue>
+      <Docs>
+        <summary>使用十亿作为次数值轴单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryValueAxisLogScale">
+      <MemberSignature Language="C#" Value="msoElementSecondaryValueAxisLogScale" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryValueAxisLogScale = int32(367)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryValueAxisLogScale" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryValueAxisLogScale" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryValueAxisLogScale" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>367</MemberValue>
+      <Docs>
+        <summary>对次数值轴使用对数刻度。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryValueAxisMillions">
+      <MemberSignature Language="C#" Value="msoElementSecondaryValueAxisMillions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryValueAxisMillions = int32(365)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryValueAxisMillions" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryValueAxisMillions" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryValueAxisMillions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>365</MemberValue>
+      <Docs>
+        <summary>使用百万作为次分类轴单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryValueAxisNone">
+      <MemberSignature Language="C#" Value="msoElementSecondaryValueAxisNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryValueAxisNone = int32(362)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryValueAxisNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryValueAxisNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryValueAxisNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>362</MemberValue>
+      <Docs>
+        <summary>不显示次分类轴。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryValueAxisShow">
+      <MemberSignature Language="C#" Value="msoElementSecondaryValueAxisShow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryValueAxisShow = int32(363)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryValueAxisShow" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryValueAxisShow" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryValueAxisShow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>363</MemberValue>
+      <Docs>
+        <summary>显示次分类轴。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryValueAxisThousands">
+      <MemberSignature Language="C#" Value="msoElementSecondaryValueAxisThousands" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryValueAxisThousands = int32(364)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryValueAxisThousands" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryValueAxisThousands" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryValueAxisThousands" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>364</MemberValue>
+      <Docs>
+        <summary>使用千作为次分类轴单位。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryValueAxisTitleAdjacentToAxis">
+      <MemberSignature Language="C#" Value="msoElementSecondaryValueAxisTitleAdjacentToAxis" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryValueAxisTitleAdjacentToAxis = int32(319)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryValueAxisTitleAdjacentToAxis" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryValueAxisTitleAdjacentToAxis" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryValueAxisTitleAdjacentToAxis" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>319</MemberValue>
+      <Docs>
+        <summary>显示次分类轴的轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryValueAxisTitleBelowAxis">
+      <MemberSignature Language="C#" Value="msoElementSecondaryValueAxisTitleBelowAxis" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryValueAxisTitleBelowAxis = int32(320)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryValueAxisTitleBelowAxis" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryValueAxisTitleBelowAxis" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryValueAxisTitleBelowAxis" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>320</MemberValue>
+      <Docs>
+        <summary>显示次分类轴标题下方。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryValueAxisTitleHorizontal">
+      <MemberSignature Language="C#" Value="msoElementSecondaryValueAxisTitleHorizontal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryValueAxisTitleHorizontal = int32(323)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryValueAxisTitleHorizontal" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryValueAxisTitleHorizontal" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryValueAxisTitleHorizontal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>323</MemberValue>
+      <Docs>
+        <summary>水平显示次分类轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryValueAxisTitleNone">
+      <MemberSignature Language="C#" Value="msoElementSecondaryValueAxisTitleNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryValueAxisTitleNone = int32(318)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryValueAxisTitleNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryValueAxisTitleNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryValueAxisTitleNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>318</MemberValue>
+      <Docs>
+        <summary>不显示次分类轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryValueAxisTitleRotated">
+      <MemberSignature Language="C#" Value="msoElementSecondaryValueAxisTitleRotated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryValueAxisTitleRotated = int32(321)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryValueAxisTitleRotated" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryValueAxisTitleRotated" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryValueAxisTitleRotated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>321</MemberValue>
+      <Docs>
+        <summary>旋转次分类轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryValueAxisTitleVertical">
+      <MemberSignature Language="C#" Value="msoElementSecondaryValueAxisTitleVertical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryValueAxisTitleVertical = int32(322)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryValueAxisTitleVertical" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryValueAxisTitleVertical" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryValueAxisTitleVertical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>322</MemberValue>
+      <Docs>
+        <summary>垂直显示次分类轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryValueGridLinesMajor">
+      <MemberSignature Language="C#" Value="msoElementSecondaryValueGridLinesMajor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryValueGridLinesMajor = int32(338)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryValueGridLinesMajor" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryValueGridLinesMajor" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryValueGridLinesMajor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>338</MemberValue>
+      <Docs>
+        <summary>沿次数值轴显示主要网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryValueGridLinesMinor">
+      <MemberSignature Language="C#" Value="msoElementSecondaryValueGridLinesMinor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryValueGridLinesMinor = int32(337)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryValueGridLinesMinor" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryValueGridLinesMinor" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryValueGridLinesMinor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>337</MemberValue>
+      <Docs>
+        <summary>沿次数值轴显示次要网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryValueGridLinesMinorMajor">
+      <MemberSignature Language="C#" Value="msoElementSecondaryValueGridLinesMinorMajor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryValueGridLinesMinorMajor = int32(339)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryValueGridLinesMinorMajor" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryValueGridLinesMinorMajor" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryValueGridLinesMinorMajor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>339</MemberValue>
+      <Docs>
+        <summary>沿次数值轴同时显示主要网格线和次要网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSecondaryValueGridLinesNone">
+      <MemberSignature Language="C#" Value="msoElementSecondaryValueGridLinesNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSecondaryValueGridLinesNone = int32(336)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSecondaryValueGridLinesNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementSecondaryValueGridLinesNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSecondaryValueGridLinesNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>336</MemberValue>
+      <Docs>
+        <summary>不沿次数值轴显示网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSeriesAxisGridLinesMajor">
+      <MemberSignature Language="C#" Value="msoElementSeriesAxisGridLinesMajor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSeriesAxisGridLinesMajor = int32(346)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSeriesAxisGridLinesMajor" />
+      <MemberSignature Language="VB.NET" Value="msoElementSeriesAxisGridLinesMajor" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSeriesAxisGridLinesMajor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>346</MemberValue>
+      <Docs>
+        <summary>沿系列轴显示主要网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSeriesAxisGridLinesMinor">
+      <MemberSignature Language="C#" Value="msoElementSeriesAxisGridLinesMinor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSeriesAxisGridLinesMinor = int32(345)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSeriesAxisGridLinesMinor" />
+      <MemberSignature Language="VB.NET" Value="msoElementSeriesAxisGridLinesMinor" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSeriesAxisGridLinesMinor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>345</MemberValue>
+      <Docs>
+        <summary>沿系列轴显示次要网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSeriesAxisGridLinesMinorMajor">
+      <MemberSignature Language="C#" Value="msoElementSeriesAxisGridLinesMinorMajor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSeriesAxisGridLinesMinorMajor = int32(347)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSeriesAxisGridLinesMinorMajor" />
+      <MemberSignature Language="VB.NET" Value="msoElementSeriesAxisGridLinesMinorMajor" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSeriesAxisGridLinesMinorMajor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>347</MemberValue>
+      <Docs>
+        <summary>沿系列轴同时显示主要网格线和次要网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSeriesAxisGridLinesNone">
+      <MemberSignature Language="C#" Value="msoElementSeriesAxisGridLinesNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSeriesAxisGridLinesNone = int32(344)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSeriesAxisGridLinesNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementSeriesAxisGridLinesNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSeriesAxisGridLinesNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>344</MemberValue>
+      <Docs>
+        <summary>不沿系列轴显示网格线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSeriesAxisNone">
+      <MemberSignature Language="C#" Value="msoElementSeriesAxisNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSeriesAxisNone = int32(368)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSeriesAxisNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementSeriesAxisNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSeriesAxisNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>368</MemberValue>
+      <Docs>
+        <summary>不显示系列轴。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSeriesAxisReverse">
+      <MemberSignature Language="C#" Value="msoElementSeriesAxisReverse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSeriesAxisReverse = int32(371)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSeriesAxisReverse" />
+      <MemberSignature Language="VB.NET" Value="msoElementSeriesAxisReverse" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSeriesAxisReverse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>371</MemberValue>
+      <Docs>
+        <summary>反转系列轴。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSeriesAxisShow">
+      <MemberSignature Language="C#" Value="msoElementSeriesAxisShow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSeriesAxisShow = int32(369)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSeriesAxisShow" />
+      <MemberSignature Language="VB.NET" Value="msoElementSeriesAxisShow" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSeriesAxisShow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>369</MemberValue>
+      <Docs>
+        <summary>显示系列轴。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSeriesAxisTitleHorizontal">
+      <MemberSignature Language="C#" Value="msoElementSeriesAxisTitleHorizontal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSeriesAxisTitleHorizontal = int32(327)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSeriesAxisTitleHorizontal" />
+      <MemberSignature Language="VB.NET" Value="msoElementSeriesAxisTitleHorizontal" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSeriesAxisTitleHorizontal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>327</MemberValue>
+      <Docs>
+        <summary>水平显示系列轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSeriesAxisTitleNone">
+      <MemberSignature Language="C#" Value="msoElementSeriesAxisTitleNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSeriesAxisTitleNone = int32(324)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSeriesAxisTitleNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementSeriesAxisTitleNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSeriesAxisTitleNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>324</MemberValue>
+      <Docs>
+        <summary>不显示系列轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSeriesAxisTitleRotated">
+      <MemberSignature Language="C#" Value="msoElementSeriesAxisTitleRotated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSeriesAxisTitleRotated = int32(325)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSeriesAxisTitleRotated" />
+      <MemberSignature Language="VB.NET" Value="msoElementSeriesAxisTitleRotated" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSeriesAxisTitleRotated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>325</MemberValue>
+      <Docs>
+        <summary>旋转系列轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSeriesAxisTitleVertical">
+      <MemberSignature Language="C#" Value="msoElementSeriesAxisTitleVertical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSeriesAxisTitleVertical = int32(326)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSeriesAxisTitleVertical" />
+      <MemberSignature Language="VB.NET" Value="msoElementSeriesAxisTitleVertical" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSeriesAxisTitleVertical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>326</MemberValue>
+      <Docs>
+        <summary>垂直显示系列轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementSeriesAxisWithoutLabeling">
+      <MemberSignature Language="C#" Value="msoElementSeriesAxisWithoutLabeling" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementSeriesAxisWithoutLabeling = int32(370)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementSeriesAxisWithoutLabeling" />
+      <MemberSignature Language="VB.NET" Value="msoElementSeriesAxisWithoutLabeling" />
+      <MemberSignature Language="C++ CLI" Value="msoElementSeriesAxisWithoutLabeling" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>370</MemberValue>
+      <Docs>
+        <summary>不带标签显示系列轴标题。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementTrendlineAddExponential">
+      <MemberSignature Language="C#" Value="msoElementTrendlineAddExponential" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementTrendlineAddExponential = int32(602)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementTrendlineAddExponential" />
+      <MemberSignature Language="VB.NET" Value="msoElementTrendlineAddExponential" />
+      <MemberSignature Language="C++ CLI" Value="msoElementTrendlineAddExponential" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>602</MemberValue>
+      <Docs>
+        <summary>添加指数趋势线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementTrendlineAddLinear">
+      <MemberSignature Language="C#" Value="msoElementTrendlineAddLinear" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementTrendlineAddLinear = int32(601)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementTrendlineAddLinear" />
+      <MemberSignature Language="VB.NET" Value="msoElementTrendlineAddLinear" />
+      <MemberSignature Language="C++ CLI" Value="msoElementTrendlineAddLinear" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>601</MemberValue>
+      <Docs>
+        <summary>添加线性趋势线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementTrendlineAddLinearForecast">
+      <MemberSignature Language="C#" Value="msoElementTrendlineAddLinearForecast" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementTrendlineAddLinearForecast = int32(603)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementTrendlineAddLinearForecast" />
+      <MemberSignature Language="VB.NET" Value="msoElementTrendlineAddLinearForecast" />
+      <MemberSignature Language="C++ CLI" Value="msoElementTrendlineAddLinearForecast" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>603</MemberValue>
+      <Docs>
+        <summary>添加线性预测。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementTrendlineAddTwoPeriodMovingAverage">
+      <MemberSignature Language="C#" Value="msoElementTrendlineAddTwoPeriodMovingAverage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementTrendlineAddTwoPeriodMovingAverage = int32(604)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementTrendlineAddTwoPeriodMovingAverage" />
+      <MemberSignature Language="VB.NET" Value="msoElementTrendlineAddTwoPeriodMovingAverage" />
+      <MemberSignature Language="C++ CLI" Value="msoElementTrendlineAddTwoPeriodMovingAverage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>604</MemberValue>
+      <Docs>
+        <summary>添加双周期移动平均。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementTrendlineNone">
+      <MemberSignature Language="C#" Value="msoElementTrendlineNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementTrendlineNone = int32(600)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementTrendlineNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementTrendlineNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementTrendlineNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>600</MemberValue>
+      <Docs>
+        <summary>不显示趋势线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementUpDownBarsNone">
+      <MemberSignature Language="C#" Value="msoElementUpDownBarsNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementUpDownBarsNone = int32(900)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementUpDownBarsNone" />
+      <MemberSignature Language="VB.NET" Value="msoElementUpDownBarsNone" />
+      <MemberSignature Language="C++ CLI" Value="msoElementUpDownBarsNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>900</MemberValue>
+      <Docs>
+        <summary>不显示涨/跌柱线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoElementUpDownBarsShow">
+      <MemberSignature Language="C#" Value="msoElementUpDownBarsShow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoChartElementType msoElementUpDownBarsShow = int32(901)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoChartElementType.msoElementUpDownBarsShow" />
+      <MemberSignature Language="VB.NET" Value="msoElementUpDownBarsShow" />
+      <MemberSignature Language="C++ CLI" Value="msoElementUpDownBarsShow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoChartElementType</ReturnType>
+      </ReturnValue>
+      <MemberValue>901</MemberValue>
+      <Docs>
+        <summary>显示涨/跌柱线。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

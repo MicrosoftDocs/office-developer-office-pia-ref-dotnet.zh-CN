@@ -1,0 +1,430 @@
+<Type Name="MsoPresetThreeDFormat" FullName="Microsoft.Office.Core.MsoPresetThreeDFormat">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ce90bfa51cb5627ae97af68172850f5f1b8468c4" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657440" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoPresetThreeDFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetThreeDFormat extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetThreeDFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetThreeDFormat" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoPresetThreeDFormat" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定延伸 （三维） 格式。</summary>
+    <remarks>
+      <para>根据 （从左到右，从上到下） 上格式工具栏三维样式按钮中显示的顺序进行编号的<b>msoPresetThreeDFormat</b>常量。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoPresetThreeDFormatMixed">
+      <MemberSignature Language="C#" Value="msoPresetThreeDFormatMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoPresetThreeDFormatMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoPresetThreeDFormatMixed" />
+      <MemberSignature Language="VB.NET" Value="msoPresetThreeDFormatMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoPresetThreeDFormatMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>不使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD1">
+      <MemberSignature Language="C#" Value="msoThreeD1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD1 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD1" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD1" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>第一个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD10">
+      <MemberSignature Language="C#" Value="msoThreeD10" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD10 = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD10" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD10" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD10" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>第十个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD11">
+      <MemberSignature Language="C#" Value="msoThreeD11" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD11 = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD11" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD11" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD11" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>第十一个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD12">
+      <MemberSignature Language="C#" Value="msoThreeD12" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD12 = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD12" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD12" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD12" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>第十二个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD13">
+      <MemberSignature Language="C#" Value="msoThreeD13" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD13 = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD13" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD13" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD13" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>第十三个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD14">
+      <MemberSignature Language="C#" Value="msoThreeD14" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD14 = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD14" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD14" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD14" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>第十四个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD15">
+      <MemberSignature Language="C#" Value="msoThreeD15" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD15 = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD15" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD15" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD15" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>第十五个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD16">
+      <MemberSignature Language="C#" Value="msoThreeD16" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD16 = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD16" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD16" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD16" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>第十六个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD17">
+      <MemberSignature Language="C#" Value="msoThreeD17" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD17 = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD17" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD17" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD17" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>第十七个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD18">
+      <MemberSignature Language="C#" Value="msoThreeD18" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD18 = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD18" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD18" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD18" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>第十八个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD19">
+      <MemberSignature Language="C#" Value="msoThreeD19" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD19 = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD19" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD19" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD19" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>第十九个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD2">
+      <MemberSignature Language="C#" Value="msoThreeD2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD2 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD2" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD2" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>第二个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD20">
+      <MemberSignature Language="C#" Value="msoThreeD20" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD20 = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD20" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD20" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD20" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>第二十个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD3">
+      <MemberSignature Language="C#" Value="msoThreeD3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD3 = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD3" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD3" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>第三个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD4">
+      <MemberSignature Language="C#" Value="msoThreeD4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD4 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD4" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD4" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>第四个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD5">
+      <MemberSignature Language="C#" Value="msoThreeD5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD5 = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD5" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD5" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>第五个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD6">
+      <MemberSignature Language="C#" Value="msoThreeD6" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD6 = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD6" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD6" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD6" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>第六个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD7">
+      <MemberSignature Language="C#" Value="msoThreeD7" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD7 = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD7" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD7" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD7" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>第七个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD8">
+      <MemberSignature Language="C#" Value="msoThreeD8" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD8 = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD8" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD8" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>第八个三维格式。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThreeD9">
+      <MemberSignature Language="C#" Value="msoThreeD9" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetThreeDFormat msoThreeD9 = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoThreeD9" />
+      <MemberSignature Language="VB.NET" Value="msoThreeD9" />
+      <MemberSignature Language="C++ CLI" Value="msoThreeD9" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>第九个三维格式。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

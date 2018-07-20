@@ -1,0 +1,104 @@
+<Type Name="MsoWizardActType" FullName="Microsoft.Office.Core.MsoWizardActType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fdc2f3496b11440c9a739ceaf6759577b68209d9" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658254" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoWizardActType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoWizardActType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoWizardActType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoWizardActType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoWizardActType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoWizardActActive">
+      <MemberSignature Language="C#" Value="msoWizardActActive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWizardActType msoWizardActActive = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWizardActType.msoWizardActActive" />
+      <MemberSignature Language="VB.NET" Value="msoWizardActActive" />
+      <MemberSignature Language="C++ CLI" Value="msoWizardActActive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWizardActType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWizardActInactive">
+      <MemberSignature Language="C#" Value="msoWizardActInactive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWizardActType msoWizardActInactive = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWizardActType.msoWizardActInactive" />
+      <MemberSignature Language="VB.NET" Value="msoWizardActInactive" />
+      <MemberSignature Language="C++ CLI" Value="msoWizardActInactive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWizardActType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWizardActResume">
+      <MemberSignature Language="C#" Value="msoWizardActResume" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWizardActType msoWizardActResume = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWizardActType.msoWizardActResume" />
+      <MemberSignature Language="VB.NET" Value="msoWizardActResume" />
+      <MemberSignature Language="C++ CLI" Value="msoWizardActResume" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWizardActType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWizardActSuspend">
+      <MemberSignature Language="C#" Value="msoWizardActSuspend" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWizardActType msoWizardActSuspend = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWizardActType.msoWizardActSuspend" />
+      <MemberSignature Language="VB.NET" Value="msoWizardActSuspend" />
+      <MemberSignature Language="C++ CLI" Value="msoWizardActSuspend" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWizardActType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

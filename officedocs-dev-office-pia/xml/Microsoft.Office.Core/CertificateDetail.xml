@@ -1,0 +1,123 @@
+<Type Name="CertificateDetail" FullName="Microsoft.Office.Core.CertificateDetail">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d2f0f7473476d58595cdb7f03c3544b3565b7b65" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658002" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum CertificateDetail" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CertificateDetail extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CertificateDetail" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CertificateDetail" />
+  <TypeSignature Language="C++ CLI" Value="public enum class CertificateDetail" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>提供有关数字证书的信息。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="certdetAvailable">
+      <MemberSignature Language="C#" Value="certdetAvailable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.CertificateDetail certdetAvailable = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.CertificateDetail.certdetAvailable" />
+      <MemberSignature Language="VB.NET" Value="certdetAvailable" />
+      <MemberSignature Language="C++ CLI" Value="certdetAvailable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CertificateDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>指定可用于签署的数字证书。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="certdetExpirationDate">
+      <MemberSignature Language="C#" Value="certdetExpirationDate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.CertificateDetail certdetExpirationDate = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.CertificateDetail.certdetExpirationDate" />
+      <MemberSignature Language="VB.NET" Value="certdetExpirationDate" />
+      <MemberSignature Language="C++ CLI" Value="certdetExpirationDate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CertificateDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>证书的到期日期。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="certdetIssuer">
+      <MemberSignature Language="C#" Value="certdetIssuer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.CertificateDetail certdetIssuer = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.CertificateDetail.certdetIssuer" />
+      <MemberSignature Language="VB.NET" Value="certdetIssuer" />
+      <MemberSignature Language="C++ CLI" Value="certdetIssuer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CertificateDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>证书颁发机构。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="certdetSubject">
+      <MemberSignature Language="C#" Value="certdetSubject" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.CertificateDetail certdetSubject = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.CertificateDetail.certdetSubject" />
+      <MemberSignature Language="VB.NET" Value="certdetSubject" />
+      <MemberSignature Language="C++ CLI" Value="certdetSubject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CertificateDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>对应于公钥的私钥的持有者。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="certdetThumbprint">
+      <MemberSignature Language="C#" Value="certdetThumbprint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.CertificateDetail certdetThumbprint = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.CertificateDetail.certdetThumbprint" />
+      <MemberSignature Language="VB.NET" Value="certdetThumbprint" />
+      <MemberSignature Language="C++ CLI" Value="certdetThumbprint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CertificateDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>证书的全部内容的哈希。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

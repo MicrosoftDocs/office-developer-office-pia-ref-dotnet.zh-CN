@@ -1,0 +1,65 @@
+<Type Name="_CommandBarComboBoxEvents" FullName="Microsoft.Office.Core._CommandBarComboBoxEvents">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c5237a170233077755faf52fafb2b811dba4a278" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657365" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _CommandBarComboBoxEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CommandBarComboBoxEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBarComboBoxEvents" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _CommandBarComboBoxEvents" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _CommandBarComboBoxEvents" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0354-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4112)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>仅供内部使用。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Change">
+      <MemberSignature Language="C#" Value="public void Change (Microsoft.Office.Core.CommandBarComboBox Ctrl);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Change([in]class Microsoft.Office.Core.CommandBarComboBox Ctrl) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarComboBoxEvents.Change(Microsoft.Office.Core.CommandBarComboBox)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Change (Ctrl As CommandBarComboBox)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Change(Microsoft::Office::Core::CommandBarComboBox ^ Ctrl);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Ctrl" Type="Microsoft.Office.Core.CommandBarComboBox" />
+      </Parameters>
+      <Docs>
+        <param name="Ctrl">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,123 @@
+<Type Name="MsoCTPDockPosition" FullName="Microsoft.Office.Core.MsoCTPDockPosition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4f71926057723a68e37a3addc3267b7a183b3ad2" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657384" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoCTPDockPosition" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCTPDockPosition extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCTPDockPosition" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoCTPDockPosition" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoCTPDockPosition" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定自定义任务窗格的停靠行为。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoCTPDockPositionBottom">
+      <MemberSignature Language="C#" Value="msoCTPDockPositionBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCTPDockPosition msoCTPDockPositionBottom = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionBottom" />
+      <MemberSignature Language="VB.NET" Value="msoCTPDockPositionBottom" />
+      <MemberSignature Language="C++ CLI" Value="msoCTPDockPositionBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCTPDockPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>将任务窗格停靠在文档窗口的底部。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCTPDockPositionFloating">
+      <MemberSignature Language="C#" Value="msoCTPDockPositionFloating" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCTPDockPosition msoCTPDockPositionFloating = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionFloating" />
+      <MemberSignature Language="VB.NET" Value="msoCTPDockPositionFloating" />
+      <MemberSignature Language="C++ CLI" Value="msoCTPDockPositionFloating" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCTPDockPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>不停靠任务窗格。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCTPDockPositionLeft">
+      <MemberSignature Language="C#" Value="msoCTPDockPositionLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCTPDockPosition msoCTPDockPositionLeft = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionLeft" />
+      <MemberSignature Language="VB.NET" Value="msoCTPDockPositionLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoCTPDockPositionLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCTPDockPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>将任务窗格停靠在文档窗口的左侧。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCTPDockPositionRight">
+      <MemberSignature Language="C#" Value="msoCTPDockPositionRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCTPDockPosition msoCTPDockPositionRight = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionRight" />
+      <MemberSignature Language="VB.NET" Value="msoCTPDockPositionRight" />
+      <MemberSignature Language="C++ CLI" Value="msoCTPDockPositionRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCTPDockPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>将任务窗格停靠在文档窗口的右侧。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCTPDockPositionTop">
+      <MemberSignature Language="C#" Value="msoCTPDockPositionTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCTPDockPosition msoCTPDockPositionTop = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionTop" />
+      <MemberSignature Language="VB.NET" Value="msoCTPDockPositionTop" />
+      <MemberSignature Language="C++ CLI" Value="msoCTPDockPositionTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCTPDockPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>将任务窗格停靠在文档窗口的顶部。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

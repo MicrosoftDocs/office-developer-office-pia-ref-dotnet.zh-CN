@@ -1,0 +1,264 @@
+<Type Name="XlMarkerStyle" FullName="Microsoft.Office.Core.XlMarkerStyle">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="98d02d5c3f6363e54c3d1493cd75c290d0b33de7" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657729" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlMarkerStyle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlMarkerStyle extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlMarkerStyle" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlMarkerStyle" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlMarkerStyle" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("7CC8C2D6-8F8A-490B-B6F8-3C410554F9E4")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定折线图、散点图或雷达图中数据点或系列的数据标记样式。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlMarkerStyleAutomatic">
+      <MemberSignature Language="C#" Value="xlMarkerStyleAutomatic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlMarkerStyle xlMarkerStyleAutomatic = int32(-4105)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlMarkerStyle.xlMarkerStyleAutomatic" />
+      <MemberSignature Language="VB.NET" Value="xlMarkerStyleAutomatic" />
+      <MemberSignature Language="C++ CLI" Value="xlMarkerStyleAutomatic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlMarkerStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4105</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  自动设置标记。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMarkerStyleCircle">
+      <MemberSignature Language="C#" Value="xlMarkerStyleCircle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlMarkerStyle xlMarkerStyleCircle = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlMarkerStyle.xlMarkerStyleCircle" />
+      <MemberSignature Language="VB.NET" Value="xlMarkerStyleCircle" />
+      <MemberSignature Language="C++ CLI" Value="xlMarkerStyleCircle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlMarkerStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  圆形标记。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMarkerStyleDash">
+      <MemberSignature Language="C#" Value="xlMarkerStyleDash" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlMarkerStyle xlMarkerStyleDash = int32(-4115)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlMarkerStyle.xlMarkerStyleDash" />
+      <MemberSignature Language="VB.NET" Value="xlMarkerStyleDash" />
+      <MemberSignature Language="C++ CLI" Value="xlMarkerStyleDash" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlMarkerStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4115</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  长条形标记。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMarkerStyleDiamond">
+      <MemberSignature Language="C#" Value="xlMarkerStyleDiamond" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlMarkerStyle xlMarkerStyleDiamond = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlMarkerStyle.xlMarkerStyleDiamond" />
+      <MemberSignature Language="VB.NET" Value="xlMarkerStyleDiamond" />
+      <MemberSignature Language="C++ CLI" Value="xlMarkerStyleDiamond" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlMarkerStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  菱形标记。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMarkerStyleDot">
+      <MemberSignature Language="C#" Value="xlMarkerStyleDot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlMarkerStyle xlMarkerStyleDot = int32(-4118)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlMarkerStyle.xlMarkerStyleDot" />
+      <MemberSignature Language="VB.NET" Value="xlMarkerStyleDot" />
+      <MemberSignature Language="C++ CLI" Value="xlMarkerStyleDot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlMarkerStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4118</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  短条形标记。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMarkerStyleNone">
+      <MemberSignature Language="C#" Value="xlMarkerStyleNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlMarkerStyle xlMarkerStyleNone = int32(-4142)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlMarkerStyle.xlMarkerStyleNone" />
+      <MemberSignature Language="VB.NET" Value="xlMarkerStyleNone" />
+      <MemberSignature Language="C++ CLI" Value="xlMarkerStyleNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlMarkerStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4142</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  无标记。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMarkerStylePicture">
+      <MemberSignature Language="C#" Value="xlMarkerStylePicture" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlMarkerStyle xlMarkerStylePicture = int32(-4147)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlMarkerStyle.xlMarkerStylePicture" />
+      <MemberSignature Language="VB.NET" Value="xlMarkerStylePicture" />
+      <MemberSignature Language="C++ CLI" Value="xlMarkerStylePicture" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlMarkerStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4147</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  图片标记。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMarkerStylePlus">
+      <MemberSignature Language="C#" Value="xlMarkerStylePlus" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlMarkerStyle xlMarkerStylePlus = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlMarkerStyle.xlMarkerStylePlus" />
+      <MemberSignature Language="VB.NET" Value="xlMarkerStylePlus" />
+      <MemberSignature Language="C++ CLI" Value="xlMarkerStylePlus" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlMarkerStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  带加号的方形标记。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMarkerStyleSquare">
+      <MemberSignature Language="C#" Value="xlMarkerStyleSquare" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlMarkerStyle xlMarkerStyleSquare = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlMarkerStyle.xlMarkerStyleSquare" />
+      <MemberSignature Language="VB.NET" Value="xlMarkerStyleSquare" />
+      <MemberSignature Language="C++ CLI" Value="xlMarkerStyleSquare" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlMarkerStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  方形标记。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMarkerStyleStar">
+      <MemberSignature Language="C#" Value="xlMarkerStyleStar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlMarkerStyle xlMarkerStyleStar = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlMarkerStyle.xlMarkerStyleStar" />
+      <MemberSignature Language="VB.NET" Value="xlMarkerStyleStar" />
+      <MemberSignature Language="C++ CLI" Value="xlMarkerStyleStar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlMarkerStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  带星号的方形标记。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMarkerStyleTriangle">
+      <MemberSignature Language="C#" Value="xlMarkerStyleTriangle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlMarkerStyle xlMarkerStyleTriangle = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlMarkerStyle.xlMarkerStyleTriangle" />
+      <MemberSignature Language="VB.NET" Value="xlMarkerStyleTriangle" />
+      <MemberSignature Language="C++ CLI" Value="xlMarkerStyleTriangle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlMarkerStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  三角形标记。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMarkerStyleX">
+      <MemberSignature Language="C#" Value="xlMarkerStyleX" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlMarkerStyle xlMarkerStyleX = int32(-4168)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlMarkerStyle.xlMarkerStyleX" />
+      <MemberSignature Language="VB.NET" Value="xlMarkerStyleX" />
+      <MemberSignature Language="C++ CLI" Value="xlMarkerStyleX" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlMarkerStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4168</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  带 X 记号的方形标记。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

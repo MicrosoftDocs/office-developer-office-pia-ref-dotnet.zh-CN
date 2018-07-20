@@ -1,0 +1,2631 @@
+<Type Name="MsoEncoding" FullName="Microsoft.Office.Core.MsoEncoding">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f98e84ce01068becd642050beb03bfbb03117fe3" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657666" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoEncoding" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoEncoding extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoEncoding" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoEncoding" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoEncoding" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定在用户查看保存的文档时 Web 浏览器所使用的文档编码（代码页或字符集）。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoEncodingArabic">
+      <MemberSignature Language="C#" Value="msoEncodingArabic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingArabic = int32(1256)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingArabic" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingArabic" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingArabic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>1256</MemberValue>
+      <Docs>
+        <summary>阿拉伯回历。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingArabicASMO">
+      <MemberSignature Language="C#" Value="msoEncodingArabicASMO" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingArabicASMO = int32(708)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingArabicASMO" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingArabicASMO" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingArabicASMO" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>708</MemberValue>
+      <Docs>
+        <summary>阿拉伯语 ASMO。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingArabicAutoDetect">
+      <MemberSignature Language="C#" Value="msoEncodingArabicAutoDetect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingArabicAutoDetect = int32(51256)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingArabicAutoDetect" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingArabicAutoDetect" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingArabicAutoDetect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>51256</MemberValue>
+      <Docs>
+        <summary>Web 浏览器自动检测要使用的阿拉伯语编码类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingArabicTransparentASMO">
+      <MemberSignature Language="C#" Value="msoEncodingArabicTransparentASMO" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingArabicTransparentASMO = int32(720)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingArabicTransparentASMO" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingArabicTransparentASMO" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingArabicTransparentASMO" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>720</MemberValue>
+      <Docs>
+        <summary>透明阿拉伯语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingAutoDetect">
+      <MemberSignature Language="C#" Value="msoEncodingAutoDetect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingAutoDetect = int32(50001)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingAutoDetect" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingAutoDetect" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingAutoDetect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>50001</MemberValue>
+      <Docs>
+        <summary>Web 浏览器自动检测要使用的编码类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingBaltic">
+      <MemberSignature Language="C#" Value="msoEncodingBaltic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingBaltic = int32(1257)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingBaltic" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingBaltic" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingBaltic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>1257</MemberValue>
+      <Docs>
+        <summary>波罗的语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingCentralEuropean">
+      <MemberSignature Language="C#" Value="msoEncodingCentralEuropean" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingCentralEuropean = int32(1250)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingCentralEuropean" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingCentralEuropean" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingCentralEuropean" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>1250</MemberValue>
+      <Docs>
+        <summary>中欧字符。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingCyrillic">
+      <MemberSignature Language="C#" Value="msoEncodingCyrillic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingCyrillic = int32(1251)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingCyrillic" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingCyrillic" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingCyrillic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>1251</MemberValue>
+      <Docs>
+        <summary>西里尔文。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingCyrillicAutoDetect">
+      <MemberSignature Language="C#" Value="msoEncodingCyrillicAutoDetect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingCyrillicAutoDetect = int32(51251)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingCyrillicAutoDetect" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingCyrillicAutoDetect" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingCyrillicAutoDetect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>51251</MemberValue>
+      <Docs>
+        <summary>Web 浏览器自动检测要使用的西里尔文编码类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICArabic">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICArabic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICArabic = int32(20420)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICArabic" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICArabic" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICArabic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20420</MemberValue>
+      <Docs>
+        <summary>扩充的二进制编码的十进制交换码 (EBCDIC) 阿拉伯语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICDenmarkNorway">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICDenmarkNorway" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICDenmarkNorway = int32(20277)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICDenmarkNorway" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICDenmarkNorway" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICDenmarkNorway" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20277</MemberValue>
+      <Docs>
+        <summary>在丹麦和挪威使用的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICFinlandSweden">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICFinlandSweden" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICFinlandSweden = int32(20278)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICFinlandSweden" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICFinlandSweden" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICFinlandSweden" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20278</MemberValue>
+      <Docs>
+        <summary>在芬兰和瑞典使用的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICFrance">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICFrance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICFrance = int32(20297)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICFrance" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICFrance" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICFrance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20297</MemberValue>
+      <Docs>
+        <summary>在法国使用的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICGermany">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICGermany" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICGermany = int32(20273)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICGermany" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICGermany" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICGermany" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20273</MemberValue>
+      <Docs>
+        <summary>在德国使用的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICGreek">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICGreek" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICGreek = int32(20423)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICGreek" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICGreek" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICGreek" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20423</MemberValue>
+      <Docs>
+        <summary>用于希腊语的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICGreekModern">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICGreekModern" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICGreekModern = int32(875)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICGreekModern" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICGreekModern" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICGreekModern" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>875</MemberValue>
+      <Docs>
+        <summary>用于现代希腊语的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICHebrew">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICHebrew" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICHebrew = int32(20424)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICHebrew" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICHebrew" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICHebrew" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20424</MemberValue>
+      <Docs>
+        <summary>用于希伯来语的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICIcelandic">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICIcelandic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICIcelandic = int32(20871)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICIcelandic" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICIcelandic" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICIcelandic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20871</MemberValue>
+      <Docs>
+        <summary>在冰岛使用的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICInternational">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICInternational" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICInternational = int32(500)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICInternational" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICInternational" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICInternational" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>500</MemberValue>
+      <Docs>
+        <summary>国际 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICItaly">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICItaly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICItaly = int32(20280)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICItaly" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICItaly" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICItaly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20280</MemberValue>
+      <Docs>
+        <summary>在意大利使用的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICJapaneseKatakanaExtended">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICJapaneseKatakanaExtended" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICJapaneseKatakanaExtended = int32(20290)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICJapaneseKatakanaExtended" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICJapaneseKatakanaExtended" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICJapaneseKatakanaExtended" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20290</MemberValue>
+      <Docs>
+        <summary>用于日语片假名（扩充）的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICJapaneseKatakanaExtendedAndJapanese">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICJapaneseKatakanaExtendedAndJapanese" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICJapaneseKatakanaExtendedAndJapanese = int32(50930)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICJapaneseKatakanaExtendedAndJapanese" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICJapaneseKatakanaExtendedAndJapanese" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICJapaneseKatakanaExtendedAndJapanese" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>50930</MemberValue>
+      <Docs>
+        <summary>用于日语片假名（扩充）和日语的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICJapaneseLatinExtendedAndJapanese">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICJapaneseLatinExtendedAndJapanese" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICJapaneseLatinExtendedAndJapanese = int32(50939)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICJapaneseLatinExtendedAndJapanese" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICJapaneseLatinExtendedAndJapanese" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICJapaneseLatinExtendedAndJapanese" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>50939</MemberValue>
+      <Docs>
+        <summary>用于日语拉丁语（扩充）和日语的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICKoreanExtended">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICKoreanExtended" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICKoreanExtended = int32(20833)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICKoreanExtended" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICKoreanExtended" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICKoreanExtended" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20833</MemberValue>
+      <Docs>
+        <summary>用于朝鲜语（扩充）的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICKoreanExtendedAndKorean">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICKoreanExtendedAndKorean" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICKoreanExtendedAndKorean = int32(50933)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICKoreanExtendedAndKorean" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICKoreanExtendedAndKorean" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICKoreanExtendedAndKorean" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>50933</MemberValue>
+      <Docs>
+        <summary>用于朝鲜语（扩充）和朝鲜语的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICLatinAmericaSpain">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICLatinAmericaSpain" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICLatinAmericaSpain = int32(20284)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICLatinAmericaSpain" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICLatinAmericaSpain" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICLatinAmericaSpain" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20284</MemberValue>
+      <Docs>
+        <summary>用于拉丁美洲和西班牙的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICMultilingualROECELatin2">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICMultilingualROECELatin2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICMultilingualROECELatin2 = int32(870)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICMultilingualROECELatin2" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICMultilingualROECELatin2" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICMultilingualROECELatin2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>870</MemberValue>
+      <Docs>
+        <summary>EBCDIC 多语言 ROECE（拉丁语 2）。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICRussian">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICRussian" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICRussian = int32(20880)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICRussian" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICRussian" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICRussian" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20880</MemberValue>
+      <Docs>
+        <summary>用于俄语的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICSerbianBulgarian">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICSerbianBulgarian" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICSerbianBulgarian = int32(21025)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICSerbianBulgarian" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICSerbianBulgarian" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICSerbianBulgarian" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>21025</MemberValue>
+      <Docs>
+        <summary>用于塞尔维亚语和保加利亚语的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICSimplifiedChineseExtendedAndSimplifiedChinese">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICSimplifiedChineseExtendedAndSimplifiedChinese" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICSimplifiedChineseExtendedAndSimplifiedChinese = int32(50935)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICSimplifiedChineseExtendedAndSimplifiedChinese" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICSimplifiedChineseExtendedAndSimplifiedChinese" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICSimplifiedChineseExtendedAndSimplifiedChinese" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>50935</MemberValue>
+      <Docs>
+        <summary>用于简体中文（扩充）和简体中文的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICThai">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICThai" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICThai = int32(20838)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICThai" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICThai" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICThai" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20838</MemberValue>
+      <Docs>
+        <summary>用于泰语的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICTurkish">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICTurkish" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICTurkish = int32(20905)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICTurkish" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICTurkish" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICTurkish" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20905</MemberValue>
+      <Docs>
+        <summary>用于土耳其语的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICTurkishLatin5">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICTurkishLatin5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICTurkishLatin5 = int32(1026)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICTurkishLatin5" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICTurkishLatin5" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICTurkishLatin5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>1026</MemberValue>
+      <Docs>
+        <summary>用于土耳其语（拉丁语 5）的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICUnitedKingdom">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICUnitedKingdom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICUnitedKingdom = int32(20285)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICUnitedKingdom" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICUnitedKingdom" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICUnitedKingdom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20285</MemberValue>
+      <Docs>
+        <summary>在英国使用的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICUSCanada">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICUSCanada" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICUSCanada = int32(37)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICUSCanada" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICUSCanada" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICUSCanada" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>37</MemberValue>
+      <Docs>
+        <summary>在美国和加拿大使用的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICUSCanadaAndJapanese">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICUSCanadaAndJapanese" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICUSCanadaAndJapanese = int32(50931)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICUSCanadaAndJapanese" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICUSCanadaAndJapanese" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICUSCanadaAndJapanese" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>50931</MemberValue>
+      <Docs>
+        <summary>在美国和加拿大使用并用于日语的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEBCDICUSCanadaAndTraditionalChinese">
+      <MemberSignature Language="C#" Value="msoEncodingEBCDICUSCanadaAndTraditionalChinese" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEBCDICUSCanadaAndTraditionalChinese = int32(50937)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEBCDICUSCanadaAndTraditionalChinese" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEBCDICUSCanadaAndTraditionalChinese" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEBCDICUSCanadaAndTraditionalChinese" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>50937</MemberValue>
+      <Docs>
+        <summary>在美国和加拿大使用并用于繁体中文的 EBCDIC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEUCChineseSimplifiedChinese">
+      <MemberSignature Language="C#" Value="msoEncodingEUCChineseSimplifiedChinese" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEUCChineseSimplifiedChinese = int32(51936)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEUCChineseSimplifiedChinese" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEUCChineseSimplifiedChinese" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEUCChineseSimplifiedChinese" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>51936</MemberValue>
+      <Docs>
+        <summary>用于中文和简体中文的扩展 UNIX 编码 (EUC)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEUCJapanese">
+      <MemberSignature Language="C#" Value="msoEncodingEUCJapanese" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEUCJapanese = int32(51932)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEUCJapanese" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEUCJapanese" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEUCJapanese" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>51932</MemberValue>
+      <Docs>
+        <summary>用于日语的 EUC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEUCKorean">
+      <MemberSignature Language="C#" Value="msoEncodingEUCKorean" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEUCKorean = int32(51949)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEUCKorean" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEUCKorean" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEUCKorean" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>51949</MemberValue>
+      <Docs>
+        <summary>用于朝鲜语的 EUC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEUCTaiwaneseTraditionalChinese">
+      <MemberSignature Language="C#" Value="msoEncodingEUCTaiwaneseTraditionalChinese" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEUCTaiwaneseTraditionalChinese = int32(51950)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEUCTaiwaneseTraditionalChinese" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEUCTaiwaneseTraditionalChinese" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEUCTaiwaneseTraditionalChinese" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>51950</MemberValue>
+      <Docs>
+        <summary>用于台湾方言和繁体中文的 EUC。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingEuropa3">
+      <MemberSignature Language="C#" Value="msoEncodingEuropa3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingEuropa3 = int32(29001)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingEuropa3" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingEuropa3" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingEuropa3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>29001</MemberValue>
+      <Docs>
+        <summary>欧罗巴语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingExtAlphaLowercase">
+      <MemberSignature Language="C#" Value="msoEncodingExtAlphaLowercase" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingExtAlphaLowercase = int32(21027)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingExtAlphaLowercase" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingExtAlphaLowercase" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingExtAlphaLowercase" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>21027</MemberValue>
+      <Docs>
+        <summary>扩展的 Alpha 小写字母。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingGreek">
+      <MemberSignature Language="C#" Value="msoEncodingGreek" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingGreek = int32(1253)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingGreek" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingGreek" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingGreek" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>1253</MemberValue>
+      <Docs>
+        <summary>希腊语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingGreekAutoDetect">
+      <MemberSignature Language="C#" Value="msoEncodingGreekAutoDetect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingGreekAutoDetect = int32(51253)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingGreekAutoDetect" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingGreekAutoDetect" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingGreekAutoDetect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>51253</MemberValue>
+      <Docs>
+        <summary>Web 浏览器自动检测要使用的希腊语编码类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingHebrew">
+      <MemberSignature Language="C#" Value="msoEncodingHebrew" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingHebrew = int32(1255)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingHebrew" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingHebrew" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingHebrew" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>1255</MemberValue>
+      <Docs>
+        <summary>希伯来历。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingHZGBSimplifiedChinese">
+      <MemberSignature Language="C#" Value="msoEncodingHZGBSimplifiedChinese" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingHZGBSimplifiedChinese = int32(52936)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingHZGBSimplifiedChinese" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingHZGBSimplifiedChinese" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingHZGBSimplifiedChinese" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>52936</MemberValue>
+      <Docs>
+        <summary>简体中文 (HZGB)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingIA5German">
+      <MemberSignature Language="C#" Value="msoEncodingIA5German" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingIA5German = int32(20106)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingIA5German" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingIA5German" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingIA5German" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20106</MemberValue>
+      <Docs>
+        <summary>德语（国际字母表 5 或 IA5）。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingIA5IRV">
+      <MemberSignature Language="C#" Value="msoEncodingIA5IRV" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingIA5IRV = int32(20105)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingIA5IRV" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingIA5IRV" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingIA5IRV" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20105</MemberValue>
+      <Docs>
+        <summary>IA5、国际参考版 (IRV)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingIA5Norwegian">
+      <MemberSignature Language="C#" Value="msoEncodingIA5Norwegian" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingIA5Norwegian = int32(20108)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingIA5Norwegian" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingIA5Norwegian" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingIA5Norwegian" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20108</MemberValue>
+      <Docs>
+        <summary>用于挪威语的 IA5。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingIA5Swedish">
+      <MemberSignature Language="C#" Value="msoEncodingIA5Swedish" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingIA5Swedish = int32(20107)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingIA5Swedish" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingIA5Swedish" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingIA5Swedish" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20107</MemberValue>
+      <Docs>
+        <summary>用于瑞典语的 IA5。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISCIIAssamese">
+      <MemberSignature Language="C#" Value="msoEncodingISCIIAssamese" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISCIIAssamese = int32(57006)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISCIIAssamese" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISCIIAssamese" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISCIIAssamese" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>57006</MemberValue>
+      <Docs>
+        <summary>用于阿萨姆语的印度信息交换脚本编码 (ISCII)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISCIIBengali">
+      <MemberSignature Language="C#" Value="msoEncodingISCIIBengali" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISCIIBengali = int32(57003)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISCIIBengali" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISCIIBengali" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISCIIBengali" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>57003</MemberValue>
+      <Docs>
+        <summary>用于孟加拉语的 ISCII。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISCIIDevanagari">
+      <MemberSignature Language="C#" Value="msoEncodingISCIIDevanagari" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISCIIDevanagari = int32(57002)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISCIIDevanagari" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISCIIDevanagari" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISCIIDevanagari" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>57002</MemberValue>
+      <Docs>
+        <summary>用于梵文的 ISCII。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISCIIGujarati">
+      <MemberSignature Language="C#" Value="msoEncodingISCIIGujarati" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISCIIGujarati = int32(57010)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISCIIGujarati" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISCIIGujarati" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISCIIGujarati" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>57010</MemberValue>
+      <Docs>
+        <summary>用于古吉拉特语的 ISCII。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISCIIKannada">
+      <MemberSignature Language="C#" Value="msoEncodingISCIIKannada" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISCIIKannada = int32(57008)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISCIIKannada" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISCIIKannada" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISCIIKannada" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>57008</MemberValue>
+      <Docs>
+        <summary>用于卡纳达语的 ISCII。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISCIIMalayalam">
+      <MemberSignature Language="C#" Value="msoEncodingISCIIMalayalam" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISCIIMalayalam = int32(57009)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISCIIMalayalam" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISCIIMalayalam" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISCIIMalayalam" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>57009</MemberValue>
+      <Docs>
+        <summary>用于马拉雅拉姆语的 ISCII。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISCIIOriya">
+      <MemberSignature Language="C#" Value="msoEncodingISCIIOriya" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISCIIOriya = int32(57007)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISCIIOriya" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISCIIOriya" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISCIIOriya" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>57007</MemberValue>
+      <Docs>
+        <summary>用于奥里雅语的 ISCII。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISCIIPunjabi">
+      <MemberSignature Language="C#" Value="msoEncodingISCIIPunjabi" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISCIIPunjabi = int32(57011)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISCIIPunjabi" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISCIIPunjabi" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISCIIPunjabi" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>57011</MemberValue>
+      <Docs>
+        <summary>用于旁遮普语的 ISCII。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISCIITamil">
+      <MemberSignature Language="C#" Value="msoEncodingISCIITamil" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISCIITamil = int32(57004)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISCIITamil" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISCIITamil" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISCIITamil" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>57004</MemberValue>
+      <Docs>
+        <summary>用于泰米尔语的 ISCII。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISCIITelugu">
+      <MemberSignature Language="C#" Value="msoEncodingISCIITelugu" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISCIITelugu = int32(57005)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISCIITelugu" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISCIITelugu" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISCIITelugu" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>57005</MemberValue>
+      <Docs>
+        <summary>用于泰卢固语的 ISCII。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISO2022CNSimplifiedChinese">
+      <MemberSignature Language="C#" Value="msoEncodingISO2022CNSimplifiedChinese" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISO2022CNSimplifiedChinese = int32(50229)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISO2022CNSimplifiedChinese" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISO2022CNSimplifiedChinese" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISO2022CNSimplifiedChinese" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>50229</MemberValue>
+      <Docs>
+        <summary>用于简体中文的 ISO 2022-CN 编码。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISO2022CNTraditionalChinese">
+      <MemberSignature Language="C#" Value="msoEncodingISO2022CNTraditionalChinese" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISO2022CNTraditionalChinese = int32(50227)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISO2022CNTraditionalChinese" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISO2022CNTraditionalChinese" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISO2022CNTraditionalChinese" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>50227</MemberValue>
+      <Docs>
+        <summary>用于繁体中文的 ISO 2022-CN 编码。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISO2022JPJISX02011989">
+      <MemberSignature Language="C#" Value="msoEncodingISO2022JPJISX02011989" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISO2022JPJISX02011989 = int32(50222)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISO2022JPJISX02011989" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISO2022JPJISX02011989" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISO2022JPJISX02011989" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>50222</MemberValue>
+      <Docs>
+        <summary>ISO 2022-JP</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISO2022JPJISX02021984">
+      <MemberSignature Language="C#" Value="msoEncodingISO2022JPJISX02021984" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISO2022JPJISX02021984 = int32(50221)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISO2022JPJISX02021984" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISO2022JPJISX02021984" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISO2022JPJISX02021984" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>50221</MemberValue>
+      <Docs>
+        <summary>ISO 2022-JP</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISO2022JPNoHalfwidthKatakana">
+      <MemberSignature Language="C#" Value="msoEncodingISO2022JPNoHalfwidthKatakana" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISO2022JPNoHalfwidthKatakana = int32(50220)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISO2022JPNoHalfwidthKatakana" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISO2022JPNoHalfwidthKatakana" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISO2022JPNoHalfwidthKatakana" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>50220</MemberValue>
+      <Docs>
+        <summary>不带半角片假名的 ISO 2022-JP。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISO2022KR">
+      <MemberSignature Language="C#" Value="msoEncodingISO2022KR" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISO2022KR = int32(50225)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISO2022KR" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISO2022KR" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISO2022KR" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>50225</MemberValue>
+      <Docs>
+        <summary>ISO 2022-KR。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISO6937NonSpacingAccent">
+      <MemberSignature Language="C#" Value="msoEncodingISO6937NonSpacingAccent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISO6937NonSpacingAccent = int32(20269)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISO6937NonSpacingAccent" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISO6937NonSpacingAccent" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISO6937NonSpacingAccent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20269</MemberValue>
+      <Docs>
+        <summary>ISO 6937 无空格重音。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISO885915Latin9">
+      <MemberSignature Language="C#" Value="msoEncodingISO885915Latin9" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISO885915Latin9 = int32(28605)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISO885915Latin9" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISO885915Latin9" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISO885915Latin9" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>28605</MemberValue>
+      <Docs>
+        <summary>用于拉丁语 9 的 ISO 8859-15。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISO88591Latin1">
+      <MemberSignature Language="C#" Value="msoEncodingISO88591Latin1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISO88591Latin1 = int32(28591)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISO88591Latin1" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISO88591Latin1" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISO88591Latin1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>28591</MemberValue>
+      <Docs>
+        <summary>ISO 8859-1 拉丁语 1。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISO88592CentralEurope">
+      <MemberSignature Language="C#" Value="msoEncodingISO88592CentralEurope" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISO88592CentralEurope = int32(28592)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISO88592CentralEurope" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISO88592CentralEurope" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISO88592CentralEurope" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>28592</MemberValue>
+      <Docs>
+        <summary>ISO 8859-2 中欧。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISO88593Latin3">
+      <MemberSignature Language="C#" Value="msoEncodingISO88593Latin3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISO88593Latin3 = int32(28593)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISO88593Latin3" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISO88593Latin3" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISO88593Latin3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>28593</MemberValue>
+      <Docs>
+        <summary>ISO 8859-3 拉丁语 3。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISO88594Baltic">
+      <MemberSignature Language="C#" Value="msoEncodingISO88594Baltic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISO88594Baltic = int32(28594)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISO88594Baltic" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISO88594Baltic" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISO88594Baltic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>28594</MemberValue>
+      <Docs>
+        <summary>ISO 8859-4 波罗的语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISO88595Cyrillic">
+      <MemberSignature Language="C#" Value="msoEncodingISO88595Cyrillic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISO88595Cyrillic = int32(28595)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISO88595Cyrillic" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISO88595Cyrillic" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISO88595Cyrillic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>28595</MemberValue>
+      <Docs>
+        <summary>ISO 8859-5 西里尔文。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISO88596Arabic">
+      <MemberSignature Language="C#" Value="msoEncodingISO88596Arabic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISO88596Arabic = int32(28596)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISO88596Arabic" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISO88596Arabic" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISO88596Arabic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>28596</MemberValue>
+      <Docs>
+        <summary>ISA 8859-6 阿拉伯语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISO88597Greek">
+      <MemberSignature Language="C#" Value="msoEncodingISO88597Greek" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISO88597Greek = int32(28597)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISO88597Greek" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISO88597Greek" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISO88597Greek" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>28597</MemberValue>
+      <Docs>
+        <summary>ISO 8859-7 希腊语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISO88598Hebrew">
+      <MemberSignature Language="C#" Value="msoEncodingISO88598Hebrew" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISO88598Hebrew = int32(28598)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISO88598Hebrew" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISO88598Hebrew" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISO88598Hebrew" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>28598</MemberValue>
+      <Docs>
+        <summary>ISO 8859-8 希伯来语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISO88598HebrewLogical">
+      <MemberSignature Language="C#" Value="msoEncodingISO88598HebrewLogical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISO88598HebrewLogical = int32(38598)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISO88598HebrewLogical" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISO88598HebrewLogical" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISO88598HebrewLogical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>38598</MemberValue>
+      <Docs>
+        <summary>ISO 8859-8 希伯来语（逻辑）。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingISO88599Turkish">
+      <MemberSignature Language="C#" Value="msoEncodingISO88599Turkish" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingISO88599Turkish = int32(28599)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingISO88599Turkish" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingISO88599Turkish" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingISO88599Turkish" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>28599</MemberValue>
+      <Docs>
+        <summary>ISO 8859-9 土耳其语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingJapaneseAutoDetect">
+      <MemberSignature Language="C#" Value="msoEncodingJapaneseAutoDetect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingJapaneseAutoDetect = int32(50932)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingJapaneseAutoDetect" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingJapaneseAutoDetect" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingJapaneseAutoDetect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>50932</MemberValue>
+      <Docs>
+        <summary>Web 浏览器自动检测要使用的日语编码类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingJapaneseShiftJIS">
+      <MemberSignature Language="C#" Value="msoEncodingJapaneseShiftJIS" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingJapaneseShiftJIS = int32(932)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingJapaneseShiftJIS" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingJapaneseShiftJIS" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingJapaneseShiftJIS" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>932</MemberValue>
+      <Docs>
+        <summary>日语 (Shift-JIS)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingKOI8R">
+      <MemberSignature Language="C#" Value="msoEncodingKOI8R" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingKOI8R = int32(20866)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingKOI8R" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingKOI8R" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingKOI8R" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20866</MemberValue>
+      <Docs>
+        <summary>KOI8-R。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingKOI8U">
+      <MemberSignature Language="C#" Value="msoEncodingKOI8U" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingKOI8U = int32(21866)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingKOI8U" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingKOI8U" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingKOI8U" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>21866</MemberValue>
+      <Docs>
+        <summary>K0I8-U。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingKorean">
+      <MemberSignature Language="C#" Value="msoEncodingKorean" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingKorean = int32(949)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingKorean" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingKorean" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingKorean" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>949</MemberValue>
+      <Docs>
+        <summary>朝鲜语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingKoreanAutoDetect">
+      <MemberSignature Language="C#" Value="msoEncodingKoreanAutoDetect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingKoreanAutoDetect = int32(50949)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingKoreanAutoDetect" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingKoreanAutoDetect" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingKoreanAutoDetect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>50949</MemberValue>
+      <Docs>
+        <summary>Web 浏览器自动检测要使用的朝鲜语编码类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingKoreanJohab">
+      <MemberSignature Language="C#" Value="msoEncodingKoreanJohab" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingKoreanJohab = int32(1361)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingKoreanJohab" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingKoreanJohab" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingKoreanJohab" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>1361</MemberValue>
+      <Docs>
+        <summary>朝鲜语 (Johab)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingMacArabic">
+      <MemberSignature Language="C#" Value="msoEncodingMacArabic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingMacArabic = int32(10004)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingMacArabic" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingMacArabic" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingMacArabic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>10004</MemberValue>
+      <Docs>
+        <summary>Macintosh 阿拉伯语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingMacCroatia">
+      <MemberSignature Language="C#" Value="msoEncodingMacCroatia" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingMacCroatia = int32(10082)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingMacCroatia" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingMacCroatia" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingMacCroatia" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>10082</MemberValue>
+      <Docs>
+        <summary>Macintosh 克罗地亚语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingMacCyrillic">
+      <MemberSignature Language="C#" Value="msoEncodingMacCyrillic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingMacCyrillic = int32(10007)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingMacCyrillic" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingMacCyrillic" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingMacCyrillic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>10007</MemberValue>
+      <Docs>
+        <summary>Macintosh 西里尔文。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingMacGreek1">
+      <MemberSignature Language="C#" Value="msoEncodingMacGreek1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingMacGreek1 = int32(10006)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingMacGreek1" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingMacGreek1" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingMacGreek1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>10006</MemberValue>
+      <Docs>
+        <summary>Macintosh 希腊语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingMacHebrew">
+      <MemberSignature Language="C#" Value="msoEncodingMacHebrew" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingMacHebrew = int32(10005)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingMacHebrew" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingMacHebrew" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingMacHebrew" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>10005</MemberValue>
+      <Docs>
+        <summary>Macintosh 希伯来语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingMacIcelandic">
+      <MemberSignature Language="C#" Value="msoEncodingMacIcelandic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingMacIcelandic = int32(10079)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingMacIcelandic" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingMacIcelandic" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingMacIcelandic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>10079</MemberValue>
+      <Docs>
+        <summary>Macintosh 冰岛语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingMacJapanese">
+      <MemberSignature Language="C#" Value="msoEncodingMacJapanese" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingMacJapanese = int32(10001)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingMacJapanese" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingMacJapanese" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingMacJapanese" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>10001</MemberValue>
+      <Docs>
+        <summary>Macintosh 日语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingMacKorean">
+      <MemberSignature Language="C#" Value="msoEncodingMacKorean" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingMacKorean = int32(10003)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingMacKorean" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingMacKorean" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingMacKorean" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>10003</MemberValue>
+      <Docs>
+        <summary>Macintosh 朝鲜语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingMacLatin2">
+      <MemberSignature Language="C#" Value="msoEncodingMacLatin2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingMacLatin2 = int32(10029)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingMacLatin2" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingMacLatin2" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingMacLatin2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>10029</MemberValue>
+      <Docs>
+        <summary>Macintosh 拉丁语 2。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingMacRoman">
+      <MemberSignature Language="C#" Value="msoEncodingMacRoman" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingMacRoman = int32(10000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingMacRoman" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingMacRoman" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingMacRoman" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>10000</MemberValue>
+      <Docs>
+        <summary>Macintosh 罗马语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingMacRomania">
+      <MemberSignature Language="C#" Value="msoEncodingMacRomania" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingMacRomania = int32(10010)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingMacRomania" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingMacRomania" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingMacRomania" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>10010</MemberValue>
+      <Docs>
+        <summary>Macintosh 罗马尼亚语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingMacSimplifiedChineseGB2312">
+      <MemberSignature Language="C#" Value="msoEncodingMacSimplifiedChineseGB2312" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingMacSimplifiedChineseGB2312 = int32(10008)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingMacSimplifiedChineseGB2312" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingMacSimplifiedChineseGB2312" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingMacSimplifiedChineseGB2312" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>10008</MemberValue>
+      <Docs>
+        <summary>Macintosh 简体中文 (GB 2312)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingMacTraditionalChineseBig5">
+      <MemberSignature Language="C#" Value="msoEncodingMacTraditionalChineseBig5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingMacTraditionalChineseBig5 = int32(10002)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingMacTraditionalChineseBig5" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingMacTraditionalChineseBig5" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingMacTraditionalChineseBig5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>10002</MemberValue>
+      <Docs>
+        <summary>Macintosh 繁体中文 (Big 5)。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingMacTurkish">
+      <MemberSignature Language="C#" Value="msoEncodingMacTurkish" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingMacTurkish = int32(10081)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingMacTurkish" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingMacTurkish" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingMacTurkish" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>10081</MemberValue>
+      <Docs>
+        <summary>Macintosh 土耳其语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingMacUkraine">
+      <MemberSignature Language="C#" Value="msoEncodingMacUkraine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingMacUkraine = int32(10017)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingMacUkraine" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingMacUkraine" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingMacUkraine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>10017</MemberValue>
+      <Docs>
+        <summary>Macintosh 乌克兰语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingOEMArabic">
+      <MemberSignature Language="C#" Value="msoEncodingOEMArabic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingOEMArabic = int32(864)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingOEMArabic" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingOEMArabic" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingOEMArabic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>864</MemberValue>
+      <Docs>
+        <summary>用于阿拉伯语的 OEM。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingOEMBaltic">
+      <MemberSignature Language="C#" Value="msoEncodingOEMBaltic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingOEMBaltic = int32(775)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingOEMBaltic" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingOEMBaltic" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingOEMBaltic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>775</MemberValue>
+      <Docs>
+        <summary>用于波罗的语的 OEM。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingOEMCanadianFrench">
+      <MemberSignature Language="C#" Value="msoEncodingOEMCanadianFrench" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingOEMCanadianFrench = int32(863)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingOEMCanadianFrench" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingOEMCanadianFrench" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingOEMCanadianFrench" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>863</MemberValue>
+      <Docs>
+        <summary>用于加拿大法语的 OEM。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingOEMCyrillic">
+      <MemberSignature Language="C#" Value="msoEncodingOEMCyrillic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingOEMCyrillic = int32(855)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingOEMCyrillic" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingOEMCyrillic" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingOEMCyrillic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>855</MemberValue>
+      <Docs>
+        <summary>用于西里尔文的 OEM。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingOEMCyrillicII">
+      <MemberSignature Language="C#" Value="msoEncodingOEMCyrillicII" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingOEMCyrillicII = int32(866)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingOEMCyrillicII" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingOEMCyrillicII" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingOEMCyrillicII" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>866</MemberValue>
+      <Docs>
+        <summary>用于西里尔文 II 的 OEM。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingOEMGreek437G">
+      <MemberSignature Language="C#" Value="msoEncodingOEMGreek437G" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingOEMGreek437G = int32(737)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingOEMGreek437G" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingOEMGreek437G" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingOEMGreek437G" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>737</MemberValue>
+      <Docs>
+        <summary>用于希腊语 437G 的 OEM。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingOEMHebrew">
+      <MemberSignature Language="C#" Value="msoEncodingOEMHebrew" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingOEMHebrew = int32(862)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingOEMHebrew" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingOEMHebrew" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingOEMHebrew" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>862</MemberValue>
+      <Docs>
+        <summary>用于希伯来语的 OEM。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingOEMIcelandic">
+      <MemberSignature Language="C#" Value="msoEncodingOEMIcelandic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingOEMIcelandic = int32(861)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingOEMIcelandic" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingOEMIcelandic" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingOEMIcelandic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>861</MemberValue>
+      <Docs>
+        <summary>用于冰岛语的 OEM。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingOEMModernGreek">
+      <MemberSignature Language="C#" Value="msoEncodingOEMModernGreek" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingOEMModernGreek = int32(869)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingOEMModernGreek" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingOEMModernGreek" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingOEMModernGreek" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>869</MemberValue>
+      <Docs>
+        <summary>用于现代希腊语的 OEM。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingOEMMultilingualLatinI">
+      <MemberSignature Language="C#" Value="msoEncodingOEMMultilingualLatinI" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingOEMMultilingualLatinI = int32(850)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingOEMMultilingualLatinI" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingOEMMultilingualLatinI" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingOEMMultilingualLatinI" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>850</MemberValue>
+      <Docs>
+        <summary>用于多语言拉丁语 I 的 OEM。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingOEMMultilingualLatinII">
+      <MemberSignature Language="C#" Value="msoEncodingOEMMultilingualLatinII" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingOEMMultilingualLatinII = int32(852)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingOEMMultilingualLatinII" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingOEMMultilingualLatinII" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingOEMMultilingualLatinII" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>852</MemberValue>
+      <Docs>
+        <summary>用于多语言拉丁语 II 的 OEM。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingOEMNordic">
+      <MemberSignature Language="C#" Value="msoEncodingOEMNordic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingOEMNordic = int32(865)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingOEMNordic" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingOEMNordic" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingOEMNordic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>865</MemberValue>
+      <Docs>
+        <summary>用于北欧语言的 OEM。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingOEMPortuguese">
+      <MemberSignature Language="C#" Value="msoEncodingOEMPortuguese" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingOEMPortuguese = int32(860)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingOEMPortuguese" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingOEMPortuguese" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingOEMPortuguese" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>860</MemberValue>
+      <Docs>
+        <summary>用于葡萄牙语的 OEM。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingOEMTurkish">
+      <MemberSignature Language="C#" Value="msoEncodingOEMTurkish" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingOEMTurkish = int32(857)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingOEMTurkish" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingOEMTurkish" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingOEMTurkish" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>857</MemberValue>
+      <Docs>
+        <summary>用于土耳其语的 OEM。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingOEMUnitedStates">
+      <MemberSignature Language="C#" Value="msoEncodingOEMUnitedStates" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingOEMUnitedStates = int32(437)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingOEMUnitedStates" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingOEMUnitedStates" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingOEMUnitedStates" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>437</MemberValue>
+      <Docs>
+        <summary>在美国使用的 OEM。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingSimplifiedChineseAutoDetect">
+      <MemberSignature Language="C#" Value="msoEncodingSimplifiedChineseAutoDetect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingSimplifiedChineseAutoDetect = int32(50936)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingSimplifiedChineseAutoDetect" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingSimplifiedChineseAutoDetect" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingSimplifiedChineseAutoDetect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>50936</MemberValue>
+      <Docs>
+        <summary>Web 浏览器自动检测要使用的简体中文编码类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingSimplifiedChineseGB18030">
+      <MemberSignature Language="C#" Value="msoEncodingSimplifiedChineseGB18030" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingSimplifiedChineseGB18030 = int32(54936)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingSimplifiedChineseGB18030" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingSimplifiedChineseGB18030" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingSimplifiedChineseGB18030" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>54936</MemberValue>
+      <Docs>
+        <summary>简体中文 GB 18030。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingSimplifiedChineseGBK">
+      <MemberSignature Language="C#" Value="msoEncodingSimplifiedChineseGBK" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingSimplifiedChineseGBK = int32(936)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingSimplifiedChineseGBK" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingSimplifiedChineseGBK" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingSimplifiedChineseGBK" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>936</MemberValue>
+      <Docs>
+        <summary>简体中文 GBK。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingT61">
+      <MemberSignature Language="C#" Value="msoEncodingT61" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingT61 = int32(20261)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingT61" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingT61" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingT61" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20261</MemberValue>
+      <Docs>
+        <summary>T61。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingTaiwanCNS">
+      <MemberSignature Language="C#" Value="msoEncodingTaiwanCNS" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingTaiwanCNS = int32(20000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingTaiwanCNS" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingTaiwanCNS" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingTaiwanCNS" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20000</MemberValue>
+      <Docs>
+        <summary>台湾 CNS。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingTaiwanEten">
+      <MemberSignature Language="C#" Value="msoEncodingTaiwanEten" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingTaiwanEten = int32(20002)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingTaiwanEten" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingTaiwanEten" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingTaiwanEten" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20002</MemberValue>
+      <Docs>
+        <summary>台湾 Eten。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingTaiwanIBM5550">
+      <MemberSignature Language="C#" Value="msoEncodingTaiwanIBM5550" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingTaiwanIBM5550 = int32(20003)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingTaiwanIBM5550" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingTaiwanIBM5550" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingTaiwanIBM5550" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20003</MemberValue>
+      <Docs>
+        <summary>台湾 IBM 5550。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingTaiwanTCA">
+      <MemberSignature Language="C#" Value="msoEncodingTaiwanTCA" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingTaiwanTCA = int32(20001)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingTaiwanTCA" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingTaiwanTCA" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingTaiwanTCA" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20001</MemberValue>
+      <Docs>
+        <summary>台湾 TCA。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingTaiwanTeleText">
+      <MemberSignature Language="C#" Value="msoEncodingTaiwanTeleText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingTaiwanTeleText = int32(20004)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingTaiwanTeleText" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingTaiwanTeleText" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingTaiwanTeleText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20004</MemberValue>
+      <Docs>
+        <summary>台湾 Teletext。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingTaiwanWang">
+      <MemberSignature Language="C#" Value="msoEncodingTaiwanWang" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingTaiwanWang = int32(20005)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingTaiwanWang" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingTaiwanWang" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingTaiwanWang" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20005</MemberValue>
+      <Docs>
+        <summary>台湾 Wang。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingThai">
+      <MemberSignature Language="C#" Value="msoEncodingThai" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingThai = int32(874)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingThai" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingThai" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingThai" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>874</MemberValue>
+      <Docs>
+        <summary>泰国历。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingTraditionalChineseAutoDetect">
+      <MemberSignature Language="C#" Value="msoEncodingTraditionalChineseAutoDetect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingTraditionalChineseAutoDetect = int32(50950)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingTraditionalChineseAutoDetect" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingTraditionalChineseAutoDetect" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingTraditionalChineseAutoDetect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>50950</MemberValue>
+      <Docs>
+        <summary>Web 浏览器自动检测要使用的繁体中文编码类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingTraditionalChineseBig5">
+      <MemberSignature Language="C#" Value="msoEncodingTraditionalChineseBig5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingTraditionalChineseBig5 = int32(950)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingTraditionalChineseBig5" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingTraditionalChineseBig5" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingTraditionalChineseBig5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>950</MemberValue>
+      <Docs>
+        <summary>繁体中文 Big 5。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingTurkish">
+      <MemberSignature Language="C#" Value="msoEncodingTurkish" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingTurkish = int32(1254)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingTurkish" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingTurkish" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingTurkish" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>1254</MemberValue>
+      <Docs>
+        <summary>土耳其语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingUnicodeBigEndian">
+      <MemberSignature Language="C#" Value="msoEncodingUnicodeBigEndian" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingUnicodeBigEndian = int32(1201)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingUnicodeBigEndian" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingUnicodeBigEndian" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingUnicodeBigEndian" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>1201</MemberValue>
+      <Docs>
+        <summary>Unicode big endian。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingUnicodeLittleEndian">
+      <MemberSignature Language="C#" Value="msoEncodingUnicodeLittleEndian" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingUnicodeLittleEndian = int32(1200)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingUnicodeLittleEndian" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingUnicodeLittleEndian" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingUnicodeLittleEndian" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>1200</MemberValue>
+      <Docs>
+        <summary>Unicode little endian。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingUSASCII">
+      <MemberSignature Language="C#" Value="msoEncodingUSASCII" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingUSASCII = int32(20127)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingUSASCII" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingUSASCII" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingUSASCII" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>20127</MemberValue>
+      <Docs>
+        <summary>美国 ASCII。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingUTF7">
+      <MemberSignature Language="C#" Value="msoEncodingUTF7" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingUTF7 = int32(65000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingUTF7" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingUTF7" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingUTF7" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>65000</MemberValue>
+      <Docs>
+        <summary>UTF-7 编码。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingUTF8">
+      <MemberSignature Language="C#" Value="msoEncodingUTF8" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingUTF8 = int32(65001)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingUTF8" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingUTF8" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingUTF8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>65001</MemberValue>
+      <Docs>
+        <summary>UTF-8 编码。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingVietnamese">
+      <MemberSignature Language="C#" Value="msoEncodingVietnamese" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingVietnamese = int32(1258)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingVietnamese" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingVietnamese" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingVietnamese" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>1258</MemberValue>
+      <Docs>
+        <summary>越南语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEncodingWestern">
+      <MemberSignature Language="C#" Value="msoEncodingWestern" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEncoding msoEncodingWestern = int32(1252)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEncoding.msoEncodingWestern" />
+      <MemberSignature Language="VB.NET" Value="msoEncodingWestern" />
+      <MemberSignature Language="C++ CLI" Value="msoEncodingWestern" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <MemberValue>1252</MemberValue>
+      <Docs>
+        <summary>公历。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

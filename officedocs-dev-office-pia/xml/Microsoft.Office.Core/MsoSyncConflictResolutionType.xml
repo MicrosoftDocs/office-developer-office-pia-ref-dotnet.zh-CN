@@ -1,0 +1,88 @@
+<Type Name="MsoSyncConflictResolutionType" FullName="Microsoft.Office.Core.MsoSyncConflictResolutionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1492294fd9e26fabd913845a72834f77188eb7c2" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657829" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoSyncConflictResolutionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSyncConflictResolutionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSyncConflictResolutionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoSyncConflictResolutionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoSyncConflictResolutionType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定同步共享的文档时应如何解决冲突。</summary>
+    <remarks>
+      <para>与<b>Sync</b>对象的<b>ResolveConflict</b>方法一起使用。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoSyncConflictClientWins">
+      <MemberSignature Language="C#" Value="msoSyncConflictClientWins" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncConflictResolutionType msoSyncConflictClientWins = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncConflictResolutionType.msoSyncConflictClientWins" />
+      <MemberSignature Language="VB.NET" Value="msoSyncConflictClientWins" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncConflictClientWins" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncConflictResolutionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>用本地副本代替服务器副本。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncConflictMerge">
+      <MemberSignature Language="C#" Value="msoSyncConflictMerge" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncConflictResolutionType msoSyncConflictMerge = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncConflictResolutionType.msoSyncConflictMerge" />
+      <MemberSignature Language="VB.NET" Value="msoSyncConflictMerge" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncConflictMerge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncConflictResolutionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>合并到的本地副本的服务器副本所做的更改。 为了赢得的合并更改解决冲突，您必须保存活动文档合并发生更改，然后调用再次使用， <b>ResolveConflict</b>方法后<see cref="F:Microsoft.Office.Core.MsoSyncConflictResolutionType.msoSyncConflictClientWins" />选项。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncConflictServerWins">
+      <MemberSignature Language="C#" Value="msoSyncConflictServerWins" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncConflictResolutionType msoSyncConflictServerWins = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncConflictResolutionType.msoSyncConflictServerWins" />
+      <MemberSignature Language="VB.NET" Value="msoSyncConflictServerWins" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncConflictServerWins" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncConflictResolutionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>用服务器副本代替本地副本。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

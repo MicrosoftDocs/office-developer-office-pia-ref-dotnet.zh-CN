@@ -1,0 +1,123 @@
+<Type Name="MsoAlertIconType" FullName="Microsoft.Office.Core.MsoAlertIconType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b713010e9612962369edebf3f8d003240b640162" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658034" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoAlertIconType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoAlertIconType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoAlertIconType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoAlertIconType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoAlertIconType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定在警告中显示哪个图标（如果有）。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoAlertIconCritical">
+      <MemberSignature Language="C#" Value="msoAlertIconCritical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAlertIconType msoAlertIconCritical = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAlertIconType.msoAlertIconCritical" />
+      <MemberSignature Language="VB.NET" Value="msoAlertIconCritical" />
+      <MemberSignature Language="C++ CLI" Value="msoAlertIconCritical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAlertIconType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>显示“重要”图标。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlertIconInfo">
+      <MemberSignature Language="C#" Value="msoAlertIconInfo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAlertIconType msoAlertIconInfo = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAlertIconType.msoAlertIconInfo" />
+      <MemberSignature Language="VB.NET" Value="msoAlertIconInfo" />
+      <MemberSignature Language="C++ CLI" Value="msoAlertIconInfo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAlertIconType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>显示“信息”图标。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlertIconNoIcon">
+      <MemberSignature Language="C#" Value="msoAlertIconNoIcon" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAlertIconType msoAlertIconNoIcon = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAlertIconType.msoAlertIconNoIcon" />
+      <MemberSignature Language="VB.NET" Value="msoAlertIconNoIcon" />
+      <MemberSignature Language="C++ CLI" Value="msoAlertIconNoIcon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAlertIconType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>在警告消息中不显示图标。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlertIconQuery">
+      <MemberSignature Language="C#" Value="msoAlertIconQuery" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAlertIconType msoAlertIconQuery = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAlertIconType.msoAlertIconQuery" />
+      <MemberSignature Language="VB.NET" Value="msoAlertIconQuery" />
+      <MemberSignature Language="C++ CLI" Value="msoAlertIconQuery" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAlertIconType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>显示“查询”图标。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlertIconWarning">
+      <MemberSignature Language="C#" Value="msoAlertIconWarning" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAlertIconType msoAlertIconWarning = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAlertIconType.msoAlertIconWarning" />
+      <MemberSignature Language="VB.NET" Value="msoAlertIconWarning" />
+      <MemberSignature Language="C++ CLI" Value="msoAlertIconWarning" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAlertIconType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>显示“警告”图标。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

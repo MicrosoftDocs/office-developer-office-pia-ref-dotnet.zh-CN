@@ -1,0 +1,104 @@
+<Type Name="MsoFileDialogType" FullName="Microsoft.Office.Core.MsoFileDialogType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="cc1b50ff92cebdda9c8d65bc3d165ae2280a3da5" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658247" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoFileDialogType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFileDialogType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFileDialogType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoFileDialogType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoFileDialogType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定 <b>FileDialog</b> 对象的类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoFileDialogFilePicker">
+      <MemberSignature Language="C#" Value="msoFileDialogFilePicker" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileDialogType msoFileDialogFilePicker = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileDialogType.msoFileDialogFilePicker" />
+      <MemberSignature Language="VB.NET" Value="msoFileDialogFilePicker" />
+      <MemberSignature Language="C++ CLI" Value="msoFileDialogFilePicker" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileDialogType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>“文件选取器”对话框。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileDialogFolderPicker">
+      <MemberSignature Language="C#" Value="msoFileDialogFolderPicker" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileDialogType msoFileDialogFolderPicker = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileDialogType.msoFileDialogFolderPicker" />
+      <MemberSignature Language="VB.NET" Value="msoFileDialogFolderPicker" />
+      <MemberSignature Language="C++ CLI" Value="msoFileDialogFolderPicker" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileDialogType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>“文件夹选取器”对话框。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileDialogOpen">
+      <MemberSignature Language="C#" Value="msoFileDialogOpen" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileDialogType msoFileDialogOpen = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileDialogType.msoFileDialogOpen" />
+      <MemberSignature Language="VB.NET" Value="msoFileDialogOpen" />
+      <MemberSignature Language="C++ CLI" Value="msoFileDialogOpen" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileDialogType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>“打开”对话框。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileDialogSaveAs">
+      <MemberSignature Language="C#" Value="msoFileDialogSaveAs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileDialogType msoFileDialogSaveAs = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileDialogType.msoFileDialogSaveAs" />
+      <MemberSignature Language="VB.NET" Value="msoFileDialogSaveAs" />
+      <MemberSignature Language="C++ CLI" Value="msoFileDialogSaveAs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileDialogType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>“另存为”对话框。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

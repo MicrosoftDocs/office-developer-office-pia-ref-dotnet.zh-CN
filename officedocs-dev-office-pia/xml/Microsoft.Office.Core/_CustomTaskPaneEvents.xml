@@ -1,0 +1,93 @@
+<Type Name="_CustomTaskPaneEvents" FullName="Microsoft.Office.Core._CustomTaskPaneEvents">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7c33e49d73154c360d242ff4bc998280e2905a10" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657388" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _CustomTaskPaneEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CustomTaskPaneEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomTaskPaneEvents" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _CustomTaskPaneEvents" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _CustomTaskPaneEvents" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C033C-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4112)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>仅供内部使用。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DockPositionStateChange">
+      <MemberSignature Language="C#" Value="public void DockPositionStateChange (Microsoft.Office.Core.CustomTaskPane CustomTaskPaneInst);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DockPositionStateChange([in]class Microsoft.Office.Core.CustomTaskPane CustomTaskPaneInst) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomTaskPaneEvents.DockPositionStateChange(Microsoft.Office.Core.CustomTaskPane)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DockPositionStateChange (CustomTaskPaneInst As CustomTaskPane)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DockPositionStateChange(Microsoft::Office::Core::CustomTaskPane ^ CustomTaskPaneInst);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="CustomTaskPaneInst" Type="Microsoft.Office.Core.CustomTaskPane" />
+      </Parameters>
+      <Docs>
+        <param name="CustomTaskPaneInst">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VisibleStateChange">
+      <MemberSignature Language="C#" Value="public void VisibleStateChange (Microsoft.Office.Core.CustomTaskPane CustomTaskPaneInst);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void VisibleStateChange([in]class Microsoft.Office.Core.CustomTaskPane CustomTaskPaneInst) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomTaskPaneEvents.VisibleStateChange(Microsoft.Office.Core.CustomTaskPane)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub VisibleStateChange (CustomTaskPaneInst As CustomTaskPane)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void VisibleStateChange(Microsoft::Office::Core::CustomTaskPane ^ CustomTaskPaneInst);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="CustomTaskPaneInst" Type="Microsoft.Office.Core.CustomTaskPane" />
+      </Parameters>
+      <Docs>
+        <param name="CustomTaskPaneInst">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

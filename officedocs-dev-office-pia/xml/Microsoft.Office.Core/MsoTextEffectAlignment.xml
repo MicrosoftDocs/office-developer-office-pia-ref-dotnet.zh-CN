@@ -1,0 +1,161 @@
+<Type Name="MsoTextEffectAlignment" FullName="Microsoft.Office.Core.MsoTextEffectAlignment">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="09c69b2d164d1d90147488e244c875ea4d33db0c" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657631" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoTextEffectAlignment" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextEffectAlignment extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextEffectAlignment" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoTextEffectAlignment" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoTextEffectAlignment" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定艺术字文字的对齐方式。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoTextEffectAlignmentCentered">
+      <MemberSignature Language="C#" Value="msoTextEffectAlignmentCentered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextEffectAlignment msoTextEffectAlignmentCentered = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextEffectAlignment.msoTextEffectAlignmentCentered" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectAlignmentCentered" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectAlignmentCentered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextEffectAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>居中。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectAlignmentLeft">
+      <MemberSignature Language="C#" Value="msoTextEffectAlignmentLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextEffectAlignment msoTextEffectAlignmentLeft = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextEffectAlignment.msoTextEffectAlignmentLeft" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectAlignmentLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectAlignmentLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextEffectAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>左对齐。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectAlignmentLetterJustify">
+      <MemberSignature Language="C#" Value="msoTextEffectAlignmentLetterJustify" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextEffectAlignment msoTextEffectAlignmentLetterJustify = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextEffectAlignment.msoTextEffectAlignmentLetterJustify" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectAlignmentLetterJustify" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectAlignmentLetterJustify" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextEffectAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>文字两端对齐。可以调整字母之间的间距以使文字两端对齐。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectAlignmentMixed">
+      <MemberSignature Language="C#" Value="msoTextEffectAlignmentMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextEffectAlignment msoTextEffectAlignmentMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextEffectAlignment.msoTextEffectAlignmentMixed" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectAlignmentMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectAlignmentMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextEffectAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>不使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectAlignmentRight">
+      <MemberSignature Language="C#" Value="msoTextEffectAlignmentRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextEffectAlignment msoTextEffectAlignmentRight = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextEffectAlignment.msoTextEffectAlignmentRight" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectAlignmentRight" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectAlignmentRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextEffectAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>右对齐。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectAlignmentStretchJustify">
+      <MemberSignature Language="C#" Value="msoTextEffectAlignmentStretchJustify" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextEffectAlignment msoTextEffectAlignmentStretchJustify = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextEffectAlignment.msoTextEffectAlignmentStretchJustify" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectAlignmentStretchJustify" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectAlignmentStretchJustify" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextEffectAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>文字两端对齐。可以伸展字母以使文字两端对齐。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectAlignmentWordJustify">
+      <MemberSignature Language="C#" Value="msoTextEffectAlignmentWordJustify" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextEffectAlignment msoTextEffectAlignmentWordJustify = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextEffectAlignment.msoTextEffectAlignmentWordJustify" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectAlignmentWordJustify" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectAlignmentWordJustify" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextEffectAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>文字两端对齐。可以调整单词（而非字母）之间的间距以使文字两端对齐。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

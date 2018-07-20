@@ -1,0 +1,127 @@
+<Type Name="MsoAppLanguageID" FullName="Microsoft.Office.Core.MsoAppLanguageID">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="91885db9a0d5d6d894a208762470e389c283dbd9" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657400" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoAppLanguageID" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoAppLanguageID extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoAppLanguageID" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoAppLanguageID" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoAppLanguageID" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Microsoft Office 应用程序中指定的语言设置。</summary>
+    <remarks>
+      <para>
+        <b>MsoAppLanguageID</b>枚举与<b>Application</b>对象的<b>LanguageSettings</b>成员用于确定用于安装语言、 用户界面语言或帮助语言的语言。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoLanguageIDExeMode">
+      <MemberSignature Language="C#" Value="msoLanguageIDExeMode" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAppLanguageID msoLanguageIDExeMode = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAppLanguageID.msoLanguageIDExeMode" />
+      <MemberSignature Language="VB.NET" Value="msoLanguageIDExeMode" />
+      <MemberSignature Language="C++ CLI" Value="msoLanguageIDExeMode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAppLanguageID</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>执行模式语言。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLanguageIDHelp">
+      <MemberSignature Language="C#" Value="msoLanguageIDHelp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAppLanguageID msoLanguageIDHelp = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAppLanguageID.msoLanguageIDHelp" />
+      <MemberSignature Language="VB.NET" Value="msoLanguageIDHelp" />
+      <MemberSignature Language="C++ CLI" Value="msoLanguageIDHelp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAppLanguageID</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>“帮助”语言。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLanguageIDInstall">
+      <MemberSignature Language="C#" Value="msoLanguageIDInstall" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAppLanguageID msoLanguageIDInstall = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAppLanguageID.msoLanguageIDInstall" />
+      <MemberSignature Language="VB.NET" Value="msoLanguageIDInstall" />
+      <MemberSignature Language="C++ CLI" Value="msoLanguageIDInstall" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAppLanguageID</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>安装语言。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLanguageIDUI">
+      <MemberSignature Language="C#" Value="msoLanguageIDUI" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAppLanguageID msoLanguageIDUI = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAppLanguageID.msoLanguageIDUI" />
+      <MemberSignature Language="VB.NET" Value="msoLanguageIDUI" />
+      <MemberSignature Language="C++ CLI" Value="msoLanguageIDUI" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAppLanguageID</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>用户界面语言。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLanguageIDUIPrevious">
+      <MemberSignature Language="C#" Value="msoLanguageIDUIPrevious" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAppLanguageID msoLanguageIDUIPrevious = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAppLanguageID.msoLanguageIDUIPrevious" />
+      <MemberSignature Language="VB.NET" Value="msoLanguageIDUIPrevious" />
+      <MemberSignature Language="C++ CLI" Value="msoLanguageIDUIPrevious" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAppLanguageID</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>在当前用户界面语言之前使用的用户界面语言。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,131 @@
+<Type Name="XlUnderlineStyle" FullName="Microsoft.Office.Core.XlUnderlineStyle">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d0359b7d8d58e73d1297158710702560de6f97f3" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657439" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlUnderlineStyle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlUnderlineStyle extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlUnderlineStyle" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlUnderlineStyle" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlUnderlineStyle" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("9B1665EA-5EA9-4D9B-9B61-D6D1E7C087E2")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定应用于字体的下划线类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlUnderlineStyleDouble">
+      <MemberSignature Language="C#" Value="xlUnderlineStyleDouble" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlUnderlineStyle xlUnderlineStyleDouble = int32(-4119)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlUnderlineStyle.xlUnderlineStyleDouble" />
+      <MemberSignature Language="VB.NET" Value="xlUnderlineStyleDouble" />
+      <MemberSignature Language="C++ CLI" Value="xlUnderlineStyleDouble" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlUnderlineStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4119</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  粗双下划线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlUnderlineStyleDoubleAccounting">
+      <MemberSignature Language="C#" Value="xlUnderlineStyleDoubleAccounting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlUnderlineStyle xlUnderlineStyleDoubleAccounting = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlUnderlineStyle.xlUnderlineStyleDoubleAccounting" />
+      <MemberSignature Language="VB.NET" Value="xlUnderlineStyleDoubleAccounting" />
+      <MemberSignature Language="C++ CLI" Value="xlUnderlineStyleDoubleAccounting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlUnderlineStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  紧靠在一起的两条细下划线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlUnderlineStyleNone">
+      <MemberSignature Language="C#" Value="xlUnderlineStyleNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlUnderlineStyle xlUnderlineStyleNone = int32(-4142)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlUnderlineStyle.xlUnderlineStyleNone" />
+      <MemberSignature Language="VB.NET" Value="xlUnderlineStyleNone" />
+      <MemberSignature Language="C++ CLI" Value="xlUnderlineStyleNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlUnderlineStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4142</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  无下划线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlUnderlineStyleSingle">
+      <MemberSignature Language="C#" Value="xlUnderlineStyleSingle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlUnderlineStyle xlUnderlineStyleSingle = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlUnderlineStyle.xlUnderlineStyleSingle" />
+      <MemberSignature Language="VB.NET" Value="xlUnderlineStyleSingle" />
+      <MemberSignature Language="C++ CLI" Value="xlUnderlineStyleSingle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlUnderlineStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  单下划线。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlUnderlineStyleSingleAccounting">
+      <MemberSignature Language="C#" Value="xlUnderlineStyleSingleAccounting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlUnderlineStyle xlUnderlineStyleSingleAccounting = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlUnderlineStyle.xlUnderlineStyleSingleAccounting" />
+      <MemberSignature Language="VB.NET" Value="xlUnderlineStyleSingleAccounting" />
+      <MemberSignature Language="C++ CLI" Value="xlUnderlineStyleSingleAccounting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlUnderlineStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  不支持。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

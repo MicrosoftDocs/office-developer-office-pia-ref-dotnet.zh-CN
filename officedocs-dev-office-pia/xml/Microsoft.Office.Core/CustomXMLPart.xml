@@ -1,0 +1,40 @@
+<Type Name="CustomXMLPart" FullName="Microsoft.Office.Core.CustomXMLPart">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="515ab8d66b964fd994b90814f1ceae3476d93cca" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658289" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface CustomXMLPart : Microsoft.Office.Core._CustomXMLPart, Microsoft.Office.Core._CustomXMLPartEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CustomXMLPart implements class Microsoft.Office.Core._CustomXMLPart, class Microsoft.Office.Core._CustomXMLPartEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomXMLPart" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CustomXMLPart&#xA;Implements _CustomXMLPart, _CustomXMLPartEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CustomXMLPart : Microsoft::Office::Core::_CustomXMLPart, Microsoft::Office::Core::_CustomXMLPartEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._CustomXMLPart</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._CustomXMLPartEvents_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Core.CustomXMLPartClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000CDB05-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

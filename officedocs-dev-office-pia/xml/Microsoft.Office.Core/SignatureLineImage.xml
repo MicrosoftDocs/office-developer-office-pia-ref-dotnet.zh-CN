@@ -1,0 +1,123 @@
+<Type Name="SignatureLineImage" FullName="Microsoft.Office.Core.SignatureLineImage">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d1013b3654d84911551ba021a0b6cd8a1a3dcd7e" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658373" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum SignatureLineImage" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SignatureLineImage extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SignatureLineImage" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SignatureLineImage" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SignatureLineImage" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指示签名行图像。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="siglnimgSigned">
+      <MemberSignature Language="C#" Value="siglnimgSigned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureLineImage siglnimgSigned = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureLineImage.siglnimgSigned" />
+      <MemberSignature Language="VB.NET" Value="siglnimgSigned" />
+      <MemberSignature Language="C++ CLI" Value="siglnimgSigned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureLineImage</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="siglnimgSignedInvalid">
+      <MemberSignature Language="C#" Value="siglnimgSignedInvalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureLineImage siglnimgSignedInvalid = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureLineImage.siglnimgSignedInvalid" />
+      <MemberSignature Language="VB.NET" Value="siglnimgSignedInvalid" />
+      <MemberSignature Language="C++ CLI" Value="siglnimgSignedInvalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureLineImage</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>SignedInvalid 图像。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="siglnimgSignedValid">
+      <MemberSignature Language="C#" Value="siglnimgSignedValid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureLineImage siglnimgSignedValid = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureLineImage.siglnimgSignedValid" />
+      <MemberSignature Language="VB.NET" Value="siglnimgSignedValid" />
+      <MemberSignature Language="C++ CLI" Value="siglnimgSignedValid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureLineImage</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>SignedValid 图像。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="siglnimgSoftwareRequired">
+      <MemberSignature Language="C#" Value="siglnimgSoftwareRequired" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureLineImage siglnimgSoftwareRequired = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureLineImage.siglnimgSoftwareRequired" />
+      <MemberSignature Language="VB.NET" Value="siglnimgSoftwareRequired" />
+      <MemberSignature Language="C++ CLI" Value="siglnimgSoftwareRequired" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureLineImage</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>SoftwareRequired 图像。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="siglnimgUnsigned">
+      <MemberSignature Language="C#" Value="siglnimgUnsigned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureLineImage siglnimgUnsigned = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureLineImage.siglnimgUnsigned" />
+      <MemberSignature Language="VB.NET" Value="siglnimgUnsigned" />
+      <MemberSignature Language="C++ CLI" Value="siglnimgUnsigned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureLineImage</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Unsigned 图像。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

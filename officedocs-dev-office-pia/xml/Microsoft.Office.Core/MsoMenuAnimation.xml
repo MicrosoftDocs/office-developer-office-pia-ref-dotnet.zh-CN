@@ -1,0 +1,104 @@
+<Type Name="MsoMenuAnimation" FullName="Microsoft.Office.Core.MsoMenuAnimation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="af7ce2cc0b092e897ab3a368ae2b076f23885785" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658255" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoMenuAnimation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoMenuAnimation extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoMenuAnimation" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoMenuAnimation" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoMenuAnimation" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定 Microsoft Office 命令栏的动画样式。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoMenuAnimationNone">
+      <MemberSignature Language="C#" Value="msoMenuAnimationNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMenuAnimation msoMenuAnimationNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMenuAnimation.msoMenuAnimationNone" />
+      <MemberSignature Language="VB.NET" Value="msoMenuAnimationNone" />
+      <MemberSignature Language="C++ CLI" Value="msoMenuAnimationNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMenuAnimation</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>无动画。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMenuAnimationRandom">
+      <MemberSignature Language="C#" Value="msoMenuAnimationRandom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMenuAnimation msoMenuAnimationRandom = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMenuAnimation.msoMenuAnimationRandom" />
+      <MemberSignature Language="VB.NET" Value="msoMenuAnimationRandom" />
+      <MemberSignature Language="C++ CLI" Value="msoMenuAnimationRandom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMenuAnimation</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>随机动画。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMenuAnimationSlide">
+      <MemberSignature Language="C#" Value="msoMenuAnimationSlide" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMenuAnimation msoMenuAnimationSlide = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMenuAnimation.msoMenuAnimationSlide" />
+      <MemberSignature Language="VB.NET" Value="msoMenuAnimationSlide" />
+      <MemberSignature Language="C++ CLI" Value="msoMenuAnimationSlide" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMenuAnimation</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>菜单滑入视图。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMenuAnimationUnfold">
+      <MemberSignature Language="C#" Value="msoMenuAnimationUnfold" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMenuAnimation msoMenuAnimationUnfold = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMenuAnimation.msoMenuAnimationUnfold" />
+      <MemberSignature Language="VB.NET" Value="msoMenuAnimationUnfold" />
+      <MemberSignature Language="C++ CLI" Value="msoMenuAnimationUnfold" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMenuAnimation</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>菜单展开进入视图。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

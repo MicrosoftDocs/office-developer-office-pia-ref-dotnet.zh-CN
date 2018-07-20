@@ -1,0 +1,74 @@
+<Type Name="XlColorIndex" FullName="Microsoft.Office.Core.XlColorIndex">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1aa365493fb2a613ef646c91f13edbf39da58d1a" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657377" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlColorIndex" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlColorIndex extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlColorIndex" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlColorIndex" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlColorIndex" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("F6BA0ED9-B530-466E-83D5-325653CC1068")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定所选的功能，如边框、 字体或填充的颜色。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlColorIndexAutomatic">
+      <MemberSignature Language="C#" Value="xlColorIndexAutomatic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlColorIndex xlColorIndexAutomatic = int32(-4105)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlColorIndex.xlColorIndexAutomatic" />
+      <MemberSignature Language="VB.NET" Value="xlColorIndexAutomatic" />
+      <MemberSignature Language="C++ CLI" Value="xlColorIndexAutomatic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4105</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  自动配色。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlColorIndexNone">
+      <MemberSignature Language="C#" Value="xlColorIndexNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlColorIndex xlColorIndexNone = int32(-4142)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlColorIndex.xlColorIndexNone" />
+      <MemberSignature Language="VB.NET" Value="xlColorIndexNone" />
+      <MemberSignature Language="C++ CLI" Value="xlColorIndexNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4142</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  无颜色。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

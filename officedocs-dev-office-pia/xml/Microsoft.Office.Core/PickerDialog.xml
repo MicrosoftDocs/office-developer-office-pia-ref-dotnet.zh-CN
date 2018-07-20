@@ -1,0 +1,295 @@
+<Type Name="PickerDialog" FullName="Microsoft.Office.Core.PickerDialog">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="96779d0c5dd6c298023f061988fdb20861aa7710" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657947" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface PickerDialog : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PickerDialog implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.PickerDialog" />
+  <TypeSignature Language="VB.NET" Value="Public Interface PickerDialog&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class PickerDialog : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03E6-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>提供用于选择人员或选择数据的对话框用户界面功能。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.PickerDialog.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取<see cref="T:System.Object" />代表<b>PickerDialog</b>对象的容器应用程序的<b>Application</b>对象。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>只读的。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatePickerResults">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.PickerResults CreatePickerResults ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.PickerResults CreatePickerResults() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.PickerDialog.CreatePickerResults" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreatePickerResults () As PickerResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::PickerResults ^ CreatePickerResults();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.PickerResults</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>创建一个空<see cref="T:Microsoft.Office.Core.PickerResults" />对象。</summary>
+        <returns>返回<see cref="T:Microsoft.Office.Core.PickerResults" />。</returns>
+        <remarks>
+          <para>您可以将选取器结果添加到返回的对象并将它指定到第二个参数的<see cref="M:Microsoft.Office.Core.PickerDialog.Show" />方法已存在的<b>PickerDialog</b>对象的结果。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.PickerDialog.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取一个指示在其中创建<b>PickerDialog</b>对象的应用程序的 32 位整数。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>只读的。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataHandlerId">
+      <MemberSignature Language="C#" Value="public string DataHandlerId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DataHandlerId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.PickerDialog.DataHandlerId" />
+      <MemberSignature Language="VB.NET" Value="Public Property DataHandlerId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DataHandlerId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>设置或获取选取器对话框数据处理程序组件的 GUID。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>读/写。调用选取器对话框之前，必须指定此属性。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Properties">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.PickerProperties Properties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.PickerProperties Properties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.PickerDialog.Properties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As PickerProperties" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::PickerProperties ^ Properties { Microsoft::Office::Core::PickerProperties ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.PickerProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回<see cref="T:Microsoft.Office.Core.PickerProperties" />对象以指定数据处理程序组件的自定义属性。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>只读的。<b>PickerProperties</b>对象的属性将传递给数据处理程序。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Resolve">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.PickerResults Resolve (string TokenText, int duplicateDlgMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.PickerResults Resolve([in]string TokenText, [in]int32 duplicateDlgMode) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.PickerDialog.Resolve(System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Resolve (TokenText As String, duplicateDlgMode As Integer) As PickerResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::PickerResults ^ Resolve(System::String ^ TokenText, int duplicateDlgMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.PickerResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TokenText" Type="System.String" />
+        <Parameter Name="duplicateDlgMode" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="TokenText">要解析的文本字符串。</param>
+        <param name="duplicateDlgMode">To be added.</param>
+        <summary>解析标记使用选取器对话框并检索结果。</summary>
+        <returns>返回<see cref="T:Microsoft.Office.Core.PickerResults" />。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Show">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.PickerResults Show (bool IsMultiSelect = false, Microsoft.Office.Core.PickerResults ExistingResults = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.PickerResults Show([in]bool IsMultiSelect, [in]class Microsoft.Office.Core.PickerResults ExistingResults) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.PickerDialog.Show(System.Boolean,Microsoft.Office.Core.PickerResults)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Show (Optional IsMultiSelect As Boolean = false, Optional ExistingResults As PickerResults = null) As PickerResults" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.PickerResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="IsMultiSelect" Type="System.Boolean" />
+        <Parameter Name="ExistingResults" Type="Microsoft.Office.Core.PickerResults" />
+      </Parameters>
+      <Docs>
+        <param name="IsMultiSelect">指定选取器对话框用户界面是否提供多项选择功能。</param>
+        <param name="ExistingResults">包含现有<see cref="T:Microsoft.Office.Core.PickerResults" />选取器对话框用户界面中。 所选的项目控件中显示这些结果。</param>
+        <summary>使用已指定的数据处理程序和给定的选项显示选取器对话框。</summary>
+        <returns>返回<see cref="T:Microsoft.Office.Core.PickerResults" />。</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Title">
+      <MemberSignature Language="C#" Value="public string Title { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Title" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.PickerDialog.Title" />
+      <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>获取或设置在选取器对话框中显示选取器对话框的标题。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>读/写。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

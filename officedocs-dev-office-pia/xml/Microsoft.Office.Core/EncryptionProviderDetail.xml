@@ -1,0 +1,123 @@
+<Type Name="EncryptionProviderDetail" FullName="Microsoft.Office.Core.EncryptionProviderDetail">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e49db39f0f187d3c113665b3599a11c26aff0b49" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657812" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum EncryptionProviderDetail" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EncryptionProviderDetail extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.EncryptionProviderDetail" />
+  <TypeSignature Language="VB.NET" Value="Public Enum EncryptionProviderDetail" />
+  <TypeSignature Language="C++ CLI" Value="public enum class EncryptionProviderDetail" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="encprovdetAlgorithm">
+      <MemberSignature Language="C#" Value="encprovdetAlgorithm" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.EncryptionProviderDetail encprovdetAlgorithm = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.EncryptionProviderDetail.encprovdetAlgorithm" />
+      <MemberSignature Language="VB.NET" Value="encprovdetAlgorithm" />
+      <MemberSignature Language="C++ CLI" Value="encprovdetAlgorithm" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.EncryptionProviderDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="encprovdetBlockCipher">
+      <MemberSignature Language="C#" Value="encprovdetBlockCipher" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.EncryptionProviderDetail encprovdetBlockCipher = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.EncryptionProviderDetail.encprovdetBlockCipher" />
+      <MemberSignature Language="VB.NET" Value="encprovdetBlockCipher" />
+      <MemberSignature Language="C++ CLI" Value="encprovdetBlockCipher" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.EncryptionProviderDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="encprovdetCipherBlockSize">
+      <MemberSignature Language="C#" Value="encprovdetCipherBlockSize" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.EncryptionProviderDetail encprovdetCipherBlockSize = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.EncryptionProviderDetail.encprovdetCipherBlockSize" />
+      <MemberSignature Language="VB.NET" Value="encprovdetCipherBlockSize" />
+      <MemberSignature Language="C++ CLI" Value="encprovdetCipherBlockSize" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.EncryptionProviderDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="encprovdetCipherMode">
+      <MemberSignature Language="C#" Value="encprovdetCipherMode" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.EncryptionProviderDetail encprovdetCipherMode = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.EncryptionProviderDetail.encprovdetCipherMode" />
+      <MemberSignature Language="VB.NET" Value="encprovdetCipherMode" />
+      <MemberSignature Language="C++ CLI" Value="encprovdetCipherMode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.EncryptionProviderDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="encprovdetUrl">
+      <MemberSignature Language="C#" Value="encprovdetUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.EncryptionProviderDetail encprovdetUrl = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.EncryptionProviderDetail.encprovdetUrl" />
+      <MemberSignature Language="VB.NET" Value="encprovdetUrl" />
+      <MemberSignature Language="C++ CLI" Value="encprovdetUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.EncryptionProviderDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

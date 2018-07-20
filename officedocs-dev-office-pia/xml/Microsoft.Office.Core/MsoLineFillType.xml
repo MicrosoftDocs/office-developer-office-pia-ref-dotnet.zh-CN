@@ -1,0 +1,180 @@
+<Type Name="MsoLineFillType" FullName="Microsoft.Office.Core.MsoLineFillType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8a3d9192b5b70ac4ab84f70c5a28d52c08c5e4ce" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658250" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoLineFillType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoLineFillType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoLineFillType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoLineFillType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoLineFillType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定线条的填充的类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoLineFillBackground">
+      <MemberSignature Language="C#" Value="msoLineFillBackground" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineFillType msoLineFillBackground = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineFillType.msoLineFillBackground" />
+      <MemberSignature Language="VB.NET" Value="msoLineFillBackground" />
+      <MemberSignature Language="C++ CLI" Value="msoLineFillBackground" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineFillType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>指定同一填充与背景。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineFillGradient">
+      <MemberSignature Language="C#" Value="msoLineFillGradient" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineFillType msoLineFillGradient = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineFillType.msoLineFillGradient" />
+      <MemberSignature Language="VB.NET" Value="msoLineFillGradient" />
+      <MemberSignature Language="C++ CLI" Value="msoLineFillGradient" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineFillType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>指定渐变线填充。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineFillMixed">
+      <MemberSignature Language="C#" Value="msoLineFillMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineFillType msoLineFillMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineFillType.msoLineFillMixed" />
+      <MemberSignature Language="VB.NET" Value="msoLineFillMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoLineFillMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineFillType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>指定混和的行填充类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineFillNone">
+      <MemberSignature Language="C#" Value="msoLineFillNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineFillType msoLineFillNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineFillType.msoLineFillNone" />
+      <MemberSignature Language="VB.NET" Value="msoLineFillNone" />
+      <MemberSignature Language="C++ CLI" Value="msoLineFillNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineFillType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>没有行填充。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineFillPatterned">
+      <MemberSignature Language="C#" Value="msoLineFillPatterned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineFillType msoLineFillPatterned = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineFillType.msoLineFillPatterned" />
+      <MemberSignature Language="VB.NET" Value="msoLineFillPatterned" />
+      <MemberSignature Language="C++ CLI" Value="msoLineFillPatterned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineFillType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>指定图案线条填充。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineFillPicture">
+      <MemberSignature Language="C#" Value="msoLineFillPicture" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineFillType msoLineFillPicture = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineFillType.msoLineFillPicture" />
+      <MemberSignature Language="VB.NET" Value="msoLineFillPicture" />
+      <MemberSignature Language="C++ CLI" Value="msoLineFillPicture" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineFillType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>指定图片行填充。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineFillSolid">
+      <MemberSignature Language="C#" Value="msoLineFillSolid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineFillType msoLineFillSolid = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineFillType.msoLineFillSolid" />
+      <MemberSignature Language="VB.NET" Value="msoLineFillSolid" />
+      <MemberSignature Language="C++ CLI" Value="msoLineFillSolid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineFillType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>指定颜色实线填充。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineFillTextured">
+      <MemberSignature Language="C#" Value="msoLineFillTextured" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineFillType msoLineFillTextured = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineFillType.msoLineFillTextured" />
+      <MemberSignature Language="VB.NET" Value="msoLineFillTextured" />
+      <MemberSignature Language="C++ CLI" Value="msoLineFillTextured" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineFillType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>指定行纹理的填充。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

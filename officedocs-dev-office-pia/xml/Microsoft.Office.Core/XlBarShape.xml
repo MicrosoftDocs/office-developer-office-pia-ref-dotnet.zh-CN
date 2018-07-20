@@ -1,0 +1,147 @@
+<Type Name="XlBarShape" FullName="Microsoft.Office.Core.XlBarShape">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="13aaf124c61a0d82ed94380fc23eac31f977e6f2" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657856" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlBarShape" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlBarShape extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlBarShape" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlBarShape" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlBarShape" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  指定用于三维条形图或柱形图的形状。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlBox">
+      <MemberSignature Language="C#" Value="xlBox" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlBarShape xlBox = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlBarShape.xlBox" />
+      <MemberSignature Language="VB.NET" Value="xlBox" />
+      <MemberSignature Language="C++ CLI" Value="xlBox" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlBarShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  框。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlConeToMax">
+      <MemberSignature Language="C#" Value="xlConeToMax" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlBarShape xlConeToMax = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlBarShape.xlConeToMax" />
+      <MemberSignature Language="VB.NET" Value="xlConeToMax" />
+      <MemberSignature Language="C++ CLI" Value="xlConeToMax" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlBarShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  锥形，在特定值上截断。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlConeToPoint">
+      <MemberSignature Language="C#" Value="xlConeToPoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlBarShape xlConeToPoint = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlBarShape.xlConeToPoint" />
+      <MemberSignature Language="VB.NET" Value="xlConeToPoint" />
+      <MemberSignature Language="C++ CLI" Value="xlConeToPoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlBarShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  锥形，在特定值上变成一点。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlCylinder">
+      <MemberSignature Language="C#" Value="xlCylinder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlBarShape xlCylinder = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlBarShape.xlCylinder" />
+      <MemberSignature Language="VB.NET" Value="xlCylinder" />
+      <MemberSignature Language="C++ CLI" Value="xlCylinder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlBarShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  圆柱形。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPyramidToMax">
+      <MemberSignature Language="C#" Value="xlPyramidToMax" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlBarShape xlPyramidToMax = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlBarShape.xlPyramidToMax" />
+      <MemberSignature Language="VB.NET" Value="xlPyramidToMax" />
+      <MemberSignature Language="C++ CLI" Value="xlPyramidToMax" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlBarShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  金字塔，在特定值上截断。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPyramidToPoint">
+      <MemberSignature Language="C#" Value="xlPyramidToPoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlBarShape xlPyramidToPoint = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlBarShape.xlPyramidToPoint" />
+      <MemberSignature Language="VB.NET" Value="xlPyramidToPoint" />
+      <MemberSignature Language="C++ CLI" Value="xlPyramidToPoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlBarShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。  金字塔，在特定值上变成一点。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

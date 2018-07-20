@@ -1,0 +1,142 @@
+<Type Name="MsoZOrderCmd" FullName="Microsoft.Office.Core.MsoZOrderCmd">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e114e5c6f09722bde30ee56be1c2e1e2a9adaab1" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658339" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoZOrderCmd" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoZOrderCmd extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoZOrderCmd" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoZOrderCmd" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoZOrderCmd" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定要将形状移动到的相对于其他形状的 z-顺序位置。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoBringForward">
+      <MemberSignature Language="C#" Value="msoBringForward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoZOrderCmd msoBringForward = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoZOrderCmd.msoBringForward" />
+      <MemberSignature Language="VB.NET" Value="msoBringForward" />
+      <MemberSignature Language="C++ CLI" Value="msoBringForward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoZOrderCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>使形状上移一层。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBringInFrontOfText">
+      <MemberSignature Language="C#" Value="msoBringInFrontOfText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoZOrderCmd msoBringInFrontOfText = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoZOrderCmd.msoBringInFrontOfText" />
+      <MemberSignature Language="VB.NET" Value="msoBringInFrontOfText" />
+      <MemberSignature Language="C++ CLI" Value="msoBringInFrontOfText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoZOrderCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>使形状浮于文字上方。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBringToFront">
+      <MemberSignature Language="C#" Value="msoBringToFront" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoZOrderCmd msoBringToFront = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoZOrderCmd.msoBringToFront" />
+      <MemberSignature Language="VB.NET" Value="msoBringToFront" />
+      <MemberSignature Language="C++ CLI" Value="msoBringToFront" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoZOrderCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>使形状置于顶层。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSendBackward">
+      <MemberSignature Language="C#" Value="msoSendBackward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoZOrderCmd msoSendBackward = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoZOrderCmd.msoSendBackward" />
+      <MemberSignature Language="VB.NET" Value="msoSendBackward" />
+      <MemberSignature Language="C++ CLI" Value="msoSendBackward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoZOrderCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>使形状下移一层。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSendBehindText">
+      <MemberSignature Language="C#" Value="msoSendBehindText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoZOrderCmd msoSendBehindText = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoZOrderCmd.msoSendBehindText" />
+      <MemberSignature Language="VB.NET" Value="msoSendBehindText" />
+      <MemberSignature Language="C++ CLI" Value="msoSendBehindText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoZOrderCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>使形状衬于文字下方。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSendToBack">
+      <MemberSignature Language="C#" Value="msoSendToBack" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoZOrderCmd msoSendToBack = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoZOrderCmd.msoSendToBack" />
+      <MemberSignature Language="VB.NET" Value="msoSendToBack" />
+      <MemberSignature Language="C++ CLI" Value="msoSendToBack" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoZOrderCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>使形状置于底层。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,123 @@
+<Type Name="MsoGradientColorType" FullName="Microsoft.Office.Core.MsoGradientColorType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6d341a737d25df2ff8fa3625be8baf1d9d530d0b" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658085" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoGradientColorType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoGradientColorType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoGradientColorType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoGradientColorType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoGradientColorType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定用于形状填充的渐变类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoGradientColorMixed">
+      <MemberSignature Language="C#" Value="msoGradientColorMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoGradientColorType msoGradientColorMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoGradientColorType.msoGradientColorMixed" />
+      <MemberSignature Language="VB.NET" Value="msoGradientColorMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientColorMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoGradientColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>混和渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientMultiColor">
+      <MemberSignature Language="C#" Value="msoGradientMultiColor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoGradientColorType msoGradientMultiColor = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoGradientColorType.msoGradientMultiColor" />
+      <MemberSignature Language="VB.NET" Value="msoGradientMultiColor" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientMultiColor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoGradientColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientOneColor">
+      <MemberSignature Language="C#" Value="msoGradientOneColor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoGradientColorType msoGradientOneColor = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoGradientColorType.msoGradientOneColor" />
+      <MemberSignature Language="VB.NET" Value="msoGradientOneColor" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientOneColor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoGradientColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>单色渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientPresetColors">
+      <MemberSignature Language="C#" Value="msoGradientPresetColors" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoGradientColorType msoGradientPresetColors = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoGradientColorType.msoGradientPresetColors" />
+      <MemberSignature Language="VB.NET" Value="msoGradientPresetColors" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientPresetColors" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoGradientColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>根据<b>msoPresetGradientType</b>常量定义的设置的内置渐变设置渐变颜色。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientTwoColors">
+      <MemberSignature Language="C#" Value="msoGradientTwoColors" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoGradientColorType msoGradientTwoColors = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoGradientColorType.msoGradientTwoColors" />
+      <MemberSignature Language="VB.NET" Value="msoGradientTwoColors" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientTwoColors" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoGradientColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>双色渐变。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

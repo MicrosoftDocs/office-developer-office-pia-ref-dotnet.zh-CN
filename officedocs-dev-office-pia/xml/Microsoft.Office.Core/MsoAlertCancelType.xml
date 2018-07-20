@@ -1,0 +1,142 @@
+<Type Name="MsoAlertCancelType" FullName="Microsoft.Office.Core.MsoAlertCancelType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="db062cb165ecd09e8cd44e4af3942c26459a1ca7" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657385" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoAlertCancelType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoAlertCancelType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoAlertCancelType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoAlertCancelType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoAlertCancelType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定用户取消通知时的行为。 仅<see cref="F:Microsoft.Office.Core.MsoAlertCancelType.msoAlertCancelDefault" />当前支持。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoAlertCancelDefault">
+      <MemberSignature Language="C#" Value="msoAlertCancelDefault" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAlertCancelType msoAlertCancelDefault = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAlertCancelType.msoAlertCancelDefault" />
+      <MemberSignature Language="VB.NET" Value="msoAlertCancelDefault" />
+      <MemberSignature Language="C++ CLI" Value="msoAlertCancelDefault" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAlertCancelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>取消警告的默认行为。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlertCancelFifth">
+      <MemberSignature Language="C#" Value="msoAlertCancelFifth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAlertCancelType msoAlertCancelFifth = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAlertCancelType.msoAlertCancelFifth" />
+      <MemberSignature Language="VB.NET" Value="msoAlertCancelFifth" />
+      <MemberSignature Language="C++ CLI" Value="msoAlertCancelFifth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAlertCancelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>不支持。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlertCancelFirst">
+      <MemberSignature Language="C#" Value="msoAlertCancelFirst" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAlertCancelType msoAlertCancelFirst = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAlertCancelType.msoAlertCancelFirst" />
+      <MemberSignature Language="VB.NET" Value="msoAlertCancelFirst" />
+      <MemberSignature Language="C++ CLI" Value="msoAlertCancelFirst" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAlertCancelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>不支持。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlertCancelFourth">
+      <MemberSignature Language="C#" Value="msoAlertCancelFourth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAlertCancelType msoAlertCancelFourth = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAlertCancelType.msoAlertCancelFourth" />
+      <MemberSignature Language="VB.NET" Value="msoAlertCancelFourth" />
+      <MemberSignature Language="C++ CLI" Value="msoAlertCancelFourth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAlertCancelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>不支持。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlertCancelSecond">
+      <MemberSignature Language="C#" Value="msoAlertCancelSecond" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAlertCancelType msoAlertCancelSecond = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAlertCancelType.msoAlertCancelSecond" />
+      <MemberSignature Language="VB.NET" Value="msoAlertCancelSecond" />
+      <MemberSignature Language="C++ CLI" Value="msoAlertCancelSecond" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAlertCancelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>不支持。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlertCancelThird">
+      <MemberSignature Language="C#" Value="msoAlertCancelThird" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAlertCancelType msoAlertCancelThird = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAlertCancelType.msoAlertCancelThird" />
+      <MemberSignature Language="VB.NET" Value="msoAlertCancelThird" />
+      <MemberSignature Language="C++ CLI" Value="msoAlertCancelThird" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAlertCancelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>不支持。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

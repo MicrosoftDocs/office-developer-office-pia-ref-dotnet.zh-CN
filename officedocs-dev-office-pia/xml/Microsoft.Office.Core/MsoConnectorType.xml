@@ -1,0 +1,104 @@
+<Type Name="MsoConnectorType" FullName="Microsoft.Office.Core.MsoConnectorType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fd4d305cabf081250b48e0838cacfc74de34bb43" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657927" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoConnectorType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoConnectorType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoConnectorType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoConnectorType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoConnectorType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定连接符的类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoConnectorCurve">
+      <MemberSignature Language="C#" Value="msoConnectorCurve" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoConnectorType msoConnectorCurve = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoConnectorType.msoConnectorCurve" />
+      <MemberSignature Language="VB.NET" Value="msoConnectorCurve" />
+      <MemberSignature Language="C++ CLI" Value="msoConnectorCurve" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoConnectorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>曲线连接符。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConnectorElbow">
+      <MemberSignature Language="C#" Value="msoConnectorElbow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoConnectorType msoConnectorElbow = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoConnectorType.msoConnectorElbow" />
+      <MemberSignature Language="VB.NET" Value="msoConnectorElbow" />
+      <MemberSignature Language="C++ CLI" Value="msoConnectorElbow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoConnectorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>肘形连接符。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConnectorStraight">
+      <MemberSignature Language="C#" Value="msoConnectorStraight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoConnectorType msoConnectorStraight = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoConnectorType.msoConnectorStraight" />
+      <MemberSignature Language="VB.NET" Value="msoConnectorStraight" />
+      <MemberSignature Language="C++ CLI" Value="msoConnectorStraight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoConnectorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>直线连接符。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConnectorTypeMixed">
+      <MemberSignature Language="C#" Value="msoConnectorTypeMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoConnectorType msoConnectorTypeMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoConnectorType.msoConnectorTypeMixed" />
+      <MemberSignature Language="VB.NET" Value="msoConnectorTypeMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoConnectorTypeMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoConnectorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>只返回值，表示其他状态的组合。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

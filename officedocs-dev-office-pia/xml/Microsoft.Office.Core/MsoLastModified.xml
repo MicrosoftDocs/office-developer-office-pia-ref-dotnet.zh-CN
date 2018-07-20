@@ -1,0 +1,166 @@
+<Type Name="MsoLastModified" FullName="Microsoft.Office.Core.MsoLastModified">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5e2e57aed0d122981a96f3fb7099b54fe7b46133" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657408" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoLastModified" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoLastModified extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoLastModified" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoLastModified" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoLastModified" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>指定筛选器文件的上次修改的日期时间的段。 与<b>FileSearch</b>对象的<b>LastModified</b>属性一起使用。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoLastModifiedAnyTime">
+      <MemberSignature Language="C#" Value="msoLastModifiedAnyTime" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLastModified msoLastModifiedAnyTime = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLastModified.msoLastModifiedAnyTime" />
+      <MemberSignature Language="VB.NET" Value="msoLastModifiedAnyTime" />
+      <MemberSignature Language="C++ CLI" Value="msoLastModifiedAnyTime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLastModified</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>上次修改文件的任何时间。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLastModifiedLastMonth">
+      <MemberSignature Language="C#" Value="msoLastModifiedLastMonth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLastModified msoLastModifiedLastMonth = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLastModified.msoLastModifiedLastMonth" />
+      <MemberSignature Language="VB.NET" Value="msoLastModifiedLastMonth" />
+      <MemberSignature Language="C++ CLI" Value="msoLastModifiedLastMonth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLastModified</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>上次修改文件的最后一个月。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLastModifiedLastWeek">
+      <MemberSignature Language="C#" Value="msoLastModifiedLastWeek" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLastModified msoLastModifiedLastWeek = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLastModified.msoLastModifiedLastWeek" />
+      <MemberSignature Language="VB.NET" Value="msoLastModifiedLastWeek" />
+      <MemberSignature Language="C++ CLI" Value="msoLastModifiedLastWeek" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLastModified</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>上次修改文件的最后一个星期。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLastModifiedThisMonth">
+      <MemberSignature Language="C#" Value="msoLastModifiedThisMonth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLastModified msoLastModifiedThisMonth = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLastModified.msoLastModifiedThisMonth" />
+      <MemberSignature Language="VB.NET" Value="msoLastModifiedThisMonth" />
+      <MemberSignature Language="C++ CLI" Value="msoLastModifiedThisMonth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLastModified</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>上次修改本月的文件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLastModifiedThisWeek">
+      <MemberSignature Language="C#" Value="msoLastModifiedThisWeek" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLastModified msoLastModifiedThisWeek = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLastModified.msoLastModifiedThisWeek" />
+      <MemberSignature Language="VB.NET" Value="msoLastModifiedThisWeek" />
+      <MemberSignature Language="C++ CLI" Value="msoLastModifiedThisWeek" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLastModified</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>上次修改时间本周的文件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLastModifiedToday">
+      <MemberSignature Language="C#" Value="msoLastModifiedToday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLastModified msoLastModifiedToday = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLastModified.msoLastModifiedToday" />
+      <MemberSignature Language="VB.NET" Value="msoLastModifiedToday" />
+      <MemberSignature Language="C++ CLI" Value="msoLastModifiedToday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLastModified</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>上次修改今天文件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLastModifiedYesterday">
+      <MemberSignature Language="C#" Value="msoLastModifiedYesterday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLastModified msoLastModifiedYesterday = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLastModified.msoLastModifiedYesterday" />
+      <MemberSignature Language="VB.NET" Value="msoLastModifiedYesterday" />
+      <MemberSignature Language="C++ CLI" Value="msoLastModifiedYesterday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLastModified</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>上次修改昨天的文件。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

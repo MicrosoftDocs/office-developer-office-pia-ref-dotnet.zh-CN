@@ -1,0 +1,218 @@
+<Type Name="MsoFilterComparison" FullName="Microsoft.Office.Core.MsoFilterComparison">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="634d4beca5f7a2a67a60ac3b558731e084992f23" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657826" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoFilterComparison" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFilterComparison extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFilterComparison" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoFilterComparison" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoFilterComparison" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定如何比较 <b>ODSOFilter</b> 对象的 <b>Column</b> 和 <b>CompareTo</b> 属性。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoFilterComparisonContains">
+      <MemberSignature Language="C#" Value="msoFilterComparisonContains" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFilterComparison msoFilterComparisonContains = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFilterComparison.msoFilterComparisonContains" />
+      <MemberSignature Language="VB.NET" Value="msoFilterComparisonContains" />
+      <MemberSignature Language="C++ CLI" Value="msoFilterComparisonContains" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFilterComparison</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>如果<b>CompareTo</b>字符串的任何部分包含在<b>列值</b>中，<b>列</b>与<b>CompareTo</b>匹配。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFilterComparisonEqual">
+      <MemberSignature Language="C#" Value="msoFilterComparisonEqual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFilterComparison msoFilterComparisonEqual = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFilterComparison.msoFilterComparisonEqual" />
+      <MemberSignature Language="VB.NET" Value="msoFilterComparisonEqual" />
+      <MemberSignature Language="C++ CLI" Value="msoFilterComparisonEqual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFilterComparison</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>如果<b>CompareTo</b>值与<b>列值</b>相同，<b>列</b>与<b>CompareTo</b>匹配。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFilterComparisonGreaterThan">
+      <MemberSignature Language="C#" Value="msoFilterComparisonGreaterThan" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFilterComparison msoFilterComparisonGreaterThan = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFilterComparison.msoFilterComparisonGreaterThan" />
+      <MemberSignature Language="VB.NET" Value="msoFilterComparisonGreaterThan" />
+      <MemberSignature Language="C++ CLI" Value="msoFilterComparisonGreaterThan" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFilterComparison</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>如果<b>列值</b>大于<b>CompareTo</b>值，<b>列</b>与<b>CompareTo</b>匹配。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFilterComparisonGreaterThanEqual">
+      <MemberSignature Language="C#" Value="msoFilterComparisonGreaterThanEqual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFilterComparison msoFilterComparisonGreaterThanEqual = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFilterComparison.msoFilterComparisonGreaterThanEqual" />
+      <MemberSignature Language="VB.NET" Value="msoFilterComparisonGreaterThanEqual" />
+      <MemberSignature Language="C++ CLI" Value="msoFilterComparisonGreaterThanEqual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFilterComparison</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>如果<b>列值</b>大于或等于<b>CompareTo</b>值，<b>列</b>与<b>CompareTo</b>匹配。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFilterComparisonIsBlank">
+      <MemberSignature Language="C#" Value="msoFilterComparisonIsBlank" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFilterComparison msoFilterComparisonIsBlank = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFilterComparison.msoFilterComparisonIsBlank" />
+      <MemberSignature Language="VB.NET" Value="msoFilterComparisonIsBlank" />
+      <MemberSignature Language="C++ CLI" Value="msoFilterComparisonIsBlank" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFilterComparison</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>如果<b>列为空</b>，则<b>列</b>通过筛选器。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFilterComparisonIsNotBlank">
+      <MemberSignature Language="C#" Value="msoFilterComparisonIsNotBlank" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFilterComparison msoFilterComparisonIsNotBlank = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFilterComparison.msoFilterComparisonIsNotBlank" />
+      <MemberSignature Language="VB.NET" Value="msoFilterComparisonIsNotBlank" />
+      <MemberSignature Language="C++ CLI" Value="msoFilterComparisonIsNotBlank" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFilterComparison</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>如果<b>列为空</b>，则<b>列</b>通过筛选器。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFilterComparisonLessThan">
+      <MemberSignature Language="C#" Value="msoFilterComparisonLessThan" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFilterComparison msoFilterComparisonLessThan = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFilterComparison.msoFilterComparisonLessThan" />
+      <MemberSignature Language="VB.NET" Value="msoFilterComparisonLessThan" />
+      <MemberSignature Language="C++ CLI" Value="msoFilterComparisonLessThan" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFilterComparison</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>如果<b>列值</b>小于<b>CompareTo</b>值，<b>列</b>与<b>CompareTo</b>匹配。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFilterComparisonLessThanEqual">
+      <MemberSignature Language="C#" Value="msoFilterComparisonLessThanEqual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFilterComparison msoFilterComparisonLessThanEqual = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFilterComparison.msoFilterComparisonLessThanEqual" />
+      <MemberSignature Language="VB.NET" Value="msoFilterComparisonLessThanEqual" />
+      <MemberSignature Language="C++ CLI" Value="msoFilterComparisonLessThanEqual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFilterComparison</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>如果<b>列值</b>小于或等于<b>CompareTo</b>值，<b>列</b>与<b>CompareTo</b>匹配。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFilterComparisonNotContains">
+      <MemberSignature Language="C#" Value="msoFilterComparisonNotContains" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFilterComparison msoFilterComparisonNotContains = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFilterComparison.msoFilterComparisonNotContains" />
+      <MemberSignature Language="VB.NET" Value="msoFilterComparisonNotContains" />
+      <MemberSignature Language="C++ CLI" Value="msoFilterComparisonNotContains" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFilterComparison</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>如果<b>CompareTo</b>字符串的任何部分不包含在<b>列值</b>中，<b>列</b>与<b>CompareTo</b>匹配。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFilterComparisonNotEqual">
+      <MemberSignature Language="C#" Value="msoFilterComparisonNotEqual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFilterComparison msoFilterComparisonNotEqual = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFilterComparison.msoFilterComparisonNotEqual" />
+      <MemberSignature Language="VB.NET" Value="msoFilterComparisonNotEqual" />
+      <MemberSignature Language="C++ CLI" Value="msoFilterComparisonNotEqual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFilterComparison</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>如果<b>CompareTo</b>值不等于<b>列值</b>，<b>列</b>与<b>CompareTo</b>匹配。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,85 @@
+<Type Name="MsoButtonState" FullName="Microsoft.Office.Core.MsoButtonState">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0f799fafba8f2581ff7934441991a7b18b2aad3c" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657361" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoButtonState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoButtonState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoButtonState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoButtonState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoButtonState" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定命令栏按钮控件的外观。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoButtonDown">
+      <MemberSignature Language="C#" Value="msoButtonDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonState msoButtonDown = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonState.msoButtonDown" />
+      <MemberSignature Language="VB.NET" Value="msoButtonDown" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonState</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>按钮已按下。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonMixed">
+      <MemberSignature Language="C#" Value="msoButtonMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonState msoButtonMixed = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonState.msoButtonMixed" />
+      <MemberSignature Language="VB.NET" Value="msoButtonMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>按钮已按下。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoButtonUp">
+      <MemberSignature Language="C#" Value="msoButtonUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoButtonState msoButtonUp = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoButtonState.msoButtonUp" />
+      <MemberSignature Language="VB.NET" Value="msoButtonUp" />
+      <MemberSignature Language="C++ CLI" Value="msoButtonUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoButtonState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>按钮未按下。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

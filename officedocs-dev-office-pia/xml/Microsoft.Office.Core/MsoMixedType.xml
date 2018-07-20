@@ -1,0 +1,66 @@
+<Type Name="MsoMixedType" FullName="Microsoft.Office.Core.MsoMixedType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="31ebb4a6ac9820cfbf72c20fbe49c0e858d02594" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658170" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoMixedType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoMixedType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoMixedType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoMixedType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoMixedType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>此枚举已经被弃用，不应使用。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoIntegerMixed">
+      <MemberSignature Language="C#" Value="msoIntegerMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMixedType msoIntegerMixed = int32(32768)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMixedType.msoIntegerMixed" />
+      <MemberSignature Language="VB.NET" Value="msoIntegerMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoIntegerMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMixedType</ReturnType>
+      </ReturnValue>
+      <MemberValue>32768</MemberValue>
+      <Docs>
+        <summary>仅内部使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSingleMixed">
+      <MemberSignature Language="C#" Value="msoSingleMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoMixedType msoSingleMixed = int32(-2147483648)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoMixedType.msoSingleMixed" />
+      <MemberSignature Language="VB.NET" Value="msoSingleMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoSingleMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMixedType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2147483648</MemberValue>
+      <Docs>
+        <summary>仅内部使用。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

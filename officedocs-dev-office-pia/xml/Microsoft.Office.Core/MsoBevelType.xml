@@ -1,0 +1,294 @@
+<Type Name="MsoBevelType" FullName="Microsoft.Office.Core.MsoBevelType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ce758eaf7231c985113b26a07b31dacc053d1209" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658064" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoBevelType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBevelType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBevelType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoBevelType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoBevelType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指示凹凸效果类型的<see cref="T:Microsoft.Office.Core.ThreeDFormat" />对象。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoBevelAngle">
+      <MemberSignature Language="C#" Value="msoBevelAngle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBevelType msoBevelAngle = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBevelType.msoBevelAngle" />
+      <MemberSignature Language="VB.NET" Value="msoBevelAngle" />
+      <MemberSignature Language="C++ CLI" Value="msoBevelAngle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>指定 Angle 凹凸效果。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBevelArtDeco">
+      <MemberSignature Language="C#" Value="msoBevelArtDeco" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBevelType msoBevelArtDeco = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBevelType.msoBevelArtDeco" />
+      <MemberSignature Language="VB.NET" Value="msoBevelArtDeco" />
+      <MemberSignature Language="C++ CLI" Value="msoBevelArtDeco" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>指定 ArtDeco 凹凸效果。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBevelCircle">
+      <MemberSignature Language="C#" Value="msoBevelCircle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBevelType msoBevelCircle = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBevelType.msoBevelCircle" />
+      <MemberSignature Language="VB.NET" Value="msoBevelCircle" />
+      <MemberSignature Language="C++ CLI" Value="msoBevelCircle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>指定 Circle 凹凸效果。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBevelConvex">
+      <MemberSignature Language="C#" Value="msoBevelConvex" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBevelType msoBevelConvex = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBevelType.msoBevelConvex" />
+      <MemberSignature Language="VB.NET" Value="msoBevelConvex" />
+      <MemberSignature Language="C++ CLI" Value="msoBevelConvex" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>指定 Convex 凹凸效果。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBevelCoolSlant">
+      <MemberSignature Language="C#" Value="msoBevelCoolSlant" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBevelType msoBevelCoolSlant = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBevelType.msoBevelCoolSlant" />
+      <MemberSignature Language="VB.NET" Value="msoBevelCoolSlant" />
+      <MemberSignature Language="C++ CLI" Value="msoBevelCoolSlant" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>指定 CoolSlant 凹凸效果。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBevelCross">
+      <MemberSignature Language="C#" Value="msoBevelCross" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBevelType msoBevelCross = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBevelType.msoBevelCross" />
+      <MemberSignature Language="VB.NET" Value="msoBevelCross" />
+      <MemberSignature Language="C++ CLI" Value="msoBevelCross" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>指定 Cross 凹凸效果。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBevelDivot">
+      <MemberSignature Language="C#" Value="msoBevelDivot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBevelType msoBevelDivot = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBevelType.msoBevelDivot" />
+      <MemberSignature Language="VB.NET" Value="msoBevelDivot" />
+      <MemberSignature Language="C++ CLI" Value="msoBevelDivot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>指定 Divot 凹凸效果。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBevelHardEdge">
+      <MemberSignature Language="C#" Value="msoBevelHardEdge" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBevelType msoBevelHardEdge = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBevelType.msoBevelHardEdge" />
+      <MemberSignature Language="VB.NET" Value="msoBevelHardEdge" />
+      <MemberSignature Language="C++ CLI" Value="msoBevelHardEdge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>指定 HardEdge 凹凸效果。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBevelNone">
+      <MemberSignature Language="C#" Value="msoBevelNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBevelType msoBevelNone = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBevelType.msoBevelNone" />
+      <MemberSignature Language="VB.NET" Value="msoBevelNone" />
+      <MemberSignature Language="C++ CLI" Value="msoBevelNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>不指定凹凸效果。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBevelRelaxedInset">
+      <MemberSignature Language="C#" Value="msoBevelRelaxedInset" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBevelType msoBevelRelaxedInset = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBevelType.msoBevelRelaxedInset" />
+      <MemberSignature Language="VB.NET" Value="msoBevelRelaxedInset" />
+      <MemberSignature Language="C++ CLI" Value="msoBevelRelaxedInset" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>指定 RelaxedInset 凹凸效果。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBevelRiblet">
+      <MemberSignature Language="C#" Value="msoBevelRiblet" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBevelType msoBevelRiblet = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBevelType.msoBevelRiblet" />
+      <MemberSignature Language="VB.NET" Value="msoBevelRiblet" />
+      <MemberSignature Language="C++ CLI" Value="msoBevelRiblet" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>指定 Riblet 凹凸效果。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBevelSlope">
+      <MemberSignature Language="C#" Value="msoBevelSlope" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBevelType msoBevelSlope = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBevelType.msoBevelSlope" />
+      <MemberSignature Language="VB.NET" Value="msoBevelSlope" />
+      <MemberSignature Language="C++ CLI" Value="msoBevelSlope" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>指定 Slope 凹凸效果。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBevelSoftRound">
+      <MemberSignature Language="C#" Value="msoBevelSoftRound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBevelType msoBevelSoftRound = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBevelType.msoBevelSoftRound" />
+      <MemberSignature Language="VB.NET" Value="msoBevelSoftRound" />
+      <MemberSignature Language="C++ CLI" Value="msoBevelSoftRound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>指定 SoftRound 凹凸效果。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBevelTypeMixed">
+      <MemberSignature Language="C#" Value="msoBevelTypeMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBevelType msoBevelTypeMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBevelType.msoBevelTypeMixed" />
+      <MemberSignature Language="VB.NET" Value="msoBevelTypeMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoBevelTypeMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBevelType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>指定混和类型凹凸效果。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,123 @@
+<Type Name="MsoTextCharWrap" FullName="Microsoft.Office.Core.MsoTextCharWrap">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4fdb158dc59e62b72fb2bdf64d4ca5a262880b8c" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657914" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoTextCharWrap" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextCharWrap extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextCharWrap" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoTextCharWrap" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoTextCharWrap" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指示文字环绕的类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoCharWrapMixed">
+      <MemberSignature Language="C#" Value="msoCharWrapMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextCharWrap msoCharWrapMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextCharWrap.msoCharWrapMixed" />
+      <MemberSignature Language="VB.NET" Value="msoCharWrapMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoCharWrapMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextCharWrap</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>指定混和的文字环绕。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCustomCharWrap">
+      <MemberSignature Language="C#" Value="msoCustomCharWrap" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextCharWrap msoCustomCharWrap = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextCharWrap.msoCustomCharWrap" />
+      <MemberSignature Language="VB.NET" Value="msoCustomCharWrap" />
+      <MemberSignature Language="C++ CLI" Value="msoCustomCharWrap" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextCharWrap</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>指定自定义文字环绕方案。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoNoCharWrap">
+      <MemberSignature Language="C#" Value="msoNoCharWrap" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextCharWrap msoNoCharWrap = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextCharWrap.msoNoCharWrap" />
+      <MemberSignature Language="VB.NET" Value="msoNoCharWrap" />
+      <MemberSignature Language="C++ CLI" Value="msoNoCharWrap" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextCharWrap</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>指定无文字环绕。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoStandardCharWrap">
+      <MemberSignature Language="C#" Value="msoStandardCharWrap" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextCharWrap msoStandardCharWrap = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextCharWrap.msoStandardCharWrap" />
+      <MemberSignature Language="VB.NET" Value="msoStandardCharWrap" />
+      <MemberSignature Language="C++ CLI" Value="msoStandardCharWrap" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextCharWrap</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>指定在对象的标准边界周围环绕文字。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoStrictCharWrap">
+      <MemberSignature Language="C#" Value="msoStrictCharWrap" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextCharWrap msoStrictCharWrap = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextCharWrap.msoStrictCharWrap" />
+      <MemberSignature Language="VB.NET" Value="msoStrictCharWrap" />
+      <MemberSignature Language="C++ CLI" Value="msoStrictCharWrap" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextCharWrap</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>指定文字环绕符合中文和日文等语言的限制。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

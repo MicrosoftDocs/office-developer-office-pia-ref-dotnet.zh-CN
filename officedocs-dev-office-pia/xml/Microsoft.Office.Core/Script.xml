@@ -1,0 +1,375 @@
+<Type Name="Script" FullName="Microsoft.Office.Core.Script">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2140b9d9200bd6144f2a36ebdceefe33a91ca36c" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658197" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Script : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Script implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Script" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Script&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Script : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0341-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>代表 Microsoft Word 文档，在 Microsoft Excel 电子表格，或 Microsoft PowerPoint 幻灯片中的 HTML 脚本块。</summary>
+    <remarks>
+      <para>
+        <b>脚本</b>对象所在的<see cref="T:Microsoft.Office.Core.Scripts" />集合。</para>
+      <para>使用<b>Scripts.Item</b>(<paramref name="index" />)，其中<paramref name="index" />是返回单个<b>脚本</b>对象的名称、 ID、 或脚本的索引号。每个<b>Script</b>对象由<see cref="P:Microsoft.Office.Core.Script.Id" />属性，它提供方便的名称，可用于访问该脚本。</para>
+      <para>可以指定通过更改用于在脚本中的脚本语言<see cref="P:Microsoft.Office.Core.Script.Language" />属性。</para>
+      <para>您可以通过使用检查 HTML 文档中的脚本定位形状的位置<see cref="P:Microsoft.Office.Core.Script.Location" />属性。</para>
+      <para>您可以检查或设置属性添加到&lt;脚本&gt;（除外的语言和 ID 属性） 使用的标记<see cref="P:Microsoft.Office.Core.Script.Extended" />属性。</para>
+      <para>可以检查或设置与给定脚本关联使用的脚本文本<see cref="P:Microsoft.Office.Core.Script.ScriptText" />属性。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Script.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>Application</b>对象，代表容器应用程序的对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Script.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>如果指定的对象在 Microsoft Word 中创建的此属性返回 1297307460，它表示字符串 MSWD;如果在 Microsoft Excel 中创建，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.Script.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Script.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809352)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>从集合中删除指定的对象。</summary>
+        <remarks>
+          <para>为<see cref="T:Microsoft.Office.Core.Scripts" />集合，并使用<b>Delete</b>方法从指定的 Microsoft Word 文档、 Microsoft Excel 工作表或 Microsoft PowerPoint 幻灯片中删除所有脚本。脚本定位标记表示主机应用程序中的形状。因此，从 Excel 和 PowerPoint 中的<b>Shapes</b>集合和<b>InlineShapes</b>和 Word 中的<b>形状</b>集合中删除与每个脚本定位标记的类型<b>msoScriptAnchor</b>关联的<b>Shape</b>对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Extended">
+      <MemberSignature Language="C#" Value="public string Extended { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Extended" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Script.Extended" />
+      <MemberSignature Language="VB.NET" Value="Public Property Extended As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Extended { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置属性添加到&lt;脚本&gt;标记的语言和 ID 属性除外。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>使用 HTML 相同的空格分隔属性。您不能使用<b>扩展</b>属性传递 LANGUAGE 属性或的 ID 属性。</para>
+          <para>Microsoft Office 主机应用程序不提供任何方法来检查传递属性的语法。</para>
+          <para>LANGUAGE 属性传递的<b>扩展</b>属性中，如果&lt;脚本&gt;标记接收两个语言设置，从而导致冲突。</para>
+          <para>如果<b>扩展</b>属性中传递 ID 属性和无 ID 已设置通过的 ID 参数<see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" />方法或<see cref="P:Microsoft.Office.Core.Script.Id" />属性<see cref="T:Microsoft.Office.Core.Script" />对象，ID 正确导出。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Script.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置的 ID<see cref="T:Microsoft.Office.Core.Script" />对象。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>返回的 ID 为的 ID 属性&lt;脚本&gt;中 HTML 标记。如果没有的 ID 属性中指定&lt;脚本&gt;标记的<b>Id</b>属性返回一个空字符串。</para>
+          <para>
+            <b>Id</b>指定用于命名元素 SGML 标识符。有效的标识符包括的以字母开头，且由字母数字字符; 任何字符串字符串还可以包含下划线字符 (_)。</para>
+          <para>的 ID 必须是唯一的 HTML 文档中。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Language">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoScriptLanguage Language { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoScriptLanguage Language" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Script.Language" />
+      <MemberSignature Language="VB.NET" Value="Public Property Language As MsoScriptLanguage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoScriptLanguage Language { Microsoft::Office::Core::MsoScriptLanguage get(); void set(Microsoft::Office::Core::MsoScriptLanguage value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809349)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809349)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809349)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScriptLanguage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置活动脚本的脚本语言。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Core.MsoScriptLanguage" />中也使用的<b>语言</b>属性一起使用的常量<paramref name="Language" />参数中的<see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" />方法<see cref="T:Microsoft.Office.Core.Scripts" />集合。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoScriptLocation Location { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoScriptLocation Location" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Script.Location" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Location As MsoScriptLocation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoScriptLocation Location { Microsoft::Office::Core::MsoScriptLocation get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809351)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScriptLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回指定的 HTML 文档中的脚本定位标记的位置。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>HTML 文档中的 script 标记之间出现可以任意位置&lt;HTML&gt;文档中的标记。在 Microsoft Word、 Excel 或 PowerPoint 中，仅脚本定位标记位于之间&lt;正文&gt;标记是可见的。显示之前或之后的其他 HTML 脚本&lt;正文&gt;标记中存储，但未对用户可见。</para>
+          <para>
+            <see cref="T:Microsoft.Office.Core.Scripts" />集合包含的所有内部或外部的文档正文是否显示在文档中，脚本定位标记。使用<paramref name="Location" />参数<see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" />方法，可以插入脚本定位标记内的&lt;标头&gt;和&lt;正文&gt;HTML 文档中的标记。<b>Location</b>属性还可用来确定特定脚本定位标记的文档中的存储位置。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Script.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回指定对象的<b>父</b>对象。</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScriptText">
+      <MemberSignature Language="C#" Value="public string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ScriptText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Script.ScriptText" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property ScriptText As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回或设置的脚本块中包含的文本。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Microsoft Office 主机应用程序不检查脚本的语法。<b>ScriptText</b>属性是的默认属性为<see cref="T:Microsoft.Office.Core.Script" />对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Shape">
+      <MemberSignature Language="C#" Value="public object Shape { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Shape" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Script.Shape" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Shape As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Shape { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809353)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809353)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>返回一个<b>Shape</b>对象或<b>InlineShape</b>对象，具体取决于 Microsoft Office 主机应用程序。</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>Shape</b>属性返回一个<b>Shape</b>对象，Microsoft Excel 和 PowerPoint 中。在 Word 中，<b>形状</b>属性返回一个<b>Shape</b>对象如果脚本定位标记为浮动对象;如果是内联定位，但是，此属性返回<b>InlineShape</b>对象。</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

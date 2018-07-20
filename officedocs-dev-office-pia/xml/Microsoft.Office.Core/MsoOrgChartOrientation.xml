@@ -1,0 +1,66 @@
+<Type Name="MsoOrgChartOrientation" FullName="Microsoft.Office.Core.MsoOrgChartOrientation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="516d209198e15c751b07f9c8cfbe7054769c0fe9" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657369" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoOrgChartOrientation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoOrgChartOrientation extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoOrgChartOrientation" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoOrgChartOrientation" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoOrgChartOrientation" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定组织结构图的方向。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoOrgChartOrientationMixed">
+      <MemberSignature Language="C#" Value="msoOrgChartOrientationMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoOrgChartOrientation msoOrgChartOrientationMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoOrgChartOrientation.msoOrgChartOrientationMixed" />
+      <MemberSignature Language="VB.NET" Value="msoOrgChartOrientationMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoOrgChartOrientationMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoOrgChartOrientation</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>混和方向。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoOrgChartOrientationVertical">
+      <MemberSignature Language="C#" Value="msoOrgChartOrientationVertical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoOrgChartOrientation msoOrgChartOrientationVertical = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoOrgChartOrientation.msoOrgChartOrientationVertical" />
+      <MemberSignature Language="VB.NET" Value="msoOrgChartOrientationVertical" />
+      <MemberSignature Language="C++ CLI" Value="msoOrgChartOrientationVertical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoOrgChartOrientation</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>垂直方向。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

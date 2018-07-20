@@ -1,0 +1,104 @@
+<Type Name="MsoAutoSize" FullName="Microsoft.Office.Core.MsoAutoSize">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="335e8215c06037293af694d35a88e850b22494f6" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657789" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoAutoSize" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoAutoSize extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoAutoSize" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoAutoSize" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoAutoSize" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>确定允许的自动调整大小的类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoAutoSizeMixed">
+      <MemberSignature Language="C#" Value="msoAutoSizeMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoSize msoAutoSizeMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoSize.msoAutoSizeMixed" />
+      <MemberSignature Language="VB.NET" Value="msoAutoSizeMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoAutoSizeMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>使用自动调整大小方案的组合。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAutoSizeNone">
+      <MemberSignature Language="C#" Value="msoAutoSizeNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoSize msoAutoSizeNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoSize.msoAutoSizeNone" />
+      <MemberSignature Language="VB.NET" Value="msoAutoSizeNone" />
+      <MemberSignature Language="C++ CLI" Value="msoAutoSizeNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>不自动调整大小。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAutoSizeShapeToFitText">
+      <MemberSignature Language="C#" Value="msoAutoSizeShapeToFitText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoSize msoAutoSizeShapeToFitText = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoSize.msoAutoSizeShapeToFitText" />
+      <MemberSignature Language="VB.NET" Value="msoAutoSizeShapeToFitText" />
+      <MemberSignature Language="C++ CLI" Value="msoAutoSizeShapeToFitText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>根据文本调整形状。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAutoSizeTextToFitShape">
+      <MemberSignature Language="C#" Value="msoAutoSizeTextToFitShape" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAutoSize msoAutoSizeTextToFitShape = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAutoSize.msoAutoSizeTextToFitShape" />
+      <MemberSignature Language="VB.NET" Value="msoAutoSizeTextToFitShape" />
+      <MemberSignature Language="C++ CLI" Value="msoAutoSizeTextToFitShape" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>根据形状调整文本。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
