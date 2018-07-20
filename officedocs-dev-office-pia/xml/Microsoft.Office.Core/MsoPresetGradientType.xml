@@ -1,0 +1,503 @@
+<Type Name="MsoPresetGradientType" FullName="Microsoft.Office.Core.MsoPresetGradientType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a8e898a5e2998b80fa69f0c1373fafdec1aa2a63" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657590" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoPresetGradientType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetGradientType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetGradientType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetGradientType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoPresetGradientType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定使用哪种预定义渐变填充形状。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoGradientBrass">
+      <MemberSignature Language="C#" Value="msoGradientBrass" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientBrass = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientBrass" />
+      <MemberSignature Language="VB.NET" Value="msoGradientBrass" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientBrass" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>铜黄色渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientCalmWater">
+      <MemberSignature Language="C#" Value="msoGradientCalmWater" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientCalmWater = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientCalmWater" />
+      <MemberSignature Language="VB.NET" Value="msoGradientCalmWater" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientCalmWater" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>心如止水渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientChrome">
+      <MemberSignature Language="C#" Value="msoGradientChrome" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientChrome = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientChrome" />
+      <MemberSignature Language="VB.NET" Value="msoGradientChrome" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientChrome" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>铬色渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientChromeII">
+      <MemberSignature Language="C#" Value="msoGradientChromeII" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientChromeII = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientChromeII" />
+      <MemberSignature Language="VB.NET" Value="msoGradientChromeII" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientChromeII" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>铬色 II 渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientDaybreak">
+      <MemberSignature Language="C#" Value="msoGradientDaybreak" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientDaybreak = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientDaybreak" />
+      <MemberSignature Language="VB.NET" Value="msoGradientDaybreak" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientDaybreak" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>雨后初晴渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientDesert">
+      <MemberSignature Language="C#" Value="msoGradientDesert" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientDesert = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientDesert" />
+      <MemberSignature Language="VB.NET" Value="msoGradientDesert" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientDesert" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>漫漫黄沙渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientEarlySunset">
+      <MemberSignature Language="C#" Value="msoGradientEarlySunset" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientEarlySunset = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientEarlySunset" />
+      <MemberSignature Language="VB.NET" Value="msoGradientEarlySunset" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientEarlySunset" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>红日西斜渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientFire">
+      <MemberSignature Language="C#" Value="msoGradientFire" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientFire = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientFire" />
+      <MemberSignature Language="VB.NET" Value="msoGradientFire" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientFire" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>熊熊火焰渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientFog">
+      <MemberSignature Language="C#" Value="msoGradientFog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientFog = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientFog" />
+      <MemberSignature Language="VB.NET" Value="msoGradientFog" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientFog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>薄雾浓云渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientGold">
+      <MemberSignature Language="C#" Value="msoGradientGold" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientGold = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientGold" />
+      <MemberSignature Language="VB.NET" Value="msoGradientGold" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientGold" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>金色年华渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientGoldII">
+      <MemberSignature Language="C#" Value="msoGradientGoldII" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientGoldII = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientGoldII" />
+      <MemberSignature Language="VB.NET" Value="msoGradientGoldII" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientGoldII" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>金色年华 II 渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientHorizon">
+      <MemberSignature Language="C#" Value="msoGradientHorizon" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientHorizon = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientHorizon" />
+      <MemberSignature Language="VB.NET" Value="msoGradientHorizon" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientHorizon" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>极目远眺渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientLateSunset">
+      <MemberSignature Language="C#" Value="msoGradientLateSunset" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientLateSunset = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientLateSunset" />
+      <MemberSignature Language="VB.NET" Value="msoGradientLateSunset" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientLateSunset" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>金乌坠地渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientMahogany">
+      <MemberSignature Language="C#" Value="msoGradientMahogany" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientMahogany = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientMahogany" />
+      <MemberSignature Language="VB.NET" Value="msoGradientMahogany" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientMahogany" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>红木渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientMoss">
+      <MemberSignature Language="C#" Value="msoGradientMoss" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientMoss = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientMoss" />
+      <MemberSignature Language="VB.NET" Value="msoGradientMoss" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientMoss" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>茵茵绿原渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientNightfall">
+      <MemberSignature Language="C#" Value="msoGradientNightfall" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientNightfall = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientNightfall" />
+      <MemberSignature Language="VB.NET" Value="msoGradientNightfall" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientNightfall" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>暮霭沉沉渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientOcean">
+      <MemberSignature Language="C#" Value="msoGradientOcean" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientOcean = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientOcean" />
+      <MemberSignature Language="VB.NET" Value="msoGradientOcean" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientOcean" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>碧海青天渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientParchment">
+      <MemberSignature Language="C#" Value="msoGradientParchment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientParchment = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientParchment" />
+      <MemberSignature Language="VB.NET" Value="msoGradientParchment" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientParchment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>羊皮纸渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientPeacock">
+      <MemberSignature Language="C#" Value="msoGradientPeacock" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientPeacock = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientPeacock" />
+      <MemberSignature Language="VB.NET" Value="msoGradientPeacock" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientPeacock" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>孔雀开屏渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientRainbow">
+      <MemberSignature Language="C#" Value="msoGradientRainbow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientRainbow = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientRainbow" />
+      <MemberSignature Language="VB.NET" Value="msoGradientRainbow" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientRainbow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>彩虹出岫渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientRainbowII">
+      <MemberSignature Language="C#" Value="msoGradientRainbowII" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientRainbowII = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientRainbowII" />
+      <MemberSignature Language="VB.NET" Value="msoGradientRainbowII" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientRainbowII" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>彩虹出岫 II 渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientSapphire">
+      <MemberSignature Language="C#" Value="msoGradientSapphire" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientSapphire = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientSapphire" />
+      <MemberSignature Language="VB.NET" Value="msoGradientSapphire" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientSapphire" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>宝石蓝渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientSilver">
+      <MemberSignature Language="C#" Value="msoGradientSilver" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientSilver = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientSilver" />
+      <MemberSignature Language="VB.NET" Value="msoGradientSilver" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientSilver" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>银波荡漾渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientWheat">
+      <MemberSignature Language="C#" Value="msoGradientWheat" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoGradientWheat = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoGradientWheat" />
+      <MemberSignature Language="VB.NET" Value="msoGradientWheat" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientWheat" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>麦浪滚滚渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPresetGradientMixed">
+      <MemberSignature Language="C#" Value="msoPresetGradientMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetGradientType msoPresetGradientMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetGradientType.msoPresetGradientMixed" />
+      <MemberSignature Language="VB.NET" Value="msoPresetGradientMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoPresetGradientMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>混和渐变。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

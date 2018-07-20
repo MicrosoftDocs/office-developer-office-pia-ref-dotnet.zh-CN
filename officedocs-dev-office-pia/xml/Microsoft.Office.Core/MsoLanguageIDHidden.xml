@@ -1,0 +1,90 @@
+<Type Name="MsoLanguageIDHidden" FullName="Microsoft.Office.Core.MsoLanguageIDHidden">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="470c73ef285180abed1d8340a64902060e2e7b9d" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657599" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoLanguageIDHidden" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoLanguageIDHidden extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoLanguageIDHidden" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoLanguageIDHidden" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoLanguageIDHidden" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>仅供内部使用。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoLanguageIDChineseHongKong">
+      <MemberSignature Language="C#" Value="msoLanguageIDChineseHongKong" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLanguageIDHidden msoLanguageIDChineseHongKong = int32(3076)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLanguageIDHidden.msoLanguageIDChineseHongKong" />
+      <MemberSignature Language="VB.NET" Value="msoLanguageIDChineseHongKong" />
+      <MemberSignature Language="C++ CLI" Value="msoLanguageIDChineseHongKong" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLanguageIDHidden</ReturnType>
+      </ReturnValue>
+      <MemberValue>3076</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoLanguageIDChineseMacao">
+      <MemberSignature Language="C#" Value="msoLanguageIDChineseMacao" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLanguageIDHidden msoLanguageIDChineseMacao = int32(5124)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLanguageIDHidden.msoLanguageIDChineseMacao" />
+      <MemberSignature Language="VB.NET" Value="msoLanguageIDChineseMacao" />
+      <MemberSignature Language="C++ CLI" Value="msoLanguageIDChineseMacao" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLanguageIDHidden</ReturnType>
+      </ReturnValue>
+      <MemberValue>5124</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoLanguageIDEnglishTrinidad">
+      <MemberSignature Language="C#" Value="msoLanguageIDEnglishTrinidad" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLanguageIDHidden msoLanguageIDEnglishTrinidad = int32(11273)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLanguageIDHidden.msoLanguageIDEnglishTrinidad" />
+      <MemberSignature Language="VB.NET" Value="msoLanguageIDEnglishTrinidad" />
+      <MemberSignature Language="C++ CLI" Value="msoLanguageIDEnglishTrinidad" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLanguageIDHidden</ReturnType>
+      </ReturnValue>
+      <MemberValue>11273</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

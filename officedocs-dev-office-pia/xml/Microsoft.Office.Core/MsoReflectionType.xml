@@ -1,0 +1,237 @@
+<Type Name="MsoReflectionType" FullName="Microsoft.Office.Core.MsoReflectionType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="42d74d2fb925c36b592afc4f01ceb3fc70e4ce65" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657597" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoReflectionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoReflectionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoReflectionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoReflectionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoReflectionType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoReflectionType1">
+      <MemberSignature Language="C#" Value="msoReflectionType1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoReflectionType msoReflectionType1 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoReflectionType.msoReflectionType1" />
+      <MemberSignature Language="VB.NET" Value="msoReflectionType1" />
+      <MemberSignature Language="C++ CLI" Value="msoReflectionType1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoReflectionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoReflectionType2">
+      <MemberSignature Language="C#" Value="msoReflectionType2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoReflectionType msoReflectionType2 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoReflectionType.msoReflectionType2" />
+      <MemberSignature Language="VB.NET" Value="msoReflectionType2" />
+      <MemberSignature Language="C++ CLI" Value="msoReflectionType2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoReflectionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoReflectionType3">
+      <MemberSignature Language="C#" Value="msoReflectionType3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoReflectionType msoReflectionType3 = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoReflectionType.msoReflectionType3" />
+      <MemberSignature Language="VB.NET" Value="msoReflectionType3" />
+      <MemberSignature Language="C++ CLI" Value="msoReflectionType3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoReflectionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoReflectionType4">
+      <MemberSignature Language="C#" Value="msoReflectionType4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoReflectionType msoReflectionType4 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoReflectionType.msoReflectionType4" />
+      <MemberSignature Language="VB.NET" Value="msoReflectionType4" />
+      <MemberSignature Language="C++ CLI" Value="msoReflectionType4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoReflectionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoReflectionType5">
+      <MemberSignature Language="C#" Value="msoReflectionType5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoReflectionType msoReflectionType5 = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoReflectionType.msoReflectionType5" />
+      <MemberSignature Language="VB.NET" Value="msoReflectionType5" />
+      <MemberSignature Language="C++ CLI" Value="msoReflectionType5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoReflectionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoReflectionType6">
+      <MemberSignature Language="C#" Value="msoReflectionType6" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoReflectionType msoReflectionType6 = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoReflectionType.msoReflectionType6" />
+      <MemberSignature Language="VB.NET" Value="msoReflectionType6" />
+      <MemberSignature Language="C++ CLI" Value="msoReflectionType6" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoReflectionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoReflectionType7">
+      <MemberSignature Language="C#" Value="msoReflectionType7" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoReflectionType msoReflectionType7 = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoReflectionType.msoReflectionType7" />
+      <MemberSignature Language="VB.NET" Value="msoReflectionType7" />
+      <MemberSignature Language="C++ CLI" Value="msoReflectionType7" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoReflectionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoReflectionType8">
+      <MemberSignature Language="C#" Value="msoReflectionType8" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoReflectionType msoReflectionType8 = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoReflectionType.msoReflectionType8" />
+      <MemberSignature Language="VB.NET" Value="msoReflectionType8" />
+      <MemberSignature Language="C++ CLI" Value="msoReflectionType8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoReflectionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoReflectionType9">
+      <MemberSignature Language="C#" Value="msoReflectionType9" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoReflectionType msoReflectionType9 = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoReflectionType.msoReflectionType9" />
+      <MemberSignature Language="VB.NET" Value="msoReflectionType9" />
+      <MemberSignature Language="C++ CLI" Value="msoReflectionType9" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoReflectionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoReflectionTypeMixed">
+      <MemberSignature Language="C#" Value="msoReflectionTypeMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoReflectionType msoReflectionTypeMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoReflectionType.msoReflectionTypeMixed" />
+      <MemberSignature Language="VB.NET" Value="msoReflectionTypeMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoReflectionTypeMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoReflectionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoReflectionTypeNone">
+      <MemberSignature Language="C#" Value="msoReflectionTypeNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoReflectionType msoReflectionTypeNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoReflectionType.msoReflectionTypeNone" />
+      <MemberSignature Language="VB.NET" Value="msoReflectionTypeNone" />
+      <MemberSignature Language="C++ CLI" Value="msoReflectionTypeNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoReflectionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

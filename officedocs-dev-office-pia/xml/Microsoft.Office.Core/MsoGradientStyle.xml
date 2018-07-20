@@ -1,0 +1,180 @@
+<Type Name="MsoGradientStyle" FullName="Microsoft.Office.Core.MsoGradientStyle">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="aea07fb5a2f4eab60a861f419a278d594d951164" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657582" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoGradientStyle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoGradientStyle extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoGradientStyle" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoGradientStyle" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoGradientStyle" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定渐变填充的样式。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoGradientDiagonalDown">
+      <MemberSignature Language="C#" Value="msoGradientDiagonalDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoGradientStyle msoGradientDiagonalDown = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientDiagonalDown" />
+      <MemberSignature Language="VB.NET" Value="msoGradientDiagonalDown" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientDiagonalDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoGradientStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>从一个顶角到另一侧底角的对角渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientDiagonalUp">
+      <MemberSignature Language="C#" Value="msoGradientDiagonalUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoGradientStyle msoGradientDiagonalUp = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientDiagonalUp" />
+      <MemberSignature Language="VB.NET" Value="msoGradientDiagonalUp" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientDiagonalUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoGradientStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>从一个底角到另一侧顶角的对角渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientFromCenter">
+      <MemberSignature Language="C#" Value="msoGradientFromCenter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoGradientStyle msoGradientFromCenter = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />
+      <MemberSignature Language="VB.NET" Value="msoGradientFromCenter" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientFromCenter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoGradientStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>从中心到各个角的渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientFromCorner">
+      <MemberSignature Language="C#" Value="msoGradientFromCorner" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoGradientStyle msoGradientFromCorner = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCorner" />
+      <MemberSignature Language="VB.NET" Value="msoGradientFromCorner" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientFromCorner" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoGradientStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>从一个角到其他三个角的渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientFromTitle">
+      <MemberSignature Language="C#" Value="msoGradientFromTitle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoGradientStyle msoGradientFromTitle = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromTitle" />
+      <MemberSignature Language="VB.NET" Value="msoGradientFromTitle" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientFromTitle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoGradientStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>从标题向外的渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientHorizontal">
+      <MemberSignature Language="C#" Value="msoGradientHorizontal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoGradientStyle msoGradientHorizontal = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientHorizontal" />
+      <MemberSignature Language="VB.NET" Value="msoGradientHorizontal" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientHorizontal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoGradientStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>水平经过图形的渐变。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientMixed">
+      <MemberSignature Language="C#" Value="msoGradientMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoGradientStyle msoGradientMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientMixed" />
+      <MemberSignature Language="VB.NET" Value="msoGradientMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoGradientStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>渐变是混和的。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoGradientVertical">
+      <MemberSignature Language="C#" Value="msoGradientVertical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoGradientStyle msoGradientVertical = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientVertical" />
+      <MemberSignature Language="VB.NET" Value="msoGradientVertical" />
+      <MemberSignature Language="C++ CLI" Value="msoGradientVertical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoGradientStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>垂直向下填充图形的渐变。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

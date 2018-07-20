@@ -1,0 +1,88 @@
+<Type Name="MsoHorizontalAnchor" FullName="Microsoft.Office.Core.MsoHorizontalAnchor">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1cf121d8c18eb989d850064119bc427e13b80f12" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657586" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoHorizontalAnchor" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoHorizontalAnchor extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoHorizontalAnchor" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoHorizontalAnchor" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoHorizontalAnchor" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定文本框架中的文本的水平对齐方式。</summary>
+    <remarks>
+      <para>与<b>HorizontalAnchor</b>属性一起<b>TextFrame</b>对象。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoAnchorCenter">
+      <MemberSignature Language="C#" Value="msoAnchorCenter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoHorizontalAnchor msoAnchorCenter = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoHorizontalAnchor.msoAnchorCenter" />
+      <MemberSignature Language="VB.NET" Value="msoAnchorCenter" />
+      <MemberSignature Language="C++ CLI" Value="msoAnchorCenter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoHorizontalAnchor</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>文本水平居中。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnchorNone">
+      <MemberSignature Language="C#" Value="msoAnchorNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoHorizontalAnchor msoAnchorNone = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoHorizontalAnchor.msoAnchorNone" />
+      <MemberSignature Language="VB.NET" Value="msoAnchorNone" />
+      <MemberSignature Language="C++ CLI" Value="msoAnchorNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoHorizontalAnchor</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>不对齐。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoHorizontalAnchorMixed">
+      <MemberSignature Language="C#" Value="msoHorizontalAnchorMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoHorizontalAnchor msoHorizontalAnchorMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoHorizontalAnchor.msoHorizontalAnchorMixed" />
+      <MemberSignature Language="VB.NET" Value="msoHorizontalAnchorMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoHorizontalAnchorMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoHorizontalAnchor</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>只返回值，表示其他状态的组合。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,123 @@
+<Type Name="MsoTextChangeCase" FullName="Microsoft.Office.Core.MsoTextChangeCase">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3150c9e4c3ba3817f2b6c192fa26d7907b4feb1a" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657577" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoTextChangeCase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextChangeCase extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextChangeCase" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoTextChangeCase" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoTextChangeCase" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定文本的大写设置。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoCaseLower">
+      <MemberSignature Language="C#" Value="msoCaseLower" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextChangeCase msoCaseLower = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseLower" />
+      <MemberSignature Language="VB.NET" Value="msoCaseLower" />
+      <MemberSignature Language="C++ CLI" Value="msoCaseLower" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextChangeCase</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>将文本显示为小写字符。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCaseSentence">
+      <MemberSignature Language="C#" Value="msoCaseSentence" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextChangeCase msoCaseSentence = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseSentence" />
+      <MemberSignature Language="VB.NET" Value="msoCaseSentence" />
+      <MemberSignature Language="C++ CLI" Value="msoCaseSentence" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextChangeCase</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>将文本显示为句子大写的字符。 句首字母大写指定个句子的第一个字母大写，所有其他人应为小写 （有一些例外首字母缩写词名词，等）。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCaseTitle">
+      <MemberSignature Language="C#" Value="msoCaseTitle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextChangeCase msoCaseTitle = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseTitle" />
+      <MemberSignature Language="VB.NET" Value="msoCaseTitle" />
+      <MemberSignature Language="C++ CLI" Value="msoCaseTitle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextChangeCase</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>将文本显示为词首大写的字符。 词首大写指定每个单词的第一个字母大写和所有其他人应为小写形式。 在某些情况下不大写简短文章、 介词和连词。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCaseToggle">
+      <MemberSignature Language="C#" Value="msoCaseToggle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextChangeCase msoCaseToggle = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseToggle" />
+      <MemberSignature Language="VB.NET" Value="msoCaseToggle" />
+      <MemberSignature Language="C++ CLI" Value="msoCaseToggle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextChangeCase</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>指示应将小写文本转换为大写，应为大写文本转换为小写文本。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCaseUpper">
+      <MemberSignature Language="C#" Value="msoCaseUpper" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextChangeCase msoCaseUpper = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseUpper" />
+      <MemberSignature Language="VB.NET" Value="msoCaseUpper" />
+      <MemberSignature Language="C++ CLI" Value="msoCaseUpper" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextChangeCase</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>将文本显示为大写字符。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,161 @@
+<Type Name="MsoAlertButtonType" FullName="Microsoft.Office.Core.MsoAlertButtonType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7368c8ff92eba4710bdff3eda0baa0ffdf77db3d" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657563" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoAlertButtonType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoAlertButtonType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoAlertButtonType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoAlertButtonType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoAlertButtonType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoAlertButtonAbortRetryIgnore">
+      <MemberSignature Language="C#" Value="msoAlertButtonAbortRetryIgnore" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAlertButtonType msoAlertButtonAbortRetryIgnore = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAlertButtonType.msoAlertButtonAbortRetryIgnore" />
+      <MemberSignature Language="VB.NET" Value="msoAlertButtonAbortRetryIgnore" />
+      <MemberSignature Language="C++ CLI" Value="msoAlertButtonAbortRetryIgnore" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAlertButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlertButtonOK">
+      <MemberSignature Language="C#" Value="msoAlertButtonOK" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAlertButtonType msoAlertButtonOK = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAlertButtonType.msoAlertButtonOK" />
+      <MemberSignature Language="VB.NET" Value="msoAlertButtonOK" />
+      <MemberSignature Language="C++ CLI" Value="msoAlertButtonOK" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAlertButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlertButtonOKCancel">
+      <MemberSignature Language="C#" Value="msoAlertButtonOKCancel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAlertButtonType msoAlertButtonOKCancel = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAlertButtonType.msoAlertButtonOKCancel" />
+      <MemberSignature Language="VB.NET" Value="msoAlertButtonOKCancel" />
+      <MemberSignature Language="C++ CLI" Value="msoAlertButtonOKCancel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAlertButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlertButtonRetryCancel">
+      <MemberSignature Language="C#" Value="msoAlertButtonRetryCancel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAlertButtonType msoAlertButtonRetryCancel = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAlertButtonType.msoAlertButtonRetryCancel" />
+      <MemberSignature Language="VB.NET" Value="msoAlertButtonRetryCancel" />
+      <MemberSignature Language="C++ CLI" Value="msoAlertButtonRetryCancel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAlertButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlertButtonYesAllNoCancel">
+      <MemberSignature Language="C#" Value="msoAlertButtonYesAllNoCancel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAlertButtonType msoAlertButtonYesAllNoCancel = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAlertButtonType.msoAlertButtonYesAllNoCancel" />
+      <MemberSignature Language="VB.NET" Value="msoAlertButtonYesAllNoCancel" />
+      <MemberSignature Language="C++ CLI" Value="msoAlertButtonYesAllNoCancel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAlertButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlertButtonYesNo">
+      <MemberSignature Language="C#" Value="msoAlertButtonYesNo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAlertButtonType msoAlertButtonYesNo = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAlertButtonType.msoAlertButtonYesNo" />
+      <MemberSignature Language="VB.NET" Value="msoAlertButtonYesNo" />
+      <MemberSignature Language="C++ CLI" Value="msoAlertButtonYesNo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAlertButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAlertButtonYesNoCancel">
+      <MemberSignature Language="C#" Value="msoAlertButtonYesNoCancel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAlertButtonType msoAlertButtonYesNoCancel = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAlertButtonType.msoAlertButtonYesNoCancel" />
+      <MemberSignature Language="VB.NET" Value="msoAlertButtonYesNoCancel" />
+      <MemberSignature Language="C++ CLI" Value="msoAlertButtonYesNoCancel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAlertButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

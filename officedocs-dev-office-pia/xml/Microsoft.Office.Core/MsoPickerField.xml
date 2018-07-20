@@ -1,0 +1,147 @@
+<Type Name="MsoPickerField" FullName="Microsoft.Office.Core.MsoPickerField">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="87f84ded9373d62e555e5f59f342c21aea54ee61" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657579" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoPickerField" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPickerField extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPickerField" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoPickerField" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoPickerField" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("C4B07795-AE88-400C-AF72-6F7F75A3EC0B")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoPickerFieldDateTime">
+      <MemberSignature Language="C#" Value="msoPickerFieldDateTime" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPickerField msoPickerFieldDateTime = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPickerField.msoPickerFieldDateTime" />
+      <MemberSignature Language="VB.NET" Value="msoPickerFieldDateTime" />
+      <MemberSignature Language="C++ CLI" Value="msoPickerFieldDateTime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPickerField</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoPickerFieldMax">
+      <MemberSignature Language="C#" Value="msoPickerFieldMax" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPickerField msoPickerFieldMax = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPickerField.msoPickerFieldMax" />
+      <MemberSignature Language="VB.NET" Value="msoPickerFieldMax" />
+      <MemberSignature Language="C++ CLI" Value="msoPickerFieldMax" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPickerField</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoPickerFieldNumber">
+      <MemberSignature Language="C#" Value="msoPickerFieldNumber" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPickerField msoPickerFieldNumber = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPickerField.msoPickerFieldNumber" />
+      <MemberSignature Language="VB.NET" Value="msoPickerFieldNumber" />
+      <MemberSignature Language="C++ CLI" Value="msoPickerFieldNumber" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPickerField</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoPickerFieldText">
+      <MemberSignature Language="C#" Value="msoPickerFieldText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPickerField msoPickerFieldText = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPickerField.msoPickerFieldText" />
+      <MemberSignature Language="VB.NET" Value="msoPickerFieldText" />
+      <MemberSignature Language="C++ CLI" Value="msoPickerFieldText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPickerField</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoPickerFieldUnknown">
+      <MemberSignature Language="C#" Value="msoPickerFieldUnknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPickerField msoPickerFieldUnknown = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPickerField.msoPickerFieldUnknown" />
+      <MemberSignature Language="VB.NET" Value="msoPickerFieldUnknown" />
+      <MemberSignature Language="C++ CLI" Value="msoPickerFieldUnknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPickerField</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoPickerFieldUser">
+      <MemberSignature Language="C#" Value="msoPickerFieldUser" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPickerField msoPickerFieldUser = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPickerField.msoPickerFieldUser" />
+      <MemberSignature Language="VB.NET" Value="msoPickerFieldUser" />
+      <MemberSignature Language="C++ CLI" Value="msoPickerFieldUser" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPickerField</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

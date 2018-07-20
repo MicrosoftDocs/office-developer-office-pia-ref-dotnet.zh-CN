@@ -1,0 +1,68 @@
+<Type Name="MsoExtraInfoMethod" FullName="Microsoft.Office.Core.MsoExtraInfoMethod">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ede4283c4fe3c21d452b87ef822f2fa350186205" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657374" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoExtraInfoMethod" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoExtraInfoMethod extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoExtraInfoMethod" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoExtraInfoMethod" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoExtraInfoMethod" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定如何使用 <b>FollowHyperlink</b> 方法的 <b>ExtraInfo</b> 属性中指定的值。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoMethodGet">
+      <MemberSignature Language="C#" Value="msoMethodGet" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoExtraInfoMethod msoMethodGet = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoExtraInfoMethod.msoMethodGet" />
+      <MemberSignature Language="VB.NET" Value="msoMethodGet" />
+      <MemberSignature Language="C++ CLI" Value="msoMethodGet" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoExtraInfoMethod</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <b>ExtraInfo</b> 属性中指定的值是追加到地址后面的字符串。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMethodPost">
+      <MemberSignature Language="C#" Value="msoMethodPost" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoExtraInfoMethod msoMethodPost = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoExtraInfoMethod.msoMethodPost" />
+      <MemberSignature Language="VB.NET" Value="msoMethodPost" />
+      <MemberSignature Language="C++ CLI" Value="msoMethodPost" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoExtraInfoMethod</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <b>ExtraInfo</b> 属性中指定的值以字符串或字节数组的形式发布。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

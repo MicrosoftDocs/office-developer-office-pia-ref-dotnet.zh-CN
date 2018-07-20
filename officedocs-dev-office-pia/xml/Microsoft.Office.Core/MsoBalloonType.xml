@@ -1,0 +1,85 @@
+<Type Name="MsoBalloonType" FullName="Microsoft.Office.Core.MsoBalloonType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b76608d3713b3d17693c2cd221ecd5c1b28a1621" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657907" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoBalloonType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBalloonType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBalloonType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoBalloonType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoBalloonType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoBalloonTypeBullets">
+      <MemberSignature Language="C#" Value="msoBalloonTypeBullets" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonType msoBalloonTypeBullets = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonType.msoBalloonTypeBullets" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonTypeBullets" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonTypeBullets" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBalloonTypeButtons">
+      <MemberSignature Language="C#" Value="msoBalloonTypeButtons" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonType msoBalloonTypeButtons = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonType.msoBalloonTypeButtons" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonTypeButtons" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonTypeButtons" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBalloonTypeNumbers">
+      <MemberSignature Language="C#" Value="msoBalloonTypeNumbers" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonType msoBalloonTypeNumbers = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonType.msoBalloonTypeNumbers" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonTypeNumbers" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonTypeNumbers" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

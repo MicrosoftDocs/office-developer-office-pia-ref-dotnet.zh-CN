@@ -1,0 +1,166 @@
+<Type Name="MsoFileFindSortBy" FullName="Microsoft.Office.Core.MsoFileFindSortBy">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6dcbbc71b95f1d8b120d1edd48a7bca5d413fff3" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657617" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoFileFindSortBy" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFileFindSortBy extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFileFindSortBy" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoFileFindSortBy" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoFileFindSortBy" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>此枚举适用于仅限 Macintosh，不应使用。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoFileFindSortbyAuthor">
+      <MemberSignature Language="C#" Value="msoFileFindSortbyAuthor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileFindSortBy msoFileFindSortbyAuthor = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileFindSortBy.msoFileFindSortbyAuthor" />
+      <MemberSignature Language="VB.NET" Value="msoFileFindSortbyAuthor" />
+      <MemberSignature Language="C++ CLI" Value="msoFileFindSortbyAuthor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileFindSortBy</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>此成员仅适用于 Macintosh 并且不应使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileFindSortbyDateCreated">
+      <MemberSignature Language="C#" Value="msoFileFindSortbyDateCreated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileFindSortBy msoFileFindSortbyDateCreated = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileFindSortBy.msoFileFindSortbyDateCreated" />
+      <MemberSignature Language="VB.NET" Value="msoFileFindSortbyDateCreated" />
+      <MemberSignature Language="C++ CLI" Value="msoFileFindSortbyDateCreated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileFindSortBy</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>此成员仅适用于 Macintosh 并且不应使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileFindSortbyDateSaved">
+      <MemberSignature Language="C#" Value="msoFileFindSortbyDateSaved" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileFindSortBy msoFileFindSortbyDateSaved = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileFindSortBy.msoFileFindSortbyDateSaved" />
+      <MemberSignature Language="VB.NET" Value="msoFileFindSortbyDateSaved" />
+      <MemberSignature Language="C++ CLI" Value="msoFileFindSortbyDateSaved" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileFindSortBy</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>此成员仅适用于 Macintosh 并且不应使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileFindSortbyFileName">
+      <MemberSignature Language="C#" Value="msoFileFindSortbyFileName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileFindSortBy msoFileFindSortbyFileName = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileFindSortBy.msoFileFindSortbyFileName" />
+      <MemberSignature Language="VB.NET" Value="msoFileFindSortbyFileName" />
+      <MemberSignature Language="C++ CLI" Value="msoFileFindSortbyFileName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileFindSortBy</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>此成员仅适用于 Macintosh 并且不应使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileFindSortbyLastSavedBy">
+      <MemberSignature Language="C#" Value="msoFileFindSortbyLastSavedBy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileFindSortBy msoFileFindSortbyLastSavedBy = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileFindSortBy.msoFileFindSortbyLastSavedBy" />
+      <MemberSignature Language="VB.NET" Value="msoFileFindSortbyLastSavedBy" />
+      <MemberSignature Language="C++ CLI" Value="msoFileFindSortbyLastSavedBy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileFindSortBy</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>此成员仅适用于 Macintosh 并且不应使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileFindSortbySize">
+      <MemberSignature Language="C#" Value="msoFileFindSortbySize" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileFindSortBy msoFileFindSortbySize = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileFindSortBy.msoFileFindSortbySize" />
+      <MemberSignature Language="VB.NET" Value="msoFileFindSortbySize" />
+      <MemberSignature Language="C++ CLI" Value="msoFileFindSortbySize" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileFindSortBy</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>此成员仅适用于 Macintosh 并且不应使用。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileFindSortbyTitle">
+      <MemberSignature Language="C#" Value="msoFileFindSortbyTitle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileFindSortBy msoFileFindSortbyTitle = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileFindSortBy.msoFileFindSortbyTitle" />
+      <MemberSignature Language="VB.NET" Value="msoFileFindSortbyTitle" />
+      <MemberSignature Language="C++ CLI" Value="msoFileFindSortbyTitle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileFindSortBy</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>此成员仅适用于 Macintosh 并且不应使用。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

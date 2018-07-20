@@ -1,0 +1,40 @@
+<Type Name="CustomTaskPane" FullName="Microsoft.Office.Core.CustomTaskPane">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="08580bc5d8b49fedba3a62f6bb5c6ca6130a9342" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657556" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface CustomTaskPane : Microsoft.Office.Core._CustomTaskPane, Microsoft.Office.Core._CustomTaskPaneEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CustomTaskPane implements class Microsoft.Office.Core._CustomTaskPane, class Microsoft.Office.Core._CustomTaskPaneEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomTaskPane" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CustomTaskPane&#xA;Implements _CustomTaskPane, _CustomTaskPaneEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CustomTaskPane : Microsoft::Office::Core::_CustomTaskPane, Microsoft::Office::Core::_CustomTaskPaneEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._CustomTaskPane</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._CustomTaskPaneEvents_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Core.CustomTaskPaneClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C033B-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

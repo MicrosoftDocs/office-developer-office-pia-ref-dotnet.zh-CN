@@ -1,0 +1,104 @@
+<Type Name="MsoEditingType" FullName="Microsoft.Office.Core.MsoEditingType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0e9c463ae0b1c62593de82c47add70a585baf27c" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657587" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoEditingType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoEditingType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoEditingType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoEditingType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoEditingType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定节点的编辑类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoEditingAuto">
+      <MemberSignature Language="C#" Value="msoEditingAuto" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEditingType msoEditingAuto = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEditingType.msoEditingAuto" />
+      <MemberSignature Language="VB.NET" Value="msoEditingAuto" />
+      <MemberSignature Language="C++ CLI" Value="msoEditingAuto" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEditingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>编辑类型适合于正在连接的线段。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEditingCorner">
+      <MemberSignature Language="C#" Value="msoEditingCorner" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEditingType msoEditingCorner = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEditingType.msoEditingCorner" />
+      <MemberSignature Language="VB.NET" Value="msoEditingCorner" />
+      <MemberSignature Language="C++ CLI" Value="msoEditingCorner" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEditingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>角部节点。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEditingSmooth">
+      <MemberSignature Language="C#" Value="msoEditingSmooth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEditingType msoEditingSmooth = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEditingType.msoEditingSmooth" />
+      <MemberSignature Language="VB.NET" Value="msoEditingSmooth" />
+      <MemberSignature Language="C++ CLI" Value="msoEditingSmooth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEditingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>平滑结点。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoEditingSymmetric">
+      <MemberSignature Language="C#" Value="msoEditingSymmetric" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoEditingType msoEditingSymmetric = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoEditingType.msoEditingSymmetric" />
+      <MemberSignature Language="VB.NET" Value="msoEditingSymmetric" />
+      <MemberSignature Language="C++ CLI" Value="msoEditingSymmetric" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEditingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>对称节点。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

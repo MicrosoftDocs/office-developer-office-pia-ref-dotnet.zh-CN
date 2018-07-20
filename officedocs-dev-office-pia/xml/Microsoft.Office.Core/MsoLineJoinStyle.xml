@@ -1,0 +1,104 @@
+<Type Name="MsoLineJoinStyle" FullName="Microsoft.Office.Core.MsoLineJoinStyle">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a85266f6696c1cd1838927101a1355b66b7d9d69" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657576" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoLineJoinStyle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoLineJoinStyle extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoLineJoinStyle" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoLineJoinStyle" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoLineJoinStyle" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>指定联接其中两个线条连接的类型。</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoLineJoinBevel">
+      <MemberSignature Language="C#" Value="msoLineJoinBevel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineJoinStyle msoLineJoinBevel = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineJoinStyle.msoLineJoinBevel" />
+      <MemberSignature Language="VB.NET" Value="msoLineJoinBevel" />
+      <MemberSignature Language="C++ CLI" Value="msoLineJoinBevel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineJoinStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>指定凹凸效果的联接。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineJoinMiter">
+      <MemberSignature Language="C#" Value="msoLineJoinMiter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineJoinStyle msoLineJoinMiter = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineJoinStyle.msoLineJoinMiter" />
+      <MemberSignature Language="VB.NET" Value="msoLineJoinMiter" />
+      <MemberSignature Language="C++ CLI" Value="msoLineJoinMiter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineJoinStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>指定斜的联接。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineJoinMixed">
+      <MemberSignature Language="C#" Value="msoLineJoinMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineJoinStyle msoLineJoinMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineJoinStyle.msoLineJoinMixed" />
+      <MemberSignature Language="VB.NET" Value="msoLineJoinMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoLineJoinMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineJoinStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>指定混和的 join 类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineJoinRound">
+      <MemberSignature Language="C#" Value="msoLineJoinRound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineJoinStyle msoLineJoinRound = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineJoinStyle.msoLineJoinRound" />
+      <MemberSignature Language="VB.NET" Value="msoLineJoinRound" />
+      <MemberSignature Language="C++ CLI" Value="msoLineJoinRound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineJoinStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>指定圆角的联接。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

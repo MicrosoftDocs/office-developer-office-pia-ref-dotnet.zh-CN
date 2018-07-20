@@ -1,0 +1,1454 @@
+<Type Name="MsoCondition" FullName="Microsoft.Office.Core.MsoCondition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2facec1a7ecb416e3346ffd928fdb23bd39a0f3f" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657602" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoCondition" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCondition extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCondition" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoCondition" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoCondition" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>文件搜索中的定义文件和指定的属性之间的比较的条件。</summary>
+    <remarks>
+      <para>用于获取或设置<b>PropertyTest</b>对象的<b>条件</b>属性。<b>PropertyTest</b><b>FileSearch</b>对象模型的一部分。<b>FileSearch</b>的行为对应于在 Finddialog 框中，从工具菜单中的应用程序打开对话框 （文件菜单） 中打开您看到的交互式行为。</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoConditionAnyNumberBetween">
+      <MemberSignature Language="C#" Value="msoConditionAnyNumberBetween" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionAnyNumberBetween = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionAnyNumberBetween" />
+      <MemberSignature Language="VB.NET" Value="msoConditionAnyNumberBetween" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionAnyNumberBetween" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary>使用<b>PropertyTest</b>对象的<b>值</b>和<b>秒钟值</b>属性指定值之间的任意数量。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionAnytime">
+      <MemberSignature Language="C#" Value="msoConditionAnytime" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionAnytime = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionAnytime" />
+      <MemberSignature Language="VB.NET" Value="msoConditionAnytime" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionAnytime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的日期也可以随时。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionAnytimeBetween">
+      <MemberSignature Language="C#" Value="msoConditionAnytimeBetween" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionAnytimeBetween = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionAnytimeBetween" />
+      <MemberSignature Language="VB.NET" Value="msoConditionAnytimeBetween" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionAnytimeBetween" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的日期之间使用<b>PropertyTest</b>对象的<b>值</b>和<b>秒钟值</b>属性指定的日期。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionAtLeast">
+      <MemberSignature Language="C#" Value="msoConditionAtLeast" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionAtLeast = int32(36)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionAtLeast" />
+      <MemberSignature Language="VB.NET" Value="msoConditionAtLeast" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionAtLeast" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>36</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值为至少<b>PropertyTest</b>对象的<b>Value</b>属性中指定的值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionAtMost">
+      <MemberSignature Language="C#" Value="msoConditionAtMost" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionAtMost = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionAtMost" />
+      <MemberSignature Language="VB.NET" Value="msoConditionAtMost" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionAtMost" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值最多为<b>PropertyTest</b>对象的<b>Value</b>属性中指定的值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionBeginsWith">
+      <MemberSignature Language="C#" Value="msoConditionBeginsWith" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionBeginsWith = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionBeginsWith" />
+      <MemberSignature Language="VB.NET" Value="msoConditionBeginsWith" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionBeginsWith" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值开头<b>PropertyTest</b>对象的<b>Value</b>属性中指定的值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionDoesNotEqual">
+      <MemberSignature Language="C#" Value="msoConditionDoesNotEqual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionDoesNotEqual = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionDoesNotEqual" />
+      <MemberSignature Language="VB.NET" Value="msoConditionDoesNotEqual" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionDoesNotEqual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值不等于<b>PropertyTest</b>对象的<b>Value</b>属性中指定的值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionEndsWith">
+      <MemberSignature Language="C#" Value="msoConditionEndsWith" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionEndsWith = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionEndsWith" />
+      <MemberSignature Language="VB.NET" Value="msoConditionEndsWith" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionEndsWith" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Value</b>属性中指定的值与指定的<b>PropertyTest</b>对象结束的<b>Name</b>属性中的文件属性的值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionEquals">
+      <MemberSignature Language="C#" Value="msoConditionEquals" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionEquals = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionEquals" />
+      <MemberSignature Language="VB.NET" Value="msoConditionEquals" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionEquals" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值等于<b>PropertyTest</b>对象的<b>Value</b>属性中指定的值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionEqualsCompleted">
+      <MemberSignature Language="C#" Value="msoConditionEqualsCompleted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionEqualsCompleted = int32(66)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionEqualsCompleted" />
+      <MemberSignature Language="VB.NET" Value="msoConditionEqualsCompleted" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionEqualsCompleted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>66</MemberValue>
+      <Docs>
+        <summary>状态等于"已完成"。 <b>Name</b>属性的值必须是<b>状态</b>。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionEqualsDeferred">
+      <MemberSignature Language="C#" Value="msoConditionEqualsDeferred" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionEqualsDeferred = int32(68)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionEqualsDeferred" />
+      <MemberSignature Language="VB.NET" Value="msoConditionEqualsDeferred" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionEqualsDeferred" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>68</MemberValue>
+      <Docs>
+        <summary>状态等于"推迟"。 <b>Name</b>属性的值必须是<b>状态</b>。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionEqualsHigh">
+      <MemberSignature Language="C#" Value="msoConditionEqualsHigh" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionEqualsHigh = int32(60)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionEqualsHigh" />
+      <MemberSignature Language="VB.NET" Value="msoConditionEqualsHigh" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionEqualsHigh" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>60</MemberValue>
+      <Docs>
+        <summary>优先级等于"高"。 <b>Name</b>属性的值必须是<b>优先级</b>。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionEqualsInProgress">
+      <MemberSignature Language="C#" Value="msoConditionEqualsInProgress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionEqualsInProgress = int32(65)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionEqualsInProgress" />
+      <MemberSignature Language="VB.NET" Value="msoConditionEqualsInProgress" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionEqualsInProgress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>65</MemberValue>
+      <Docs>
+        <summary>状态等于"正在进行"。 <b>Name</b>属性的值必须是<b>状态</b>。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionEqualsLow">
+      <MemberSignature Language="C#" Value="msoConditionEqualsLow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionEqualsLow = int32(58)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionEqualsLow" />
+      <MemberSignature Language="VB.NET" Value="msoConditionEqualsLow" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionEqualsLow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>58</MemberValue>
+      <Docs>
+        <summary>优先级等于"低"。 <b>Name</b>属性的值必须是<b>优先级</b>。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionEqualsNormal">
+      <MemberSignature Language="C#" Value="msoConditionEqualsNormal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionEqualsNormal = int32(59)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionEqualsNormal" />
+      <MemberSignature Language="VB.NET" Value="msoConditionEqualsNormal" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionEqualsNormal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>59</MemberValue>
+      <Docs>
+        <summary>优先级等于"Normal"。 <b>Name</b>属性的值必须是<b>优先级</b>。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionEqualsNotStarted">
+      <MemberSignature Language="C#" Value="msoConditionEqualsNotStarted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionEqualsNotStarted = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionEqualsNotStarted" />
+      <MemberSignature Language="VB.NET" Value="msoConditionEqualsNotStarted" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionEqualsNotStarted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>状态等于"未启动"。 <b>Name</b>属性的值必须是<b>状态</b>。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionEqualsWaitingForSomeoneElse">
+      <MemberSignature Language="C#" Value="msoConditionEqualsWaitingForSomeoneElse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionEqualsWaitingForSomeoneElse = int32(67)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionEqualsWaitingForSomeoneElse" />
+      <MemberSignature Language="VB.NET" Value="msoConditionEqualsWaitingForSomeoneElse" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionEqualsWaitingForSomeoneElse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>67</MemberValue>
+      <Docs>
+        <summary>状态等于"等待的其他人"。 <b>Name</b>属性的值必须是<b>状态</b>。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeAllFiles">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeAllFiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeAllFiles = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeAllFiles" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeAllFiles" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeAllFiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>文件可以是任何类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeBinders">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeBinders" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeBinders = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeBinders" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeBinders" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeBinders" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>活页夹文件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeCalendarItem">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeCalendarItem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeCalendarItem = int32(45)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeCalendarItem" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeCalendarItem" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeCalendarItem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>45</MemberValue>
+      <Docs>
+        <summary>日历项目。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeContactItem">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeContactItem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeContactItem = int32(46)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeContactItem" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeContactItem" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeContactItem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>46</MemberValue>
+      <Docs>
+        <summary>联系人项目。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeDatabases">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeDatabases" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeDatabases = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeDatabases" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeDatabases" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeDatabases" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>数据库。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeDataConnectionFiles">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeDataConnectionFiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeDataConnectionFiles = int32(51)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeDataConnectionFiles" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeDataConnectionFiles" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeDataConnectionFiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>51</MemberValue>
+      <Docs>
+        <summary>数据连接文件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeDesignerFiles">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeDesignerFiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeDesignerFiles = int32(56)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeDesignerFiles" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeDesignerFiles" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeDesignerFiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>56</MemberValue>
+      <Docs>
+        <summary>设计器文件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeDocumentImagingFiles">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeDocumentImagingFiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeDocumentImagingFiles = int32(54)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeDocumentImagingFiles" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeDocumentImagingFiles" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeDocumentImagingFiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>54</MemberValue>
+      <Docs>
+        <summary>文档图像文件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeExcelWorkbooks">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeExcelWorkbooks" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeExcelWorkbooks = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeExcelWorkbooks" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeExcelWorkbooks" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeExcelWorkbooks" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Excel 工作簿</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeJournalItem">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeJournalItem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeJournalItem = int32(48)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeJournalItem" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeJournalItem" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeJournalItem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>48</MemberValue>
+      <Docs>
+        <summary>日记项目。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeMailItem">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeMailItem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeMailItem = int32(44)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeMailItem" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeMailItem" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeMailItem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>44</MemberValue>
+      <Docs>
+        <summary>邮件项目。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeNoteItem">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeNoteItem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeNoteItem = int32(47)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeNoteItem" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeNoteItem" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeNoteItem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>47</MemberValue>
+      <Docs>
+        <summary>会议纪录项目。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeOfficeFiles">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeOfficeFiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeOfficeFiles = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeOfficeFiles" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeOfficeFiles" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeOfficeFiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>文件可以是任何 Office 文件类型。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeOutlookItems">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeOutlookItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeOutlookItems = int32(43)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeOutlookItems" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeOutlookItems" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeOutlookItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>43</MemberValue>
+      <Docs>
+        <summary>Outlook 项目。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypePhotoDrawFiles">
+      <MemberSignature Language="C#" Value="msoConditionFileTypePhotoDrawFiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypePhotoDrawFiles = int32(50)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypePhotoDrawFiles" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypePhotoDrawFiles" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypePhotoDrawFiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>50</MemberValue>
+      <Docs>
+        <summary>PhotoDraw 文件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypePowerPointPresentations">
+      <MemberSignature Language="C#" Value="msoConditionFileTypePowerPointPresentations" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypePowerPointPresentations = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypePowerPointPresentations" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypePowerPointPresentations" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypePowerPointPresentations" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>PowerPoint 演示文稿。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeProjectFiles">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeProjectFiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeProjectFiles = int32(53)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeProjectFiles" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeProjectFiles" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeProjectFiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>53</MemberValue>
+      <Docs>
+        <summary>项目文件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypePublisherFiles">
+      <MemberSignature Language="C#" Value="msoConditionFileTypePublisherFiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypePublisherFiles = int32(52)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypePublisherFiles" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypePublisherFiles" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypePublisherFiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>52</MemberValue>
+      <Docs>
+        <summary>Publisher 文件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeTaskItem">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeTaskItem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeTaskItem = int32(49)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeTaskItem" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeTaskItem" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeTaskItem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>49</MemberValue>
+      <Docs>
+        <summary>任务项。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeTemplates">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeTemplates" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeTemplates = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeTemplates" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeTemplates" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeTemplates" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>模板。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeVisioFiles">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeVisioFiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeVisioFiles = int32(55)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeVisioFiles" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeVisioFiles" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeVisioFiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>55</MemberValue>
+      <Docs>
+        <summary>Visio 文件。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeWebPages">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeWebPages" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeWebPages = int32(57)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeWebPages" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeWebPages" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeWebPages" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>57</MemberValue>
+      <Docs>
+        <summary>网页。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFileTypeWordDocuments">
+      <MemberSignature Language="C#" Value="msoConditionFileTypeWordDocuments" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFileTypeWordDocuments = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFileTypeWordDocuments" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFileTypeWordDocuments" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFileTypeWordDocuments" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Word 文档。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionFreeText">
+      <MemberSignature Language="C#" Value="msoConditionFreeText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionFreeText = int32(42)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionFreeText" />
+      <MemberSignature Language="VB.NET" Value="msoConditionFreeText" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionFreeText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>42</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值匹配时使用 FreeText 搜索<b>PropertyTest</b>对象的<b>Value</b>属性中指定的值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionIncludes">
+      <MemberSignature Language="C#" Value="msoConditionIncludes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionIncludes = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionIncludes" />
+      <MemberSignature Language="VB.NET" Value="msoConditionIncludes" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionIncludes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值包括<b>PropertyTest</b>对象的<b>Value</b>属性中指定的值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionIncludesFormsOf">
+      <MemberSignature Language="C#" Value="msoConditionIncludesFormsOf" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionIncludesFormsOf = int32(41)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionIncludesFormsOf" />
+      <MemberSignature Language="VB.NET" Value="msoConditionIncludesFormsOf" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionIncludesFormsOf" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>41</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值包括形式的<b>PropertyTest</b>对象的<b>Value</b>属性中指定的值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionIncludesNearEachOther">
+      <MemberSignature Language="C#" Value="msoConditionIncludesNearEachOther" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionIncludesNearEachOther = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionIncludesNearEachOther" />
+      <MemberSignature Language="VB.NET" Value="msoConditionIncludesNearEachOther" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionIncludesNearEachOther" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值和<b>PropertyTest</b>对象的<b>Value</b>属性中指定的值是彼此靠近。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionIncludesPhrase">
+      <MemberSignature Language="C#" Value="msoConditionIncludesPhrase" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionIncludesPhrase = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionIncludesPhrase" />
+      <MemberSignature Language="VB.NET" Value="msoConditionIncludesPhrase" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionIncludesPhrase" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值包括<b>PropertyTest</b>对象的<b>Value</b>属性中指定的值中指定的短语。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionInTheLast">
+      <MemberSignature Language="C#" Value="msoConditionInTheLast" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionInTheLast = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionInTheLast" />
+      <MemberSignature Language="VB.NET" Value="msoConditionInTheLast" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionInTheLast" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Value</b>属性中指定的最后一个时间间隔内有<b>PropertyTest</b>对象的<b>Name</b>属性中指定的日期。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionInTheNext">
+      <MemberSignature Language="C#" Value="msoConditionInTheNext" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionInTheNext = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionInTheNext" />
+      <MemberSignature Language="VB.NET" Value="msoConditionInTheNext" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionInTheNext" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定日期的下一步<b>PropertyTest</b>对象的<b>Value</b>属性中指定的时间间隔内。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionIsExactly">
+      <MemberSignature Language="C#" Value="msoConditionIsExactly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionIsExactly = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionIsExactly" />
+      <MemberSignature Language="VB.NET" Value="msoConditionIsExactly" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionIsExactly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值为完全<b>PropertyTest</b>对象的<b>Value</b>属性中指定的值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionIsNo">
+      <MemberSignature Language="C#" Value="msoConditionIsNo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionIsNo = int32(40)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionIsNo" />
+      <MemberSignature Language="VB.NET" Value="msoConditionIsNo" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionIsNo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>40</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值为"False"。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionIsNot">
+      <MemberSignature Language="C#" Value="msoConditionIsNot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionIsNot = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionIsNot" />
+      <MemberSignature Language="VB.NET" Value="msoConditionIsNot" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionIsNot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值不是<b>PropertyTest</b>对象的<b>Value</b>属性中指定的值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionIsYes">
+      <MemberSignature Language="C#" Value="msoConditionIsYes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionIsYes = int32(39)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionIsYes" />
+      <MemberSignature Language="VB.NET" Value="msoConditionIsYes" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionIsYes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>39</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值为"True"。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionLastMonth">
+      <MemberSignature Language="C#" Value="msoConditionLastMonth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionLastMonth = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionLastMonth" />
+      <MemberSignature Language="VB.NET" Value="msoConditionLastMonth" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionLastMonth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>在最后一个月内有<b>PropertyTest</b>对象的<b>Name</b>属性中指定的日期。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionLastWeek">
+      <MemberSignature Language="C#" Value="msoConditionLastWeek" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionLastWeek = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionLastWeek" />
+      <MemberSignature Language="VB.NET" Value="msoConditionLastWeek" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionLastWeek" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>在上一周内有<b>PropertyTest</b>对象的<b>Name</b>属性中指定的日期。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionLessThan">
+      <MemberSignature Language="C#" Value="msoConditionLessThan" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionLessThan = int32(38)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionLessThan" />
+      <MemberSignature Language="VB.NET" Value="msoConditionLessThan" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionLessThan" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>38</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值小于<b>PropertyTest</b>对象的<b>Value</b>属性中指定的值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionMoreThan">
+      <MemberSignature Language="C#" Value="msoConditionMoreThan" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionMoreThan = int32(37)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionMoreThan" />
+      <MemberSignature Language="VB.NET" Value="msoConditionMoreThan" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionMoreThan" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>37</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值大于<b>PropertyTest</b>对象的<b>Value</b>属性中指定的值。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionNextMonth">
+      <MemberSignature Language="C#" Value="msoConditionNextMonth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionNextMonth = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionNextMonth" />
+      <MemberSignature Language="VB.NET" Value="msoConditionNextMonth" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionNextMonth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>下个月的<b>PropertyTest</b>对象的<b>Name</b>属性中指定的日期。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionNextWeek">
+      <MemberSignature Language="C#" Value="msoConditionNextWeek" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionNextWeek = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionNextWeek" />
+      <MemberSignature Language="VB.NET" Value="msoConditionNextWeek" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionNextWeek" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的日期为下周。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionNotEqualToCompleted">
+      <MemberSignature Language="C#" Value="msoConditionNotEqualToCompleted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionNotEqualToCompleted = int32(71)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionNotEqualToCompleted" />
+      <MemberSignature Language="VB.NET" Value="msoConditionNotEqualToCompleted" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionNotEqualToCompleted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>71</MemberValue>
+      <Docs>
+        <summary>状态不等于"已完成"。 <b>Name</b>属性的值必须是<b>状态</b>。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionNotEqualToDeferred">
+      <MemberSignature Language="C#" Value="msoConditionNotEqualToDeferred" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionNotEqualToDeferred = int32(73)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionNotEqualToDeferred" />
+      <MemberSignature Language="VB.NET" Value="msoConditionNotEqualToDeferred" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionNotEqualToDeferred" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>73</MemberValue>
+      <Docs>
+        <summary>状态不等于"推迟"。 <b>Name</b>属性的值必须是<b>状态</b>。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionNotEqualToHigh">
+      <MemberSignature Language="C#" Value="msoConditionNotEqualToHigh" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionNotEqualToHigh = int32(63)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionNotEqualToHigh" />
+      <MemberSignature Language="VB.NET" Value="msoConditionNotEqualToHigh" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionNotEqualToHigh" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>63</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值不等于"高"。 <b>Name</b>属性的值必须<b>优先级</b>或<b>重要性</b>。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionNotEqualToInProgress">
+      <MemberSignature Language="C#" Value="msoConditionNotEqualToInProgress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionNotEqualToInProgress = int32(70)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionNotEqualToInProgress" />
+      <MemberSignature Language="VB.NET" Value="msoConditionNotEqualToInProgress" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionNotEqualToInProgress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>70</MemberValue>
+      <Docs>
+        <summary>状态不等于"正在进行"。 <b>Name</b>属性的值必须是<b>状态</b>。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionNotEqualToLow">
+      <MemberSignature Language="C#" Value="msoConditionNotEqualToLow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionNotEqualToLow = int32(61)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionNotEqualToLow" />
+      <MemberSignature Language="VB.NET" Value="msoConditionNotEqualToLow" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionNotEqualToLow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>61</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值不等于"低"。 <b>Name</b>属性的值必须<b>优先级</b>或<b>重要性</b>。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionNotEqualToNormal">
+      <MemberSignature Language="C#" Value="msoConditionNotEqualToNormal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionNotEqualToNormal = int32(62)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionNotEqualToNormal" />
+      <MemberSignature Language="VB.NET" Value="msoConditionNotEqualToNormal" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionNotEqualToNormal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>62</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的文件属性的值不等于"Normal"。 <b>Name</b>属性的值必须<b>优先级</b>或<b>重要性</b>。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionNotEqualToNotStarted">
+      <MemberSignature Language="C#" Value="msoConditionNotEqualToNotStarted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionNotEqualToNotStarted = int32(69)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionNotEqualToNotStarted" />
+      <MemberSignature Language="VB.NET" Value="msoConditionNotEqualToNotStarted" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionNotEqualToNotStarted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>69</MemberValue>
+      <Docs>
+        <summary>状态不等于"未启动"。 <b>Name</b>属性的值必须是<b>状态</b>。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionNotEqualToWaitingForSomeoneElse">
+      <MemberSignature Language="C#" Value="msoConditionNotEqualToWaitingForSomeoneElse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionNotEqualToWaitingForSomeoneElse = int32(72)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionNotEqualToWaitingForSomeoneElse" />
+      <MemberSignature Language="VB.NET" Value="msoConditionNotEqualToWaitingForSomeoneElse" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionNotEqualToWaitingForSomeoneElse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>72</MemberValue>
+      <Docs>
+        <summary>状态不等于"等待的其他人"。 <b>Name</b>属性的值必须是<b>状态</b>。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionOn">
+      <MemberSignature Language="C#" Value="msoConditionOn" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionOn = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionOn" />
+      <MemberSignature Language="VB.NET" Value="msoConditionOn" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionOn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Value</b>属性中指定的日期相同<b>PropertyTest</b>对象的<b>Name</b>属性中指定的日期。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionOnOrAfter">
+      <MemberSignature Language="C#" Value="msoConditionOnOrAfter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionOnOrAfter = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionOnOrAfter" />
+      <MemberSignature Language="VB.NET" Value="msoConditionOnOrAfter" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionOnOrAfter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定日期当天或之后<b>PropertyTest</b>对象的<b>Value</b>属性中指定的日期。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionOnOrBefore">
+      <MemberSignature Language="C#" Value="msoConditionOnOrBefore" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionOnOrBefore = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionOnOrBefore" />
+      <MemberSignature Language="VB.NET" Value="msoConditionOnOrBefore" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionOnOrBefore" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的日期或之前<b>PropertyTest</b>对象的<b>Value</b>属性中指定的日期。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionThisMonth">
+      <MemberSignature Language="C#" Value="msoConditionThisMonth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionThisMonth = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionThisMonth" />
+      <MemberSignature Language="VB.NET" Value="msoConditionThisMonth" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionThisMonth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>本月<b>PropertyTest</b>对象的<b>Name</b>属性中指定的日期。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionThisWeek">
+      <MemberSignature Language="C#" Value="msoConditionThisWeek" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionThisWeek = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionThisWeek" />
+      <MemberSignature Language="VB.NET" Value="msoConditionThisWeek" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionThisWeek" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的日期为本周。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionToday">
+      <MemberSignature Language="C#" Value="msoConditionToday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionToday = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionToday" />
+      <MemberSignature Language="VB.NET" Value="msoConditionToday" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionToday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的日期为今天。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionTomorrow">
+      <MemberSignature Language="C#" Value="msoConditionTomorrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionTomorrow = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionTomorrow" />
+      <MemberSignature Language="VB.NET" Value="msoConditionTomorrow" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionTomorrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>
+          <b>PropertyTest</b>对象的<b>Name</b>属性中指定的日期为明天。</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoConditionYesterday">
+      <MemberSignature Language="C#" Value="msoConditionYesterday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCondition msoConditionYesterday = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCondition.msoConditionYesterday" />
+      <MemberSignature Language="VB.NET" Value="msoConditionYesterday" />
+      <MemberSignature Language="C++ CLI" Value="msoConditionYesterday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCondition</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>昨天是<b>PropertyTest</b>对象的<b>Name</b>属性中指定的日期。</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,118 @@
+<Type Name="IConverterUICallback" FullName="Microsoft.Office.Core.IConverterUICallback">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="45f7279694426b38a3db71efb620eab3635315e2" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657430" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IConverterUICallback" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IConverterUICallback" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IConverterUICallback" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IConverterUICallback" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IConverterUICallback" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03D6-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(1)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(256)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HrInputBox">
+      <MemberSignature Language="C#" Value="public void HrInputBox (string bstrText, string bstrCaption, out string pbstrInput, int fPassword);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HrInputBox([in]string bstrText, [in]string bstrCaption, [out] string&amp; pbstrInput, [in]int32 fPassword) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IConverterUICallback.HrInputBox(System.String,System.String,System.String@,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub HrInputBox (bstrText As String, bstrCaption As String, ByRef pbstrInput As String, fPassword As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrInputBox(System::String ^ bstrText, System::String ^ bstrCaption, [Runtime::InteropServices::Out] System::String ^ % pbstrInput, int fPassword);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrText" Type="System.String" />
+        <Parameter Name="bstrCaption" Type="System.String" />
+        <Parameter Name="pbstrInput" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="fPassword" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="bstrText">To be added.</param>
+        <param name="bstrCaption">To be added.</param>
+        <param name="pbstrInput">To be added.</param>
+        <param name="fPassword">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HrMessageBox">
+      <MemberSignature Language="C#" Value="public void HrMessageBox (string bstrText, string bstrCaption, uint uType, out int pidResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HrMessageBox([in]string bstrText, [in]string bstrCaption, [in]unsigned int32 uType, [out] int32&amp; pidResult) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IConverterUICallback.HrMessageBox(System.String,System.String,System.UInt32,System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub HrMessageBox (bstrText As String, bstrCaption As String, uType As UInteger, ByRef pidResult As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrMessageBox(System::String ^ bstrText, System::String ^ bstrCaption, System::UInt32 uType, [Runtime::InteropServices::Out] int % pidResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrText" Type="System.String" />
+        <Parameter Name="bstrCaption" Type="System.String" />
+        <Parameter Name="uType" Type="System.UInt32" />
+        <Parameter Name="pidResult" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="bstrText">To be added.</param>
+        <param name="bstrCaption">To be added.</param>
+        <param name="uType">To be added.</param>
+        <param name="pidResult">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HrReportProgress">
+      <MemberSignature Language="C#" Value="public void HrReportProgress (uint uPercentComplete);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HrReportProgress([in]unsigned int32 uPercentComplete) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IConverterUICallback.HrReportProgress(System.UInt32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub HrReportProgress (uPercentComplete As UInteger)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrReportProgress(System::UInt32 uPercentComplete);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="uPercentComplete" Type="System.UInt32" />
+      </Parameters>
+      <Docs>
+        <param name="uPercentComplete">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
