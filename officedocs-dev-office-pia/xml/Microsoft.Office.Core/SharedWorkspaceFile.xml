@@ -1,0 +1,456 @@
+<Type Name="SharedWorkspaceFile" FullName="Microsoft.Office.Core.SharedWorkspaceFile">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4ee2e3408376993ef7463479b917e43030be6461" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657680" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface SharedWorkspaceFile : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SharedWorkspaceFile implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SharedWorkspaceFile" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SharedWorkspaceFile&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SharedWorkspaceFile : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C037B-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="dd9ad-101">此对象、 成员或枚举已弃用，不应在代码中使用。<b>SharedWorkspaceFile</b>对象代表保存在共享的文档工作区中的文件。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="dd9ad-101">This object, member, or enumeration is deprecated and is not intended to be used in your code.The <b>SharedWorkspaceFile</b> object represents a file saved in a shared document workspace.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="dd9ad-102">
+        <para>此对象所在的<see cref="T:Microsoft.Office.Core.SharedWorkspaceFiles" />集合。</para>
+        <para>使用<b>SharedWorkspaceFile</b>对象可管理文档和保存在共享工作区中的文件。</para>
+        <para>虽然<b>SharedWorkspaceFile</b>对象具有<see cref="P:Microsoft.Office.Core.SharedWorkspaceFile.URL" />属性返回的文件的完整路径和文件名，它不具有<b>FileName</b>属性。</para>
+        <para>使用<b>项目</b>(<paramref name="Index" />) 的<b>SharedWorkspaceFiles</b>集合可返回特定的<b>SharedWorkspaceFile</b>对象的方法。</para>
+        <para>使用<see cref="P:Microsoft.Office.Core.SharedWorkspaceFile.CreatedBy" />， <see cref="P:Microsoft.Office.Core.SharedWorkspaceFile.CreatedDate" />， <see cref="P:Microsoft.Office.Core.SharedWorkspaceFile.ModifiedBy" />，和<see cref="P:Microsoft.Office.Core.SharedWorkspaceFile.ModifiedDate" />属性可返回有关历史记录的每个文件的信息。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="dd9ad-102">
+          <para>This object is a member of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFiles" /> collection.</para>
+          <para>Use the <b>SharedWorkspaceFile</b> object to manage documents and files saved in a shared workspace.</para>
+          <para>Although the <b>SharedWorkspaceFile</b> object has a <see cref="P:Microsoft.Office.Core.SharedWorkspaceFile.URL" /> property that returns the file's complete path and filename, it does not have a <b>FileName</b> property.</para>
+          <para>Use the <b>Item</b>(<paramref name="Index" />) method of the <b>SharedWorkspaceFiles</b> collection to return a specific <b>SharedWorkspaceFile</b> object.</para>
+          <para>Use the <see cref="P:Microsoft.Office.Core.SharedWorkspaceFile.CreatedBy" />, <see cref="P:Microsoft.Office.Core.SharedWorkspaceFile.CreatedDate" />, <see cref="P:Microsoft.Office.Core.SharedWorkspaceFile.ModifiedBy" />, and <see cref="P:Microsoft.Office.Core.SharedWorkspaceFile.ModifiedDate" /> properties to return information about the history of each file.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceFile.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dd9ad-103">返回一个<b>Application</b>对象，代表容器应用程序的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd9ad-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatedBy">
+      <MemberSignature Language="C#" Value="public string CreatedBy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CreatedBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceFile.CreatedBy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreatedBy As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CreatedBy { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dd9ad-104">返回创建的共享工作区对象的成员的友好名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd9ad-104">Returns the friendly name of the member who created the shared workspace object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="dd9ad-105">
+            <para>
+              <b>CreatedBy</b>属性返回的<b>DWSMember</b>对象的<b>Name</b>属性中存储的友好名称。</para>
+            <para>
+              <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />和<see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" />对象不具有<b>CreatedBy</b>属性。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd9ad-105">
+              <para>The <b>CreatedBy</b> property returns the friendly name stored in the <b>Name</b> property of the <b>DWSMember</b> object.</para>
+              <para>The <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> and <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> objects do not have a <b>CreatedBy</b> property.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatedDate">
+      <MemberSignature Language="C#" Value="public object CreatedDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CreatedDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceFile.CreatedDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreatedDate As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CreatedDate { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dd9ad-106">返回日期和时间时创建的共享工作区对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd9ad-106">Returns the date and time when the shared workspace object was created.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="dd9ad-107">
+            <para>
+              <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />和<see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" />对象不具有<b>CreatedDate</b>属性。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd9ad-107">
+              <para>The <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> and <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> objects do not have a <b>CreatedDate</b> property.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceFile.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dd9ad-108">返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd9ad-108">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="dd9ad-109">
+            <para>如果指定的对象在 Microsoft Word 中创建的此属性返回 1297307460，它表示字符串 MSWD;如果在 Microsoft Excel 中创建，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.SharedWorkspaceFile.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd9ad-109">
+              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.SharedWorkspaceFile.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SharedWorkspaceFile.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="dd9ad-110">删除当前的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd9ad-110">Deletes the current object.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="dd9ad-111">
+            <para>如果用户不具有从共享工作区中删除当前对象的权限，则此方法将失败。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd9ad-111">
+              <para>This method will fail if the user does not have permission to delete the current object from the shared workspace.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifiedBy">
+      <MemberSignature Language="C#" Value="public string ModifiedBy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ModifiedBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceFile.ModifiedBy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ModifiedBy As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ModifiedBy { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dd9ad-112">返回上次修改对象的用户的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd9ad-112">Returns the name of the user who last modified the object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="dd9ad-113">
+            <para>对于共享工作区对象， <b>ModifiedBy</b>属性返回的<b>DWSMember</b>对象的<b>Name</b>属性中存储的友好名称。</para>
+            <para>
+              <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />和<see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" />对象不具有<b>ModifiedBy</b>属性。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd9ad-113">
+              <para>For shared workspace objects, the <b>ModifiedBy</b> property returns the friendly name stored in the <b>Name</b> property of the <b>DWSMember</b> object.</para>
+              <para>The <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> and <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> objects do not have a <b>ModifiedBy</b> property.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifiedDate">
+      <MemberSignature Language="C#" Value="public object ModifiedDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ModifiedDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceFile.ModifiedDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ModifiedDate As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ModifiedDate { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dd9ad-114">返回日期和时间上次修改共享工作区对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd9ad-114">Returns the date and time when the shared workspace object was last modified.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="dd9ad-115">
+            <para>
+              <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />和<see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" />对象不具有<b>ModifiedDate</b>属性。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd9ad-115">
+              <para>The <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" /> and <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" /> objects do not have a <b>ModifiedDate</b> property.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceFile.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dd9ad-116">返回指定对象的<b>父</b>对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd9ad-116">Returns the <b>Parent</b> object for the specified object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="URL">
+      <MemberSignature Language="C#" Value="public string this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string URL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceFile.URL" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property URL As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dd9ad-117">返回完全统一资源定位器 (URL) 和共享工作区文件的文件名。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd9ad-117">Returns the full uniform resource locator (URL) and file name of the shared workspace file.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="dd9ad-118">
+            <para>
+              <b>URL</b>属性返回的共享工作区文件地址，格式如下： http://server/sites/user/workspace/Shared%Documents/MyWorkbook.xls。</para>
+            <para>
+              <b>URL</b>属性返回 URL 编码的字符串。例如，空格文件夹名称中的由 %20。</para>
+            <para>
+              <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />对象不具有<b>名称</b>或<b>文件名</b>的属性。必须从提取 filename<see cref="P:Microsoft.Office.Core.SharedWorkspaceFile.URL" />属性。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd9ad-118">
+              <para>The <b>URL</b> property returns the address of the shared workspace file in this format: http://server/sites/user/workspace/Shared%Documents/MyWorkbook.xls.</para>
+              <para>The <b>URL</b> property returns a URL-encoded string. For example, a space in the folder name is represented by %20.</para>
+              <para>The <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" /> object does not have a <b>Name</b> or <b>FileName</b> property. The filename must be extracted from the <see cref="P:Microsoft.Office.Core.SharedWorkspaceFile.URL" /> property.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

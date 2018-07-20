@@ -1,0 +1,257 @@
+<Type Name="XlPieSliceIndex" FullName="Microsoft.Office.Core.XlPieSliceIndex">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e6010a156e62de0dda1f6b0102360490668411ee" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657971" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlPieSliceIndex" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlPieSliceIndex extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlPieSliceIndex" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlPieSliceIndex" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlPieSliceIndex" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("2B4C8AB7-6E70-422A-B7CC-206452289F16")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="989a8-101">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="989a8-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlCenterPoint">
+      <MemberSignature Language="C#" Value="xlCenterPoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlPieSliceIndex xlCenterPoint = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlPieSliceIndex.xlCenterPoint" />
+      <MemberSignature Language="VB.NET" Value="xlCenterPoint" />
+      <MemberSignature Language="C++ CLI" Value="xlCenterPoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlPieSliceIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="989a8-102">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="989a8-102">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlInnerCenterPoint">
+      <MemberSignature Language="C#" Value="xlInnerCenterPoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlPieSliceIndex xlInnerCenterPoint = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlPieSliceIndex.xlInnerCenterPoint" />
+      <MemberSignature Language="VB.NET" Value="xlInnerCenterPoint" />
+      <MemberSignature Language="C++ CLI" Value="xlInnerCenterPoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlPieSliceIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="989a8-103">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="989a8-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlInnerClockwisePoint">
+      <MemberSignature Language="C#" Value="xlInnerClockwisePoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlPieSliceIndex xlInnerClockwisePoint = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlPieSliceIndex.xlInnerClockwisePoint" />
+      <MemberSignature Language="VB.NET" Value="xlInnerClockwisePoint" />
+      <MemberSignature Language="C++ CLI" Value="xlInnerClockwisePoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlPieSliceIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="989a8-104">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="989a8-104">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlInnerCounterClockwisePoint">
+      <MemberSignature Language="C#" Value="xlInnerCounterClockwisePoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlPieSliceIndex xlInnerCounterClockwisePoint = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlPieSliceIndex.xlInnerCounterClockwisePoint" />
+      <MemberSignature Language="VB.NET" Value="xlInnerCounterClockwisePoint" />
+      <MemberSignature Language="C++ CLI" Value="xlInnerCounterClockwisePoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlPieSliceIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="989a8-105">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="989a8-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMidClockwiseRadiusPoint">
+      <MemberSignature Language="C#" Value="xlMidClockwiseRadiusPoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlPieSliceIndex xlMidClockwiseRadiusPoint = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlPieSliceIndex.xlMidClockwiseRadiusPoint" />
+      <MemberSignature Language="VB.NET" Value="xlMidClockwiseRadiusPoint" />
+      <MemberSignature Language="C++ CLI" Value="xlMidClockwiseRadiusPoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlPieSliceIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="989a8-106">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="989a8-106">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMidCounterClockwiseRadiusPoint">
+      <MemberSignature Language="C#" Value="xlMidCounterClockwiseRadiusPoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlPieSliceIndex xlMidCounterClockwiseRadiusPoint = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlPieSliceIndex.xlMidCounterClockwiseRadiusPoint" />
+      <MemberSignature Language="VB.NET" Value="xlMidCounterClockwiseRadiusPoint" />
+      <MemberSignature Language="C++ CLI" Value="xlMidCounterClockwiseRadiusPoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlPieSliceIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="989a8-107">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="989a8-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlOuterCenterPoint">
+      <MemberSignature Language="C#" Value="xlOuterCenterPoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlPieSliceIndex xlOuterCenterPoint = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlPieSliceIndex.xlOuterCenterPoint" />
+      <MemberSignature Language="VB.NET" Value="xlOuterCenterPoint" />
+      <MemberSignature Language="C++ CLI" Value="xlOuterCenterPoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlPieSliceIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="989a8-108">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="989a8-108">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlOuterClockwisePoint">
+      <MemberSignature Language="C#" Value="xlOuterClockwisePoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlPieSliceIndex xlOuterClockwisePoint = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlPieSliceIndex.xlOuterClockwisePoint" />
+      <MemberSignature Language="VB.NET" Value="xlOuterClockwisePoint" />
+      <MemberSignature Language="C++ CLI" Value="xlOuterClockwisePoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlPieSliceIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="989a8-109">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="989a8-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlOuterCounterClockwisePoint">
+      <MemberSignature Language="C#" Value="xlOuterCounterClockwisePoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlPieSliceIndex xlOuterCounterClockwisePoint = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlPieSliceIndex.xlOuterCounterClockwisePoint" />
+      <MemberSignature Language="VB.NET" Value="xlOuterCounterClockwisePoint" />
+      <MemberSignature Language="C++ CLI" Value="xlOuterCounterClockwisePoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlPieSliceIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="989a8-110">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="989a8-110">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

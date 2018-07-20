@@ -1,0 +1,700 @@
+<Type Name="FileDialog" FullName="Microsoft.Office.Core.FileDialog">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="db6c4516b8b2127a1b83795fb9150768f72ed02c" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657868" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface FileDialog : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FileDialog implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.FileDialog" />
+  <TypeSignature Language="VB.NET" Value="Public Interface FileDialog&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class FileDialog : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0362-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="bac03-101">提供文件对话框，其功能与 Microsoft Office 应用程序中标准的“打开”和“保存”对话框类似。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bac03-101">Provides file dialog box functionality similar to the functionality of the standard Open and Save dialog boxes found in Microsoft Office applications.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="bac03-102">
+        <para>使用此对象提供的对话框中，您的解决方案的用户可以轻松地指定的文件和应使用您的解决方案的文件夹。</para>
+        <para>使用<b>FileDialog</b>属性可返回一个<b>FileDialog</b>对象。<b>FileDialog</b>属性位于每个单独的 Office 应用程序的<b>Application</b>对象。该属性接受单个参数， <paramref name="DialogType" />，用于确定<b>FileDialog</b>对象的属性返回的类型。有四种类型的<b>FileDialog</b>对象：</para>
+        <list type="bullet">
+          <item>
+            <para>打开对话框-允许用户选择一个或多个您可以使用<b>Execute</b>方法的主机应用程序在打开的文件。</para>
+          </item>
+          <item>
+            <para>另存为对话框的允许用户选择一个可以然后将当前文件保存为使用<b>Execute</b>方法的单个文件。</para>
+          </item>
+          <item>
+            <para>文件选取器对话框-允许用户选择一个或多个文件。用户选择的文件路径中捕获的<see cref="T:Microsoft.Office.Core.FileDialogSelectedItems" />集合。</para>
+          </item>
+          <item>
+            <para>文件夹选取器对话框-允许用户选择路径。用户选择的路径捕获<b>FileDialogSelectedItems</b>集合中。</para>
+          </item>
+        </list>
+        <para>每个主机应用程序可以仅实例化<b>FileDialog</b>对象的单个实例。因此，很多<b>FileDialog</b>对象的属性保留即使创建多个<b>FileDialog</b>对象。因此，请确保您已设置的所有属性相应您之前显示对话框。</para>若要显示文件对话框的
+      <para>框使用<b>FileDialog</b>对象，则必须使用<see cref="M:Microsoft.Office.Core.FileDialog.Show" />方法。在用户关闭对话框之前后显示一个对话框，将执行任何代码。</para><para /></span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bac03-102">
+          <para>With the dialog boxes this object provides, users of your solutions can easily specify the files and folders that your solution should use.</para>
+          <para>Use the <b>FileDialog</b> property to return a <b>FileDialog</b> object. The <b>FileDialog</b> property is located in each individual Office application's <b>Application</b> object. The property takes a single argument, <paramref name="DialogType" />, that determines the type of <b>FileDialog</b> object that the property returns. There are four types of <b>FileDialog</b> objects:</para>
+          <list type="bullet">
+            <item>
+              <para>Open dialog box - Lets users select one or more files that you can then open in the host application using the <b>Execute</b> method.</para>
+            </item>
+            <item>
+              <para>SaveAs dialog box - Lets users select a single file that you can then save the current file as using the <b>Execute</b> method.</para>
+            </item>
+            <item>
+              <para>File Picker dialog box - Lets users select one or more files. The file paths that the user selects are captured in the <see cref="T:Microsoft.Office.Core.FileDialogSelectedItems" /> collection.</para>
+            </item>
+            <item>
+              <para>Folder Picker dialog box - Lets users select a path. The path that the user selects is captured in the <b>FileDialogSelectedItems</b> collection.</para>
+            </item>
+          </list>
+          <para>Each host application can only instantiate a single instance of the <b>FileDialog</b> object. Therefore, many of the properties of the <b>FileDialog</b> object persist even when you create multiple <b>FileDialog</b> objects. Therefore, make sure that you've set all of the properties appropriately for your purpose before you display the dialog box.</para>
+          <para>In order to display a file dialog box using the <b>FileDialog</b> object, you must use the <see cref="M:Microsoft.Office.Core.FileDialog.Show" /> method. Once a dialog box is displayed, no code will execute until the user dismisses the dialog box.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllowMultiSelect">
+      <MemberSignature Language="C#" Value="public bool AllowMultiSelect { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowMultiSelect" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.AllowMultiSelect" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowMultiSelect As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowMultiSelect { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809352)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809352)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809352)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bac03-103">确定用户是否允许文件对话框中选择多个文件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-103">Determines if the user is allowed to select multiple files from a file dialog box.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="bac03-104">
+            <para>此属性返回<b>True</b>如果允许用户选择多个文件从文件对话框;<b>False</b>如果不允许。</para>
+            <para>此属性不影响文件夹选取器对话框或另存为对话框，因为用户应永远无法在这些类型的文件对话框中选择多个文件。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-104">
+              <para>This property returns <b>True</b> if the user is allowed to select multiple files from a file dialog box; <b>False</b> if they are not allowed.</para>
+              <para>This property has no effect on Folder Picker dialog boxes or SaveAs dialog boxes, because users should never be able to select multiple files in these types of file dialog boxes.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bac03-105">返回一个<b>Application</b>对象，代表容器应用程序的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-105">Returns an <b>Application</b> object that represents the container application for the object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ButtonName">
+      <MemberSignature Language="C#" Value="public string ButtonName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ButtonName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.ButtonName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ButtonName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ButtonName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809350)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809350)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809350)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bac03-106">返回或设置一个代表文件对话框的操作按钮显示的文本的<b>字符串</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-106">Returns or sets a <b>String</b> representing the text that is displayed on the action button of a file dialog box.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="bac03-107">
+            <para>默认情况下，此属性是设置为标准文本类型的文件对话框。例如，在打开对话框属性默认情况下设置为"打开"。此字符串被限制为 50 个字符。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-107">
+              <para>By default, this property is set to the standard text for the type of file dialog box. For example, in the case of the Open dialog box, the property is set to "Open" by default. This string is limited to fifty-one characters.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bac03-108">返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-108">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="bac03-109">
+            <para>如果指定的对象在 Microsoft Word 中创建的此属性返回 1297307460，它表示字符串 MSWD;如果在 Microsoft Excel 中创建，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.FileDialog.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-109">
+              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.FileDialog.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DialogType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoFileDialogType DialogType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoFileDialogType DialogType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.DialogType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DialogType As MsoFileDialogType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFileDialogType DialogType { Microsoft::Office::Core::MsoFileDialogType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileDialogType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bac03-110">返回<see cref="T:Microsoft.Office.Core.MsoFileDialogType" />框中表示文件对话框的类型的常量<see cref="T:Microsoft.Office.Core.FileDialog" />对象设置为显示。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-110">Returns an <see cref="T:Microsoft.Office.Core.MsoFileDialogType" /> constant representing the type of file dialog box that the <see cref="T:Microsoft.Office.Core.FileDialog" /> object is set to display.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Execute">
+      <MemberSignature Language="C#" Value="public void Execute ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Execute() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.FileDialog.Execute" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Execute ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Execute();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809362)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="bac03-111">运行的过程或内置命令分配给指定的命令栏控件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-111">Runs the procedure or built-in command assigned to the specified command bar control.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="bac03-112">
+            <para>为<see cref="T:Microsoft.Office.Core.FileDialog" />对象的类型<b>msoFileDialogOpen</b>或<b>msoFileDialogSaveAs</b>，执行后的用户的操作权限<see cref="M:Microsoft.Office.Core.FileDialog.Show" />调用方法。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-112">
+              <para>For <see cref="T:Microsoft.Office.Core.FileDialog" /> objects of type <b>msoFileDialogOpen</b> or <b>msoFileDialogSaveAs</b>, carries out a user's action right after the <see cref="M:Microsoft.Office.Core.FileDialog.Show" /> method is invoked.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FilterIndex">
+      <MemberSignature Language="C#" Value="public int FilterIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 FilterIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.FilterIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property FilterIndex As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int FilterIndex { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bac03-113">返回或设置一个<b>整数</b>，表示文件对话框中的默认文件筛选器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-113">Returns or sets an <b>Integer</b> indicating the default file filter of a file dialog box.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="bac03-114">
+            <para>如果您尝试将此属性设置为数大于筛选器数目，将选择的最后一个可用筛选器。</para>
+            <para>的默认筛选器确定的首次打开文件对话框时显示的文件类型。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-114">
+              <para>If you try to set this property to a number greater than the number of filters, the last available filter will be selected.</para>
+              <para>The default filter determines the types of files that are displayed when the file dialog box is first opened.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Filters">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.FileDialogFilters Filters { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.FileDialogFilters Filters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.Filters" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Filters As FileDialogFilters" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::FileDialogFilters ^ Filters { Microsoft::Office::Core::FileDialogFilters ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.FileDialogFilters</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bac03-115">返回<see cref="T:Microsoft.Office.Core.FileDialogFilters" />集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-115">Returns a <see cref="T:Microsoft.Office.Core.FileDialogFilters" /> collection.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitialFileName">
+      <MemberSignature Language="C#" Value="public string InitialFileName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InitialFileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.InitialFileName" />
+      <MemberSignature Language="VB.NET" Value="Public Property InitialFileName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InitialFileName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809356)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809356)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809356)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bac03-116">返回或设置一个代表文件对话框中最初显示的路径和/或文件名称的<b>字符串</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-116">Returns or sets a <b>String</b> representing the path and/or file name that is initially displayed in a file dialog box.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="bac03-117">
+            <para>您可以使用*和 ? 通配符字符时指定的文件名，而不是在指定的路径。* 表示单个字符的任意数量的连续字符和 ? 表示。例如。InitialFileName ="c:\c\*s.txt"将返回"charts.txt"和"字符。"</para>
+            <para>如果指定了路径而没有文件名称，则文件筛选器所允许的所有文件将都显示在对话框中。</para>
+            <para>如果指定了初始文件夹中存在的文件，则只将该文件将显示在对话框中。</para>如果您指定在初始文件夹中，不存在的文件名，则对话框中将不包含任何文件的
+          <para>。<b>InitialFileName</b>属性中指定的文件类型将覆盖文件筛选器设置。</para>使用
+          <para>如果您指定了无效的路径，上次使用的路径。一条消息将使用路径无效时警告用户。</para><para>此属性设置为长度大于 256 个字符的字符串将导致运行时错误。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-117">
+              <para>You can use the '*' and '?' wildcard characters when specifying the file name but not when specifying the path. The '*' represents any number of consecutive characters, and the '?' represents a single character. For example, .InitialFileName = "c:\c\*s.txt" will return both "charts.txt" and "checkregister.txt."</para>
+              <para>If you specify a path and no file name, then all files that are allowed by the file filter will appear in the dialog box.</para>
+              <para>If you specify a file that exists in the initial folder, then only that file will appear in the dialog box.</para>
+              <para>If you specify a file name that doesn't exist in the initial folder, then the dialog box will contain no files. The type of file that you specify in the <b>InitialFileName</b> property will override the file filter settings.</para>
+              <para>If you specify an invalid path, the last-used path is used. A message will warn users when an invalid path is used.</para>
+              <para>Setting this property to a string longer than 256 characters will cause a run-time error.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitialView">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoFileDialogView InitialView { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoFileDialogView InitialView" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.InitialView" />
+      <MemberSignature Language="VB.NET" Value="Public Property InitialView As MsoFileDialogView" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFileDialogView InitialView { Microsoft::Office::Core::MsoFileDialogView get(); void set(Microsoft::Office::Core::MsoFileDialogView value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809354)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809354)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809354)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileDialogView</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bac03-118">返回或设置<see cref="T:Microsoft.Office.Core.MsoFileDialogView" />常数，它表示文件对话框中的文件和文件夹在初始演示文稿。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-118">Returns or sets a <see cref="T:Microsoft.Office.Core.MsoFileDialogView" /> constant representing the initial presentation of files and folders in a file dialog box.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public string this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Item" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.Item" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bac03-119">返回与对象关联的文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-119">Returns the text associated with an object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bac03-120">返回指定对象的<b>父</b>对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-120">Returns the <b>Parent</b> object for the specified object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectedItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.FileDialogSelectedItems SelectedItems { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.FileDialogSelectedItems SelectedItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.SelectedItems" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SelectedItems As FileDialogSelectedItems" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::FileDialogSelectedItems ^ SelectedItems { Microsoft::Office::Core::FileDialogSelectedItems ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809358)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809358)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.FileDialogSelectedItems</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bac03-121">返回<see cref="T:Microsoft.Office.Core.FileDialogSelectedItems" />集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-121">Returns a <see cref="T:Microsoft.Office.Core.FileDialogSelectedItems" /> collection.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="bac03-122">
+            <para>此集合包含的使用的文件对话框中选择一个用户显示的文件的路径列表<see cref="M:Microsoft.Office.Core.FileDialog.Show" />方法<see cref="T:Microsoft.Office.Core.FileDialog" />对象。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-122">
+              <para>This collection contains a list of the paths of the files that a user selected from a file dialog box displayed using the <see cref="M:Microsoft.Office.Core.FileDialog.Show" /> method of the <see cref="T:Microsoft.Office.Core.FileDialog" /> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Show">
+      <MemberSignature Language="C#" Value="public int Show ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Show() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.FileDialog.Show" />
+      <MemberSignature Language="VB.NET" Value="Public Function Show () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int Show();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809361)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="bac03-123">显示文件对话框，并返回一个<b>整数</b>，指示用户按下操作按钮 (-1) 或取消按钮 (0)。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-123">Displays a file dialog box and returns an <b>Integer</b> indicating whether the user pressed the action button (-1) or the cancel button (0).</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <span data-ttu-id="bac03-124">
+            <para>当调用<b>Show</b>方法时，不执行其他代码将在用户关闭文件对话框之前。打开和另存为对话框的情况下使用<see cref="M:Microsoft.Office.Core.FileDialog.Execute" />右后<b>Show</b>方法执行用户的操作的方法。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-124">
+              <para>When you call the <b>Show</b> method, no more code will execute until the user dismisses the file dialog box. In the case of Open and SaveAs dialog boxes, use the <see cref="M:Microsoft.Office.Core.FileDialog.Execute" /> method right after the <b>Show</b> method to carry out the user's action.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Title">
+      <MemberSignature Language="C#" Value="public string Title { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Title" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.FileDialog.Title" />
+      <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bac03-125">返回或设置使用显示的文件对话框的标题<see cref="T:Microsoft.Office.Core.FileDialog" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bac03-125">Returns or sets the title of a file dialog box displayed using the <see cref="T:Microsoft.Office.Core.FileDialog" /> object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

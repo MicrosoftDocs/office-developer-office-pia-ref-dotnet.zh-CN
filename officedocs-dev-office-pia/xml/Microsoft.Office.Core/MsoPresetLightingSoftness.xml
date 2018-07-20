@@ -1,0 +1,129 @@
+<Type Name="MsoPresetLightingSoftness" FullName="Microsoft.Office.Core.MsoPresetLightingSoftness">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="16f5c7d4372ad22512115c6264030573ffc3ccf7" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657998" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoPresetLightingSoftness" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetLightingSoftness extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetLightingSoftness" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetLightingSoftness" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoPresetLightingSoftness" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="77210-101">指定形状上所使用光的亮度。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="77210-101">Specifies the intensity of light used on a shape.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoLightingBright">
+      <MemberSignature Language="C#" Value="msoLightingBright" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetLightingSoftness msoLightingBright = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetLightingSoftness.msoLightingBright" />
+      <MemberSignature Language="VB.NET" Value="msoLightingBright" />
+      <MemberSignature Language="C++ CLI" Value="msoLightingBright" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetLightingSoftness</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="77210-102">明亮光。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="77210-102">Bright light.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightingDim">
+      <MemberSignature Language="C#" Value="msoLightingDim" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetLightingSoftness msoLightingDim = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetLightingSoftness.msoLightingDim" />
+      <MemberSignature Language="VB.NET" Value="msoLightingDim" />
+      <MemberSignature Language="C++ CLI" Value="msoLightingDim" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetLightingSoftness</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="77210-103">暗淡光。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="77210-103">Dim light.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightingNormal">
+      <MemberSignature Language="C#" Value="msoLightingNormal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetLightingSoftness msoLightingNormal = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetLightingSoftness.msoLightingNormal" />
+      <MemberSignature Language="VB.NET" Value="msoLightingNormal" />
+      <MemberSignature Language="C++ CLI" Value="msoLightingNormal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetLightingSoftness</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="77210-104">普通光。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="77210-104">Normal light.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPresetLightingSoftnessMixed">
+      <MemberSignature Language="C#" Value="msoPresetLightingSoftnessMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetLightingSoftness msoPresetLightingSoftnessMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetLightingSoftness.msoPresetLightingSoftnessMixed" />
+      <MemberSignature Language="VB.NET" Value="msoPresetLightingSoftnessMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoPresetLightingSoftnessMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetLightingSoftness</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="77210-105">不支持。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="77210-105">Not supported.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

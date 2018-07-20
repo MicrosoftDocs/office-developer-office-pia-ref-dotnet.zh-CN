@@ -1,0 +1,398 @@
+<Type Name="UserPermission" FullName="Microsoft.Office.Core.UserPermission">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ff15509d065f51ea294d05c3618fe720cd2f4bdf" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657836" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface UserPermission : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract UserPermission implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.UserPermission" />
+  <TypeSignature Language="VB.NET" Value="Public Interface UserPermission&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class UserPermission : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0375-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="22029-101">
+        <b>UserPermission</b>对象将与单个用户和可选的到期日期关联一的组活动文档的权限。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="22029-101">The <b>UserPermission</b> object associates a set of permissions on the active document with a single user and an optional expiration date.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="22029-102">
+        <para>代表活动文档的成员<see cref="T:Microsoft.Office.Core.Permission" />集合。</para>使用
+      <para><see cref="M:Microsoft.Office.Core.Permission.Add(System.String,System.Object,System.Object)" />的具有可选的到期日期的新用户授予对活动文档的特殊权限的<b>权限</b>对象的方法。使用<see cref="M:Microsoft.Office.Core.UserPermission.Remove" />要删除用户和用户权限的<b>UserPermission</b>对象的方法。</para><para>时某些通过用户界面 （如<b>msoPermissionPrint</b>) 授予的权限应用于所有用户，您可以使用<b>UserPermission</b>对象以便将它们分配每用户的到期日期与基于每个用户。</para><para /></span>
+      <span class="sxs-lookup">
+        <span data-stu-id="22029-102">
+          <para>Represents a member of the active document's <see cref="T:Microsoft.Office.Core.Permission" /> collection.</para>
+          <para>Use the <see cref="M:Microsoft.Office.Core.Permission.Add(System.String,System.Object,System.Object)" /> method of the <b>Permission</b> object to grant specific permissions on the active document to a new user, with an optional expiration date. Use the <see cref="M:Microsoft.Office.Core.UserPermission.Remove" /> method of the <b>UserPermission</b> object to remove a user and the user's permissions.</para>
+          <para>While some permissions granted through the user interface (such as <b>msoPermissionPrint</b>) apply to all users, you can use the <b>UserPermission</b> object to assign them on a per-user basis with per-user expiration dates.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.UserPermission.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="22029-103">返回一个<b>Application</b>对象，代表容器应用程序的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22029-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.UserPermission.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="22029-104">返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22029-104">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="22029-105">
+            <para>如果指定的对象在 Microsoft Word 中创建的此属性返回 1297307460，它表示字符串 MSWD;如果在 Microsoft Excel 中创建，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.Sync.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22029-105">
+              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.Sync.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpirationDate">
+      <MemberSignature Language="C#" Value="public object ExpirationDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ExpirationDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.UserPermission.ExpirationDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExpirationDate As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ExpirationDate { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="22029-106">返回或设置分配给与指定关联的用户的活动文档上的权限的可选的到期日期<see cref="T:Microsoft.Office.Core.UserPermission" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22029-106">Returns or sets the optional expiration date of the permissions on the active document assigned to the user associated with the specified <see cref="T:Microsoft.Office.Core.UserPermission" /> object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="22029-107">
+            <para>
+              <b>UserPermission</b>对象将与单个用户和可选的到期日期关联一的组活动文档的权限。<b>ExpirationDate</b>属性返回或设置指定的<b>UserPermission</b>对象使用本地时区的可选的到期日期。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22029-107">
+              <para>The <b>UserPermission</b> object associates a set of permissions on the active document with a single user and an optional expiration date. The <b>ExpirationDate</b> property returns or sets the optional expiration date of the specified <b>UserPermission</b> object using the local time zone.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.UserPermission.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="22029-108">返回指定对象的<b>父</b>对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22029-108">Returns the <b>Parent</b> object for the specified object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Permission">
+      <MemberSignature Language="C#" Value="public int Permission { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Permission" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.UserPermission.Permission" />
+      <MemberSignature Language="VB.NET" Value="Public Property Permission As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Permission { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="22029-109">返回或设置一个<b>整数</b>值，表示分配给与指定关联的用户的活动文档的权限<see cref="T:Microsoft.Office.Core.UserPermission" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22029-109">Returns or sets an <b>Integer</b> value representing the permissions on the active document assigned to the user associated with the specified <see cref="T:Microsoft.Office.Core.UserPermission" /> object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="22029-110">
+            <para>
+              <b>Permission</b>属性可以是一个或的组合<see cref="T:Microsoft.Office.Core.MsoPermission" />常量。</para>
+            <para>
+              <b>UserPermission</b>对象将与单个用户和可选的到期日期关联一的组活动文档的权限。<b>Permission</b>属性返回的一组用户权限由指定的<b>UserPermission</b>对象。时某些通过用户界面 （如<b>msoPermissionPrint</b>) 授予的权限应用于所有用户，您可以使用<b>UserPermission</b>对象以便将它们分配每用户的到期日期与基于每个用户。</para>
+            <list type="bullet">
+              <item>
+                <para>
+                  <b>MsoPermissionView</b>或<b>msoPermissionRead</b>选项与用户界面中的读取选项相对应。</para>
+              </item>
+              <item>
+                <para>
+                  <b>MsoPermissionExtract</b>选项与具有读取访问权限允许用户复制用户界面中的内容的选项。</para>
+              </item>
+              <item>
+                <para>
+                  <b>MsoPermissionChange</b>选项对应于用户界面中的更改选项。<b>MsoPermissionChange</b>选项表示的总和的<b>msoPermissionView</b> + <b>msoPermissionEdit</b> + <b>msoPermissionSave</b> + <b>msoPermissionExtract</b>并允许用户查看编辑、 复制和保存，但不是能打印文档。</para>
+              </item>
+              <item>
+                <para>
+                  <b>MsoPermissionPrint</b>选项与用户界面中的打印内容选项相对应。</para>
+              </item>
+              <item>
+                <para>
+                  <b>MsoPermissionObjectModel</b>选项对应于访问内容以编程方式在用户界面中的选项，并允许用户通过其对象模型以编程方式访问文档。没有<b>msoPermissionObjectModel</b>用户能使用对象模型来确定他们自己的权限，因为禁用编程访问。</para>
+              </item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22029-110">
+              <para>The <b>Permission</b> property can be one or a combination of <see cref="T:Microsoft.Office.Core.MsoPermission" /> constants.</para>
+              <para>The <b>UserPermission</b> object associates a set of permissions on the active document with a single user and an optional expiration date. The <b>Permission</b> property returns the set of user permissions determined by the specified <b>UserPermission</b> object. While some permissions granted through the user interface (such as <b>msoPermissionPrint</b>) apply to all users, you can use the <b>UserPermission</b> object to assign them on a per-user basis with per-user expiration dates.</para>
+              <list type="bullet">
+                <item>
+                  <para>The <b>msoPermissionView</b> or <b>msoPermissionRead</b> option corresponds to the Read option in the user interface.</para>
+                </item>
+                <item>
+                  <para>The <b>msoPermissionExtract</b> option corresponds to the Allow users with read access to copy content option in the user interface.</para>
+                </item>
+                <item>
+                  <para>The <b>msoPermissionChange</b> option corresponds to the Change option in the user interface. The <b>msoPermissionChange</b> option represents the sum of <b>msoPermissionView</b> + <b>msoPermissionEdit</b> + <b>msoPermissionSave</b> + <b>msoPermissionExtract</b> and allows users to view, edit, copy, and save, but not print, the document.</para>
+                </item>
+                <item>
+                  <para>The <b>msoPermissionPrint</b> option corresponds to thePrint content option in the user interface.</para>
+                </item>
+                <item>
+                  <para>The <b>msoPermissionObjectModel</b> option corresponds to the Access content programmatically option in the user interface and allows users to access the document programmatically through its object model. Users without <b>msoPermissionObjectModel</b> cannot use the object model to determine their own rights, because programmatic access is disabled.</para>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.UserPermission.Remove" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="22029-111">删除指定<see cref="T:Microsoft.Office.Core.UserPermission" />对象从<see cref="T:Microsoft.Office.Core.Permission" />活动文档的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22029-111">Removes the specified <see cref="T:Microsoft.Office.Core.UserPermission" /> object from the <see cref="T:Microsoft.Office.Core.Permission" /> collection of the active document.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="22029-112">
+            <para>
+              <b>UserPermission</b>对象将与单个用户和可选的到期日期关联一的组活动文档的权限。<b>Remove</b>方法删除用户和一组用户权限由指定的<b>UserPermission</b>对象。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22029-112">
+              <para>The <b>UserPermission</b> object associates a set of permissions on the active document with a single user and an optional expiration date. The <b>Remove</b> method removes the user and the set of user permissions determined by the specified <b>UserPermission</b> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserId">
+      <MemberSignature Language="C#" Value="public string this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UserId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.UserPermission.UserId" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property UserId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="22029-113">返回的对活动文档权限确定的用户的电子邮件名称按指定<see cref="T:Microsoft.Office.Core.UserPermission" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22029-113">Returns the email name of the user whose permissions on the active document are determined by the specified <see cref="T:Microsoft.Office.Core.UserPermission" /> object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="22029-114">
+            <para>
+              <b>UserPermission</b>对象将与单个用户和可选的到期日期关联一的组活动文档的权限。<b>UserID</b>属性返回由指定的<b>UserPermission</b>对象确定其权限的用户的电子邮件窗体中的名称。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22029-114">
+              <para>The <b>UserPermission</b> object associates a set of permissions on the active document with a single user and an optional expiration date. The <b>UserID</b> property returns the name in email form of the user whose permissions are determined by the specified <b>UserPermission</b> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

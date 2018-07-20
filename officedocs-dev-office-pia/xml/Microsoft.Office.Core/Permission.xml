@@ -1,0 +1,874 @@
+<Type Name="Permission" FullName="Microsoft.Office.Core.Permission">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fe6f3a417ebde79f8d262a5f2265cdc32d2f7d2c" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658332" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Permission : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Permission implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Permission" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Permission&#xA;Implements _IMsoDispObj, IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Permission : Microsoft::Office::Core::_IMsoDispObj, System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0376-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="c5e7a-101">使用 <b>权限</b> 对象来限制对活动文档的权限，并返回或设置特定权限设置。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c5e7a-101">Use the <b>Permission</b> object to restrict permissions to the active document and to return or set specific permissions settings.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="c5e7a-102">
+        <para>Microsoft Office Word 2003<b>文档</b>对象、 Microsoft Office Excel 2003<b>工作簿</b>对象和 Microsoft Office PowerPoint 2003<b>演示文稿</b>对象的<b>Permission</b>属性返回某项<b>权限</b>对象。</para>使用
+      <para><see cref="P:Microsoft.Office.Core.Permission.Enabled" />属性可以确定是否在活动文档受到限制权限。使用<see cref="P:Microsoft.Office.Core.Permission.Count" />属性返回的具有权限的用户数和<see cref="M:Microsoft.Office.Core.Permission.RemoveAll" />方法来重置所有现有权限。</para><para><see cref="P:Microsoft.Office.Core.Permission.DocumentAuthor" />， <see cref="P:Microsoft.Office.Core.Permission.EnableTrustedBrowser" />， <see cref="P:Microsoft.Office.Core.Permission.RequestPermissionURL" />，和<see cref="P:Microsoft.Office.Core.Permission.StoreLicenses" />属性提供有关权限设置的其他信息。</para><para><b>权限</b>对象的集合使访问<see cref="T:Microsoft.Office.Core.UserPermission" />对象。使用<b>UserPermission</b>对象关联的特定权限集与单个用户。时某些通过用户界面 （如<b>msoPermissionPrint</b>) 授予的权限应用于所有用户，您可以使用<b>UserPermission</b>对象以便将它们分配每用户的到期日期与基于每个用户。</para><para>Microsoft Office 信息权限管理支持使用管理权限策略，其中列出用户和组以及其文档的权限。使用<see cref="M:Microsoft.Office.Core.Permission.ApplyPolicy(System.String)" />方法，以应用权限策略和<see cref="P:Microsoft.Office.Core.Permission.PermissionFromPolicy" />， <see cref="P:Microsoft.Office.Core.Permission.PolicyName" />，和<see cref="P:Microsoft.Office.Core.Permission.PolicyDescription" />属性可返回策略信息。</para>无论是否的权限限制对活动文档的可用
+      <para><b>权限</b>模型。当活动文档不具有受限的权限，<b>文档</b>、<b>工作簿</b>和<b>演示文稿</b>对象的<b>Permission</b>属性不返回<b>Nothing</b> 。<b>Enabled</b>属性用于确定文档是否具有受限权限。</para><para>如果未安装 Windows Rights Management 客户端，使用<b>Permission</b>对象将引发错误。</para><para /></span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c5e7a-102">
+          <para>The <b>Permission</b> property of the Microsoft Office Word 2003 <b>Document</b> object, the Microsoft Office Excel 2003 <b>Workbook</b> object, and the Microsoft Office PowerPoint 2003 <b>Presentation</b> object returns a <b>Permission</b> object.</para>
+          <para>Use the <see cref="P:Microsoft.Office.Core.Permission.Enabled" /> property to determine whether permissions are restricted on the active document. Use the <see cref="P:Microsoft.Office.Core.Permission.Count" /> property to return the number of users with permissions and the <see cref="M:Microsoft.Office.Core.Permission.RemoveAll" /> method to reset all existing permissions.</para>
+          <para>The <see cref="P:Microsoft.Office.Core.Permission.DocumentAuthor" />, <see cref="P:Microsoft.Office.Core.Permission.EnableTrustedBrowser" />, <see cref="P:Microsoft.Office.Core.Permission.RequestPermissionURL" />, and <see cref="P:Microsoft.Office.Core.Permission.StoreLicenses" /> properties provide additional information about permissions settings.</para>
+          <para>The <b>Permission</b> object gives access to a collection of <see cref="T:Microsoft.Office.Core.UserPermission" /> objects. Use the <b>UserPermission</b> object to associate specific sets of rights with individual users. While some permissions granted through the user interface (such as <b>msoPermissionPrint</b>) apply to all users, you can use the <b>UserPermission</b> object to assign them on a per-user basis with per-user expiration dates.</para>
+          <para>Microsoft Office Information Rights Management supports the use of administrative permission policies which list users and groups and their document permissions. Use the <see cref="M:Microsoft.Office.Core.Permission.ApplyPolicy(System.String)" /> method to apply a permission policy and the <see cref="P:Microsoft.Office.Core.Permission.PermissionFromPolicy" />, <see cref="P:Microsoft.Office.Core.Permission.PolicyName" />, and <see cref="P:Microsoft.Office.Core.Permission.PolicyDescription" /> properties to return policy information.</para>
+          <para>The <b>Permission</b> object model is available regardless of whether permissions are restricted on the active document. The <b>Permission</b> property of the <b>Document</b>, <b>Workbook</b>, and <b>Presentation</b> objects does not return <b>Nothing</b> when the active document does not have restricted permissions. Use the <b>Enabled</b> property to determine whether a document has restricted permissions.</para>
+          <para>Use of the <b>Permission</b> object raises an error when the Windows Rights Management client is not installed.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.UserPermission Add (string UserId, object Permission, object ExpirationDate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.UserPermission Add([in]string UserId, [in]object Permission, [in]object ExpirationDate) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Permission.Add(System.String,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (UserId As String, Optional Permission As Object, Optional ExpirationDate As Object) As UserPermission" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.UserPermission</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="UserId" Type="System.String" />
+        <Parameter Name="Permission" Type="System.Object" />
+        <Parameter Name="ExpirationDate" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="UserId">
+          <span data-ttu-id="c5e7a-103">可选的<b>对象</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-103">Optional <b>Object</b>.</span>
+          </span>
+          <span data-ttu-id="c5e7a-104">电子邮件地址 (格式为<paramref name="user@domain.com" />) 向其授予对活动文档的权限的用户。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-104">The email address (in the format <paramref name="user@domain.com" />) of the user to whom permissions on the active document are being granted.</span>
+          </span>
+        </param>
+        <param name="Permission">
+          <span data-ttu-id="c5e7a-105">可选的<b>字符串</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-105">Optional <b>String</b>.</span>
+          </span>
+          <span data-ttu-id="c5e7a-106">向指定用户授予的对活动文档的权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-106">The permissions on the active document that are being granted to the specified user.</span>
+          </span>
+        </param>
+        <param name="ExpirationDate">
+          <span data-ttu-id="c5e7a-107">必需的 <b>字符串</b> 。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-107">Required <b>String</b>.</span>
+          </span>
+          <span data-ttu-id="c5e7a-108">要授予权限的到期日期。注意此参数不使用且将被忽略。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-108">The expiration date for the permissions that are being granted.NoteThis parameter is not used and will be ignored.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="c5e7a-109">指定用户对活动文档中创建新的权限集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-109">Creates a new set of permissions on the active document for the specified user.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Permission.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c5e7a-110">返回一个<b>Application</b>对象，代表容器应用程序的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-110">Returns an <b>Application</b> object that represents the container application for the object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyPolicy">
+      <MemberSignature Language="C#" Value="public void ApplyPolicy (string FileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ApplyPolicy([in]string FileName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Permission.ApplyPolicy(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ApplyPolicy (FileName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ApplyPolicy(System::String ^ FileName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="FileName">
+          <span data-ttu-id="c5e7a-111">必需的 <b>字符串</b> 。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-111">Required <b>String</b>.</span>
+          </span>
+          <span data-ttu-id="c5e7a-112">权限策略模板文件的路径和文件名。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-112">The path and filename of the permission policy template file.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="c5e7a-113">对活动文档应用指定的权限策略。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-113">Applies the specified permission policy to the active document.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="c5e7a-114">
+            <para>Microsoft Office 信息权限管理支持使用管理权限策略，其中列出用户和组以及其文档的权限。<b>ApplyPolicy</b>方法应用于活动文档的权限策略。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-114">
+              <para>Microsoft Office Information Rights Management supports the use of administrative permission policies which list users and groups and their document permissions. The <b>ApplyPolicy</b> method applies a permission policy to the active document.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Permission.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c5e7a-115">返回一个指示指定集合中的项目数的<b>整数</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-115">Returns an <b>Integer</b> indicating the number of items in the specified collection.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="c5e7a-116">
+            <para>如果不在活动文档中启用权限，则返回 0 （零）。启用权限后， <b>Count</b>属性将始终返回至少 1，表示文档作者的权限。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-116">
+              <para>Returns 0 (zero) if permissions are not enabled on the active document. When permissions are enabled, the <b>Count</b> property always returns at least 1, representing the permissions of the document author.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Permission.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c5e7a-117">返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-117">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="c5e7a-118">
+            <para>如果指定的对象在 Microsoft Word 中创建的此属性返回 1297307460，它表示字符串 MSWD;如果在 Microsoft Excel 中创建，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.Permission.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-118">
+              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.Permission.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DocumentAuthor">
+      <MemberSignature Language="C#" Value="public string DocumentAuthor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DocumentAuthor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Permission.DocumentAuthor" />
+      <MemberSignature Language="VB.NET" Value="Public Property DocumentAuthor As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DocumentAuthor { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c5e7a-119">返回或设置活动文档的作者的电子邮件窗体中的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-119">Returns or sets the name in email form of the author of the active document.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="c5e7a-120">
+            <para>将使用<b>DocumentAuthor</b>属性返回或设置活动文档的作者。作者始终具有非过期的所有者权限到文档，是否显式授予所有者权限 (通过<see cref="T:Microsoft.Office.Core.UserPermission" />对象) 或不。</para>只能通过打开本地计算机上的受限制的内容权限的用户界面已被验证为其他帐户更改
+          <para><b>DocumentAuthor</b>属性。在大多数情况下，拥有一个 Windows 帐户的用户只能选择其 Windows 和 Passport 身份之间。</para><para>如果用户的 Microsoft Windows 和 Passport 标识使用的相同的电子邮件地址，请使用 passport:someone@example.com 格式将 Passport 标识指定为<b>DocumentAuthor</b>属性。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-120">
+              <para>The <b>DocumentAuthor</b> property returns or sets the author of the active document. The author always has non-expiring owner rights to the document, whether owner permission is granted explicitly (through a <see cref="T:Microsoft.Office.Core.UserPermission" /> object) or not.</para>
+              <para>The <b>DocumentAuthor</b> property can only be changed to a different account that has been certified through the permissions user interface to open restricted content on the local machine. In most cases, users who have a single Windows account can only choose between their Windows and their Passport identities.</para>
+              <para>If the user's Microsoft Windows and Passport identities use the same email address, use the format passport:someone@example.com to specify the Passport identity as the <b>DocumentAuthor</b> property.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public bool Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Enabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Permission.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Enabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c5e7a-121">返回或设置一个<b>Boolean</b>值，该值指示是否在活动文档启用了权限。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-121">Returns or sets a <b>Boolean</b> value that indicates whether permissions are enabled on the active document.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="c5e7a-122">
+            <para>使用<b>Enabled</b>属性可确定权限是否受到限制对活动文档，并可启用或禁用权限。设置为<b>False</b>以禁用权限并移除所有用户，文档作者和其的权限之外的<b>已启用</b>。</para>
+            <para>禁用权限后，<see cref="P:Microsoft.Office.Core.Permission.Count" />属性<see cref="T:Microsoft.Office.Core.Permission" />对象返回 0 （零）; 但是，重新启用权限后，文档作者的权限保持不变。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-122">
+              <para>Use the <b>Enabled</b> property to determine whether permissions are restricted on the active document, and to enable or disable permissions. Set <b>Enabled</b> to <b>False</b> to disable permissions and to remove all users, other than the document author, and their permissions.</para>
+              <para>When permissions are disabled, the <see cref="P:Microsoft.Office.Core.Permission.Count" /> property of the <see cref="T:Microsoft.Office.Core.Permission" /> object returns 0 (zero); however, when permissions are re-enabled, the permissions of the document author remain intact.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableTrustedBrowser">
+      <MemberSignature Language="C#" Value="public bool EnableTrustedBrowser { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableTrustedBrowser" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Permission.EnableTrustedBrowser" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableTrustedBrowser As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableTrustedBrowser { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c5e7a-123">返回或设置允许用户在 web 浏览器中查看使用受限权限的文档，如果用户未安装相应的客户端应用程序的选项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-123">Returns or sets the option that allows a user to view a document with restricted permissions in a web browser if the user does not have the appropriate client application installed.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="c5e7a-124">
+            <para>默认返回值为<b>False</b>。</para>时<b>，则返回 True</b>，允许尝试使用受限权限，例如，打开 Office Word 2003 文档的用户，但是用户不具有 Office Word 2003 安装应用程序，以查看中的文档的
+          <para><b>EnableTrustedBrowser</b>属性Microsoft Internet Explorer 或其他浏览器支持此功能。此属性对应的复选框允许使用浏览器进行浏览器支持信息权限管理的 Office 早期版本的用户。（增加文件大小。）在用户界面中。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-124">
+              <para>The default return value is <b>False</b>.</para>
+              <para>The <b>EnableTrustedBrowser</b> property, when <b>True</b>, allows a user who tries to open an Office Word 2003 document with restricted permissions, for example, but who does not have the Office Word 2003 application installed, to view the document in Microsoft Internet Explorer or another browser that supports this functionality. This property corresponds to the checkbox Allow users with earlier versions of Office to read with browsers supporting Information Rights Management. (Increases file size.) in the user interface.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Permission.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.UserPermission this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.UserPermission Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Permission.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Object) As UserPermission" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::UserPermission ^ default[System::Object ^] { Microsoft::Office::Core::UserPermission ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.UserPermission</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="c5e7a-125">可选的<b>对象</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-125">Optional <b>Object</b>.</span>
+          </span>
+          <span data-ttu-id="c5e7a-126">
+            <b>UserPermission</b>
+            <b>Permission</b>集合中或要返回其组活动文档的权限的用户的电子邮件地址中的数值索引。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-126">The numeric index of the <b>UserPermission</b> in the <b>Permission</b> collection, or the email address of the user whose set of permissions on the active document is to be returned.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="c5e7a-127">返回<see cref="T:Microsoft.Office.Core.UserPermission" />对象的成员的<see cref="T:Microsoft.Office.Core.Permission" />集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-127">Returns a <see cref="T:Microsoft.Office.Core.UserPermission" /> object that is a member of the <see cref="T:Microsoft.Office.Core.Permission" /> collection.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="c5e7a-128">
+            <para>
+              <b>UserPermission</b>对象将与单个用户和可选的到期日期关联一的组活动文档的权限。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-128">
+              <para>The <b>UserPermission</b> object associates a set of permissions on the active document with a single user and an optional expiration date.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Permission.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c5e7a-129">返回指定对象的<b>父</b>对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-129">Returns the <b>Parent</b> object for the specified object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PermissionFromPolicy">
+      <MemberSignature Language="C#" Value="public bool PermissionFromPolicy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PermissionFromPolicy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Permission.PermissionFromPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PermissionFromPolicy As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PermissionFromPolicy { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c5e7a-130">返回一个<b>Boolean</b>值，该值指示是否已向活动文档应用权限策略。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-130">Returns a <b>Boolean</b> value that indicates whether a permission policy has been applied to the active document.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="c5e7a-131">
+            <para>Microsoft Office 2003 信息权限管理支持使用管理权限策略，其中列出用户和组以及其文档的权限。<b>PermissionFromPolicy</b>属性返回一个<b>布尔</b>值，该值指示是否权限策略被应用于活动文档的最后一个时间权限在文档中已启用。</para>
+            <para>， <b>PermissionFromPolicy</b>属性也总是返回<b>False</b>当非文档所有者的文档，即使用户具有对象模型权限检查。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-131">
+              <para>Microsoft Office 2003 Information Rights Management supports the use of administrative permission policies which list users and groups and their document permissions. The <b>PermissionFromPolicy</b> property returns a <b>Boolean</b> value that indicates whether a permission policy was applied to the active document the last time permissions were enabled on the document.</para>
+              <para>The <b>PermissionFromPolicy </b>property always returns <b>False</b> when checked by a non-owner of the document, even when the user has object model permissions.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyDescription">
+      <MemberSignature Language="C#" Value="public string PolicyDescription { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PolicyDescription" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Permission.PolicyDescription" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PolicyDescription As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PolicyDescription { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c5e7a-132">返回应用于活动文档的权限策略的说明。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-132">Returns the description of the permissions policy applied to the active document.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="c5e7a-133">
+            <para>Microsoft Office 信息权限管理支持使用管理权限策略，其中列出用户和组以及其文档的权限。将<b>使用 PolicyDescription</b>属性返回应用于活动文档或默认值，如果不使用策略的策略的说明。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-133">
+              <para>Microsoft Office Information Rights Management supports the use of administrative permission policies which list users and groups and their document permissions. The <b>PolicyDescription</b> property returns the description of the policy applied to the active document, or a default value if a policy was not used.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyName">
+      <MemberSignature Language="C#" Value="public string PolicyName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PolicyName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Permission.PolicyName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PolicyName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PolicyName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c5e7a-134">返回应用于活动文档的权限策略的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-134">Returns the name of the permissions policy applied to the active document.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="c5e7a-135">
+            <para>Microsoft Office 信息权限管理支持使用管理权限策略，其中列出用户和组以及其文档的权限。<b>PolicyName</b>属性返回应用于活动文档或默认值，如果不使用策略的策略的名称。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-135">
+              <para>Microsoft Office Information Rights Management supports the use of administrative permission policies which list users and groups and their document permissions. The <b>PolicyName</b> property returns the name of the policy applied to the active document, or a default value if a policy was not used.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveAll">
+      <MemberSignature Language="C#" Value="public void RemoveAll ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveAll() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Permission.RemoveAll" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveAll ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAll();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="c5e7a-136">删除所有<see cref="T:Microsoft.Office.Core.UserPermission" />对象从<see cref="T:Microsoft.Office.Core.Permission" />活动文档和禁用限制对活动文档的集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-136">Removes all <see cref="T:Microsoft.Office.Core.UserPermission" /> objects from the <see cref="T:Microsoft.Office.Core.Permission" /> collection of the active document and disables restrictions on the active document.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="c5e7a-137">
+            <para>调用<b>RemoveAll</b>方法后，<see cref="P:Microsoft.Office.Core.Permission.Enabled" />属性<see cref="T:Microsoft.Office.Core.Permission" />对象返回<b>False</b>和<see cref="P:Microsoft.Office.Core.Permission.Count" />属性返回 0 （零）。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-137">
+              <para>After calling the <b>RemoveAll</b> method, the <see cref="P:Microsoft.Office.Core.Permission.Enabled" /> property of the <see cref="T:Microsoft.Office.Core.Permission" /> object returns <b>False</b> and the <see cref="P:Microsoft.Office.Core.Permission.Count" /> property returns 0 (zero).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestPermissionURL">
+      <MemberSignature Language="C#" Value="public string RequestPermissionURL { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RequestPermissionURL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Permission.RequestPermissionURL" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestPermissionURL As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RequestPermissionURL { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c5e7a-138">返回或设置用于访问的文件或网站的 URL 或需要对活动文档的额外权限的用户的联系人的电子邮件地址。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-138">Returns or sets the file or web site URL to visit or the email address to contact for users who need additional permissions on the active document.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="c5e7a-139">
+            <para>
+              <b>RequestPermissionURL</b>设置对应于从权限的用户界面中的选项，用户可以请求附加权限。使用<b>RequestPermissionURL</b>属性可以指定文件、 网站或电子邮件联系人用户可以从其请求，或了解如何请求，请对活动文档的其他权限，例如：</para>
+            <list type="bullet">
+              <item>
+                <para>web 地址： http://companyserver/request_permissions.asp </para>
+              </item>
+              <item>
+                <para>A文件： \\companyserver\share\requesting_permissions.txt</para>
+              </item>
+              <item>
+                <para>电子邮件地址： mailto:permissionsmgr@example.com?Subject=Request%20permissions</para>
+              </item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-139">
+              <para>The <b>RequestPermissionURL</b> setting corresponds to the Users can request additional permissions from option in the permissions user interface. Use the <b>RequestPermissionURL</b> property to specify a file, a web site, or an email contact from which users can request, or learn how to request, additional permissions on the active document, for example:</para>
+              <list type="bullet">
+                <item>
+                  <para>A web address: http://companyserver/request_permissions.asp</para>
+                </item>
+                <item>
+                  <para>A file: \\companyserver\share\requesting_permissions.txt</para>
+                </item>
+                <item>
+                  <para>An email address: mailto:permissionsmgr@example.com?Subject=Request%20permissions</para>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StoreLicenses">
+      <MemberSignature Language="C#" Value="public bool StoreLicenses { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool StoreLicenses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Permission.StoreLicenses" />
+      <MemberSignature Language="VB.NET" Value="Public Property StoreLicenses As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool StoreLicenses { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c5e7a-140">返回一个<b>Boolean</b>值，该值指示是否应缓存用于查看活动文档的用户的许可证允许用户无法连接到权限管理服务器时脱机查看。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-140">Returns a <b>Boolean</b> value that indicates whether the user's license to view the active document should be cached to allow offline viewing when the user cannot connect to a rights management server.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="c5e7a-141">
+            <para>默认返回值为<b>True</b>。</para>
+            <para>
+              <b>StoreLicenses</b>属性对应于 （，其值为相反） 需要连接以验证权限的用户界面中的用户的权限选项。当<b>StoreLicenses</b>为<b>False</b>时，非文档所有者的用户必须连接到权限管理服务器，并获得许可，以使用该文档每次打开它。</para>
+            <para>内容处于保护状态使用 Microsoft Office 2003 信息权限管理服务， <b>StoreLicenses</b>属性始终为<b>True</b> ，并且不能设置为 False。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c5e7a-141">
+              <para>The default return value is <b>True</b>.</para>
+              <para>The <b>StoreLicenses</b> property corresponds to (and its value is the opposite of) the Require a connection to verify a user's permission option in the permissions user interface. When <b>StoreLicenses</b> is <b>False</b>, users other than the document owner must connect to the rights management server and acquire the license to work with the document each time they open it.</para>
+              <para>When content is protected using the Microsoft Office 2003 Information Rights Management service, the <b>StoreLicenses</b> property is always <b>True</b> and cannot be set to False.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

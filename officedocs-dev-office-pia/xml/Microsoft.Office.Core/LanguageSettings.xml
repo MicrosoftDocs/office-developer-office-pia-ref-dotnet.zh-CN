@@ -1,0 +1,270 @@
+<Type Name="LanguageSettings" FullName="Microsoft.Office.Core.LanguageSettings">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="eac391c618a6e556482d49e87525e3078cc39a14" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657992" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface LanguageSettings : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract LanguageSettings implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.LanguageSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Interface LanguageSettings&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class LanguageSettings : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0353-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="a5086-101">返回 Microsoft Office 应用程序中有关语言设置的信息。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a5086-101">Returns information about the language settings in a Microsoft Office application.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="a5086-102">
+        <para>使用<see cref="P:Microsoft.Office.Core.LanguageSettings.LanguageID(Microsoft.Office.Core.MsoAppLanguageID)" />属性返回到指定的应用程序的区域设置标识符 (LCID) 信息。</para>
+        <para>使用<see cref="P:Microsoft.Office.Core.LanguageSettings.LanguagePreferredForEditing(Microsoft.Office.Core.MsoLanguageID)" />属性可以确定哪些 Lcid 被注册为首选编辑应用程序的语言。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a5086-102">
+          <para>Use the <see cref="P:Microsoft.Office.Core.LanguageSettings.LanguageID(Microsoft.Office.Core.MsoAppLanguageID)" /> property to return locale identifier (LCID) information to the specified application.</para>
+          <para>Use the <see cref="P:Microsoft.Office.Core.LanguageSettings.LanguagePreferredForEditing(Microsoft.Office.Core.MsoLanguageID)" /> property to determine which LCIDs are registered as preferred editing languages for the application.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LanguageSettings.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a5086-103">返回一个<b>Application</b>对象，代表容器应用程序的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a5086-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LanguageSettings.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a5086-104">返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a5086-104">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="a5086-105">
+            <para>如果指定的对象在 Microsoft Word 中创建的此属性返回 1297307460，它表示字符串 MSWD;如果在 Microsoft Excel 中创建，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.LanguageSettings.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a5086-105">
+              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.LanguageSettings.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LanguageID">
+      <MemberSignature Language="C#" Value="public int LanguageID[Microsoft.Office.Core.MsoAppLanguageID Id] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LanguageID(valuetype Microsoft.Office.Core.MsoAppLanguageID)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LanguageSettings.LanguageID(Microsoft.Office.Core.MsoAppLanguageID)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LanguageID(Id As MsoAppLanguageID) As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int LanguageID[Microsoft::Office::Core::MsoAppLanguageID] { int get(Microsoft::Office::Core::MsoAppLanguageID Id); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Id" Type="Microsoft.Office.Core.MsoAppLanguageID" />
+      </Parameters>
+      <Docs>
+        <param name="Id">
+          <span data-ttu-id="a5086-106">所需<see cref="T:Microsoft.Office.Core.MsoAppLanguageID" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a5086-106">Required <see cref="T:Microsoft.Office.Core.MsoAppLanguageID" />.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="a5086-107">返回的安装语言、 用户界面语言，或帮助语言的区域设置标识符 (LCID)。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a5086-107">Returns the locale identifier (LCID) for the install language, the user interface language, or the Help language.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LanguagePreferredForEditing">
+      <MemberSignature Language="C#" Value="public bool LanguagePreferredForEditing[Microsoft.Office.Core.MsoLanguageID lid] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LanguagePreferredForEditing(valuetype Microsoft.Office.Core.MsoLanguageID)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LanguageSettings.LanguagePreferredForEditing(Microsoft.Office.Core.MsoLanguageID)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LanguagePreferredForEditing(lid As MsoLanguageID) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LanguagePreferredForEditing[Microsoft::Office::Core::MsoLanguageID] { bool get(Microsoft::Office::Core::MsoLanguageID lid); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="lid" Type="Microsoft.Office.Core.MsoLanguageID" />
+      </Parameters>
+      <Docs>
+        <param name="lid">
+          <span data-ttu-id="a5086-108">所需<see cref="T:Microsoft.Office.Core.MsoLanguageID" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a5086-108">Required <see cref="T:Microsoft.Office.Core.MsoLanguageID" />.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="a5086-109">确定的值<see cref="T:Microsoft.Office.Core.MsoLanguageID" />常量已在 Windows 注册表中确定为首选语言进行编辑。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a5086-109">Determines if the value for the <see cref="T:Microsoft.Office.Core.MsoLanguageID" /> constant has been identified in the Windows Registry as a preferred language for editing.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="a5086-110">
+            <para>此方法返回<b>True</b> ，如果<b>msoLanguageID</b>常量的值被标识在 Windows 注册表中为; 用户可以编辑的首选语言<b>False</b>否则为。</para>
+            <para>必须测试所有有效的<b>msoLanguageID</b>值枚举的首选语言集。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a5086-110">
+              <para>This method returns <b>True</b> if the value for the <b>msoLanguageID</b> constant has been identified in the Windows Registry as a preferred language for editing; <b>False</b> otherwise.</para>
+              <para>You must test all valid <b>msoLanguageID</b> values to enumerate the set of preferred languages.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LanguageSettings.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a5086-111">返回指定对象的<b>父</b>对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a5086-111">Returns the <b>Parent</b> object for the specified object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,391 @@
+<Type Name="PolicyItem" FullName="Microsoft.Office.Core.PolicyItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4c2cd1706d96d9fa47acfa0180fb9b7c3ca2710b" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657402" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface PolicyItem : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PolicyItem implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.PolicyItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface PolicyItem&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class PolicyItem : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0391-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="0fb9a-101">代表内的项目<see cref="T:Microsoft.Office.Core.ServerPolicy" />对象，其中包含一个策略的设置。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0fb9a-101">Represents an item within a <see cref="T:Microsoft.Office.Core.ServerPolicy" /> object that contains the settings for one policy.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="0fb9a-102">
+        <para>策略项不能存在的策略的范围之外。策略项是不同的文档存储在运行 Office SharePoint Server 2007 的服务器上定义的条件。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0fb9a-102">
+          <para>A policy item cannot exist outside the scope of a policy. Policy items are distinct conditions defined for a document stored on a server running Office SharePoint Server 2007.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.PolicyItem.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0fb9a-103">获取<b>应用程序</b>对象，该对象代表容器应用程序的<see cref="T:Microsoft.Office.Core.PolicyItem" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-103">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.PolicyItem" /> object.</span>
+          </span>
+          <span data-ttu-id="0fb9a-104">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-104">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0fb9a-105">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-105">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.PolicyItem.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0fb9a-106">获取一个 32 位整数，表示在其中应用程序<see cref="T:Microsoft.Office.Core.PolicyItem" />对象的创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-106">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.PolicyItem" /> object was created.</span>
+          </span>
+          <span data-ttu-id="0fb9a-107">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-107">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0fb9a-108">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-108">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Data">
+      <MemberSignature Language="C#" Value="public string Data { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Data" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.PolicyItem.Data" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Data As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Data { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0fb9a-p103">获取用于实现策略项的信息。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-p103">Gets the information that is used to implement the policy item. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0fb9a-111">
+            <b>字符串</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-111">
+              <b>String</b>
+            </span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="0fb9a-112">
+            <para>例如，策略项可能包含代码将文档转换为不同格式并将新文档复制到服务器。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-112">
+              <para>For example, the policy item might contain code to transform the document into a different format and copy the new document to a server.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public string Description { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Description" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.PolicyItem.Description" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Description As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Description { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0fb9a-p104">获取策略项当前状态的说明。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-p104">Gets a description of the current state of the policy item. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0fb9a-115">
+            <b>字符串</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-115">
+              <b>String</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.PolicyItem.Id" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0fb9a-116">获取策略项的 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-116">Gets the ID of a policy item.</span>
+          </span>
+          <span data-ttu-id="0fb9a-117">
+            <see cref="T:Microsoft.Office.Core.PolicyItem" />对象包含在<see cref="T:Microsoft.Office.Core.ServerPolicy" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-117">
+              <see cref="T:Microsoft.Office.Core.PolicyItem" /> objects are contained in <see cref="T:Microsoft.Office.Core.ServerPolicy" /> objects.</span>
+          </span>
+          <span data-ttu-id="0fb9a-118">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-118">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0fb9a-119">
+            <b>字符串</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-119">
+              <b>String</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.PolicyItem.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0fb9a-120">获取的名称<see cref="T:Microsoft.Office.Core.PolicyItem" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-120">Gets the name of the <see cref="T:Microsoft.Office.Core.PolicyItem" /> object.</span>
+          </span>
+          <span data-ttu-id="0fb9a-121">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-121">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0fb9a-122">
+            <b>字符串</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-122">
+              <b>String</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.PolicyItem.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0fb9a-123">获取对象的父<see cref="T:Microsoft.Office.Core.PolicyItem" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-123">Gets the parent object for the <see cref="T:Microsoft.Office.Core.PolicyItem" /> object.</span>
+          </span>
+          <span data-ttu-id="0fb9a-124">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-124">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0fb9a-125">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0fb9a-125">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

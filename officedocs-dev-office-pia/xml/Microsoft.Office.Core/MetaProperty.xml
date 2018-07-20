@@ -1,0 +1,537 @@
+<Type Name="MetaProperty" FullName="Microsoft.Office.Core.MetaProperty">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="781ace65427113f5f00b0085105e67c814865e70" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658267" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface MetaProperty : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MetaProperty implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MetaProperty" />
+  <TypeSignature Language="VB.NET" Value="Public Interface MetaProperty&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class MetaProperty : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C038F-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="d4b6b-101">代表某属性集合中的单个属性，这些属性描述了文档中存储的元数据。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d4b6b-101">Represents a single property in a collection of properties describing the metadata stored in a document.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.MetaProperty.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d4b6b-102">获取<b>应用程序</b>对象，该对象代表容器应用程序的<see cref="T:Microsoft.Office.Core.MetaProperty" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-102">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.MetaProperty" /> object.</span>
+          </span>
+          <span data-ttu-id="d4b6b-103">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-103">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d4b6b-104">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-104">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.MetaProperty.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d4b6b-105">获取一个 32 位整数，表示在其中应用程序<see cref="T:Microsoft.Office.Core.MetaProperty" />对象的创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-105">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.MetaProperty" /> object was created.</span>
+          </span>
+          <span data-ttu-id="d4b6b-106">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-106">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d4b6b-107">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-107">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.MetaProperty.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d4b6b-108">获取的 ID<see cref="T:Microsoft.Office.Core.MetaProperty" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-108">Gets the ID of the <see cref="T:Microsoft.Office.Core.MetaProperty" /> object.</span>
+          </span>
+          <span data-ttu-id="d4b6b-109">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-109">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d4b6b-110">
+            <b>字符串</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-110">
+              <b>String</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReadOnly">
+      <MemberSignature Language="C#" Value="public bool IsReadOnly { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReadOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.MetaProperty.IsReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsReadOnly As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadOnly { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d4b6b-111">获取一个<b>布尔</b>值，指定元数据属性是只读的。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-111">Gets a <b>Boolean</b> value that specifies whether the meta property is read-only.</span>
+          </span>
+          <span data-ttu-id="d4b6b-112">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-112">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d4b6b-113">
+            <b>Boolean</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-113">
+              <b>Boolean</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRequired">
+      <MemberSignature Language="C#" Value="public bool IsRequired { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRequired" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.MetaProperty.IsRequired" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsRequired As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRequired { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d4b6b-p105">获取一个指定元属性是否为必需的 <b>Boolean</b> 值。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-p105">Gets a <b>Boolean</b> value that specifies whether the meta property is required. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d4b6b-116">
+            <b>Boolean</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-116">
+              <b>Boolean</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.MetaProperty.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d4b6b-117">获取的名称<see cref="T:Microsoft.Office.Core.MetaProperty" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-117">Gets the name of the <see cref="T:Microsoft.Office.Core.MetaProperty" /> object.</span>
+          </span>
+          <span data-ttu-id="d4b6b-118">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-118">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d4b6b-119">
+            <b>字符串</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-119">
+              <b>String</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.MetaProperty.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d4b6b-120">获取对象的父<see cref="T:Microsoft.Office.Core.MetaProperty" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-120">Gets the parent object for the <see cref="T:Microsoft.Office.Core.MetaProperty" /> object.</span>
+          </span>
+          <span data-ttu-id="d4b6b-121">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-121">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d4b6b-122">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-122">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoMetaPropertyType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoMetaPropertyType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.MetaProperty.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As MsoMetaPropertyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoMetaPropertyType Type { Microsoft::Office::Core::MsoMetaPropertyType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoMetaPropertyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d4b6b-123">获取的数据类型的<see cref="T:Microsoft.Office.Core.MetaProperty" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-123">Gets the data type of the <see cref="T:Microsoft.Office.Core.MetaProperty" /> object.</span>
+          </span>
+          <span data-ttu-id="d4b6b-124">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-124">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoMetaPropertyType" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public string Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string Validate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.MetaProperty.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Function Validate () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ Validate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="d4b6b-125">验证<see cref="T:Microsoft.Office.Core.MetaProperty" />对象，表示根据架构单个属性值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-125">Validates a <see cref="T:Microsoft.Office.Core.MetaProperty" /> object representing a single property value according to a schema.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="d4b6b-126">
+            <b>字符串</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-126">
+              <b>String</b>
+            </span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="d4b6b-127">
+            <para>如果该属性无效，测试将失败并返回一条错误消息。存储用于验证架构如下部件文档的 Windows SharePoint Services 配置文件。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-127">
+              <para>If the property is invalid, the test fails and an error message is returned. The schema used for validation is stored as part the document's Windows SharePoint Services profile.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidationError">
+      <MemberSignature Language="C#" Value="public string ValidationError { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ValidationError" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.MetaProperty.ValidationError" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ValidationError As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ValidationError { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public object this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.MetaProperty.Value" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Value As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d4b6b-128">获取或设置的值<see cref="T:Microsoft.Office.Core.MetaProperty" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-128">Gets or sets the value of the <see cref="T:Microsoft.Office.Core.MetaProperty" /> object.</span>
+          </span>
+          <span data-ttu-id="d4b6b-129">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-129">Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="d4b6b-130">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d4b6b-130">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,349 @@
+<Type Name="SmartDocument" FullName="Microsoft.Office.Core.SmartDocument">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f1baad263eb43139b77bb1be53d230555de79afc" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657846" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface SmartDocument : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SmartDocument implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SmartDocument" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SmartDocument&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SmartDocument : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0377-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="a02e7-101">Microsoft Office Word 2003<b>文档</b>对象和 Microsoft Office Excel 2003<b>工作簿</b>对象的<b>SmartDocument</b>属性返回一个<b>SmartDocument</b>对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a02e7-101">The <b>SmartDocument</b> property of the Microsoft Office Word 2003 <b>Document</b> object and the Microsoft Office Excel 2003 <b>Workbook</b> object returns a <b>SmartDocument</b> object.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="a02e7-102">
+        <para>使用要管理的 XML 扩展包的<b>SmartDocument</b>对象附加到活动文档。</para>
+        <para>使用<b>SmartDocument</b>对象的<see cref="P:Microsoft.Office.Core.SmartDocument.SolutionID" />和<see cref="P:Microsoft.Office.Core.SmartDocument.SolutionURL" />属性来检索信息的 XML 扩展包附加到活动文档或工作簿。使用<see cref="M:Microsoft.Office.Core.SmartDocument.PickSolution(System.Boolean)" />方法，以允许用户从列表附加到活动文档或工作簿中选择了可用的 XML 扩展包。使用<see cref="M:Microsoft.Office.Core.SmartDocument.RefreshPane" />方法，以刷新智能文档的文档操作任务窗格。</para>文档有附加了 XML 扩展包， 
+      <para><b>SmartDocument</b>对象模型都可用。当活动文档没有附加 XML 扩展包时，<b>文档</b>或<b>工作簿</b>对象的<b>SmartDocument</b>属性不返回 Nothing。检查<b>SolutionID</b>属性，以确定是否在活动文档有附加了 XML 扩展包。</para><para /></span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a02e7-102">
+          <para>Use the <b>SmartDocument</b> object to manage the XML expansion pack attached to the active document.</para>
+          <para>Use the <b>SmartDocument</b> object's <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionID" /> and the <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionURL" /> properties to retrieve information about the XML expansion pack attached to the active document or workbook. Use the <see cref="M:Microsoft.Office.Core.SmartDocument.PickSolution(System.Boolean)" /> method to allow the user to select an available XML expansion pack from a list to attach to the active document or workbook. Use the <see cref="M:Microsoft.Office.Core.SmartDocument.RefreshPane" /> method to refresh the smart document's Document Actions task pane.</para>
+          <para>The <b>SmartDocument</b> object model is available whether or not a document has an XML expansion pack attached. The <b>SmartDocument</b> property of the <b>Document</b> or <b>Workbook</b> objects does not return Nothing when the active document has no XML expansion pack attached. Examine the <b>SolutionID</b> property to determine whether the active document has an XML expansion pack attached.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartDocument.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a02e7-103">返回一个<b>Application</b>对象，代表容器应用程序的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a02e7-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartDocument.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a02e7-104">返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a02e7-104">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="a02e7-105">
+            <para>如果指定的对象在 Microsoft Word 中创建的此属性返回 1297307460，它表示字符串 MSWD;如果在 Microsoft Excel 中创建，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.SmartDocument.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a02e7-105">
+              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.SmartDocument.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PickSolution">
+      <MemberSignature Language="C#" Value="public void PickSolution (bool ConsiderAllSchemas = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PickSolution([in]bool ConsiderAllSchemas) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SmartDocument.PickSolution(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PickSolution (Optional ConsiderAllSchemas As Boolean = false)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ConsiderAllSchemas" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="ConsiderAllSchemas">
+          <span data-ttu-id="a02e7-106">可选属性，类型为 <b>Boolean</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a02e7-106">Optional <b>Boolean</b>.</span>
+          </span>
+          <span data-ttu-id="a02e7-107">如果显示用户的计算机上安装的所有可用 XML 扩展包，<b>则返回 true</b> 。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a02e7-107">
+              <b>True</b> displays all available XML expansion packs installed on the user's computer.</span>
+          </span>
+          <span data-ttu-id="a02e7-108">
+            <b>False</b>显示仅 XML 扩展包适用于活动文档。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a02e7-108">
+              <b>False</b> displays only XML expansion packs applicable to the active document.</span>
+          </span>
+          <span data-ttu-id="a02e7-109">默认值为 <b>False</b> 。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a02e7-109">Default value is <b>False</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="a02e7-110">显示一个对话框，允许用户选择可用的 XML 扩展包，将附加到活动的 Microsoft Office Word 2003 文档或 Microsoft Office Excel 2003 工作簿。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a02e7-110">Displays a dialog box which allows the user to choose an available XML expansion pack to attach to the active Microsoft Office Word 2003 document or Microsoft Office Excel 2003 workbook.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="a02e7-111">
+            <para>
+              <b>PickSolution</b>方法用于允许用户从列表中选择了 XML 扩展包。附加到活动文档或工作簿的架构确定适用的 XML 扩展包。</para>
+            <para>
+              <b>PickSolution</b>方法不返回指示用户是否选择了 XML 扩展包，或单击取消对话框中的值。检查<see cref="P:Microsoft.Office.Core.SmartDocument.SolutionID" />属性后调用<b>PickSolution</b>以确定是否已附加了 XML 扩展包。</para>如果未能在 XML 扩展包的清单文件中指定"targetApplication"智能文档开发人员的
+          <para>， <b>PickSolution</b>显示的列表可能包括 XML 扩展包的不指向活动应用程序; 例如，Excel 用户可能会看到专门针对 Word 的 XML 扩展包。在这些情况下，用户可以选择不适合于成为活动应用程序的 XML 扩展包。</para><para>有关智能文档或智能文档 XML 扩展包的详细信息，请参阅智能文档软件开发工具包 (SDK) Microsoft Developer Network (MSDN) 网站上。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a02e7-111">
+              <para>Use the <b>PickSolution</b> method to allow the user to select an XML expansion pack from a list. The schema attached to the active document or workbook determines which XML expansion packs are applicable.</para>
+              <para>The <b>PickSolution</b> method does not return a value to indicate whether the user selected an XML expansion pack or clicked Cancel in the dialog box. Check the <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionID" /> property after calling <b>PickSolution</b> to determine whether an XML expansion pack has been attached.</para>
+              <para>If the smart document developer has failed to specify "targetApplication" in the XML expansion pack manifest file, the list displayed by <b>PickSolution</b> may include XML expansion packs that are not targeted to the active application; for example, an Excel user may see XML expansion packs targeted exclusively to Word. In these circumstances, the user may select an XML expansion pack that is not appropriate for the active application.</para>
+              <para>For more information on smart documents or XML expansion packs for smart documents, please see the Smart Document Software Development Kit (SDK) on the Microsoft Developer Network (MSDN) Web site.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RefreshPane">
+      <MemberSignature Language="C#" Value="public void RefreshPane ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RefreshPane() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SmartDocument.RefreshPane" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RefreshPane ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RefreshPane();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="a02e7-112">刷新活动的 Microsoft Office Word 2003 文档或 Microsoft Office Excel 2003 工作簿文档操作任务窗格。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a02e7-112">Refreshes the Document Actions task pane for the active Microsoft Office Word 2003 document or Microsoft Office Excel 2003 workbook.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="a02e7-113">
+            <para>如果活动文档没有附加 XML 扩展包， <b>RefreshPane</b>方法将引发错误。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a02e7-113">
+              <para>The <b>RefreshPane</b> method raises an error if the active document does not have an XML expansion pack attached.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SolutionID">
+      <MemberSignature Language="C#" Value="public string SolutionID { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SolutionID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartDocument.SolutionID" />
+      <MemberSignature Language="VB.NET" Value="Public Property SolutionID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SolutionID { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a02e7-114">返回或设置 ID，通常的全局唯一标识符 (GUID)，这标识附加到活动的 Microsoft Office Word 2003 文档或 Microsoft Office Excel 2003 工作簿的 XML 扩展包。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a02e7-114">Returns or sets the ID, often a globally unique identifier (GUID), which identifies the XML expansion pack attached to the active Microsoft Office Word 2003 document or Microsoft Office Excel 2003 workbook.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="a02e7-115">
+            <para>
+              <b>SolutionID</b>属性返回空字符串或"None"时没有 XML 扩展包附加到活动文档。</para>
+            <b>SolutionID</b>
+            <para>提供适当值和<see cref="P:Microsoft.Office.Core.SmartDocument.SolutionURL" />属性附加可用的 XML 扩展包来活动文档，以将其转换为智能文档而不使用<see cref="M:Microsoft.Office.Core.SmartDocument.PickSolution(System.Boolean)" />方法。将<b>SolutionID</b>和<b>SolutionURL</b>属性设置为空字符串，若要删除的附加的 XML 扩展包。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a02e7-115">
+              <para>The <b>SolutionID</b> property returns an empty string or "None" when no XML expansion pack is attached to the active document.</para>
+              <para>Provide appropriate values for the <b>SolutionID</b> and <see cref="P:Microsoft.Office.Core.SmartDocument.SolutionURL" /> properties to attach an available XML expansion pack to the active document to transform it into a smart document without using the <see cref="M:Microsoft.Office.Core.SmartDocument.PickSolution(System.Boolean)" /> method. Set the <b>SolutionID</b> and <b>SolutionURL</b> properties to empty strings to remove the attached XML expansion pack.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SolutionURL">
+      <MemberSignature Language="C#" Value="public string SolutionURL { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SolutionURL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SmartDocument.SolutionURL" />
+      <MemberSignature Language="VB.NET" Value="Public Property SolutionURL As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SolutionURL { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a02e7-116">返回或设置提供附加到活动的 Microsoft Office Word 2003 文档或 Microsoft Office Excel 2003 工作簿的 XML 扩展包文件的完整路径的绝对 URL。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a02e7-116">Returns or sets an absolute URL that provides the complete path to the XML expansion pack file attached to the active Microsoft Office Word 2003 document or Microsoft Office Excel 2003 workbook.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="a02e7-117">
+            <para>附加到活动文档没有 XML 扩展包时， <b>SolutionURL</b>属性返回一个空字符串。</para>
+            <para>提供适当的值的<b>SolutionID</b>和<b>SolutionURL</b>属性附加可用的 XML 扩展包的活动文档，并将其转换为智能文档而不使用<b>PickSolution</b>方法。将<b>SolutionID</b>和<b>SolutionURL</b>属性设置为空字符串，若要删除的附加的 XML 扩展包</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a02e7-117">
+              <para>The <b>SolutionURL</b> property returns an empty string when no XML expansion pack is attached to the active document.</para>
+              <para>Provide appropriate values for the <b>SolutionID</b> and <b>SolutionURL</b> properties to attach an available XML expansion pack to the active document and transform it into a smart document without using the <b>PickSolution</b> method. Set the <b>SolutionID</b> and <b>SolutionURL</b> properties to empty strings to remove the attached XML expansion pack</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

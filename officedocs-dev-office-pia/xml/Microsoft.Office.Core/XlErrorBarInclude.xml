@@ -1,0 +1,154 @@
+<Type Name="XlErrorBarInclude" FullName="Microsoft.Office.Core.XlErrorBarInclude">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5951b71dc8dd7976f06a20e26a40b198b14205e1" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658208" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlErrorBarInclude" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlErrorBarInclude extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlErrorBarInclude" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlErrorBarInclude" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlErrorBarInclude" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="beae7-101">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="beae7-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+      </span>
+      <span data-ttu-id="beae7-102">指定要包含的误差线部分。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="beae7-102">Specifies which error-bar parts to include.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlErrorBarIncludeBoth">
+      <MemberSignature Language="C#" Value="xlErrorBarIncludeBoth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlErrorBarInclude xlErrorBarIncludeBoth = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlErrorBarInclude.xlErrorBarIncludeBoth" />
+      <MemberSignature Language="VB.NET" Value="xlErrorBarIncludeBoth" />
+      <MemberSignature Language="C++ CLI" Value="xlErrorBarIncludeBoth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlErrorBarInclude</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="beae7-103">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="beae7-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="beae7-104">正负误差区域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="beae7-104">Both positive and negative error range.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlErrorBarIncludeMinusValues">
+      <MemberSignature Language="C#" Value="xlErrorBarIncludeMinusValues" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlErrorBarInclude xlErrorBarIncludeMinusValues = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlErrorBarInclude.xlErrorBarIncludeMinusValues" />
+      <MemberSignature Language="VB.NET" Value="xlErrorBarIncludeMinusValues" />
+      <MemberSignature Language="C++ CLI" Value="xlErrorBarIncludeMinusValues" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlErrorBarInclude</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="beae7-105">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="beae7-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="beae7-106">仅负误差区域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="beae7-106">Only negative error range.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlErrorBarIncludeNone">
+      <MemberSignature Language="C#" Value="xlErrorBarIncludeNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlErrorBarInclude xlErrorBarIncludeNone = int32(-4142)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlErrorBarInclude.xlErrorBarIncludeNone" />
+      <MemberSignature Language="VB.NET" Value="xlErrorBarIncludeNone" />
+      <MemberSignature Language="C++ CLI" Value="xlErrorBarIncludeNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlErrorBarInclude</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4142</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="beae7-107">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="beae7-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="beae7-108">无误差线区域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="beae7-108">No error bar range.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlErrorBarIncludePlusValues">
+      <MemberSignature Language="C#" Value="xlErrorBarIncludePlusValues" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlErrorBarInclude xlErrorBarIncludePlusValues = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlErrorBarInclude.xlErrorBarIncludePlusValues" />
+      <MemberSignature Language="VB.NET" Value="xlErrorBarIncludePlusValues" />
+      <MemberSignature Language="C++ CLI" Value="xlErrorBarIncludePlusValues" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlErrorBarInclude</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="beae7-109">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="beae7-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="beae7-110">仅正误差区域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="beae7-110">Only positive error range.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

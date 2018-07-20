@@ -1,0 +1,428 @@
+<Type Name="MsoPresetMaterial" FullName="Microsoft.Office.Core.MsoPresetMaterial">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d6eb19e6c9819ce4625ff4ab7abeabb24151de72" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658180" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoPresetMaterial" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetMaterial extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetMaterial" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetMaterial" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoPresetMaterial" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="3dcc6-101">指定延伸的表面。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="3dcc6-101">Specifies the extrusion surface material.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="3dcc6-102">
+        <para>用于<see cref="P:Microsoft.Office.Core.ThreeDFormat.PresetMaterial" />属性<see cref="T:Microsoft.Office.Core.ThreeDFormat" />对象。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="3dcc6-102">
+          <para>Used with the <see cref="P:Microsoft.Office.Core.ThreeDFormat.PresetMaterial" /> property of the <see cref="T:Microsoft.Office.Core.ThreeDFormat" /> object.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoMaterialClear">
+      <MemberSignature Language="C#" Value="msoMaterialClear" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetMaterial msoMaterialClear = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetMaterial.msoMaterialClear" />
+      <MemberSignature Language="VB.NET" Value="msoMaterialClear" />
+      <MemberSignature Language="C++ CLI" Value="msoMaterialClear" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetMaterial</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3dcc6-103">清除</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3dcc6-103">Clear</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMaterialDarkEdge">
+      <MemberSignature Language="C#" Value="msoMaterialDarkEdge" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetMaterial msoMaterialDarkEdge = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetMaterial.msoMaterialDarkEdge" />
+      <MemberSignature Language="VB.NET" Value="msoMaterialDarkEdge" />
+      <MemberSignature Language="C++ CLI" Value="msoMaterialDarkEdge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetMaterial</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3dcc6-104">DarkEdge</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3dcc6-104">DarkEdge</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMaterialFlat">
+      <MemberSignature Language="C#" Value="msoMaterialFlat" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetMaterial msoMaterialFlat = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetMaterial.msoMaterialFlat" />
+      <MemberSignature Language="VB.NET" Value="msoMaterialFlat" />
+      <MemberSignature Language="C++ CLI" Value="msoMaterialFlat" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetMaterial</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3dcc6-105">平面</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3dcc6-105">Flat</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMaterialMatte">
+      <MemberSignature Language="C#" Value="msoMaterialMatte" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetMaterial msoMaterialMatte = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetMaterial.msoMaterialMatte" />
+      <MemberSignature Language="VB.NET" Value="msoMaterialMatte" />
+      <MemberSignature Language="C++ CLI" Value="msoMaterialMatte" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetMaterial</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3dcc6-106">粗糙。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3dcc6-106">Matte.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMaterialMatte2">
+      <MemberSignature Language="C#" Value="msoMaterialMatte2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetMaterial msoMaterialMatte2 = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetMaterial.msoMaterialMatte2" />
+      <MemberSignature Language="VB.NET" Value="msoMaterialMatte2" />
+      <MemberSignature Language="C++ CLI" Value="msoMaterialMatte2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetMaterial</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3dcc6-107">Matte2</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3dcc6-107">Matte2</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMaterialMetal">
+      <MemberSignature Language="C#" Value="msoMaterialMetal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetMaterial msoMaterialMetal = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetMaterial.msoMaterialMetal" />
+      <MemberSignature Language="VB.NET" Value="msoMaterialMetal" />
+      <MemberSignature Language="C++ CLI" Value="msoMaterialMetal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetMaterial</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3dcc6-108">金属效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3dcc6-108">Metal.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMaterialMetal2">
+      <MemberSignature Language="C#" Value="msoMaterialMetal2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetMaterial msoMaterialMetal2 = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetMaterial.msoMaterialMetal2" />
+      <MemberSignature Language="VB.NET" Value="msoMaterialMetal2" />
+      <MemberSignature Language="C++ CLI" Value="msoMaterialMetal2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetMaterial</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3dcc6-109">Metal2</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3dcc6-109">Metal2</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMaterialPlastic">
+      <MemberSignature Language="C#" Value="msoMaterialPlastic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetMaterial msoMaterialPlastic = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetMaterial.msoMaterialPlastic" />
+      <MemberSignature Language="VB.NET" Value="msoMaterialPlastic" />
+      <MemberSignature Language="C++ CLI" Value="msoMaterialPlastic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetMaterial</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3dcc6-110">塑料。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3dcc6-110">Plastic.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMaterialPlastic2">
+      <MemberSignature Language="C#" Value="msoMaterialPlastic2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetMaterial msoMaterialPlastic2 = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetMaterial.msoMaterialPlastic2" />
+      <MemberSignature Language="VB.NET" Value="msoMaterialPlastic2" />
+      <MemberSignature Language="C++ CLI" Value="msoMaterialPlastic2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetMaterial</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3dcc6-111">Plastic2</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3dcc6-111">Plastic2</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMaterialPowder">
+      <MemberSignature Language="C#" Value="msoMaterialPowder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetMaterial msoMaterialPowder = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetMaterial.msoMaterialPowder" />
+      <MemberSignature Language="VB.NET" Value="msoMaterialPowder" />
+      <MemberSignature Language="C++ CLI" Value="msoMaterialPowder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetMaterial</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3dcc6-112">粉</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3dcc6-112">Powder</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMaterialSoftEdge">
+      <MemberSignature Language="C#" Value="msoMaterialSoftEdge" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetMaterial msoMaterialSoftEdge = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetMaterial.msoMaterialSoftEdge" />
+      <MemberSignature Language="VB.NET" Value="msoMaterialSoftEdge" />
+      <MemberSignature Language="C++ CLI" Value="msoMaterialSoftEdge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetMaterial</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3dcc6-113">柔边缘</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3dcc6-113">Soft Edge</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMaterialSoftMetal">
+      <MemberSignature Language="C#" Value="msoMaterialSoftMetal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetMaterial msoMaterialSoftMetal = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetMaterial.msoMaterialSoftMetal" />
+      <MemberSignature Language="VB.NET" Value="msoMaterialSoftMetal" />
+      <MemberSignature Language="C++ CLI" Value="msoMaterialSoftMetal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetMaterial</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3dcc6-114">柔化金属效果</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3dcc6-114">Soft Metal</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMaterialTranslucentPowder">
+      <MemberSignature Language="C#" Value="msoMaterialTranslucentPowder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetMaterial msoMaterialTranslucentPowder = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetMaterial.msoMaterialTranslucentPowder" />
+      <MemberSignature Language="VB.NET" Value="msoMaterialTranslucentPowder" />
+      <MemberSignature Language="C++ CLI" Value="msoMaterialTranslucentPowder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetMaterial</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3dcc6-115">半透明粉</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3dcc6-115">Translucent Powder</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMaterialWarmMatte">
+      <MemberSignature Language="C#" Value="msoMaterialWarmMatte" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetMaterial msoMaterialWarmMatte = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetMaterial.msoMaterialWarmMatte" />
+      <MemberSignature Language="VB.NET" Value="msoMaterialWarmMatte" />
+      <MemberSignature Language="C++ CLI" Value="msoMaterialWarmMatte" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetMaterial</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3dcc6-116">暖色粗糙</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3dcc6-116">Warm Matte</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoMaterialWireFrame">
+      <MemberSignature Language="C#" Value="msoMaterialWireFrame" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetMaterial msoMaterialWireFrame = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetMaterial.msoMaterialWireFrame" />
+      <MemberSignature Language="VB.NET" Value="msoMaterialWireFrame" />
+      <MemberSignature Language="C++ CLI" Value="msoMaterialWireFrame" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetMaterial</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3dcc6-117">透明框架。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3dcc6-117">Wire frame.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPresetMaterialMixed">
+      <MemberSignature Language="C#" Value="msoPresetMaterialMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetMaterial msoPresetMaterialMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetMaterial.msoPresetMaterialMixed" />
+      <MemberSignature Language="VB.NET" Value="msoPresetMaterialMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoPresetMaterialMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetMaterial</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3dcc6-118">只返回值，表示其他状态的组合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3dcc6-118">Return value only; indicates a combination of the other states.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

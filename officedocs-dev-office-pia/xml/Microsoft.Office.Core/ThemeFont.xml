@@ -1,0 +1,232 @@
+<Type Name="ThemeFont" FullName="Microsoft.Office.Core.ThemeFont">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0891ee4728b5bb49a2277b4f72e6f783cd5a39d8" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657682" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ThemeFont : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ThemeFont implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ThemeFont" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ThemeFont&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ThemeFont : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03A3-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="a049d-101">表示 Microsoft Office 2007 主题的字体方案的容器。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a049d-101">Represents a container for the font schemes of a Microsoft Office 2007 theme.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ThemeFont.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a049d-102">获取<b>应用程序</b>对象，该对象代表容器应用程序的<see cref="T:Microsoft.Office.Core.ThemeFont" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a049d-102">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.ThemeFont" /> object.</span>
+          </span>
+          <span data-ttu-id="a049d-103">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a049d-103">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a049d-104">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a049d-104">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ThemeFont.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a049d-105">获取一个 32 位整数，表示在其中应用程序<see cref="T:Microsoft.Office.Core.ThemeFont" />对象的创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a049d-105">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.ThemeFont" /> object was created.</span>
+          </span>
+          <span data-ttu-id="a049d-106">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a049d-106">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a049d-107">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a049d-107">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ThemeFont.Name" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a049d-p103">获取或设置 Microsoft Office 主题的字体方案中字体的名称。可读/写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a049d-p103">Gets or sets the name of a font in the font scheme of a  Microsoft Office theme. Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a049d-110">
+            <b>字符串</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a049d-110">
+              <b>String</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ThemeFont.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a049d-111">获取对象的父<see cref="T:Microsoft.Office.Core.ThemeFont" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a049d-111">Gets the parent object for the <see cref="T:Microsoft.Office.Core.ThemeFont" /> object.</span>
+          </span>
+          <span data-ttu-id="a049d-112">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a049d-112">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a049d-113">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a049d-113">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

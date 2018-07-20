@@ -1,0 +1,182 @@
+<Type Name="XlPivotFieldOrientation" FullName="Microsoft.Office.Core.XlPivotFieldOrientation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="110e9c55a6e9affdb18eaa97a8e3a251d08f7eab" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657942" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlPivotFieldOrientation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlPivotFieldOrientation extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlPivotFieldOrientation" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlPivotFieldOrientation" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlPivotFieldOrientation" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="cb443-101">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="cb443-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+      </span>
+      <span data-ttu-id="cb443-102">指定字段在数据透视表中的位置。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="cb443-102">Specifies the location of the field in a PivotTable report.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlColumnField">
+      <MemberSignature Language="C#" Value="xlColumnField" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlPivotFieldOrientation xlColumnField = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlPivotFieldOrientation.xlColumnField" />
+      <MemberSignature Language="VB.NET" Value="xlColumnField" />
+      <MemberSignature Language="C++ CLI" Value="xlColumnField" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlPivotFieldOrientation</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="cb443-103">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cb443-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="cb443-104">指定“列”字段。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cb443-104">Specifies the Column field.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDataField">
+      <MemberSignature Language="C#" Value="xlDataField" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlPivotFieldOrientation xlDataField = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlPivotFieldOrientation.xlDataField" />
+      <MemberSignature Language="VB.NET" Value="xlDataField" />
+      <MemberSignature Language="C++ CLI" Value="xlDataField" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlPivotFieldOrientation</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="cb443-105">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cb443-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="cb443-106">指定“数据”字段。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cb443-106">Specifies the Data field.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlHidden">
+      <MemberSignature Language="C#" Value="xlHidden" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlPivotFieldOrientation xlHidden = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlPivotFieldOrientation.xlHidden" />
+      <MemberSignature Language="VB.NET" Value="xlHidden" />
+      <MemberSignature Language="C++ CLI" Value="xlHidden" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlPivotFieldOrientation</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="cb443-107">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cb443-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="cb443-108">指定字段隐藏。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cb443-108">Specifies that the field is hidden.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPageField">
+      <MemberSignature Language="C#" Value="xlPageField" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlPivotFieldOrientation xlPageField = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlPivotFieldOrientation.xlPageField" />
+      <MemberSignature Language="VB.NET" Value="xlPageField" />
+      <MemberSignature Language="C++ CLI" Value="xlPageField" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlPivotFieldOrientation</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="cb443-109">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cb443-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="cb443-110">指定“页”字段。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cb443-110">Specifies the Page field.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlRowField">
+      <MemberSignature Language="C#" Value="xlRowField" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlPivotFieldOrientation xlRowField = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlPivotFieldOrientation.xlRowField" />
+      <MemberSignature Language="VB.NET" Value="xlRowField" />
+      <MemberSignature Language="C++ CLI" Value="xlRowField" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlPivotFieldOrientation</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="cb443-111">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cb443-111">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="cb443-112">指定“行”字段。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="cb443-112">Specifies the Row field.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

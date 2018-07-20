@@ -1,0 +1,129 @@
+<Type Name="XlTimeUnit" FullName="Microsoft.Office.Core.XlTimeUnit">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d69cb4220d4b7c7f178df81a7fa6e496ad7ada05" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657883" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlTimeUnit" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlTimeUnit extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlTimeUnit" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlTimeUnit" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlTimeUnit" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("14710A1D-071F-4BFF-B1C2-4BEF5E8B2CEA")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="27b84-101">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="27b84-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+      </span>
+      <span data-ttu-id="27b84-102">指示时间度量值的单位。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="27b84-102">Indicates units of time measurement.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlDays">
+      <MemberSignature Language="C#" Value="xlDays" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlTimeUnit xlDays = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlTimeUnit.xlDays" />
+      <MemberSignature Language="VB.NET" Value="xlDays" />
+      <MemberSignature Language="C++ CLI" Value="xlDays" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlTimeUnit</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="27b84-103">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="27b84-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="27b84-104">指定“天”单位。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="27b84-104">Specifies Day units.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMonths">
+      <MemberSignature Language="C#" Value="xlMonths" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlTimeUnit xlMonths = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlTimeUnit.xlMonths" />
+      <MemberSignature Language="VB.NET" Value="xlMonths" />
+      <MemberSignature Language="C++ CLI" Value="xlMonths" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlTimeUnit</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="27b84-105">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="27b84-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="27b84-106">指定“月”单位。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="27b84-106">Specifies Month units.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlYears">
+      <MemberSignature Language="C#" Value="xlYears" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlTimeUnit xlYears = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlTimeUnit.xlYears" />
+      <MemberSignature Language="VB.NET" Value="xlYears" />
+      <MemberSignature Language="C++ CLI" Value="xlYears" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlTimeUnit</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="27b84-107">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="27b84-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="27b84-108">指定“年”单位。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="27b84-108">Specifies Year units.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

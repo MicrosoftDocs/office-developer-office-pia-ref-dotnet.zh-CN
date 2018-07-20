@@ -1,0 +1,650 @@
+<Type Name="CustomXMLPartClass" FullName="Microsoft.Office.Core.CustomXMLPartClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="87ac01e5e27383da3009a207f7f22080549c9722" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658132" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class CustomXMLPartClass : Microsoft.Office.Core.CustomXMLPart" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi CustomXMLPartClass extends System.Object implements class Microsoft.Office.Core._CustomXMLPart, class Microsoft.Office.Core._CustomXMLPartEvents_Event, class Microsoft.Office.Core.CustomXMLPart" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomXMLPartClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class CustomXMLPartClass&#xA;Implements CustomXMLPart" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CustomXMLPartClass : Microsoft::Office::Core::CustomXMLPart" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core.CustomXMLPart</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Office.Core._CustomXMLPartEvents\0")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000CDB08-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddNode">
+      <MemberSignature Language="C#" Value="public virtual void AddNode (Microsoft.Office.Core.CustomXMLNode Parent, string Name = &quot;&quot;, string NamespaceURI = &quot;&quot;, Microsoft.Office.Core.CustomXMLNode NextSibling = null, Microsoft.Office.Core.MsoCustomXMLNodeType NodeType = Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement, string NodeValue = &quot;&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddNode([in]class Microsoft.Office.Core.CustomXMLNode Parent, [in]string Name, [in]string NamespaceURI, [in]class Microsoft.Office.Core.CustomXMLNode NextSibling, [in]valuetype Microsoft.Office.Core.MsoCustomXMLNodeType NodeType, [in]string NodeValue) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomXMLPartClass.AddNode(Microsoft.Office.Core.CustomXMLNode,System.String,System.String,Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.MsoCustomXMLNodeType,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub AddNode (Parent As CustomXMLNode, Optional Name As String = &quot;&quot;, Optional NamespaceURI As String = &quot;&quot;, Optional NextSibling As CustomXMLNode = null, Optional NodeType As MsoCustomXMLNodeType = Microsoft.Office.Core.MsoCustomXMLNodeType.msoCustomXMLNodeElement, Optional NodeValue As String = &quot;&quot;)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomXMLPart.AddNode(Microsoft.Office.Core.CustomXMLNode,System.String,System.String,Microsoft.Office.Core.CustomXMLNode,Microsoft.Office.Core.MsoCustomXMLNodeType,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809352)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Parent" Type="Microsoft.Office.Core.CustomXMLNode" />
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="NamespaceURI" Type="System.String" />
+        <Parameter Name="NextSibling" Type="Microsoft.Office.Core.CustomXMLNode" />
+        <Parameter Name="NodeType" Type="Microsoft.Office.Core.MsoCustomXMLNodeType" />
+        <Parameter Name="NodeValue" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Parent">To be added.</param>
+        <param name="Name">To be added.</param>
+        <param name="NamespaceURI">To be added.</param>
+        <param name="NextSibling">To be added.</param>
+        <param name="NodeType">To be added.</param>
+        <param name="NodeValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public virtual object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLPartClass.Application" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._CustomXMLPart.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuiltIn">
+      <MemberSignature Language="C#" Value="public virtual bool BuiltIn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool BuiltIn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLPartClass.BuiltIn" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property BuiltIn As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool BuiltIn { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._CustomXMLPart.BuiltIn</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public virtual int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLPartClass.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._CustomXMLPart.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public virtual void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomXMLPartClass.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Delete() = Microsoft::Office::Core::_CustomXMLPart::Delete;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomXMLPart.Delete</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809353)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DocumentElement">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Core.CustomXMLNode DocumentElement { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CustomXMLNode DocumentElement" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLPartClass.DocumentElement" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property DocumentElement As CustomXMLNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::CustomXMLNode ^ DocumentElement { Microsoft::Office::Core::CustomXMLNode ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._CustomXMLPart.DocumentElement</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CustomXMLNode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Errors">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Core.CustomXMLValidationErrors Errors { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CustomXMLValidationErrors Errors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLPartClass.Errors" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Errors As CustomXMLValidationErrors" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::CustomXMLValidationErrors ^ Errors { Microsoft::Office::Core::CustomXMLValidationErrors ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._CustomXMLPart.Errors</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809358)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809358)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CustomXMLValidationErrors</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public virtual string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLPartClass.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Id { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._CustomXMLPart.Id</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public virtual bool Load (string FilePath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Load([in]string FilePath) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomXMLPartClass.Load(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Load (FilePath As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Load(System::String ^ FilePath) = Microsoft::Office::Core::_CustomXMLPart::Load;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomXMLPart.Load(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809354)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FilePath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="FilePath">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadXML">
+      <MemberSignature Language="C#" Value="public virtual bool LoadXML (string XML);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool LoadXML([in]string XML) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomXMLPartClass.LoadXML(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function LoadXML (XML As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool LoadXML(System::String ^ XML) = Microsoft::Office::Core::_CustomXMLPart::LoadXML;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomXMLPart.LoadXML(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809355)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="XML" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="XML">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NamespaceManager">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Core.CustomXMLPrefixMappings NamespaceManager { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CustomXMLPrefixMappings NamespaceManager" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLPartClass.NamespaceManager" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property NamespaceManager As CustomXMLPrefixMappings" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::CustomXMLPrefixMappings ^ NamespaceManager { Microsoft::Office::Core::CustomXMLPrefixMappings ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._CustomXMLPart.NamespaceManager</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809350)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809350)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CustomXMLPrefixMappings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NamespaceURI">
+      <MemberSignature Language="C#" Value="public virtual string NamespaceURI { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NamespaceURI" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLPartClass.NamespaceURI" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property NamespaceURI As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ NamespaceURI { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._CustomXMLPart.NamespaceURI</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NodeAfterDelete">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterDeleteEventHandler NodeAfterDelete;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterDeleteEventHandler NodeAfterDelete" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core.CustomXMLPartClass.NodeAfterDelete" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event NodeAfterDelete As _CustomXMLPartEvents_NodeAfterDeleteEventHandler Implements NodeAfterDelete" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Core::_CustomXMLPartEvents_NodeAfterDeleteEventHandler ^ NodeAfterDelete;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Core._CustomXMLPartEvents_Event.NodeAfterDelete</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterDeleteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NodeAfterInsert">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterInsertEventHandler NodeAfterInsert;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterInsertEventHandler NodeAfterInsert" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core.CustomXMLPartClass.NodeAfterInsert" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event NodeAfterInsert As _CustomXMLPartEvents_NodeAfterInsertEventHandler Implements NodeAfterInsert" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Core::_CustomXMLPartEvents_NodeAfterInsertEventHandler ^ NodeAfterInsert;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Core._CustomXMLPartEvents_Event.NodeAfterInsert</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterInsertEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NodeAfterReplace">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterReplaceEventHandler NodeAfterReplace;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterReplaceEventHandler NodeAfterReplace" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core.CustomXMLPartClass.NodeAfterReplace" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event NodeAfterReplace As _CustomXMLPartEvents_NodeAfterReplaceEventHandler Implements NodeAfterReplace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Core::_CustomXMLPartEvents_NodeAfterReplaceEventHandler ^ NodeAfterReplace;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Core._CustomXMLPartEvents_Event.NodeAfterReplace</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterReplaceEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public virtual object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLPartClass.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._CustomXMLPart.Parent</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SchemaCollection">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Core.CustomXMLSchemaCollection SchemaCollection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CustomXMLSchemaCollection SchemaCollection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLPartClass.SchemaCollection" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property SchemaCollection As CustomXMLSchemaCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::CustomXMLSchemaCollection ^ SchemaCollection { Microsoft::Office::Core::CustomXMLSchemaCollection ^ get(); void set(Microsoft::Office::Core::CustomXMLSchemaCollection ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._CustomXMLPart.SchemaCollection</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CustomXMLSchemaCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectNodes">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Core.CustomXMLNodes SelectNodes (string XPath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.CustomXMLNodes SelectNodes([in]string XPath) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomXMLPartClass.SelectNodes(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function SelectNodes (XPath As String) As CustomXMLNodes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Core::CustomXMLNodes ^ SelectNodes(System::String ^ XPath) = Microsoft::Office::Core::_CustomXMLPart::SelectNodes;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomXMLPart.SelectNodes(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809356)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CustomXMLNodes</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="XPath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="XPath">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectSingleNode">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Core.CustomXMLNode SelectSingleNode (string XPath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.CustomXMLNode SelectSingleNode([in]string XPath) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomXMLPartClass.SelectSingleNode(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function SelectSingleNode (XPath As String) As CustomXMLNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Core::CustomXMLNode ^ SelectSingleNode(System::String ^ XPath) = Microsoft::Office::Core::_CustomXMLPart::SelectSingleNode;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Core._CustomXMLPart.SelectSingleNode(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809357)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CustomXMLNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="XPath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="XPath">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XML">
+      <MemberSignature Language="C#" Value="public virtual string XML { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string XML" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLPartClass.XML" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property XML As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ XML { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._CustomXMLPart.XML</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809351)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

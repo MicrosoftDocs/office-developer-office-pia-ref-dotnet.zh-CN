@@ -1,0 +1,325 @@
+<Type Name="MsoLineDashStyle" FullName="Microsoft.Office.Core.MsoLineDashStyle">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5f175b8563daf7741bb9c97f66d6db5688095158" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657386" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoLineDashStyle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoLineDashStyle extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoLineDashStyle" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoLineDashStyle" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoLineDashStyle" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="c4aec-101">指定直线的虚线线型。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c4aec-101">Specifies the dash style for a line.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoLineDash">
+      <MemberSignature Language="C#" Value="msoLineDash" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineDashStyle msoLineDash = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineDashStyle.msoLineDash" />
+      <MemberSignature Language="VB.NET" Value="msoLineDash" />
+      <MemberSignature Language="C++ CLI" Value="msoLineDash" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineDashStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4aec-102">直线仅由短划线构成。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4aec-102">Line consists of dashes only.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineDashDot">
+      <MemberSignature Language="C#" Value="msoLineDashDot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineDashStyle msoLineDashDot = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineDashStyle.msoLineDashDot" />
+      <MemberSignature Language="VB.NET" Value="msoLineDashDot" />
+      <MemberSignature Language="C++ CLI" Value="msoLineDashDot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineDashStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4aec-103">直线是点划线图案。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4aec-103">Line is a dash-dot pattern.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineDashDotDot">
+      <MemberSignature Language="C#" Value="msoLineDashDotDot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineDashStyle msoLineDashDotDot = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineDashStyle.msoLineDashDotDot" />
+      <MemberSignature Language="VB.NET" Value="msoLineDashDotDot" />
+      <MemberSignature Language="C++ CLI" Value="msoLineDashDotDot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineDashStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4aec-104">直线是点点划线图案。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4aec-104">Line is a dash-dot-dot pattern.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineDashStyleMixed">
+      <MemberSignature Language="C#" Value="msoLineDashStyleMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineDashStyle msoLineDashStyleMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineDashStyle.msoLineDashStyleMixed" />
+      <MemberSignature Language="VB.NET" Value="msoLineDashStyleMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoLineDashStyleMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineDashStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4aec-105">不支持。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4aec-105">Not supported.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineLongDash">
+      <MemberSignature Language="C#" Value="msoLineLongDash" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineDashStyle msoLineLongDash = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineDashStyle.msoLineLongDash" />
+      <MemberSignature Language="VB.NET" Value="msoLineLongDash" />
+      <MemberSignature Language="C++ CLI" Value="msoLineLongDash" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineDashStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4aec-106">直线由长划线构成。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4aec-106">Line consists of long dashes.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineLongDashDot">
+      <MemberSignature Language="C#" Value="msoLineLongDashDot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineDashStyle msoLineLongDashDot = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineDashStyle.msoLineLongDashDot" />
+      <MemberSignature Language="VB.NET" Value="msoLineLongDashDot" />
+      <MemberSignature Language="C++ CLI" Value="msoLineLongDashDot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineDashStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4aec-107">直线是长点划线图案。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4aec-107">Line is a long dash-dot pattern.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineLongDashDotDot">
+      <MemberSignature Language="C#" Value="msoLineLongDashDotDot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineDashStyle msoLineLongDashDotDot = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineDashStyle.msoLineLongDashDotDot" />
+      <MemberSignature Language="VB.NET" Value="msoLineLongDashDotDot" />
+      <MemberSignature Language="C++ CLI" Value="msoLineLongDashDotDot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineDashStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineRoundDot">
+      <MemberSignature Language="C#" Value="msoLineRoundDot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineDashStyle msoLineRoundDot = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineDashStyle.msoLineRoundDot" />
+      <MemberSignature Language="VB.NET" Value="msoLineRoundDot" />
+      <MemberSignature Language="C++ CLI" Value="msoLineRoundDot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineDashStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4aec-108">直线由圆点构成。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4aec-108">Line is made up of round dots.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineSolid">
+      <MemberSignature Language="C#" Value="msoLineSolid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineDashStyle msoLineSolid = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineDashStyle.msoLineSolid" />
+      <MemberSignature Language="VB.NET" Value="msoLineSolid" />
+      <MemberSignature Language="C++ CLI" Value="msoLineSolid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineDashStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4aec-109">直线是实线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4aec-109">Line is solid.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineSquareDot">
+      <MemberSignature Language="C#" Value="msoLineSquareDot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineDashStyle msoLineSquareDot = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineDashStyle.msoLineSquareDot" />
+      <MemberSignature Language="VB.NET" Value="msoLineSquareDot" />
+      <MemberSignature Language="C++ CLI" Value="msoLineSquareDot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineDashStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4aec-110">直线由方点构成。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4aec-110">Line is made up of square dots.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineSysDash">
+      <MemberSignature Language="C#" Value="msoLineSysDash" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineDashStyle msoLineSysDash = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineDashStyle.msoLineSysDash" />
+      <MemberSignature Language="VB.NET" Value="msoLineSysDash" />
+      <MemberSignature Language="C++ CLI" Value="msoLineSysDash" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineDashStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineSysDashDot">
+      <MemberSignature Language="C#" Value="msoLineSysDashDot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineDashStyle msoLineSysDashDot = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineDashStyle.msoLineSysDashDot" />
+      <MemberSignature Language="VB.NET" Value="msoLineSysDashDot" />
+      <MemberSignature Language="C++ CLI" Value="msoLineSysDashDot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineDashStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineSysDot">
+      <MemberSignature Language="C#" Value="msoLineSysDot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineDashStyle msoLineSysDot = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineDashStyle.msoLineSysDot" />
+      <MemberSignature Language="VB.NET" Value="msoLineSysDot" />
+      <MemberSignature Language="C++ CLI" Value="msoLineSysDot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineDashStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

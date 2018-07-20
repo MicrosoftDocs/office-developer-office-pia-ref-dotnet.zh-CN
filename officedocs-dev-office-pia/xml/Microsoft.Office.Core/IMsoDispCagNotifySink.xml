@@ -1,0 +1,94 @@
+<Type Name="IMsoDispCagNotifySink" FullName="Microsoft.Office.Core.IMsoDispCagNotifySink">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="94f0f8c3767dbc062191cfddb3b67d3ce28384b2" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658217" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IMsoDispCagNotifySink" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMsoDispCagNotifySink" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IMsoDispCagNotifySink" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IMsoDispCagNotifySink" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IMsoDispCagNotifySink" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0359-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="bb72b-101">仅供内部使用。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bb72b-101">Reserved for internal use.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="InsertClip">
+      <MemberSignature Language="C#" Value="public void InsertClip (object pClipMoniker, object pItemMoniker);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InsertClip([in]object pClipMoniker, [in]object pItemMoniker) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IMsoDispCagNotifySink.InsertClip(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub InsertClip (pClipMoniker As Object, pItemMoniker As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InsertClip(System::Object ^ pClipMoniker, System::Object ^ pItemMoniker);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pClipMoniker" Type="System.Object" />
+        <Parameter Name="pItemMoniker" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="pClipMoniker">To be added.</param>
+        <param name="pItemMoniker">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowIsClosing">
+      <MemberSignature Language="C#" Value="public void WindowIsClosing ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WindowIsClosing() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IMsoDispCagNotifySink.WindowIsClosing" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WindowIsClosing ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowIsClosing();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,66 @@
+<Type Name="RibbonControlSize" FullName="Microsoft.Office.Core.RibbonControlSize">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="231962c2723f9fed3ae32ed64441860437c874da" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657665" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum RibbonControlSize" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RibbonControlSize extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.RibbonControlSize" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RibbonControlSize" />
+  <TypeSignature Language="C++ CLI" Value="public enum class RibbonControlSize" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="RibbonControlSizeLarge">
+      <MemberSignature Language="C#" Value="RibbonControlSizeLarge" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.RibbonControlSize RibbonControlSizeLarge = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge" />
+      <MemberSignature Language="VB.NET" Value="RibbonControlSizeLarge" />
+      <MemberSignature Language="C++ CLI" Value="RibbonControlSizeLarge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.RibbonControlSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="RibbonControlSizeRegular">
+      <MemberSignature Language="C#" Value="RibbonControlSizeRegular" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.RibbonControlSize RibbonControlSizeRegular = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeRegular" />
+      <MemberSignature Language="VB.NET" Value="RibbonControlSizeRegular" />
+      <MemberSignature Language="C++ CLI" Value="RibbonControlSizeRegular" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.RibbonControlSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

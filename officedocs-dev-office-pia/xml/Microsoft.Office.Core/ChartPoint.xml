@@ -1,0 +1,1080 @@
+<Type Name="ChartPoint" FullName="Microsoft.Office.Core.ChartPoint">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="43215c0490e9783ec3a4226b6615a032b6e731a4" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658130" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ChartPoint" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ChartPoint" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ChartPoint" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ChartPoint" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ChartPoint" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C170C-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4112)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="_ApplyDataLabels">
+      <MemberSignature Language="C#" Value="public object _ApplyDataLabels (Microsoft.Office.Core.XlDataLabelsType Type = Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowValue, object IMsoLegendKey, object AutoText, object HasLeaderLines);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object _ApplyDataLabels([in]valuetype Microsoft.Office.Core.XlDataLabelsType Type, [in]object IMsoLegendKey, [in]object AutoText, [in]object HasLeaderLines) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartPoint._ApplyDataLabels(Microsoft.Office.Core.XlDataLabelsType,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function _ApplyDataLabels (Optional Type As XlDataLabelsType = Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowValue, Optional IMsoLegendKey As Object, Optional AutoText As Object, Optional HasLeaderLines As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="Microsoft.Office.Core.XlDataLabelsType" />
+        <Parameter Name="IMsoLegendKey" Type="System.Object" />
+        <Parameter Name="AutoText" Type="System.Object" />
+        <Parameter Name="HasLeaderLines" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Type">To be added.</param>
+        <param name="IMsoLegendKey">To be added.</param>
+        <param name="AutoText">To be added.</param>
+        <param name="HasLeaderLines">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ebb76-101">返回一个<b>Application</b>对象，代表容器应用程序的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebb76-101">Returns an <b>Application</b> object that represents the container application for the object.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ebb76-102">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebb76-102">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyDataLabels">
+      <MemberSignature Language="C#" Value="public object ApplyDataLabels (Microsoft.Office.Core.XlDataLabelsType Type = Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowValue, object IMsoLegendKey, object AutoText, object HasLeaderLines, object ShowSeriesName, object ShowCategoryName, object ShowValue, object ShowPercentage, object ShowBubbleSize, object Separator);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ApplyDataLabels([in]valuetype Microsoft.Office.Core.XlDataLabelsType Type, [in]object IMsoLegendKey, [in]object AutoText, [in]object HasLeaderLines, [in]object ShowSeriesName, [in]object ShowCategoryName, [in]object ShowValue, [in]object ShowPercentage, [in]object ShowBubbleSize, [in]object Separator) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartPoint.ApplyDataLabels(Microsoft.Office.Core.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ApplyDataLabels (Optional Type As XlDataLabelsType = Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowValue, Optional IMsoLegendKey As Object, Optional AutoText As Object, Optional HasLeaderLines As Object, Optional ShowSeriesName As Object, Optional ShowCategoryName As Object, Optional ShowValue As Object, Optional ShowPercentage As Object, Optional ShowBubbleSize As Object, Optional Separator As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="Microsoft.Office.Core.XlDataLabelsType" />
+        <Parameter Name="IMsoLegendKey" Type="System.Object" />
+        <Parameter Name="AutoText" Type="System.Object" />
+        <Parameter Name="HasLeaderLines" Type="System.Object" />
+        <Parameter Name="ShowSeriesName" Type="System.Object" />
+        <Parameter Name="ShowCategoryName" Type="System.Object" />
+        <Parameter Name="ShowValue" Type="System.Object" />
+        <Parameter Name="ShowPercentage" Type="System.Object" />
+        <Parameter Name="ShowBubbleSize" Type="System.Object" />
+        <Parameter Name="Separator" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Type">To be added.</param>
+        <param name="IMsoLegendKey">To be added.</param>
+        <param name="AutoText">To be added.</param>
+        <param name="HasLeaderLines">To be added.</param>
+        <param name="ShowSeriesName">To be added.</param>
+        <param name="ShowCategoryName">To be added.</param>
+        <param name="ShowValue">To be added.</param>
+        <param name="ShowPercentage">To be added.</param>
+        <param name="ShowBubbleSize">To be added.</param>
+        <param name="Separator">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyPictToEnd">
+      <MemberSignature Language="C#" Value="public bool ApplyPictToEnd { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ApplyPictToEnd" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.ApplyPictToEnd" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplyPictToEnd As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ApplyPictToEnd { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1661)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyPictToFront">
+      <MemberSignature Language="C#" Value="public bool ApplyPictToFront { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ApplyPictToFront" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.ApplyPictToFront" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplyPictToFront As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ApplyPictToFront { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1660)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyPictToSides">
+      <MemberSignature Language="C#" Value="public bool ApplyPictToSides { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ApplyPictToSides" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.ApplyPictToSides" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplyPictToSides As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ApplyPictToSides { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1659)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Border">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.IMsoBorder Border { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.IMsoBorder Border" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Border" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Border As IMsoBorder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IMsoBorder ^ Border { Microsoft::Office::Core::IMsoBorder ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(128)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.IMsoBorder</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearFormats">
+      <MemberSignature Language="C#" Value="public object ClearFormats ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ClearFormats() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartPoint.ClearFormats" />
+      <MemberSignature Language="VB.NET" Value="Public Function ClearFormats () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ ClearFormats();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public object Copy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Copy() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartPoint.Copy" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Copy();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ebb76-p101">返回一个 32 位整数，该整数指示在其中创建此对象的应用程序。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebb76-p101">Returns a 32-bit integer that indicates the application in which this object was created. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ebb76-105">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebb76-105">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataLabel">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.IMsoDataLabel DataLabel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.IMsoDataLabel DataLabel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.DataLabel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DataLabel As IMsoDataLabel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IMsoDataLabel ^ DataLabel { Microsoft::Office::Core::IMsoDataLabel ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(158)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.IMsoDataLabel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public object Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartPoint.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Function Delete () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Explosion">
+      <MemberSignature Language="C#" Value="public int Explosion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Explosion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Explosion" />
+      <MemberSignature Language="VB.NET" Value="Public Property Explosion As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Explosion { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(182)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Fill">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ChartFillFormat Fill { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.ChartFillFormat Fill" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Fill" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Fill As ChartFillFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ChartFillFormat ^ Fill { Microsoft::Office::Core::ChartFillFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1663)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ChartFillFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Format">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.IMsoChartFormat Format { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.IMsoChartFormat Format" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Format" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Format As IMsoChartFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IMsoChartFormat ^ Format { Microsoft::Office::Core::IMsoChartFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743854)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.IMsoChartFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Has3DEffect">
+      <MemberSignature Language="C#" Value="public bool Has3DEffect { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Has3DEffect" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Has3DEffect" />
+      <MemberSignature Language="VB.NET" Value="Public Property Has3DEffect As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Has3DEffect { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1665)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasDataLabel">
+      <MemberSignature Language="C#" Value="public bool HasDataLabel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasDataLabel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.HasDataLabel" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasDataLabel As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasDataLabel { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(77)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Height">
+      <MemberSignature Language="C#" Value="public double Height { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Height" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Height" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Height As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Height { double get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2652)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ebb76-106">获取或设置一个命令栏控件的高度。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebb76-106">Gets or sets the height of a command bar control.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Interior">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.IMsoInterior Interior { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.IMsoInterior Interior" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Interior" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Interior As IMsoInterior" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IMsoInterior ^ Interior { Microsoft::Office::Core::IMsoInterior ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(129)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.IMsoInterior</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvertIfNegative">
+      <MemberSignature Language="C#" Value="public bool InvertIfNegative { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool InvertIfNegative" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.InvertIfNegative" />
+      <MemberSignature Language="VB.NET" Value="Public Property InvertIfNegative As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InvertIfNegative { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(132)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="public double Left { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Left" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Left" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Left As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Left { double get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2654)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ebb76-107">获取指定的水平位置<see cref="T:Microsoft.Office.Core._CommandBarButton" />（以像素为单位） 相对于屏幕左边缘的控件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebb76-107">Gets the horizontal position of the specified <see cref="T:Microsoft.Office.Core._CommandBarButton" /> control (in pixels) relative to the left edge of the screen.</span>
+          </span>
+          <span data-ttu-id="ebb76-108">返回从停靠区域的左边界的距离。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebb76-108">Returns the distance from the left side of the docking area.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkerBackgroundColor">
+      <MemberSignature Language="C#" Value="public int MarkerBackgroundColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MarkerBackgroundColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.MarkerBackgroundColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkerBackgroundColor As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MarkerBackgroundColor { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(73)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkerBackgroundColorIndex">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.XlColorIndex MarkerBackgroundColorIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.XlColorIndex MarkerBackgroundColorIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.MarkerBackgroundColorIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkerBackgroundColorIndex As XlColorIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::XlColorIndex MarkerBackgroundColorIndex { Microsoft::Office::Core::XlColorIndex get(); void set(Microsoft::Office::Core::XlColorIndex value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(74)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlColorIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkerForegroundColor">
+      <MemberSignature Language="C#" Value="public int MarkerForegroundColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MarkerForegroundColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.MarkerForegroundColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkerForegroundColor As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MarkerForegroundColor { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(75)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkerForegroundColorIndex">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.XlColorIndex MarkerForegroundColorIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.XlColorIndex MarkerForegroundColorIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.MarkerForegroundColorIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkerForegroundColorIndex As XlColorIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::XlColorIndex MarkerForegroundColorIndex { Microsoft::Office::Core::XlColorIndex get(); void set(Microsoft::Office::Core::XlColorIndex value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(76)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlColorIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkerSize">
+      <MemberSignature Language="C#" Value="public int MarkerSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MarkerSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.MarkerSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkerSize As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MarkerSize { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(231)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkerStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.XlMarkerStyle MarkerStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.XlMarkerStyle MarkerStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.MarkerStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkerStyle As XlMarkerStyle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::XlMarkerStyle MarkerStyle { Microsoft::Office::Core::XlMarkerStyle get(); void set(Microsoft::Office::Core::XlMarkerStyle value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(72)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlMarkerStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2651)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ebb76-109">获取的内置名称<see cref="T:Microsoft.Office.Core.CommandBar" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebb76-109">Gets the name of the built-in <see cref="T:Microsoft.Office.Core.CommandBar" /> object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Paste">
+      <MemberSignature Language="C#" Value="public object Paste ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Paste() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartPoint.Paste" />
+      <MemberSignature Language="VB.NET" Value="Public Function Paste () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Paste();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PictureType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.XlChartPictureType PictureType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.XlChartPictureType PictureType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.PictureType" />
+      <MemberSignature Language="VB.NET" Value="Public Property PictureType As XlChartPictureType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::XlChartPictureType PictureType { Microsoft::Office::Core::XlChartPictureType get(); void set(Microsoft::Office::Core::XlChartPictureType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(161)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlChartPictureType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PictureUnit">
+      <MemberSignature Language="C#" Value="public double PictureUnit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 PictureUnit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.PictureUnit" />
+      <MemberSignature Language="VB.NET" Value="Public Property PictureUnit As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double PictureUnit { double get(); void set(double value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(162)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PictureUnit2">
+      <MemberSignature Language="C#" Value="public double PictureUnit2 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 PictureUnit2" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.PictureUnit2" />
+      <MemberSignature Language="VB.NET" Value="Public Property PictureUnit2 As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double PictureUnit2 { double get(); void set(double value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2649)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>
+          <span data-ttu-id="ebb76-110">
+            <b>Double</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebb76-110">
+              <b>Double</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PieSliceLocation">
+      <MemberSignature Language="C#" Value="public double PieSliceLocation (Microsoft.Office.Core.XlPieSliceLocation loc, Microsoft.Office.Core.XlPieSliceIndex Index = Microsoft.Office.Core.XlPieSliceIndex.xlOuterCenterPoint);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float64 PieSliceLocation([in]valuetype Microsoft.Office.Core.XlPieSliceLocation loc, [in]valuetype Microsoft.Office.Core.XlPieSliceIndex Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartPoint.PieSliceLocation(Microsoft.Office.Core.XlPieSliceLocation,Microsoft.Office.Core.XlPieSliceIndex)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PieSliceLocation (loc As XlPieSliceLocation, Optional Index As XlPieSliceIndex = Microsoft.Office.Core.XlPieSliceIndex.xlOuterCenterPoint) As Double" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="loc" Type="Microsoft.Office.Core.XlPieSliceLocation" />
+        <Parameter Name="Index" Type="Microsoft.Office.Core.XlPieSliceIndex" />
+      </Parameters>
+      <Docs>
+        <param name="loc">To be added.</param>
+        <param name="Index">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SecondaryPlot">
+      <MemberSignature Language="C#" Value="public bool SecondaryPlot { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SecondaryPlot" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.SecondaryPlot" />
+      <MemberSignature Language="VB.NET" Value="Public Property SecondaryPlot As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SecondaryPlot { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1662)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Select">
+      <MemberSignature Language="C#" Value="public object Select ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Select() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartPoint.Select" />
+      <MemberSignature Language="VB.NET" Value="Public Function Select () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Select();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Shadow">
+      <MemberSignature Language="C#" Value="public bool Shadow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Shadow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Shadow" />
+      <MemberSignature Language="VB.NET" Value="Public Property Shadow As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Shadow { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="public double Top { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Top" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Top" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Top As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Top { double get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2655)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ebb76-111">获取从指定的上边缘的距离 （以像素为单位）<see cref="T:Microsoft.Office.Core._CommandBarButton" />屏幕上边缘到的控件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebb76-111">Gets the distance (in pixels) from the top edge of the specified <see cref="T:Microsoft.Office.Core._CommandBarButton" /> control to the top edge of the screen.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public double Width { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Width" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartPoint.Width" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Width As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Width { double get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2653)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ebb76-112">获取或设置指定的宽度 （以像素为单位）<see cref="T:Microsoft.Office.Core._CommandBarButton" />控件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ebb76-112">Gets or sets the width (in pixels) of the specified <see cref="T:Microsoft.Office.Core._CommandBarButton" /> control.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,794 @@
+<Type Name="ILicWizExternal" FullName="Microsoft.Office.Core.ILicWizExternal">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="28cedb39099360664d8a1410ec75fcaa72305f7a" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657438" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ILicWizExternal" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ILicWizExternal" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ILicWizExternal" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ILicWizExternal" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ILicWizExternal" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("4CAC6328-B9B0-11D3-8D59-0050048384E3")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="a2e43-101">仅供内部使用。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a2e43-101">Reserved for internal use.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AnimationEnabled">
+      <MemberSignature Language="C#" Value="public int AnimationEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AnimationEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ILicWizExternal.AnimationEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AnimationEnabled As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AnimationEnabled { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Context">
+      <MemberSignature Language="C#" Value="public int Context { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Context" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ILicWizExternal.Context" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Context As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Context { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(20)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(20)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CountryInfo">
+      <MemberSignature Language="C#" Value="public string CountryInfo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CountryInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ILicWizExternal.CountryInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CountryInfo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CountryInfo { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(23)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(23)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentHelpId">
+      <MemberSignature Language="C#" Value="public int CurrentHelpId { set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 CurrentHelpId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ILicWizExternal.CurrentHelpId" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrentHelpId As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CurrentHelpId {  void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(27)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(27)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DepositPidKey">
+      <MemberSignature Language="C#" Value="public int DepositPidKey (string bstrKey, int fMORW);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 DepositPidKey([in]string bstrKey, [in]int32 fMORW) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ILicWizExternal.DepositPidKey(System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function DepositPidKey (bstrKey As String, fMORW As Integer) As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int DepositPidKey(System::String ^ bstrKey, int fMORW);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrKey" Type="System.String" />
+        <Parameter Name="fMORW" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="bstrKey">To be added.</param>
+        <param name="fMORW">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisableVORWReminder">
+      <MemberSignature Language="C#" Value="public void DisableVORWReminder (int BPC);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DisableVORWReminder([in]int32 BPC) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ILicWizExternal.DisableVORWReminder(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DisableVORWReminder (BPC As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DisableVORWReminder(int BPC);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="BPC" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="BPC">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormatDate">
+      <MemberSignature Language="C#" Value="public string FormatDate (DateTime date, string pFormat = &quot;&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string FormatDate([in]valuetype System.DateTime date, [in]string pFormat) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ILicWizExternal.FormatDate(System.DateTime,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FormatDate (date As DateTime, Optional pFormat As String = &quot;&quot;) As String" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="date" Type="System.DateTime" />
+        <Parameter Name="pFormat" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="date">To be added.</param>
+        <param name="pFormat">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConnectedState">
+      <MemberSignature Language="C#" Value="public int GetConnectedState ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetConnectedState() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ILicWizExternal.GetConnectedState" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetConnectedState () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int GetConnectedState();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(18)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetDisconnect">
+      <MemberSignature Language="C#" Value="public void InternetDisconnect ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InternetDisconnect() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ILicWizExternal.InternetDisconnect" />
+      <MemberSignature Language="VB.NET" Value="Public Sub InternetDisconnect ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InternetDisconnect();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvokeDateTimeApplet">
+      <MemberSignature Language="C#" Value="public void InvokeDateTimeApplet ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InvokeDateTimeApplet() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ILicWizExternal.InvokeDateTimeApplet" />
+      <MemberSignature Language="VB.NET" Value="Public Sub InvokeDateTimeApplet ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InvokeDateTimeApplet();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LicAgent">
+      <MemberSignature Language="C#" Value="public object LicAgent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object LicAgent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ILicWizExternal.LicAgent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LicAgent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ LicAgent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(22)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(22)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MsoAlert">
+      <MemberSignature Language="C#" Value="public int MsoAlert (string bstrText, string bstrButtons, string bstrIcon);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 MsoAlert([in]string bstrText, [in]string bstrButtons, [in]string bstrIcon) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ILicWizExternal.MsoAlert(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function MsoAlert (bstrText As String, bstrButtons As String, bstrIcon As String) As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int MsoAlert(System::String ^ bstrText, System::String ^ bstrButtons, System::String ^ bstrIcon);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrText" Type="System.String" />
+        <Parameter Name="bstrButtons" Type="System.String" />
+        <Parameter Name="bstrIcon" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrText">To be added.</param>
+        <param name="bstrButtons">To be added.</param>
+        <param name="bstrIcon">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OfficeOnTheWebUrl">
+      <MemberSignature Language="C#" Value="public string OfficeOnTheWebUrl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OfficeOnTheWebUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ILicWizExternal.OfficeOnTheWebUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OfficeOnTheWebUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OfficeOnTheWebUrl { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(28)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(28)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenInDefaultBrowser">
+      <MemberSignature Language="C#" Value="public void OpenInDefaultBrowser (string bstrUrl);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OpenInDefaultBrowser([in]string bstrUrl) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ILicWizExternal.OpenInDefaultBrowser(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OpenInDefaultBrowser (bstrUrl As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OpenInDefaultBrowser(System::String ^ bstrUrl);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrUrl" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrUrl">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrintHtmlDocument">
+      <MemberSignature Language="C#" Value="public void PrintHtmlDocument (object punkHtmlDoc);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PrintHtmlDocument([in]object punkHtmlDoc) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ILicWizExternal.PrintHtmlDocument(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PrintHtmlDocument (punkHtmlDoc As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PrintHtmlDocument(System::Object ^ punkHtmlDoc);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="punkHtmlDoc" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="punkHtmlDoc">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetPID">
+      <MemberSignature Language="C#" Value="public void ResetPID ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ResetPID() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ILicWizExternal.ResetPID" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ResetPID ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ResetPID();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResignDpc">
+      <MemberSignature Language="C#" Value="public void ResignDpc (string bstrProductCode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ResignDpc([in]string bstrProductCode) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ILicWizExternal.ResignDpc(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ResignDpc (bstrProductCode As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ResignDpc(System::String ^ bstrProductCode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrProductCode" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrProductCode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveReceipt">
+      <MemberSignature Language="C#" Value="public string SaveReceipt (string bstrReceipt);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string SaveReceipt([in]string bstrReceipt) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ILicWizExternal.SaveReceipt(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SaveReceipt (bstrReceipt As String) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ SaveReceipt(System::String ^ bstrReceipt);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrReceipt" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrReceipt">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetDialogSize">
+      <MemberSignature Language="C#" Value="public void SetDialogSize (int dx, int dy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetDialogSize([in]int32 dx, [in]int32 dy) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ILicWizExternal.SetDialogSize(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetDialogSize (dx As Integer, dy As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetDialogSize(int dx, int dy);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dx" Type="System.Int32" />
+        <Parameter Name="dy" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="dx">To be added.</param>
+        <param name="dy">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowHelp">
+      <MemberSignature Language="C#" Value="public void ShowHelp (ref object pvarId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowHelp([in]object&amp; pvarId) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ILicWizExternal.ShowHelp(System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowHelp (Optional ByRef pvarId As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pvarId" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="pvarId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortSelectOptions">
+      <MemberSignature Language="C#" Value="public void SortSelectOptions (object pdispSelect);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SortSelectOptions([in]object pdispSelect) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ILicWizExternal.SortSelectOptions(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SortSelectOptions (pdispSelect As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SortSelectOptions(System::Object ^ pdispSelect);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pdispSelect" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="pdispSelect">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Terminate">
+      <MemberSignature Language="C#" Value="public void Terminate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Terminate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ILicWizExternal.Terminate" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Terminate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Terminate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validator">
+      <MemberSignature Language="C#" Value="public object Validator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Validator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ILicWizExternal.Validator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Validator As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Validator { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(21)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(21)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerifyClock">
+      <MemberSignature Language="C#" Value="public int VerifyClock (int lMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 VerifyClock([in]int32 lMode) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ILicWizExternal.VerifyClock(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function VerifyClock (lMode As Integer) As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int VerifyClock(int lMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="lMode" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="lMode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WizardTitle">
+      <MemberSignature Language="C#" Value="public string WizardTitle { set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WizardTitle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ILicWizExternal.WizardTitle" />
+      <MemberSignature Language="VB.NET" Value="Public Property WizardTitle As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WizardTitle {  void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(25)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(25)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WizardVisible">
+      <MemberSignature Language="C#" Value="public int WizardVisible { set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 WizardVisible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ILicWizExternal.WizardVisible" />
+      <MemberSignature Language="VB.NET" Value="Public Property WizardVisible As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int WizardVisible {  void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(24)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(24)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteLog">
+      <MemberSignature Language="C#" Value="public void WriteLog (string bstrMessage);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WriteLog([in]string bstrMessage) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ILicWizExternal.WriteLog(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WriteLog (bstrMessage As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WriteLog(System::String ^ bstrMessage);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrMessage" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrMessage">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

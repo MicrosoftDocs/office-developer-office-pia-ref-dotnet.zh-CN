@@ -1,0 +1,47 @@
+<Type Name="_CustomXMLPartEvents_NodeAfterDeleteEventHandler" FullName="Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterDeleteEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="970cf3e4926e3504875b6734932485b8aa52bb5e" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657873" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void _CustomXMLPartEvents_NodeAfterDeleteEventHandler(CustomXMLNode OldNode, CustomXMLNode OldParentNode, CustomXMLNode OldNextSibling, bool InUndoRedo);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _CustomXMLPartEvents_NodeAfterDeleteEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomXMLPartEvents_NodeAfterDeleteEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub _CustomXMLPartEvents_NodeAfterDeleteEventHandler(OldNode As CustomXMLNode, OldParentNode As CustomXMLNode, OldNextSibling As CustomXMLNode, InUndoRedo As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void _CustomXMLPartEvents_NodeAfterDeleteEventHandler(CustomXMLNode ^ OldNode, CustomXMLNode ^ OldParentNode, CustomXMLNode ^ OldNextSibling, bool InUndoRedo);" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="OldNode" Type="Microsoft.Office.Core.CustomXMLNode" />
+    <Parameter Name="OldParentNode" Type="Microsoft.Office.Core.CustomXMLNode" />
+    <Parameter Name="OldNextSibling" Type="Microsoft.Office.Core.CustomXMLNode" />
+    <Parameter Name="InUndoRedo" Type="System.Boolean" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="OldNode">To be added.</param>
+    <param name="OldParentNode">To be added.</param>
+    <param name="OldNextSibling">To be added.</param>
+    <param name="InUndoRedo">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

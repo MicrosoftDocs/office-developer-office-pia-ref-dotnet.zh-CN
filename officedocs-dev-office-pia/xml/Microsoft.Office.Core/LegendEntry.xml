@@ -1,0 +1,404 @@
+<Type Name="LegendEntry" FullName="Microsoft.Office.Core.LegendEntry">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0fe12cc046983ce5560289f0c5ddd669dffaa109" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658029" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface LegendEntry" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract LegendEntry" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.LegendEntry" />
+  <TypeSignature Language="VB.NET" Value="Public Interface LegendEntry" />
+  <TypeSignature Language="C++ CLI" Value="public interface class LegendEntry" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C171A-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4112)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LegendEntry.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="25135-101">返回一个<b>Application</b>对象，代表容器应用程序的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="25135-101">Returns an <b>Application</b> object that represents the container application for the object.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="25135-102">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="25135-102">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoScaleFont">
+      <MemberSignature Language="C#" Value="public object AutoScaleFont { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object AutoScaleFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LegendEntry.AutoScaleFont" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoScaleFont As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ AutoScaleFont { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1525)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LegendEntry.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="25135-p101">返回一个 32 位整数，该整数指示在其中创建此对象的应用程序。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="25135-p101">Returns a 32-bit integer that indicates the application in which this object was created. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="25135-105">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="25135-105">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public object Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.LegendEntry.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Function Delete () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Font">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ChartFont Font { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.ChartFont Font" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LegendEntry.Font" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Font As ChartFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ChartFont ^ Font { Microsoft::Office::Core::ChartFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(146)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ChartFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Format">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.IMsoChartFormat Format { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.IMsoChartFormat Format" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LegendEntry.Format" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Format As IMsoChartFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IMsoChartFormat ^ Format { Microsoft::Office::Core::IMsoChartFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743820)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.IMsoChartFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Height">
+      <MemberSignature Language="C#" Value="public double Height { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Height" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LegendEntry.Height" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Height As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Height { double get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(123)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Index">
+      <MemberSignature Language="C#" Value="public int Index { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Index" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LegendEntry.Index" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(486)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="public double Left { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Left" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LegendEntry.Left" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Left As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Left { double get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(127)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LegendKey">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.IMsoLegendKey LegendKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.IMsoLegendKey LegendKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LegendEntry.LegendKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LegendKey As IMsoLegendKey" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IMsoLegendKey ^ LegendKey { Microsoft::Office::Core::IMsoLegendKey ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(174)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.IMsoLegendKey</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LegendEntry.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Select">
+      <MemberSignature Language="C#" Value="public object Select ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Select() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.LegendEntry.Select" />
+      <MemberSignature Language="VB.NET" Value="Public Function Select () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Select();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="public double Top { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Top" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LegendEntry.Top" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Top As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Top { double get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(126)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public double Width { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Width" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.LegendEntry.Width" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Width As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Width { double get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(122)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

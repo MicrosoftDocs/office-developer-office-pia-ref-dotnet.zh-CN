@@ -1,0 +1,129 @@
+<Type Name="MsoTextCaps" FullName="Microsoft.Office.Core.MsoTextCaps">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="14d4bb19362ca18ca02fdb0819609a7735fb9ab7" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657362" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoTextCaps" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextCaps extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextCaps" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoTextCaps" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoTextCaps" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="408f0-101">指定文本的大写设置。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="408f0-101">Specifies the capitalization of the text.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoAllCaps">
+      <MemberSignature Language="C#" Value="msoAllCaps" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextCaps msoAllCaps = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextCaps.msoAllCaps" />
+      <MemberSignature Language="VB.NET" Value="msoAllCaps" />
+      <MemberSignature Language="C++ CLI" Value="msoAllCaps" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextCaps</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="408f0-102">将文本以全部大写字母的形式显示。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="408f0-102">Display the text as all uppercase letters.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCapsMixed">
+      <MemberSignature Language="C#" Value="msoCapsMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextCaps msoCapsMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextCaps.msoCapsMixed" />
+      <MemberSignature Language="VB.NET" Value="msoCapsMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoCapsMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextCaps</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="408f0-103">将文本以大写字母和小写字母混合的形式显示。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="408f0-103">Display the text as mixed uppercase and lowercase letters.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoNoCaps">
+      <MemberSignature Language="C#" Value="msoNoCaps" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextCaps msoNoCaps = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextCaps.msoNoCaps" />
+      <MemberSignature Language="VB.NET" Value="msoNoCaps" />
+      <MemberSignature Language="C++ CLI" Value="msoNoCaps" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextCaps</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="408f0-104">将文本以不带大写字母的形式显示。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="408f0-104">Display the text with no uppercase letters.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSmallCaps">
+      <MemberSignature Language="C#" Value="msoSmallCaps" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextCaps msoSmallCaps = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextCaps.msoSmallCaps" />
+      <MemberSignature Language="VB.NET" Value="msoSmallCaps" />
+      <MemberSignature Language="C++ CLI" Value="msoSmallCaps" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextCaps</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="408f0-105">将文本显示为小写字符的当前字体和大小的高度相同任何小写字母显示为大写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="408f0-105">Display the text with any lowercase letters displayed as uppercase that are the same height as lowercase for the current font and size.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

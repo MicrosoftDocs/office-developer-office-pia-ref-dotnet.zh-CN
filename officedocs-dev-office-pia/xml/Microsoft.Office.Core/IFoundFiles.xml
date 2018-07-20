@@ -1,0 +1,150 @@
+<Type Name="IFoundFiles" FullName="Microsoft.Office.Core.IFoundFiles">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="31c153fe232fc1971260571b77bd41e4a2f2e361" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657735" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IFoundFiles : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFoundFiles implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IFoundFiles" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFoundFiles&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IFoundFiles : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0338-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFoundFiles.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="02550-101">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="02550-101">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IFoundFiles.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1025)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="02550-102">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="02550-102">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public string this[int Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFoundFiles.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Integer) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default[int] { System::String ^ get(int Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="02550-103">此参数仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="02550-103">This parameter is for Macintosh only and should not be used.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="02550-104">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="02550-104">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

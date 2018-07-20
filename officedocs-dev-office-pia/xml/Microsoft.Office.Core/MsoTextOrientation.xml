@@ -1,0 +1,201 @@
+<Type Name="MsoTextOrientation" FullName="Microsoft.Office.Core.MsoTextOrientation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="89f1ec05b852f55f6f50bf73b521360e1c9f7154" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657381" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoTextOrientation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextOrientation extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextOrientation" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoTextOrientation" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoTextOrientation" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="25dde-101">指定文本的方向。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="25dde-101">Specifies orientation for text.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoTextOrientationDownward">
+      <MemberSignature Language="C#" Value="msoTextOrientationDownward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextOrientation msoTextOrientationDownward = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextOrientation.msoTextOrientationDownward" />
+      <MemberSignature Language="VB.NET" Value="msoTextOrientationDownward" />
+      <MemberSignature Language="C++ CLI" Value="msoTextOrientationDownward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextOrientation</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="25dde-102">向下。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="25dde-102">Downward.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextOrientationHorizontal">
+      <MemberSignature Language="C#" Value="msoTextOrientationHorizontal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextOrientation msoTextOrientationHorizontal = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextOrientation.msoTextOrientationHorizontal" />
+      <MemberSignature Language="VB.NET" Value="msoTextOrientationHorizontal" />
+      <MemberSignature Language="C++ CLI" Value="msoTextOrientationHorizontal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextOrientation</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="25dde-103">水平。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="25dde-103">Horizontal.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextOrientationHorizontalRotatedFarEast">
+      <MemberSignature Language="C#" Value="msoTextOrientationHorizontalRotatedFarEast" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextOrientation msoTextOrientationHorizontalRotatedFarEast = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextOrientation.msoTextOrientationHorizontalRotatedFarEast" />
+      <MemberSignature Language="VB.NET" Value="msoTextOrientationHorizontalRotatedFarEast" />
+      <MemberSignature Language="C++ CLI" Value="msoTextOrientationHorizontalRotatedFarEast" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextOrientation</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="25dde-104">水平和旋转亚洲语言支持所需的。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="25dde-104">Horizontal and rotated as required for Far East language support.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextOrientationMixed">
+      <MemberSignature Language="C#" Value="msoTextOrientationMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextOrientation msoTextOrientationMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextOrientation.msoTextOrientationMixed" />
+      <MemberSignature Language="VB.NET" Value="msoTextOrientationMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoTextOrientationMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextOrientation</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="25dde-105">不支持。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="25dde-105">Not supported.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextOrientationUpward">
+      <MemberSignature Language="C#" Value="msoTextOrientationUpward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextOrientation msoTextOrientationUpward = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextOrientation.msoTextOrientationUpward" />
+      <MemberSignature Language="VB.NET" Value="msoTextOrientationUpward" />
+      <MemberSignature Language="C++ CLI" Value="msoTextOrientationUpward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextOrientation</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="25dde-106">向上。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="25dde-106">Upward.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextOrientationVertical">
+      <MemberSignature Language="C#" Value="msoTextOrientationVertical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextOrientation msoTextOrientationVertical = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextOrientation.msoTextOrientationVertical" />
+      <MemberSignature Language="VB.NET" Value="msoTextOrientationVertical" />
+      <MemberSignature Language="C++ CLI" Value="msoTextOrientationVertical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextOrientation</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="25dde-107">垂直。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="25dde-107">Vertical.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextOrientationVerticalFarEast">
+      <MemberSignature Language="C#" Value="msoTextOrientationVerticalFarEast" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextOrientation msoTextOrientationVerticalFarEast = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextOrientation.msoTextOrientationVerticalFarEast" />
+      <MemberSignature Language="VB.NET" Value="msoTextOrientationVerticalFarEast" />
+      <MemberSignature Language="C++ CLI" Value="msoTextOrientationVerticalFarEast" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextOrientation</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="25dde-108">亚洲语言支持所需的垂直。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="25dde-108">Vertical as required for Far East language support.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

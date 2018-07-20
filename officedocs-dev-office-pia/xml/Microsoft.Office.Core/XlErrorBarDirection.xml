@@ -1,0 +1,98 @@
+<Type Name="XlErrorBarDirection" FullName="Microsoft.Office.Core.XlErrorBarDirection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2cbff1f7ff5293454ba3def4e861b40ab46ebbdf" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657417" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlErrorBarDirection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlErrorBarDirection extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlErrorBarDirection" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlErrorBarDirection" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlErrorBarDirection" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="4c327-101">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4c327-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+      </span>
+      <span data-ttu-id="4c327-102">指定接收误差线的轴值。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4c327-102">Specifies which axis values are to receive error bars.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlChartX">
+      <MemberSignature Language="C#" Value="xlChartX" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlErrorBarDirection xlChartX = int32(-4168)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlErrorBarDirection.xlChartX" />
+      <MemberSignature Language="VB.NET" Value="xlChartX" />
+      <MemberSignature Language="C++ CLI" Value="xlChartX" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlErrorBarDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4168</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4c327-103">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4c327-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="4c327-104">误差线平行于 Y 轴，长度为 X 轴值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4c327-104">Bars run parallel to the Y axis for X-axis values.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlChartY">
+      <MemberSignature Language="C#" Value="xlChartY" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlErrorBarDirection xlChartY = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlErrorBarDirection.xlChartY" />
+      <MemberSignature Language="VB.NET" Value="xlChartY" />
+      <MemberSignature Language="C++ CLI" Value="xlChartY" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlErrorBarDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4c327-105">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4c327-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="4c327-106">误差线平行于 X 轴，长度为 Y 轴值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4c327-106">Bars run parallel to the X axis for Y-axis values.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

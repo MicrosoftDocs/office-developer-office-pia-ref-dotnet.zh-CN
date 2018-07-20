@@ -1,0 +1,105 @@
+<Type Name="MsoHyperlinkType" FullName="Microsoft.Office.Core.MsoHyperlinkType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ab6a24b4f53bcb864914e146ab9d95cf64964fc9" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657828" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoHyperlinkType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoHyperlinkType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoHyperlinkType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoHyperlinkType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoHyperlinkType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="1796e-101">指定超链接的类型。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1796e-101">Specifies the type of hyperlink.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoHyperlinkInlineShape">
+      <MemberSignature Language="C#" Value="msoHyperlinkInlineShape" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoHyperlinkType msoHyperlinkInlineShape = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoHyperlinkType.msoHyperlinkInlineShape" />
+      <MemberSignature Language="VB.NET" Value="msoHyperlinkInlineShape" />
+      <MemberSignature Language="C++ CLI" Value="msoHyperlinkInlineShape" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoHyperlinkType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1796e-p101">超链接应用于内嵌形状。仅用于 Microsoft Word。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1796e-p101">Hyperlink applies to an inline shape. Used only with Microsoft Word.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoHyperlinkRange">
+      <MemberSignature Language="C#" Value="msoHyperlinkRange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoHyperlinkType msoHyperlinkRange = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoHyperlinkType.msoHyperlinkRange" />
+      <MemberSignature Language="VB.NET" Value="msoHyperlinkRange" />
+      <MemberSignature Language="C++ CLI" Value="msoHyperlinkRange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoHyperlinkType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1796e-104">超链接应用于 <b>Range</b> 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1796e-104">Hyperlink applies to a <b>Range</b> object.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoHyperlinkShape">
+      <MemberSignature Language="C#" Value="msoHyperlinkShape" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoHyperlinkType msoHyperlinkShape = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoHyperlinkType.msoHyperlinkShape" />
+      <MemberSignature Language="VB.NET" Value="msoHyperlinkShape" />
+      <MemberSignature Language="C++ CLI" Value="msoHyperlinkShape" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoHyperlinkType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1796e-105">超链接应用于 <b>Shape</b> 对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1796e-105">Hyperlink applies to a <b>Shape</b> object.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

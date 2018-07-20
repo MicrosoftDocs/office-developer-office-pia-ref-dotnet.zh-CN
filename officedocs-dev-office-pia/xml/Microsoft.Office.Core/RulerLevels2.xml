@@ -1,0 +1,320 @@
+<Type Name="RulerLevels2" FullName="Microsoft.Office.Core.RulerLevels2">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="39146bf9bc9bf810f130e2d94177956e415fa60e" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657387" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface RulerLevels2 : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RulerLevels2 implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.RulerLevels2" />
+  <TypeSignature Language="VB.NET" Value="Public Interface RulerLevels2&#xA;Implements _IMsoDispObj, IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class RulerLevels2 : Microsoft::Office::Core::_IMsoDispObj, System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03C2-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="c4130-101">所有的集合<see cref="T:Microsoft.Office.Core.RulerLevel2" />指定标尺上的对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c4130-101">A collection of all the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> objects on the specified ruler.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="c4130-102">
+        <para>每个<see cref="T:Microsoft.Office.Core.RulerLevel2" />对象代表特定大纲级别文本的第一行和左缩进。始终该集合包含五个成员 — 可用的大纲级别的每个。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c4130-102">
+          <para>Each <see cref="T:Microsoft.Office.Core.RulerLevel2" /> object represents the first-line and left indent for text at a particular outline level. This collection always contains five members — one for each of the available outline levels.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.RulerLevels2.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4130-103">获取<b>应用程序</b>对象，该对象代表容器应用程序的<see cref="T:Microsoft.Office.Core.RulerLevel2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4130-103">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> object.</span>
+          </span>
+          <span data-ttu-id="c4130-104">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4130-104">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c4130-105">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4130-105">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.RulerLevels2.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4130-106">获取一个<b>整数</b>，指示中的项目数<see cref="T:Microsoft.Office.Core.RulerLevel2" />集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4130-106">Gets a <b>Integer</b> indicating the number of items in the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> collection.</span>
+          </span>
+          <span data-ttu-id="c4130-107">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4130-107">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c4130-108">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4130-108">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.RulerLevels2.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4130-109">获取一个 32 位整数，表示在其中应用程序<see cref="T:Microsoft.Office.Core.RulerLevel2" />对象的创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4130-109">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> object was created.</span>
+          </span>
+          <span data-ttu-id="c4130-110">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4130-110">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c4130-111">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4130-111">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.RulerLevels2.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.RulerLevel2 Item (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.RulerLevel2 Item([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.RulerLevels2.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Item (Index As Object) As RulerLevel2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::RulerLevel2 ^ Item(System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.RulerLevel2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="c4130-112">要返回的对象的索引号。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4130-112">The index number of the object to be returned.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="c4130-113">获取的成员<see cref="T:Microsoft.Office.Core.RulerLevel2" />集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4130-113">Gets a member of the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> collection.</span>
+          </span>
+        </summary>
+        <returns>
+          <see cref="T:Microsoft.Office.Core.RulerLevel2" />
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.RulerLevels2.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c4130-114">获取对象的父<see cref="T:Microsoft.Office.Core.RulerLevel2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4130-114">Gets the parent object for the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> object.</span>
+          </span>
+          <span data-ttu-id="c4130-115">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4130-115">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c4130-116">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c4130-116">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

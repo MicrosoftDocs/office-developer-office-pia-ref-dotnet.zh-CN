@@ -1,0 +1,539 @@
+<Type Name="_CustomTaskPane" FullName="Microsoft.Office.Core._CustomTaskPane">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="54421a9151e347dcd5f463af33539b23e21495a1" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658370" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _CustomTaskPane" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CustomTaskPane" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CustomTaskPane" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _CustomTaskPane" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _CustomTaskPane" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C033B-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="ca345-101">代表容器应用程序中的自定义任务窗格。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ca345-101">Represents a custom task pane in the container application.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="ca345-102">
+        <para>
+          <b>注意</b>： 您可以在任何语言支持 COM 并允许您创建动态链接库 (DLL) 文件创建自定义任务窗格。例如，Microsoft Visual Basic® 6.0、 Microsoft Visual Basic.NET、 Microsoft Visual C++®、 Microsoft Visual c + +.NET 和 Microsoft Visual C#®。但是，Microsoft Visual Basic for Applications (VBA) 不支持创建自定义任务窗格。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ca345-102">
+          <para>
+            <b>Note</b>: You can create custom task panes in any language that supports COM and allows you to create dynamic-linked library (DLL) files. For example, Microsoft Visual Basic® 6.0, Microsoft Visual Basic .NET, Microsoft Visual C++®, Microsoft Visual C++ .NET, and Microsoft Visual C#®. However, Microsoft Visual Basic for Applications (VBA) does not support creating custom task panes. </para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomTaskPane.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ca345-103">获取宿主应用程序的<b>应用程序</b>对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-103">Gets the <b>Application</b> object of the host application.</span>
+          </span>
+          <span data-ttu-id="ca345-104">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-104">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ca345-105">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-105">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentControl">
+      <MemberSignature Language="C#" Value="public object ContentControl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ContentControl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomTaskPane.ContentControl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContentControl As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ContentControl { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ca345-p102">获取在自定义任务窗格框架中显示的 Microsoft ActiveX? 控件实例。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-p102">Gets the Microsoft ActiveX® control instance displayed in the custom task pane frame. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ca345-108">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-108">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="ca345-109">
+            <para>此属性在创建的设置一次。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-109">
+              <para>This property is set once at creation.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CustomTaskPane.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="ca345-110">删除活动的自定义任务窗格。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-110">Deletes the active custom task pane.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DockPosition">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoCTPDockPosition DockPosition { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoCTPDockPosition DockPosition" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomTaskPane.DockPosition" />
+      <MemberSignature Language="VB.NET" Value="Public Property DockPosition As MsoCTPDockPosition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoCTPDockPosition DockPosition { Microsoft::Office::Core::MsoCTPDockPosition get(); void set(Microsoft::Office::Core::MsoCTPDockPosition value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCTPDockPosition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ca345-111">获取或设置一个指定的停靠的位置枚举的值<see cref="T:Microsoft.Office.Core._CustomTaskPane" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-111">Gets or sets an enumerated value specifying the docked position of a <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> object.</span>
+          </span>
+          <span data-ttu-id="ca345-112">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-112">Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoCTPDockPosition" />
+        </value>
+        <remarks>
+          <span data-ttu-id="ca345-113">
+            <para>默认为<see cref="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionRight" />从右到左语言和<see cref="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionLeft" />左书写的语言。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-113">
+              <para>Defaults to <see cref="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionRight" /> for Right-to-Left languages and <see cref="F:Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionLeft" /> for Left-toRight languages.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DockPositionRestrict">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoCTPDockPositionRestrict DockPositionRestrict { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoCTPDockPositionRestrict DockPositionRestrict" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomTaskPane.DockPositionRestrict" />
+      <MemberSignature Language="VB.NET" Value="Public Property DockPositionRestrict As MsoCTPDockPositionRestrict" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoCTPDockPositionRestrict DockPositionRestrict { Microsoft::Office::Core::MsoCTPDockPositionRestrict get(); void set(Microsoft::Office::Core::MsoCTPDockPositionRestrict value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCTPDockPositionRestrict</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ca345-114">获取或设置一个限制指定的方向上枚举的值<see cref="T:Microsoft.Office.Core._CustomTaskPane" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-114">Gets or sets an enumerated value specifying a restriction on the orientation of a <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> object.</span>
+          </span>
+          <span data-ttu-id="ca345-115">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-115">Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoCTPDockPositionRestrict" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Height">
+      <MemberSignature Language="C#" Value="public int Height { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Height" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomTaskPane.Height" />
+      <MemberSignature Language="VB.NET" Value="Public Property Height As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Height { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ca345-116">获取或设置的高度<see cref="T:Microsoft.Office.Core._CustomTaskPane" />（以磅为单位） 的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-116">Gets or sets the height of the <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> object (in points).</span>
+          </span>
+          <span data-ttu-id="ca345-117">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-117">Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ca345-118">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-118">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Title">
+      <MemberSignature Language="C#" Value="public string this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Title" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomTaskPane.Title" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Title As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ca345-119">获取<b>CustomTaskPane</b>对象的标题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-119">Gets the title of a <b>CustomTaskPane</b> object.</span>
+          </span>
+          <span data-ttu-id="ca345-120">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-120">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ca345-121">
+            <b>字符串</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-121">
+              <b>String</b>
+            </span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="ca345-122">
+            <para>此属性在创建的设置一次。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-122">
+              <para>This property is set once at creation.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public bool Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomTaskPane.Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Property Visible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Visible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ca345-123">
+            <b>True</b>如果指定<see cref="T:Microsoft.Office.Core._CustomTaskPane" />对象是否可见。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-123">
+              <b>True</b> if the specified <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> object is visible.</span>
+          </span>
+          <span data-ttu-id="ca345-124">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-124">Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ca345-125">
+            <b>Boolean</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-125">
+              <b>Boolean</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public int Width { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Width" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomTaskPane.Width" />
+      <MemberSignature Language="VB.NET" Value="Public Property Width As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Width { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ca345-126">获取或设置指定任务窗格的宽度<see cref="T:Microsoft.Office.Core._CustomTaskPane" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-126">Gets or sets the width of the task pane specified by the <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> object.</span>
+          </span>
+          <span data-ttu-id="ca345-127">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-127">Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ca345-128">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-128">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Window">
+      <MemberSignature Language="C#" Value="public object Window { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Window" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core._CustomTaskPane.Window" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Window As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Window { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ca345-129">获取 window 对象的父<see cref="T:Microsoft.Office.Core._CustomTaskPane" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-129">Gets the  parent window object of the <see cref="T:Microsoft.Office.Core._CustomTaskPane" /> object.</span>
+          </span>
+          <span data-ttu-id="ca345-130">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-130">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ca345-131">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-131">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="ca345-132">
+            <para>此属性的特定类取决于主机应用程序。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ca345-132">
+              <para>The specific class for this property depends on the host application.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

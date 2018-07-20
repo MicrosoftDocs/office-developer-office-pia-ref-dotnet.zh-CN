@@ -1,0 +1,201 @@
+<Type Name="MsoFillType" FullName="Microsoft.Office.Core.MsoFillType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="49d1acb8b23c1debaddc9cea3890a7e2b9b0d1ff" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657611" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoFillType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFillType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFillType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoFillType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoFillType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="c0eb1-101">指定形状的填充类型。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c0eb1-101">Specifies a shape's fill type.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoFillBackground">
+      <MemberSignature Language="C#" Value="msoFillBackground" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFillType msoFillBackground = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFillType.msoFillBackground" />
+      <MemberSignature Language="VB.NET" Value="msoFillBackground" />
+      <MemberSignature Language="C++ CLI" Value="msoFillBackground" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFillType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c0eb1-102">填充与背景相同。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0eb1-102">Fill is the same as the background.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFillGradient">
+      <MemberSignature Language="C#" Value="msoFillGradient" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFillType msoFillGradient = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFillType.msoFillGradient" />
+      <MemberSignature Language="VB.NET" Value="msoFillGradient" />
+      <MemberSignature Language="C++ CLI" Value="msoFillGradient" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFillType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c0eb1-103">渐变填充。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0eb1-103">Gradient fill.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFillMixed">
+      <MemberSignature Language="C#" Value="msoFillMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFillType msoFillMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFillType.msoFillMixed" />
+      <MemberSignature Language="VB.NET" Value="msoFillMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoFillMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFillType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c0eb1-104">混和填充。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0eb1-104">Mixed fill.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFillPatterned">
+      <MemberSignature Language="C#" Value="msoFillPatterned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFillType msoFillPatterned = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFillType.msoFillPatterned" />
+      <MemberSignature Language="VB.NET" Value="msoFillPatterned" />
+      <MemberSignature Language="C++ CLI" Value="msoFillPatterned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFillType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c0eb1-105">图案填充。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0eb1-105">Patterned fill.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFillPicture">
+      <MemberSignature Language="C#" Value="msoFillPicture" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFillType msoFillPicture = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFillType.msoFillPicture" />
+      <MemberSignature Language="VB.NET" Value="msoFillPicture" />
+      <MemberSignature Language="C++ CLI" Value="msoFillPicture" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFillType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c0eb1-106">图片填充。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0eb1-106">Picture fill.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFillSolid">
+      <MemberSignature Language="C#" Value="msoFillSolid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFillType msoFillSolid = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFillType.msoFillSolid" />
+      <MemberSignature Language="VB.NET" Value="msoFillSolid" />
+      <MemberSignature Language="C++ CLI" Value="msoFillSolid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFillType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c0eb1-107">单色填充。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0eb1-107">Solid fill.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFillTextured">
+      <MemberSignature Language="C#" Value="msoFillTextured" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFillType msoFillTextured = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFillType.msoFillTextured" />
+      <MemberSignature Language="VB.NET" Value="msoFillTextured" />
+      <MemberSignature Language="C++ CLI" Value="msoFillTextured" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFillType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c0eb1-108">纹理填充。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c0eb1-108">Textured fill.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,297 @@
+<Type Name="ScopeFolder" FullName="Microsoft.Office.Core.ScopeFolder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e2e18b3bc38f2ddb708422997b6116f6751ed5cb" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657916" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ScopeFolder : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ScopeFolder implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ScopeFolder" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ScopeFolder&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ScopeFolder : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0368-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="4530b-101">对应于可搜索的文件夹。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4530b-101">Corresponds to a searchable folder.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="4530b-102">
+        <para>
+          <b>ScopeFolder</b>对象都适用于用于<see cref="T:Microsoft.Office.Core.SearchFolders" />集合。<b>SearchFolders</b>集合定义时使用搜索文件夹<see cref="T:Microsoft.Office.Core.FileSearch" />对象。当您想要搜索特定的文件夹时，您可以使用的方法和属性的<see cref="T:Microsoft.Office.Core.SearchScope" />对象和<see cref="T:Microsoft.Office.Core.ScopeFolders" />集合检索<b>ScopeFolder</b>对象并将其添加到<b>SearchFolders</b>集合。</para>
+        <para>使用<see cref="P:Microsoft.Office.Core.SearchScope.ScopeFolder" />属性返回的搜索范围的根<b>ScopeFolder</b>对象的<b>SearchScope</b>对象。</para>
+        <para>使用<see cref="P:Microsoft.Office.Core.ScopeFolders.Item(System.Int32)" /><b>ScopeFolders</b>集合返回根<b>ScopeFolder</b>对象或将在下次搜索文件夹的子文件夹方法<see cref="M:Microsoft.Office.Core.FileSearch.Execute(Microsoft.Office.Core.MsoSortBy,Microsoft.Office.Core.MsoSortOrder,System.Boolean)" />调用<b>FileSearch</b>对象的方法。</para>
+        <para>中每个<b>ScopeFolder</b>对象没有<b>ScopeFolders</b>集合，其中包含父<b>ScopeFolder</b>对象的子文件夹。您可以通过循环访问这些<b>ScopeFolders</b>集合，并返回的所有级别较低的<b>ScopeFolder</b>对象遍历搜索范围 （例如，所有本地驱动器） 的整个文件夹结构。<b>ScopeFolder</b>对象没有子文件夹包含空<b>ScopeFolders</b>集合。</para>您可以使用
+      <para><see cref="M:Microsoft.Office.Core.SearchFolders.Add(Microsoft.Office.Core.ScopeFolder)" />方法<b>SearchFolders</b>集合添加<b>ScopeFolder</b>对象传递给<b>SearchFolders</b>集合; 但是，就通常易于使用<see cref="M:Microsoft.Office.Core.ScopeFolder.AddToSearchFolders" /><b>ScopeFolder</b>方法要添加，因为没有对所有搜索只有一个<b>SearchFolders</b>集合。</para><para /></span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4530b-102">
+          <para>
+            <b>ScopeFolder</b> objects are intended for use with the <see cref="T:Microsoft.Office.Core.SearchFolders" /> collection. The <b>SearchFolders</b> collection defines the folders that are searched when using the <see cref="T:Microsoft.Office.Core.FileSearch" /> object. When you want to search specific folders, you can use the methods and properties of the <see cref="T:Microsoft.Office.Core.SearchScope" /> object and the <see cref="T:Microsoft.Office.Core.ScopeFolders" /> collection to retrieve <b>ScopeFolder</b> objects and add them to the <b>SearchFolders</b> collection.</para>
+          <para>Use the <see cref="P:Microsoft.Office.Core.SearchScope.ScopeFolder" /> property of the <b>SearchScope</b> object to return the root <b>ScopeFolder</b> object of a search scope.</para>
+          <para>Use the <see cref="P:Microsoft.Office.Core.ScopeFolders.Item(System.Int32)" /> method of the <b>ScopeFolders</b> collection to return a subfolder of a root <b>ScopeFolder</b> object, or a folder that will be searched the next time the <see cref="M:Microsoft.Office.Core.FileSearch.Execute(Microsoft.Office.Core.MsoSortBy,Microsoft.Office.Core.MsoSortOrder,System.Boolean)" /> method of the <b>FileSearch</b> object is called.</para>
+          <para>In each <b>ScopeFolder</b> object there is a <b>ScopeFolders</b> collection that contains the subfolders of the parent <b>ScopeFolder</b> object. You can traverse the entire folder structure of a search scope (for example, all local drives) by looping through these <b>ScopeFolders</b> collections and returning all of the lower-level <b>ScopeFolder</b> objects. A <b>ScopeFolder</b> object with no subfolders contains an empty <b>ScopeFolders</b> collection.</para>
+          <para>You can use the <see cref="M:Microsoft.Office.Core.SearchFolders.Add(Microsoft.Office.Core.ScopeFolder)" /> method of the <b>SearchFolders</b> collection to add a <b>ScopeFolder</b> object to the <b>SearchFolders</b> collection; however, it is usually simpler to use the <see cref="M:Microsoft.Office.Core.ScopeFolder.AddToSearchFolders" /> method of the <b>ScopeFolder</b> that you want to add, because there is only one <b>SearchFolders</b> collection for all searches.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddToSearchFolders">
+      <MemberSignature Language="C#" Value="public void AddToSearchFolders ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddToSearchFolders() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ScopeFolder.AddToSearchFolders" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddToSearchFolders ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddToSearchFolders();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="4530b-103">添加<see cref="T:Microsoft.Office.Core.ScopeFolder" />对象<see cref="T:Microsoft.Office.Core.SearchFolders" />集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4530b-103">Adds a <see cref="T:Microsoft.Office.Core.ScopeFolder" /> object the <see cref="T:Microsoft.Office.Core.SearchFolders" /> collection.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="4530b-104">
+            <para>尽管您可以使用<b>SearchFolders</b>集合的<see cref="M:Microsoft.Office.Core.SearchFolders.Add(Microsoft.Office.Core.ScopeFolder)" />方法添加<b>ScopeFolder</b>对象传递给<b>SearchFolders</b>集合，它是通常易于使用<b>ScopeFolder</b>的<b>AddToSearchFolders</b>方法您要添加，因为没有对所有搜索只有一个<b>SearchFolders</b>集合的对象。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4530b-104">
+              <para>Although you can use the <b>SearchFolders</b> collection's <see cref="M:Microsoft.Office.Core.SearchFolders.Add(Microsoft.Office.Core.ScopeFolder)" /> method to add a <b>ScopeFolder</b> object to the <b>SearchFolders</b> collection, it is usually simpler to use the <b>AddToSearchFolders</b> method of the <b>ScopeFolder</b> object that you want to add, because there is only one <b>SearchFolders</b> collection for all searches.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ScopeFolder.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4530b-105">返回一个<b>Application</b>对象，代表容器应用程序的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4530b-105">Returns an <b>Application</b> object that represents the container application for the object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ScopeFolder.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4530b-106">返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4530b-106">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="4530b-107">
+            <para>如果指定的对象在 Microsoft Word 中创建的此属性返回 1297307460，它表示字符串 MSWD;如果在 Microsoft Excel 中创建，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.ScopeFolder.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4530b-107">
+              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.ScopeFolder.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ScopeFolder.Name" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4530b-108">返回指定对象的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4530b-108">Returns the name of the specified object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Path">
+      <MemberSignature Language="C#" Value="public string Path { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Path" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ScopeFolder.Path" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Path As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Path { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4530b-109">返回一个指示的完整路径的<b>字符串</b><see cref="T:Microsoft.Office.Core.ScopeFolder" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4530b-109">Returns a <b>String</b> indicating the full path of a <see cref="T:Microsoft.Office.Core.ScopeFolder" /> object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScopeFolders">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ScopeFolders ScopeFolders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.ScopeFolders ScopeFolders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ScopeFolder.ScopeFolders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ScopeFolders As ScopeFolders" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ScopeFolders ^ ScopeFolders { Microsoft::Office::Core::ScopeFolders ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ScopeFolders</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4530b-110">返回<see cref="T:Microsoft.Office.Core.ScopeFolders" />集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4530b-110">Returns a <see cref="T:Microsoft.Office.Core.ScopeFolders" /> collection.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="4530b-111">
+            <para>此集合中的项对应的子对象的父文件夹<see cref="T:Microsoft.Office.Core.ScopeFolder" />对象。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4530b-111">
+              <para>The items in this collection correspond to the subfolders of the parent <see cref="T:Microsoft.Office.Core.ScopeFolder" /> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

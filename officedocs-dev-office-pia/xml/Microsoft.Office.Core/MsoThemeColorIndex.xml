@@ -1,0 +1,465 @@
+<Type Name="MsoThemeColorIndex" FullName="Microsoft.Office.Core.MsoThemeColorIndex">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="253b7dd6843bc7f5682d75997cebfce9fe74a03e" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658188" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoThemeColorIndex" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoThemeColorIndex extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoThemeColorIndex" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoThemeColorIndex" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoThemeColorIndex" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="d0572-101">指示 Office 主题颜色。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d0572-101">Indicates the Office theme color.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoNotThemeColor">
+      <MemberSignature Language="C#" Value="msoNotThemeColor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoThemeColorIndex msoNotThemeColor = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoThemeColorIndex.msoNotThemeColor" />
+      <MemberSignature Language="VB.NET" Value="msoNotThemeColor" />
+      <MemberSignature Language="C++ CLI" Value="msoNotThemeColor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0572-102">指定无主题颜色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0572-102">Specifies no theme color.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeColorAccent1">
+      <MemberSignature Language="C#" Value="msoThemeColorAccent1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoThemeColorIndex msoThemeColorAccent1 = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoThemeColorIndex.msoThemeColorAccent1" />
+      <MemberSignature Language="VB.NET" Value="msoThemeColorAccent1" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeColorAccent1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0572-103">指定“强调文字颜色 1”主题颜色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0572-103">Specifies the Accent 1 theme color.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeColorAccent2">
+      <MemberSignature Language="C#" Value="msoThemeColorAccent2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoThemeColorIndex msoThemeColorAccent2 = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoThemeColorIndex.msoThemeColorAccent2" />
+      <MemberSignature Language="VB.NET" Value="msoThemeColorAccent2" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeColorAccent2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0572-104">指定“强调文字颜色 2”主题颜色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0572-104">Specifies the Accent 2 theme color.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeColorAccent3">
+      <MemberSignature Language="C#" Value="msoThemeColorAccent3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoThemeColorIndex msoThemeColorAccent3 = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoThemeColorIndex.msoThemeColorAccent3" />
+      <MemberSignature Language="VB.NET" Value="msoThemeColorAccent3" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeColorAccent3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0572-105">指定“强调文字颜色 3”主题颜色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0572-105">Specifies the Accent 3 theme color.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeColorAccent4">
+      <MemberSignature Language="C#" Value="msoThemeColorAccent4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoThemeColorIndex msoThemeColorAccent4 = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoThemeColorIndex.msoThemeColorAccent4" />
+      <MemberSignature Language="VB.NET" Value="msoThemeColorAccent4" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeColorAccent4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0572-106">指定“强调文字颜色 4”主题颜色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0572-106">Specifies the Accent 4 theme color.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeColorAccent5">
+      <MemberSignature Language="C#" Value="msoThemeColorAccent5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoThemeColorIndex msoThemeColorAccent5 = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoThemeColorIndex.msoThemeColorAccent5" />
+      <MemberSignature Language="VB.NET" Value="msoThemeColorAccent5" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeColorAccent5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0572-107">指定“强调文字颜色 5”主题颜色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0572-107">Specifies the Accent 5 theme color.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeColorAccent6">
+      <MemberSignature Language="C#" Value="msoThemeColorAccent6" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoThemeColorIndex msoThemeColorAccent6 = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoThemeColorIndex.msoThemeColorAccent6" />
+      <MemberSignature Language="VB.NET" Value="msoThemeColorAccent6" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeColorAccent6" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0572-108">指定“强调文字颜色 6”主题颜色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0572-108">Specifies the Accent 6 theme color.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeColorBackground1">
+      <MemberSignature Language="C#" Value="msoThemeColorBackground1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoThemeColorIndex msoThemeColorBackground1 = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoThemeColorIndex.msoThemeColorBackground1" />
+      <MemberSignature Language="VB.NET" Value="msoThemeColorBackground1" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeColorBackground1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0572-109">指定“背景 1”主题颜色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0572-109">Specifies the Background 1 theme color.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeColorBackground2">
+      <MemberSignature Language="C#" Value="msoThemeColorBackground2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoThemeColorIndex msoThemeColorBackground2 = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoThemeColorIndex.msoThemeColorBackground2" />
+      <MemberSignature Language="VB.NET" Value="msoThemeColorBackground2" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeColorBackground2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0572-110">指定“背景 2”主题颜色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0572-110">Specifies the Background 2 theme color.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeColorDark1">
+      <MemberSignature Language="C#" Value="msoThemeColorDark1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoThemeColorIndex msoThemeColorDark1 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoThemeColorIndex.msoThemeColorDark1" />
+      <MemberSignature Language="VB.NET" Value="msoThemeColorDark1" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeColorDark1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0572-111">指定“深色 1”主题颜色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0572-111">Specifies the Dark 1 theme color.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeColorDark2">
+      <MemberSignature Language="C#" Value="msoThemeColorDark2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoThemeColorIndex msoThemeColorDark2 = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoThemeColorIndex.msoThemeColorDark2" />
+      <MemberSignature Language="VB.NET" Value="msoThemeColorDark2" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeColorDark2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0572-112">指定“深色 2”主题颜色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0572-112">Specifies the Dark 2 theme color.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeColorFollowedHyperlink">
+      <MemberSignature Language="C#" Value="msoThemeColorFollowedHyperlink" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoThemeColorIndex msoThemeColorFollowedHyperlink = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoThemeColorIndex.msoThemeColorFollowedHyperlink" />
+      <MemberSignature Language="VB.NET" Value="msoThemeColorFollowedHyperlink" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeColorFollowedHyperlink" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0572-113">指定已单击的超链接的主题颜色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0572-113">Specifies the theme color for a clicked hyperlink.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeColorHyperlink">
+      <MemberSignature Language="C#" Value="msoThemeColorHyperlink" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoThemeColorIndex msoThemeColorHyperlink = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoThemeColorIndex.msoThemeColorHyperlink" />
+      <MemberSignature Language="VB.NET" Value="msoThemeColorHyperlink" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeColorHyperlink" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0572-114">指定超链接的主题颜色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0572-114">Specifies the theme color for a hyperlink.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeColorLight1">
+      <MemberSignature Language="C#" Value="msoThemeColorLight1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoThemeColorIndex msoThemeColorLight1 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoThemeColorIndex.msoThemeColorLight1" />
+      <MemberSignature Language="VB.NET" Value="msoThemeColorLight1" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeColorLight1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0572-115">指定“浅色 1”主题颜色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0572-115">Specifies the Light 1 theme color.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeColorLight2">
+      <MemberSignature Language="C#" Value="msoThemeColorLight2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoThemeColorIndex msoThemeColorLight2 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoThemeColorIndex.msoThemeColorLight2" />
+      <MemberSignature Language="VB.NET" Value="msoThemeColorLight2" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeColorLight2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0572-116">指定浅色 2 主题颜色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0572-116">Specifies the Light 2 theme color.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeColorMixed">
+      <MemberSignature Language="C#" Value="msoThemeColorMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoThemeColorIndex msoThemeColorMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoThemeColorIndex.msoThemeColorMixed" />
+      <MemberSignature Language="VB.NET" Value="msoThemeColorMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeColorMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0572-117">指定混和的主题颜色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0572-117">Specifies a mixed color theme.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeColorText1">
+      <MemberSignature Language="C#" Value="msoThemeColorText1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoThemeColorIndex msoThemeColorText1 = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoThemeColorIndex.msoThemeColorText1" />
+      <MemberSignature Language="VB.NET" Value="msoThemeColorText1" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeColorText1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0572-118">指定“文字 1”主题颜色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0572-118">Specifies the Text 1 theme color.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeColorText2">
+      <MemberSignature Language="C#" Value="msoThemeColorText2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoThemeColorIndex msoThemeColorText2 = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoThemeColorIndex.msoThemeColorText2" />
+      <MemberSignature Language="VB.NET" Value="msoThemeColorText2" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeColorText2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoThemeColorIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0572-119">指定“文字 2”主题颜色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0572-119">Specifies the Text 2 theme color.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

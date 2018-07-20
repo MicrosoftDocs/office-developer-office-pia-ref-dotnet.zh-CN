@@ -1,0 +1,1451 @@
+<Type Name="Assistant" FullName="Microsoft.Office.Core.Assistant">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="61064786eac2bb5900c548fc2646b43d445a5449" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657448" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Assistant : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Assistant implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Assistant" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Assistant&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Assistant : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0322-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="f5f96-101">代表 Microsoft Office 助手。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f5f96-101">Represents the Microsoft Office Assistant.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="f5f96-102">
+        <para>
+          <b>Assistant</b>属性用于返回<b>Assistant</b>对象。不存在的<b>Assistant</b>对象; 集合一次只有一个<b>Assistant</b>对象可以是活动的。使用<see cref="P:Microsoft.Office.Core.Assistant.Visible" />属性来显示助手，然后使用<see cref="P:Microsoft.Office.Core.Assistant.On" />属性来启用助理。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f5f96-102">
+          <para>Use the <b>Assistant</b> property to return the <b>Assistant</b> object. There isn't a collection for the <b>Assistant</b> object; only one <b>Assistant</b> object can be active at a time. Use the <see cref="P:Microsoft.Office.Core.Assistant.Visible" /> property to display the Assistant, and use the <see cref="P:Microsoft.Office.Core.Assistant.On" /> property to enable the Assistant.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActivateWizard">
+      <MemberSignature Language="C#" Value="public void ActivateWizard (int WizardID, Microsoft.Office.Core.MsoWizardActType act, object Animation);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ActivateWizard([in]int32 WizardID, [in]valuetype Microsoft.Office.Core.MsoWizardActType act, [in]object Animation) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Assistant.ActivateWizard(System.Int32,Microsoft.Office.Core.MsoWizardActType,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ActivateWizard (WizardID As Integer, act As MsoWizardActType, Optional Animation As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809353)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="WizardID" Type="System.Int32" />
+        <Parameter Name="act" Type="Microsoft.Office.Core.MsoWizardActType" />
+        <Parameter Name="Animation" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="WizardID">
+          <span data-ttu-id="f5f96-103">返回的数字<see cref="M:Microsoft.Office.Core.Assistant.StartWizard(System.Boolean,System.String,System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />方法。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-103">The number returned by the <see cref="M:Microsoft.Office.Core.Assistant.StartWizard(System.Boolean,System.String,System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" /> method.</span>
+          </span>
+        </param>
+        <param name="act">
+          <span data-ttu-id="f5f96-104">指定对 Office 助手帮助会话的更改。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-104">Specifies the change to the Office Assistant Help session.</span>
+          </span>
+        </param>
+        <param name="Animation">
+          <span data-ttu-id="f5f96-105">动画 Office 助手时执行它已挂起或已恢复。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-105">The animation the Office Assistant performs when it is suspended or resumed.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f5f96-106">恢复或过程的自定义向导中挂起 Office 助手帮助。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-106">Resumes or suspends Office Assistant Help during a custom wizard.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Animation">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoAnimationType Animation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoAnimationType Animation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Animation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Animation As MsoAnimationType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoAnimationType Animation { Microsoft::Office::Core::MsoAnimationType get(); void set(Microsoft::Office::Core::MsoAnimationType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809359)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-107">返回或设置 Office 助手动画效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-107">Returns or sets an animation action for the Office Assistant.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="f5f96-108">
+            <para>当此属性应用于<see cref="T:Microsoft.Office.Core.Assistant" />对象和助手支持指定的动画效果，则会动画效果立即 （如果助手可见并已启用）。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-108">
+              <para>When this property is applied to the <see cref="T:Microsoft.Office.Core.Assistant" /> object and the Assistant supports the specified animation, the Assistant is animated immediately (if the Assistant is visible and enabled).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-109">返回一个<b>Application</b>对象，代表容器应用程序的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-109">Returns an <b>Application</b> object that represents the container application for the object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssistWithAlerts">
+      <MemberSignature Language="C#" Value="public bool AssistWithAlerts { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AssistWithAlerts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.AssistWithAlerts" />
+      <MemberSignature Language="VB.NET" Value="Public Property AssistWithAlerts As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AssistWithAlerts { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809367)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809367)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809367)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-110">如果为<b>true</b> Office 助手气球 Office 助手可见时提供通知应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-110">
+              <b>True</b> if the Office Assistant balloon delivers application alerts when the Office Assistant is visible.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssistWithHelp">
+      <MemberSignature Language="C#" Value="public bool AssistWithHelp { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AssistWithHelp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.AssistWithHelp" />
+      <MemberSignature Language="VB.NET" Value="Public Property AssistWithHelp As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AssistWithHelp { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809363)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809363)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809363)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-111">如果为<b>true</b> Office 助手显示当用户按 F1 键以显示帮助。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-111">
+              <b>True</b> if the Office Assistant appears when the user presses the F1 key to display Help.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssistWithWizards">
+      <MemberSignature Language="C#" Value="public bool AssistWithWizards { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AssistWithWizards" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.AssistWithWizards" />
+      <MemberSignature Language="VB.NET" Value="Public Property AssistWithWizards As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AssistWithWizards { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809365)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809365)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809365)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-112">如果为<b>true</b> Office 助手提供联机帮助向导。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-112">
+              <b>True</b> if the Office Assistant provides online Help with wizards.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BalloonError">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoBalloonErrorType BalloonError { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoBalloonErrorType BalloonError" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.BalloonError" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BalloonError As MsoBalloonErrorType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoBalloonErrorType BalloonError { Microsoft::Office::Core::MsoBalloonErrorType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809356)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809356)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonErrorType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-113">返回一个值，指示最近的录制的气球错误。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-113">Returns a value that indicates the last recorded balloon error.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-114">返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-114">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoAlert">
+      <MemberSignature Language="C#" Value="public int DoAlert (string bstrAlertTitle, string bstrAlertText, Microsoft.Office.Core.MsoAlertButtonType alb, Microsoft.Office.Core.MsoAlertIconType alc, Microsoft.Office.Core.MsoAlertDefaultType ald, Microsoft.Office.Core.MsoAlertCancelType alq, bool varfSysAlert);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 DoAlert([in]string bstrAlertTitle, [in]string bstrAlertText, [in]valuetype Microsoft.Office.Core.MsoAlertButtonType alb, [in]valuetype Microsoft.Office.Core.MsoAlertIconType alc, [in]valuetype Microsoft.Office.Core.MsoAlertDefaultType ald, [in]valuetype Microsoft.Office.Core.MsoAlertCancelType alq, [in]bool varfSysAlert) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Assistant.DoAlert(System.String,System.String,Microsoft.Office.Core.MsoAlertButtonType,Microsoft.Office.Core.MsoAlertIconType,Microsoft.Office.Core.MsoAlertDefaultType,Microsoft.Office.Core.MsoAlertCancelType,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function DoAlert (bstrAlertTitle As String, bstrAlertText As String, alb As MsoAlertButtonType, alc As MsoAlertIconType, ald As MsoAlertDefaultType, alq As MsoAlertCancelType, varfSysAlert As Boolean) As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int DoAlert(System::String ^ bstrAlertTitle, System::String ^ bstrAlertText, Microsoft::Office::Core::MsoAlertButtonType alb, Microsoft::Office::Core::MsoAlertIconType alc, Microsoft::Office::Core::MsoAlertDefaultType ald, Microsoft::Office::Core::MsoAlertCancelType alq, bool varfSysAlert);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809393)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrAlertTitle" Type="System.String" />
+        <Parameter Name="bstrAlertText" Type="System.String" />
+        <Parameter Name="alb" Type="Microsoft.Office.Core.MsoAlertButtonType" />
+        <Parameter Name="alc" Type="Microsoft.Office.Core.MsoAlertIconType" />
+        <Parameter Name="ald" Type="Microsoft.Office.Core.MsoAlertDefaultType" />
+        <Parameter Name="alq" Type="Microsoft.Office.Core.MsoAlertCancelType" />
+        <Parameter Name="varfSysAlert" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="bstrAlertTitle">
+          <span data-ttu-id="f5f96-115">设置通知的标题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-115">Sets the title of the alert.</span>
+          </span>
+        </param>
+        <param name="bstrAlertText">
+          <span data-ttu-id="f5f96-116">设置通知的文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-116">Sets the text of the alert.</span>
+          </span>
+        </param>
+        <param name="alb">
+          <span data-ttu-id="f5f96-117">确定哪些按钮显示在通知中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-117">Determines which buttons are displayed on the alert.</span>
+          </span>
+        </param>
+        <param name="alc">
+          <span data-ttu-id="f5f96-118">确定在通知中显示的图标。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-118">Determines the icon that is displayed on the alert.</span>
+          </span>
+        </param>
+        <param name="ald">
+          <span data-ttu-id="f5f96-119">确定哪个按钮设置为默认按钮的通知。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-119">Determines which button is set as the default button of the alert.</span>
+          </span>
+          <span data-ttu-id="f5f96-120">如果该参数设置为值大于按钮数，则返回错误。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-120">If this argument is set to a value greater than the number of buttons, an error is returned.</span>
+          </span>
+        </param>
+        <param name="alq">
+          <span data-ttu-id="f5f96-121">始终设置为<b>msoAlertCancelDefault</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-121">Always set this to <b>msoAlertCancelDefault</b>.</span>
+          </span>
+          <span data-ttu-id="f5f96-122">任何其他设置可能会返回错误。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-122">Any other setting may return an error.</span>
+          </span>
+        </param>
+        <param name="varfSysAlert">
+          <span data-ttu-id="f5f96-123">如果为<b>true</b>如果通过 Office 助手显示警报通知显示在消息框或<b>False</b> 。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-123">
+              <b>True</b> if the alert is displayed in a message box or <b>False</b> if the alert is displayed through the Office Assistant.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f5f96-124">显示一个警告，并返回一个<b>整数</b>，指示用户按下的按钮。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-124">Displays an alert and returns an <b>Integer</b> that indicates which button the user pressed.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndWizard">
+      <MemberSignature Language="C#" Value="public void EndWizard (int WizardID, bool varfSuccess, object Animation);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndWizard([in]int32 WizardID, [in]bool varfSuccess, [in]object Animation) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Assistant.EndWizard(System.Int32,System.Boolean,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndWizard (WizardID As Integer, varfSuccess As Boolean, Optional Animation As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809352)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="WizardID" Type="System.Int32" />
+        <Parameter Name="varfSuccess" Type="System.Boolean" />
+        <Parameter Name="Animation" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="WizardID">
+          <span data-ttu-id="f5f96-125">
+            <b>StartWizard</b>方法返回的数字。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-125">The number returned by the <b>StartWizard</b> method.</span>
+          </span>
+        </param>
+        <param name="varfSuccess">
+          <span data-ttu-id="f5f96-126">
+            <b>True</b>指示用户已成功完成该向导。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-126">
+              <b>True</b> to indicate that the user completed the wizard successfully.</span>
+          </span>
+        </param>
+        <param name="Animation">
+          <span data-ttu-id="f5f96-127">如果 Office 助手执行的动画<paramref name="varfSuccess" />设置为<b>True</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-127">The animation the Office Assistant performs if <paramref name="varfSuccess" /> is set to <b>True</b>.</span>
+          </span>
+          <span data-ttu-id="f5f96-128">默认值是<b>msoAnimationCharacterSuccessMajor</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-128">The default value is <b>msoAnimationCharacterSuccessMajor</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f5f96-129">释放由返回变量<see cref="M:Microsoft.Office.Core.Assistant.StartWizard(System.Boolean,System.String,System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />方法。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-129">Releases the variable returned by the <see cref="M:Microsoft.Office.Core.Assistant.StartWizard(System.Boolean,System.String,System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" /> method.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FeatureTips">
+      <MemberSignature Language="C#" Value="public bool FeatureTips { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool FeatureTips" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.FeatureTips" />
+      <MemberSignature Language="VB.NET" Value="Public Property FeatureTips As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FeatureTips { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809373)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809373)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809373)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-130">如果为<b>true</b> Office 助手提供更有效地使用应用程序功能的信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-130">
+              <b>True</b> if the Office Assistant provides information about using application features more effectively.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileName">
+      <MemberSignature Language="C#" Value="public string FileName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.FileName" />
+      <MemberSignature Language="VB.NET" Value="Public Property FileName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FileName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809388)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809388)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809388)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-131">返回或设置为活动 Office 助手的路径和文件名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-131">Returns or sets the path and file name for the active Office Assistant.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GuessHelp">
+      <MemberSignature Language="C#" Value="public bool GuessHelp { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool GuessHelp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.GuessHelp" />
+      <MemberSignature Language="VB.NET" Value="Public Property GuessHelp As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool GuessHelp { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809383)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809383)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809383)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-132">如果为<b>true</b> Office 助手气球提供的基于关键字的帮助主题列表用户选择之前单击助手窗口或按 F1。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-132">
+              <b>True</b> if the Office Assistant balloon presents a list of Help topics based on keywords the user selects before clicking the Assistant window or pressing F1.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Help">
+      <MemberSignature Language="C#" Value="public void Help ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Help() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Assistant.Help" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Help ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Help();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809350)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-133">显示 Office 助手和内置"功能执行？"</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-133">Displays the Office Assistant and the built-in "What would you like to do?"</span>
+          </span>
+          <span data-ttu-id="f5f96-134">标准的 Office 联机帮助的助手气球。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-134">Assistant balloon for standard Office online Help.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HighPriorityTips">
+      <MemberSignature Language="C#" Value="public bool HighPriorityTips { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HighPriorityTips" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.HighPriorityTips" />
+      <MemberSignature Language="VB.NET" Value="Public Property HighPriorityTips As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HighPriorityTips { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809379)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809379)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809379)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-135">如果为<b>true</b> Office 助手显示高优先级提示。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-135">
+              <b>True</b> if the Office Assistant displays high-priority tips.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public string this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Item" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Item" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-136">返回与对象关联的文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-136">Returns the text associated with an object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyboardShortcutTips">
+      <MemberSignature Language="C#" Value="public bool KeyboardShortcutTips { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool KeyboardShortcutTips" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.KeyboardShortcutTips" />
+      <MemberSignature Language="VB.NET" Value="Public Property KeyboardShortcutTips As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool KeyboardShortcutTips { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809377)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809377)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809377)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-137">如果为<b>true</b> Office 助手有关键盘快捷方式显示帮助。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-137">
+              <b>True</b> if the Office Assistant displays Help about keyboard shortcuts.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="public int Left { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Left" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Left" />
+      <MemberSignature Language="VB.NET" Value="Public Property Left As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Left { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809348)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-138">设置或返回从指定的对象相对于屏幕左边缘的水平位置 （以磅为单位），Office 助手窗口或命令栏中，距离 （以像素为单位）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-138">Sets or returns the horizontal position of the Office Assistant window (in points), or the distance (in pixels) of the command bar, from the left edge of the specified object relative to the screen.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseTips">
+      <MemberSignature Language="C#" Value="public bool MouseTips { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MouseTips" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.MouseTips" />
+      <MemberSignature Language="VB.NET" Value="Public Property MouseTips As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MouseTips { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809375)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809375)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809375)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-139">如果为<b>true</b> Office 助手提供了以下建议的有效地使用鼠标。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-139">
+              <b>True</b> if the Office Assistant provides suggestions for using the mouse effectively.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public void Move (int xLeft, int yTop);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Move([in]int32 xLeft, [in]int32 yTop) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Assistant.Move(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Move (xLeft As Integer, yTop As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Move(int xLeft, int yTop);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="xLeft" Type="System.Int32" />
+        <Parameter Name="yTop" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="xLeft">
+          <span data-ttu-id="f5f96-140">以磅为单位的 Office 助手窗口的左侧的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-140">The left position of the Office Assistant window, in points.</span>
+          </span>
+        </param>
+        <param name="yTop">
+          <span data-ttu-id="f5f96-141">以磅为单位的 Office 助手窗口的顶部位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-141">The top position of the Office Assistant window, in points.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f5f96-142">移动 Office 助手到指定的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-142">Moves the Office Assistant to the specified location.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveWhenInTheWay">
+      <MemberSignature Language="C#" Value="public bool MoveWhenInTheWay { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MoveWhenInTheWay" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.MoveWhenInTheWay" />
+      <MemberSignature Language="VB.NET" Value="Public Property MoveWhenInTheWay As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MoveWhenInTheWay { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809369)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809369)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809369)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-143">
+            <b>True</b>如果妨碍用户的工作区时，会自动将移动 Office 助手窗口。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-143">
+              <b>True</b> if the Office Assistant window automatically moves when it's in the way of the user's work area.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809390)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809390)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-144">返回或设置指定对象的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-144">Returns or sets the name of the specified object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewBalloon">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Balloon NewBalloon { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.Balloon NewBalloon" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.NewBalloon" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewBalloon As Balloon" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Balloon ^ NewBalloon { Microsoft::Office::Core::Balloon ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809355)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809355)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.Balloon</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-145">创建 Office 助手气球。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-145">Creates an Office Assistant balloon.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="On">
+      <MemberSignature Language="C#" Value="public bool On { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool On" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.On" />
+      <MemberSignature Language="VB.NET" Value="Public Property On As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool On { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809391)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809391)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809391)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-146">
+            <b>True</b>如果启用了 Office 助手。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-146">
+              <b>True</b> if the Office Assistant is enabled.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-147">返回指定对象的<b>父</b>对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-147">Returns the <b>Parent</b> object for the specified object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reduced">
+      <MemberSignature Language="C#" Value="public bool Reduced { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Reduced" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Reduced" />
+      <MemberSignature Language="VB.NET" Value="Public Property Reduced As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Reduced { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809361)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809361)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809361)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-148">
+            <b>True</b>如果 Office 助手窗口中出现在较小尺寸。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-148">
+              <b>True</b> if the Office Assistant window appears in its smaller size.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetTips">
+      <MemberSignature Language="C#" Value="public void ResetTips ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ResetTips() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Assistant.ResetTips" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ResetTips ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ResetTips();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809354)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-149">重置 Office 助手气球中显示的应用程序提示。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-149">Resets the application tips that appear in the Office Assistant balloon.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchWhenProgramming">
+      <MemberSignature Language="C#" Value="public bool SearchWhenProgramming { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SearchWhenProgramming" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.SearchWhenProgramming" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchWhenProgramming As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SearchWhenProgramming { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809385)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809385)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809385)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-150">如果为<b>true</b> Office 助手显示应用程序和编程帮助。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-150">
+              <b>True</b> if the Office Assistant displays application and programming Help.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sounds">
+      <MemberSignature Language="C#" Value="public bool Sounds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Sounds" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Sounds" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sounds As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Sounds { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809371)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809371)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809371)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-151">如果为<b>true</b> Office 助手生成动画相对应的声音。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-151">
+              <b>True</b> if the Office Assistant produces the sounds that correspond to animations.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartWizard">
+      <MemberSignature Language="C#" Value="public int StartWizard (bool On, string Callback, int PrivateX, object Animation, object CustomTeaser, object Top, object Left, object Bottom, object Right);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 StartWizard([in]bool On, [in]string Callback, [in]int32 PrivateX, [in]object Animation, [in]object CustomTeaser, [in]object Top, [in]object Left, [in]object Bottom, [in]object Right) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Assistant.StartWizard(System.Boolean,System.String,System.Int32,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function StartWizard (On As Boolean, Callback As String, PrivateX As Integer, Optional Animation As Object, Optional CustomTeaser As Object, Optional Top As Object, Optional Left As Object, Optional Bottom As Object, Optional Right As Object) As Integer" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809351)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="On" Type="System.Boolean" />
+        <Parameter Name="Callback" Type="System.String" />
+        <Parameter Name="PrivateX" Type="System.Int32" />
+        <Parameter Name="Animation" Type="System.Object" />
+        <Parameter Name="CustomTeaser" Type="System.Object" />
+        <Parameter Name="Top" Type="System.Object" />
+        <Parameter Name="Left" Type="System.Object" />
+        <Parameter Name="Bottom" Type="System.Object" />
+        <Parameter Name="Right" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="On">
+          <span data-ttu-id="f5f96-152">
+            <b>True</b>显示 Office 选择气球。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-152">
+              <b>True</b> to display the Office decision balloon.</span>
+          </span>
+          <span data-ttu-id="f5f96-153">Office 选择气球询问用户是否他或她希望与活动的自定义向导的帮助。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-153">The Office decision balloon asks the user whether he or she wants help with the active custom wizard.</span>
+          </span>
+          <span data-ttu-id="f5f96-154">不需要使用<see cref="P:Microsoft.Office.Core.Assistant.Visible" />属性来显示 Office 助手，如果您指定此参数<b>为 True</b> 。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-154">It isn't necessary to use the <see cref="P:Microsoft.Office.Core.Assistant.Visible" /> property to display the Office Assistant if you specify <b>True</b> for this argument.</span>
+          </span>
+        </param>
+        <param name="Callback">
+          <span data-ttu-id="f5f96-155">运行 Office 选择气球分支气球回调过程的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-155">The name of the callback procedure run by the Office decision balloon and the branch balloon.</span>
+          </span>
+          <span data-ttu-id="f5f96-156">分支气球允许用户自定义帮助您所提供的向导和标准 Office 帮助之间进行选择。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-156">The branch balloon allows the user to choose between custom Help you've provided for the wizard and standard Office Help.</span>
+          </span>
+        </param>
+        <param name="PrivateX">
+          <span data-ttu-id="f5f96-157">一个数字，标识启动回调过程的气球。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-157">A number that identifies the balloon that initiated the callback procedure.</span>
+          </span>
+        </param>
+        <param name="Animation">
+          <span data-ttu-id="f5f96-158">动画 Office 助手执行时使用此方法。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-158">The animation the Office Assistant performs when this method is used.</span>
+          </span>
+          <span data-ttu-id="f5f96-159">默认值是<b>msoAnimationGetWizardy</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-159">The default value is <b>msoAnimationGetWizardy</b>.</span>
+          </span>
+        </param>
+        <param name="CustomTeaser">
+          <span data-ttu-id="f5f96-160">
+            <b>False</b>可显示 Office 选择气球。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-160">
+              <b>False</b> to display the Office decision balloon.</span>
+          </span>
+        </param>
+        <param name="Top">
+          <span data-ttu-id="f5f96-161">Office 助手显示时，将避开 Office 助手自定义向导窗体的角 （相对于屏幕，并以磅为单位） 的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-161">The position of the corners (in points and relative to the screen) of the custom wizard form the Office Assistant will avoid when the Office Assistant appears.</span>
+          </span>
+        </param>
+        <param name="Left">
+          <span data-ttu-id="f5f96-162">Office 助手显示时，将避开 Office 助手自定义向导窗体的角 （相对于屏幕，并以磅为单位） 的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-162">The position of the corners (in points and relative to the screen) of the custom wizard form the Office Assistant will avoid when the Office Assistant appears.</span>
+          </span>
+        </param>
+        <param name="Bottom">
+          <span data-ttu-id="f5f96-163">Office 助手显示时，将避开 Office 助手自定义向导窗体的角 （相对于屏幕，并以磅为单位） 的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-163">The position of the corners (in points and relative to the screen) of the custom wizard form the Office Assistant will avoid when the Office Assistant appears.</span>
+          </span>
+        </param>
+        <param name="Right">
+          <span data-ttu-id="f5f96-164">Office 助手显示时，将避开 Office 助手自定义向导窗体的角 （相对于屏幕，并以磅为单位） 的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-164">The position of the corners (in points and relative to the screen) of the custom wizard form the Office Assistant will avoid when the Office Assistant appears.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f5f96-165">启动 Office 助手，并返回一个<b>整数</b>值，标识会话。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-165">Starts the Office Assistant and returns an <b>Integer</b> value that identifies the session.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <span data-ttu-id="f5f96-166">
+            <para>您应使用此方法仅运行 Office 助手中自定义向导。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-166">
+              <para>You should use this method only to run the Office Assistant in a custom wizard.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TipOfDay">
+      <MemberSignature Language="C#" Value="public bool TipOfDay { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TipOfDay" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.TipOfDay" />
+      <MemberSignature Language="VB.NET" Value="Public Property TipOfDay As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TipOfDay { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809381)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809381)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809381)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-167">
+            <b>True</b>如果 Office 助手显示一个特殊提示每次打开应用程序的 Office。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-167">
+              <b>True</b> if the Office Assistant displays a special tip each time the Office application is opened.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="public int Top { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Top" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Top" />
+      <MemberSignature Language="VB.NET" Value="Public Property Top As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Top { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809346)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-168">设置或返回到屏幕的上边缘的距离 （以磅为单位） 从 Office 助手的顶部或从指定的命令栏中的上边缘。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-168">Sets or returns the distance (in points) from the top of the Office Assistant, or from the top edge of the specified command bar, to the top edge of the screen.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="f5f96-169">
+            <para>对于停靠的命令栏，此属性返回或设置的命令栏的停靠区域顶部的距离。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-169">
+              <para>For docked command bars, this property returns or sets the distance from the command bar to the top of the docking area.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public bool Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Assistant.Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Property Visible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Visible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809357)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809357)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809357)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f5f96-170">
+            <b>为</b> 指定的对象是否可见。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f5f96-170">
+              <b>True</b> if the specified object is visible.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

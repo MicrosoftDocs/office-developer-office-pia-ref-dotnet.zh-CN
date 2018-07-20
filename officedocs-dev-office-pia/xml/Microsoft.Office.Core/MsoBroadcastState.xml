@@ -1,0 +1,105 @@
+<Type Name="MsoBroadcastState" FullName="Microsoft.Office.Core.MsoBroadcastState">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3ee86c245b48413d130cf9d9edb7acb5c3f1fca2" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657364" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoBroadcastState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBroadcastState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBroadcastState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoBroadcastState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoBroadcastState" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="628fa-101">指定的文档或演示文稿广播的当前状态。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="628fa-101">Specifies the current state of a document or presentation broadcast.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BroadcastPaused">
+      <MemberSignature Language="C#" Value="BroadcastPaused" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBroadcastState BroadcastPaused = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBroadcastState.BroadcastPaused" />
+      <MemberSignature Language="VB.NET" Value="BroadcastPaused" />
+      <MemberSignature Language="C++ CLI" Value="BroadcastPaused" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBroadcastState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="628fa-102">广播已暂停。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="628fa-102">The broadcast is paused.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="BroadcastStarted">
+      <MemberSignature Language="C#" Value="BroadcastStarted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBroadcastState BroadcastStarted = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBroadcastState.BroadcastStarted" />
+      <MemberSignature Language="VB.NET" Value="BroadcastStarted" />
+      <MemberSignature Language="C++ CLI" Value="BroadcastStarted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBroadcastState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="628fa-103">广播已开始。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="628fa-103">The broadcast has been started.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoBroadcast">
+      <MemberSignature Language="C#" Value="NoBroadcast" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBroadcastState NoBroadcast = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBroadcastState.NoBroadcast" />
+      <MemberSignature Language="VB.NET" Value="NoBroadcast" />
+      <MemberSignature Language="C++ CLI" Value="NoBroadcast" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBroadcastState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="628fa-104">文件不是被广播。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="628fa-104">The file is not being broadcasted.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

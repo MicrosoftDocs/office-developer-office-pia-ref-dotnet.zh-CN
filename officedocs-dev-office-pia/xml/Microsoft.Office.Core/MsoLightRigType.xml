@@ -1,0 +1,705 @@
+<Type Name="MsoLightRigType" FullName="Microsoft.Office.Core.MsoLightRigType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a0c02362f0351f20335173522dd04d489e62d709" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658265" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoLightRigType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoLightRigType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoLightRigType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoLightRigType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoLightRigType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="7d9c3-101">指定对象的照明效果。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7d9c3-101">Indicates the effects lighting for an object.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoLightRigBalanced">
+      <MemberSignature Language="C#" Value="msoLightRigBalanced" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigBalanced = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigBalanced" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigBalanced" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigBalanced" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-102">指定 Balanced 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-102">Specifies the Balanced effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigBrightRoom">
+      <MemberSignature Language="C#" Value="msoLightRigBrightRoom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigBrightRoom = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigBrightRoom" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigBrightRoom" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigBrightRoom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-103">指定 BrightRoom 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-103">Specifies the BrightRoom effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigChilly">
+      <MemberSignature Language="C#" Value="msoLightRigChilly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigChilly = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigChilly" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigChilly" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigChilly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-104">指定 Chilly 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-104">Specifies the Chilly effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigContrasting">
+      <MemberSignature Language="C#" Value="msoLightRigContrasting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigContrasting = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigContrasting" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigContrasting" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigContrasting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-105">指定 Contrasting 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-105">Specifies the Contrasting effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigFlat">
+      <MemberSignature Language="C#" Value="msoLightRigFlat" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigFlat = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigFlat" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigFlat" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigFlat" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-106">指定 Flat 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-106">Specifies the Flat effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigFlood">
+      <MemberSignature Language="C#" Value="msoLightRigFlood" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigFlood = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigFlood" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigFlood" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigFlood" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-107">指定 Flood 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-107">Specifies the Flood effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigFreezing">
+      <MemberSignature Language="C#" Value="msoLightRigFreezing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigFreezing = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigFreezing" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigFreezing" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigFreezing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-108">指定 Freezing 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-108">Specifies the Freezing effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigGlow">
+      <MemberSignature Language="C#" Value="msoLightRigGlow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigGlow = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigGlow" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigGlow" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigGlow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-109">指定 Glow 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-109">Specifies the Glow effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigHarsh">
+      <MemberSignature Language="C#" Value="msoLightRigHarsh" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigHarsh = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigHarsh" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigHarsh" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigHarsh" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-110">指定 Harsh 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-110">Specifies the Harsh effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigLegacyFlat1">
+      <MemberSignature Language="C#" Value="msoLightRigLegacyFlat1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigLegacyFlat1 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigLegacyFlat1" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigLegacyFlat1" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigLegacyFlat1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-111">指定 LegacyFlat1 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-111">Specifies the LegacyFlat1 effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigLegacyFlat2">
+      <MemberSignature Language="C#" Value="msoLightRigLegacyFlat2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigLegacyFlat2 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigLegacyFlat2" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigLegacyFlat2" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigLegacyFlat2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-112">指定 LegacyFlat2 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-112">Specifies the LegacyFlat2 effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigLegacyFlat3">
+      <MemberSignature Language="C#" Value="msoLightRigLegacyFlat3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigLegacyFlat3 = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigLegacyFlat3" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigLegacyFlat3" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigLegacyFlat3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-113">指定 LegacyFlat3 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-113">Specifies the LegacyFlat3 effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigLegacyFlat4">
+      <MemberSignature Language="C#" Value="msoLightRigLegacyFlat4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigLegacyFlat4 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigLegacyFlat4" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigLegacyFlat4" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigLegacyFlat4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-114">指定 LegacyFlat4 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-114">Specifies the LegacyFlat4 effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigLegacyHarsh1">
+      <MemberSignature Language="C#" Value="msoLightRigLegacyHarsh1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigLegacyHarsh1 = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigLegacyHarsh1" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigLegacyHarsh1" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigLegacyHarsh1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-115">指定 LegacyHarsh1 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-115">Specifies the LegacyHarsh1 effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigLegacyHarsh2">
+      <MemberSignature Language="C#" Value="msoLightRigLegacyHarsh2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigLegacyHarsh2 = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigLegacyHarsh2" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigLegacyHarsh2" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigLegacyHarsh2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-116">指定 LegacyHarsh2 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-116">Specifies the LegacyHarsh2 effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigLegacyHarsh3">
+      <MemberSignature Language="C#" Value="msoLightRigLegacyHarsh3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigLegacyHarsh3 = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigLegacyHarsh3" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigLegacyHarsh3" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigLegacyHarsh3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-117">指定 LegacyHarsh3 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-117">Specifies the LegacyHarsh3 effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigLegacyHarsh4">
+      <MemberSignature Language="C#" Value="msoLightRigLegacyHarsh4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigLegacyHarsh4 = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigLegacyHarsh4" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigLegacyHarsh4" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigLegacyHarsh4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-118">指定 LegacyHarsh4 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-118">Specifies the LegacyHarsh4 effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigLegacyNormal1">
+      <MemberSignature Language="C#" Value="msoLightRigLegacyNormal1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigLegacyNormal1 = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigLegacyNormal1" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigLegacyNormal1" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigLegacyNormal1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-119">指定 LegacyNormal1 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-119">Specifies the LegacyNormal1 effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigLegacyNormal2">
+      <MemberSignature Language="C#" Value="msoLightRigLegacyNormal2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigLegacyNormal2 = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigLegacyNormal2" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigLegacyNormal2" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigLegacyNormal2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-120">指定 LegacyNormal2 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-120">Specifies the LegacyNormal2 effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigLegacyNormal3">
+      <MemberSignature Language="C#" Value="msoLightRigLegacyNormal3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigLegacyNormal3 = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigLegacyNormal3" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigLegacyNormal3" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigLegacyNormal3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-121">指定 LegacyNormal3 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-121">Specifies the LegacyNormal3 effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigLegacyNormal4">
+      <MemberSignature Language="C#" Value="msoLightRigLegacyNormal4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigLegacyNormal4 = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigLegacyNormal4" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigLegacyNormal4" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigLegacyNormal4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-122">指定 LegacyNormal4 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-122">Specifies the LegacyNormal4 effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigMixed">
+      <MemberSignature Language="C#" Value="msoLightRigMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigMixed" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-123">指定 Mixed 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-123">Specifies the Mixed effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigMorning">
+      <MemberSignature Language="C#" Value="msoLightRigMorning" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigMorning = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigMorning" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigMorning" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigMorning" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-124">指定 Morning 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-124">Specifies the Morning effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigSoft">
+      <MemberSignature Language="C#" Value="msoLightRigSoft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigSoft = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigSoft" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigSoft" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigSoft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-125">指定 Soft 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-125">Specifies the Soft effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigSunrise">
+      <MemberSignature Language="C#" Value="msoLightRigSunrise" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigSunrise = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigSunrise" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigSunrise" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigSunrise" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-126">指定 Sunrise 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-126">Specifies the Sunrise effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigSunset">
+      <MemberSignature Language="C#" Value="msoLightRigSunset" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigSunset = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigSunset" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigSunset" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigSunset" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-127">指定 Sunset 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-127">Specifies the Sunset effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigThreePoint">
+      <MemberSignature Language="C#" Value="msoLightRigThreePoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigThreePoint = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigThreePoint" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigThreePoint" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigThreePoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-128">指定 ThreePoint 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-128">Specifies the ThreePoint effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightRigTwoPoint">
+      <MemberSignature Language="C#" Value="msoLightRigTwoPoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLightRigType msoLightRigTwoPoint = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLightRigType.msoLightRigTwoPoint" />
+      <MemberSignature Language="VB.NET" Value="msoLightRigTwoPoint" />
+      <MemberSignature Language="C++ CLI" Value="msoLightRigTwoPoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7d9c3-129">指定 TwoPoint 效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7d9c3-129">Specifies the TwoPoint effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

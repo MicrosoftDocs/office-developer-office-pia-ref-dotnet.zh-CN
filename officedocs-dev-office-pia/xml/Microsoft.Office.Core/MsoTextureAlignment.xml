@@ -1,0 +1,218 @@
+<Type Name="MsoTextureAlignment" FullName="Microsoft.Office.Core.MsoTextureAlignment">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f1014f8330156bf6035adb18a24f239084a96c3e" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657637" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoTextureAlignment" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextureAlignment extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextureAlignment" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoTextureAlignment" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoTextureAlignment" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoTextureAlignmentMixed">
+      <MemberSignature Language="C#" Value="msoTextureAlignmentMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextureAlignment msoTextureAlignmentMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextureAlignment.msoTextureAlignmentMixed" />
+      <MemberSignature Language="VB.NET" Value="msoTextureAlignmentMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoTextureAlignmentMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextureAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextureBottom">
+      <MemberSignature Language="C#" Value="msoTextureBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextureAlignment msoTextureBottom = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextureAlignment.msoTextureBottom" />
+      <MemberSignature Language="VB.NET" Value="msoTextureBottom" />
+      <MemberSignature Language="C++ CLI" Value="msoTextureBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextureAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextureBottomLeft">
+      <MemberSignature Language="C#" Value="msoTextureBottomLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextureAlignment msoTextureBottomLeft = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextureAlignment.msoTextureBottomLeft" />
+      <MemberSignature Language="VB.NET" Value="msoTextureBottomLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoTextureBottomLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextureAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextureBottomRight">
+      <MemberSignature Language="C#" Value="msoTextureBottomRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextureAlignment msoTextureBottomRight = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextureAlignment.msoTextureBottomRight" />
+      <MemberSignature Language="VB.NET" Value="msoTextureBottomRight" />
+      <MemberSignature Language="C++ CLI" Value="msoTextureBottomRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextureAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextureCenter">
+      <MemberSignature Language="C#" Value="msoTextureCenter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextureAlignment msoTextureCenter = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextureAlignment.msoTextureCenter" />
+      <MemberSignature Language="VB.NET" Value="msoTextureCenter" />
+      <MemberSignature Language="C++ CLI" Value="msoTextureCenter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextureAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextureLeft">
+      <MemberSignature Language="C#" Value="msoTextureLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextureAlignment msoTextureLeft = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextureAlignment.msoTextureLeft" />
+      <MemberSignature Language="VB.NET" Value="msoTextureLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoTextureLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextureAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextureRight">
+      <MemberSignature Language="C#" Value="msoTextureRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextureAlignment msoTextureRight = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextureAlignment.msoTextureRight" />
+      <MemberSignature Language="VB.NET" Value="msoTextureRight" />
+      <MemberSignature Language="C++ CLI" Value="msoTextureRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextureAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextureTop">
+      <MemberSignature Language="C#" Value="msoTextureTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextureAlignment msoTextureTop = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextureAlignment.msoTextureTop" />
+      <MemberSignature Language="VB.NET" Value="msoTextureTop" />
+      <MemberSignature Language="C++ CLI" Value="msoTextureTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextureAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextureTopLeft">
+      <MemberSignature Language="C#" Value="msoTextureTopLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextureAlignment msoTextureTopLeft = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextureAlignment.msoTextureTopLeft" />
+      <MemberSignature Language="VB.NET" Value="msoTextureTopLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoTextureTopLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextureAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextureTopRight">
+      <MemberSignature Language="C#" Value="msoTextureTopRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextureAlignment msoTextureTopRight = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextureAlignment.msoTextureTopRight" />
+      <MemberSignature Language="VB.NET" Value="msoTextureTopRight" />
+      <MemberSignature Language="C++ CLI" Value="msoTextureTopRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextureAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

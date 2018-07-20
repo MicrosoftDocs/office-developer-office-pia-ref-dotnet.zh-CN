@@ -1,0 +1,177 @@
+<Type Name="MsoTextFontAlign" FullName="Microsoft.Office.Core.MsoTextFontAlign">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4c681658e7556de5345ea7323f5f721212c18ed2" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658238" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoTextFontAlign" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextFontAlign extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextFontAlign" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoTextFontAlign" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoTextFontAlign" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="56ecd-101">指示用于对象的文本对齐方案。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="56ecd-101">Indicates the text alignment scheme used for an object.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoFontAlignAuto">
+      <MemberSignature Language="C#" Value="msoFontAlignAuto" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextFontAlign msoFontAlignAuto = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextFontAlign.msoFontAlignAuto" />
+      <MemberSignature Language="VB.NET" Value="msoFontAlignAuto" />
+      <MemberSignature Language="C++ CLI" Value="msoFontAlignAuto" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextFontAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56ecd-102">指定文本对齐方式由 Office 应用程序决定。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56ecd-102">Specifies that the text alignment will be determined by the Office application.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFontAlignBaseline">
+      <MemberSignature Language="C#" Value="msoFontAlignBaseline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextFontAlign msoFontAlignBaseline = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextFontAlign.msoFontAlignBaseline" />
+      <MemberSignature Language="VB.NET" Value="msoFontAlignBaseline" />
+      <MemberSignature Language="C++ CLI" Value="msoFontAlignBaseline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextFontAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56ecd-103">指定文本与对象的基线对齐。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56ecd-103">Specifies that the font is aligned to the baseline of the object.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFontAlignBottom">
+      <MemberSignature Language="C#" Value="msoFontAlignBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextFontAlign msoFontAlignBottom = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextFontAlign.msoFontAlignBottom" />
+      <MemberSignature Language="VB.NET" Value="msoFontAlignBottom" />
+      <MemberSignature Language="C++ CLI" Value="msoFontAlignBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextFontAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56ecd-104">指定文本与对象的底端对齐。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56ecd-104">Specifies that the font is aligned to the bottom of the object.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFontAlignCenter">
+      <MemberSignature Language="C#" Value="msoFontAlignCenter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextFontAlign msoFontAlignCenter = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextFontAlign.msoFontAlignCenter" />
+      <MemberSignature Language="VB.NET" Value="msoFontAlignCenter" />
+      <MemberSignature Language="C++ CLI" Value="msoFontAlignCenter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextFontAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56ecd-105">指定文本与对象的中心对齐。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56ecd-105">Specifies that the font is aligned to the center of the object.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFontAlignMixed">
+      <MemberSignature Language="C#" Value="msoFontAlignMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextFontAlign msoFontAlignMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextFontAlign.msoFontAlignMixed" />
+      <MemberSignature Language="VB.NET" Value="msoFontAlignMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoFontAlignMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextFontAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56ecd-106">指定将混和的文本对齐方式与对象一起使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56ecd-106">Specifies that there is a mix of text alignments used with the object.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFontAlignTop">
+      <MemberSignature Language="C#" Value="msoFontAlignTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextFontAlign msoFontAlignTop = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextFontAlign.msoFontAlignTop" />
+      <MemberSignature Language="VB.NET" Value="msoFontAlignTop" />
+      <MemberSignature Language="C++ CLI" Value="msoFontAlignTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextFontAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56ecd-107">指定文本与对象的顶端对齐。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56ecd-107">Specifies that the font is aligned to the top of the object.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

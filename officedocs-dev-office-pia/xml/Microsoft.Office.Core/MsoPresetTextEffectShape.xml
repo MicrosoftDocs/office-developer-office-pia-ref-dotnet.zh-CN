@@ -1,0 +1,1028 @@
+<Type Name="MsoPresetTextEffectShape" FullName="Microsoft.Office.Core.MsoPresetTextEffectShape">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bee40dbc31fedc3bd31730bbb5ee29cb9f48d258" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657447" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoPresetTextEffectShape" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetTextEffectShape extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetTextEffectShape" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetTextEffectShape" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoPresetTextEffectShape" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="8ed49-101">指定艺术字的形状。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="8ed49-101">Specifies shape of WordArt text.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="8ed49-102">
+        <para>通过选择艺术字工具栏中的艺术字形状，可查看每个文本效果的形状的预览。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="8ed49-102">
+          <para>You can see a preview of each text effect shape by selecting WordArt Shape in the WordArt toolbar.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoTextEffectShapeArchDownCurve">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeArchDownCurve" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeArchDownCurve = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeArchDownCurve" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeArchDownCurve" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeArchDownCurve" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-103">文本是下凸弧。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-103">Text is an arch that curves down.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeArchDownPour">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeArchDownPour" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeArchDownPour = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeArchDownPour" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeArchDownPour" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeArchDownPour" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-104">文本是下凸三维弧。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-104">Text is a 3-D arch that curves down.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeArchUpCurve">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeArchUpCurve" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeArchUpCurve = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeArchUpCurve" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeArchUpCurve" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeArchUpCurve" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-105">文本是上凸弧。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-105">Text is an arch that curves up.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeArchUpPour">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeArchUpPour" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeArchUpPour = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeArchUpPour" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeArchUpPour" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeArchUpPour" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-106">文本是上凸三维弧。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-106">Text is a 3-D arch that curves up.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeButtonCurve">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeButtonCurve" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeButtonCurve = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeButtonCurve" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeButtonCurve" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeButtonCurve" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-107">文本围绕一个中心“按钮”弯曲。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-107">Text is curved around a center "button."</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeButtonPour">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeButtonPour" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeButtonPour = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeButtonPour" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeButtonPour" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeButtonPour" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-108">文本是三维文本，围绕一个中心“按钮”弯曲。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-108">Text is seen in 3-D, curved around a center "button."</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeCanDown">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeCanDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeCanDown = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeCanDown" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeCanDown" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeCanDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-109">文本伸展以填充形状的高度，只带有轻微下凸。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-109">Text is stretched to fill the height of the shape, with only a slight curve down.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeCanUp">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeCanUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeCanUp = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeCanUp" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeCanUp" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeCanUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-110">文本伸展以填充形状的高度，只带有轻微上凸。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-110">Text is stretched to fill the height of the shape, with only a slight curve up.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeCascadeDown">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeCascadeDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeCascadeDown = int32(40)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeCascadeDown" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeCascadeDown" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeCascadeDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>40</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-111">文本向上倾斜至右侧，同时字体减小。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-111">Text slants up and to the right as font size decreases.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeCascadeUp">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeCascadeUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeCascadeUp = int32(39)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeCascadeUp" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeCascadeUp" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeCascadeUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>39</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-112">文本向下倾斜至右侧，同时字体增大。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-112">Text slants down and to the right as font size increases.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeChevronDown">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeChevronDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeChevronDown = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeChevronDown" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeChevronDown" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeChevronDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-113">文本向上倾斜至中心点，然后向下倾斜。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-113">Text slants up to its center point and then slants down.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeChevronUp">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeChevronUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeChevronUp = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeChevronUp" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeChevronUp" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeChevronUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-114">文本向下倾斜至中心点，然后向上倾斜。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-114">Text slants down to its center point and then slants up.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeCircleCurve">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeCircleCurve" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeCircleCurve = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeCircleCurve" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeCircleCurve" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeCircleCurve" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-115">文本呈圆形，顺时针方向。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-115">Text follows a circle, reading clockwise.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeCirclePour">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeCirclePour" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeCirclePour = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeCirclePour" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeCirclePour" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeCirclePour" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-116">文本具有三维效果且呈圆形，顺时针方向。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-116">Text has a 3-D effect and follows a circle, reading clockwise.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeCurveDown">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeCurveDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeCurveDown = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeCurveDown" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeCurveDown" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeCurveDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-117">文本下凸，向右延伸时字体减小。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-117">Text curves down and to the right as font size decreases.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeCurveUp">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeCurveUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeCurveUp = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeCurveUp" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeCurveUp" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeCurveUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-118">文本下凸，向右延伸时字体变大。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-118">Text curves down and to the right as font size increases.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeDeflate">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeDeflate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeDeflate = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeDeflate" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeDeflate" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeDeflate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-119">字体减小至文本的中点，然后增大至起始大小。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-119">Font size decreases to the text's midpoint, then increases to the starting size.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeDeflateBottom">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeDeflateBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeDeflateBottom = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeDeflateBottom" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeDeflateBottom" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeDeflateBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-120">字体减小至文本的中点，然后增大至起始大小，同时保持文本顶部在同一曲线上。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-120">Font size decreases to the text's midpoint, then increases to the starting size, while keeping the top of the text along the same curve.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeDeflateInflate">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeDeflateInflate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeDeflateInflate = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeDeflateInflate" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeDeflateInflate" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeDeflateInflate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-121">字体增大至文本的中点，然后减小至起始大小。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-121">Font size increases to the text's midpoint, then decreases to the starting size.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeDeflateInflateDeflate">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeDeflateInflateDeflate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeDeflateInflateDeflate = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeDeflateInflateDeflate" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeDeflateInflateDeflate" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeDeflateInflateDeflate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-122">文本的字体减小、增大并再次减小。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-122">Font size decreases, increases, and decreases again across the text.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeDeflateTop">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeDeflateTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeDeflateTop = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeDeflateTop" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeDeflateTop" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeDeflateTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-123">字体减小至文本的中点，然后增大至起始大小，同时保持文本底部在同一曲线上。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-123">Font size decreases to the text's midpoint, then increases to the starting size, while keeping the bottom of the text along the same curve.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeDoubleWave1">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeDoubleWave1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeDoubleWave1 = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeDoubleWave1" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeDoubleWave1" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeDoubleWave1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-124">文本沿着一条线上凸、下凸、然后再次上凸和下凸。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-124">Text follows a line that curves up, then down, then up and down again.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeDoubleWave2">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeDoubleWave2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeDoubleWave2 = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeDoubleWave2" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeDoubleWave2" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeDoubleWave2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-125">文本沿着一条线下凸、上凸、然后再次下凸和上凸。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-125">Text follows a line that curves down, then up, then down and up again.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeFadeDown">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeFadeDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeFadeDown = int32(36)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeFadeDown" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeFadeDown" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeFadeDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>36</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-126">文本顶部的显示位置比文本底部更靠近查看器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-126">Top of the text appears to be closer to the viewer than bottom of the text.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeFadeLeft">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeFadeLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeFadeLeft = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeFadeLeft" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeFadeLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeFadeLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-127">文本左侧的显示位置比文本右侧更靠近查看器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-127">Left side of text appears to be closer to the viewer than right side.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeFadeRight">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeFadeRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeFadeRight = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeFadeRight" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeFadeRight" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeFadeRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-128">文本右侧的显示位置比文本左侧更靠近查看器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-128">Right side of text appears to be closer to the viewer than left side.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeFadeUp">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeFadeUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeFadeUp = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeFadeUp" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeFadeUp" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeFadeUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-129">文本底部的显示位置比文本顶部更靠近查看器。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-129">Bottom of text appears to be closer to the viewer than top.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeInflate">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeInflate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeInflate = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeInflate" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeInflate" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeInflate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-p101">文本的字体增大至其中点，然后减小。每个字母的中点不在一条直线上。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-p101">Font size of text increases to its center point, then decreases. Center point of each letter is on the same straight line.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeInflateBottom">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeInflateBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeInflateBottom = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeInflateBottom" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeInflateBottom" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeInflateBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-p102">文本的字体增大至其中点，然后减小。每个字母的中点在一条下凸弧上。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-p102">Font size of text increases to its center point, then decreases. Center point of each letter follows an arch that curves downward.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeInflateTop">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeInflateTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeInflateTop = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeInflateTop" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeInflateTop" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeInflateTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-p103">文本的字体增大至其中点，然后减小。每个字母的中点在一条上凸弧上。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-p103">Font size of text increases to its center point, then decreases. Center point of each letter follows an arch that curves upward.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeMixed">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeMixed" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-136">不使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-136">Not used.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapePlainText">
+      <MemberSignature Language="C#" Value="msoTextEffectShapePlainText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapePlainText = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapePlainText" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapePlainText" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapePlainText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-137">不应用形状。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-137">No shape applied.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeRingInside">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeRingInside" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeRingInside = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeRingInside" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeRingInside" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeRingInside" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-138">文本显示为写在三维圆环内部。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-138">Text appears to be written on the inside of a 3-D ring.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeRingOutside">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeRingOutside" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeRingOutside = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeRingOutside" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeRingOutside" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeRingOutside" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-139">文本显示为写在三维圆环外部。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-139">Text appears to be written on the outside of a 3-D ring.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeSlantDown">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeSlantDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeSlantDown = int32(38)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeSlantDown" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeSlantDown" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeSlantDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>38</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-140">文本向下倾斜至右侧。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-140">Text slants down and to the right.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeSlantUp">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeSlantUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeSlantUp = int32(37)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeSlantUp" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeSlantUp" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeSlantUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>37</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-141">文本向上倾斜至右侧。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-141">Text slants up and to the right.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeStop">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeStop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeStop = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeStop" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeStop" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeStop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-142">文本构成停止标志的形状。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-142">Text follows the shape of a stop sign.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeTriangleDown">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeTriangleDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeTriangleDown = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeTriangleDown" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeTriangleDown" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeTriangleDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-143">文本向上倾斜，然后向下倾斜。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-143">Text slants up, then down.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeTriangleUp">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeTriangleUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeTriangleUp = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeTriangleUp" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeTriangleUp" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeTriangleUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-144">文本向下倾斜，然后向上倾斜。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-144">Text slants down, then up.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeWave1">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeWave1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeWave1 = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeWave1" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeWave1" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeWave1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-145">文本沿波浪形向上，然后向下并再次向上。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-145">Text follows a wave up, then down and up again.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectShapeWave2">
+      <MemberSignature Language="C#" Value="msoTextEffectShapeWave2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffectShape msoTextEffectShapeWave2 = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffectShape.msoTextEffectShapeWave2" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectShapeWave2" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectShapeWave2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffectShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8ed49-146">文本沿波浪形向下，然后向上并再次向下。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8ed49-146">Text follows a wave down, then up and down again.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

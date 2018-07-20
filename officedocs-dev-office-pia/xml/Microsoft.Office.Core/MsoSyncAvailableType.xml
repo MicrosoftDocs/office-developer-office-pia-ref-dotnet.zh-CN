@@ -1,0 +1,110 @@
+<Type Name="MsoSyncAvailableType" FullName="Microsoft.Office.Core.MsoSyncAvailableType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6f6810e3f0a378e217ae004a07f9fe20d6d2bb93" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657421" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoSyncAvailableType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSyncAvailableType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSyncAvailableType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoSyncAvailableType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoSyncAvailableType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="3f92e-101">指定是否和在什么情况下是可用于在文档同步。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="3f92e-101">Specifies whether and under what circumstances synchronization is available for the document.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoSyncAvailableAnywhere">
+      <MemberSignature Language="C#" Value="msoSyncAvailableAnywhere" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncAvailableType msoSyncAvailableAnywhere = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncAvailableType.msoSyncAvailableAnywhere" />
+      <MemberSignature Language="VB.NET" Value="msoSyncAvailableAnywhere" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncAvailableAnywhere" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncAvailableType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3f92e-102">脱机和联机同步可用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3f92e-102">Synchronization is available offline and online.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncAvailableNone">
+      <MemberSignature Language="C#" Value="msoSyncAvailableNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncAvailableType msoSyncAvailableNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncAvailableType.msoSyncAvailableNone" />
+      <MemberSignature Language="VB.NET" Value="msoSyncAvailableNone" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncAvailableNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncAvailableType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3f92e-103">可用不同步。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3f92e-103">No synchronization is available.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSyncAvailableOffline">
+      <MemberSignature Language="C#" Value="msoSyncAvailableOffline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSyncAvailableType msoSyncAvailableOffline = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSyncAvailableType.msoSyncAvailableOffline" />
+      <MemberSignature Language="VB.NET" Value="msoSyncAvailableOffline" />
+      <MemberSignature Language="C++ CLI" Value="msoSyncAvailableOffline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSyncAvailableType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3f92e-104">同步仅可脱机。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3f92e-104">Synchronization is available offline only.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

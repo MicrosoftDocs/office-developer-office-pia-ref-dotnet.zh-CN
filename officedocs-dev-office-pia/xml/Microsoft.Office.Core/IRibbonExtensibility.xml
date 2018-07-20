@@ -1,0 +1,158 @@
+<Type Name="IRibbonExtensibility" FullName="Microsoft.Office.Core.IRibbonExtensibility">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2d96e52fd7252b7936c795df835e653a608ad8c1" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657732" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IRibbonExtensibility" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRibbonExtensibility" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IRibbonExtensibility" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRibbonExtensibility" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IRibbonExtensibility" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0396-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="36f9d-101">功能区用户界面 (UI) 在与 COM 加载项通信来自定义 UI 时所使用的接口。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="36f9d-101">The interface through which the Ribbon user interface (UI) communicates with a COM add-in to customize the UI.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="36f9d-102">
+        <para>
+          <b>IRibbonExtensibility</b>接口只有<b>GetCustomUI</b>一个方法。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="36f9d-102">
+          <para>The <b>IRibbonExtensibility</b> interface has a single method, <b>GetCustomUI</b>.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+    <example>
+      <span data-ttu-id="36f9d-103">
+        <para>在以下示例中，用 C# 编写的<b>IRibbonExtensibility</b>接口的类定义中指定。过程然后实现的接口的唯一方法， <b>GetCustomUI</b>。此方法创建的外部 XML 文件中存储的自定义标记中读取<b>SteamReader</b>对象的实例。</para>
+        <code>public class Connect : Object, Extensibility.IDTExtensibility2, IRibbonExtensibility 
+... 
+ 
+public string GetCustomUI(string RibbonID) 
+{ 
+ 
+   StreamReader customUIReader = new System.IO.StreamReader("C:\\RibbonXSampleCS\\customUI.xml"); 
+ 
+   string customUIData = customUIReader.ReadToEnd(); 
+ 
+   return customUIData; 
+}</code>
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="36f9d-103">
+          <para>In the following example, written in C#, the <b>IRibbonExtensibility</b> interface is specified in the class definition. The procedure then implements the interfaces's only method, <b>GetCustomUI</b>. This method creates an instance of a <b>SteamReader</b> object that reads in the customized markup stored in an external XML file. </para>
+          <code>public class Connect : Object, Extensibility.IDTExtensibility2, IRibbonExtensibility 
+... 
+ 
+public string GetCustomUI(string RibbonID) 
+{ 
+ 
+   StreamReader customUIReader = new System.IO.StreamReader("C:\\RibbonXSampleCS\\customUI.xml"); 
+ 
+   string customUIData = customUIReader.ReadToEnd(); 
+ 
+   return customUIData; 
+}</code>
+        </span>
+      </span>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName="GetCustomUI">
+      <MemberSignature Language="C#" Value="public string GetCustomUI (string RibbonID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetCustomUI([in]string RibbonID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IRibbonExtensibility.GetCustomUI(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCustomUI (RibbonID As String) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetCustomUI(System::String ^ RibbonID);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="RibbonID" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="RibbonID">To be added.</param>
+        <summary>
+          <span data-ttu-id="36f9d-104">从 XML 自定义文件或嵌入在过程中的 XML 标记中加载 XML 标记，该标记将自定义功能区用户界面。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="36f9d-104">Loads the XML markup, either  from an XML customization file or from XML markup embedded in the procedure, that customizes the Ribbon user interface.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="36f9d-105">字符串</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="36f9d-105">String</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+        <example>
+          <span data-ttu-id="36f9d-106">
+            <para>在以下示例中，用 C# 编写的<b>IRibbonExtensibility</b>接口的类定义中指定。然后，该示例实现的接口的唯一方法， <b>GetCustomUI</b>。方法创建的自定义标记外部 XML 文件中读取<b>SteamReader</b>对象的实例。</para>
+            <code>public class Connect : Object, Extensibility.IDTExtensibility2, IRibbonExtensibility 
+... 
+ 
+public string GetCustomUI(string RibbonID) 
+{ 
+ 
+   StreamReader customUIReader = new System.IO.StreamReader("C:\\RibbonXSampleCS\\customUI.xml"); 
+ 
+   string customUIData = customUIReader.ReadToEnd(); 
+ 
+   return customUIData; 
+}</code>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="36f9d-106">
+              <para>In the following example, written in C#, the <b>IRibbonExtensibility</b> interface is specified in the class definition. The example then implements the interfaces's only method, <b>GetCustomUI</b>. The method creates an instance of a <b>SteamReader</b> object that reads in the customization markup in an external XML file. </para>
+              <code>public class Connect : Object, Extensibility.IDTExtensibility2, IRibbonExtensibility 
+... 
+ 
+public string GetCustomUI(string RibbonID) 
+{ 
+ 
+   StreamReader customUIReader = new System.IO.StreamReader("C:\\RibbonXSampleCS\\customUI.xml"); 
+ 
+   string customUIData = customUIReader.ReadToEnd(); 
+ 
+   return customUIData; 
+}</code>
+            </span>
+          </span>
+        </example>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

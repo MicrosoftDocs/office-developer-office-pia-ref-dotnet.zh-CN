@@ -1,0 +1,300 @@
+<Type Name="WebComponent" FullName="Microsoft.Office.Core.WebComponent">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="499ef0d520df5c2ccd005fcfdb224c4dc717b952" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657930" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface WebComponent" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract WebComponent" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.WebComponent" />
+  <TypeSignature Language="VB.NET" Value="Public Interface WebComponent" />
+  <TypeSignature Language="C++ CLI" Value="public interface class WebComponent" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000CD100-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="d75cc-101">仅供内部使用。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d75cc-101">Reserved for internal use.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Commit">
+      <MemberSignature Language="C#" Value="public void Commit ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Commit() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.WebComponent.Commit" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Commit ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Commit();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Height">
+      <MemberSignature Language="C#" Value="public int Height { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Height" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.WebComponent.Height" />
+      <MemberSignature Language="VB.NET" Value="Public Property Height As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Height { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HTML">
+      <MemberSignature Language="C#" Value="public string HTML { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string HTML" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.WebComponent.HTML" />
+      <MemberSignature Language="VB.NET" Value="Public Property HTML As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ HTML { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.WebComponent.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Revert">
+      <MemberSignature Language="C#" Value="public void Revert ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Revert() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.WebComponent.Revert" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Revert ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Revert();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPlaceHolderGraphic">
+      <MemberSignature Language="C#" Value="public void SetPlaceHolderGraphic (string PlaceHolderGraphic);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetPlaceHolderGraphic([in]string PlaceHolderGraphic) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.WebComponent.SetPlaceHolderGraphic(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetPlaceHolderGraphic (PlaceHolderGraphic As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetPlaceHolderGraphic(System::String ^ PlaceHolderGraphic);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PlaceHolderGraphic" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="PlaceHolderGraphic">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Shape">
+      <MemberSignature Language="C#" Value="public object Shape { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Shape" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.WebComponent.Shape" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Shape As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Shape { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="URL">
+      <MemberSignature Language="C#" Value="public string URL { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string URL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.WebComponent.URL" />
+      <MemberSignature Language="VB.NET" Value="Public Property URL As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ URL { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public int Width { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Width" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.WebComponent.Width" />
+      <MemberSignature Language="VB.NET" Value="Public Property Width As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Width { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

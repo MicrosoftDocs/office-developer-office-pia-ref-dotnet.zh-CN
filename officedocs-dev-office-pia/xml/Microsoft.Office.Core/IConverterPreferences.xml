@@ -1,0 +1,106 @@
+<Type Name="IConverterPreferences" FullName="Microsoft.Office.Core.IConverterPreferences">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="57568678affce571c8c43210b8a66a4984d08bce" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657363" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IConverterPreferences" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IConverterPreferences" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IConverterPreferences" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IConverterPreferences" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IConverterPreferences" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03D4-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(1)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(256)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HrCheckFormat">
+      <MemberSignature Language="C#" Value="public void HrCheckFormat (out int pFormat);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HrCheckFormat([out] int32&amp; pFormat) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IConverterPreferences.HrCheckFormat(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub HrCheckFormat (ByRef pFormat As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrCheckFormat([Runtime::InteropServices::Out] int % pFormat);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pFormat" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="pFormat">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HrGetLossySave">
+      <MemberSignature Language="C#" Value="public void HrGetLossySave (out int pfLossySave);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HrGetLossySave([out] int32&amp; pfLossySave) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IConverterPreferences.HrGetLossySave(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub HrGetLossySave (ByRef pfLossySave As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrGetLossySave([Runtime::InteropServices::Out] int % pfLossySave);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pfLossySave" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="pfLossySave">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HrGetMacroEnabled">
+      <MemberSignature Language="C#" Value="public void HrGetMacroEnabled (out int pfMacroEnabled);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HrGetMacroEnabled([out] int32&amp; pfMacroEnabled) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IConverterPreferences.HrGetMacroEnabled(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub HrGetMacroEnabled (ByRef pfMacroEnabled As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrGetMacroEnabled([Runtime::InteropServices::Out] int % pfMacroEnabled);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pfMacroEnabled" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="pfMacroEnabled">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

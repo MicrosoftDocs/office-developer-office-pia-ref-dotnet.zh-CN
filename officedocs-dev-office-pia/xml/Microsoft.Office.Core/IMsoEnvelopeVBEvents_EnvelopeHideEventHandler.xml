@@ -1,0 +1,47 @@
+<Type Name="IMsoEnvelopeVBEvents_EnvelopeHideEventHandler" FullName="Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a0c0c433ce7b4a84556b8bb83acd325d1b5a798b" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658026" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void IMsoEnvelopeVBEvents_EnvelopeHideEventHandler();" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed IMsoEnvelopeVBEvents_EnvelopeHideEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub IMsoEnvelopeVBEvents_EnvelopeHideEventHandler()" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void IMsoEnvelopeVBEvents_EnvelopeHideEventHandler();" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters />
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <summary>
+      <span data-ttu-id="85a99-101">用于添加事件处理程序<b>委托</b>类型<see cref="E:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event.EnvelopeHide" />事件。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="85a99-101">A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event.EnvelopeHide" /> event.</span>
+      </span>
+      <span data-ttu-id="85a99-102">对应于的用户界面 (UI) 时发生<b>EnvelopeHide</b>事件<see cref="T:Microsoft.Office.Core.MsoEnvelope" />隐藏对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="85a99-102">The <b>EnvelopeHide</b> event occurs when the user interface (UI) that corresponds to the <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> object is hidden.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

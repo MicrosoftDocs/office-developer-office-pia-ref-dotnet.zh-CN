@@ -1,0 +1,154 @@
+<Type Name="XlBorderWeight" FullName="Microsoft.Office.Core.XlBorderWeight">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="69b82e40df06496c9d32c5c522035746f78ae38b" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657941" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlBorderWeight" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlBorderWeight extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlBorderWeight" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlBorderWeight" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlBorderWeight" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="b28d4-101">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b28d4-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+      </span>
+      <span data-ttu-id="b28d4-102">指定某一区域周围的边框的粗细。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b28d4-102">Specifies the weight of the border around a range.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlHairline">
+      <MemberSignature Language="C#" Value="xlHairline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlBorderWeight xlHairline = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlBorderWeight.xlHairline" />
+      <MemberSignature Language="VB.NET" Value="xlHairline" />
+      <MemberSignature Language="C++ CLI" Value="xlHairline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlBorderWeight</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b28d4-103">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b28d4-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="b28d4-104">细线（最细的边框）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b28d4-104">Hairline (thinnest border).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMedium">
+      <MemberSignature Language="C#" Value="xlMedium" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlBorderWeight xlMedium = int32(-4138)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlBorderWeight.xlMedium" />
+      <MemberSignature Language="VB.NET" Value="xlMedium" />
+      <MemberSignature Language="C++ CLI" Value="xlMedium" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlBorderWeight</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4138</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b28d4-105">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b28d4-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="b28d4-106">中等。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b28d4-106">Medium.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlThick">
+      <MemberSignature Language="C#" Value="xlThick" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlBorderWeight xlThick = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlBorderWeight.xlThick" />
+      <MemberSignature Language="VB.NET" Value="xlThick" />
+      <MemberSignature Language="C++ CLI" Value="xlThick" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlBorderWeight</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b28d4-107">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b28d4-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="b28d4-108">粗（最宽的边框）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b28d4-108">Thick (widest border).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlThin">
+      <MemberSignature Language="C#" Value="xlThin" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlBorderWeight xlThin = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlBorderWeight.xlThin" />
+      <MemberSignature Language="VB.NET" Value="xlThin" />
+      <MemberSignature Language="C++ CLI" Value="xlThin" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlBorderWeight</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b28d4-109">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b28d4-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="b28d4-110">细。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b28d4-110">Thin.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

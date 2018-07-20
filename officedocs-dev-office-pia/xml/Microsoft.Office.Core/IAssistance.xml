@@ -1,0 +1,302 @@
+<Type Name="IAssistance" FullName="Microsoft.Office.Core.IAssistance">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7d132f43925371385c5db2be9aa6102237cdaa66" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658100" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IAssistance" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAssistance" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IAssistance" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IAssistance" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IAssistance" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("4291224C-DEFE-485B-8E69-6CF8AA85CB76")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="b943d-101">提供开发人员能够创建 Microsoft Office 内为用户自定义的帮助体验。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b943d-101">Provides a means for developers to create a customized help experience for users within Microsoft Office.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="b943d-102">
+        <para>
+          <b>Application</b>对象的<b>协助</b>属性返回<see cref="T:Microsoft.Office.Core.IAssistance" />对象。<see cref="T:Microsoft.Office.Core.IAssistance" />对象公开允许 Office 主机应用程序的帮助窗口中的附带的开发人员在 Office 帮助查看器中显示帮助主题或显示帮助主题的方法。开发人员将特定的帮助 Id 传递给帮助系统，或将特定搜索查询传递。帮助 Id 必须明确添加到为了帮助 ID 返回帮助主题中的帮助文件。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b943d-102">
+          <para>The <b>Assistance</b> property of an <b>Application</b> object returns an <see cref="T:Microsoft.Office.Core.IAssistance" /> object. The <see cref="T:Microsoft.Office.Core.IAssistance" /> object exposes methods that allow developers to display help topics in the Office Help Viewer or to display help topics that ship with Office in the Help window of the host application. Developers either pass specific Help IDs to the help system or pass specific search queries. Help IDs have to be explicitly added to the Help file in order for the Help ID to return the help topic.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ClearDefaultContext">
+      <MemberSignature Language="C#" Value="public void ClearDefaultContext (string HelpId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearDefaultContext([in]string HelpId) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IAssistance.ClearDefaultContext(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearDefaultContext (HelpId As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearDefaultContext(System::String ^ HelpId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="HelpId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="HelpId">
+          <span data-ttu-id="b943d-103">默认帮助主题的 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b943d-103">The ID of the default help topic.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="b943d-104">清除以前在中定义的默认帮助主题<see cref="M:Microsoft.Office.Core.IAssistance.SetDefaultContext(System.String)" />方法。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b943d-104">Clears the default help topic previously defined in the <see cref="M:Microsoft.Office.Core.IAssistance.SetDefaultContext(System.String)" /> method.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="b943d-105">
+            <para>执行此方法将停止时用户按 F1 或者单击对话框中的帮助按钮显示默认帮助主题。</para>
+            <b>Application</b>对象的
+          <para><b>协助</b>属性返回<see cref="T:Microsoft.Office.Core.IAssistance" />对象。<see cref="T:Microsoft.Office.Core.IAssistance" />对象公开允许 Office 主机应用程序的帮助窗口中的附带的开发人员在 Office 帮助查看器中显示帮助主题或显示帮助主题的方法。开发人员将特定的帮助 Id 传递给帮助系统，或将特定搜索查询传递。帮助 Id 必须明确添加到为了帮助 ID 返回帮助主题中的帮助文件。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b943d-105">
+              <para>Executing this method will stop the default help topic from displaying when the user presses F1 or clicks the Help button in a dialog box. </para>
+              <para>The <b>Assistance</b> property of an <b>Application</b> object returns an <see cref="T:Microsoft.Office.Core.IAssistance" /> object. The <see cref="T:Microsoft.Office.Core.IAssistance" /> object exposes methods that allow developers to display help topics in the Office Help Viewer or to display help topics that ship with Office in the Help window of the host application. Developers either pass specific Help IDs to the help system or pass specific search queries. Help IDs have to be explicitly added to the Help file in order for the Help ID to return the help topic.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchHelp">
+      <MemberSignature Language="C#" Value="public void SearchHelp (string Query, string Scope = &quot;&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SearchHelp([in]string Query, [in]string Scope) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IAssistance.SearchHelp(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SearchHelp (Query As String, Optional Scope As String = &quot;&quot;)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Query" Type="System.String" />
+        <Parameter Name="Scope" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Query">
+          <span data-ttu-id="b943d-106">代表搜索关键字或短语。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b943d-106">Represents the search keyword or phrase.</span>
+          </span>
+        </param>
+        <param name="Scope">
+          <span data-ttu-id="b943d-107">可选的注册的命名空间中的主机应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b943d-107">Optional, the namespace registered within the host application.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="b943d-p101">基于一个或多个关键字从 Office 帮助查看器执行搜索。关键字可以是单词或短语。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b943d-p101">Performs a search from the Office Help Viewer based on one or more keywords. Keywords can be a word or a phrase.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="b943d-110">
+            <para>
+              <b>Application</b>对象的<b>协助</b>属性返回<see cref="T:Microsoft.Office.Core.IAssistance" />对象。<see cref="T:Microsoft.Office.Core.IAssistance" />对象公开允许 Office 主机应用程序的帮助窗口中的附带的开发人员在 Office 帮助查看器中显示帮助主题或显示帮助主题的方法。开发人员将特定的帮助 Id 传递给帮助系统，或将特定搜索查询传递。帮助 Id 必须明确添加到为了帮助 ID 返回帮助主题中的帮助文件。</para>
+            <para>用户可以返回更多的相关帮助的搜索，将范围缩小只要指定的范围是适用于应用程序。Microsoft Office 应用程序中提供了以下范围。默认情况下，范围设置为当前应用程序的命名空间如果<b>空</b>字符串 ("") 作为参数传递。</para>
+            <list type="table">
+              <item>
+                <description>所有</description>
+                <description>""（空字符串）</description>
+              </item>
+              <item>
+                <description>Access、 Excel、 Outlook、 PowerPoint、 Project、 Publisher、 SharePoint Designer、 Visio 和 Word</description>的
+              <description>开发</description></item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b943d-110">
+              <para>The <b>Assistance</b> property of an <b>Application</b> object returns an <see cref="T:Microsoft.Office.Core.IAssistance" /> object. The <see cref="T:Microsoft.Office.Core.IAssistance" /> object exposes methods that allow developers to display help topics in the Office Help Viewer or to display help topics that ship with Office in the Help window of the host application. Developers either pass specific Help IDs to the help system or pass specific search queries. Help IDs have to be explicitly added to the Help file in order for the Help ID to return the help topic.</para>
+              <para>The user can return more relevant help by narrowing the scope of the search, as long as the specified scope is applicable to the application. The following scopes are available within Microsoft Office applications. By default, the scope is set to the current application's namespace if a <b>Null</b> string ("") is passed as a parameter. </para>
+              <list type="table">
+                <item>
+                  <description>All</description>
+                  <description>"" (Null string)</description>
+                </item>
+                <item>
+                  <description>Access, Excel, Outlook, PowerPoint, Project, Publisher, SharePoint Designer, Visio, and Word</description>
+                  <description>DEV</description>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetDefaultContext">
+      <MemberSignature Language="C#" Value="public void SetDefaultContext (string HelpId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetDefaultContext([in]string HelpId) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IAssistance.SetDefaultContext(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetDefaultContext (HelpId As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetDefaultContext(System::String ^ HelpId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="HelpId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="HelpId">
+          <span data-ttu-id="b943d-111">默认帮助主题的 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b943d-111">The ID of the default help topic.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="b943d-112">将一个帮助主题设置为将在用户打开帮助窗口时显示的默认主题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b943d-112">Sets a help topic as the default topic that will be displayed when the user opens a help window.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="b943d-113">如果 Office 已在该范围内定义默认帮助主题，则会将显示<para>指定在此方法的帮助主题。此外，对于某些对话框，而不管是否由方法，传递一个 ID Office 附带的帮助主题将显示在用户按 F1 键，或单击帮助按钮时。例如，如果用户在自定义对话框中，并按 F1，自定义或内置的帮助主题将显示如果指定了由开发人员。如果指定无默认 ID，则将显示默认内置 Office 帮助主题。同样，如果用户在新建文档对话框中，例如，将显示 Office 指定的帮助主题，而不管是否由方法传递一个不同的 ID。</para><para><b>协助</b><b>Application</b>对象的属性返回<see cref="T:Microsoft.Office.Core.IAssistance" />对象。<see cref="T:Microsoft.Office.Core.IAssistance" />对象公开允许 Office 主机应用程序的帮助窗口中的附带的开发人员在 Office 帮助查看器中显示帮助主题或显示帮助主题的方法。开发人员将特定的帮助 Id 传递给帮助系统，或将特定搜索查询传递。帮助 Id 必须明确添加到为了帮助 ID 返回帮助主题中的帮助文件。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b943d-113">
+              <para>The help topic specified in this method will not be displayed if Office has already defined a default help topic in that scope. In addition, for some dialog boxes, regardless of whether an ID is passed by the method, the help topic that shipped with Office will be displayed when the user presses the F1 key or clicks the Help button. For example, if the user is in a custom dialog box and presses F1, a custom or built-in help topic will be displayed if one is specified by the developer. If no default ID is specified, the default built-in Office help topic will be displayed. Likewise, if the user is in the New Document dialog box, for example, the Office specified help topic will be displayed regardless of whether a different ID is passed by the method. </para>
+              <para>The <b>Assistance</b> property of an <b>Application</b> object returns an <see cref="T:Microsoft.Office.Core.IAssistance" /> object. The <see cref="T:Microsoft.Office.Core.IAssistance" /> object exposes methods that allow developers to display help topics in the Office Help Viewer or to display help topics that ship with Office in the Help window of the host application. Developers either pass specific Help IDs to the help system or pass specific search queries. Help IDs have to be explicitly added to the Help file in order for the Help ID to return the help topic.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowHelp">
+      <MemberSignature Language="C#" Value="public void ShowHelp (string HelpId = &quot;&quot;, string Scope = &quot;&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowHelp([in]string HelpId, [in]string Scope) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IAssistance.ShowHelp(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowHelp (Optional HelpId As String = &quot;&quot;, Optional Scope As String = &quot;&quot;)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="HelpId" Type="System.String" />
+        <Parameter Name="Scope" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="HelpId">
+          <span data-ttu-id="b943d-114">可选，帮助主题的 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b943d-114">Optional, the ID of the help topic.</span>
+          </span>
+        </param>
+        <param name="Scope">
+          <span data-ttu-id="b943d-115">可选的注册的命名空间中的主机应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b943d-115">Optional, the namespace registered within the host application.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="b943d-116">显示与当前 Office 应用程序的帮助窗口中的 Office，其 ID 在 Office 帮助查看器或，附带的帮助主题所指定的帮助主题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b943d-116">Displays the help topic specified by its ID in the Office Help Viewer or, for help topics that ship with Office, in the Help window of the current Office application.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="b943d-117">
+            <para>
+              <b>Application</b>对象的<b>协助</b>属性返回<see cref="T:Microsoft.Office.Core.IAssistance" />对象。<see cref="T:Microsoft.Office.Core.IAssistance" />对象公开允许 Office 主机应用程序的帮助窗口中的附带的开发人员在 Office 帮助查看器中显示帮助主题或显示帮助主题的方法。开发人员将特定的帮助 Id 传递给帮助系统，或将特定搜索查询传递。帮助 Id 必须明确添加到为了帮助 ID 返回帮助主题中的帮助文件。</para>
+            <para>Microsoft Office 应用程序中提供了以下范围。默认情况下，范围设置为当前应用程序的命名空间如果<b>空</b>字符串 ("") 作为参数传递。</para>
+            <list type="table">
+              <item>
+                <description>所有</description>
+                <description>""（空字符串）</description>
+              </item>
+              <item>
+                <description>Access、 Excel、 Outlook、 PowerPoint、 Project、 Publisher、 SharePoint Designer、 Visio 和 Word</description>的
+              <description>开发</description></item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b943d-117">
+              <para>The <b>Assistance</b> property of an <b>Application</b> object returns an <see cref="T:Microsoft.Office.Core.IAssistance" /> object. The <see cref="T:Microsoft.Office.Core.IAssistance" /> object exposes methods that allow developers to display help topics in the Office Help Viewer or to display help topics that ship with Office in the Help window of the host application. Developers either pass specific Help IDs to the help system or pass specific search queries. Help IDs have to be explicitly added to the Help file in order for the Help ID to return the help topic.</para>
+              <para>The following scopes are available within the Microsoft Office applications. By default, the scope is set to the current application's namespace if a <b>Null</b> string ("") is passed as a parameter.</para>
+              <list type="table">
+                <item>
+                  <description>All</description>
+                  <description>"" (Null string)</description>
+                </item>
+                <item>
+                  <description>Access, Excel, Outlook, PowerPoint, Project, Publisher, SharePoint Designer, Visio, and Word</description>
+                  <description>DEV</description>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

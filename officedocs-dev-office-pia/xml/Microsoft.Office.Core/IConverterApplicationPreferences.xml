@@ -1,0 +1,129 @@
+<Type Name="IConverterApplicationPreferences" FullName="Microsoft.Office.Core.IConverterApplicationPreferences">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4f7de09707b8da1b5fa831d5cedd6b7da536502b" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658035" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IConverterApplicationPreferences" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IConverterApplicationPreferences" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IConverterApplicationPreferences" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IConverterApplicationPreferences" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IConverterApplicationPreferences" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03D5-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(1)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(256)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HrCheckFormat">
+      <MemberSignature Language="C#" Value="public void HrCheckFormat (out int pFormat);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HrCheckFormat([out] int32&amp; pFormat) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IConverterApplicationPreferences.HrCheckFormat(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub HrCheckFormat (ByRef pFormat As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrCheckFormat([Runtime::InteropServices::Out] int % pFormat);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pFormat" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="pFormat">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HrGetApplication">
+      <MemberSignature Language="C#" Value="public void HrGetApplication (out string pbstrApplication);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HrGetApplication([out] string&amp; pbstrApplication) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IConverterApplicationPreferences.HrGetApplication(System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub HrGetApplication (ByRef pbstrApplication As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrGetApplication([Runtime::InteropServices::Out] System::String ^ % pbstrApplication);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pbstrApplication" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="pbstrApplication">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HrGetHwnd">
+      <MemberSignature Language="C#" Value="public void HrGetHwnd (out int phwnd);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HrGetHwnd([out] int32&amp; phwnd) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IConverterApplicationPreferences.HrGetHwnd(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub HrGetHwnd (ByRef phwnd As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrGetHwnd([Runtime::InteropServices::Out] int % phwnd);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="phwnd" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="phwnd">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HrGetLcid">
+      <MemberSignature Language="C#" Value="public void HrGetLcid (out uint plcid);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void HrGetLcid([out] unsigned int32&amp; plcid) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IConverterApplicationPreferences.HrGetLcid(System.UInt32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub HrGetLcid (ByRef plcid As UInteger)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void HrGetLcid([Runtime::InteropServices::Out] System::UInt32 % plcid);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="plcid" Type="System.UInt32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="plcid">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

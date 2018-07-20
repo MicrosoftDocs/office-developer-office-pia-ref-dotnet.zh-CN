@@ -1,0 +1,516 @@
+<Type Name="Script" FullName="Microsoft.Office.Core.Script">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2140b9d9200bd6144f2a36ebdceefe33a91ca36c" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658197" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Script : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Script implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Script" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Script&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Script : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0341-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="8cbb9-101">代表 Microsoft Word 文档，在 Microsoft Excel 电子表格，或 Microsoft PowerPoint 幻灯片中的 HTML 脚本块。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="8cbb9-101">Represents a block of HTML script in a Microsoft Word document, on a Microsoft Excel spreadsheet, or on a Microsoft PowerPoint slide.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="8cbb9-102">
+        <para>
+          <b>脚本</b>对象所在的<see cref="T:Microsoft.Office.Core.Scripts" />集合。</para>
+        <para>使用<b>Scripts.Item</b>(<paramref name="index" />)，其中<paramref name="index" />是返回单个<b>脚本</b>对象的名称、 ID、 或脚本的索引号。每个<b>Script</b>对象由<see cref="P:Microsoft.Office.Core.Script.Id" />属性，它提供方便的名称，可用于访问该脚本。</para>
+        <para>可以指定通过更改用于在脚本中的脚本语言<see cref="P:Microsoft.Office.Core.Script.Language" />属性。</para>
+        <para>您可以通过使用检查 HTML 文档中的脚本定位形状的位置<see cref="P:Microsoft.Office.Core.Script.Location" />属性。</para>
+        <para>您可以检查或设置属性添加到&lt;脚本&gt;（除外的语言和 ID 属性） 使用的标记<see cref="P:Microsoft.Office.Core.Script.Extended" />属性。</para>
+        <para>可以检查或设置与给定脚本关联使用的脚本文本<see cref="P:Microsoft.Office.Core.Script.ScriptText" />属性。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="8cbb9-102">
+          <para>The <b>Script</b> object is a member of the <see cref="T:Microsoft.Office.Core.Scripts" /> collection.</para>
+          <para>Use <b>Scripts.Item</b>(<paramref name="index" />), where <paramref name="index" /> is the name, ID, or index number of a script, to return a single <b>Script</b> object. Each <b>Script</b> object is identified by the <see cref="P:Microsoft.Office.Core.Script.Id" /> property, which provides a convenient name you can use to access the script.</para>
+          <para>You can specify the scripting language used in the script by changing the <see cref="P:Microsoft.Office.Core.Script.Language" /> property.</para>
+          <para>You can check the location of the script anchor shape within an HTML document by using the <see cref="P:Microsoft.Office.Core.Script.Location" /> property.</para>
+          <para>You can check or set attributes added to the &lt;SCRIPT&gt; tag (with the exception of the LANGUAGE and ID attributes) by using the <see cref="P:Microsoft.Office.Core.Script.Extended" /> property.</para>
+          <para>You can check or set the script text associated with a given script by using the <see cref="P:Microsoft.Office.Core.Script.ScriptText" /> property.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Script.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8cbb9-103">返回一个<b>Application</b>对象，代表容器应用程序的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8cbb9-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Script.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8cbb9-104">返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8cbb9-104">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8cbb9-105">
+            <para>如果指定的对象在 Microsoft Word 中创建的此属性返回 1297307460，它表示字符串 MSWD;如果在 Microsoft Excel 中创建，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.Script.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8cbb9-105">
+              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.Script.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Script.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809352)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="8cbb9-106">从集合中删除指定的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8cbb9-106">Deletes the specified object from the collection.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="8cbb9-107">
+            <para>为<see cref="T:Microsoft.Office.Core.Scripts" />集合，并使用<b>Delete</b>方法从指定的 Microsoft Word 文档、 Microsoft Excel 工作表或 Microsoft PowerPoint 幻灯片中删除所有脚本。脚本定位标记表示主机应用程序中的形状。因此，从 Excel 和 PowerPoint 中的<b>Shapes</b>集合和<b>InlineShapes</b>和 Word 中的<b>形状</b>集合中删除与每个脚本定位标记的类型<b>msoScriptAnchor</b>关联的<b>Shape</b>对象。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8cbb9-107">
+              <para>For the <see cref="T:Microsoft.Office.Core.Scripts" /> collection, using the <b>Delete</b> method removes all scripts from the specified Microsoft Word document, Microsoft Excel worksheet, or Microsoft PowerPoint slide. A script anchor is represented by a shape in the host application. Therefore, the <b>Shape</b> object associated with each script anchor of type <b>msoScriptAnchor</b> is deleted from the <b>Shapes</b> collection in Excel and PowerPoint and from the <b>InlineShapes</b> and <b>Shapes</b> collections in Word.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Extended">
+      <MemberSignature Language="C#" Value="public string Extended { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Extended" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Script.Extended" />
+      <MemberSignature Language="VB.NET" Value="Public Property Extended As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Extended { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8cbb9-108">返回或设置属性添加到&lt;脚本&gt;标记的语言和 ID 属性除外。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8cbb9-108">Returns or sets attributes added to the &lt;SCRIPT&gt; tag, with the exception of the LANGUAGE and ID attributes.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8cbb9-109">
+            <para>使用 HTML 相同的空格分隔属性。您不能使用<b>扩展</b>属性传递 LANGUAGE 属性或的 ID 属性。</para>
+            <para>Microsoft Office 主机应用程序不提供任何方法来检查传递属性的语法。</para>
+            <para>LANGUAGE 属性传递的<b>扩展</b>属性中，如果&lt;脚本&gt;标记接收两个语言设置，从而导致冲突。</para>
+            <para>如果<b>扩展</b>属性中传递 ID 属性和无 ID 已设置通过的 ID 参数<see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" />方法或<see cref="P:Microsoft.Office.Core.Script.Id" />属性<see cref="T:Microsoft.Office.Core.Script" />对象，ID 正确导出。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8cbb9-109">
+              <para>Attributes are separated by spaces, the same as in HTML. You cannot pass the LANGUAGE attribute or the ID attribute by using the <b>Extended</b> property.</para>
+              <para>The Microsoft Office host application doesn’t provide any means of checking the syntax of passed attributes.</para>
+              <para>If you pass the LANGUAGE attribute in the <b>Extended</b> property, the &lt;SCRIPT&gt; tag receives two language settings, which causes a conflict.</para>
+              <para>If you pass an ID attribute in the <b>Extended</b> property and no ID has been set through either the ID parameter of the <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> method or the <see cref="P:Microsoft.Office.Core.Script.Id" /> property of the <see cref="T:Microsoft.Office.Core.Script" /> object, the ID is exported correctly.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Script.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8cbb9-110">返回或设置的 ID<see cref="T:Microsoft.Office.Core.Script" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8cbb9-110">Returns or sets the ID of a <see cref="T:Microsoft.Office.Core.Script" /> object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8cbb9-111">
+            <para>返回的 ID 为的 ID 属性&lt;脚本&gt;中 HTML 标记。如果没有的 ID 属性中指定&lt;脚本&gt;标记的<b>Id</b>属性返回一个空字符串。</para>
+            <para>
+              <b>Id</b>指定用于命名元素 SGML 标识符。有效的标识符包括的以字母开头，且由字母数字字符; 任何字符串字符串还可以包含下划线字符 (_)。</para>
+            <para>的 ID 必须是唯一的 HTML 文档中。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8cbb9-111">
+              <para>The ID returned is the ID attribute of the &lt;SCRIPT&gt; tag in HTML. If there’s no ID attribute specified in the &lt;SCRIPT&gt; tag, the <b>Id</b> property returns an empty string.</para>
+              <para>
+                <b>Id</b> specifies an SGML identifier used for naming elements. Valid identifiers include any string that begins with a letter and is composed of alphanumeric characters; the string can also include the underscore character ( _ ).</para>
+              <para>The ID must be unique within the HTML document.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Language">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoScriptLanguage Language { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoScriptLanguage Language" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Script.Language" />
+      <MemberSignature Language="VB.NET" Value="Public Property Language As MsoScriptLanguage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoScriptLanguage Language { Microsoft::Office::Core::MsoScriptLanguage get(); void set(Microsoft::Office::Core::MsoScriptLanguage value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809349)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809349)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610809349)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScriptLanguage</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8cbb9-112">返回或设置活动脚本的脚本语言。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8cbb9-112">Returns or sets the scripting language of the active script.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8cbb9-113">
+            <para>
+              <see cref="T:Microsoft.Office.Core.MsoScriptLanguage" />中也使用的<b>语言</b>属性一起使用的常量<paramref name="Language" />参数中的<see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" />方法<see cref="T:Microsoft.Office.Core.Scripts" />集合。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8cbb9-113">
+              <para>The <see cref="T:Microsoft.Office.Core.MsoScriptLanguage" /> constants used with the <b>Language</b> property are also used in the <paramref name="Language" /> parameter in the <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> method of the <see cref="T:Microsoft.Office.Core.Scripts" /> collection.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoScriptLocation Location { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoScriptLocation Location" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Script.Location" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Location As MsoScriptLocation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoScriptLocation Location { Microsoft::Office::Core::MsoScriptLocation get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809351)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScriptLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8cbb9-114">返回指定的 HTML 文档中的脚本定位标记的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8cbb9-114">Returns the location of the script anchor in the specified HTML document.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8cbb9-115">
+            <para>HTML 文档中的 script 标记之间出现可以任意位置&lt;HTML&gt;文档中的标记。在 Microsoft Word、 Excel 或 PowerPoint 中，仅脚本定位标记位于之间&lt;正文&gt;标记是可见的。显示之前或之后的其他 HTML 脚本&lt;正文&gt;标记中存储，但未对用户可见。</para>
+            <para>
+              <see cref="T:Microsoft.Office.Core.Scripts" />集合包含的所有内部或外部的文档正文是否显示在文档中，脚本定位标记。使用<paramref name="Location" />参数<see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" />方法，可以插入脚本定位标记内的&lt;标头&gt;和&lt;正文&gt;HTML 文档中的标记。<b>Location</b>属性还可用来确定特定脚本定位标记的文档中的存储位置。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8cbb9-115">
+              <para>Script tags in an HTML document can appear anywhere between the &lt;HTML&gt; tags in the document. In Microsoft Word, Excel, or PowerPoint, only the script anchors located between the &lt;BODY&gt; tags are visible. Additional HTML script that appears before or after the &lt;BODY&gt; tags is stored in but isn’t visible to the user.</para>
+              <para>The <see cref="T:Microsoft.Office.Core.Scripts" /> collection contains all of the script anchors that appear in the document, whether inside or outside of the main body of the document. Using the <paramref name="Location" /> argument of the <see cref="M:Microsoft.Office.Core.Scripts.Add(System.Object,Microsoft.Office.Core.MsoScriptLocation,Microsoft.Office.Core.MsoScriptLanguage,System.String,System.String,System.String)" /> method, you can insert script anchors within the &lt;HEAD&gt; and &lt;BODY&gt; tags in the HTML document. You can also use the <b>Location</b> property to determine where a particular script anchor is stored within the document.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Script.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8cbb9-116">返回指定对象的<b>父</b>对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8cbb9-116">Returns the <b>Parent</b> object for the specified object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScriptText">
+      <MemberSignature Language="C#" Value="public string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ScriptText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Script.ScriptText" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property ScriptText As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8cbb9-117">返回或设置的脚本块中包含的文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8cbb9-117">Returns or sets the text contained in a block of script.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8cbb9-118">
+            <para>Microsoft Office 主机应用程序不检查脚本的语法。<b>ScriptText</b>属性是的默认属性为<see cref="T:Microsoft.Office.Core.Script" />对象。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8cbb9-118">
+              <para>The Microsoft Office host application doesn’t check the syntax of the script. The <b>ScriptText</b> property is the default property for the <see cref="T:Microsoft.Office.Core.Script" /> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Shape">
+      <MemberSignature Language="C#" Value="public object Shape { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Shape" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Script.Shape" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Shape As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Shape { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809353)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809353)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8cbb9-119">返回一个<b>Shape</b>对象或<b>InlineShape</b>对象，具体取决于 Microsoft Office 主机应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8cbb9-119">Returns a <b>Shape</b> object or <b>InlineShape</b> object, depending on the Microsoft Office host application.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8cbb9-120">
+            <para>
+              <b>Shape</b>属性返回一个<b>Shape</b>对象，Microsoft Excel 和 PowerPoint 中。在 Word 中，<b>形状</b>属性返回一个<b>Shape</b>对象如果脚本定位标记为浮动对象;如果是内联定位，但是，此属性返回<b>InlineShape</b>对象。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8cbb9-120">
+              <para>The <b>Shape</b> property returns a <b>Shape</b> object in Microsoft Excel and PowerPoint. In Word, the <b>Shape</b> property returns a <b>Shape</b> object if the script anchor is floating; if it’s an inline anchor, however, this property returns an <b>InlineShape</b> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

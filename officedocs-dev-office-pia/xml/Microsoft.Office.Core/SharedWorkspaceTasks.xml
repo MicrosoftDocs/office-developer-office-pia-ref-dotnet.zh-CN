@@ -1,0 +1,496 @@
+<Type Name="SharedWorkspaceTasks" FullName="Microsoft.Office.Core.SharedWorkspaceTasks">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f1cbc1aefaad80c847fe36ff0b362caff8d43614" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658371" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface SharedWorkspaceTasks : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SharedWorkspaceTasks implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SharedWorkspaceTasks" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SharedWorkspaceTasks&#xA;Implements _IMsoDispObj, IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SharedWorkspaceTasks : Microsoft::Office::Core::_IMsoDispObj, System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C037A-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="e932d-101">此对象、 成员或枚举已弃用，不应在代码中使用。一<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />当前共享工作区中的对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e932d-101">This object, member, or enumeration is deprecated and is not intended to be used in your code.A collection of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects in the current shared workspace.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="e932d-102">
+        <para>使用<see cref="P:Microsoft.Office.Core.SharedWorkspace.Tasks" />属性<see cref="T:Microsoft.Office.Core.SharedWorkspace" />对象返回一个<b>SharedWorkspaceTasks</b>集合。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e932d-102">
+          <para>Use the <see cref="P:Microsoft.Office.Core.SharedWorkspace.Tasks" /> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspace" /> object to return a <b>SharedWorkspaceTasks</b> collection.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.SharedWorkspaceTask Add (string Title, object Status, object Priority, object Assignee, object Description, object DueDate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.SharedWorkspaceTask Add([in]string Title, [in]object Status, [in]object Priority, [in]object Assignee, [in]object Description, [in]object DueDate) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SharedWorkspaceTasks.Add(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Title As String, Optional Status As Object, Optional Priority As Object, Optional Assignee As Object, Optional Description As Object, Optional DueDate As Object) As SharedWorkspaceTask" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SharedWorkspaceTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Title" Type="System.String" />
+        <Parameter Name="Status" Type="System.Object" />
+        <Parameter Name="Priority" Type="System.Object" />
+        <Parameter Name="Assignee" Type="System.Object" />
+        <Parameter Name="Description" Type="System.Object" />
+        <Parameter Name="DueDate" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Title">
+          <span data-ttu-id="e932d-103">必需的 <b>字符串</b> 。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-103">Required <b>String</b>.</span>
+          </span>
+          <span data-ttu-id="e932d-104">新任务的标题。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-104">The title of the new task.</span>
+          </span>
+        </param>
+        <param name="Status">
+          <span data-ttu-id="e932d-105">可选<see cref="T:Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-105">Optional <see cref="T:Microsoft.Office.Core.MsoSharedWorkspaceTaskStatus" />.</span>
+          </span>
+          <span data-ttu-id="e932d-106">新任务的状态。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-106">The status of the new task.</span>
+          </span>
+          <span data-ttu-id="e932d-107">默认值为<b>msoSharedWorkspaceTaskStatusNotStarted</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-107">Default is <b>msoSharedWorkspaceTaskStatusNotStarted</b>.</span>
+          </span>
+        </param>
+        <param name="Priority">
+          <span data-ttu-id="e932d-108">可选<see cref="T:Microsoft.Office.Core.MsoSharedWorkspaceTaskPriority" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-108">Optional <see cref="T:Microsoft.Office.Core.MsoSharedWorkspaceTaskPriority" />.</span>
+          </span>
+          <span data-ttu-id="e932d-109">新任务的优先级。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-109">The priority of the new task.</span>
+          </span>
+          <span data-ttu-id="e932d-110">默认值为<b>msoSharedWorkspaceTaskPriorityNormal</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-110">Default is <b>msoSharedWorkspaceTaskPriorityNormal</b>.</span>
+          </span>
+        </param>
+        <param name="Assignee">
+          <span data-ttu-id="e932d-111">可选<see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-111">Optional <see cref="T:Microsoft.Office.Core.SharedWorkspaceMember" />.</span>
+          </span>
+          <span data-ttu-id="e932d-112">向其分配新任务的成员。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-112">The member to whom the new task is assigned.</span>
+          </span>
+        </param>
+        <param name="Description">
+          <span data-ttu-id="e932d-113">可选的<b>字符串</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-113">Optional <b>String</b>.</span>
+          </span>
+          <span data-ttu-id="e932d-114">新任务的说明。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-114">The description of the new task.</span>
+          </span>
+        </param>
+        <param name="DueDate">
+          <span data-ttu-id="e932d-115">可选的<b>日期</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-115">Optional <b>Date</b>.</span>
+          </span>
+          <span data-ttu-id="e932d-116">新任务的到期日期。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-116">The due date of the new task.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e932d-117">向共享工作区中的任务列表中添加一个任务并返回<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-117">Adds a task to the list of tasks in a shared workspace and returns a <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> object.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <span data-ttu-id="e932d-118">
+            <para>定义共享工作区任务和 SharePoint 产品和技术网站及其属性的架构，可以修改<b>SharedWorkspaceTasks</b>集合的<b>Add</b>方法可能会引发错误，也可能的方式在服务器上忽略某些参数的值。具体而言，可以自定义任务的状态和优先级枚举。下面介绍了问题会导致的一些示例：</para>
+            <list type="bullet">
+              <item>
+                <para>如果<paramref name="Status" />提供参数，则和已从自定义的任务架构中删除了状态字段，将忽略该参数将引发任何错误。</para>
+              </item>
+              <item>
+                <para>如果<paramref name="Status" />将忽略该参数，将使用的默认值，且将引发任何错误状态值之外，识别出自定义的任务架构中，提供值。</para>
+              </item>
+              <item>
+                <para>如果新的必填的字段已添加到自定义的任务架构，然后<b>Add</b>方法将失败并出现错误，并不能再使用<b>Add</b>方法可添加新任务。</para>
+              </item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-118">
+              <para>The schema that defines shared workspace tasks and their properties for a SharePoint Products and Technologies site can be modified on the server in such a way that the <b>Add</b> method of the <b>SharedWorkspaceTasks</b> collection may raise an error, or may disregard the values of certain arguments. In particular, the task status and priority enumerations can be customized. Some examples of the problems that can result are mentioned below:</para>
+              <list type="bullet">
+                <item>
+                  <para>If a <paramref name="Status" /> argument is supplied, and the status field has been removed from the customized tasks schema, the argument will be ignored and no error will be raised.</para>
+                </item>
+                <item>
+                  <para>If a <paramref name="Status" /> value is supplied that lies outside the status values recognized by the customized tasks schema, the argument will be ignored, the default value will be used, and no error will be raised.</para>
+                </item>
+                <item>
+                  <para>If a new required field has been added to the customized tasks schema, then the <b>Add</b> method will fail with an error, and it will no longer be possible to use the <b>Add</b> method to add new tasks.</para>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTasks.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e932d-119">返回一个<b>Application</b>对象，代表容器应用程序的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-119">Returns an <b>Application</b> object that represents the container application for the object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTasks.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e932d-120">返回一个指示指定集合中的项目数的<b>整数</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-120">Returns an <b>Integer</b> indicating the number of items in the specified collection.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTasks.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e932d-121">返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-121">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e932d-122">
+            <para>如果指定的对象在 Microsoft Word 中创建的此属性返回 1297307460，它表示字符串 MSWD;如果在 Microsoft Excel 中创建，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.SharedWorkspaceTasks.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-122">
+              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.SharedWorkspaceTasks.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SharedWorkspaceTasks.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.SharedWorkspaceTask this[int Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.SharedWorkspaceTask Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTasks.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Integer) As SharedWorkspaceTask" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::SharedWorkspaceTask ^ default[int] { Microsoft::Office::Core::SharedWorkspaceTask ^ get(int Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SharedWorkspaceTask</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="e932d-123">
+            <b>必选。</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-123">Required <b>Integer</b>.</span>
+          </span>
+          <span data-ttu-id="e932d-124">返回<b>SharedWorkspaceTask</b>指定的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-124">Returns the <b>SharedWorkspaceTask</b> at the position specified.</span>
+          </span>
+          <span data-ttu-id="e932d-125">
+            <paramref name="Index" />不对应于项目显示在共享工作区窗格中，和不受重新排序显示的顺序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-125">
+              <paramref name="Index" /> does not correspond to the order in which the items are displayed in the Shared Workspace pane, and is not affected by re-sorting the display.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e932d-126">返回<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />从共享工作区任务集合的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-126">Returns a <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> object from the Tasks collection of the shared workspace.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemCountExceeded">
+      <MemberSignature Language="C#" Value="public bool ItemCountExceeded { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ItemCountExceeded" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTasks.ItemCountExceeded" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemCountExceeded As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ItemCountExceeded { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e932d-127">返回一个<b>布尔</b>值，该值指示是否在集合中的项目数超过 99，可以在共享工作区任务窗格中显示。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-127">Returns a <b>Boolean</b> value that indicates whether the number of items in the collection has exceeded the 99 that can be displayed in the Shared Workspace task pane.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="e932d-128">
+            <para>共享工作区任务窗格只能显示 99 共享工作区文件和文件夹、 链接、 成员或任务。如果多个 99 项目添加到任何这些集合，出现以下情况：</para>
+            <list type="bullet">
+              <item>
+                <para>共享工作区任务窗格中的相应选项卡将不再显示项目的列表，而将显示一个链接到共享工作区网站的网页。</para>
+              </item>
+              <item>
+                <para>集合将不再填充本地，并将其<see cref="P:Microsoft.Office.Core.SharedWorkspaceTasks.Count" />属性将返回 0 （零）。</para>
+              </item>
+            </list>
+            <para>Furthermore，一旦<b>ItemCountExceeded</b>属性返回<b>True</b> ，上面列出的集之一开发人员可以不再弥补这种情况以编程方式通过减少 99，以下计数在集合中删除项目因为不再填充集合。</para>
+            <para>
+              <b>ItemCountExceeded</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFiles" />和<see cref="T:Microsoft.Office.Core.SharedWorkspaceFolders" />集返回<b>True</b>时的文件和文件夹的组合的计数超过 99，因为组合以及在文档选项卡一起显示两个列表共享工作区任务窗格。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-128">
+              <para>The Shared Workspace task pane can only display 99 shared workspace files and folders, links, members, or tasks. If more than 99 items are added to any of these collections, the following occurs:</para>
+              <list type="bullet">
+                <item>
+                  <para>The corresponding tab of the Shared Workspace task pane will stop displaying the list of items and will display a link to the shared workspace site Web page instead.</para>
+                </item>
+                <item>
+                  <para>The collection will no longer be populated locally, and its <see cref="P:Microsoft.Office.Core.SharedWorkspaceTasks.Count" /> property will return 0 (zero).</para>
+                </item>
+              </list>
+              <para>Furthermore, once the <b>ItemCountExceeded</b> property returns <b>True</b> for one of the collections listed above, the developer can no longer remedy the situation programmatically by deleting items from the collection to reduce the count below 99, because the collection is no longer populated.</para>
+              <para>The <b>ItemCountExceeded</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFiles" /> and the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolders" /> collections returns <b>True</b> when the combined count of files and folders exceeds 99, because both lists are combined and displayed together on the Documents tab of the Shared Workspace task pane.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SharedWorkspaceTasks.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e932d-129">返回指定对象的<b>父</b>对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e932d-129">Returns the <b>Parent</b> object for the specified object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

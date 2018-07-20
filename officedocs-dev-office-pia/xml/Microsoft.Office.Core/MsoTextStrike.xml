@@ -1,0 +1,129 @@
+<Type Name="MsoTextStrike" FullName="Microsoft.Office.Core.MsoTextStrike">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="21c2747587e8e94bbe610beda156e00e29dad12d" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657623" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoTextStrike" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextStrike extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextStrike" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoTextStrike" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoTextStrike" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="b0784-101">指示为了加深图像颜色而打印字符的次数。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b0784-101">Indicates the number of times a character is printed to darken the image.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoDoubleStrike">
+      <MemberSignature Language="C#" Value="msoDoubleStrike" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextStrike msoDoubleStrike = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextStrike.msoDoubleStrike" />
+      <MemberSignature Language="VB.NET" Value="msoDoubleStrike" />
+      <MemberSignature Language="C++ CLI" Value="msoDoubleStrike" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextStrike</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0784-102">指定打印字符两次。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0784-102">Specifies that the character is printed twice.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoNoStrike">
+      <MemberSignature Language="C#" Value="msoNoStrike" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextStrike msoNoStrike = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextStrike.msoNoStrike" />
+      <MemberSignature Language="VB.NET" Value="msoNoStrike" />
+      <MemberSignature Language="C++ CLI" Value="msoNoStrike" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextStrike</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0784-103">指定不打印字符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0784-103">Specifies that the character is not printed.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSingleStrike">
+      <MemberSignature Language="C#" Value="msoSingleStrike" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextStrike msoSingleStrike = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextStrike.msoSingleStrike" />
+      <MemberSignature Language="VB.NET" Value="msoSingleStrike" />
+      <MemberSignature Language="C++ CLI" Value="msoSingleStrike" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextStrike</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0784-104">指定打印字符一次。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0784-104">Specifies that the character is printed once.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoStrikeMixed">
+      <MemberSignature Language="C#" Value="msoStrikeMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextStrike msoStrikeMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextStrike.msoStrikeMixed" />
+      <MemberSignature Language="VB.NET" Value="msoStrikeMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoStrikeMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextStrike</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b0784-105">指定文本可以包含双删除线和单删除线字符的组合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b0784-105">Specifies that the text can contain a combination of double-strike and single-strike characters.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

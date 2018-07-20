@@ -1,0 +1,311 @@
+<Type Name="RulerLevel2" FullName="Microsoft.Office.Core.RulerLevel2">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7ecdc4166a4ef3416a56bd35fd7e90c2ca7e947d" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657428" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface RulerLevel2 : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RulerLevel2 implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.RulerLevel2" />
+  <TypeSignature Language="VB.NET" Value="Public Interface RulerLevel2&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class RulerLevel2 : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03C3-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="62742-101">包含大纲级别的首行缩进和悬挂缩进信息。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="62742-101">Contains first-line indent and hanging indent information for an outline level.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="62742-102">
+        <para>
+          <see cref="T:Microsoft.Office.Core.RulerLevel2" />对象是成员<see cref="T:Microsoft.Office.Core.RulerLevels2" />集合。<see cref="T:Microsoft.Office.Core.RulerLevels2" />集合包含<see cref="T:Microsoft.Office.Core.RulerLevel2" />五个可用的大纲级别的每个对象。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="62742-102">
+          <para>The <see cref="T:Microsoft.Office.Core.RulerLevel2" /> object is a member of the <see cref="T:Microsoft.Office.Core.RulerLevels2" /> collection. The <see cref="T:Microsoft.Office.Core.RulerLevels2" /> collection contains a <see cref="T:Microsoft.Office.Core.RulerLevel2" /> object for each of the five available outline levels.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.RulerLevel2.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="62742-103">获取<b>应用程序</b>对象，该对象代表容器应用程序的<see cref="T:Microsoft.Office.Core.RulerLevel2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="62742-103">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> object.</span>
+          </span>
+          <span data-ttu-id="62742-104">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="62742-104">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="62742-105">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="62742-105">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.RulerLevel2.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="62742-106">获取一个 32 位整数，表示在其中应用程序<see cref="T:Microsoft.Office.Core.RulerLevel2" />对象的创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="62742-106">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> object was created.</span>
+          </span>
+          <span data-ttu-id="62742-107">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="62742-107">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="62742-108">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="62742-108">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstMargin">
+      <MemberSignature Language="C#" Value="public float FirstMargin { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 FirstMargin" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.RulerLevel2.FirstMargin" />
+      <MemberSignature Language="VB.NET" Value="Public Property FirstMargin As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float FirstMargin { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="62742-p103">获取或设置指定大纲级别的首行缩进（以磅为单位）。可读/写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="62742-p103">Gets or sets the first-line indent for the specified outline level, in points. Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="62742-111">
+            <b>Single</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="62742-111">
+              <b>Single</b>
+            </span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="62742-112">
+            <para>如果一个段落开头项目符号，项目符号位置由<see cref="P:Microsoft.Office.Core.RulerLevel2.FirstMargin" />属性和段落中第一个文本字符的位置由<see cref="P:Microsoft.Office.Core.RulerLevel2.LeftMargin" />属性。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="62742-112">
+              <para>If a paragraph begins with a bullet, the bullet position is determined by the <see cref="P:Microsoft.Office.Core.RulerLevel2.FirstMargin" /> property, and the position of the first text character in the paragraph is determined by the <see cref="P:Microsoft.Office.Core.RulerLevel2.LeftMargin" /> property.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LeftMargin">
+      <MemberSignature Language="C#" Value="public float LeftMargin { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 LeftMargin" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.RulerLevel2.LeftMargin" />
+      <MemberSignature Language="VB.NET" Value="Public Property LeftMargin As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float LeftMargin { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="62742-p104">获取或设置指定大纲级别的左缩进（以磅为单位）。可读/写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="62742-p104">Gets or sets the left indent for the specified outline level, in points. Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="62742-115">
+            <b>Single</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="62742-115">
+              <b>Single</b>
+            </span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="62742-116">
+            <para>如果一个段落开头项目符号，项目符号位置由<see cref="P:Microsoft.Office.Core.RulerLevel2.FirstMargin" />属性和段落中第一个文本字符的位置由<see cref="P:Microsoft.Office.Core.RulerLevel2.LeftMargin" />属性。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="62742-116">
+              <para>If a paragraph begins with a bullet, the bullet position is determined by the <see cref="P:Microsoft.Office.Core.RulerLevel2.FirstMargin" /> property, and the position of the first text character in the paragraph is determined by the <see cref="P:Microsoft.Office.Core.RulerLevel2.LeftMargin" /> property.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.RulerLevel2.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="62742-117">获取对象的父<see cref="T:Microsoft.Office.Core.RulerLevel2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="62742-117">Gets the parent object for the <see cref="T:Microsoft.Office.Core.RulerLevel2" /> object.</span>
+          </span>
+          <span data-ttu-id="62742-118">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="62742-118">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="62742-119">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="62742-119">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,153 @@
+<Type Name="MsoTriState" FullName="Microsoft.Office.Core.MsoTriState">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bf31b193dfd9e09e78ed4387493375a6fb02fe77" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657760" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoTriState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTriState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTriState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoTriState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoTriState" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="80659-101">指定 3 状态 Boolean 值。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="80659-101">Specifies a tri-state Boolean value.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoCTrue">
+      <MemberSignature Language="C#" Value="msoCTrue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTriState msoCTrue = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTriState.msoCTrue" />
+      <MemberSignature Language="VB.NET" Value="msoCTrue" />
+      <MemberSignature Language="C++ CLI" Value="msoCTrue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="80659-102">不支持。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80659-102">Not supported.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFalse">
+      <MemberSignature Language="C#" Value="msoFalse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTriState msoFalse = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTriState.msoFalse" />
+      <MemberSignature Language="VB.NET" Value="msoFalse" />
+      <MemberSignature Language="C++ CLI" Value="msoFalse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="80659-103">False。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80659-103">False.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTriStateMixed">
+      <MemberSignature Language="C#" Value="msoTriStateMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTriState msoTriStateMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTriState.msoTriStateMixed" />
+      <MemberSignature Language="VB.NET" Value="msoTriStateMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoTriStateMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="80659-104">不支持。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80659-104">Not supported.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTriStateToggle">
+      <MemberSignature Language="C#" Value="msoTriStateToggle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTriState msoTriStateToggle = int32(-3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTriState.msoTriStateToggle" />
+      <MemberSignature Language="VB.NET" Value="msoTriStateToggle" />
+      <MemberSignature Language="C++ CLI" Value="msoTriStateToggle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <MemberValue>-3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="80659-105">不支持。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80659-105">Not supported.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTrue">
+      <MemberSignature Language="C#" Value="msoTrue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTriState msoTrue = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTriState.msoTrue" />
+      <MemberSignature Language="VB.NET" Value="msoTrue" />
+      <MemberSignature Language="C++ CLI" Value="msoTrue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="80659-106">True。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="80659-106">True.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,328 @@
+<Type Name="DocumentInspectors" FullName="Microsoft.Office.Core.DocumentInspectors">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7e7884df3d75392a1ba84c0f7132229ae769b2a8" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657435" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface DocumentInspectors : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DocumentInspectors implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.DocumentInspectors" />
+  <TypeSignature Language="VB.NET" Value="Public Interface DocumentInspectors&#xA;Implements _IMsoDispObj, IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class DocumentInspectors : Microsoft::Office::Core::_IMsoDispObj, System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0392-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="4b99e-101">代表一<see cref="T:Microsoft.Office.Core.DocumentInspector" />对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4b99e-101">Represents a collection of <see cref="T:Microsoft.Office.Core.DocumentInspector" /> objects.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="4b99e-102">
+        <para>
+          <b>DocumentInspectors</b>集合属于<see cref="T:Microsoft.Office.Interop.Word._Document" />对象在 Microsoft Office Word<see cref="T:Microsoft.Office.Interop.Excel._Workbook" />在 Microsoft Office Excel 中的对象和<see cref="T:Microsoft.Office.Interop.PowerPoint._Presentation" />Microsoft Office PowerPoint 中的对象。A<see cref="T:Microsoft.Office.Core.DocumentInspectors" />集合包含多个<b>DocumentInspector</b>对象，一个用于一些内置的选项，每个安装自定义文档检查器模块。有关详细信息，请参阅<see cref="F:Microsoft.Office.Core.DocumentInspectors.ofobjDocumentInspector_HV10096488#DocumentInspector#SameCHM" />帮助主题。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4b99e-102">
+          <para>The <b>DocumentInspectors</b> collection is part of the <see cref="T:Microsoft.Office.Interop.Word._Document" /> object in Microsoft Office Word, the <see cref="T:Microsoft.Office.Interop.Excel._Workbook" /> object in Microsoft Office Excel, and the <see cref="T:Microsoft.Office.Interop.PowerPoint._Presentation" /> object in Microsoft Office PowerPoint. A <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> collection contains multiple <b>DocumentInspector</b> objects, one for some built-in options and each installed custom Document Inspector module. For more information, see the <see cref="F:Microsoft.Office.Core.DocumentInspectors.ofobjDocumentInspector_HV10096488#DocumentInspector#SameCHM" /> help topic.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentInspectors.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4b99e-103">获取<b>应用程序</b>对象，该对象代表的创建者的<see cref="T:Microsoft.Office.Core.DocumentInspectors" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b99e-103">Gets an <b>Application</b> object that represents the creator of the <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> object.</span>
+          </span>
+          <span data-ttu-id="4b99e-104">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b99e-104">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4b99e-105">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b99e-105">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentInspectors.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4b99e-106">获取中的项目数<see cref="T:Microsoft.Office.Core.DocumentInspectors" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b99e-106">Gets the number of items in the <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> object.</span>
+          </span>
+          <span data-ttu-id="4b99e-107">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b99e-107">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4b99e-108">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b99e-108">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentInspectors.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4b99e-109">获取一个 32 位整数，表示在其中应用程序<see cref="T:Microsoft.Office.Core.DocumentInspectors" />对象的创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b99e-109">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> object was created.</span>
+          </span>
+          <span data-ttu-id="4b99e-110">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b99e-110">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4b99e-111">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b99e-111">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.DocumentInspectors.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.DocumentInspector this[int Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.DocumentInspector Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentInspectors.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Integer) As DocumentInspector" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::DocumentInspector ^ default[int] { Microsoft::Office::Core::DocumentInspector ^ get(int Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.DocumentInspector</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="4b99e-112">对象的索引号。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b99e-112">The index number of the object.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="4b99e-113">获取<see cref="T:Microsoft.Office.Core.IDocumentInspector" />由索引指定的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b99e-113">Gets the <see cref="T:Microsoft.Office.Core.IDocumentInspector" /> object specified by the index.</span>
+          </span>
+          <span data-ttu-id="4b99e-114">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b99e-114">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.DocumentInspector" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentInspectors.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4b99e-115">获取一个对象，表示父对象的<see cref="T:Microsoft.Office.Core.DocumentInspectors" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b99e-115">Gets an object that represents the parent of a <see cref="T:Microsoft.Office.Core.DocumentInspectors" /> object.</span>
+          </span>
+          <span data-ttu-id="4b99e-116">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b99e-116">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4b99e-117">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b99e-117">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,225 @@
+<Type Name="MsoSoftEdgeType" FullName="Microsoft.Office.Core.MsoSoftEdgeType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3f47790a5d6068e80e30673bc69215525344fa2f" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657600" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoSoftEdgeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSoftEdgeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSoftEdgeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoSoftEdgeType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoSoftEdgeType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="6ebb8-101">指定的柔化边缘效果的类型。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="6ebb8-101">Specifies the type of soft edge effect.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoSoftEdgeType1">
+      <MemberSignature Language="C#" Value="msoSoftEdgeType1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSoftEdgeType msoSoftEdgeType1 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSoftEdgeType.msoSoftEdgeType1" />
+      <MemberSignature Language="VB.NET" Value="msoSoftEdgeType1" />
+      <MemberSignature Language="C++ CLI" Value="msoSoftEdgeType1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSoftEdgeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6ebb8-102">柔化边缘类型 1</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6ebb8-102">Soft Edge Type 1</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSoftEdgeType2">
+      <MemberSignature Language="C#" Value="msoSoftEdgeType2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSoftEdgeType msoSoftEdgeType2 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSoftEdgeType.msoSoftEdgeType2" />
+      <MemberSignature Language="VB.NET" Value="msoSoftEdgeType2" />
+      <MemberSignature Language="C++ CLI" Value="msoSoftEdgeType2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSoftEdgeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6ebb8-103">柔化边缘类型 2</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6ebb8-103">Soft Edge Type 2</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSoftEdgeType3">
+      <MemberSignature Language="C#" Value="msoSoftEdgeType3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSoftEdgeType msoSoftEdgeType3 = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSoftEdgeType.msoSoftEdgeType3" />
+      <MemberSignature Language="VB.NET" Value="msoSoftEdgeType3" />
+      <MemberSignature Language="C++ CLI" Value="msoSoftEdgeType3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSoftEdgeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6ebb8-104">柔化边缘类型 3</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6ebb8-104">Soft Edge Type 3</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSoftEdgeType4">
+      <MemberSignature Language="C#" Value="msoSoftEdgeType4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSoftEdgeType msoSoftEdgeType4 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSoftEdgeType.msoSoftEdgeType4" />
+      <MemberSignature Language="VB.NET" Value="msoSoftEdgeType4" />
+      <MemberSignature Language="C++ CLI" Value="msoSoftEdgeType4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSoftEdgeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6ebb8-105">柔化边缘类型 4</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6ebb8-105">Soft Edge Type 4</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSoftEdgeType5">
+      <MemberSignature Language="C#" Value="msoSoftEdgeType5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSoftEdgeType msoSoftEdgeType5 = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSoftEdgeType.msoSoftEdgeType5" />
+      <MemberSignature Language="VB.NET" Value="msoSoftEdgeType5" />
+      <MemberSignature Language="C++ CLI" Value="msoSoftEdgeType5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSoftEdgeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6ebb8-106">柔化边缘类型 5</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6ebb8-106">Soft Edge Type 5</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSoftEdgeType6">
+      <MemberSignature Language="C#" Value="msoSoftEdgeType6" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSoftEdgeType msoSoftEdgeType6 = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSoftEdgeType.msoSoftEdgeType6" />
+      <MemberSignature Language="VB.NET" Value="msoSoftEdgeType6" />
+      <MemberSignature Language="C++ CLI" Value="msoSoftEdgeType6" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSoftEdgeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6ebb8-107">柔化边缘类型 6</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6ebb8-107">Soft Edge Type 6</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSoftEdgeTypeMixed">
+      <MemberSignature Language="C#" Value="msoSoftEdgeTypeMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSoftEdgeType msoSoftEdgeTypeMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSoftEdgeType.msoSoftEdgeTypeMixed" />
+      <MemberSignature Language="VB.NET" Value="msoSoftEdgeTypeMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoSoftEdgeTypeMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSoftEdgeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6ebb8-108">混和的柔化边缘类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6ebb8-108">A mix of soft edge types.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSoftEdgeTypeNone">
+      <MemberSignature Language="C#" Value="msoSoftEdgeTypeNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSoftEdgeType msoSoftEdgeTypeNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSoftEdgeType.msoSoftEdgeTypeNone" />
+      <MemberSignature Language="VB.NET" Value="msoSoftEdgeTypeNone" />
+      <MemberSignature Language="C++ CLI" Value="msoSoftEdgeTypeNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSoftEdgeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="6ebb8-109">无柔化边缘。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="6ebb8-109">No soft edge.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

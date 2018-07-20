@@ -1,0 +1,117 @@
+<Type Name="MsoExtrusionColorType" FullName="Microsoft.Office.Core.MsoExtrusionColorType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="73cfa31b0d1231fa4371724bdfd4fb31dd2b2168" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658253" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoExtrusionColorType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoExtrusionColorType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoExtrusionColorType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoExtrusionColorType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoExtrusionColorType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="d0344-101">指定延伸颜色基于延伸的形状的填充 （延伸的正面） 和自动更改时更改形状的填充，或是否延伸颜色独立于图形填充。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d0344-101">Specifies whether the extrusion color is based on the extruded shape's fill (the front face of the extrusion) and automatically changes when the shape's fill changes, or whether the extrusion color is independent of the shape's fill.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="d0344-102">
+        <para>
+          <b>ThreeDFormat</b>对象的<b>ExtrusionColorType</b>属性一起使用。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d0344-102">
+          <para>Used with the <b>ExtrusionColorType</b> property of the <b>ThreeDFormat</b> object.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoExtrusionColorAutomatic">
+      <MemberSignature Language="C#" Value="msoExtrusionColorAutomatic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoExtrusionColorType msoExtrusionColorAutomatic = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoExtrusionColorType.msoExtrusionColorAutomatic" />
+      <MemberSignature Language="VB.NET" Value="msoExtrusionColorAutomatic" />
+      <MemberSignature Language="C++ CLI" Value="msoExtrusionColorAutomatic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoExtrusionColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0344-103">延伸颜色基于图形填充。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0344-103">Extrusion color is based on shape fill.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoExtrusionColorCustom">
+      <MemberSignature Language="C#" Value="msoExtrusionColorCustom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoExtrusionColorType msoExtrusionColorCustom = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoExtrusionColorType.msoExtrusionColorCustom" />
+      <MemberSignature Language="VB.NET" Value="msoExtrusionColorCustom" />
+      <MemberSignature Language="C++ CLI" Value="msoExtrusionColorCustom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoExtrusionColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0344-104">延伸颜色独立于图形填充。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0344-104">Extrusion color is independent of shape fill.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoExtrusionColorTypeMixed">
+      <MemberSignature Language="C#" Value="msoExtrusionColorTypeMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoExtrusionColorType msoExtrusionColorTypeMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoExtrusionColorType.msoExtrusionColorTypeMixed" />
+      <MemberSignature Language="VB.NET" Value="msoExtrusionColorTypeMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoExtrusionColorTypeMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoExtrusionColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d0344-105">只返回值，表示其他状态的组合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d0344-105">Return value only; indicates a combination of the other states.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

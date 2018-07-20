@@ -1,0 +1,177 @@
+<Type Name="MsoPathFormat" FullName="Microsoft.Office.Core.MsoPathFormat">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="aa6fbf922b2bea75ea5807fdc25a78abe0ab6bb8" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657614" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoPathFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPathFormat extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPathFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoPathFormat" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoPathFormat" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="f8a46-101">指定文件或文件夹路径的格式。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f8a46-101">Specifies the format of a file or folder path.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoPathType1">
+      <MemberSignature Language="C#" Value="msoPathType1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPathFormat msoPathType1 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPathFormat.msoPathType1" />
+      <MemberSignature Language="VB.NET" Value="msoPathType1" />
+      <MemberSignature Language="C++ CLI" Value="msoPathType1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPathFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8a46-102">代表 Type1 格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8a46-102">Represents the Type1 format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPathType2">
+      <MemberSignature Language="C#" Value="msoPathType2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPathFormat msoPathType2 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPathFormat.msoPathType2" />
+      <MemberSignature Language="VB.NET" Value="msoPathType2" />
+      <MemberSignature Language="C++ CLI" Value="msoPathType2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPathFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8a46-103">代表 Type2 格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8a46-103">Represents the Type2 format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPathType3">
+      <MemberSignature Language="C#" Value="msoPathType3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPathFormat msoPathType3 = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPathFormat.msoPathType3" />
+      <MemberSignature Language="VB.NET" Value="msoPathType3" />
+      <MemberSignature Language="C++ CLI" Value="msoPathType3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPathFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8a46-104">代表 Type3 格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8a46-104">Represents the Type3 format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPathType4">
+      <MemberSignature Language="C#" Value="msoPathType4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPathFormat msoPathType4 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPathFormat.msoPathType4" />
+      <MemberSignature Language="VB.NET" Value="msoPathType4" />
+      <MemberSignature Language="C++ CLI" Value="msoPathType4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPathFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8a46-105">代表 Type4 格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8a46-105">Represents the Type4 format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPathTypeMixed">
+      <MemberSignature Language="C#" Value="msoPathTypeMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPathFormat msoPathTypeMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPathFormat.msoPathTypeMixed" />
+      <MemberSignature Language="VB.NET" Value="msoPathTypeMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoPathTypeMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPathFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8a46-106">代表混和格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8a46-106">Represents a mixed format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPathTypeNone">
+      <MemberSignature Language="C#" Value="msoPathTypeNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPathFormat msoPathTypeNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPathFormat.msoPathTypeNone" />
+      <MemberSignature Language="VB.NET" Value="msoPathTypeNone" />
+      <MemberSignature Language="C++ CLI" Value="msoPathTypeNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPathFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8a46-107">代表无格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8a46-107">Represents no format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

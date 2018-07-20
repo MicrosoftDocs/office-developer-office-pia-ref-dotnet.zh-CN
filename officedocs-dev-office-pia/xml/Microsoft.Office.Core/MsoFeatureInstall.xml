@@ -1,0 +1,105 @@
+<Type Name="MsoFeatureInstall" FullName="Microsoft.Office.Core.MsoFeatureInstall">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a56ef60c0c6a2098cc10b9360b0438d5269f0713" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658055" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoFeatureInstall" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFeatureInstall extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFeatureInstall" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoFeatureInstall" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoFeatureInstall" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="fe538-101">指定应用程序如何处理对需要尚未安装的功能的方法和属性的调用。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="fe538-101">Specifies how the application handles calls to methods and properties that require features not yet installed.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoFeatureInstallNone">
+      <MemberSignature Language="C#" Value="msoFeatureInstallNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFeatureInstall msoFeatureInstallNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFeatureInstall.msoFeatureInstallNone" />
+      <MemberSignature Language="VB.NET" Value="msoFeatureInstallNone" />
+      <MemberSignature Language="C++ CLI" Value="msoFeatureInstallNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFeatureInstall</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fe538-102">如果调用了未安装的功能，则在运行时生成一般的自动化错误。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fe538-102">Generates a generic automation error at run time when uninstalled features are called.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFeatureInstallOnDemand">
+      <MemberSignature Language="C#" Value="msoFeatureInstallOnDemand" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFeatureInstall msoFeatureInstallOnDemand = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFeatureInstall.msoFeatureInstallOnDemand" />
+      <MemberSignature Language="VB.NET" Value="msoFeatureInstallOnDemand" />
+      <MemberSignature Language="C++ CLI" Value="msoFeatureInstallOnDemand" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFeatureInstall</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fe538-103">提示用户安装新功能。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fe538-103">Prompts the user to install new features.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFeatureInstallOnDemandWithUI">
+      <MemberSignature Language="C#" Value="msoFeatureInstallOnDemandWithUI" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFeatureInstall msoFeatureInstallOnDemandWithUI = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFeatureInstall.msoFeatureInstallOnDemandWithUI" />
+      <MemberSignature Language="VB.NET" Value="msoFeatureInstallOnDemandWithUI" />
+      <MemberSignature Language="C++ CLI" Value="msoFeatureInstallOnDemandWithUI" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFeatureInstall</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fe538-104">在安装时显示进度表；但不提示用户安装新功能。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fe538-104">Displays a progress meter during installation; does not prompt the user to install new features.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

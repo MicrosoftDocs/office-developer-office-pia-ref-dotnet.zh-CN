@@ -1,0 +1,1806 @@
+<Type Name="XlConstants" FullName="Microsoft.Office.Core.XlConstants">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="de846a6c663650f7518b044fd032f3795ac39089" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657462" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlConstants" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlConstants extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlConstants" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlConstants" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlConstants" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="ba2f3-101">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ba2f3-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+      </span>
+      <span data-ttu-id="ba2f3-102">指定 Microsoft Excel 中使用的全局常量。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ba2f3-102">Specifies global constants used in Microsoft Excel.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xl3DBar">
+      <MemberSignature Language="C#" Value="xl3DBar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xl3DBar = int32(-4099)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xl3DBar" />
+      <MemberSignature Language="VB.NET" Value="xl3DBar" />
+      <MemberSignature Language="C++ CLI" Value="xl3DBar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4099</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-103">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-104">-4099</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-104">-4099</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xl3DSurface">
+      <MemberSignature Language="C#" Value="xl3DSurface" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xl3DSurface = int32(-4103)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xl3DSurface" />
+      <MemberSignature Language="VB.NET" Value="xl3DSurface" />
+      <MemberSignature Language="C++ CLI" Value="xl3DSurface" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4103</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-105">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-106">-4103</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-106">-4103</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlAbove">
+      <MemberSignature Language="C#" Value="xlAbove" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlAbove = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlAbove" />
+      <MemberSignature Language="VB.NET" Value="xlAbove" />
+      <MemberSignature Language="C++ CLI" Value="xlAbove" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-107">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-108">0</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-108">0</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlAutomatic">
+      <MemberSignature Language="C#" Value="xlAutomatic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlAutomatic = int32(-4105)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlAutomatic" />
+      <MemberSignature Language="VB.NET" Value="xlAutomatic" />
+      <MemberSignature Language="C++ CLI" Value="xlAutomatic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4105</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-109">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-110">-4105</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-110">-4105</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlBar">
+      <MemberSignature Language="C#" Value="xlBar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlBar = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlBar" />
+      <MemberSignature Language="VB.NET" Value="xlBar" />
+      <MemberSignature Language="C++ CLI" Value="xlBar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-111">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-111">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-112">2</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-112">2</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlBelow">
+      <MemberSignature Language="C#" Value="xlBelow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlBelow = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlBelow" />
+      <MemberSignature Language="VB.NET" Value="xlBelow" />
+      <MemberSignature Language="C++ CLI" Value="xlBelow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-113">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-113">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-114">1</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-114">1</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlBoth">
+      <MemberSignature Language="C#" Value="xlBoth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlBoth = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlBoth" />
+      <MemberSignature Language="VB.NET" Value="xlBoth" />
+      <MemberSignature Language="C++ CLI" Value="xlBoth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-115">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-115">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-116">1</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-116">1</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlBottom">
+      <MemberSignature Language="C#" Value="xlBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlBottom = int32(-4107)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlBottom" />
+      <MemberSignature Language="VB.NET" Value="xlBottom" />
+      <MemberSignature Language="C++ CLI" Value="xlBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4107</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-117">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-117">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-118">-4017</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-118">-4017</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlCenter">
+      <MemberSignature Language="C#" Value="xlCenter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlCenter = int32(-4108)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlCenter" />
+      <MemberSignature Language="VB.NET" Value="xlCenter" />
+      <MemberSignature Language="C++ CLI" Value="xlCenter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4108</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-119">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-119">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-120">-4108</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-120">-4108</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlChecker">
+      <MemberSignature Language="C#" Value="xlChecker" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlChecker = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlChecker" />
+      <MemberSignature Language="VB.NET" Value="xlChecker" />
+      <MemberSignature Language="C++ CLI" Value="xlChecker" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-121">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-121">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-122">9</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-122">9</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlCircle">
+      <MemberSignature Language="C#" Value="xlCircle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlCircle = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlCircle" />
+      <MemberSignature Language="VB.NET" Value="xlCircle" />
+      <MemberSignature Language="C++ CLI" Value="xlCircle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-123">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-123">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-124">8</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-124">8</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlColumn">
+      <MemberSignature Language="C#" Value="xlColumn" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlColumn = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlColumn" />
+      <MemberSignature Language="VB.NET" Value="xlColumn" />
+      <MemberSignature Language="C++ CLI" Value="xlColumn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-125">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-125">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-126">3</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-126">3</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlCombination">
+      <MemberSignature Language="C#" Value="xlCombination" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlCombination = int32(-4111)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlCombination" />
+      <MemberSignature Language="VB.NET" Value="xlCombination" />
+      <MemberSignature Language="C++ CLI" Value="xlCombination" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4111</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-127">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-127">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-128">-4111</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-128">-4111</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlCorner">
+      <MemberSignature Language="C#" Value="xlCorner" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlCorner = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlCorner" />
+      <MemberSignature Language="VB.NET" Value="xlCorner" />
+      <MemberSignature Language="C++ CLI" Value="xlCorner" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-129">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-129">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-130">2</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-130">2</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlCrissCross">
+      <MemberSignature Language="C#" Value="xlCrissCross" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlCrissCross = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlCrissCross" />
+      <MemberSignature Language="VB.NET" Value="xlCrissCross" />
+      <MemberSignature Language="C++ CLI" Value="xlCrissCross" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-131">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-131">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-132">16</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-132">16</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlCross">
+      <MemberSignature Language="C#" Value="xlCross" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlCross = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlCross" />
+      <MemberSignature Language="VB.NET" Value="xlCross" />
+      <MemberSignature Language="C++ CLI" Value="xlCross" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-133">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-133">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-134">4</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-134">4</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlCustom">
+      <MemberSignature Language="C#" Value="xlCustom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlCustom = int32(-4114)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlCustom" />
+      <MemberSignature Language="VB.NET" Value="xlCustom" />
+      <MemberSignature Language="C++ CLI" Value="xlCustom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4114</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-135">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-135">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-136">-4114</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-136">-4114</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDefaultAutoFormat">
+      <MemberSignature Language="C#" Value="xlDefaultAutoFormat" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlDefaultAutoFormat = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlDefaultAutoFormat" />
+      <MemberSignature Language="VB.NET" Value="xlDefaultAutoFormat" />
+      <MemberSignature Language="C++ CLI" Value="xlDefaultAutoFormat" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-137">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-137">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-138">-1</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-138">-1</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDiamond">
+      <MemberSignature Language="C#" Value="xlDiamond" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlDiamond = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlDiamond" />
+      <MemberSignature Language="VB.NET" Value="xlDiamond" />
+      <MemberSignature Language="C++ CLI" Value="xlDiamond" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-139">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-139">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-140">2</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-140">2</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDistributed">
+      <MemberSignature Language="C#" Value="xlDistributed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlDistributed = int32(-4117)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlDistributed" />
+      <MemberSignature Language="VB.NET" Value="xlDistributed" />
+      <MemberSignature Language="C++ CLI" Value="xlDistributed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4117</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-141">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-141">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-142">-4117</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-142">-4117</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlFill">
+      <MemberSignature Language="C#" Value="xlFill" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlFill = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlFill" />
+      <MemberSignature Language="VB.NET" Value="xlFill" />
+      <MemberSignature Language="C++ CLI" Value="xlFill" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-143">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-143">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-144">5</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-144">5</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlFixedValue">
+      <MemberSignature Language="C#" Value="xlFixedValue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlFixedValue = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlFixedValue" />
+      <MemberSignature Language="VB.NET" Value="xlFixedValue" />
+      <MemberSignature Language="C++ CLI" Value="xlFixedValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-145">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-145">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-146">1</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-146">1</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlGeneral">
+      <MemberSignature Language="C#" Value="xlGeneral" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlGeneral = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlGeneral" />
+      <MemberSignature Language="VB.NET" Value="xlGeneral" />
+      <MemberSignature Language="C++ CLI" Value="xlGeneral" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-147">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-147">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-148">1</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-148">1</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlGray16">
+      <MemberSignature Language="C#" Value="xlGray16" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlGray16 = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlGray16" />
+      <MemberSignature Language="VB.NET" Value="xlGray16" />
+      <MemberSignature Language="C++ CLI" Value="xlGray16" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-149">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-149">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-150">17</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-150">17</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlGray25">
+      <MemberSignature Language="C#" Value="xlGray25" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlGray25 = int32(-4124)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlGray25" />
+      <MemberSignature Language="VB.NET" Value="xlGray25" />
+      <MemberSignature Language="C++ CLI" Value="xlGray25" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4124</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-151">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-151">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-152">-4124</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-152">-4124</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlGray50">
+      <MemberSignature Language="C#" Value="xlGray50" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlGray50 = int32(-4125)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlGray50" />
+      <MemberSignature Language="VB.NET" Value="xlGray50" />
+      <MemberSignature Language="C++ CLI" Value="xlGray50" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4125</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-153">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-153">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-154">-4125</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-154">-4125</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlGray75">
+      <MemberSignature Language="C#" Value="xlGray75" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlGray75 = int32(-4126)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlGray75" />
+      <MemberSignature Language="VB.NET" Value="xlGray75" />
+      <MemberSignature Language="C++ CLI" Value="xlGray75" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4126</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-155">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-155">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-156">-4126</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-156">-4126</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlGray8">
+      <MemberSignature Language="C#" Value="xlGray8" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlGray8 = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlGray8" />
+      <MemberSignature Language="VB.NET" Value="xlGray8" />
+      <MemberSignature Language="C++ CLI" Value="xlGray8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-157">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-157">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-158">18</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-158">18</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlGrid">
+      <MemberSignature Language="C#" Value="xlGrid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlGrid = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlGrid" />
+      <MemberSignature Language="VB.NET" Value="xlGrid" />
+      <MemberSignature Language="C++ CLI" Value="xlGrid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-159">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-159">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-160">15</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-160">15</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlHigh">
+      <MemberSignature Language="C#" Value="xlHigh" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlHigh = int32(-4127)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlHigh" />
+      <MemberSignature Language="VB.NET" Value="xlHigh" />
+      <MemberSignature Language="C++ CLI" Value="xlHigh" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4127</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-161">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-161">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-162">-4127</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-162">-4127</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlInside">
+      <MemberSignature Language="C#" Value="xlInside" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlInside = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlInside" />
+      <MemberSignature Language="VB.NET" Value="xlInside" />
+      <MemberSignature Language="C++ CLI" Value="xlInside" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-163">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-163">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-164">2</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-164">2</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlJustify">
+      <MemberSignature Language="C#" Value="xlJustify" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlJustify = int32(-4130)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlJustify" />
+      <MemberSignature Language="VB.NET" Value="xlJustify" />
+      <MemberSignature Language="C++ CLI" Value="xlJustify" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4130</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-165">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-165">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-166">-4130</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-166">-4130</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLeft">
+      <MemberSignature Language="C#" Value="xlLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlLeft = int32(-4131)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlLeft" />
+      <MemberSignature Language="VB.NET" Value="xlLeft" />
+      <MemberSignature Language="C++ CLI" Value="xlLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4131</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-167">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-167">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-168">-4131</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-168">-4131</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLightDown">
+      <MemberSignature Language="C#" Value="xlLightDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlLightDown = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlLightDown" />
+      <MemberSignature Language="VB.NET" Value="xlLightDown" />
+      <MemberSignature Language="C++ CLI" Value="xlLightDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-169">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-169">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-170">13</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-170">13</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLightHorizontal">
+      <MemberSignature Language="C#" Value="xlLightHorizontal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlLightHorizontal = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlLightHorizontal" />
+      <MemberSignature Language="VB.NET" Value="xlLightHorizontal" />
+      <MemberSignature Language="C++ CLI" Value="xlLightHorizontal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-171">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-171">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-172">11</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-172">11</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLightUp">
+      <MemberSignature Language="C#" Value="xlLightUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlLightUp = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlLightUp" />
+      <MemberSignature Language="VB.NET" Value="xlLightUp" />
+      <MemberSignature Language="C++ CLI" Value="xlLightUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-173">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-173">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-174">14</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-174">14</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLightVertical">
+      <MemberSignature Language="C#" Value="xlLightVertical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlLightVertical = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlLightVertical" />
+      <MemberSignature Language="VB.NET" Value="xlLightVertical" />
+      <MemberSignature Language="C++ CLI" Value="xlLightVertical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-175">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-175">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-176">12</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-176">12</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLow">
+      <MemberSignature Language="C#" Value="xlLow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlLow = int32(-4134)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlLow" />
+      <MemberSignature Language="VB.NET" Value="xlLow" />
+      <MemberSignature Language="C++ CLI" Value="xlLow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4134</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-177">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-177">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-178">-4134</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-178">-4134</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMaximum">
+      <MemberSignature Language="C#" Value="xlMaximum" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlMaximum = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlMaximum" />
+      <MemberSignature Language="VB.NET" Value="xlMaximum" />
+      <MemberSignature Language="C++ CLI" Value="xlMaximum" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-179">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-179">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-180">2</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-180">2</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMinimum">
+      <MemberSignature Language="C#" Value="xlMinimum" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlMinimum = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlMinimum" />
+      <MemberSignature Language="VB.NET" Value="xlMinimum" />
+      <MemberSignature Language="C++ CLI" Value="xlMinimum" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-181">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-181">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-182">4</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-182">4</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMinusValues">
+      <MemberSignature Language="C#" Value="xlMinusValues" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlMinusValues = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlMinusValues" />
+      <MemberSignature Language="VB.NET" Value="xlMinusValues" />
+      <MemberSignature Language="C++ CLI" Value="xlMinusValues" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-183">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-183">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-184">3</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-184">3</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlNextToAxis">
+      <MemberSignature Language="C#" Value="xlNextToAxis" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlNextToAxis = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlNextToAxis" />
+      <MemberSignature Language="VB.NET" Value="xlNextToAxis" />
+      <MemberSignature Language="C++ CLI" Value="xlNextToAxis" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-185">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-185">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-186">4</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-186">4</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlNone">
+      <MemberSignature Language="C#" Value="xlNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlNone = int32(-4142)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlNone" />
+      <MemberSignature Language="VB.NET" Value="xlNone" />
+      <MemberSignature Language="C++ CLI" Value="xlNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4142</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-187">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-187">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-188">-4142</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-188">-4142</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlOpaque">
+      <MemberSignature Language="C#" Value="xlOpaque" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlOpaque = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlOpaque" />
+      <MemberSignature Language="VB.NET" Value="xlOpaque" />
+      <MemberSignature Language="C++ CLI" Value="xlOpaque" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-189">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-189">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-190">3</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-190">3</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlOutside">
+      <MemberSignature Language="C#" Value="xlOutside" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlOutside = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlOutside" />
+      <MemberSignature Language="VB.NET" Value="xlOutside" />
+      <MemberSignature Language="C++ CLI" Value="xlOutside" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-191">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-191">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-192">3</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-192">3</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPercent">
+      <MemberSignature Language="C#" Value="xlPercent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlPercent = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlPercent" />
+      <MemberSignature Language="VB.NET" Value="xlPercent" />
+      <MemberSignature Language="C++ CLI" Value="xlPercent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-193">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-193">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-194">2</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-194">2</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPlus">
+      <MemberSignature Language="C#" Value="xlPlus" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlPlus = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlPlus" />
+      <MemberSignature Language="VB.NET" Value="xlPlus" />
+      <MemberSignature Language="C++ CLI" Value="xlPlus" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-195">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-195">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-196">9</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-196">9</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPlusValues">
+      <MemberSignature Language="C#" Value="xlPlusValues" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlPlusValues = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlPlusValues" />
+      <MemberSignature Language="VB.NET" Value="xlPlusValues" />
+      <MemberSignature Language="C++ CLI" Value="xlPlusValues" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-197">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-197">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-198">2</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-198">2</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlRight">
+      <MemberSignature Language="C#" Value="xlRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlRight = int32(-4152)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlRight" />
+      <MemberSignature Language="VB.NET" Value="xlRight" />
+      <MemberSignature Language="C++ CLI" Value="xlRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4152</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-199">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-199">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-200">-4152</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-200">-4152</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlScale">
+      <MemberSignature Language="C#" Value="xlScale" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlScale = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlScale" />
+      <MemberSignature Language="VB.NET" Value="xlScale" />
+      <MemberSignature Language="C++ CLI" Value="xlScale" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-201">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-201">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-202">3</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-202">3</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlSemiGray75">
+      <MemberSignature Language="C#" Value="xlSemiGray75" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlSemiGray75 = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlSemiGray75" />
+      <MemberSignature Language="VB.NET" Value="xlSemiGray75" />
+      <MemberSignature Language="C++ CLI" Value="xlSemiGray75" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-203">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-203">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-204">10</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-204">10</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlShowLabel">
+      <MemberSignature Language="C#" Value="xlShowLabel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlShowLabel = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlShowLabel" />
+      <MemberSignature Language="VB.NET" Value="xlShowLabel" />
+      <MemberSignature Language="C++ CLI" Value="xlShowLabel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-205">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-205">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-206">4</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-206">4</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlShowLabelAndPercent">
+      <MemberSignature Language="C#" Value="xlShowLabelAndPercent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlShowLabelAndPercent = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlShowLabelAndPercent" />
+      <MemberSignature Language="VB.NET" Value="xlShowLabelAndPercent" />
+      <MemberSignature Language="C++ CLI" Value="xlShowLabelAndPercent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-207">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-207">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-208">5</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-208">5</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlShowPercent">
+      <MemberSignature Language="C#" Value="xlShowPercent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlShowPercent = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlShowPercent" />
+      <MemberSignature Language="VB.NET" Value="xlShowPercent" />
+      <MemberSignature Language="C++ CLI" Value="xlShowPercent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-209">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-209">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-210">3</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-210">3</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlShowValue">
+      <MemberSignature Language="C#" Value="xlShowValue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlShowValue = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlShowValue" />
+      <MemberSignature Language="VB.NET" Value="xlShowValue" />
+      <MemberSignature Language="C++ CLI" Value="xlShowValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-211">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-211">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-212">2</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-212">2</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlSingle">
+      <MemberSignature Language="C#" Value="xlSingle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlSingle = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlSingle" />
+      <MemberSignature Language="VB.NET" Value="xlSingle" />
+      <MemberSignature Language="C++ CLI" Value="xlSingle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-213">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-213">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-214">2</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-214">2</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlSolid">
+      <MemberSignature Language="C#" Value="xlSolid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlSolid = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlSolid" />
+      <MemberSignature Language="VB.NET" Value="xlSolid" />
+      <MemberSignature Language="C++ CLI" Value="xlSolid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-215">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-215">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-216">1</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-216">1</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlSquare">
+      <MemberSignature Language="C#" Value="xlSquare" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlSquare = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlSquare" />
+      <MemberSignature Language="VB.NET" Value="xlSquare" />
+      <MemberSignature Language="C++ CLI" Value="xlSquare" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-217">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-217">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-218">1</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-218">1</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlStar">
+      <MemberSignature Language="C#" Value="xlStar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlStar = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlStar" />
+      <MemberSignature Language="VB.NET" Value="xlStar" />
+      <MemberSignature Language="C++ CLI" Value="xlStar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-219">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-219">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-220">5</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-220">5</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlStError">
+      <MemberSignature Language="C#" Value="xlStError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlStError = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlStError" />
+      <MemberSignature Language="VB.NET" Value="xlStError" />
+      <MemberSignature Language="C++ CLI" Value="xlStError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-221">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-221">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-222">4</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-222">4</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlTop">
+      <MemberSignature Language="C#" Value="xlTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlTop = int32(-4160)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlTop" />
+      <MemberSignature Language="VB.NET" Value="xlTop" />
+      <MemberSignature Language="C++ CLI" Value="xlTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4160</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-223">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-223">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-224">-4160</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-224">-4160</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlTransparent">
+      <MemberSignature Language="C#" Value="xlTransparent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlTransparent = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlTransparent" />
+      <MemberSignature Language="VB.NET" Value="xlTransparent" />
+      <MemberSignature Language="C++ CLI" Value="xlTransparent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-225">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-225">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-226">2</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-226">2</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlTriangle">
+      <MemberSignature Language="C#" Value="xlTriangle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlConstants xlTriangle = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlConstants.xlTriangle" />
+      <MemberSignature Language="VB.NET" Value="xlTriangle" />
+      <MemberSignature Language="C++ CLI" Value="xlTriangle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlConstants</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ba2f3-227">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-227">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="ba2f3-228">3</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ba2f3-228">3</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

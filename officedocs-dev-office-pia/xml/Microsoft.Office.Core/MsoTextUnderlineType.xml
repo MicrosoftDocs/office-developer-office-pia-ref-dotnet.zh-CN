@@ -1,0 +1,489 @@
+<Type Name="MsoTextUnderlineType" FullName="Microsoft.Office.Core.MsoTextUnderlineType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="57d9107fa119b58ea265ea524b66ceb78db9fdff" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657358" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoTextUnderlineType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTextUnderlineType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTextUnderlineType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoTextUnderlineType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoTextUnderlineType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="741b0-101">指示文字的下划线类型。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="741b0-101">Indicates the type of underline for text.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoNoUnderline">
+      <MemberSignature Language="C#" Value="msoNoUnderline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoNoUnderline = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoNoUnderline" />
+      <MemberSignature Language="VB.NET" Value="msoNoUnderline" />
+      <MemberSignature Language="C++ CLI" Value="msoNoUnderline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-102">不指定下划线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-102">Specifies no underline.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoUnderlineDashHeavyLine">
+      <MemberSignature Language="C#" Value="msoUnderlineDashHeavyLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoUnderlineDashHeavyLine = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoUnderlineDashHeavyLine" />
+      <MemberSignature Language="VB.NET" Value="msoUnderlineDashHeavyLine" />
+      <MemberSignature Language="C++ CLI" Value="msoUnderlineDashHeavyLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-103">指定短线下划线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-103">Specifies a dash underline.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoUnderlineDashLine">
+      <MemberSignature Language="C#" Value="msoUnderlineDashLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoUnderlineDashLine = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoUnderlineDashLine" />
+      <MemberSignature Language="VB.NET" Value="msoUnderlineDashLine" />
+      <MemberSignature Language="C++ CLI" Value="msoUnderlineDashLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-104">指定划线下划线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-104">Specifies a dash line underline.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoUnderlineDashLongHeavyLine">
+      <MemberSignature Language="C#" Value="msoUnderlineDashLongHeavyLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoUnderlineDashLongHeavyLine = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoUnderlineDashLongHeavyLine" />
+      <MemberSignature Language="VB.NET" Value="msoUnderlineDashLongHeavyLine" />
+      <MemberSignature Language="C++ CLI" Value="msoUnderlineDashLongHeavyLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-105">指定粗长划线下划线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-105">Specifies a long heavy line underline.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoUnderlineDashLongLine">
+      <MemberSignature Language="C#" Value="msoUnderlineDashLongLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoUnderlineDashLongLine = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoUnderlineDashLongLine" />
+      <MemberSignature Language="VB.NET" Value="msoUnderlineDashLongLine" />
+      <MemberSignature Language="C++ CLI" Value="msoUnderlineDashLongLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-106">指定长虚下划线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-106">Specifies a dashed long line underline.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoUnderlineDotDashHeavyLine">
+      <MemberSignature Language="C#" Value="msoUnderlineDotDashHeavyLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoUnderlineDotDashHeavyLine = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoUnderlineDotDashHeavyLine" />
+      <MemberSignature Language="VB.NET" Value="msoUnderlineDotDashHeavyLine" />
+      <MemberSignature Language="C++ CLI" Value="msoUnderlineDotDashHeavyLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-107">指定粗点划线下划线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-107">Specifies a dot dash heavy line underline.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoUnderlineDotDashLine">
+      <MemberSignature Language="C#" Value="msoUnderlineDotDashLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoUnderlineDotDashLine = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoUnderlineDotDashLine" />
+      <MemberSignature Language="VB.NET" Value="msoUnderlineDotDashLine" />
+      <MemberSignature Language="C++ CLI" Value="msoUnderlineDotDashLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-108">指定点划线下划线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-108">Specifies a dot dash line underline.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoUnderlineDotDotDashHeavyLine">
+      <MemberSignature Language="C#" Value="msoUnderlineDotDotDashHeavyLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoUnderlineDotDotDashHeavyLine = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoUnderlineDotDotDashHeavyLine" />
+      <MemberSignature Language="VB.NET" Value="msoUnderlineDotDotDashHeavyLine" />
+      <MemberSignature Language="C++ CLI" Value="msoUnderlineDotDotDashHeavyLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-109">指定双点划线粗线下划线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-109">Specifies a dot dot dash heavy line underline.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoUnderlineDotDotDashLine">
+      <MemberSignature Language="C#" Value="msoUnderlineDotDotDashLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoUnderlineDotDotDashLine = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoUnderlineDotDotDashLine" />
+      <MemberSignature Language="VB.NET" Value="msoUnderlineDotDotDashLine" />
+      <MemberSignature Language="C++ CLI" Value="msoUnderlineDotDotDashLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-110">指定双点划线下划线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-110">Specifies a dot dot dash line underline.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoUnderlineDottedHeavyLine">
+      <MemberSignature Language="C#" Value="msoUnderlineDottedHeavyLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoUnderlineDottedHeavyLine = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoUnderlineDottedHeavyLine" />
+      <MemberSignature Language="VB.NET" Value="msoUnderlineDottedHeavyLine" />
+      <MemberSignature Language="C++ CLI" Value="msoUnderlineDottedHeavyLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-111">指定粗点虚线下划线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-111">Specifies a dotted heavy line underline.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoUnderlineDottedLine">
+      <MemberSignature Language="C#" Value="msoUnderlineDottedLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoUnderlineDottedLine = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoUnderlineDottedLine" />
+      <MemberSignature Language="VB.NET" Value="msoUnderlineDottedLine" />
+      <MemberSignature Language="C++ CLI" Value="msoUnderlineDottedLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-112">指定虚线下划线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-112">Specifies a dotted line underline.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoUnderlineDoubleLine">
+      <MemberSignature Language="C#" Value="msoUnderlineDoubleLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoUnderlineDoubleLine = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoUnderlineDoubleLine" />
+      <MemberSignature Language="VB.NET" Value="msoUnderlineDoubleLine" />
+      <MemberSignature Language="C++ CLI" Value="msoUnderlineDoubleLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-113">指定双线下划线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-113">Specifies a double line underline.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoUnderlineHeavyLine">
+      <MemberSignature Language="C#" Value="msoUnderlineHeavyLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoUnderlineHeavyLine = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoUnderlineHeavyLine" />
+      <MemberSignature Language="VB.NET" Value="msoUnderlineHeavyLine" />
+      <MemberSignature Language="C++ CLI" Value="msoUnderlineHeavyLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-114">指定粗线下划线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-114">Specifies a heavy line underline.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoUnderlineMixed">
+      <MemberSignature Language="C#" Value="msoUnderlineMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoUnderlineMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoUnderlineMixed" />
+      <MemberSignature Language="VB.NET" Value="msoUnderlineMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoUnderlineMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-115">指定混和的下划线类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-115">Specifies a mix of underline types.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoUnderlineSingleLine">
+      <MemberSignature Language="C#" Value="msoUnderlineSingleLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoUnderlineSingleLine = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoUnderlineSingleLine" />
+      <MemberSignature Language="VB.NET" Value="msoUnderlineSingleLine" />
+      <MemberSignature Language="C++ CLI" Value="msoUnderlineSingleLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-116">指定单线下划线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-116">Specifies a single line underline.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoUnderlineWavyDoubleLine">
+      <MemberSignature Language="C#" Value="msoUnderlineWavyDoubleLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoUnderlineWavyDoubleLine = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoUnderlineWavyDoubleLine" />
+      <MemberSignature Language="VB.NET" Value="msoUnderlineWavyDoubleLine" />
+      <MemberSignature Language="C++ CLI" Value="msoUnderlineWavyDoubleLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-117">指定双波浪线下划线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-117">Specifies a wavy double line underline.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoUnderlineWavyHeavyLine">
+      <MemberSignature Language="C#" Value="msoUnderlineWavyHeavyLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoUnderlineWavyHeavyLine = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoUnderlineWavyHeavyLine" />
+      <MemberSignature Language="VB.NET" Value="msoUnderlineWavyHeavyLine" />
+      <MemberSignature Language="C++ CLI" Value="msoUnderlineWavyHeavyLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-118">指定粗波浪线下划线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-118">Specifies a wavy heavy line underline.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoUnderlineWavyLine">
+      <MemberSignature Language="C#" Value="msoUnderlineWavyLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoUnderlineWavyLine = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoUnderlineWavyLine" />
+      <MemberSignature Language="VB.NET" Value="msoUnderlineWavyLine" />
+      <MemberSignature Language="C++ CLI" Value="msoUnderlineWavyLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-119">指定波浪线下划线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-119">Specifies a wavy line underline.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoUnderlineWords">
+      <MemberSignature Language="C#" Value="msoUnderlineWords" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTextUnderlineType msoUnderlineWords = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTextUnderlineType.msoUnderlineWords" />
+      <MemberSignature Language="VB.NET" Value="msoUnderlineWords" />
+      <MemberSignature Language="C++ CLI" Value="msoUnderlineWords" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextUnderlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="741b0-120">指定为单词添加下划线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="741b0-120">Specifies underlining words.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

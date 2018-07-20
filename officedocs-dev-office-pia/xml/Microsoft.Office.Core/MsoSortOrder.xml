@@ -1,0 +1,86 @@
+<Type Name="MsoSortOrder" FullName="Microsoft.Office.Core.MsoSortOrder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1ba29819e59a5caa86d8e2e42c9cfc71bb0e023e" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658258" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoSortOrder" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSortOrder extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSortOrder" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoSortOrder" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoSortOrder" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="30944-101">指定是否应按升序还是降序排序<b>FileSearch</b>对象的<b>FoundFiles</b>集合中的文件。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="30944-101">Specifies whether files in a <b>FileSearch</b> object's <b>FoundFiles</b> collection should be sorted in ascending or descending order.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoSortOrderAscending">
+      <MemberSignature Language="C#" Value="msoSortOrderAscending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSortOrder msoSortOrderAscending = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSortOrder.msoSortOrderAscending" />
+      <MemberSignature Language="VB.NET" Value="msoSortOrderAscending" />
+      <MemberSignature Language="C++ CLI" Value="msoSortOrderAscending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSortOrder</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="30944-102">升序排序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="30944-102">Ascending order.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSortOrderDescending">
+      <MemberSignature Language="C#" Value="msoSortOrderDescending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSortOrder msoSortOrderDescending = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSortOrder.msoSortOrderDescending" />
+      <MemberSignature Language="VB.NET" Value="msoSortOrderDescending" />
+      <MemberSignature Language="C++ CLI" Value="msoSortOrderDescending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSortOrder</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="30944-103">降序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="30944-103">Descending order.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

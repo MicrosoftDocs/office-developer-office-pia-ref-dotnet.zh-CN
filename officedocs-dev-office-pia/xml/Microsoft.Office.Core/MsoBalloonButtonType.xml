@@ -1,0 +1,417 @@
+<Type Name="MsoBalloonButtonType" FullName="Microsoft.Office.Core.MsoBalloonButtonType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8613eb0d71dfcb7e8f10144f689af58b4c84eb27" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658137" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoBalloonButtonType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBalloonButtonType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBalloonButtonType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoBalloonButtonType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoBalloonButtonType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="2a8dc-101">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2a8dc-101">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoBalloonButtonAbort">
+      <MemberSignature Language="C#" Value="msoBalloonButtonAbort" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonButtonType msoBalloonButtonAbort = int32(-8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonButtonType.msoBalloonButtonAbort" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonButtonAbort" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonButtonAbort" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2a8dc-102">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2a8dc-102">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBalloonButtonBack">
+      <MemberSignature Language="C#" Value="msoBalloonButtonBack" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonButtonType msoBalloonButtonBack = int32(-5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonButtonType.msoBalloonButtonBack" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonButtonBack" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonButtonBack" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2a8dc-103">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2a8dc-103">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBalloonButtonCancel">
+      <MemberSignature Language="C#" Value="msoBalloonButtonCancel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonButtonType msoBalloonButtonCancel = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonButtonType.msoBalloonButtonCancel" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonButtonCancel" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonButtonCancel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2a8dc-104">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2a8dc-104">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBalloonButtonClose">
+      <MemberSignature Language="C#" Value="msoBalloonButtonClose" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonButtonType msoBalloonButtonClose = int32(-12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonButtonType.msoBalloonButtonClose" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonButtonClose" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonButtonClose" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2a8dc-105">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2a8dc-105">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBalloonButtonIgnore">
+      <MemberSignature Language="C#" Value="msoBalloonButtonIgnore" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonButtonType msoBalloonButtonIgnore = int32(-9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonButtonType.msoBalloonButtonIgnore" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonButtonIgnore" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonButtonIgnore" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2a8dc-106">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2a8dc-106">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBalloonButtonNext">
+      <MemberSignature Language="C#" Value="msoBalloonButtonNext" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonButtonType msoBalloonButtonNext = int32(-6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonButtonType.msoBalloonButtonNext" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonButtonNext" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonButtonNext" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2a8dc-107">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2a8dc-107">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBalloonButtonNo">
+      <MemberSignature Language="C#" Value="msoBalloonButtonNo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonButtonType msoBalloonButtonNo = int32(-4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonButtonType.msoBalloonButtonNo" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonButtonNo" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonButtonNo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2a8dc-108">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2a8dc-108">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBalloonButtonNull">
+      <MemberSignature Language="C#" Value="msoBalloonButtonNull" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonButtonType msoBalloonButtonNull = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonButtonType.msoBalloonButtonNull" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonButtonNull" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonButtonNull" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2a8dc-109">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2a8dc-109">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBalloonButtonOK">
+      <MemberSignature Language="C#" Value="msoBalloonButtonOK" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonButtonType msoBalloonButtonOK = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonButtonType.msoBalloonButtonOK" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonButtonOK" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonButtonOK" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2a8dc-110">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2a8dc-110">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBalloonButtonOptions">
+      <MemberSignature Language="C#" Value="msoBalloonButtonOptions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonButtonType msoBalloonButtonOptions = int32(-14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonButtonType.msoBalloonButtonOptions" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonButtonOptions" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonButtonOptions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-14</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2a8dc-111">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2a8dc-111">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBalloonButtonRetry">
+      <MemberSignature Language="C#" Value="msoBalloonButtonRetry" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonButtonType msoBalloonButtonRetry = int32(-7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonButtonType.msoBalloonButtonRetry" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonButtonRetry" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonButtonRetry" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2a8dc-112">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2a8dc-112">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBalloonButtonSearch">
+      <MemberSignature Language="C#" Value="msoBalloonButtonSearch" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonButtonType msoBalloonButtonSearch = int32(-10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonButtonType.msoBalloonButtonSearch" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonButtonSearch" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonButtonSearch" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2a8dc-113">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2a8dc-113">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBalloonButtonSnooze">
+      <MemberSignature Language="C#" Value="msoBalloonButtonSnooze" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonButtonType msoBalloonButtonSnooze = int32(-11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonButtonType.msoBalloonButtonSnooze" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonButtonSnooze" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonButtonSnooze" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2a8dc-114">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2a8dc-114">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBalloonButtonTips">
+      <MemberSignature Language="C#" Value="msoBalloonButtonTips" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonButtonType msoBalloonButtonTips = int32(-13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonButtonType.msoBalloonButtonTips" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonButtonTips" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonButtonTips" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2a8dc-115">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2a8dc-115">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBalloonButtonYes">
+      <MemberSignature Language="C#" Value="msoBalloonButtonYes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonButtonType msoBalloonButtonYes = int32(-3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonButtonType.msoBalloonButtonYes" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonButtonYes" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonButtonYes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2a8dc-116">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2a8dc-116">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBalloonButtonYesToAll">
+      <MemberSignature Language="C#" Value="msoBalloonButtonYesToAll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBalloonButtonType msoBalloonButtonYesToAll = int32(-15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBalloonButtonType.msoBalloonButtonYesToAll" />
+      <MemberSignature Language="VB.NET" Value="msoBalloonButtonYesToAll" />
+      <MemberSignature Language="C++ CLI" Value="msoBalloonButtonYesToAll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBalloonButtonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-15</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2a8dc-117">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2a8dc-117">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

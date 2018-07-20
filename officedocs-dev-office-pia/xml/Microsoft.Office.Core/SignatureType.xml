@@ -1,0 +1,131 @@
+<Type Name="SignatureType" FullName="Microsoft.Office.Core.SignatureType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="cebd8722a7dd2fbf44b68e6ef78709f91547e5be" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657672" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum SignatureType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SignatureType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SignatureType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SignatureType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SignatureType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="0ee03-101">指定签名的属性。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0ee03-101">Specifies properties of a signature.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="sigtypeMax">
+      <MemberSignature Language="C#" Value="sigtypeMax" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureType sigtypeMax = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureType.sigtypeMax" />
+      <MemberSignature Language="VB.NET" Value="sigtypeMax" />
+      <MemberSignature Language="C++ CLI" Value="sigtypeMax" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0ee03-102">指定当前 Office 版本中可以使用的签名类型的最大数量。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0ee03-102">Specifies the maximum number  of the signature types available in the current version of Office.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigtypeNonVisible">
+      <MemberSignature Language="C#" Value="sigtypeNonVisible" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureType sigtypeNonVisible = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureType.sigtypeNonVisible" />
+      <MemberSignature Language="VB.NET" Value="sigtypeNonVisible" />
+      <MemberSignature Language="C++ CLI" Value="sigtypeNonVisible" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0ee03-103">签名在文档内容中不可见。
+</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0ee03-103">A signature that is not visible in the content of the document.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigtypeSignatureLine">
+      <MemberSignature Language="C#" Value="sigtypeSignatureLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureType sigtypeSignatureLine = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureType.sigtypeSignatureLine" />
+      <MemberSignature Language="VB.NET" Value="sigtypeSignatureLine" />
+      <MemberSignature Language="C++ CLI" Value="sigtypeSignatureLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0ee03-104">签名在文档内容中可见。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0ee03-104">A signature that is visible in the content of the document.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigtypeUnknown">
+      <MemberSignature Language="C#" Value="sigtypeUnknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureType sigtypeUnknown = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureType.sigtypeUnknown" />
+      <MemberSignature Language="VB.NET" Value="sigtypeUnknown" />
+      <MemberSignature Language="C++ CLI" Value="sigtypeUnknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0ee03-105">签名不是由 Office 生成的。
+</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0ee03-105">A signature not generated by Office.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

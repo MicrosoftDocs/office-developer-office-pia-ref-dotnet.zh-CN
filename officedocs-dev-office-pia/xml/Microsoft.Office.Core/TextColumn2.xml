@@ -1,0 +1,299 @@
+<Type Name="TextColumn2" FullName="Microsoft.Office.Core.TextColumn2">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="581498aa1f6fc54eacf78a8af9534fd7f7e6eb62" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657418" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface TextColumn2 : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TextColumn2 implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.TextColumn2" />
+  <TypeSignature Language="VB.NET" Value="Public Interface TextColumn2&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class TextColumn2 : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03B2-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>
+      <span data-ttu-id="4b5e1-101">
+        <para>代表一个文本栏。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4b5e1-101">
+          <para>Represents a single text column. </para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextColumn2.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4b5e1-102">获取<b>应用程序</b>对象，该对象代表容器应用程序的<see cref="T:Microsoft.Office.Core.TextColumn2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b5e1-102">Gets an <b>Application</b> object that represents the container application  for the <see cref="T:Microsoft.Office.Core.TextColumn2" /> object.</span>
+          </span>
+          <span data-ttu-id="4b5e1-103">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b5e1-103">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4b5e1-104">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b5e1-104">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextColumn2.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4b5e1-105">获取一个 32 位整数，表示在其中应用程序<see cref="T:Microsoft.Office.Core.TextColumn2" />对象的创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b5e1-105">Gets a 32-bit integer that indicates the application in which the  <see cref="T:Microsoft.Office.Core.TextColumn2" /> object was created.</span>
+          </span>
+          <span data-ttu-id="4b5e1-106">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b5e1-106">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4b5e1-107">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b5e1-107">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Number">
+      <MemberSignature Language="C#" Value="public int Number { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Number" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextColumn2.Number" />
+      <MemberSignature Language="VB.NET" Value="Public Property Number As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Number { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4b5e1-108">获取或设置的索引<see cref="T:Microsoft.Office.Core.TextColumn2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b5e1-108">Gets or sets the index of the <see cref="T:Microsoft.Office.Core.TextColumn2" /> object.</span>
+          </span>
+          <span data-ttu-id="4b5e1-109">读/写</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b5e1-109">Read/write</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4b5e1-110">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b5e1-110">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Spacing">
+      <MemberSignature Language="C#" Value="public float Spacing { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Spacing" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextColumn2.Spacing" />
+      <MemberSignature Language="VB.NET" Value="Public Property Spacing As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Spacing { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4b5e1-111">获取或设置中的文本栏间距<see cref="T:Microsoft.Office.Core.TextColumn2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b5e1-111">Gets or sets the spacing between text columns in a <see cref="T:Microsoft.Office.Core.TextColumn2" /> object.</span>
+          </span>
+          <span data-ttu-id="4b5e1-112">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b5e1-112">Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="4b5e1-113">
+            <b>Single</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b5e1-113">
+              <b>Single</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextDirection">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTextDirection TextDirection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTextDirection TextDirection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextColumn2.TextDirection" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextDirection As MsoTextDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTextDirection TextDirection { Microsoft::Office::Core::MsoTextDirection get(); void set(Microsoft::Office::Core::MsoTextDirection value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextDirection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4b5e1-114">获取或设置中的文本方向<see cref="T:Microsoft.Office.Core.TextColumn2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b5e1-114">Gets or sets the direction of text in the <see cref="T:Microsoft.Office.Core.TextColumn2" /> object.</span>
+          </span>
+          <span data-ttu-id="4b5e1-115">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b5e1-115">Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoTextDirection" />
+        </value>
+        <remarks>
+          <span data-ttu-id="4b5e1-116">
+            <para>
+              <b>MsoTextDirection</b>的示例包括<see cref="F:Microsoft.Office.Core.MsoTextDirection.msoTextDirectionLeftToRight" />， <see cref="F:Microsoft.Office.Core.MsoTextDirection.msoTextDirectionRightToLeft" />，和<see cref="F:Microsoft.Office.Core.MsoTextDirection.msoTextDirectionMixed" />。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b5e1-116">
+              <para>Examples of <b>MsoTextDirection</b> include <see cref="F:Microsoft.Office.Core.MsoTextDirection.msoTextDirectionLeftToRight" />, <see cref="F:Microsoft.Office.Core.MsoTextDirection.msoTextDirectionRightToLeft" />, and <see cref="F:Microsoft.Office.Core.MsoTextDirection.msoTextDirectionMixed" />.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

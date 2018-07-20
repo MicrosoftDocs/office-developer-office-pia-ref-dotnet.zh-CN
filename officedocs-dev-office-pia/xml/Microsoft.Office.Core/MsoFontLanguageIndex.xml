@@ -1,0 +1,105 @@
+<Type Name="MsoFontLanguageIndex" FullName="Microsoft.Office.Core.MsoFontLanguageIndex">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2311c06666da216879c4a177b110b60022f0d40d" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658160" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoFontLanguageIndex" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFontLanguageIndex extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFontLanguageIndex" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoFontLanguageIndex" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoFontLanguageIndex" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="4b8a3-101">代表中包含的三种语言字体之一<see cref="T:Microsoft.Office.Core.ThemeFonts" />集合</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4b8a3-101">Represents one of the three language fonts contained in the <see cref="T:Microsoft.Office.Core.ThemeFonts" /> collection</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoThemeComplexScript">
+      <MemberSignature Language="C#" Value="msoThemeComplexScript" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFontLanguageIndex msoThemeComplexScript = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFontLanguageIndex.msoThemeComplexScript" />
+      <MemberSignature Language="VB.NET" Value="msoThemeComplexScript" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeComplexScript" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFontLanguageIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4b8a3-p101">代表复杂文种语言的字体。复杂文种语言集合支持阿拉伯语、格鲁吉亚语、希伯来语、印第安语、泰语和越南语字母。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b8a3-p101">Represents the font face for Complex Script languages. The Complex Script language collection supports Arabic, Georgian, Hebrew, Indian, Thai and Vietnamese alphabets.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeEastAsian">
+      <MemberSignature Language="C#" Value="msoThemeEastAsian" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFontLanguageIndex msoThemeEastAsian = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFontLanguageIndex.msoThemeEastAsian" />
+      <MemberSignature Language="VB.NET" Value="msoThemeEastAsian" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeEastAsian" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFontLanguageIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4b8a3-p102">代表东亚字体。东亚语言包括简体中文、繁体中文、日语和朝鲜语。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b8a3-p102">Represents the East Asian font face. East Asian Languages include Simplified Chinese, Traditional Chinese, Japanese, and Korean.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoThemeLatin">
+      <MemberSignature Language="C#" Value="msoThemeLatin" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFontLanguageIndex msoThemeLatin = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFontLanguageIndex.msoThemeLatin" />
+      <MemberSignature Language="VB.NET" Value="msoThemeLatin" />
+      <MemberSignature Language="C++ CLI" Value="msoThemeLatin" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFontLanguageIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4b8a3-106">代表西文字体。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4b8a3-106">Represents the Latin font face.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

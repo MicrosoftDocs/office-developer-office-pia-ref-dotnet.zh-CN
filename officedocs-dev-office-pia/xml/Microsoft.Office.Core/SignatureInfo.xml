@@ -1,0 +1,819 @@
+<Type Name="SignatureInfo" FullName="Microsoft.Office.Core.SignatureInfo">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="506fbda47676aa10f8df2e14632798b442d70752" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657441" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface SignatureInfo : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SignatureInfo implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SignatureInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SignatureInfo&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SignatureInfo : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000CD6A2-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="0e2c4-101">代表用于创建数字签名或文档内签名的信息。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0e2c4-101">Represents the information used to create a digital or in-document signature.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SignatureInfo.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0e2c4-102">获取<b>应用程序</b>对象，该对象代表容器应用程序的<see cref="T:Microsoft.Office.Core.SignatureInfo" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-102">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.SignatureInfo" /> object.</span>
+          </span>
+          <span data-ttu-id="0e2c4-103">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-103">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0e2c4-104">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-104">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CertificateVerificationResults">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.CertificateVerificationResults CertificateVerificationResults { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.CertificateVerificationResults CertificateVerificationResults" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SignatureInfo.CertificateVerificationResults" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CertificateVerificationResults As CertificateVerificationResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::CertificateVerificationResults CertificateVerificationResults { Microsoft::Office::Core::CertificateVerificationResults get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CertificateVerificationResults</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0e2c4-p102">获取验证数字证书的结果。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-p102">Gets the results from the verification of a digital certificate. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.CertificateVerificationResults" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentVerificationResults">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ContentVerificationResults ContentVerificationResults { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.ContentVerificationResults ContentVerificationResults" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SignatureInfo.ContentVerificationResults" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContentVerificationResults As ContentVerificationResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ContentVerificationResults ContentVerificationResults { Microsoft::Office::Core::ContentVerificationResults get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ContentVerificationResults</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0e2c4-p103">获取一个代表已签名文档的散列内容的验证结果的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-p103">Gets a value representing the results of the verification of the hashed contents of a signed document. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.ContentVerificationResults" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SignatureInfo.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0e2c4-109">获取一个 32 位整数，表示在其中应用程序<see cref="T:Microsoft.Office.Core.SignatureInfo" />对象的创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-109">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.SignatureInfo" /> object was created.</span>
+          </span>
+          <span data-ttu-id="0e2c4-110">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-110">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0e2c4-111">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-111">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCertificateDetail">
+      <MemberSignature Language="C#" Value="public object GetCertificateDetail (Microsoft.Office.Core.CertificateDetail certdet);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetCertificateDetail([in]valuetype Microsoft.Office.Core.CertificateDetail certdet) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SignatureInfo.GetCertificateDetail(Microsoft.Office.Core.CertificateDetail)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCertificateDetail (certdet As CertificateDetail) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetCertificateDetail(Microsoft::Office::Core::CertificateDetail certdet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="certdet" Type="Microsoft.Office.Core.CertificateDetail" />
+      </Parameters>
+      <Docs>
+        <param name="certdet">
+          <span data-ttu-id="0e2c4-112">一个指定要显示的证书详细信息的枚举的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-112">An enumerated value specifying which certificate detail to display.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0e2c4-113">显示与数字证书相关的指定详细信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-113">Displays a specified detail related to  a digital certificate.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="0e2c4-114">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-114">
+              <b>Object</b>
+            </span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSignatureDetail">
+      <MemberSignature Language="C#" Value="public object GetSignatureDetail (Microsoft.Office.Core.SignatureDetail sigdet);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetSignatureDetail([in]valuetype Microsoft.Office.Core.SignatureDetail sigdet) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SignatureInfo.GetSignatureDetail(Microsoft.Office.Core.SignatureDetail)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSignatureDetail (sigdet As SignatureDetail) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetSignatureDetail(Microsoft::Office::Core::SignatureDetail sigdet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sigdet" Type="Microsoft.Office.Core.SignatureDetail" />
+      </Parameters>
+      <Docs>
+        <param name="sigdet">
+          <span data-ttu-id="0e2c4-115">一个指定要显示的签名详细信息的枚举值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-115">An enumerated  value specifying which signature detail to display.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0e2c4-116">显示与签名相关的指定详细信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-116">Displays a specified detail related to  a signature.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="0e2c4-117">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-117">
+              <b>Object</b>
+            </span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCertificateExpired">
+      <MemberSignature Language="C#" Value="public bool IsCertificateExpired { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCertificateExpired" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SignatureInfo.IsCertificateExpired" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCertificateExpired As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsCertificateExpired { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0e2c4-118">获取一个<b>布尔</b>值，该值指示是否已过期的数字证书。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-118">Gets a <b>Boolean</b> value indicating whether the digital certificate is expired.</span>
+          </span>
+          <span data-ttu-id="0e2c4-119">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-119">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0e2c4-120">
+            <b>Boolean</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-120">
+              <b>Boolean</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCertificateRevoked">
+      <MemberSignature Language="C#" Value="public bool IsCertificateRevoked { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCertificateRevoked" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SignatureInfo.IsCertificateRevoked" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCertificateRevoked As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsCertificateRevoked { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0e2c4-p106">获取一个 <b>Boolean</b> 类型的值，指示数字证书是否已吊销。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-p106">Gets a <b>Boolean</b> value indicating whether the digital certificate is revoked. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0e2c4-123">
+            <b>Boolean</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-123">
+              <b>Boolean</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCertificateUntrusted">
+      <MemberSignature Language="C#" Value="public bool IsCertificateUntrusted { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCertificateUntrusted" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SignatureInfo.IsCertificateUntrusted" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCertificateUntrusted As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsCertificateUntrusted { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0e2c4-p107">获取一个 <b>Boolean</b> 类型的值，指示用于以数字方式签署文档的数字证书是否来自受信任的来源。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-p107">Gets a <b>Boolean</b> value indicating whether the digital certificate used to digitally sign a document comes from a trusted source. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0e2c4-126">
+            <b>Boolean</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-126">
+              <b>Boolean</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsValid">
+      <MemberSignature Language="C#" Value="public bool IsValid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsValid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SignatureInfo.IsValid" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsValid As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsValid { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0e2c4-p108">获取一个 <b>Boolean</b> 类型的值，指示在执行了签名验证过程后签名是否已成功获得验证。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-p108">Gets a <b>Boolean</b> value indicating whether the signature  was successfully validated following signature verification. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0e2c4-129">
+            <b>Boolean</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-129">
+              <b>Boolean</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadOnly">
+      <MemberSignature Language="C#" Value="public bool ReadOnly { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReadOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SignatureInfo.ReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReadOnly As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReadOnly { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0e2c4-130">获取一个<b>Boolean</b>值，该值指示是否<see cref="T:Microsoft.Office.Core.SignatureInfo" />对象是只读的。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-130">Gets a <b>Boolean</b> value indicating whether the <see cref="T:Microsoft.Office.Core.SignatureInfo" /> object is read-only.</span>
+          </span>
+          <span data-ttu-id="0e2c4-131">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-131">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0e2c4-132">
+            <b>Boolean</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-132">
+              <b>Boolean</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectCertificateDetailByThumbprint">
+      <MemberSignature Language="C#" Value="public void SelectCertificateDetailByThumbprint (string bstrThumbprint);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SelectCertificateDetailByThumbprint([in]string bstrThumbprint) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SignatureInfo.SelectCertificateDetailByThumbprint(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SelectCertificateDetailByThumbprint (bstrThumbprint As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SelectCertificateDetailByThumbprint(System::String ^ bstrThumbprint);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrThumbprint" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrThumbprint">
+          <span data-ttu-id="0e2c4-133">包含有关由个性特征标识的签署人的信息。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-133">Contains information about the signer identified by the thumbprint.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0e2c4-134">在通过个性特征对用户进行验证后，显示一个包含有关数字证书的信息的对话框。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-134">Displays a dialog box containing information about a digital certificate following vertification of the user from a thumbprint.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectSignatureCertificate">
+      <MemberSignature Language="C#" Value="public void SelectSignatureCertificate (object ParentWindow);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SelectSignatureCertificate([in]object ParentWindow) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SignatureInfo.SelectSignatureCertificate(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SelectSignatureCertificate (ParentWindow As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SelectSignatureCertificate(System::Object ^ ParentWindow);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ParentWindow" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="ParentWindow">
+          <span data-ttu-id="0e2c4-135">包含证书选择对话框所在窗口的句柄。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-135">Contains a  handle to the window containing the certificate selection dialog box.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0e2c4-136">显示一个对话框，允许用户选择要用于签署文档的签名证书。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-136">Displays a dialog box that allows users to select which signature certificate to use for signing a document.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowSignatureCertificate">
+      <MemberSignature Language="C#" Value="public void ShowSignatureCertificate (object ParentWindow);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowSignatureCertificate([in]object ParentWindow) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.SignatureInfo.ShowSignatureCertificate(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowSignatureCertificate (ParentWindow As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowSignatureCertificate(System::Object ^ ParentWindow);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ParentWindow" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="ParentWindow">
+          <span data-ttu-id="0e2c4-137">包含“证书”对话框所在窗口的句柄。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-137">Contains the handle to the window containing the Certificate dialog box.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0e2c4-138">显示选定或默认的数字证书。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-138">Displays the selected or default digital certificate.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignatureComment">
+      <MemberSignature Language="C#" Value="public string SignatureComment { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SignatureComment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SignatureInfo.SignatureComment" />
+      <MemberSignature Language="VB.NET" Value="Public Property SignatureComment As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SignatureComment { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0e2c4-p110">获取或设置包含纳入签名数据包中的注释的值。可读/写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-p110">Gets or sets a value containing comments included in a  signature packet. Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0e2c4-141">
+            <b>字符串</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-141">
+              <b>String</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignatureImage">
+      <MemberSignature Language="C#" Value="public stdole.IPictureDisp SignatureImage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.IPictureDisp SignatureImage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SignatureInfo.SignatureImage" />
+      <MemberSignature Language="VB.NET" Value="Public Property SignatureImage As IPictureDisp" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property stdole::IPictureDisp ^ SignatureImage { stdole::IPictureDisp ^ get(); void set(stdole::IPictureDisp ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.IPictureDisp")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.IPictureDisp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0e2c4-p111">获取或设置用于签署文档的图像的值。可读/写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-p111">Gets or sets the value of the image used to sign the document. Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0e2c4-144">
+            <b>IPictureDisp</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-144">
+              <b>IPictureDisp</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignatureProvider">
+      <MemberSignature Language="C#" Value="public string SignatureProvider { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SignatureProvider" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SignatureInfo.SignatureProvider" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SignatureProvider As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SignatureProvider { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0e2c4-p112">获取一个标识所安装的签名提供程序加载项的值。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-p112">Gets a value identifying an installed signature provider add-in. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0e2c4-147">
+            <b>字符串</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-147">
+              <b>String</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignatureText">
+      <MemberSignature Language="C#" Value="public string SignatureText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SignatureText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.SignatureInfo.SignatureText" />
+      <MemberSignature Language="VB.NET" Value="Public Property SignatureText As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SignatureText { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0e2c4-p113">获取或设置用于签署此文档的签名文字的值。可读/写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-p113">Gets or sets the value of the signature text used to sign this document. Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="0e2c4-150">
+            <b>String</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0e2c4-150">
+              <b>String</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

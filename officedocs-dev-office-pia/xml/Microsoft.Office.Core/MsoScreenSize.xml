@@ -1,0 +1,297 @@
+<Type Name="MsoScreenSize" FullName="Microsoft.Office.Core.MsoScreenSize">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="50fc854b24a342897855dcdc50a002ff0715c93d" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657832" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoScreenSize" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoScreenSize extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoScreenSize" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoScreenSize" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoScreenSize" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="8520e-101">指定用于在 Web 浏览器中查看文档的理想屏幕分辨率。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="8520e-101">Specifies the ideal screen resolution to be used to view a document in a Web browser.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoScreenSize1024x768">
+      <MemberSignature Language="C#" Value="msoScreenSize1024x768" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoScreenSize msoScreenSize1024x768 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoScreenSize.msoScreenSize1024x768" />
+      <MemberSignature Language="VB.NET" Value="msoScreenSize1024x768" />
+      <MemberSignature Language="C++ CLI" Value="msoScreenSize1024x768" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScreenSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8520e-102">1024x768 分辨率。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8520e-102">1024x768 resolution.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoScreenSize1152x882">
+      <MemberSignature Language="C#" Value="msoScreenSize1152x882" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoScreenSize msoScreenSize1152x882 = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoScreenSize.msoScreenSize1152x882" />
+      <MemberSignature Language="VB.NET" Value="msoScreenSize1152x882" />
+      <MemberSignature Language="C++ CLI" Value="msoScreenSize1152x882" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScreenSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8520e-103">1152x882 分辨率。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8520e-103">1152x882 resolution.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoScreenSize1152x900">
+      <MemberSignature Language="C#" Value="msoScreenSize1152x900" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoScreenSize msoScreenSize1152x900 = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoScreenSize.msoScreenSize1152x900" />
+      <MemberSignature Language="VB.NET" Value="msoScreenSize1152x900" />
+      <MemberSignature Language="C++ CLI" Value="msoScreenSize1152x900" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScreenSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8520e-104">1152x900 分辨率。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8520e-104">1152x900 resolution.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoScreenSize1280x1024">
+      <MemberSignature Language="C#" Value="msoScreenSize1280x1024" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoScreenSize msoScreenSize1280x1024 = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoScreenSize.msoScreenSize1280x1024" />
+      <MemberSignature Language="VB.NET" Value="msoScreenSize1280x1024" />
+      <MemberSignature Language="C++ CLI" Value="msoScreenSize1280x1024" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScreenSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8520e-105">1280x1024 分辨率。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8520e-105">1280x1024 resolution.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoScreenSize1600x1200">
+      <MemberSignature Language="C#" Value="msoScreenSize1600x1200" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoScreenSize msoScreenSize1600x1200 = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoScreenSize.msoScreenSize1600x1200" />
+      <MemberSignature Language="VB.NET" Value="msoScreenSize1600x1200" />
+      <MemberSignature Language="C++ CLI" Value="msoScreenSize1600x1200" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScreenSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8520e-106">1600x1200 分辨率。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8520e-106">1600x1200 resolution.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoScreenSize1800x1440">
+      <MemberSignature Language="C#" Value="msoScreenSize1800x1440" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoScreenSize msoScreenSize1800x1440 = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoScreenSize.msoScreenSize1800x1440" />
+      <MemberSignature Language="VB.NET" Value="msoScreenSize1800x1440" />
+      <MemberSignature Language="C++ CLI" Value="msoScreenSize1800x1440" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScreenSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8520e-107">1800x1440 分辨率。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8520e-107">1800x1440 resolution.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoScreenSize1920x1200">
+      <MemberSignature Language="C#" Value="msoScreenSize1920x1200" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoScreenSize msoScreenSize1920x1200 = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoScreenSize.msoScreenSize1920x1200" />
+      <MemberSignature Language="VB.NET" Value="msoScreenSize1920x1200" />
+      <MemberSignature Language="C++ CLI" Value="msoScreenSize1920x1200" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScreenSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8520e-108">1920x1200 分辨率。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8520e-108">1920x1200 resolution.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoScreenSize544x376">
+      <MemberSignature Language="C#" Value="msoScreenSize544x376" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoScreenSize msoScreenSize544x376 = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoScreenSize.msoScreenSize544x376" />
+      <MemberSignature Language="VB.NET" Value="msoScreenSize544x376" />
+      <MemberSignature Language="C++ CLI" Value="msoScreenSize544x376" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScreenSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8520e-109">544x376 分辨率。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8520e-109">544x376 resolution.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoScreenSize640x480">
+      <MemberSignature Language="C#" Value="msoScreenSize640x480" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoScreenSize msoScreenSize640x480 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoScreenSize.msoScreenSize640x480" />
+      <MemberSignature Language="VB.NET" Value="msoScreenSize640x480" />
+      <MemberSignature Language="C++ CLI" Value="msoScreenSize640x480" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScreenSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8520e-110">640x480 分辨率。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8520e-110">640x480 resolution.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoScreenSize720x512">
+      <MemberSignature Language="C#" Value="msoScreenSize720x512" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoScreenSize msoScreenSize720x512 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoScreenSize.msoScreenSize720x512" />
+      <MemberSignature Language="VB.NET" Value="msoScreenSize720x512" />
+      <MemberSignature Language="C++ CLI" Value="msoScreenSize720x512" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScreenSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8520e-111">720x512 分辨率。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8520e-111">720x512 resolution.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoScreenSize800x600">
+      <MemberSignature Language="C#" Value="msoScreenSize800x600" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoScreenSize msoScreenSize800x600 = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoScreenSize.msoScreenSize800x600" />
+      <MemberSignature Language="VB.NET" Value="msoScreenSize800x600" />
+      <MemberSignature Language="C++ CLI" Value="msoScreenSize800x600" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScreenSize</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8520e-112">800x600 分辨率。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8520e-112">800x600 resolution.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

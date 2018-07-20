@@ -1,0 +1,153 @@
+<Type Name="MsoTargetBrowser" FullName="Microsoft.Office.Core.MsoTargetBrowser">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="63e62cac2a04cfec3bcc099db60627a6bb73cea8" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657831" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoTargetBrowser" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoTargetBrowser extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoTargetBrowser" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoTargetBrowser" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoTargetBrowser" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="b55ca-101">指定在 Web 浏览器中查看的文档的目标浏览器。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b55ca-101">Specifies target browser for documents viewed in a Web browser.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoTargetBrowserIE4">
+      <MemberSignature Language="C#" Value="msoTargetBrowserIE4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTargetBrowser msoTargetBrowserIE4 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTargetBrowser.msoTargetBrowserIE4" />
+      <MemberSignature Language="VB.NET" Value="msoTargetBrowserIE4" />
+      <MemberSignature Language="C++ CLI" Value="msoTargetBrowserIE4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTargetBrowser</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b55ca-102">Microsoft Internet Explorer 4.0。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b55ca-102">Microsoft Internet Explorer 4.0.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTargetBrowserIE5">
+      <MemberSignature Language="C#" Value="msoTargetBrowserIE5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTargetBrowser msoTargetBrowserIE5 = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTargetBrowser.msoTargetBrowserIE5" />
+      <MemberSignature Language="VB.NET" Value="msoTargetBrowserIE5" />
+      <MemberSignature Language="C++ CLI" Value="msoTargetBrowserIE5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTargetBrowser</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b55ca-103">Microsoft Internet Explorer 5。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b55ca-103">Microsoft Internet Explorer 5.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTargetBrowserIE6">
+      <MemberSignature Language="C#" Value="msoTargetBrowserIE6" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTargetBrowser msoTargetBrowserIE6 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTargetBrowser.msoTargetBrowserIE6" />
+      <MemberSignature Language="VB.NET" Value="msoTargetBrowserIE6" />
+      <MemberSignature Language="C++ CLI" Value="msoTargetBrowserIE6" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTargetBrowser</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b55ca-104">Microsoft Internet Explorer 6。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b55ca-104">Microsoft Internet Explorer 6.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTargetBrowserV3">
+      <MemberSignature Language="C#" Value="msoTargetBrowserV3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTargetBrowser msoTargetBrowserV3 = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTargetBrowser.msoTargetBrowserV3" />
+      <MemberSignature Language="VB.NET" Value="msoTargetBrowserV3" />
+      <MemberSignature Language="C++ CLI" Value="msoTargetBrowserV3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTargetBrowser</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b55ca-105">Netscape Navigator 3。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b55ca-105">Netscape Navigator 3.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTargetBrowserV4">
+      <MemberSignature Language="C#" Value="msoTargetBrowserV4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoTargetBrowser msoTargetBrowserV4 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoTargetBrowser.msoTargetBrowserV4" />
+      <MemberSignature Language="VB.NET" Value="msoTargetBrowserV4" />
+      <MemberSignature Language="C++ CLI" Value="msoTargetBrowserV4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTargetBrowser</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b55ca-106">Netscape Navigator 4。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b55ca-106">Netscape Navigator 4.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

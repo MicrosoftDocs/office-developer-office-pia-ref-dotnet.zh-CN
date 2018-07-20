@@ -1,0 +1,90 @@
+<Type Name="IMsoEnvelopeVBEvents_Event" FullName="Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="312ad566ad0b39ee1685b5349094170ee9f19bdc" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657892" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IMsoEnvelopeVBEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMsoEnvelopeVBEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IMsoEnvelopeVBEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IMsoEnvelopeVBEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Core.IMsoEnvelopeVBEvents), typeof(Microsoft.Office.Core.IMsoEnvelopeVBEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="ff45b-101">事件接口 for Microsoft Office<see cref="T:Microsoft.Office.Core.MsoEnvelope" />对象的事件。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ff45b-101">Events interface for Microsoft Office <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> object events.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EnvelopeHide">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler EnvelopeHide;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler EnvelopeHide" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event.EnvelopeHide" />
+      <MemberSignature Language="VB.NET" Value="Event EnvelopeHide As IMsoEnvelopeVBEvents_EnvelopeHideEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::IMsoEnvelopeVBEvents_EnvelopeHideEventHandler ^ EnvelopeHide;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ff45b-102">对应于的用户界面 (UI) 时发生<see cref="T:Microsoft.Office.Core.MsoEnvelope" />对象隐藏的。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff45b-102">Occurs when the user interface (UI) that corresponds to the <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> object is hidden.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnvelopeShow">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler EnvelopeShow;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler EnvelopeShow" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event.EnvelopeShow" />
+      <MemberSignature Language="VB.NET" Value="Event EnvelopeShow As IMsoEnvelopeVBEvents_EnvelopeShowEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Core::IMsoEnvelopeVBEvents_EnvelopeShowEventHandler ^ EnvelopeShow;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ff45b-103">对应于的用户界面 (UI) 时发生<see cref="T:Microsoft.Office.Core.MsoEnvelope" />对象显示。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ff45b-103">Occurs when the user interface (UI) that corresponds to the <see cref="T:Microsoft.Office.Core.MsoEnvelope" /> object is displayed.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

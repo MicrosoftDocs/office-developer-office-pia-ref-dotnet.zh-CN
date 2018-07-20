@@ -1,0 +1,393 @@
+<Type Name="MsoDateTimeFormat" FullName="Microsoft.Office.Core.MsoDateTimeFormat">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f6d0aea56f1d091fd15d2ca8a4acc7206eba2b8d" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658159" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoDateTimeFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoDateTimeFormat extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoDateTimeFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoDateTimeFormat" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoDateTimeFormat" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="c300e-101">指定日期/时间数据类型的格式。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c300e-101">Specifies the format of a date/time data type.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoDateTimeddddMMMMddyyyy">
+      <MemberSignature Language="C#" Value="msoDateTimeddddMMMMddyyyy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDateTimeFormat msoDateTimeddddMMMMddyyyy = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDateTimeFormat.msoDateTimeddddMMMMddyyyy" />
+      <MemberSignature Language="VB.NET" Value="msoDateTimeddddMMMMddyyyy" />
+      <MemberSignature Language="C++ CLI" Value="msoDateTimeddddMMMMddyyyy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDateTimeFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c300e-102">指定 ddddMMMMddyyyy 格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c300e-102">Specifies a ddddMMMMddyyyy format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDateTimedMMMMyyyy">
+      <MemberSignature Language="C#" Value="msoDateTimedMMMMyyyy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDateTimeFormat msoDateTimedMMMMyyyy = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDateTimeFormat.msoDateTimedMMMMyyyy" />
+      <MemberSignature Language="VB.NET" Value="msoDateTimedMMMMyyyy" />
+      <MemberSignature Language="C++ CLI" Value="msoDateTimedMMMMyyyy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDateTimeFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c300e-103">指定 MMMMyyyy 格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c300e-103">Specifies MMMMyyyy format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDateTimedMMMyy">
+      <MemberSignature Language="C#" Value="msoDateTimedMMMyy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDateTimeFormat msoDateTimedMMMyy = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDateTimeFormat.msoDateTimedMMMyy" />
+      <MemberSignature Language="VB.NET" Value="msoDateTimedMMMyy" />
+      <MemberSignature Language="C++ CLI" Value="msoDateTimedMMMyy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDateTimeFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c300e-104">指定 MMMyy 格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c300e-104">Specifies MMMyy format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDateTimeFigureOut">
+      <MemberSignature Language="C#" Value="msoDateTimeFigureOut" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDateTimeFormat msoDateTimeFigureOut = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDateTimeFormat.msoDateTimeFigureOut" />
+      <MemberSignature Language="VB.NET" Value="msoDateTimeFigureOut" />
+      <MemberSignature Language="C++ CLI" Value="msoDateTimeFigureOut" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDateTimeFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c300e-105">指定 Office 应用程序将确定该格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c300e-105">Specifies that the Office application will determine the format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDateTimeFormatMixed">
+      <MemberSignature Language="C#" Value="msoDateTimeFormatMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDateTimeFormat msoDateTimeFormatMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDateTimeFormat.msoDateTimeFormatMixed" />
+      <MemberSignature Language="VB.NET" Value="msoDateTimeFormatMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoDateTimeFormatMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDateTimeFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c300e-106">指定混和格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c300e-106">Specifies a mixed format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDateTimeHmm">
+      <MemberSignature Language="C#" Value="msoDateTimeHmm" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDateTimeFormat msoDateTimeHmm = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDateTimeFormat.msoDateTimeHmm" />
+      <MemberSignature Language="VB.NET" Value="msoDateTimeHmm" />
+      <MemberSignature Language="C++ CLI" Value="msoDateTimeHmm" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDateTimeFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c300e-107">指定 Hmm 格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c300e-107">Specifies Hmm format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDateTimehmmAMPM">
+      <MemberSignature Language="C#" Value="msoDateTimehmmAMPM" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDateTimeFormat msoDateTimehmmAMPM = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDateTimeFormat.msoDateTimehmmAMPM" />
+      <MemberSignature Language="VB.NET" Value="msoDateTimehmmAMPM" />
+      <MemberSignature Language="C++ CLI" Value="msoDateTimehmmAMPM" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDateTimeFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c300e-108">指定 hmmAMPM 格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c300e-108">Specifies a hmmAMPM format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDateTimeHmmss">
+      <MemberSignature Language="C#" Value="msoDateTimeHmmss" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDateTimeFormat msoDateTimeHmmss = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDateTimeFormat.msoDateTimeHmmss" />
+      <MemberSignature Language="VB.NET" Value="msoDateTimeHmmss" />
+      <MemberSignature Language="C++ CLI" Value="msoDateTimeHmmss" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDateTimeFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c300e-109">指定 Hmmss 格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c300e-109">Specifies a Hmmss format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDateTimehmmssAMPM">
+      <MemberSignature Language="C#" Value="msoDateTimehmmssAMPM" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDateTimeFormat msoDateTimehmmssAMPM = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDateTimeFormat.msoDateTimehmmssAMPM" />
+      <MemberSignature Language="VB.NET" Value="msoDateTimehmmssAMPM" />
+      <MemberSignature Language="C++ CLI" Value="msoDateTimehmmssAMPM" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDateTimeFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c300e-110">指定 hmmssAMPM 格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c300e-110">Specifies a hmmssAMPM format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDateTimeMdyy">
+      <MemberSignature Language="C#" Value="msoDateTimeMdyy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDateTimeFormat msoDateTimeMdyy = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDateTimeFormat.msoDateTimeMdyy" />
+      <MemberSignature Language="VB.NET" Value="msoDateTimeMdyy" />
+      <MemberSignature Language="C++ CLI" Value="msoDateTimeMdyy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDateTimeFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c300e-111">指定 Mdyy 格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c300e-111">Specifies a Mdyy format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDateTimeMMddyyHmm">
+      <MemberSignature Language="C#" Value="msoDateTimeMMddyyHmm" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDateTimeFormat msoDateTimeMMddyyHmm = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDateTimeFormat.msoDateTimeMMddyyHmm" />
+      <MemberSignature Language="VB.NET" Value="msoDateTimeMMddyyHmm" />
+      <MemberSignature Language="C++ CLI" Value="msoDateTimeMMddyyHmm" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDateTimeFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c300e-112">指定 MMddyyHmm 格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c300e-112">Specifies a MMddyyHmm format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDateTimeMMddyyhmmAMPM">
+      <MemberSignature Language="C#" Value="msoDateTimeMMddyyhmmAMPM" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDateTimeFormat msoDateTimeMMddyyhmmAMPM = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDateTimeFormat.msoDateTimeMMddyyhmmAMPM" />
+      <MemberSignature Language="VB.NET" Value="msoDateTimeMMddyyhmmAMPM" />
+      <MemberSignature Language="C++ CLI" Value="msoDateTimeMMddyyhmmAMPM" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDateTimeFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c300e-113">指定 MMddyyhmmAMPM 格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c300e-113">Specifies a MMddyyhmmAMPM format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDateTimeMMMMdyyyy">
+      <MemberSignature Language="C#" Value="msoDateTimeMMMMdyyyy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDateTimeFormat msoDateTimeMMMMdyyyy = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDateTimeFormat.msoDateTimeMMMMdyyyy" />
+      <MemberSignature Language="VB.NET" Value="msoDateTimeMMMMdyyyy" />
+      <MemberSignature Language="C++ CLI" Value="msoDateTimeMMMMdyyyy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDateTimeFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c300e-114">指定 MMMMdyyyy 格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c300e-114">Specifies a MMMMdyyyy format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDateTimeMMMMyy">
+      <MemberSignature Language="C#" Value="msoDateTimeMMMMyy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDateTimeFormat msoDateTimeMMMMyy = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDateTimeFormat.msoDateTimeMMMMyy" />
+      <MemberSignature Language="VB.NET" Value="msoDateTimeMMMMyy" />
+      <MemberSignature Language="C++ CLI" Value="msoDateTimeMMMMyy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDateTimeFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c300e-115">指定 MMMMyy 格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c300e-115">Specifies a MMMMyy format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDateTimeMMyy">
+      <MemberSignature Language="C#" Value="msoDateTimeMMyy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDateTimeFormat msoDateTimeMMyy = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDateTimeFormat.msoDateTimeMMyy" />
+      <MemberSignature Language="VB.NET" Value="msoDateTimeMMyy" />
+      <MemberSignature Language="C++ CLI" Value="msoDateTimeMMyy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDateTimeFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c300e-116">指定 MMyy 格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c300e-116">Specifies a MMyy format.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

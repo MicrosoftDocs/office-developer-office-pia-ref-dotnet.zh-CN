@@ -1,0 +1,873 @@
+<Type Name="MsoAnimationType" FullName="Microsoft.Office.Core.MsoAnimationType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4de92cc31d2a12343a3d9719ef5e5f3405e5f722" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658243" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoAnimationType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoAnimationType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoAnimationType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoAnimationType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoAnimationType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="46808-101">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="46808-101">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoAnimationAppear">
+      <MemberSignature Language="C#" Value="msoAnimationAppear" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationAppear = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationAppear" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationAppear" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationAppear" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-102">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-102">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationBeginSpeaking">
+      <MemberSignature Language="C#" Value="msoAnimationBeginSpeaking" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationBeginSpeaking = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationBeginSpeaking" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationBeginSpeaking" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationBeginSpeaking" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-103">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-103">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationCharacterSuccessMajor">
+      <MemberSignature Language="C#" Value="msoAnimationCharacterSuccessMajor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationCharacterSuccessMajor = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationCharacterSuccessMajor" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationCharacterSuccessMajor" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationCharacterSuccessMajor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-104">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-104">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationCheckingSomething">
+      <MemberSignature Language="C#" Value="msoAnimationCheckingSomething" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationCheckingSomething = int32(103)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationCheckingSomething" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationCheckingSomething" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationCheckingSomething" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>103</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-105">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-105">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationDisappear">
+      <MemberSignature Language="C#" Value="msoAnimationDisappear" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationDisappear = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationDisappear" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationDisappear" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationDisappear" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-106">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-106">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationEmptyTrash">
+      <MemberSignature Language="C#" Value="msoAnimationEmptyTrash" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationEmptyTrash = int32(116)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationEmptyTrash" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationEmptyTrash" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationEmptyTrash" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>116</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-107">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-107">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationGestureDown">
+      <MemberSignature Language="C#" Value="msoAnimationGestureDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationGestureDown = int32(113)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationGestureDown" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationGestureDown" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationGestureDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>113</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-108">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-108">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationGestureLeft">
+      <MemberSignature Language="C#" Value="msoAnimationGestureLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationGestureLeft = int32(114)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationGestureLeft" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationGestureLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationGestureLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>114</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-109">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-109">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationGestureRight">
+      <MemberSignature Language="C#" Value="msoAnimationGestureRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationGestureRight = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationGestureRight" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationGestureRight" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationGestureRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-110">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-110">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationGestureUp">
+      <MemberSignature Language="C#" Value="msoAnimationGestureUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationGestureUp = int32(115)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationGestureUp" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationGestureUp" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationGestureUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>115</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-111">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-111">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationGetArtsy">
+      <MemberSignature Language="C#" Value="msoAnimationGetArtsy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationGetArtsy = int32(100)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationGetArtsy" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationGetArtsy" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationGetArtsy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>100</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-112">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-112">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationGetAttentionMajor">
+      <MemberSignature Language="C#" Value="msoAnimationGetAttentionMajor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationGetAttentionMajor = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationGetAttentionMajor" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationGetAttentionMajor" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationGetAttentionMajor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-113">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-113">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationGetAttentionMinor">
+      <MemberSignature Language="C#" Value="msoAnimationGetAttentionMinor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationGetAttentionMinor = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationGetAttentionMinor" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationGetAttentionMinor" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationGetAttentionMinor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-114">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-114">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationGetTechy">
+      <MemberSignature Language="C#" Value="msoAnimationGetTechy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationGetTechy = int32(101)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationGetTechy" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationGetTechy" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationGetTechy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>101</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-115">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-115">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationGetWizardy">
+      <MemberSignature Language="C#" Value="msoAnimationGetWizardy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationGetWizardy = int32(102)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationGetWizardy" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationGetWizardy" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationGetWizardy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>102</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-116">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-116">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationGoodbye">
+      <MemberSignature Language="C#" Value="msoAnimationGoodbye" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationGoodbye = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationGoodbye" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationGoodbye" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationGoodbye" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-117">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-117">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationGreeting">
+      <MemberSignature Language="C#" Value="msoAnimationGreeting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationGreeting = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationGreeting" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationGreeting" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationGreeting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-118">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-118">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationIdle">
+      <MemberSignature Language="C#" Value="msoAnimationIdle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationIdle = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationIdle" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationIdle" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationIdle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-119">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-119">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationListensToComputer">
+      <MemberSignature Language="C#" Value="msoAnimationListensToComputer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationListensToComputer = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationListensToComputer" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationListensToComputer" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationListensToComputer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-120">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-120">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationLookDown">
+      <MemberSignature Language="C#" Value="msoAnimationLookDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationLookDown = int32(104)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationLookDown" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationLookDown" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationLookDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>104</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-121">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-121">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationLookDownLeft">
+      <MemberSignature Language="C#" Value="msoAnimationLookDownLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationLookDownLeft = int32(105)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationLookDownLeft" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationLookDownLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationLookDownLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>105</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-122">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-122">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationLookDownRight">
+      <MemberSignature Language="C#" Value="msoAnimationLookDownRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationLookDownRight = int32(106)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationLookDownRight" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationLookDownRight" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationLookDownRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>106</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-123">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-123">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationLookLeft">
+      <MemberSignature Language="C#" Value="msoAnimationLookLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationLookLeft = int32(107)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationLookLeft" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationLookLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationLookLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>107</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-124">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-124">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationLookRight">
+      <MemberSignature Language="C#" Value="msoAnimationLookRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationLookRight = int32(108)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationLookRight" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationLookRight" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationLookRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>108</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-125">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-125">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationLookUp">
+      <MemberSignature Language="C#" Value="msoAnimationLookUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationLookUp = int32(109)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationLookUp" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationLookUp" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationLookUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>109</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-126">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-126">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationLookUpLeft">
+      <MemberSignature Language="C#" Value="msoAnimationLookUpLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationLookUpLeft = int32(110)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationLookUpLeft" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationLookUpLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationLookUpLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>110</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-127">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-127">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationLookUpRight">
+      <MemberSignature Language="C#" Value="msoAnimationLookUpRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationLookUpRight = int32(111)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationLookUpRight" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationLookUpRight" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationLookUpRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>111</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-128">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-128">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationPrinting">
+      <MemberSignature Language="C#" Value="msoAnimationPrinting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationPrinting = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationPrinting" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationPrinting" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationPrinting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-129">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-129">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationRestPose">
+      <MemberSignature Language="C#" Value="msoAnimationRestPose" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationRestPose = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationRestPose" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationRestPose" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationRestPose" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-130">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-130">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationSaving">
+      <MemberSignature Language="C#" Value="msoAnimationSaving" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationSaving = int32(112)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationSaving" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationSaving" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationSaving" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>112</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-131">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-131">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationSearching">
+      <MemberSignature Language="C#" Value="msoAnimationSearching" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationSearching = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationSearching" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationSearching" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationSearching" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-132">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-132">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationSendingMail">
+      <MemberSignature Language="C#" Value="msoAnimationSendingMail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationSendingMail = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationSendingMail" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationSendingMail" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationSendingMail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-133">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-133">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationThinking">
+      <MemberSignature Language="C#" Value="msoAnimationThinking" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationThinking = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationThinking" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationThinking" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationThinking" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-134">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-134">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationWorkingAtSomething">
+      <MemberSignature Language="C#" Value="msoAnimationWorkingAtSomething" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationWorkingAtSomething = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationWorkingAtSomething" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationWorkingAtSomething" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationWorkingAtSomething" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-135">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-135">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnimationWritingNotingSomething">
+      <MemberSignature Language="C#" Value="msoAnimationWritingNotingSomething" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoAnimationType msoAnimationWritingNotingSomething = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoAnimationType.msoAnimationWritingNotingSomething" />
+      <MemberSignature Language="VB.NET" Value="msoAnimationWritingNotingSomething" />
+      <MemberSignature Language="C++ CLI" Value="msoAnimationWritingNotingSomething" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAnimationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="46808-136">此对象、成员或枚举已被弃用并且不适合在您的代码中使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="46808-136">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

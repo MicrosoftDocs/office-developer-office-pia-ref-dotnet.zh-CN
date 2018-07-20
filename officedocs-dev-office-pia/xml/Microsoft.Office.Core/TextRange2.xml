@@ -1,0 +1,2229 @@
+<Type Name="TextRange2" FullName="Microsoft.Office.Core.TextRange2">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e13cb597db4d10f29174ed725d2871ab3848976a" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658366" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface TextRange2 : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TextRange2 implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.TextRange2" />
+  <TypeSignature Language="VB.NET" Value="Public Interface TextRange2&#xA;Implements _IMsoDispObj, IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class TextRange2 : Microsoft::Office::Core::_IMsoDispObj, System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0397-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="349b0-101">代表 <b>Shape</b> 或 <b>ShapeRange</b> 对象中的文本框。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="349b0-101">Represents the text frame in a <b>Shape</b> or <b>ShapeRange</b> objects.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="349b0-102">
+        <para>此对象包含文本框架，以及属性和方法的控件的对齐方式和定位文本框架中的文本。使用<b>TextFrame2</b>属性可返回<see cref="T:Microsoft.Office.Core.TextFrame2" />对象。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="349b0-102">
+          <para>This object contains the text in the text frame as well as the properties and methods that control the alignment and anchoring of the text frame. Use the <b>TextFrame2</b> property to return a <see cref="T:Microsoft.Office.Core.TextFrame2" /> object.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddPeriods">
+      <MemberSignature Language="C#" Value="public void AddPeriods ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddPeriods() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.AddPeriods" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddPeriods ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddPeriods();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(29)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-103">中包含的文本的右侧添加句点 （.）<see cref="T:Microsoft.Office.Core.TextFrame2" />对象从左到右语言和从右到左语言的左侧。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-103">Adds period (.) punctuation to the right side of the text contained in <see cref="T:Microsoft.Office.Core.TextFrame2" /> object for left-to-right languages and on the left side for right-to-left languages.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-104">使用对象识别符，此属性返回一个代表 Microsoft Office 应用程序的当前实例的<b>应用程序</b>对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-104">Used without an object qualifier, this property returns an <b>Application</b> object that represents the current instance of the Microsoft Office application.</span>
+          </span>
+          <span data-ttu-id="349b0-105">使用对象识别符，此属性返回一个<b>Application</b>对象代表的创建者的<see cref="T:Microsoft.Office.Core.TextFrame2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-105">Used with an object qualifier, this property returns an <b>Application</b> object that represents the creator of the <see cref="T:Microsoft.Office.Core.TextFrame2" /> object.</span>
+          </span>
+          <span data-ttu-id="349b0-106">当与一个 OLE 自动化对象一起使用，它将返回该对象的应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-106">When used with an OLE Automation object, it returns the object's application.</span>
+          </span>
+          <span data-ttu-id="349b0-107">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-107">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="349b0-108">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-108">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BoundHeight">
+      <MemberSignature Language="C#" Value="public float BoundHeight { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 BoundHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.BoundHeight" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BoundHeight As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BoundHeight { float get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-p102">获取指定文本的文本边界框的高度（以磅为单位）。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-p102">Gets the height, in points, of the text bounding box for the specified text. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="349b0-111">
+            <b>Single</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-111">
+              <b>Single</b>
+            </span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="349b0-112">
+            <para>文本边界框不相同<see cref="T:Microsoft.Office.Core.TextFrame" />对象。 <b>TextFrame</b>对象表示文本可以驻留在其中的容器。 文本边界框代表外围立即周围文本。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-112">
+              <para>The text bounding box is not the same as the <see cref="T:Microsoft.Office.Core.TextFrame" /> object.  The <b>TextFrame</b> object represents the container in which the text can reside.  The text bounding box represents the perimeter immediately surrounding the text.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BoundLeft">
+      <MemberSignature Language="C#" Value="public float BoundLeft { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 BoundLeft" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.BoundLeft" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BoundLeft As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BoundLeft { float get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-p103">获取指定文本的文本边界框的左坐标（以磅为单位）。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-p103">Gets the left coordinate, in points, of the text bounding box for the specified text. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="349b0-115">
+            <b>Single</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-115">
+              <b>Single</b>
+            </span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="349b0-116">
+            <para>文本边界框不相同<see cref="T:Microsoft.Office.Core.TextFrame" />对象。 <b>TextFrame</b>对象表示文本可以驻留在其中的容器。 文本边界框代表外围立即周围文本。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-116">
+              <para>The text bounding box is not the same as the <see cref="T:Microsoft.Office.Core.TextFrame" /> object.  The <b>TextFrame</b> object represents the container in which the text can reside.  The text bounding box represents the perimeter immediately surrounding the text.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BoundTop">
+      <MemberSignature Language="C#" Value="public float BoundTop { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 BoundTop" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.BoundTop" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BoundTop As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BoundTop { float get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-p104">获取指定文本的文本边界框的顶部坐标（以磅为单位）。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-p104">Gets the top coordinate, in points, of the text bounding box for the specified text. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="349b0-119">
+            <b>Single</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-119">
+              <b>Single</b>
+            </span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="349b0-120">
+            <para>文本边界框不相同<see cref="T:Microsoft.Office.Core.TextFrame" />对象。 <b>TextFrame</b>对象表示文本可以驻留在其中的容器。 文本边界框代表外围立即周围文本。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-120">
+              <para>The text bounding box is not the same as the <see cref="T:Microsoft.Office.Core.TextFrame" /> object.  The <b>TextFrame</b> object represents the container in which the text can reside.  The text bounding box represents the perimeter immediately surrounding the text.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BoundWidth">
+      <MemberSignature Language="C#" Value="public float BoundWidth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 BoundWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.BoundWidth" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BoundWidth As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BoundWidth { float get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-p105">获取指定文本的文本边界框的宽度（以磅为单位）。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-p105">Gets the width, in points, of the text bounding box for the specified text. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="349b0-123">
+            <b>Single</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-123">
+              <b>Single</b>
+            </span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="349b0-124">
+            <para>文本边界框不相同<see cref="T:Microsoft.Office.Core.TextFrame" />对象。 <b>TextFrame</b>对象表示文本可以驻留在其中的容器。 文本边界框代表外围立即周围文本。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-124">
+              <para>The text bounding box is not the same as the <see cref="T:Microsoft.Office.Core.TextFrame" /> object.  The <b>TextFrame</b> object represents the container in which the text can reside.  The text bounding box represents the perimeter immediately surrounding the text.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeCase">
+      <MemberSignature Language="C#" Value="public void ChangeCase (Microsoft.Office.Core.MsoTextChangeCase Type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ChangeCase([in]valuetype Microsoft.Office.Core.MsoTextChangeCase Type) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.ChangeCase(Microsoft.Office.Core.MsoTextChangeCase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ChangeCase (Type As MsoTextChangeCase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ChangeCase(Microsoft::Office::Core::MsoTextChangeCase Type);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(28)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="Microsoft.Office.Core.MsoTextChangeCase" />
+      </Parameters>
+      <Docs>
+        <param name="Type">
+          <span data-ttu-id="349b0-125">指定要对文本所做的更改的类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-125">Specifies the type of change to make to the text.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="349b0-126">更改大小写的<see cref="T:Microsoft.Office.Core.TextRange2" />对象中的值之一<see cref="T:Microsoft.Office.Core.MsoTextChangeCase" />枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-126">Changes the case of a <see cref="T:Microsoft.Office.Core.TextRange2" /> object to one of  the values in the <see cref="T:Microsoft.Office.Core.MsoTextChangeCase" /> enumeration.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="349b0-127">
+            <para>
+              <b>MsoTextChangeCase</b>枚举的示例包括<see cref="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseLower" />， <see cref="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseUpper" />，和<see cref="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseTitle" />。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-127">
+              <para>Examples of <b>MsoTextChangeCase</b> enumeration include <see cref="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseLower" />, <see cref="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseUpper" />, and <see cref="F:Microsoft.Office.Core.MsoTextChangeCase.msoCaseTitle" />.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Characters">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Characters[int Start = -1, int Length = -1] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 Characters(int32, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Characters(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Characters(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Characters[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="System.Int32" />
+        <Parameter Name="Length" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Start">
+          <span data-ttu-id="349b0-128">返回范围中的第一个字符。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-128">The first character in the returned range.</span>
+          </span>
+        </param>
+        <param name="Length">
+          <span data-ttu-id="349b0-129">要返回的字符数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-129">The number of characters to be returned.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="349b0-130">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-130">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.TextRange2" />
+        </value>
+        <remarks>
+          <span data-ttu-id="349b0-131">
+            <para>如果两个<paramref name="Start" />和<paramref name="Length" />都省略，则返回的范围从第一个字符开始并指定范围中的最后一段结束。</para>
+            <para>如果<paramref name="Start" />指定但<paramref name="Length" />是省略，则返回的范围包含一个字符。</para>
+            <para>如果<paramref name="Length" />指定但<paramref name="Start" />是省略，则返回的范围的指定范围中的第一个字符开头。</para>
+            <para>如果<paramref name="Start" />大于指定文本，返回的范围指定范围中的最后一个字符开头中的字符数。</para>
+            <para>如果<paramref name="Length" />大于从指定的字符数从开始到文本末尾的字符，则返回的范围包含所有这些字符。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-131">
+              <para>If both <paramref name="Start" /> and <paramref name="Length" /> are omitted, the returned range starts with the first character and ends with the last paragraph in the specified range.</para>
+              <para>If <paramref name="Start" /> is specified but <paramref name="Length" /> is omitted, the returned range contains one character.</para>
+              <para>If <paramref name="Length" /> is specified but <paramref name="Start" /> is omitted, the returned range starts with the first character in the specified range.</para>
+              <para>If <paramref name="Start" /> is greater than the number of characters in the specified text, the returned range starts with the last character in the specified range.</para>
+              <para>If <paramref name="Length" /> is greater than the number of characters from the specified starting character to the end of the text, the returned range contains all those characters.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+        <example>
+          <span data-ttu-id="349b0-132">
+            <para>本示例设置当前演示文稿中第一张幻灯片的第二个形状的文本，并将第二个字符设为偏移 20% 的下标。</para>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-132">
+              <para>This example sets the text for shape two on slide one in the active presentation and then makes the second character a subscript character with a 20-percent offset.</para>
+            </span>
+          </span>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public void Copy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Copy() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Copy" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Copy ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Copy();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(24)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-133">副本<see cref="T:Microsoft.Office.Core.TextRange2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-133">Copies a <see cref="T:Microsoft.Office.Core.TextRange2" /> object.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-134">获取中的项目数<see cref="T:Microsoft.Office.Core.TextRange2" />集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-134">Gets the number of items in the  <see cref="T:Microsoft.Office.Core.TextRange2" /> collection.</span>
+          </span>
+          <span data-ttu-id="349b0-135">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-135">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="349b0-136">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-136">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-137">获取一个 32 位整数，表示在其中应用程序<see cref="T:Microsoft.Office.Core.TextRange2" />对象的创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-137">Gets a 32-bit integer that indicates the application in which the  <see cref="T:Microsoft.Office.Core.TextRange2" /> object was created.</span>
+          </span>
+          <span data-ttu-id="349b0-138">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-138">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="349b0-139">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-139">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cut">
+      <MemberSignature Language="C#" Value="public void Cut ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Cut() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Cut" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Cut ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Cut();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(23)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-140">删除某文本区域中的部分或全部文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-140">Removes a portion or all of the text from a range of text.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(25)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-141">删除<see cref="T:Microsoft.Office.Core.TextRange2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-141">Deletes a <see cref="T:Microsoft.Office.Core.TextRange2" /> object.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Find">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Find (string FindWhat, int After = 0, Microsoft.Office.Core.MsoTriState MatchCase = Microsoft.Office.Core.MsoTriState.msoFalse, Microsoft.Office.Core.MsoTriState WholeWords = Microsoft.Office.Core.MsoTriState.msoFalse);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 Find([in]string FindWhat, [in]int32 After, [in]valuetype Microsoft.Office.Core.MsoTriState MatchCase, [in]valuetype Microsoft.Office.Core.MsoTriState WholeWords) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Find(System.String,System.Int32,Microsoft.Office.Core.MsoTriState,Microsoft.Office.Core.MsoTriState)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Find (FindWhat As String, Optional After As Integer = 0, Optional MatchCase As MsoTriState = Microsoft.Office.Core.MsoTriState.msoFalse, Optional WholeWords As MsoTriState = Microsoft.Office.Core.MsoTriState.msoFalse) As TextRange2" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(31)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FindWhat" Type="System.String" />
+        <Parameter Name="After" Type="System.Int32" />
+        <Parameter Name="MatchCase" Type="Microsoft.Office.Core.MsoTriState" />
+        <Parameter Name="WholeWords" Type="Microsoft.Office.Core.MsoTriState" />
+      </Parameters>
+      <Docs>
+        <param name="FindWhat">
+          <span data-ttu-id="349b0-142">包含要查找的文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-142">Contains the text to find.</span>
+          </span>
+        </param>
+        <param name="After">
+          <span data-ttu-id="349b0-143">指定要搜索的文本范围的起点。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-143">Specifies the point in the text range to start the search.</span>
+          </span>
+        </param>
+        <param name="MatchCase">
+          <span data-ttu-id="349b0-144">指定目标文本是否必须与搜索文本的大小写完全一致。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-144">Specifies if the target text must exactly match the case of the search text.</span>
+          </span>
+        </param>
+        <param name="WholeWords">
+          <span data-ttu-id="349b0-145">指定将仅搜索整个词。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-145">Specifies that only whole words will be searched.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="349b0-146">搜索<see cref="T:Microsoft.Office.Core.TextRange2" />对象的文本的子集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-146">Searches a <see cref="T:Microsoft.Office.Core.TextRange2" /> object for  a subset of text.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="349b0-147">
+            <b>TextRange2</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-147">
+              <b>TextRange2</b>
+            </span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Font">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Font2 Font { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.Font2 Font" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Font" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Font As Font2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Font2 ^ Font { Microsoft::Office::Core::Font2 ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.Font2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-148">返回一个<b>Font</b>对象，代表字符格式<see cref="T:Microsoft.Office.Core.TextRange2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-148">Returns a <b>Font</b> object that represents character formatting for the <see cref="T:Microsoft.Office.Core.TextRange2" /> object.</span>
+          </span>
+          <span data-ttu-id="349b0-149">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-149">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="349b0-150">
+            <b>Font</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-150">
+              <b>Font</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertAfter">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 InsertAfter (string NewText = &quot;&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 InsertAfter([in]string NewText) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.InsertAfter(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function InsertAfter (Optional NewText As String = &quot;&quot;) As TextRange2" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(19)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="NewText" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="NewText">
+          <span data-ttu-id="349b0-151">包含要插入的文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-151">Contains the text to be inserted.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="349b0-152">插入文本中的现有文本的右侧<see cref="T:Microsoft.Office.Core.TextRange2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-152">Inserts text to the right of the existing text   in  the <see cref="T:Microsoft.Office.Core.TextRange2" /> object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="349b0-153">
+            <b>TextRange2</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-153">
+              <b>TextRange2</b>
+            </span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertBefore">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 InsertBefore (string NewText = &quot;&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 InsertBefore([in]string NewText) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.InsertBefore(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function InsertBefore (Optional NewText As String = &quot;&quot;) As TextRange2" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(20)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="NewText" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="NewText">
+          <span data-ttu-id="349b0-154">包含要插入的文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-154">Contains the text to be inserted.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="349b0-155">插入文本中的现有文本的左侧<see cref="T:Microsoft.Office.Core.TextRange2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-155">Inserts text to the left of the existing text in the <see cref="T:Microsoft.Office.Core.TextRange2" /> object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="349b0-156">
+            <b>TextRange2</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-156">
+              <b>TextRange2</b>
+            </span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertChartField">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 InsertChartField (Microsoft.Office.Core.MsoChartFieldType ChartFieldType, string Formula = &quot;&quot;, int Position = -1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 InsertChartField([in]valuetype Microsoft.Office.Core.MsoChartFieldType ChartFieldType, [in]string Formula, [in]int32 Position) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.InsertChartField(Microsoft.Office.Core.MsoChartFieldType,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function InsertChartField (ChartFieldType As MsoChartFieldType, Optional Formula As String = &quot;&quot;, Optional Position As Integer = -1) As TextRange2" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(38)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ChartFieldType" Type="Microsoft.Office.Core.MsoChartFieldType" />
+        <Parameter Name="Formula" Type="System.String" />
+        <Parameter Name="Position" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="ChartFieldType">
+          <span data-ttu-id="349b0-157">包含要插入的文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-157">Contains the text to be inserted.</span>
+          </span>
+        </param>
+        <param name="Formula">
+          <span data-ttu-id="349b0-158">如果指定的单元格 （或范围）<see cref="Microsoft.Office.Core.MsoChartFieldFormula" />常量中传递的<paramref name="ChartFieldType" />参数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-158">Specifies a cell (or range) if the <see cref="Microsoft.Office.Core.MsoChartFieldFormula" /> constant is passed in for the <paramref name="ChartFieldType" /> parameter.</span>
+          </span>
+        </param>
+        <param name="Position">
+          <span data-ttu-id="349b0-159">指定图表字段插入的字符位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-159">Specifies the character position where the chart field is inserted.</span>
+          </span>
+          <span data-ttu-id="349b0-160">默认值是追加到文本末尾的域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-160">The default is to append the field to the end of the text.</span>
+          </span>
+          <span data-ttu-id="349b0-161">如果位置的值是超出范围，则使用默认值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-161">If the position value is out of range, the default is used.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="349b0-162">将域插入图表中的数据标签的正文。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-162">Inserts a field into the body of a data label in a chart.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="349b0-163">
+            <b>TextRange2</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-163">
+              <b>TextRange2</b>
+            </span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="349b0-164">
+            <para>此方法仅应用于图表中的数据标签。对任何其他类型的<a href="a6a59c9b-9b64-c1e2-2e98-a1f99025c877.htm">Microsoft.Office.Core.TextRange2</a>调用此方法</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-164">
+              <para>This method applies only to data labels in a chart. Calling this method on any other kind of <a href="a6a59c9b-9b64-c1e2-2e98-a1f99025c877.htm">Microsoft.Office.Core.TextRange2</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertSymbol">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 InsertSymbol (string FontName, int CharNumber, Microsoft.Office.Core.MsoTriState Unicode = Microsoft.Office.Core.MsoTriState.msoFalse);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 InsertSymbol([in]string FontName, [in]int32 CharNumber, [in]valuetype Microsoft.Office.Core.MsoTriState Unicode) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.InsertSymbol(System.String,System.Int32,Microsoft.Office.Core.MsoTriState)" />
+      <MemberSignature Language="VB.NET" Value="Public Function InsertSymbol (FontName As String, CharNumber As Integer, Optional Unicode As MsoTriState = Microsoft.Office.Core.MsoTriState.msoFalse) As TextRange2" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(21)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FontName" Type="System.String" />
+        <Parameter Name="CharNumber" Type="System.Int32" />
+        <Parameter Name="Unicode" Type="Microsoft.Office.Core.MsoTriState" />
+      </Parameters>
+      <Docs>
+        <param name="FontName">
+          <span data-ttu-id="349b0-165">字体集的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-165">The name of the font set.</span>
+          </span>
+        </param>
+        <param name="CharNumber">
+          <span data-ttu-id="349b0-166">符号的编号。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-166">The number of the symbol.</span>
+          </span>
+        </param>
+        <param name="Unicode">
+          <span data-ttu-id="349b0-167">指示是否将符号的值指定为 Unicode 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-167">Indicates whether the value of the symbol is specified as a unicode value.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="349b0-168">指定字体集合到的表示文本范围中插入一个符号，<see cref="T:Microsoft.Office.Core.TextRange2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-168">Inserts a symbol from the specified font set into the range of text represented by the <see cref="T:Microsoft.Office.Core.TextRange2" /> object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="349b0-169">
+            <b>TextRange2</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-169">
+              <b>TextRange2</b>
+            </span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Item (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 Item([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Item (Index As Object) As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::TextRange2 ^ Item(System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="349b0-170">文本范围的索引号。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-170">The index number of the text range.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="349b0-171">获取范围中的索引号指定的文本<see cref="T:Microsoft.Office.Core.TextRange2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-171">Gets the range of text specified by the index number from the <see cref="T:Microsoft.Office.Core.TextRange2" /> object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="349b0-172">
+            <b>TextRange2</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-172">
+              <b>TextRange2</b>
+            </span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LanguageID">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoLanguageID LanguageID { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoLanguageID LanguageID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.LanguageID" />
+      <MemberSignature Language="VB.NET" Value="Public Property LanguageID As MsoLanguageID" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoLanguageID LanguageID { Microsoft::Office::Core::MsoLanguageID get(); void set(Microsoft::Office::Core::MsoLanguageID value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLanguageID</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-173">获取或设置<see cref="T:Microsoft.Office.Core.MsoLanguageID" />的值<see cref="T:Microsoft.Office.Core.TextRange2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-173">Gets or sets the <see cref="T:Microsoft.Office.Core.MsoLanguageID" /> value of the <see cref="T:Microsoft.Office.Core.TextRange2" /> object.</span>
+          </span>
+          <span data-ttu-id="349b0-174">为可读/写属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-174">Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="349b0-175">
+            <b>MsoLanguageID</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-175">
+              <b>MsoLanguageID</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Length">
+      <MemberSignature Language="C#" Value="public int Length { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Length" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Length" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Length As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Length { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-176">获取文本范围的长度。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-176">Gets the length of a text range.</span>
+          </span>
+          <span data-ttu-id="349b0-177">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-177">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="349b0-178">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-178">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Lines">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Lines[int Start = -1, int Length = -1] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 Lines(int32, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Lines(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Lines(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Lines[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="System.Int32" />
+        <Parameter Name="Length" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Start">
+          <span data-ttu-id="349b0-179">返回的范围中的第一行。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-179">The first line in the returned range.</span>
+          </span>
+        </param>
+        <param name="Length">
+          <span data-ttu-id="349b0-180">要返回的行数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-180">The number of lines to be returned.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="349b0-181">返回指定的文本行子集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-181">Returns the specified subset of text lines.</span>
+          </span>
+          <span data-ttu-id="349b0-182">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-182">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.TextRange2" />
+        </value>
+        <remarks>
+          <span data-ttu-id="349b0-183">
+            <para>如果两个<paramref name="Start" />和<paramref name="Length" />都省略，则返回的范围从第一行开始并指定范围中的最后一段结束。</para>
+            <para>如果<paramref name="Start" />指定但<paramref name="Length" />是省略，则返回的范围包含一行。</para>
+            <para>如果<paramref name="Length" />指定但<paramref name="Start" />是省略，则返回的范围的指定范围中的第一行开头。</para>
+            <para>如果<paramref name="Start" />大于指定文本，返回的范围开头指定范围中的最后一行中的行数。</para>
+            <para>如果<paramref name="Length" />是大于从指定起始行到文本末尾的行，则返回的范围包含所有这些行。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-183">
+              <para>If both <paramref name="Start" /> and <paramref name="Length" /> are omitted, the returned range starts with the first line and ends with the last paragraph in the specified range.</para>
+              <para>If <paramref name="Start" /> is specified but <paramref name="Length" /> is omitted, the returned range contains one line.</para>
+              <para>If <paramref name="Length" /> is specified but <paramref name="Start" /> is omitted, the returned range starts with the first line in the specified range.</para>
+              <para>If <paramref name="Start" /> is greater than the number of lines in the specified text, the returned range starts with the last line in the specified range.</para>
+              <para>If <paramref name="Length" /> is greater than the number of lines from the specified starting line to the end of the text, the returned range contains all those lines.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LtrRun">
+      <MemberSignature Language="C#" Value="public void LtrRun ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void LtrRun() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.LtrRun" />
+      <MemberSignature Language="VB.NET" Value="Public Sub LtrRun ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void LtrRun();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(36)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-184">返回<see cref="T:Microsoft.Office.Core.TextRange2" />对象，表示从左到右文本的指定的子集运行。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-184">Returns a <see cref="T:Microsoft.Office.Core.TextRange2" /> object that represents the specified subset of left-to-right text runs.</span>
+          </span>
+          <span data-ttu-id="349b0-185">一个文本域由具有相同字体属性的字符的范围。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-185">A text run consists of a range of characters that share the same font attributes.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MathZones">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 MathZones[int Start = -1, int Length = -1] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 MathZones(int32, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.MathZones(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MathZones(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ MathZones[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(37)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(37)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="System.Int32" />
+        <Parameter Name="Length" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Start">To be added.</param>
+        <param name="Length">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParagraphFormat">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ParagraphFormat2 ParagraphFormat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.ParagraphFormat2 ParagraphFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.ParagraphFormat" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParagraphFormat As ParagraphFormat2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ParagraphFormat2 ^ ParagraphFormat { Microsoft::Office::Core::ParagraphFormat2 ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ParagraphFormat2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-186">返回的段落格式指定的文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-186">Returns the paragraph formatting for the specified text.</span>
+          </span>
+          <span data-ttu-id="349b0-187">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-187">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.ParagraphFormat2" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Paragraphs">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Paragraphs[int Start = -1, int Length = -1] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 Paragraphs(int32, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Paragraphs(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Paragraphs(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Paragraphs[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="System.Int32" />
+        <Parameter Name="Length" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Start">
+          <span data-ttu-id="349b0-188">返回的范围中的第一段。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-188">The first paragraph in the returned range.</span>
+          </span>
+        </param>
+        <param name="Length">
+          <span data-ttu-id="349b0-189">要返回的段落数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-189">The number of paragraphs to be returned.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="349b0-190">获取文本段落的指定的子集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-190">Gets the specified subset of text paragraphs.</span>
+          </span>
+          <span data-ttu-id="349b0-191">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-191">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.TextRange2" />
+        </value>
+        <remarks>
+          <span data-ttu-id="349b0-192">
+            <para>如果两个<paramref name="Start" />和<paramref name="Length" />都省略，则返回的范围从第一段开始和指定范围中的最后一段结束。</para>
+            <para>如果<paramref name="Start" />指定但<paramref name="Length" />是省略，则返回的范围包含一个段落。</para>
+            <para>如果<paramref name="Length" />指定但<paramref name="Start" />是省略，则返回的范围的指定范围中的第一段开头。</para>
+            <para>如果<paramref name="Start" />大于指定文本，返回的范围开头指定范围中的最后一段中的段落数。</para>
+            <para>如果<paramref name="Length" />是大于数的从指定起始段落到文字结尾的段落，则返回的范围包含所有这些段落。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-192">
+              <para>If both <paramref name="Start" /> and <paramref name="Length" /> are omitted, the returned range starts with the first paragraph and ends with the last paragraph in the specified range.</para>
+              <para>If <paramref name="Start" /> is specified but <paramref name="Length" /> is omitted, the returned range contains one paragraph.</para>
+              <para>If <paramref name="Length" /> is specified but <paramref name="Start" /> is omitted, the returned range starts with the first paragraph in the specified range.</para>
+              <para>If <paramref name="Start" /> is greater than the number of paragraphs in the specified text, the returned range starts with the last paragraph in the specified range.</para>
+              <para>If <paramref name="Length" /> is greater than the number of paragraphs from the specified starting paragraph to the end of the text, the returned range contains all those paragraphs.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-193">获取对象的父<see cref="T:Microsoft.Office.Core.TextRange2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-193">Gets the parent object for the <see cref="T:Microsoft.Office.Core.TextRange2" /> object.</span>
+          </span>
+          <span data-ttu-id="349b0-194">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-194">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="349b0-195">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-195">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Paste">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Paste ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 Paste() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Paste" />
+      <MemberSignature Language="VB.NET" Value="Public Function Paste () As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::TextRange2 ^ Paste();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-196">将剪贴板的内容粘贴<see cref="T:Microsoft.Office.Core.TextRange2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-196">Pastes the contents of  the Clipboard into the <see cref="T:Microsoft.Office.Core.TextRange2" /> object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="349b0-197">
+            <b>TextRange2</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-197">
+              <b>TextRange2</b>
+            </span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PasteSpecial">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 PasteSpecial (Microsoft.Office.Core.MsoClipboardFormat Format);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 PasteSpecial([in]valuetype Microsoft.Office.Core.MsoClipboardFormat Format) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.PasteSpecial(Microsoft.Office.Core.MsoClipboardFormat)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PasteSpecial (Format As MsoClipboardFormat) As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::TextRange2 ^ PasteSpecial(Microsoft::Office::Core::MsoClipboardFormat Format);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(27)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Format" Type="Microsoft.Office.Core.MsoClipboardFormat" />
+      </Parameters>
+      <Docs>
+        <param name="Format">
+          <span data-ttu-id="349b0-198">决定在将剪贴板中的内容插入到文档中时所采用的格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-198">Determines the format for the Clipboard contents when they're inserted into the document.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="349b0-199">以指定格式用剪贴板的内容替换文本范围。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-199">Replaces the text range with the contents of the Clipboard in the format specified.</span>
+          </span>
+          <span data-ttu-id="349b0-200">如果成功粘贴内容，此方法返回<see cref="T:Microsoft.Office.Core.TextRange2" />包括粘贴文本范围的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-200">If the paste succeeds, this method returns a <see cref="T:Microsoft.Office.Core.TextRange2" /> object including the text range that was pasted.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="349b0-201">
+            <b>TextRange2</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-201">
+              <b>TextRange2</b>
+            </span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemovePeriods">
+      <MemberSignature Language="C#" Value="public void RemovePeriods ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemovePeriods() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.RemovePeriods" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemovePeriods ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemovePeriods();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(30)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-202">删除所有句点 （.） 中的文本中<see cref="T:Microsoft.Office.Core.TextRange2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-202">Removes all period (.) punctuation from the text in the <see cref="T:Microsoft.Office.Core.TextRange2" /> object.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Replace">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Replace (string FindWhat, string ReplaceWhat, int After = 0, Microsoft.Office.Core.MsoTriState MatchCase = Microsoft.Office.Core.MsoTriState.msoFalse, Microsoft.Office.Core.MsoTriState WholeWords = Microsoft.Office.Core.MsoTriState.msoFalse);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 Replace([in]string FindWhat, [in]string ReplaceWhat, [in]int32 After, [in]valuetype Microsoft.Office.Core.MsoTriState MatchCase, [in]valuetype Microsoft.Office.Core.MsoTriState WholeWords) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Replace(System.String,System.String,System.Int32,Microsoft.Office.Core.MsoTriState,Microsoft.Office.Core.MsoTriState)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Replace (FindWhat As String, ReplaceWhat As String, Optional After As Integer = 0, Optional MatchCase As MsoTriState = Microsoft.Office.Core.MsoTriState.msoFalse, Optional WholeWords As MsoTriState = Microsoft.Office.Core.MsoTriState.msoFalse) As TextRange2" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(32)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FindWhat" Type="System.String" />
+        <Parameter Name="ReplaceWhat" Type="System.String" />
+        <Parameter Name="After" Type="System.Int32" />
+        <Parameter Name="MatchCase" Type="Microsoft.Office.Core.MsoTriState" />
+        <Parameter Name="WholeWords" Type="Microsoft.Office.Core.MsoTriState" />
+      </Parameters>
+      <Docs>
+        <param name="FindWhat">
+          <span data-ttu-id="349b0-203">要搜索的文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-203">The text to search for.</span>
+          </span>
+        </param>
+        <param name="ReplaceWhat">
+          <span data-ttu-id="349b0-204">用来替换查找到的文本的文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-204">The text you want to replace the found text with.</span>
+          </span>
+        </param>
+        <param name="After">
+          <span data-ttu-id="349b0-205">（中指定的文本范围中） 要在其后搜索的下一个匹配项的字符的位置<paramref name="FindWhat" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-205">The position of the character (in the specified text range) after which you want to search for the next occurrence of <paramref name="FindWhat" />.</span>
+          </span>
+          <span data-ttu-id="349b0-206">例如，如果您想要从第五个字符的文本范围的搜索，指定 4 <paramref name="After" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-206">For example, if you want to search from the fifth character of the text range, specify 4 for <paramref name="After" />.</span>
+          </span>
+          <span data-ttu-id="349b0-207">如果省略此参数，则将文本范围的第一个字符作为搜索的起点。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-207">If this argument is omitted, the first character of the text range is used as the starting point for the search.</span>
+          </span>
+        </param>
+        <param name="MatchCase">
+          <span data-ttu-id="349b0-208">确定是否区分大小写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-208">Determines whether a distinction is made on the basis of case.</span>
+          </span>
+        </param>
+        <param name="WholeWords">
+          <span data-ttu-id="349b0-209">确定是否仅搜索整个词。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-209">Determines whether only whole words are searched.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="349b0-210">查找文字范围中的特定文本，找到的文本替换为用指定的字符串，并返回<see cref="T:Microsoft.Office.Core.TextRange2" />对象，表示找到文本的第一个匹配项。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-210">Finds specific text in a text range, replaces the found text with a specified string, and returns a <see cref="T:Microsoft.Office.Core.TextRange2" /> object that represents the first occurrence of the found text.</span>
+          </span>
+          <span data-ttu-id="349b0-211">如果未找到匹配，则返回 <b>Nothing</b> 。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-211">Returns <b>Nothing</b> if no match is found.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="349b0-212">
+            <b>TextRange2</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-212">
+              <b>TextRange2</b>
+            </span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RotatedBounds">
+      <MemberSignature Language="C#" Value="public void RotatedBounds (out float X1, out float Y1, out float X2, out float Y2, out float X3, out float Y3, out float x4, out float y4);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RotatedBounds([out] float32&amp; X1, [out] float32&amp; Y1, [out] float32&amp; X2, [out] float32&amp; Y2, [out] float32&amp; X3, [out] float32&amp; Y3, [out] float32&amp; x4, [out] float32&amp; y4) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.RotatedBounds(System.Single@,System.Single@,System.Single@,System.Single@,System.Single@,System.Single@,System.Single@,System.Single@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RotatedBounds (ByRef X1 As Single, ByRef Y1 As Single, ByRef X2 As Single, ByRef Y2 As Single, ByRef X3 As Single, ByRef Y3 As Single, ByRef x4 As Single, ByRef y4 As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RotatedBounds([Runtime::InteropServices::Out] float % X1, [Runtime::InteropServices::Out] float % Y1, [Runtime::InteropServices::Out] float % X2, [Runtime::InteropServices::Out] float % Y2, [Runtime::InteropServices::Out] float % X3, [Runtime::InteropServices::Out] float % Y3, [Runtime::InteropServices::Out] float % x4, [Runtime::InteropServices::Out] float % y4);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="X1" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="Y1" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="X2" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="Y2" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="X3" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="Y3" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="x4" Type="System.Single&amp;" RefType="out" />
+        <Parameter Name="y4" Type="System.Single&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="X1">
+          <span data-ttu-id="349b0-213">返回指定文本范围内文本边界框的第一个顶点的 X 坐标位置（以磅为单位）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-213">Returns the position (in points) of the X coordinate of the first vertex of the bounding box for the text within the specified text range.</span>
+          </span>
+        </param>
+        <param name="Y1">
+          <span data-ttu-id="349b0-214">返回指定文本范围内文本边界框的第一个顶点的 Y 坐标位置（以磅为单位）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-214">Returns the position (in points) of the Y coordinate of the first vertex of the bounding box for the text within the specified text range.</span>
+          </span>
+        </param>
+        <param name="X2">
+          <span data-ttu-id="349b0-215">返回指定文本范围内文本边界框的第二个顶点的 X 坐标位置（以磅为单位）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-215">Returns the position (in points) of the X coordinate of the second vertex of the bounding box for the text within the specified text range.</span>
+          </span>
+        </param>
+        <param name="Y2">
+          <span data-ttu-id="349b0-216">返回指定文本范围内文本边界框的第二个顶点的 Y 坐标位置（以磅为单位）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-216">Returns the position (in points) of the Y coordinate of the second vertex of the bounding box for the text within the specified text range.</span>
+          </span>
+        </param>
+        <param name="X3">
+          <span data-ttu-id="349b0-217">返回指定文本范围内文本边界框的第三个顶点的 X 坐标位置（以磅为单位）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-217">Returns the position (in points) of the X coordinate of the third vertex of the bounding box for the text within the specified text range.</span>
+          </span>
+        </param>
+        <param name="Y3">
+          <span data-ttu-id="349b0-218">返回指定文本范围内文本边界框的第三个顶点的 Y 坐标位置（以磅为单位）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-218">Returns the position (in points) of the Y coordinate of the third vertex of the bounding box for the text within the specified text range.</span>
+          </span>
+        </param>
+        <param name="x4">
+          <span data-ttu-id="349b0-219">返回指定文本范围内文本边界框的第四个顶点的 X 坐标位置（以磅为单位）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-219">Returns the position (in points) of the X coordinate of the fourth vertex of the bounding box for the text within the specified text range.</span>
+          </span>
+        </param>
+        <param name="y4">
+          <span data-ttu-id="349b0-220">返回指定文本范围内文本边界框的第四个顶点的 Y 坐标位置（以磅为单位）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-220">Returns the position (in points) of the Y coordinate of the fourth vertex of the bounding box for the text within the specified text range.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="349b0-p120">获取指定文本范围的文本边界框的顶点坐标。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-p120">Gets the coordinates of the vertices of the text bounding box for the specified text range. Read-only.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="349b0-223">
+            <para>文本边界框不相同<see cref="T:Microsoft.Office.Core.TextFrame2" />对象。 <b>TextFrame2</b>对象代表文本可以驻留在其中的容器。 文本边界框代表外围立即周围文本。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-223">
+              <para>The text bounding box is not the same as the <see cref="T:Microsoft.Office.Core.TextFrame2" /> object.  The <b>TextFrame2</b> object represents the container in which the text can reside.  The text bounding box represents the perimeter immediately surrounding the text.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RtlRun">
+      <MemberSignature Language="C#" Value="public void RtlRun ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RtlRun() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.RtlRun" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RtlRun ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RtlRun();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(35)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-224">返回<see cref="T:Microsoft.Office.Core.TextRange2" />对象，表示从右到左文本的指定的子集运行。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-224">Returns a <see cref="T:Microsoft.Office.Core.TextRange2" /> object that represents the specified subset of right-to-left text runs.</span>
+          </span>
+          <span data-ttu-id="349b0-225">一个文本域由具有相同字体属性的字符的范围。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-225">A text run consists of a range of characters that share the same font attributes.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Runs">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Runs[int Start = -1, int Length = -1] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 Runs(int32, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Runs(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Runs(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Runs[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="System.Int32" />
+        <Parameter Name="Length" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Start">
+          <span data-ttu-id="349b0-226">返回的范围中的第一个域。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-226">The first run in the returned range.</span>
+          </span>
+        </param>
+        <param name="Length">
+          <span data-ttu-id="349b0-227">要返回的域数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-227">The number of runs to be returned.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="349b0-228">获取指定的文本运行子集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-228">Gets the specified subset of text runs.</span>
+          </span>
+          <span data-ttu-id="349b0-229">一个文本域由具有相同字体属性的字符的范围。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-229">A text run consists of a range of characters that share the same font attributes.</span>
+          </span>
+          <span data-ttu-id="349b0-230">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-230">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.TextRange2" />
+        </value>
+        <remarks>
+          <span data-ttu-id="349b0-231">
+            <para>如果 Start 和 Length 都被忽略，则返回的范围从第一个域开始，并指定范围中的最后一段结束。 </para>
+            <para>如果<paramref name="Start" />指定但<paramref name="Length" />被省略，则返回的范围包含一个域。</para>
+            <para>如果<paramref name="Length" />指定但<paramref name="Start" />是省略，则返回的范围的指定范围中的第一个域开头。</para>
+            <para>如果<paramref name="Start" />大于指定文本，返回的范围开头指定范围中的最后一个域中的域的数量。</para>
+            <para>如果<paramref name="Length" />是域的数量大于从指定起始域到文本末尾，则返回的范围包含所有这些域。</para>对具有相同的字体属性的倒数第二个字符的字体更改后
+          <para>A 运行从第一个字符的所有字符都组成。例如，考虑以下语句：</para><para>这<paramref name="italic" />word 不是粗体。</para><para>前面的语句中, 首次运行包含单词"此"才空间后的单词"This"未设置为斜体格式 （如果空间为斜体，首次运行是仅的第三个字符或"此"）。同样，第二个运行包含单词"italic"才单词之后的间距设置为斜体格式。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-231">
+              <para>If both Start and Length are omitted, the returned range starts with the first run and ends with the last paragraph in the specified range.  </para>
+              <para>If <paramref name="Start" /> is specified but <paramref name="Length" /> is omitted, the returned range contains one run.</para>
+              <para>If <paramref name="Length" /> is specified but <paramref name="Start" /> is omitted, the returned range starts with the first run in the specified range.</para>
+              <para>If <paramref name="Start" /> is greater than the number of runs in the specified text, the returned range starts with the last run in the specified range.</para>
+              <para>If <paramref name="Length" /> is greater than the number of runs from the specified starting run to the end of the text, the returned range contains all those runs.</para>
+              <para>A run consists of all characters from the first character after a font change to the second-to-last character with the same font attributes. For example, consider the following sentence:</para>
+              <para>This <paramref name="italic" /> word is not bold.</para>
+              <para>In the preceding sentence, the first run consists of the word "This" only if the space after the word "This" isn't formatted as italic (if the space is italic, the first run is only the first three characters, or "Thi"). Likewise, the second run contains the word "italic" only if the space after the word is formatted as italic.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Select">
+      <MemberSignature Language="C#" Value="public void Select ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Select() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.Select" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Select ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Select();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(22)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-232">选择<see cref="T:Microsoft.Office.Core.TextRange2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-232">Selects the <see cref="T:Microsoft.Office.Core.TextRange2" /> object.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sentences">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Sentences[int Start = -1, int Length = -1] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 Sentences(int32, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Sentences(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Sentences(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Sentences[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="System.Int32" />
+        <Parameter Name="Length" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Start">
+          <span data-ttu-id="349b0-233">返回的范围中的第一句。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-233">The first sentence in the returned range.</span>
+          </span>
+        </param>
+        <param name="Length">
+          <span data-ttu-id="349b0-234">要返回的句数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-234">The number of sentences to be returned.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="349b0-235">返回指定的文本句子集子集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-235">Returns the specified subset of text sentences.</span>
+          </span>
+          <span data-ttu-id="349b0-236">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-236">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.TextRange2" />
+        </value>
+        <remarks>
+          <span data-ttu-id="349b0-237">
+            <para>如果两个<paramref name="Start" />和<paramref name="Length" />都省略，则返回的范围从第一句开始并指定范围中的最后一段结束。</para>
+            <para>如果<paramref name="Start" />指定但<paramref name="Length" />是省略，则返回的范围包含一个句子。</para>
+            <para>如果<paramref name="Length" />指定但<paramref name="Start" />是省略，则返回的范围启动指定范围中的第一句。</para>
+            <para>如果<paramref name="Start" />大于指定文本，指定范围中的最后一句返回的范围的起始中的句子数。</para>
+            <para>如果<paramref name="Length" />是大于数的从指定起始域到文本末尾的句子，则返回的范围包含所有这些句子。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-237">
+              <para>If both <paramref name="Start" /> and <paramref name="Length" /> are omitted, the returned range starts with the first sentence and ends with the last paragraph in the specified range.</para>
+              <para>If <paramref name="Start" /> is specified but <paramref name="Length" /> is omitted, the returned range contains one sentence.</para>
+              <para>If <paramref name="Length" /> is specified but <paramref name="Start" /> is omitted, the returned range starts with the first sentence in the specified range.</para>
+              <para>If <paramref name="Start" /> is greater than the number of sentences in the specified text, the returned range starts with the last sentence in the specified range.</para>
+              <para>If <paramref name="Length" /> is greater than the number of sentences from the specified starting sentence to the end of the text, the returned range contains all those sentences.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+        <example>
+          <span data-ttu-id="349b0-238">
+            <para>本示例设置格式设为加粗活动 PowerPoint 演示文稿的第一张幻灯片的第二个形状的第二段中的第二个句子。</para>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-238">
+              <para>This example formats as bold the second sentence in the second paragraph in shape two on slide one in the active PowerPoint presentation.  </para>
+            </span>
+          </span>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public int Start { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Start" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Start" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Start As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Start { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-239">获取指定的文本范围的起始点。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-239">Gets the starting point of the specified text range.</span>
+          </span>
+          <span data-ttu-id="349b0-240">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-240">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="349b0-241">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-241">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="public string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Text" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Text" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Text As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-p125">获取或设置一个 <b>String</b> 类型的值，该值代表文本范围中的文本。可读/写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-p125">Gets or sets a <b>String</b> value that represents the text in a text range. Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="349b0-244">
+            <b>字符串</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-244">
+              <b>String</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TrimText">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 TrimText ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.TextRange2 TrimText() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.TextRange2.TrimText" />
+      <MemberSignature Language="VB.NET" Value="Public Function TrimText () As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::TextRange2 ^ TrimText();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(18)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="349b0-245">返回除去结尾空格的指定的文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-245">Returns the specified text minus any trailing spaces.</span>
+          </span>
+        </summary>
+        <returns>
+          <see cref="T:Microsoft.Office.Core.TextRange2" />
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Words">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 Words[int Start = -1, int Length = -1] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 Words(int32, int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.TextRange2.Words(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Words(Optional Start As Integer = -1, Optional Length As Integer = -1) As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ Words[int, int] { Microsoft::Office::Core::TextRange2 ^ get(int Start, int Length); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="System.Int32" />
+        <Parameter Name="Length" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Start">
+          <span data-ttu-id="349b0-246">返回的范围中的第一个单词。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-246">The first word in the returned range.</span>
+          </span>
+        </param>
+        <param name="Length">
+          <span data-ttu-id="349b0-247">要返回的单词数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-247">The number of words to be returned.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="349b0-248">获取指定的文本单词子集。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-248">Gets the specified subset of text words.</span>
+          </span>
+          <span data-ttu-id="349b0-249">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-249">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.TextRange2" />
+        </value>
+        <remarks>
+          <span data-ttu-id="349b0-250">
+            <para>如果两个<paramref name="Start" />和<paramref name="Length" />都省略，则返回的范围从第一个单词开始并指定范围中的最后一段结束。</para>
+            <para>如果<paramref name="Start" />指定但<paramref name="Length" />是省略，则返回的范围包含一个单词。</para>
+            <para>如果<paramref name="Length" />指定但<paramref name="Start" />是省略，则返回的范围的指定范围中的第一个单词开头。</para>
+            <para>如果<paramref name="Start" />大于指定文本，指定范围中的最后一个单词在返回的范围启动中的单词数。</para>
+            <para>如果<paramref name="Length" />大于从指定的单词数从开始到文本末尾的单词，则返回的范围包含所有这些单词。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="349b0-250">
+              <para>If both <paramref name="Start" /> and <paramref name="Length" /> are omitted, the returned range starts with the first word and ends with the last paragraph in the specified range.</para>
+              <para>If <paramref name="Start" /> is specified but <paramref name="Length" /> is omitted, the returned range contains one word.</para>
+              <para>If <paramref name="Length" /> is specified but <paramref name="Start" /> is omitted, the returned range starts with the first word in the specified range.</para>
+              <para>If <paramref name="Start" /> is greater than the number of words in the specified text, the returned range starts with the last word in the specified range.</para>
+              <para>If <paramref name="Length" /> is greater than the number of words from the specified starting word to the end of the text, the returned range contains all those words.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

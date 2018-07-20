@@ -1,0 +1,72 @@
+<Type Name="_CommandBarButtonEvents" FullName="Microsoft.Office.Core._CommandBarButtonEvents">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="02acff868f6791e6ea3d922685e350d9775fe577" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657938" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _CommandBarButtonEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CommandBarButtonEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core._CommandBarButtonEvents" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _CommandBarButtonEvents" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _CommandBarButtonEvents" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0351-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4112)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="9a316-101">仅供内部使用。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9a316-101">Reserved for internal use.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="public void Click (Microsoft.Office.Core.CommandBarButton Ctrl, out bool CancelDefault);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Click([in]class Microsoft.Office.Core.CommandBarButton Ctrl, [out] bool&amp; CancelDefault) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core._CommandBarButtonEvents.Click(Microsoft.Office.Core.CommandBarButton,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Click (Ctrl As CommandBarButton, ByRef CancelDefault As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Click(Microsoft::Office::Core::CommandBarButton ^ Ctrl, [Runtime::InteropServices::Out] bool % CancelDefault);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Ctrl" Type="Microsoft.Office.Core.CommandBarButton" />
+        <Parameter Name="CancelDefault" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Ctrl">To be added.</param>
+        <param name="CancelDefault">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

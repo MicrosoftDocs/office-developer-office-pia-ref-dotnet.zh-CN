@@ -1,0 +1,643 @@
+<Type Name="BulletFormat2" FullName="Microsoft.Office.Core.BulletFormat2">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f3cd2628e85bd1f0b8294eaa192a5d986b4b319e" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657444" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface BulletFormat2 : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract BulletFormat2 implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.BulletFormat2" />
+  <TypeSignature Language="VB.NET" Value="Public Interface BulletFormat2&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class BulletFormat2 : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03B9-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="14698-101">代表项目符号的格式。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="14698-101">Represents bullet formatting.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.BulletFormat2.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="14698-102">获取一个对象，表示<see cref="T:Microsoft.Office.Core.BulletFormat2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-102">Gets an object that represents the <see cref="T:Microsoft.Office.Core.BulletFormat2" /> object.</span>
+          </span>
+          <span data-ttu-id="14698-103">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-103">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="14698-104">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-104">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Character">
+      <MemberSignature Language="C#" Value="public int Character { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Character" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.BulletFormat2.Character" />
+      <MemberSignature Language="VB.NET" Value="Public Property Character As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Character { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="14698-p102">获取或设置在指定文本中用作项目符号的 Unicode 字符值。可读写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-p102">Gets or sets the Unicode character value that is used for bullets in the specified text. Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="14698-107">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-107">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.BulletFormat2.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="14698-108">获取一个 32 位整数，表示在其中应用程序<see cref="T:Microsoft.Office.Core.BulletFormat2" />对象的创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-108">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.BulletFormat2" /> object was created.</span>
+          </span>
+          <span data-ttu-id="14698-109">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-109">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="14698-110">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-110">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Font">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Font2 Font { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.Font2 Font" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.BulletFormat2.Font" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Font As Font2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Font2 ^ Font { Microsoft::Office::Core::Font2 ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.Font2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="14698-111">获取表示的格式的字体<see cref="T:Microsoft.Office.Core.BulletFormat2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-111">Gets the font that represents the formatting for a <see cref="T:Microsoft.Office.Core.BulletFormat2" /> object.</span>
+          </span>
+          <span data-ttu-id="14698-112">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-112">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.Font2" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Number">
+      <MemberSignature Language="C#" Value="public int Number { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Number" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.BulletFormat2.Number" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Number As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Number { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="14698-p105">获取段落的项目符号数目。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-p105">Gets the bullet number of a paragraph. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="14698-115">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-115">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.BulletFormat2.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="14698-116">获取的父级<see cref="T:Microsoft.Office.Core.BulletFormat2" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-116">Gets the parent of the <see cref="T:Microsoft.Office.Core.BulletFormat2" /> object.</span>
+          </span>
+          <span data-ttu-id="14698-117">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-117">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="14698-118">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-118">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Picture">
+      <MemberSignature Language="C#" Value="public void Picture (string FileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Picture([in]string FileName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.BulletFormat2.Picture(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Picture (FileName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Picture(System::String ^ FileName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="FileName">
+          <span data-ttu-id="14698-119">有效图形文件的文件名。
+</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-119">The file name of a valid graphics file.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="14698-120">设置要用于项目符号列表中的项目符号的图形文件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-120">Sets the graphics file to be used for bullets in a bulleted list.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="14698-121">
+            <para>有效图形文件包括具有以下扩展名的文件：.bmp、.cdr、.cgm、.drw、.dxf、.emf、.eps、.gif、.jpg、.jpeg、.pcd、.pct、.pcx、 为.pict、.png、.tga、.tiff、.wmf 和.wpg。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-121">
+              <para>Valid graphics files include files with the following extensions: .bmp, .cdr, .cgm, .drw, .dxf, .emf, .eps, .gif, .jpg, .jpeg, .pcd, .pct, .pcx, .pict, .png, .tga, .tiff, .wmf, and .wpg.  </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RelativeSize">
+      <MemberSignature Language="C#" Value="public float RelativeSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 RelativeSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.BulletFormat2.RelativeSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property RelativeSize As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float RelativeSize { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="14698-p107">返回或设置项目符号相对于段落中第一个文本字符的大小。可读/写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-p107">Returns or sets the bullet size relative to the size of the first text character in the paragraph. Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="14698-124">
+            <b>Single</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-124">
+              <b>Single</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartValue">
+      <MemberSignature Language="C#" Value="public int StartValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 StartValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.BulletFormat2.StartValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartValue As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int StartValue { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="14698-p108">获取或设置项目符号列表的开始值。可读写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-p108">Gets or sets the beginning value of a bulleted list.  Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="14698-127">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-127">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Style">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoNumberedBulletStyle Style { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoNumberedBulletStyle Style" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.BulletFormat2.Style" />
+      <MemberSignature Language="VB.NET" Value="Public Property Style As MsoNumberedBulletStyle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoNumberedBulletStyle Style { Microsoft::Office::Core::MsoNumberedBulletStyle get(); void set(Microsoft::Office::Core::MsoNumberedBulletStyle value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoNumberedBulletStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="14698-p109">返回或设置代表项目符号样式的常数。可读写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-p109">Returns or sets a constant that represents the style of a bullet. Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoNumberedBulletStyle" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoBulletType Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoBulletType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.BulletFormat2.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As MsoBulletType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoBulletType Type { Microsoft::Office::Core::MsoBulletType get(); void set(Microsoft::Office::Core::MsoBulletType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBulletType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="14698-p110">获取和设置代表项目符号类型的常数。可读写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-p110">Gets or sets a constant that represents the type of bullet. Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoBulletType" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseTextColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState UseTextColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState UseTextColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.BulletFormat2.UseTextColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property UseTextColor As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState UseTextColor { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="14698-p111">确定是否将指定项目符号设置为段落中第一个文本字符的颜色。可读/写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-p111">Determines whether the specified bullets are set to the color of the first text character in the paragraph. Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoTriState" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseTextFont">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState UseTextFont { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState UseTextFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.BulletFormat2.UseTextFont" />
+      <MemberSignature Language="VB.NET" Value="Public Property UseTextFont As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState UseTextFont { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="14698-p112">确定是否将指定项目符号设置为段落中第一个文本字符的字体。可读/写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-p112">Determines whether the specified bullets are set to the font of the first text character in the paragraph. Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoTriState" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.BulletFormat2.Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Property Visible As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Visible { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="14698-p113">获取或设置指定项目符号是否可见的值。可读写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="14698-p113">Gets or sets a value that specifies whether the bullet is visible. Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoTriState" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,188 @@
+<Type Name="MsoVerticalAnchor" FullName="Microsoft.Office.Core.MsoVerticalAnchor">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bb57368d4f4f4c0c7aa235d50cd9809d12d59c81" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657413" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoVerticalAnchor" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoVerticalAnchor extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoVerticalAnchor" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoVerticalAnchor" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoVerticalAnchor" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="04e38-101">指定文本框架中的文本的垂直对齐方式。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="04e38-101">Specifies the vertical alignment of text in a text frame.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="04e38-102">
+        <para>与<b>VerticalAnchor</b>属性一起<b>TextFrame</b>对象。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="04e38-102">
+          <para>Used with the <b>VerticalAnchor</b> property of the <b>TextFrame</b> object.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoAnchorBottom">
+      <MemberSignature Language="C#" Value="msoAnchorBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoVerticalAnchor msoAnchorBottom = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoVerticalAnchor.msoAnchorBottom" />
+      <MemberSignature Language="VB.NET" Value="msoAnchorBottom" />
+      <MemberSignature Language="C++ CLI" Value="msoAnchorBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoVerticalAnchor</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="04e38-103">使文本与文本框的底部对齐。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04e38-103">Aligns text to bottom of text frame.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnchorBottomBaseLine">
+      <MemberSignature Language="C#" Value="msoAnchorBottomBaseLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoVerticalAnchor msoAnchorBottomBaseLine = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoVerticalAnchor.msoAnchorBottomBaseLine" />
+      <MemberSignature Language="VB.NET" Value="msoAnchorBottomBaseLine" />
+      <MemberSignature Language="C++ CLI" Value="msoAnchorBottomBaseLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoVerticalAnchor</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="04e38-p101">不管如何调整文本大小，文本字符串的底端都定位于当前位置。如果调整文本大小时不定位基线，文本将以之前的位置为中间点。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04e38-p101">Anchors bottom of text string to current position, regardless of text resizing. When you resize text without baseline anchoring, text centers itself on previous position.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnchorMiddle">
+      <MemberSignature Language="C#" Value="msoAnchorMiddle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoVerticalAnchor msoAnchorMiddle = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoVerticalAnchor.msoAnchorMiddle" />
+      <MemberSignature Language="VB.NET" Value="msoAnchorMiddle" />
+      <MemberSignature Language="C++ CLI" Value="msoAnchorMiddle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoVerticalAnchor</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="04e38-106">使文本垂直居中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04e38-106">Centers text vertically.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnchorTop">
+      <MemberSignature Language="C#" Value="msoAnchorTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoVerticalAnchor msoAnchorTop = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoVerticalAnchor.msoAnchorTop" />
+      <MemberSignature Language="VB.NET" Value="msoAnchorTop" />
+      <MemberSignature Language="C++ CLI" Value="msoAnchorTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoVerticalAnchor</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="04e38-107">使文本与文本框的顶部对齐。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04e38-107">Aligns text to top of text frame.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAnchorTopBaseline">
+      <MemberSignature Language="C#" Value="msoAnchorTopBaseline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoVerticalAnchor msoAnchorTopBaseline = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoVerticalAnchor.msoAnchorTopBaseline" />
+      <MemberSignature Language="VB.NET" Value="msoAnchorTopBaseline" />
+      <MemberSignature Language="C++ CLI" Value="msoAnchorTopBaseline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoVerticalAnchor</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="04e38-p102">不管如何调整文本大小，文本字符串的底端都定位于当前位置。如果调整文本大小时不定位基线，文本将以之前的位置为中间点。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04e38-p102">Anchors bottom of text string to current position, regardless of text resizing. When you resize text without baseline anchoring, text centers itself on previous position.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoVerticalAnchorMixed">
+      <MemberSignature Language="C#" Value="msoVerticalAnchorMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoVerticalAnchor msoVerticalAnchorMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoVerticalAnchor.msoVerticalAnchorMixed" />
+      <MemberSignature Language="VB.NET" Value="msoVerticalAnchorMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoVerticalAnchorMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoVerticalAnchor</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="04e38-110">只返回值，表示其他状态的组合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04e38-110">Return value only; indicates a combination of the other states.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

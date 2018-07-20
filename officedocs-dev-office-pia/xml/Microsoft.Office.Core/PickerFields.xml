@@ -1,0 +1,272 @@
+<Type Name="PickerFields" FullName="Microsoft.Office.Core.PickerFields">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="168627cef6c6118700a29983ad4f537129948245" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658333" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface PickerFields : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PickerFields implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.PickerFields" />
+  <TypeSignature Language="VB.NET" Value="Public Interface PickerFields&#xA;Implements _IMsoDispObj, IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class PickerFields : Microsoft::Office::Core::_IMsoDispObj, System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03E1-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="b1fb8-101">一<see cref="T:Microsoft.Office.Core.PickerField" />对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b1fb8-101">A collection of <see cref="T:Microsoft.Office.Core.PickerField" /> objects.</span>
+      </span>
+      <span data-ttu-id="b1fb8-102">每个<b>PickerField</b>对象代表列定义的选取器对话框。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b1fb8-102">Each <b>PickerField</b> object represents a column definition of Picker dialog.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.PickerFields.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1fb8-103">获取<see cref="T:System.Object" />对象，表示<b>PickerFields</b>对象的容器应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1fb8-103">Gets a <see cref="T:System.Object" /> object that represents the container application for the <b>PickerFields</b> object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="b1fb8-104">
+            <para>只读的。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1fb8-104">
+              <para>Read-only.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.PickerFields.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1fb8-105">检索的数目<see cref="T:Microsoft.Office.Core.PickerField" /><b>PickerFields</b>集合中包含的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1fb8-105">Retrieves the count of the number of <see cref="T:Microsoft.Office.Core.PickerField" /> objects contained within the <b>PickerFields</b> collection.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="b1fb8-106">
+            <para>只读的。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1fb8-106">
+              <para>Read-only.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.PickerFields.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1fb8-107">获取一个指示在其中创建<b>PickerFields</b>对象的应用程序的 32 位整数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1fb8-107">Gets a 32-bit integer that indicates the application in which the <b>PickerFields</b> object was created.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="b1fb8-108">
+            <para>只读的。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1fb8-108">
+              <para>Read-only.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.PickerFields.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1fb8-109">返回循环访问集合枚举<see cref="T:Microsoft.Office.Core.PickerField" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1fb8-109">Returns an enumerator that iterates through the collection of <see cref="T:Microsoft.Office.Core.PickerField" /> objects.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="b1fb8-110">返回<see cref="T:System.Collections.IEnumerator" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1fb8-110">Returns <see cref="T:System.Collections.IEnumerator" />.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.PickerField this[int Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.PickerField Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.PickerFields.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Integer) As PickerField" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::PickerField ^ default[int] { Microsoft::Office::Core::PickerField ^ get(int Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.PickerField</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="b1fb8-111">指定一个代表索引的整数<see cref="T:Microsoft.Office.Core.PickerField" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1fb8-111">Specifies an integer representing the index of the <see cref="T:Microsoft.Office.Core.PickerField" />.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="b1fb8-112">获取<see cref="T:Microsoft.Office.Core.PickerField" />指定索引处的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1fb8-112">Gets a <see cref="T:Microsoft.Office.Core.PickerField" /> object at the specified index.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

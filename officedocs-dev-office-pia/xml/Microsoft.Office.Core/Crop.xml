@@ -1,0 +1,513 @@
+<Type Name="Crop" FullName="Microsoft.Office.Core.Crop">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="47968c1eefad56f9b3fd16814d5e1feaf47122ec" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658294" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Crop : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Crop implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Crop" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Crop&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Crop : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03D3-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="fdf73-101">一个用于去除图形的某一部分的对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="fdf73-101">An object used to remove a portion of an image.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf73-102">获取宿主应用程序的<b>应用程序</b>对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-102">Gets the <b>Application</b> object of the host application.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="fdf73-103">
+            <para>只读的。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-103">
+              <para>Read-only.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf73-104">获取一个指示在其中创建<b>Crop</b>对象的应用程序的 32 位整数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-104">Gets a 32-bit integer that indicates the application in which the <b>Crop</b> object was created.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="fdf73-105">
+            <para>只读的。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-105">
+              <para>Read-only.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PictureHeight">
+      <MemberSignature Language="C#" Value="public float PictureHeight { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 PictureHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.PictureHeight" />
+      <MemberSignature Language="VB.NET" Value="Public Property PictureHeight As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float PictureHeight { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf73-106">获取或设置要裁剪的图像的高度。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-106">Gets or sets the height of the image that is to be cropped.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="fdf73-107">
+            <para>读/写。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-107">
+              <para>Read/write.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PictureOffsetX">
+      <MemberSignature Language="C#" Value="public float this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 PictureOffsetX" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.PictureOffsetX" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property PictureOffsetX As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float default { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf73-108">获取或设置要裁剪的图像的 x 轴偏移量。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-108">Gets or sets the x-axis offset of the image that is to be cropped.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="fdf73-109">
+            <para>读/写。此属性和<see cref="P:Microsoft.Office.Core.Crop.OffsetY" />属性是相对于形状和图像的中心。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-109">
+              <para>Read/write. This property and the <see cref="P:Microsoft.Office.Core.Crop.OffsetY" /> property are relative to center of the shape and image.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PictureOffsetY">
+      <MemberSignature Language="C#" Value="public float PictureOffsetY { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 PictureOffsetY" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.PictureOffsetY" />
+      <MemberSignature Language="VB.NET" Value="Public Property PictureOffsetY As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float PictureOffsetY { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf73-110">获取或设置要裁剪的图像的 y 轴偏移量。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-110">Gets or sets the y-axis offset of the image that is to be cropped.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="fdf73-111">
+            <para>读/写。此属性和<see cref="P:Microsoft.Office.Core.Crop.OffsetX" />属性是相对于形状和图像的中心。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-111">
+              <para>Read/write. This property and the <see cref="P:Microsoft.Office.Core.Crop.OffsetX" /> property are relative to center of the shape and image.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PictureWidth">
+      <MemberSignature Language="C#" Value="public float PictureWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 PictureWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.PictureWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Property PictureWidth As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float PictureWidth { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf73-112">获取或设置要裁剪的图像的宽度。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-112">Gets or sets the width of the image that is to be cropped.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="fdf73-113">
+            <para>读/写。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-113">
+              <para>Read/write.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShapeHeight">
+      <MemberSignature Language="C#" Value="public float ShapeHeight { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 ShapeHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.ShapeHeight" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShapeHeight As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float ShapeHeight { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf73-114">获取或设置用于裁剪图像形状的高度。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-114">Gets or sets the height of a shape that is used to crop an image.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="fdf73-115">
+            <para>读/写。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-115">
+              <para>Read/write.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShapeLeft">
+      <MemberSignature Language="C#" Value="public float ShapeLeft { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 ShapeLeft" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.ShapeLeft" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShapeLeft As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float ShapeLeft { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf73-116">获取或设置用于裁剪图像的形状的左侧的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-116">Gets or sets the location of the left-side of a shape that is used to crop an image.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="fdf73-117">
+            <para>读/写。在 Microsoft Word 中，此属性和<see cref="P:Microsoft.Office.Core.Crop.ShapeTop" />属性将返回错误，如果图片或形状已将环绕文字设置为嵌入型。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-117">
+              <para>Read/write. In Microsoft Word, this property and the <see cref="P:Microsoft.Office.Core.Crop.ShapeTop" /> property return an error if the picture or shape have the wrap text set to Inline with Text.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShapeTop">
+      <MemberSignature Language="C#" Value="public float ShapeTop { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 ShapeTop" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.ShapeTop" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShapeTop As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float ShapeTop { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf73-118">获取或设置用于裁剪图像形状的顶部的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-118">Gets or sets the location of the top of a shape that is used to crop an image.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="fdf73-119">
+            <para>读/写。在 Microsoft Word 中，<see cref="P:Microsoft.Office.Core.Crop.ShapeLeft" />属性和此属性将返回错误是图片或形状已将环绕文字设置为嵌入型。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-119">
+              <para>Read/write. In Microsoft Word, the <see cref="P:Microsoft.Office.Core.Crop.ShapeLeft" /> property and this property return an error is the picture or shape have the wrap text set to Inline with Text.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShapeWidth">
+      <MemberSignature Language="C#" Value="public float ShapeWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 ShapeWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Crop.ShapeWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShapeWidth As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float ShapeWidth { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fdf73-120">获取或设置用于裁剪图像形状的宽度。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-120">Gets or sets the width of a shape that is used to crop an image.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="fdf73-121">
+            <para>读/写。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fdf73-121">
+              <para>Read/write.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

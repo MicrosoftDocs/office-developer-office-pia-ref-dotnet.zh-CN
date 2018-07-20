@@ -1,0 +1,66 @@
+<Type Name="MsoFileValidationMode" FullName="Microsoft.Office.Core.MsoFileValidationMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="17aed4670a1b126e412a9516d3ba4fc1604512fa" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658078" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoFileValidationMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFileValidationMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFileValidationMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoFileValidationMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoFileValidationMode" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoFileValidationDefault">
+      <MemberSignature Language="C#" Value="msoFileValidationDefault" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileValidationMode msoFileValidationDefault = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileValidationMode.msoFileValidationDefault" />
+      <MemberSignature Language="VB.NET" Value="msoFileValidationDefault" />
+      <MemberSignature Language="C++ CLI" Value="msoFileValidationDefault" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileValidationMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileValidationSkip">
+      <MemberSignature Language="C#" Value="msoFileValidationSkip" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileValidationMode msoFileValidationSkip = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileValidationMode.msoFileValidationSkip" />
+      <MemberSignature Language="VB.NET" Value="msoFileValidationSkip" />
+      <MemberSignature Language="C++ CLI" Value="msoFileValidationSkip" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileValidationMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

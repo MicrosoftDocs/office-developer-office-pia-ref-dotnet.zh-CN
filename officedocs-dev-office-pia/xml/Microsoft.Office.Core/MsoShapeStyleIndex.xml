@@ -1,0 +1,1593 @@
+<Type Name="MsoShapeStyleIndex" FullName="Microsoft.Office.Core.MsoShapeStyleIndex">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="73952d719101d6af2eea2bfec105279d3e1dceae" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658323" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoShapeStyleIndex" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoShapeStyleIndex extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoShapeStyleIndex" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoShapeStyleIndex" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoShapeStyleIndex" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="fc8f1-101">指示线条样式和形状样式。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="fc8f1-101">Indicates the line and shape style.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoLineStylePreset1">
+      <MemberSignature Language="C#" Value="msoLineStylePreset1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset1 = int32(10001)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset1" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset1" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10001</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-102">线条样式 1。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-102">Line style 1.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset10">
+      <MemberSignature Language="C#" Value="msoLineStylePreset10" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset10 = int32(10010)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset10" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset10" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset10" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10010</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-103">线条样式 10。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-103">Line style 10.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset11">
+      <MemberSignature Language="C#" Value="msoLineStylePreset11" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset11 = int32(10011)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset11" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset11" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset11" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10011</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-104">线条样式 11。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-104">Line style 11.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset12">
+      <MemberSignature Language="C#" Value="msoLineStylePreset12" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset12 = int32(10012)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset12" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset12" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset12" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10012</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-105">线条样式 12。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-105">Line style 12.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset13">
+      <MemberSignature Language="C#" Value="msoLineStylePreset13" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset13 = int32(10013)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset13" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset13" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset13" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10013</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-106">线条样式 13。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-106">Line style 13.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset14">
+      <MemberSignature Language="C#" Value="msoLineStylePreset14" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset14 = int32(10014)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset14" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset14" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset14" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10014</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-107">线条样式 14。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-107">Line style 14.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset15">
+      <MemberSignature Language="C#" Value="msoLineStylePreset15" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset15 = int32(10015)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset15" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset15" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset15" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10015</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-108">线条样式 15。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-108">Line style 15.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset16">
+      <MemberSignature Language="C#" Value="msoLineStylePreset16" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset16 = int32(10016)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset16" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset16" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset16" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10016</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-109">线条样式 16。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-109">Line style 16.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset17">
+      <MemberSignature Language="C#" Value="msoLineStylePreset17" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset17 = int32(10017)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset17" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset17" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset17" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10017</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-110">线条样式 17。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-110">Line style 17.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset18">
+      <MemberSignature Language="C#" Value="msoLineStylePreset18" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset18 = int32(10018)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset18" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset18" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset18" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10018</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-111">线条样式 18。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-111">Line style 18.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset19">
+      <MemberSignature Language="C#" Value="msoLineStylePreset19" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset19 = int32(10019)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset19" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset19" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset19" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10019</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-112">线条样式 19。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-112">Line style 19.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset2">
+      <MemberSignature Language="C#" Value="msoLineStylePreset2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset2 = int32(10002)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset2" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset2" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10002</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-113">线条样式 2。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-113">Line style 2.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset20">
+      <MemberSignature Language="C#" Value="msoLineStylePreset20" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset20 = int32(10020)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset20" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset20" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset20" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10020</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-114">线条样式 20。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-114">Line style 20.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset21">
+      <MemberSignature Language="C#" Value="msoLineStylePreset21" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset21 = int32(10021)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset21" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset21" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset21" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10021</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-115">线条样式 21。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-115">Line style 21.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset3">
+      <MemberSignature Language="C#" Value="msoLineStylePreset3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset3 = int32(10003)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset3" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset3" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10003</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-116">线条样式 3。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-116">Line style 3.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset4">
+      <MemberSignature Language="C#" Value="msoLineStylePreset4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset4 = int32(10004)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset4" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset4" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10004</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-117">线条样式 4。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-117">Line style 4.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset5">
+      <MemberSignature Language="C#" Value="msoLineStylePreset5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset5 = int32(10005)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset5" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset5" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10005</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-118">线条样式 5。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-118">Line style 5.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset6">
+      <MemberSignature Language="C#" Value="msoLineStylePreset6" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset6 = int32(10006)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset6" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset6" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset6" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10006</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-119">线条样式 6。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-119">Line style 6.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset7">
+      <MemberSignature Language="C#" Value="msoLineStylePreset7" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset7 = int32(10007)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset7" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset7" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset7" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10007</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-120">线条样式 7。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-120">Line style 7.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset8">
+      <MemberSignature Language="C#" Value="msoLineStylePreset8" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset8 = int32(10008)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset8" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset8" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10008</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-121">线条样式 8。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-121">Line style 8.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineStylePreset9">
+      <MemberSignature Language="C#" Value="msoLineStylePreset9" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoLineStylePreset9 = int32(10009)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoLineStylePreset9" />
+      <MemberSignature Language="VB.NET" Value="msoLineStylePreset9" />
+      <MemberSignature Language="C++ CLI" Value="msoLineStylePreset9" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10009</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-122">线条样式 9。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-122">Line style 9.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStyleMixed">
+      <MemberSignature Language="C#" Value="msoShapeStyleMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStyleMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStyleMixed" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStyleMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStyleMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-123">混和的阴影样式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-123">A mix of shape styles.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStyleNotAPreset">
+      <MemberSignature Language="C#" Value="msoShapeStyleNotAPreset" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStyleNotAPreset = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStyleNotAPreset" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStyleNotAPreset" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStyleNotAPreset" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-124">无阴影样式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-124">No shape style.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset1">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset1 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset1" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset1" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-125">阴影样式 1。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-125">Shape style 1.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset10">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset10" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset10 = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset10" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset10" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset10" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-126">阴影样式 10。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-126">Shape style 10.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset11">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset11" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset11 = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset11" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset11" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset11" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-127">阴影样式 11。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-127">Shape style 11.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset12">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset12" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset12 = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset12" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset12" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset12" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-128">阴影样式 12。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-128">Shape style 12.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset13">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset13" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset13 = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset13" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset13" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset13" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-129">阴影样式 13。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-129">Shape style 13.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset14">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset14" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset14 = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset14" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset14" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset14" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-130">阴影样式 14。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-130">Shape style 14.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset15">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset15" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset15 = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset15" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset15" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset15" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-131">阴影样式 15。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-131">Shape style 15.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset16">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset16" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset16 = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset16" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset16" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset16" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-132">阴影样式 16。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-132">Shape style 16.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset17">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset17" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset17 = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset17" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset17" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset17" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-133">阴影样式 17。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-133">Shape style 17.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset18">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset18" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset18 = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset18" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset18" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset18" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-134">阴影样式 18。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-134">Shape style 18.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset19">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset19" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset19 = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset19" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset19" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset19" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-135">阴影样式 19。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-135">Shape style 19.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset2">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset2 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset2" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset2" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-136">阴影样式 2。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-136">Shape style 2.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset20">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset20" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset20 = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset20" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset20" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset20" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-137">阴影样式 20。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-137">Shape style 20.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset21">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset21" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset21 = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset21" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset21" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset21" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-138">阴影样式 21。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-138">Shape style 21.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset22">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset22" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset22 = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset22" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset22" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset22" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-139">阴影样式 22。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-139">Shape style 22.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset23">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset23" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset23 = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset23" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset23" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset23" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-140">阴影样式 23。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-140">Shape style 23.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset24">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset24" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset24 = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset24" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset24" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset24" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-141">阴影样式 24。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-141">Shape style 24.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset25">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset25" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset25 = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset25" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset25" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset25" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-142">阴影样式 25。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-142">Shape style 25.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset26">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset26" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset26 = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset26" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset26" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset26" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-143">阴影样式 26。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-143">Shape style 26.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset27">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset27" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset27 = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset27" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset27" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset27" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-144">阴影样式 27。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-144">Shape style 27.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset28">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset28" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset28 = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset28" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset28" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset28" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-145">阴影样式 28。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-145">Shape style 28.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset29">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset29" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset29 = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset29" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset29" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset29" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-146">阴影样式 29。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-146">Shape style 29.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset3">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset3 = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset3" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset3" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-147">阴影样式 3。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-147">Shape style 3.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset30">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset30" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset30 = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset30" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset30" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset30" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-148">阴影样式 30。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-148">Shape style 30.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset31">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset31" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset31 = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset31" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset31" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset31" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-149">阴影样式 31。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-149">Shape style 31.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset32">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset32" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset32 = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset32" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset32" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset32" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-150">阴影样式 32。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-150">Shape style 32.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset33">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset33" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset33 = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset33" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset33" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset33" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-151">阴影样式 33。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-151">Shape style 33.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset34">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset34" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset34 = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset34" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset34" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset34" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-152">阴影样式 34。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-152">Shape style 34.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset35">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset35" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset35 = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset35" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset35" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset35" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-153">阴影样式 35。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-153">Shape style 35.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset36">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset36" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset36 = int32(36)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset36" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset36" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset36" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>36</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-154">阴影样式 36。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-154">Shape style 36.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset37">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset37" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset37 = int32(37)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset37" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset37" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset37" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>37</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-155">阴影样式 37。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-155">Shape style 37.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset38">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset38" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset38 = int32(38)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset38" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset38" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset38" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>38</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-156">阴影样式 38。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-156">Shape style 38.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset39">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset39" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset39 = int32(39)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset39" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset39" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset39" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>39</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-157">阴影样式 39。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-157">Shape style 39.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset4">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset4 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset4" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset4" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-158">阴影样式 4。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-158">Shape style 4.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset40">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset40" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset40 = int32(40)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset40" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset40" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset40" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>40</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-159">阴影样式 40。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-159">Shape style 40.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset41">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset41" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset41 = int32(41)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset41" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset41" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset41" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>41</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-160">阴影样式 41。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-160">Shape style 41.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset42">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset42" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset42 = int32(42)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset42" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset42" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset42" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>42</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-161">阴影样式 42。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-161">Shape style 42.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset5">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset5 = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset5" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset5" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-162">阴影样式 5。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-162">Shape style 5.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset6">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset6" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset6 = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset6" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset6" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset6" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-163">阴影样式 6。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-163">Shape style 6.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset7">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset7" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset7 = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset7" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset7" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset7" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-164">阴影样式 7。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-164">Shape style 7.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset8">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset8" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset8 = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset8" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset8" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-165">阴影样式 8。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-165">Shape style 8.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoShapeStylePreset9">
+      <MemberSignature Language="C#" Value="msoShapeStylePreset9" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoShapeStyleIndex msoShapeStylePreset9 = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoShapeStyleIndex.msoShapeStylePreset9" />
+      <MemberSignature Language="VB.NET" Value="msoShapeStylePreset9" />
+      <MemberSignature Language="C++ CLI" Value="msoShapeStylePreset9" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoShapeStyleIndex</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fc8f1-166">阴影样式 9。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fc8f1-166">Shape style 9.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

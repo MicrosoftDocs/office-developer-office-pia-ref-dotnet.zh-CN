@@ -1,0 +1,128 @@
+<Type Name="MsoContactCardType" FullName="Microsoft.Office.Core.MsoContactCardType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e3d0ea40a306ff54a3095a76a38d8d280f016f22" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658232" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoContactCardType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoContactCardType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoContactCardType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoContactCardType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoContactCardType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("310803CD-C69D-4371-98C9-40CE4E9BFD5A")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoContactCardTypeEnterpriseContact">
+      <MemberSignature Language="C#" Value="msoContactCardTypeEnterpriseContact" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoContactCardType msoContactCardTypeEnterpriseContact = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoContactCardType.msoContactCardTypeEnterpriseContact" />
+      <MemberSignature Language="VB.NET" Value="msoContactCardTypeEnterpriseContact" />
+      <MemberSignature Language="C++ CLI" Value="msoContactCardTypeEnterpriseContact" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoContactCardType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoContactCardTypeEnterpriseGroup">
+      <MemberSignature Language="C#" Value="msoContactCardTypeEnterpriseGroup" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoContactCardType msoContactCardTypeEnterpriseGroup = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoContactCardType.msoContactCardTypeEnterpriseGroup" />
+      <MemberSignature Language="VB.NET" Value="msoContactCardTypeEnterpriseGroup" />
+      <MemberSignature Language="C++ CLI" Value="msoContactCardTypeEnterpriseGroup" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoContactCardType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoContactCardTypePersonalContact">
+      <MemberSignature Language="C#" Value="msoContactCardTypePersonalContact" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoContactCardType msoContactCardTypePersonalContact = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoContactCardType.msoContactCardTypePersonalContact" />
+      <MemberSignature Language="VB.NET" Value="msoContactCardTypePersonalContact" />
+      <MemberSignature Language="C++ CLI" Value="msoContactCardTypePersonalContact" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoContactCardType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoContactCardTypePersonalDistributionList">
+      <MemberSignature Language="C#" Value="msoContactCardTypePersonalDistributionList" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoContactCardType msoContactCardTypePersonalDistributionList = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoContactCardType.msoContactCardTypePersonalDistributionList" />
+      <MemberSignature Language="VB.NET" Value="msoContactCardTypePersonalDistributionList" />
+      <MemberSignature Language="C++ CLI" Value="msoContactCardTypePersonalDistributionList" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoContactCardType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoContactCardTypeUnknownContact">
+      <MemberSignature Language="C#" Value="msoContactCardTypeUnknownContact" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoContactCardType msoContactCardTypeUnknownContact = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoContactCardType.msoContactCardTypeUnknownContact" />
+      <MemberSignature Language="VB.NET" Value="msoContactCardTypeUnknownContact" />
+      <MemberSignature Language="C++ CLI" Value="msoContactCardTypeUnknownContact" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoContactCardType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

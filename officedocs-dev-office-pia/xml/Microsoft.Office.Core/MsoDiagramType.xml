@@ -1,0 +1,206 @@
+<Type Name="MsoDiagramType" FullName="Microsoft.Office.Core.MsoDiagramType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9c0962f2ce790927974cec18b3fe8031b7ddf504" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658263" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoDiagramType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoDiagramType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoDiagramType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoDiagramType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoDiagramType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="c36e5-101">指定图表的类型。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c36e5-101">Specifies the type of diagram.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoDiagramCycle">
+      <MemberSignature Language="C#" Value="msoDiagramCycle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDiagramType msoDiagramCycle = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDiagramType.msoDiagramCycle" />
+      <MemberSignature Language="VB.NET" Value="msoDiagramCycle" />
+      <MemberSignature Language="C++ CLI" Value="msoDiagramCycle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDiagramType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c36e5-102">周期图。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c36e5-102">Cycle diagram.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDiagramMixed">
+      <MemberSignature Language="C#" Value="msoDiagramMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDiagramType msoDiagramMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDiagramType.msoDiagramMixed" />
+      <MemberSignature Language="VB.NET" Value="msoDiagramMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoDiagramMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDiagramType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c36e5-103">只返回值，表示其他状态的组合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c36e5-103">Return value only; indicates a combination of the other states.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDiagramOrgChart">
+      <MemberSignature Language="C#" Value="msoDiagramOrgChart" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDiagramType msoDiagramOrgChart = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDiagramType.msoDiagramOrgChart" />
+      <MemberSignature Language="VB.NET" Value="msoDiagramOrgChart" />
+      <MemberSignature Language="C++ CLI" Value="msoDiagramOrgChart" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDiagramType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c36e5-104">组织图表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c36e5-104">Organization chart diagram.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDiagramPyramid">
+      <MemberSignature Language="C#" Value="msoDiagramPyramid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDiagramType msoDiagramPyramid = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDiagramType.msoDiagramPyramid" />
+      <MemberSignature Language="VB.NET" Value="msoDiagramPyramid" />
+      <MemberSignature Language="C++ CLI" Value="msoDiagramPyramid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDiagramType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c36e5-105">棱锥图。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c36e5-105">Pyramid diagram.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDiagramRadial">
+      <MemberSignature Language="C#" Value="msoDiagramRadial" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDiagramType msoDiagramRadial = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDiagramType.msoDiagramRadial" />
+      <MemberSignature Language="VB.NET" Value="msoDiagramRadial" />
+      <MemberSignature Language="C++ CLI" Value="msoDiagramRadial" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDiagramType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c36e5-106">射线图。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c36e5-106">Radial diagram.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDiagramTarget">
+      <MemberSignature Language="C#" Value="msoDiagramTarget" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDiagramType msoDiagramTarget = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDiagramType.msoDiagramTarget" />
+      <MemberSignature Language="VB.NET" Value="msoDiagramTarget" />
+      <MemberSignature Language="C++ CLI" Value="msoDiagramTarget" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDiagramType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c36e5-107">目标图示。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c36e5-107">Target diagram.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoDiagramVenn">
+      <MemberSignature Language="C#" Value="msoDiagramVenn" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDiagramType msoDiagramVenn = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDiagramType.msoDiagramVenn" />
+      <MemberSignature Language="VB.NET" Value="msoDiagramVenn" />
+      <MemberSignature Language="C++ CLI" Value="msoDiagramVenn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDiagramType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c36e5-108">维恩图。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c36e5-108">Venn diagram.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

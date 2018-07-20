@@ -1,0 +1,502 @@
+<Type Name="GradientStops" FullName="Microsoft.Office.Core.GradientStops">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e4a2f77dd94f89d7e1ee1634165ec5f1faaf578c" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658144" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface GradientStops : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract GradientStops implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.GradientStops" />
+  <TypeSignature Language="VB.NET" Value="Public Interface GradientStops&#xA;Implements _IMsoDispObj, IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class GradientStops : Microsoft::Office::Core::_IMsoDispObj, System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03C0-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="3ce56-101">包含一<see cref="T:Microsoft.Office.Core.GradientStop" />对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="3ce56-101">Contains a collection of <see cref="T:Microsoft.Office.Core.GradientStop" /> objects.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="3ce56-102">
+        <para>渐变是从一种颜色状态平滑过渡到另一个。以下各节的终结点称为停止。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="3ce56-102">
+          <para>Gradients are a smooth transition from one color state to another. The endpoints of these sections are called stops.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.GradientStops.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3ce56-p101">如果不与对象识别符一起使用，则该属性返回一个 <b>Application</b> 对象，该对象表示 Microsoft Office 应用程序。如果与对象识别符一起使用，该属性返回一个 <b>Application</b> 对象，该对象表示创建指定对象的应用程序。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-p101">When used without an object qualifier, this property returns an  <b>Application</b> object that represents the Microsoft Office application. When used with an object qualifier, this property returns an <b>Application</b> object that represents the creator of the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3ce56-106">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-106">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="3ce56-107">
+            <para>您可以与 OLE 自动化对象使用此属性返回该对象的应用程序。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-107">
+              <para>You can use this property with an OLE Automation object to return the application of that object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.GradientStops.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3ce56-108">获取中的项目数<see cref="T:Microsoft.Office.Core.GradientStops" />集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-108">Gets the number of items in the <see cref="T:Microsoft.Office.Core.GradientStops" /> collection.</span>
+          </span>
+          <span data-ttu-id="3ce56-109">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-109">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3ce56-110">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-110">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.GradientStops.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3ce56-111">获取一个 32 位整数，表示在其中应用程序<see cref="T:Microsoft.Office.Core.GradientStops" />对象的创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-111">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.GradientStops" /> object was created.</span>
+          </span>
+          <span data-ttu-id="3ce56-112">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-112">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3ce56-113">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-113">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (int Index = -1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete([in]int32 Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.GradientStops.Delete(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete (Optional Index As Integer = -1)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="3ce56-114">渐变光圈的索引号。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-114">The index number of the gradient stop.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="3ce56-115">删除渐变光圈。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-115">Removes a gradient stop.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="3ce56-116">
+            <para>渐变是从一种颜色状态平滑过渡到另一个。以下各节的终结点称为停止。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-116">
+              <para>Gradients are a smooth transition from one color state to another. The endpoints of these sections are called stops.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.GradientStops.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Insert">
+      <MemberSignature Language="C#" Value="public void Insert (int RGB, float Position, float Transparency = 0, int Index = -1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Insert([in]int32 RGB, [in]float32 Position, [in]float32 Transparency, [in]int32 Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.GradientStops.Insert(System.Int32,System.Single,System.Single,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Insert (RGB As Integer, Position As Single, Optional Transparency As Single = 0, Optional Index As Integer = -1)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="RGB" Type="System.Int32">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.Runtime.InteropServices.ComAliasName("Microsoft.Office.Core.MsoRGBType")</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="Position" Type="System.Single" />
+        <Parameter Name="Transparency" Type="System.Single" />
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="RGB">
+          <span data-ttu-id="3ce56-117">指定处的颜色渐变光圈。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-117">Specifies the color at that the gradient stop.</span>
+          </span>
+        </param>
+        <param name="Position">
+          <span data-ttu-id="3ce56-118">以百分比形式指定渐变内部的光圈的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-118">Specifies the position of the stop within the gradient expressed as a percent.</span>
+          </span>
+        </param>
+        <param name="Transparency">
+          <span data-ttu-id="3ce56-119">指定渐变光圈处的颜色不透明度。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-119">Specifies the opacity of color at the gradient stop.</span>
+          </span>
+        </param>
+        <param name="Index">
+          <span data-ttu-id="3ce56-120">光圈的索引号。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-120">The index number of the stop.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="3ce56-121">向渐变添加一个光圈。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-121">Adds a stop to a gradient.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="3ce56-122">
+            <para>渐变是从一种颜色状态平滑过渡到另一个。以下各节的终结点称为停止。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-122">
+              <para>Gradients are a smooth transition from one color state to another. The endpoints of these sections are called stops.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Insert2">
+      <MemberSignature Language="C#" Value="public void Insert2 (int RGB, float Position, float Transparency = 0, int Index = -1, float Brightness = 0);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Insert2([in]int32 RGB, [in]float32 Position, [in]float32 Transparency, [in]int32 Index, [in]float32 Brightness) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.GradientStops.Insert2(System.Int32,System.Single,System.Single,System.Int32,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Insert2 (RGB As Integer, Position As Single, Optional Transparency As Single = 0, Optional Index As Integer = -1, Optional Brightness As Single = 0)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="RGB" Type="System.Int32">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.Runtime.InteropServices.ComAliasName("Microsoft.Office.Core.MsoRGBType")</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="Position" Type="System.Single" />
+        <Parameter Name="Transparency" Type="System.Single" />
+        <Parameter Name="Index" Type="System.Int32" />
+        <Parameter Name="Brightness" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="RGB">
+          <span data-ttu-id="3ce56-123">指定处的颜色渐变光圈。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-123">Specifies the color at that the gradient stop.</span>
+          </span>
+        </param>
+        <param name="Position">
+          <span data-ttu-id="3ce56-124">以百分比形式指定渐变内部的光圈的位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-124">Specifies the position of the stop within the gradient expressed as a percent.</span>
+          </span>
+        </param>
+        <param name="Transparency">
+          <span data-ttu-id="3ce56-125">指定渐变光圈处的颜色不透明度。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-125">Specifies the opacity of color at the gradient stop.</span>
+          </span>
+        </param>
+        <param name="Index">
+          <span data-ttu-id="3ce56-126">光圈的索引号。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-126">The index number of the stop.</span>
+          </span>
+        </param>
+        <param name="Brightness">
+          <span data-ttu-id="3ce56-127">指定渐变光圈处颜色的亮度。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-127">Specifies the brightness of the color at the gradient stop.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="3ce56-128">向渐变添加光圈，并指定颜色亮度和透明度。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-128">Adds a stop to a gradient and specifies the brightness, as well as the transparency, of the color.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="3ce56-129">
+            <para>渐变是从一种颜色状态平滑过渡到另一个。以下各节的终结点称为光圈。</para>
+            <para>此方法不同于<see cref="M:Microsoft.Office.Core.GradientStops.Insert" />中的方法，它使您能够指定亮度，以及渐变光圈处颜色的透明度。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-129">
+              <para>Gradients are a smooth transition from one color state to another. The endpoints of these sections are called stops.</para>
+              <para>This method differs from the <see cref="M:Microsoft.Office.Core.GradientStops.Insert" /> method in that it enables you to specify the brightness, as well as the transparency, of the color at the gradient stop.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.GradientStop this[int Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.GradientStop Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.GradientStops.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Integer) As GradientStop" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::GradientStop ^ default[int] { Microsoft::Office::Core::GradientStop ^ get(int Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.GradientStop</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="3ce56-130">返回的对象的名称或索引号。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-130">The name or index number of the object returned.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="3ce56-131">获取<see cref="T:Microsoft.Office.Core.GradientStop" />对象从<see cref="T:Microsoft.Office.Core.GradientStops" />集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-131">Gets a <see cref="T:Microsoft.Office.Core.GradientStop" /> object from a <see cref="T:Microsoft.Office.Core.GradientStops" /> collection.</span>
+          </span>
+          <span data-ttu-id="3ce56-132">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-132">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3ce56-133">
+            <b>GradientStop</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3ce56-133">
+              <b>GradientStop</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

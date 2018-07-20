@@ -1,0 +1,266 @@
+<Type Name="XlHAlign" FullName="Microsoft.Office.Core.XlHAlign">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c6c4044dea207c3654a1c716728fe1c711d93529" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657861" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlHAlign" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlHAlign extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlHAlign" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlHAlign" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlHAlign" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="7a12c-101">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7a12c-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+      </span>
+      <span data-ttu-id="7a12c-102">指定对象的水平对齐方式。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7a12c-102">Specifies the horizontal alignment for the object.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlHAlignCenter">
+      <MemberSignature Language="C#" Value="xlHAlignCenter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlHAlign xlHAlignCenter = int32(-4108)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlHAlign.xlHAlignCenter" />
+      <MemberSignature Language="VB.NET" Value="xlHAlignCenter" />
+      <MemberSignature Language="C++ CLI" Value="xlHAlignCenter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlHAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4108</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a12c-103">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a12c-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="7a12c-104">居中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a12c-104">Center.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlHAlignCenterAcrossSelection">
+      <MemberSignature Language="C#" Value="xlHAlignCenterAcrossSelection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlHAlign xlHAlignCenterAcrossSelection = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlHAlign.xlHAlignCenterAcrossSelection" />
+      <MemberSignature Language="VB.NET" Value="xlHAlignCenterAcrossSelection" />
+      <MemberSignature Language="C++ CLI" Value="xlHAlignCenterAcrossSelection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlHAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a12c-105">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a12c-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="7a12c-106">跨列居中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a12c-106">Center across selection.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlHAlignDistributed">
+      <MemberSignature Language="C#" Value="xlHAlignDistributed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlHAlign xlHAlignDistributed = int32(-4117)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlHAlign.xlHAlignDistributed" />
+      <MemberSignature Language="VB.NET" Value="xlHAlignDistributed" />
+      <MemberSignature Language="C++ CLI" Value="xlHAlignDistributed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlHAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4117</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a12c-107">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a12c-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="7a12c-108">分散对齐。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a12c-108">Distribute.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlHAlignFill">
+      <MemberSignature Language="C#" Value="xlHAlignFill" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlHAlign xlHAlignFill = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlHAlign.xlHAlignFill" />
+      <MemberSignature Language="VB.NET" Value="xlHAlignFill" />
+      <MemberSignature Language="C++ CLI" Value="xlHAlignFill" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlHAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a12c-109">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a12c-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="7a12c-110">填充。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a12c-110">Fill.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlHAlignGeneral">
+      <MemberSignature Language="C#" Value="xlHAlignGeneral" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlHAlign xlHAlignGeneral = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlHAlign.xlHAlignGeneral" />
+      <MemberSignature Language="VB.NET" Value="xlHAlignGeneral" />
+      <MemberSignature Language="C++ CLI" Value="xlHAlignGeneral" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlHAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a12c-111">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a12c-111">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="7a12c-112">按数据类型对齐。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a12c-112">Align according to data type.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlHAlignJustify">
+      <MemberSignature Language="C#" Value="xlHAlignJustify" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlHAlign xlHAlignJustify = int32(-4130)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlHAlign.xlHAlignJustify" />
+      <MemberSignature Language="VB.NET" Value="xlHAlignJustify" />
+      <MemberSignature Language="C++ CLI" Value="xlHAlignJustify" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlHAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4130</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a12c-113">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a12c-113">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="7a12c-114">两端对齐。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a12c-114">Justify.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlHAlignLeft">
+      <MemberSignature Language="C#" Value="xlHAlignLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlHAlign xlHAlignLeft = int32(-4131)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlHAlign.xlHAlignLeft" />
+      <MemberSignature Language="VB.NET" Value="xlHAlignLeft" />
+      <MemberSignature Language="C++ CLI" Value="xlHAlignLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlHAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4131</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a12c-115">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a12c-115">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="7a12c-116">靠左。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a12c-116">Left.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlHAlignRight">
+      <MemberSignature Language="C#" Value="xlHAlignRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlHAlign xlHAlignRight = int32(-4152)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlHAlign.xlHAlignRight" />
+      <MemberSignature Language="VB.NET" Value="xlHAlignRight" />
+      <MemberSignature Language="C++ CLI" Value="xlHAlignRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlHAlign</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4152</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a12c-117">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a12c-117">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="7a12c-118">靠右。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a12c-118">Right.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

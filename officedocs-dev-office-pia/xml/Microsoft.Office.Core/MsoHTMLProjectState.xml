@@ -1,0 +1,134 @@
+<Type Name="MsoHTMLProjectState" FullName="Microsoft.Office.Core.MsoHTMLProjectState">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2125b8b5e21b2c0d40290d0781c284349ad16238" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658086" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoHTMLProjectState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoHTMLProjectState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoHTMLProjectState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoHTMLProjectState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoHTMLProjectState" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="13347-101">指定<b>HTMLProject</b>对象的当前状态。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="13347-101">Specifies the current state of an <b>HTMLProject</b> object.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="13347-102">
+        <para>
+          <b>MsoHTMLProjectState</b>常量对应于在 Microsoft Office 主机应用程序或 Microsoft 脚本编辑器刷新工具栏的状态。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="13347-102">
+          <para>The <b>MsoHTMLProjectState</b> constants correspond to the state of the Refresh toolbar in the Microsoft Office host application or the Microsoft Script Editor. </para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoHTMLProjectStateDocumentLocked">
+      <MemberSignature Language="C#" Value="msoHTMLProjectStateDocumentLocked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoHTMLProjectState msoHTMLProjectStateDocumentLocked = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoHTMLProjectState.msoHTMLProjectStateDocumentLocked" />
+      <MemberSignature Language="VB.NET" Value="msoHTMLProjectStateDocumentLocked" />
+      <MemberSignature Language="C++ CLI" Value="msoHTMLProjectStateDocumentLocked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoHTMLProjectState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="13347-103">文档已被锁定。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="13347-103">Document is locked.</span>
+          </span>
+          <span data-ttu-id="13347-104">在 Microsoft Office 宿主应用程序或 Microsoft 脚本编辑器，表示主机应用程序中显示刷新工具栏。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="13347-104">In a Microsoft Office host application or Microsoft Script Editor, indicates that the Refresh toolbar is displayed in the host application.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoHTMLProjectStateDocumentProjectUnlocked">
+      <MemberSignature Language="C#" Value="msoHTMLProjectStateDocumentProjectUnlocked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoHTMLProjectState msoHTMLProjectStateDocumentProjectUnlocked = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoHTMLProjectState.msoHTMLProjectStateDocumentProjectUnlocked" />
+      <MemberSignature Language="VB.NET" Value="msoHTMLProjectStateDocumentProjectUnlocked" />
+      <MemberSignature Language="C++ CLI" Value="msoHTMLProjectStateDocumentProjectUnlocked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoHTMLProjectState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="13347-105">未锁定文档。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="13347-105">Document is unlocked.</span>
+          </span>
+          <span data-ttu-id="13347-106">在 Microsoft Office 主机应用程序或 Microsoft 脚本编辑器，指示根本不显示刷新工具栏。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="13347-106">In a Microsoft Office host application or Microsoft Script Editor, indicates that the Refresh toolbar is not displayed at all.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoHTMLProjectStateProjectLocked">
+      <MemberSignature Language="C#" Value="msoHTMLProjectStateProjectLocked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoHTMLProjectState msoHTMLProjectStateProjectLocked = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoHTMLProjectState.msoHTMLProjectStateProjectLocked" />
+      <MemberSignature Language="VB.NET" Value="msoHTMLProjectStateProjectLocked" />
+      <MemberSignature Language="C++ CLI" Value="msoHTMLProjectStateProjectLocked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoHTMLProjectState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="13347-107">项目已被锁定。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="13347-107">Project is locked.</span>
+          </span>
+          <span data-ttu-id="13347-108">在 Microsoft 脚本编辑器中，指示已显示刷新工具栏。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="13347-108">In the Microsoft Script Editor, indicates that the Refresh toolbar is displayed.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

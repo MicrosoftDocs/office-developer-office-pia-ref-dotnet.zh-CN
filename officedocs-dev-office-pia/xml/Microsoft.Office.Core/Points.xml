@@ -1,0 +1,313 @@
+<Type Name="Points" FullName="Microsoft.Office.Core.Points">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="abec55c336a4df4adc8d912389047506d0ffa584" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657936" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Points : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Points implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.Points" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Points&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Points : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C170D-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4112)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="68968-101">所有的集合<see cref="T:Microsoft.Office.Core.ChartPoint" />图表中指定系列中的对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="68968-101">A collection of all the <see cref="T:Microsoft.Office.Core.ChartPoint" /> objects in the specified series in a chart.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="68968-102">
+        <para>使用<see cref="M:Microsoft.Office.Core.Points.Item(System.Int32)" />，其中<paramref name="Index" />是点索引号，若要返回单个<see cref="T:Microsoft.Office.Core.ChartPoint" />对象。点编号从左到右系列。1 是最左侧的点，并且<see cref="P:Microsoft.Office.Core.Points.Count" />是最右侧的点。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="68968-102">
+          <para>Use <see cref="M:Microsoft.Office.Core.Points.Item(System.Int32)" />, where <paramref name="Index" /> is the point index number, to return a single <see cref="T:Microsoft.Office.Core.ChartPoint" /> object. Points are numbered from left to right on the series. 1 is the leftmost point, and <see cref="P:Microsoft.Office.Core.Points.Count" /> is the rightmost point.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="_Default">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ChartPoint this[int Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.ChartPoint _Default(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Points._Default(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property _Default(Index As Integer) As ChartPoint" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ChartPoint ^ default[int] { Microsoft::Office::Core::ChartPoint ^ get(int Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ChartPoint</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Points.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="68968-103">获取在其中创建此对象的<b>应用程序</b>对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="68968-103">Gets the <b>Application</b> object in which this object was created.</span>
+          </span>
+          <span data-ttu-id="68968-104">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="68968-104">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="68968-105">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="68968-105">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Points.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="68968-106">返回集合中对象的数目。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="68968-106">Returns the number of objects in the collection.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="68968-107">
+            <b>整数</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="68968-107">
+              <b>Integer</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Points.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="68968-108">返回在其中创建此对象的应用程序的 ID。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="68968-108">Returns the ID of the application in which this object was created.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="68968-109">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="68968-109">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Points.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>
+          <span data-ttu-id="68968-110">返回<see cref="T:System.Collections.IEnumerator" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="68968-110">Returns <see cref="T:System.Collections.IEnumerator" />.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ChartPoint Item (int Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Core.ChartPoint Item([in]int32 Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.Points.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Item (Index As Integer) As ChartPoint" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Core::ChartPoint ^ Item(int Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ChartPoint</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="68968-111">对象的索引号。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="68968-111">The index number for the object.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="68968-112">从集合中返回一个对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="68968-112">Returns a single object from a collection.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="68968-113">A<see cref="T:Microsoft.Office.Core.ChartPoint" />包含在集合中的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="68968-113">A <see cref="T:Microsoft.Office.Core.ChartPoint" /> object contained by the collection.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.Points.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="68968-p102">返回指定对象的父对象。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="68968-p102">Returns the parent object for the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="68968-116">返回<see cref="T:System.Object" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="68968-116">Returns <see cref="T:System.Object" />.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

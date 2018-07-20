@@ -1,0 +1,85 @@
+<Type Name="MsoBlogImageType" FullName="Microsoft.Office.Core.MsoBlogImageType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6cdb0b27ed7eb7098c182e69ac1c052a64f073dc" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657740" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoBlogImageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBlogImageType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBlogImageType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoBlogImageType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoBlogImageType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoblogImageTypeGIF">
+      <MemberSignature Language="C#" Value="msoblogImageTypeGIF" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBlogImageType msoblogImageTypeGIF = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBlogImageType.msoblogImageTypeGIF" />
+      <MemberSignature Language="VB.NET" Value="msoblogImageTypeGIF" />
+      <MemberSignature Language="C++ CLI" Value="msoblogImageTypeGIF" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBlogImageType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoblogImageTypeJPEG">
+      <MemberSignature Language="C#" Value="msoblogImageTypeJPEG" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBlogImageType msoblogImageTypeJPEG = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBlogImageType.msoblogImageTypeJPEG" />
+      <MemberSignature Language="VB.NET" Value="msoblogImageTypeJPEG" />
+      <MemberSignature Language="C++ CLI" Value="msoblogImageTypeJPEG" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBlogImageType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoblogImageTypePNG">
+      <MemberSignature Language="C#" Value="msoblogImageTypePNG" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBlogImageType msoblogImageTypePNG = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBlogImageType.msoblogImageTypePNG" />
+      <MemberSignature Language="VB.NET" Value="msoblogImageTypePNG" />
+      <MemberSignature Language="C++ CLI" Value="msoblogImageTypePNG" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBlogImageType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

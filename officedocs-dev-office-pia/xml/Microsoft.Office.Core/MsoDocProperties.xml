@@ -1,0 +1,153 @@
+<Type Name="MsoDocProperties" FullName="Microsoft.Office.Core.MsoDocProperties">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8bbda22b2d79faca7ab58f77b3ee9262b0eb90c4" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658235" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoDocProperties" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoDocProperties extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoDocProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoDocProperties" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoDocProperties" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="dd360-101">指定文档属性的数据类型。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="dd360-101">Specifies the data type for a document property.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoPropertyTypeBoolean">
+      <MemberSignature Language="C#" Value="msoPropertyTypeBoolean" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDocProperties msoPropertyTypeBoolean = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDocProperties.msoPropertyTypeBoolean" />
+      <MemberSignature Language="VB.NET" Value="msoPropertyTypeBoolean" />
+      <MemberSignature Language="C++ CLI" Value="msoPropertyTypeBoolean" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDocProperties</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dd360-102">Boolean 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd360-102">Boolean value.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPropertyTypeDate">
+      <MemberSignature Language="C#" Value="msoPropertyTypeDate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDocProperties msoPropertyTypeDate = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDocProperties.msoPropertyTypeDate" />
+      <MemberSignature Language="VB.NET" Value="msoPropertyTypeDate" />
+      <MemberSignature Language="C++ CLI" Value="msoPropertyTypeDate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDocProperties</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dd360-103">Date 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd360-103">Date value.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPropertyTypeFloat">
+      <MemberSignature Language="C#" Value="msoPropertyTypeFloat" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDocProperties msoPropertyTypeFloat = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDocProperties.msoPropertyTypeFloat" />
+      <MemberSignature Language="VB.NET" Value="msoPropertyTypeFloat" />
+      <MemberSignature Language="C++ CLI" Value="msoPropertyTypeFloat" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDocProperties</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dd360-104">Floating point 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd360-104">Floating point value.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPropertyTypeNumber">
+      <MemberSignature Language="C#" Value="msoPropertyTypeNumber" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDocProperties msoPropertyTypeNumber = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDocProperties.msoPropertyTypeNumber" />
+      <MemberSignature Language="VB.NET" Value="msoPropertyTypeNumber" />
+      <MemberSignature Language="C++ CLI" Value="msoPropertyTypeNumber" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDocProperties</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dd360-105">Integer 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd360-105">Integer value.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPropertyTypeString">
+      <MemberSignature Language="C#" Value="msoPropertyTypeString" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoDocProperties msoPropertyTypeString = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoDocProperties.msoPropertyTypeString" />
+      <MemberSignature Language="VB.NET" Value="msoPropertyTypeString" />
+      <MemberSignature Language="C++ CLI" Value="msoPropertyTypeString" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDocProperties</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dd360-106">String 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dd360-106">String value.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

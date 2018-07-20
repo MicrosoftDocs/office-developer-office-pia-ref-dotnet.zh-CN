@@ -1,0 +1,436 @@
+<Type Name="DocumentProperty" FullName="Microsoft.Office.Core.DocumentProperty">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="be826a73e8f4e085cc5edc2a6bc0a3254ae53c15" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657823" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface DocumentProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DocumentProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.DocumentProperty" />
+  <TypeSignature Language="VB.NET" Value="Public Interface DocumentProperty" />
+  <TypeSignature Language="C++ CLI" Value="public interface class DocumentProperty" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("2DF8D04E-5BFA-101B-BDE5-00AA0044DE52")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="96e99-101">代表容器文档的自定义或内置文档属性。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="96e99-101">Represents a custom or built-in document property of a container document.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="96e99-102">
+        <para>
+          <b>DocumentProperty</b>对象所在的<see cref="T:Microsoft.Office.Core.DocumentProperties" />集合。</para>使用<b>BuiltinDocumentProperties</b><para>(<paramref name="index" />)，其中<paramref name="index" />是名称或索引号的内置文档属性，返回单个<b>DocumentProperty</b>对象表示的特定的内置文档属性。使用<b>CustomDocumentProperties</b>(<paramref name="index" />)，其中<paramref name="index" />是名称或自定义文档属性，返回一个代表特定自定义文档属性的<b>DocumentProperty</b>对象的索引号。</para><para>下面的列表包含所有可用的内置文档属性的名称：</para><para>标题</para><para>主题</para><para>作者</para><para>关键字</para><para>注释</para><para>模板</para><para>上一个作者</para><para>修订号</para><para>应用程序名称</para><para>上次打印日期</para><para>创建日期</para><para>上次保存时间</para><para>编辑时间总计</para><para>网页数量</para><para>单词数</para><para>字符数</para><para>安全</para><para>类别</para><para>格式</para><para>管理器</para><para>公司</para><para>字节数</para><para>行数</para><para>段落数</para><para>幻灯片数</para><para>备注数</para><para>隐藏幻灯片数</para><para>数多媒体剪辑</para><para>容器应用程序不一定是定义每个内置文档属性的值。如果给定应用程序没有定义某个内置文档属性的值，则返回<see cref="P:Microsoft.Office.Core.DocumentProperty.Value" />文档属性的属性将导致出错。</para><para /></span>
+      <span class="sxs-lookup">
+        <span data-stu-id="96e99-102">
+          <para>The <b>DocumentProperty</b> object is a member of the <see cref="T:Microsoft.Office.Core.DocumentProperties" /> collection.</para>
+          <para>Use <b>BuiltinDocumentProperties</b>(<paramref name="index" />), where <paramref name="index" /> is the name or index number of the built-in document property, to return a single <b>DocumentProperty</b> object that represents a specific built-in document property. Use <b>CustomDocumentProperties</b>(<paramref name="index" />), where <paramref name="index" /> is the name or index number of the custom document property, to return a <b>DocumentProperty</b> object that represents a specific custom document property.</para>
+          <para>The following list contains the names of all the available built-in document properties:</para>
+          <para>Title</para>
+          <para>Subject</para>
+          <para>Author</para>
+          <para>Keywords</para>
+          <para>Comments</para>
+          <para>Template</para>
+          <para>Last Author</para>
+          <para>Revision Number</para>
+          <para>Application Name</para>
+          <para>Last Print Date</para>
+          <para>Creation Date</para>
+          <para>Last Save Time</para>
+          <para>Total Editing Time</para>
+          <para>Number of Pages</para>
+          <para>Number of Words </para>
+          <para>Number of Characters</para>
+          <para>Security</para>
+          <para>Category</para>
+          <para>Format</para>
+          <para>Manager</para>
+          <para>Company</para>
+          <para>Number of Bytes</para>
+          <para>Number of Lines</para>
+          <para>Number of Paragraphs</para>
+          <para>Number of Slides</para>
+          <para>Number of Notes</para>
+          <para>Number of Hidden Slides</para>
+          <para>Number of Multimedia Clips</para>
+          <para>Container applications don't necessarily define a value for every built-in document property. If a given application doesn't define a value for one of the built-in document properties, returning the <see cref="P:Microsoft.Office.Core.DocumentProperty.Value" /> property for that document property causes an error.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentProperty.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743820)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96e99-103">返回一个<b>Application</b>对象，代表容器应用程序的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96e99-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentProperty.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743821)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96e99-104">返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96e99-104">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="96e99-105">
+            <para>如果指定的对象在 Microsoft Word 中创建的此属性返回 1297307460，它表示字符串 MSWD;如果在 Microsoft Excel 中创建，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.DocumentProperty.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96e99-105">
+              <para>If the specified object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; if created in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.DocumentProperty.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.DocumentProperty.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="96e99-106">删除自定义的文档属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96e99-106">Removes a custom document property.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="96e99-107">
+            <para>不能删除内置文档属性。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96e99-107">
+              <para>You cannot delete a built-in document property.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LinkSource">
+      <MemberSignature Language="C#" Value="public string LinkSource { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LinkSource" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentProperty.LinkSource" />
+      <MemberSignature Language="VB.NET" Value="Public Property LinkSource As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LinkSource { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96e99-108">返回或设置链接的自定义文档属性的源。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96e99-108">Returns or sets the source of a linked custom document property.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="96e99-109">
+            <para>此属性适用仅与自定义文档属性; 不能使用该内置文档属性。</para>
+            <para>指定链接的链接源由容器应用程序。</para>
+            <para>设置<b>LinkSource</b>属性集<see cref="P:Microsoft.Office.Core.DocumentProperty.LinkToContent" />属性设置为<b>True</b>。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96e99-109">
+              <para>This property applies only to custom document properties; you cannot use it with built-in document properties.</para>
+              <para>The source of the specified link is defined by the container application.</para>
+              <para>Setting the <b>LinkSource</b> property sets the <see cref="P:Microsoft.Office.Core.DocumentProperty.LinkToContent" /> property to <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LinkToContent">
+      <MemberSignature Language="C#" Value="public bool LinkToContent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LinkToContent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentProperty.LinkToContent" />
+      <MemberSignature Language="VB.NET" Value="Public Property LinkToContent As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LinkToContent { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96e99-110">确定是否自定义文档属性的值链接到容器文档的内容。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96e99-110">Determine if the value of the custom document property is linked to the content of the container document.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="96e99-111">
+            <para>此属性返回<b>True</b> ，如果自定义文档属性的值链接到容器文档; 的内容<b>False</b>如果值为静态。</para>
+            <para>此属性仅适用于自定义文档属性。对于内置文档属性，此属性的值为<b>False</b>。</para>使用
+          <para><see cref="P:Microsoft.Office.Core.DocumentProperty.LinkSource" />属性设置为指定的源链接属性。设置<b>LinkSource</b>属性会将<b>LinkToContent</b>属性设置为<b>True</b>。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96e99-111">
+              <para>This property returns <b>True</b> if the value of the custom document property is linked to the content of the container document; <b>False</b> if the value is static.</para>
+              <para>This property applies only to custom document properties. For built-in document properties, the value of this property is <b>False</b>.</para>
+              <para>Use the <see cref="P:Microsoft.Office.Core.DocumentProperty.LinkSource" /> property to set the source for the specified linked property. Setting the <b>LinkSource</b> property sets the <b>LinkToContent</b> property to <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentProperty.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.LCIDConversion(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.LCIDConversion(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96e99-112">返回或设置指定对象的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96e99-112">Returns or sets the name of the specified object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentProperty.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96e99-113">返回指定对象的<b>父</b>对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96e99-113">Returns the <b>Parent</b> object for the specified object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoDocProperties Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoDocProperties Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentProperty.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As MsoDocProperties" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoDocProperties Type { Microsoft::Office::Core::MsoDocProperties get(); void set(Microsoft::Office::Core::MsoDocProperties value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.LCIDConversion(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.LCIDConversion(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoDocProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96e99-114">返回或设置文档属性类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96e99-114">Returns or sets the document property type.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="96e99-115">
+            <para>此属性是只读的内置文档属性;读/写自定义文档属性。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96e99-115">
+              <para>This property is read-only for built-in document properties; read/write for custom document properties.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public object this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentProperty.Value" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Value As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.LCIDConversion(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.LCIDConversion(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="96e99-116">返回或设置文档属性的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96e99-116">Returns or sets the value of a document property.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="96e99-117">
+            <para>如果容器应用程序没有定义某个内置文档属性的值，则读取该文档属性的<b>Value</b>属性将导致出错。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="96e99-117">
+              <para>If the container application doesn't define a value for one of the built-in document properties, reading the <b>Value</b> property for that document property causes an error.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

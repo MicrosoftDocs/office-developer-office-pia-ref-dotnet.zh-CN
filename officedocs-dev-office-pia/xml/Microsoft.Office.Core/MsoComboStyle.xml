@@ -1,0 +1,81 @@
+<Type Name="MsoComboStyle" FullName="Microsoft.Office.Core.MsoComboStyle">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="28e3c99df15c11d6d97e79cbedec9cdc266f97bb" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657640" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoComboStyle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoComboStyle extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoComboStyle" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoComboStyle" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoComboStyle" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="e3fd5-101">指定命令栏组合框是否包括标签。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e3fd5-101">Specifies whether the command bar combo box includes a label or not.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoComboLabel">
+      <MemberSignature Language="C#" Value="msoComboLabel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoComboStyle msoComboLabel = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoComboStyle.msoComboLabel" />
+      <MemberSignature Language="VB.NET" Value="msoComboLabel" />
+      <MemberSignature Language="C++ CLI" Value="msoComboLabel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoComboStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e3fd5-102">组合框包括由组合框的 <b>Caption</b> 属性指定的标签。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e3fd5-102">Combo box includes a label, specified by the <b>Caption</b> property of the combo box.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoComboNormal">
+      <MemberSignature Language="C#" Value="msoComboNormal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoComboStyle msoComboNormal = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoComboStyle.msoComboNormal" />
+      <MemberSignature Language="VB.NET" Value="msoComboNormal" />
+      <MemberSignature Language="C++ CLI" Value="msoComboNormal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoComboStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e3fd5-103">组合框不包括标签。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e3fd5-103">Combo box does not include a label.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

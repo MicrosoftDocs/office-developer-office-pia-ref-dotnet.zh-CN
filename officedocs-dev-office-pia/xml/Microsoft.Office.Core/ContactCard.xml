@@ -1,0 +1,348 @@
+<Type Name="ContactCard" FullName="Microsoft.Office.Core.ContactCard">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="99033d2f07fcec33468fb1d3f2f87463c4e23cb8" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658288" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ContactCard : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ContactCard implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ContactCard" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ContactCard&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ContactCard : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03F1-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="8173e-101">代表 Microsoft Office 系统的联系人卡片。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="8173e-101">Represents a Microsoft Office system contact card.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ContactCard.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8173e-102">返回一个表示父<b>ContactCard</b>对象的 Office 应用程序的<b>应用程序</b>对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8173e-102">Returns an <b>Application</b> object that represents the parent Office application for the <b>ContactCard</b> object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8173e-103">
+            <para>只读的。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8173e-103">
+              <para>Read-only.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ContactCard.Close" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="8173e-104">关闭联系人卡片。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8173e-104">Closes the contact card.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="8173e-105">
+            <para>您可以关闭联系人卡片中的用户界面或通过调用此方法以编程方式。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8173e-105">
+              <para>You can close a contact card either in the user interface or programmatically by calling this method.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ContactCard.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8173e-106">返回<see cref="T:System.Long" />，指示在其中创建<b>ContactCard</b>对象的应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8173e-106">Returns a <see cref="T:System.Long" /> that indicates the application in which the <b>ContactCard</b> object was created.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8173e-107">
+            <para>只读的。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8173e-107">
+              <para>Read-only.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Show">
+      <MemberSignature Language="C#" Value="public void Show (Microsoft.Office.Core.MsoContactCardStyle CardStyle, int RectangleLeft, int RectangleRight, int RectangleTop, int RectangleBottom, int HorizontalPosition, bool ShowWithDelay = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Show([in]valuetype Microsoft.Office.Core.MsoContactCardStyle CardStyle, [in]int32 RectangleLeft, [in]int32 RectangleRight, [in]int32 RectangleTop, [in]int32 RectangleBottom, [in]int32 HorizontalPosition, [in]bool ShowWithDelay) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ContactCard.Show(Microsoft.Office.Core.MsoContactCardStyle,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Show (CardStyle As MsoContactCardStyle, RectangleLeft As Integer, RectangleRight As Integer, RectangleTop As Integer, RectangleBottom As Integer, HorizontalPosition As Integer, Optional ShowWithDelay As Boolean = false)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="CardStyle" Type="Microsoft.Office.Core.MsoContactCardStyle" />
+        <Parameter Name="RectangleLeft" Type="System.Int32" />
+        <Parameter Name="RectangleRight" Type="System.Int32" />
+        <Parameter Name="RectangleTop" Type="System.Int32" />
+        <Parameter Name="RectangleBottom" Type="System.Int32" />
+        <Parameter Name="HorizontalPosition" Type="System.Int32" />
+        <Parameter Name="ShowWithDelay" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="CardStyle">
+          <span data-ttu-id="8173e-108">
+            <see cref="T:Microsoft.Office.Core.MsoContactCardStyle" />它确定是否卡片显示为悬浮卡片或为完全展开卡片。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8173e-108">
+              <see cref="T:Microsoft.Office.Core.MsoContactCardStyle" /> that determines whether the card is displayed as a hover card or as a fully expanded card.</span>
+          </span>
+        </param>
+        <param name="RectangleLeft">
+          <span data-ttu-id="8173e-109">指定不显示卡片的矩形左侧的 x 坐标。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8173e-109">Specifies the x-coordinate of the left side of the rectangle where the card is not displayed.</span>
+          </span>
+        </param>
+        <param name="RectangleRight">
+          <span data-ttu-id="8173e-110">指定不显示卡片的矩形右侧的 x 坐标。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8173e-110">Specifies the x-coordinate of the right side of the rectangle where the card is not displayed.</span>
+          </span>
+        </param>
+        <param name="RectangleTop">
+          <span data-ttu-id="8173e-111">指定不显示卡片的矩形顶部的 y 坐标。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8173e-111">Specifies the y-coordinate of the top side of the rectangle where the card is not displayed.</span>
+          </span>
+        </param>
+        <param name="RectangleBottom">
+          <span data-ttu-id="8173e-112">指定不显示卡片的矩形底部的 y 坐标。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8173e-112">Specifies the y-coordinate of the bottom side of the rectangle where the card is not displayed.</span>
+          </span>
+        </param>
+        <param name="HorizontalPosition">
+          <span data-ttu-id="8173e-113">指定卡片左边缘的 x 坐标位置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8173e-113">Specifies the x-coordinate position of the left edge of the card.</span>
+          </span>
+        </param>
+        <param name="ShowWithDelay">
+          <span data-ttu-id="8173e-114">确定在卡片显示之前是否有延迟。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8173e-114">Determines if there is a delay before the card is displayed.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="8173e-115">在指定矩形外的指定 x 坐标处显示联系人卡片。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8173e-115">Displays the contact card at the specified x-coordinate position outside the specified rectangle.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="8173e-116">
+            <para>
+              <paramref name="Style" />参数必须为之一<see cref="T:Microsoft.Office.Core.MsoContactCardStyle" />下表中的值。</para>
+            <list type="table">
+              <item>
+                <description>
+                  <b>msoContactCardTypeEnterpriseContact</b>
+                </description>
+                <description>0</description>
+                <description>代表企业联系人地址的联系人卡片。</description>
+              </item>
+              <item>
+                <description>
+                  <b>msoContactCardTypePersonalContact</b>
+                </description>
+                <description>1</description>
+                <description>代表个人联系人地址的联系人卡片。</description>
+              </item>
+              <item>
+                <description>
+                  <b>msoContactCardTypeUnknownContact</b>
+                </description>
+                <description>2</description>
+                <description>表示未知联系人地址的联系人卡片。</description>
+              </item>
+              <item>
+                <description>
+                  <b>msoContactCardTypeEnterpriseGroup</b>
+                </description>
+                <description>3</description>
+                <description>表示企业通讯组列表联系人地址的联系人卡片。</description>
+              </item>
+              <item>
+                <description>
+                  <b>msoContactCardTypePersonalDistributionList</b>
+                </description>
+                <description>4</description>
+                <description>表示个人通讯组列表联系人地址的联系人卡片。</description>
+              </item>
+            </list>
+            <para>
+              <paramref name="fDelay" />参数仅适用于<paramref name="Style" />设置为"msoContactCardStyleHover"。对于所有其他卡样式，将忽略 fDelay。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8173e-116">
+              <para>The <paramref name="Style" /> parameter must be one of the <see cref="T:Microsoft.Office.Core.MsoContactCardStyle" /> values in the following table.</para>
+              <list type="table">
+                <item>
+                  <description>
+                    <b>msoContactCardTypeEnterpriseContact</b>
+                  </description>
+                  <description>0</description>
+                  <description>Represents a contact card for an enterprise contact address.</description>
+                </item>
+                <item>
+                  <description>
+                    <b>msoContactCardTypePersonalContact</b>
+                  </description>
+                  <description>1</description>
+                  <description>Represents a contact card for a personal contact address.</description>
+                </item>
+                <item>
+                  <description>
+                    <b>msoContactCardTypeUnknownContact</b>
+                  </description>
+                  <description>2</description>
+                  <description>Represents a contact card for an unknown contact address.</description>
+                </item>
+                <item>
+                  <description>
+                    <b>msoContactCardTypeEnterpriseGroup</b>
+                  </description>
+                  <description>3</description>
+                  <description>Represents a contact card for an enterprise distribution list contact address.</description>
+                </item>
+                <item>
+                  <description>
+                    <b>msoContactCardTypePersonalDistributionList</b>
+                  </description>
+                  <description>4</description>
+                  <description>Represents a contact card for a personal distribution list contact address.</description>
+                </item>
+              </list>
+              <para>The <paramref name="fDelay" /> parameter applies only if <paramref name="Style" /> is set to “msoContactCardStyleHover”. For all other card styles, fDelay is ignored.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

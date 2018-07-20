@@ -1,0 +1,85 @@
+<Type Name="MsoBlogCategorySupport" FullName="Microsoft.Office.Core.MsoBlogCategorySupport">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f51f708bff21d9478ed8012250ceed324552cd5b" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658103" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoBlogCategorySupport" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoBlogCategorySupport extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoBlogCategorySupport" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoBlogCategorySupport" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoBlogCategorySupport" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoBlogMultipleCategories">
+      <MemberSignature Language="C#" Value="msoBlogMultipleCategories" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBlogCategorySupport msoBlogMultipleCategories = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBlogCategorySupport.msoBlogMultipleCategories" />
+      <MemberSignature Language="VB.NET" Value="msoBlogMultipleCategories" />
+      <MemberSignature Language="C++ CLI" Value="msoBlogMultipleCategories" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBlogCategorySupport</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBlogNoCategories">
+      <MemberSignature Language="C#" Value="msoBlogNoCategories" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBlogCategorySupport msoBlogNoCategories = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBlogCategorySupport.msoBlogNoCategories" />
+      <MemberSignature Language="VB.NET" Value="msoBlogNoCategories" />
+      <MemberSignature Language="C++ CLI" Value="msoBlogNoCategories" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBlogCategorySupport</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoBlogOneCategory">
+      <MemberSignature Language="C#" Value="msoBlogOneCategory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoBlogCategorySupport msoBlogOneCategory = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoBlogCategorySupport.msoBlogOneCategory" />
+      <MemberSignature Language="VB.NET" Value="msoBlogOneCategory" />
+      <MemberSignature Language="C++ CLI" Value="msoBlogOneCategory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBlogCategorySupport</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

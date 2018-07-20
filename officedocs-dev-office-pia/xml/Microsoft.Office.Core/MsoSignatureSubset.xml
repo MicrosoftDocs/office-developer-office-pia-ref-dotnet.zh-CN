@@ -1,0 +1,178 @@
+<Type Name="MsoSignatureSubset" FullName="Microsoft.Office.Core.MsoSignatureSubset">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="72610ef6af69b95daeaf81160c28352c460f2211" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658183" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoSignatureSubset" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoSignatureSubset extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoSignatureSubset" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoSignatureSubset" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoSignatureSubset" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="e9aca-p101">指定签名子集的属性。这些设置用作签名集合的筛选器。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e9aca-p101">Specifies properties of the signature subset. These settings act as filters for signature sets.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoSignatureSubsetAll">
+      <MemberSignature Language="C#" Value="msoSignatureSubsetAll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSignatureSubset msoSignatureSubsetAll = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSignatureSubset.msoSignatureSubsetAll" />
+      <MemberSignature Language="VB.NET" Value="msoSignatureSubsetAll" />
+      <MemberSignature Language="C++ CLI" Value="msoSignatureSubsetAll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSignatureSubset</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e9aca-103">所有不可见的签名加上所有签名行。
+</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e9aca-103">All non-visible signatures plus all signature lines.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSignatureSubsetSignatureLines">
+      <MemberSignature Language="C#" Value="msoSignatureSubsetSignatureLines" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSignatureSubset msoSignatureSubsetSignatureLines = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSignatureSubset.msoSignatureSubsetSignatureLines" />
+      <MemberSignature Language="VB.NET" Value="msoSignatureSubsetSignatureLines" />
+      <MemberSignature Language="C++ CLI" Value="msoSignatureSubsetSignatureLines" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSignatureSubset</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e9aca-104">所有签名行。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e9aca-104">All signature lines.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSignatureSubsetSignatureLinesSigned">
+      <MemberSignature Language="C#" Value="msoSignatureSubsetSignatureLinesSigned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSignatureSubset msoSignatureSubsetSignatureLinesSigned = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSignatureSubset.msoSignatureSubsetSignatureLinesSigned" />
+      <MemberSignature Language="VB.NET" Value="msoSignatureSubsetSignatureLinesSigned" />
+      <MemberSignature Language="C++ CLI" Value="msoSignatureSubsetSignatureLinesSigned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSignatureSubset</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e9aca-105">已签署的签名行。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e9aca-105">Signature lines that have been signed.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSignatureSubsetSignatureLinesUnsigned">
+      <MemberSignature Language="C#" Value="msoSignatureSubsetSignatureLinesUnsigned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSignatureSubset msoSignatureSubsetSignatureLinesUnsigned = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSignatureSubset.msoSignatureSubsetSignatureLinesUnsigned" />
+      <MemberSignature Language="VB.NET" Value="msoSignatureSubsetSignatureLinesUnsigned" />
+      <MemberSignature Language="C++ CLI" Value="msoSignatureSubsetSignatureLinesUnsigned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSignatureSubset</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e9aca-106">未签署的签名行。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e9aca-106">Signature lines that have not been signed.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSignatureSubsetSignaturesAllSigs">
+      <MemberSignature Language="C#" Value="msoSignatureSubsetSignaturesAllSigs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSignatureSubset msoSignatureSubsetSignaturesAllSigs = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSignatureSubset.msoSignatureSubsetSignaturesAllSigs" />
+      <MemberSignature Language="VB.NET" Value="msoSignatureSubsetSignaturesAllSigs" />
+      <MemberSignature Language="C++ CLI" Value="msoSignatureSubsetSignaturesAllSigs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSignatureSubset</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e9aca-107">所有不可见的签名加上所有已签署的签名行。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e9aca-107">All non-visible signatures plus all signed signature lines.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoSignatureSubsetSignaturesNonVisible">
+      <MemberSignature Language="C#" Value="msoSignatureSubsetSignaturesNonVisible" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoSignatureSubset msoSignatureSubsetSignaturesNonVisible = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoSignatureSubset.msoSignatureSubsetSignaturesNonVisible" />
+      <MemberSignature Language="VB.NET" Value="msoSignatureSubsetSignaturesNonVisible" />
+      <MemberSignature Language="C++ CLI" Value="msoSignatureSubsetSignaturesNonVisible" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoSignatureSubset</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e9aca-108">所有不可见的签名。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e9aca-108">All non-visible signatures.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

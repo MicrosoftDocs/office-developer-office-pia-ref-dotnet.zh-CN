@@ -1,0 +1,116 @@
+<Type Name="MsoCustomXMLValidationErrorType" FullName="Microsoft.Office.Core.MsoCustomXMLValidationErrorType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d79d773c902dd0b290353d858f36f6478905d4bc" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657615" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoCustomXMLValidationErrorType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCustomXMLValidationErrorType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCustomXMLValidationErrorType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoCustomXMLValidationErrorType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoCustomXMLValidationErrorType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="c07ee-101">指示将如何清除或生成验证错误。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c07ee-101">Indicates how validation errors will be cleared or generated.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="c07ee-102">
+        <para>不支持对 Dtd 从自定义 XML 部件的引用。不能解决 DTD 中自定义 XML 部件的引用，并包含 DTD 引用的自定义 XML 部件生成异常，当尝试保存该文件的内容到平面 XML 文件。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c07ee-102">
+          <para>References to DTDs from custom XML parts are not supported. DTD references in custom XML parts will not resolve, and custom XML parts containing DTD references generate an exception when an attempt is made to save the file's content to a flat XML file.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoCustomXMLValidationErrorAutomaticallyCleared">
+      <MemberSignature Language="C#" Value="msoCustomXMLValidationErrorAutomaticallyCleared" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCustomXMLValidationErrorType msoCustomXMLValidationErrorAutomaticallyCleared = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCustomXMLValidationErrorType.msoCustomXMLValidationErrorAutomaticallyCleared" />
+      <MemberSignature Language="VB.NET" Value="msoCustomXMLValidationErrorAutomaticallyCleared" />
+      <MemberSignature Language="C++ CLI" Value="msoCustomXMLValidationErrorAutomaticallyCleared" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCustomXMLValidationErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c07ee-103">指定当对错误所绑定到的节点进行任何更改时错误将自行清除。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c07ee-103">Specifies that the error will clear itself whenever any change is made to the node it is bound to.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCustomXMLValidationErrorManual">
+      <MemberSignature Language="C#" Value="msoCustomXMLValidationErrorManual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCustomXMLValidationErrorType msoCustomXMLValidationErrorManual = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCustomXMLValidationErrorType.msoCustomXMLValidationErrorManual" />
+      <MemberSignature Language="VB.NET" Value="msoCustomXMLValidationErrorManual" />
+      <MemberSignature Language="C++ CLI" Value="msoCustomXMLValidationErrorManual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCustomXMLValidationErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c07ee-104">指定直到将不清除错误<see cref="M:Microsoft.Office.Core.CustomXMLValidationError.Delete" />调用方法。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c07ee-104">Specifies that the error will not be cleared until the <see cref="M:Microsoft.Office.Core.CustomXMLValidationError.Delete" /> method is called.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCustomXMLValidationErrorSchemaGenerated">
+      <MemberSignature Language="C#" Value="msoCustomXMLValidationErrorSchemaGenerated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCustomXMLValidationErrorType msoCustomXMLValidationErrorSchemaGenerated = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCustomXMLValidationErrorType.msoCustomXMLValidationErrorSchemaGenerated" />
+      <MemberSignature Language="VB.NET" Value="msoCustomXMLValidationErrorSchemaGenerated" />
+      <MemberSignature Language="C++ CLI" Value="msoCustomXMLValidationErrorSchemaGenerated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCustomXMLValidationErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c07ee-105">指定当存在可用于自定义 XML 部分的非空架构集合且验证有效时，对该部分的任何更改都将导致验证错误。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c07ee-105">Specifies that where there is a non-empty schema collection available for the custom XML part and validation is in effect, any changes to the part will cause validation errors.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

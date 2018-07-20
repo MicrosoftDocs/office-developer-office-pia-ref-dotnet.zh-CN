@@ -1,0 +1,129 @@
+<Type Name="MsoRelativeNodePosition" FullName="Microsoft.Office.Core.MsoRelativeNodePosition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d376a5cadab15de637c4cbe3fbf2146e3ba43bb5" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657911" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoRelativeNodePosition" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoRelativeNodePosition extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoRelativeNodePosition" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoRelativeNodePosition" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoRelativeNodePosition" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="ef574-101">指定将节点添加到图表中相对于现有节点的哪个位置。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ef574-101">Specifies where a node is added to a diagram relative to existing nodes.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoAfterLastSibling">
+      <MemberSignature Language="C#" Value="msoAfterLastSibling" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoRelativeNodePosition msoAfterLastSibling = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoRelativeNodePosition.msoAfterLastSibling" />
+      <MemberSignature Language="VB.NET" Value="msoAfterLastSibling" />
+      <MemberSignature Language="C++ CLI" Value="msoAfterLastSibling" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoRelativeNodePosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ef574-102">节点添加到最后一个同级节点之后。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef574-102">Node is added after last sibling.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoAfterNode">
+      <MemberSignature Language="C#" Value="msoAfterNode" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoRelativeNodePosition msoAfterNode = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoRelativeNodePosition.msoAfterNode" />
+      <MemberSignature Language="VB.NET" Value="msoAfterNode" />
+      <MemberSignature Language="C++ CLI" Value="msoAfterNode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoRelativeNodePosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ef574-103">节点添加到当前节点之后。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef574-103">Node is added after current node.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBeforeFirstSibling">
+      <MemberSignature Language="C#" Value="msoBeforeFirstSibling" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoRelativeNodePosition msoBeforeFirstSibling = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoRelativeNodePosition.msoBeforeFirstSibling" />
+      <MemberSignature Language="VB.NET" Value="msoBeforeFirstSibling" />
+      <MemberSignature Language="C++ CLI" Value="msoBeforeFirstSibling" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoRelativeNodePosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ef574-104">节点添加到第一个同级节点之前。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef574-104">Node is added before first sibling.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoBeforeNode">
+      <MemberSignature Language="C#" Value="msoBeforeNode" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoRelativeNodePosition msoBeforeNode = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoRelativeNodePosition.msoBeforeNode" />
+      <MemberSignature Language="VB.NET" Value="msoBeforeNode" />
+      <MemberSignature Language="C++ CLI" Value="msoBeforeNode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoRelativeNodePosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ef574-105">节点添加到当前节点之前。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ef574-105">Node is added before current node.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

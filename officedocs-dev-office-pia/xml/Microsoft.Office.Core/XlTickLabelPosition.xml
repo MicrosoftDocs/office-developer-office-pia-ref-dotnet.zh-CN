@@ -1,0 +1,157 @@
+<Type Name="XlTickLabelPosition" FullName="Microsoft.Office.Core.XlTickLabelPosition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="31c40b3a44366342c93335ee17b54777d6befec1" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658053" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlTickLabelPosition" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlTickLabelPosition extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlTickLabelPosition" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlTickLabelPosition" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlTickLabelPosition" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("964562FD-22B1-4E15-9931-C555434E6538")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="08ba6-101">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="08ba6-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+      </span>
+      <span data-ttu-id="08ba6-102">在指定坐标轴上指定刻度线标签的位置。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="08ba6-102">Specifies the position of tick-mark labels on the specified axis.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlTickLabelPositionHigh">
+      <MemberSignature Language="C#" Value="xlTickLabelPositionHigh" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlTickLabelPosition xlTickLabelPositionHigh = int32(-4127)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlTickLabelPosition.xlTickLabelPositionHigh" />
+      <MemberSignature Language="VB.NET" Value="xlTickLabelPositionHigh" />
+      <MemberSignature Language="C++ CLI" Value="xlTickLabelPositionHigh" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlTickLabelPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4127</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="08ba6-103">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08ba6-103">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="08ba6-104">图表的顶部或右侧。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08ba6-104">Top or right side of the chart.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlTickLabelPositionLow">
+      <MemberSignature Language="C#" Value="xlTickLabelPositionLow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlTickLabelPosition xlTickLabelPositionLow = int32(-4134)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlTickLabelPosition.xlTickLabelPositionLow" />
+      <MemberSignature Language="VB.NET" Value="xlTickLabelPositionLow" />
+      <MemberSignature Language="C++ CLI" Value="xlTickLabelPositionLow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlTickLabelPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4134</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="08ba6-105">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08ba6-105">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="08ba6-106">图表的底部或左侧。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08ba6-106">Bottom or left side of the chart.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlTickLabelPositionNextToAxis">
+      <MemberSignature Language="C#" Value="xlTickLabelPositionNextToAxis" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlTickLabelPosition xlTickLabelPositionNextToAxis = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlTickLabelPosition.xlTickLabelPositionNextToAxis" />
+      <MemberSignature Language="VB.NET" Value="xlTickLabelPositionNextToAxis" />
+      <MemberSignature Language="C++ CLI" Value="xlTickLabelPositionNextToAxis" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlTickLabelPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="08ba6-107">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08ba6-107">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="08ba6-108">坐标轴旁边（其中坐标轴不在图表的任意一侧）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08ba6-108">Next to axis (where axis is not at either side of the chart).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlTickLabelPositionNone">
+      <MemberSignature Language="C#" Value="xlTickLabelPositionNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlTickLabelPosition xlTickLabelPositionNone = int32(-4142)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlTickLabelPosition.xlTickLabelPositionNone" />
+      <MemberSignature Language="VB.NET" Value="xlTickLabelPositionNone" />
+      <MemberSignature Language="C++ CLI" Value="xlTickLabelPositionNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlTickLabelPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4142</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="08ba6-109">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08ba6-109">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="08ba6-110">无刻度线。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="08ba6-110">No tick marks.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

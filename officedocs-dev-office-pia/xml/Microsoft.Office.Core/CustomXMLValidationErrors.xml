@@ -1,0 +1,374 @@
+<Type Name="CustomXMLValidationErrors" FullName="Microsoft.Office.Core.CustomXMLValidationErrors">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c776681c7c831f4789515a2436bf2e39e3efd499" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657988" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface CustomXMLValidationErrors : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CustomXMLValidationErrors implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CustomXMLValidationErrors" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CustomXMLValidationErrors&#xA;Implements _IMsoDispObj, IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CustomXMLValidationErrors : Microsoft::Office::Core::_IMsoDispObj, System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000CDB0F-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="bb469-101">代表一<see cref="T:Microsoft.Office.Core.CustomXMLValidationError" />对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bb469-101">Represents a collection of <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> objects.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (Microsoft.Office.Core.CustomXMLNode Node, string ErrorName, string ErrorText = &quot;&quot;, bool ClearedOnUpdate = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Add([in]class Microsoft.Office.Core.CustomXMLNode Node, [in]string ErrorName, [in]string ErrorText, [in]bool ClearedOnUpdate) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomXMLValidationErrors.Add(Microsoft.Office.Core.CustomXMLNode,System.String,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (Node As CustomXMLNode, ErrorName As String, Optional ErrorText As String = &quot;&quot;, Optional ClearedOnUpdate As Boolean = false)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809347)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Node" Type="Microsoft.Office.Core.CustomXMLNode" />
+        <Parameter Name="ErrorName" Type="System.String" />
+        <Parameter Name="ErrorText" Type="System.String" />
+        <Parameter Name="ClearedOnUpdate" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Node">
+          <span data-ttu-id="bb469-102">代表其中发生了错误的节点。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-102">Represents the node where the error occurred.</span>
+          </span>
+        </param>
+        <param name="ErrorName">
+          <span data-ttu-id="bb469-103">包含错误的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-103">Contains the name of the error.</span>
+          </span>
+        </param>
+        <param name="ErrorText">
+          <span data-ttu-id="bb469-104">包含描述性错误文本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-104">Contains the descriptive error text.</span>
+          </span>
+        </param>
+        <param name="ClearedOnUpdate">
+          <span data-ttu-id="bb469-105">指定是否要从清除错误<see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" />集合时更正并更新 XML。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-105">Specifies whether the error is to be cleared from the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> collection when the XML is corrected and updated.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="bb469-106">添加<see cref="T:Microsoft.Office.Core.CustomXMLValidationError" />对象，其中包含 XML 验证错误为<see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" />集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-106">Adds a <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> object containing an XML validation error to the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> collection.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLValidationErrors.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bb469-107">获取<b>应用程序</b>对象，该对象代表容器应用程序的<see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-107">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> object.</span>
+          </span>
+          <span data-ttu-id="bb469-108">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-108">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="bb469-109">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-109">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLValidationErrors.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809345)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bb469-110">获取中的项目数<see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" />集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-110">Gets the number of items in the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> collection.</span>
+          </span>
+          <span data-ttu-id="bb469-111">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-111">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="bb469-112">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-112">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLValidationErrors.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bb469-113">获取一个 32 位整数，表示在其中应用程序<see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" />对象的创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-113">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> object was created.</span>
+          </span>
+          <span data-ttu-id="bb469-114">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-114">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="bb469-115">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-115">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.CustomXMLValidationErrors.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.CustomXMLValidationError this[int Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CustomXMLValidationError Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLValidationErrors.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Integer) As CustomXMLValidationError" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::CustomXMLValidationError ^ default[int] { Microsoft::Office::Core::CustomXMLValidationError ^ get(int Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CustomXMLValidationError</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="bb469-116">名称或索引号<see cref="T:Microsoft.Office.Core.CustomXMLValidationError" />要返回的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-116">The name or index number of the <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> object to be returned.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="bb469-117">获取<see cref="T:Microsoft.Office.Core.CustomXMLValidationError" />对象从<see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" />集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-117">Gets a <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" /> object from the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> collection.</span>
+          </span>
+          <span data-ttu-id="bb469-118">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-118">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.CustomXMLValidationError" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.CustomXMLValidationErrors.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610809344)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="bb469-119">获取对象的父<see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-119">Gets the parent object for the <see cref="T:Microsoft.Office.Core.CustomXMLValidationErrors" /> object.</span>
+          </span>
+          <span data-ttu-id="bb469-120">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-120">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="bb469-121">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="bb469-121">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

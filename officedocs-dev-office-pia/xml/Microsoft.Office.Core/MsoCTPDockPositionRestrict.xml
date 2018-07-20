@@ -1,0 +1,129 @@
+<Type Name="MsoCTPDockPositionRestrict" FullName="Microsoft.Office.Core.MsoCTPDockPositionRestrict">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="33f60cf498fd6061c02bb76a6d2bc49371f61353" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657690" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoCTPDockPositionRestrict" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCTPDockPositionRestrict extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCTPDockPositionRestrict" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoCTPDockPositionRestrict" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoCTPDockPositionRestrict" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="0cd32-101">指定对自定义任务窗格的停靠行为的限制。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0cd32-101">Specifies retrictions on the docking behavior of the custom task pane.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoCTPDockPositionRestrictNoChange">
+      <MemberSignature Language="C#" Value="msoCTPDockPositionRestrictNoChange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCTPDockPositionRestrict msoCTPDockPositionRestrictNoChange = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCTPDockPositionRestrict.msoCTPDockPositionRestrictNoChange" />
+      <MemberSignature Language="VB.NET" Value="msoCTPDockPositionRestrictNoChange" />
+      <MemberSignature Language="C++ CLI" Value="msoCTPDockPositionRestrictNoChange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCTPDockPositionRestrict</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0cd32-102">任务窗格的当前限制设置没有更改。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0cd32-102">There is no change from the current restriction setting for the task pane.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCTPDockPositionRestrictNoHorizontal">
+      <MemberSignature Language="C#" Value="msoCTPDockPositionRestrictNoHorizontal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCTPDockPositionRestrict msoCTPDockPositionRestrictNoHorizontal = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCTPDockPositionRestrict.msoCTPDockPositionRestrictNoHorizontal" />
+      <MemberSignature Language="VB.NET" Value="msoCTPDockPositionRestrictNoHorizontal" />
+      <MemberSignature Language="C++ CLI" Value="msoCTPDockPositionRestrictNoHorizontal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCTPDockPositionRestrict</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0cd32-103">任务窗格不能固定在文档窗口的右侧或左侧。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0cd32-103">Task pane can't be docked to either the right or the left side of the document window.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCTPDockPositionRestrictNone">
+      <MemberSignature Language="C#" Value="msoCTPDockPositionRestrictNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCTPDockPositionRestrict msoCTPDockPositionRestrictNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCTPDockPositionRestrict.msoCTPDockPositionRestrictNone" />
+      <MemberSignature Language="VB.NET" Value="msoCTPDockPositionRestrictNone" />
+      <MemberSignature Language="C++ CLI" Value="msoCTPDockPositionRestrictNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCTPDockPositionRestrict</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0cd32-104">对任务窗格的停靠没有限制。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0cd32-104">No restrictions on docking the task pane.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCTPDockPositionRestrictNoVertical">
+      <MemberSignature Language="C#" Value="msoCTPDockPositionRestrictNoVertical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCTPDockPositionRestrict msoCTPDockPositionRestrictNoVertical = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCTPDockPositionRestrict.msoCTPDockPositionRestrictNoVertical" />
+      <MemberSignature Language="VB.NET" Value="msoCTPDockPositionRestrictNoVertical" />
+      <MemberSignature Language="C++ CLI" Value="msoCTPDockPositionRestrictNoVertical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCTPDockPositionRestrict</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0cd32-105">任务窗格不能固定在文档窗口的顶部或底部。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0cd32-105">Task pane can't be docked to either the top or the bottom of the document window.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

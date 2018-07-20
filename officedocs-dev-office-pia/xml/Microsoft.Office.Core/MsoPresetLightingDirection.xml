@@ -1,0 +1,273 @@
+<Type Name="MsoPresetLightingDirection" FullName="Microsoft.Office.Core.MsoPresetLightingDirection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9552305628cd503ccfae92d92a2f397c80cda572" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657410" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoPresetLightingDirection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetLightingDirection extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetLightingDirection" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetLightingDirection" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoPresetLightingDirection" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="b2bd9-101">指定延伸（三维）形状上的光源相对于该形状的位置。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b2bd9-101">Specifies the location of lighting on an extruded (three-dimensional) shape relative to the shape.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoLightingBottom">
+      <MemberSignature Language="C#" Value="msoLightingBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetLightingDirection msoLightingBottom = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetLightingDirection.msoLightingBottom" />
+      <MemberSignature Language="VB.NET" Value="msoLightingBottom" />
+      <MemberSignature Language="C++ CLI" Value="msoLightingBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetLightingDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b2bd9-102">光源来自底部。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b2bd9-102">Lighting comes from the bottom.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightingBottomLeft">
+      <MemberSignature Language="C#" Value="msoLightingBottomLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetLightingDirection msoLightingBottomLeft = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetLightingDirection.msoLightingBottomLeft" />
+      <MemberSignature Language="VB.NET" Value="msoLightingBottomLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoLightingBottomLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetLightingDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b2bd9-103">光源来自左下方。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b2bd9-103">Lighting comes from the bottom left.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightingBottomRight">
+      <MemberSignature Language="C#" Value="msoLightingBottomRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetLightingDirection msoLightingBottomRight = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetLightingDirection.msoLightingBottomRight" />
+      <MemberSignature Language="VB.NET" Value="msoLightingBottomRight" />
+      <MemberSignature Language="C++ CLI" Value="msoLightingBottomRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetLightingDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b2bd9-104">光源来自右下方。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b2bd9-104">Lighting comes from the bottom right.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightingLeft">
+      <MemberSignature Language="C#" Value="msoLightingLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetLightingDirection msoLightingLeft = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetLightingDirection.msoLightingLeft" />
+      <MemberSignature Language="VB.NET" Value="msoLightingLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoLightingLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetLightingDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b2bd9-105">光源来自左侧。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b2bd9-105">Lighting comes from the left.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightingNone">
+      <MemberSignature Language="C#" Value="msoLightingNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetLightingDirection msoLightingNone = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetLightingDirection.msoLightingNone" />
+      <MemberSignature Language="VB.NET" Value="msoLightingNone" />
+      <MemberSignature Language="C++ CLI" Value="msoLightingNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetLightingDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b2bd9-106">无光源。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b2bd9-106">No lighting.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightingRight">
+      <MemberSignature Language="C#" Value="msoLightingRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetLightingDirection msoLightingRight = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetLightingDirection.msoLightingRight" />
+      <MemberSignature Language="VB.NET" Value="msoLightingRight" />
+      <MemberSignature Language="C++ CLI" Value="msoLightingRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetLightingDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b2bd9-107">光源来自右侧。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b2bd9-107">Lighting comes from the right.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightingTop">
+      <MemberSignature Language="C#" Value="msoLightingTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetLightingDirection msoLightingTop = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetLightingDirection.msoLightingTop" />
+      <MemberSignature Language="VB.NET" Value="msoLightingTop" />
+      <MemberSignature Language="C++ CLI" Value="msoLightingTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetLightingDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b2bd9-108">光源来自顶部。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b2bd9-108">Lighting comes from the top.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightingTopLeft">
+      <MemberSignature Language="C#" Value="msoLightingTopLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetLightingDirection msoLightingTopLeft = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetLightingDirection.msoLightingTopLeft" />
+      <MemberSignature Language="VB.NET" Value="msoLightingTopLeft" />
+      <MemberSignature Language="C++ CLI" Value="msoLightingTopLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetLightingDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b2bd9-109">光源来自左上方。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b2bd9-109">Lighting comes from the top left.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLightingTopRight">
+      <MemberSignature Language="C#" Value="msoLightingTopRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetLightingDirection msoLightingTopRight = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetLightingDirection.msoLightingTopRight" />
+      <MemberSignature Language="VB.NET" Value="msoLightingTopRight" />
+      <MemberSignature Language="C++ CLI" Value="msoLightingTopRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetLightingDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b2bd9-110">光源来自右上方。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b2bd9-110">Lighting comes from the top right.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPresetLightingDirectionMixed">
+      <MemberSignature Language="C#" Value="msoPresetLightingDirectionMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetLightingDirection msoPresetLightingDirectionMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetLightingDirection.msoPresetLightingDirectionMixed" />
+      <MemberSignature Language="VB.NET" Value="msoPresetLightingDirectionMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoPresetLightingDirectionMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetLightingDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b2bd9-111">不支持。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b2bd9-111">Not supported.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

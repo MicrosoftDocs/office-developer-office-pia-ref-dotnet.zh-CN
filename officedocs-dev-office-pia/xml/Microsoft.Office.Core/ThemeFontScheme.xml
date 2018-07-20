@@ -1,0 +1,333 @@
+<Type Name="ThemeFontScheme" FullName="Microsoft.Office.Core.ThemeFontScheme">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7ef408f8f14f47818b89a5495789157e947558ca" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658357" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ThemeFontScheme : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ThemeFontScheme implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ThemeFontScheme" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ThemeFontScheme&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ThemeFontScheme : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C03A5-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="22987-101">代表 Microsoft Office 2007 主题的字体方案。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="22987-101">Represents the font scheme of a Microsoft Office 2007 theme.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ThemeFontScheme.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="22987-102">获取<b>应用程序</b>对象，该对象代表容器应用程序的<see cref="T:Microsoft.Office.Core.ThemeFontScheme" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22987-102">Gets an <b>Application</b> object that represents the container application for the <see cref="T:Microsoft.Office.Core.ThemeFontScheme" /> object.</span>
+          </span>
+          <span data-ttu-id="22987-103">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22987-103">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="22987-104">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22987-104">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ThemeFontScheme.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="22987-105">获取一个 32 位整数，表示在其中应用程序<see cref="T:Microsoft.Office.Core.ThemeFontScheme" />对象的创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22987-105">Gets a 32-bit integer that indicates the application in which the <see cref="T:Microsoft.Office.Core.ThemeFontScheme" /> object was created.</span>
+          </span>
+          <span data-ttu-id="22987-106">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22987-106">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="22987-107">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22987-107">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (string FileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Load([in]string FileName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ThemeFontScheme.Load(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Load (FileName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(System::String ^ FileName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="FileName">
+          <span data-ttu-id="22987-108">字体方案文件的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22987-108">The name of the font scheme file.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="22987-109">从文件加载 Microsoft Office 主题的字体方案。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22987-109">Loads the font scheme of a Microsoft Office theme from a file.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MajorFont">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ThemeFonts MajorFont { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.ThemeFonts MajorFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ThemeFontScheme.MajorFont" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MajorFont As ThemeFonts" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ThemeFonts ^ MajorFont { Microsoft::Office::Core::ThemeFonts ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ThemeFonts</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="22987-p103">获取文档中“标题”的字体设置。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22987-p103">Gets the font setting for the "Headings" in a document. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.ThemeFonts" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinorFont">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ThemeFonts MinorFont { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.ThemeFonts MinorFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ThemeFontScheme.MinorFont" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MinorFont As ThemeFonts" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ThemeFonts ^ MinorFont { Microsoft::Office::Core::ThemeFonts ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ThemeFonts</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="22987-p104">获取文档的“正文”的字体设置。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22987-p104">Gets the font settings for the "Body" of a document. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.ThemeFonts" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ThemeFontScheme.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="22987-114">获取对象的父<see cref="T:Microsoft.Office.Core.ThemeFontScheme" />对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22987-114">Gets the parent object for the <see cref="T:Microsoft.Office.Core.ThemeFontScheme" /> object.</span>
+          </span>
+          <span data-ttu-id="22987-115">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22987-115">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="22987-116">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22987-116">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (string FileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Save([in]string FileName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ThemeFontScheme.Save(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (FileName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(System::String ^ FileName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="FileName">
+          <span data-ttu-id="22987-117">文件的名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22987-117">The name of the file.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="22987-118">将 Microsoft Office 主题的字体方案保存到文件中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="22987-118">Saves the font scheme of a Microsoft Office theme to a file.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,129 @@
+<Type Name="MsoControlOLEUsage" FullName="Microsoft.Office.Core.MsoControlOLEUsage">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9b02ed8bfb7ad0b3fe9f7fd651f0ac84446eef72" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657627" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoControlOLEUsage" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoControlOLEUsage extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoControlOLEUsage" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoControlOLEUsage" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoControlOLEUsage" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="0030b-101">指定 OLE 客户端和 OLE 服务器角色，在合并两个 Microsoft Office 应用程序时，会用到这些角色中的命令栏控件。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0030b-101">Specifies the OLE client and OLE server roles in which a command bar control is used when two Microsoft Office applications are merged.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoControlOLEUsageBoth">
+      <MemberSignature Language="C#" Value="msoControlOLEUsageBoth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlOLEUsage msoControlOLEUsageBoth = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlOLEUsage.msoControlOLEUsageBoth" />
+      <MemberSignature Language="VB.NET" Value="msoControlOLEUsageBoth" />
+      <MemberSignature Language="C++ CLI" Value="msoControlOLEUsageBoth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlOLEUsage</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0030b-102">控件既在客户端上运行，也在服务器上运行。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0030b-102">Control runs on both client and server.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlOLEUsageClient">
+      <MemberSignature Language="C#" Value="msoControlOLEUsageClient" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlOLEUsage msoControlOLEUsageClient = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlOLEUsage.msoControlOLEUsageClient" />
+      <MemberSignature Language="VB.NET" Value="msoControlOLEUsageClient" />
+      <MemberSignature Language="C++ CLI" Value="msoControlOLEUsageClient" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlOLEUsage</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0030b-103">仅在客户端上运行的控件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0030b-103">Client-only control.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlOLEUsageNeither">
+      <MemberSignature Language="C#" Value="msoControlOLEUsageNeither" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlOLEUsage msoControlOLEUsageNeither = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlOLEUsage.msoControlOLEUsageNeither" />
+      <MemberSignature Language="VB.NET" Value="msoControlOLEUsageNeither" />
+      <MemberSignature Language="C++ CLI" Value="msoControlOLEUsageNeither" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlOLEUsage</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0030b-104">控件既不在客户端运行，也不在服务器上运行。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0030b-104">Control runs on neither client nor server.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlOLEUsageServer">
+      <MemberSignature Language="C#" Value="msoControlOLEUsageServer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlOLEUsage msoControlOLEUsageServer = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlOLEUsage.msoControlOLEUsageServer" />
+      <MemberSignature Language="VB.NET" Value="msoControlOLEUsageServer" />
+      <MemberSignature Language="C++ CLI" Value="msoControlOLEUsageServer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlOLEUsage</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0030b-105">仅在服务器上运行的控件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0030b-105">Server-only control.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

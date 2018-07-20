@@ -1,0 +1,222 @@
+<Type Name="XlDataLabelsType" FullName="Microsoft.Office.Core.XlDataLabelsType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c40056d28af725f781f18c2576e71755cd231d57" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657943" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XlDataLabelsType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlDataLabelsType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.XlDataLabelsType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlDataLabelsType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlDataLabelsType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="5725d-101">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5725d-101">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+      </span>
+      <span data-ttu-id="5725d-102">指定要应用的数据标签的类型。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5725d-102">Specifies the type of data label to apply.</span>
+      </span>
+      <span data-ttu-id="5725d-103">默认值通常是<see cref="F:Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowValue" />。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5725d-103">The default is typically <see cref="F:Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowValue" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlDataLabelsShowBubbleSizes">
+      <MemberSignature Language="C#" Value="xlDataLabelsShowBubbleSizes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelsType xlDataLabelsShowBubbleSizes = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowBubbleSizes" />
+      <MemberSignature Language="VB.NET" Value="xlDataLabelsShowBubbleSizes" />
+      <MemberSignature Language="C++ CLI" Value="xlDataLabelsShowBubbleSizes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5725d-104">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5725d-104">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="5725d-105">显示关于绝对值的气泡图的大小。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5725d-105">Show the size of the bubble in reference to the absolute value.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDataLabelsShowLabel">
+      <MemberSignature Language="C#" Value="xlDataLabelsShowLabel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelsType xlDataLabelsShowLabel = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowLabel" />
+      <MemberSignature Language="VB.NET" Value="xlDataLabelsShowLabel" />
+      <MemberSignature Language="C++ CLI" Value="xlDataLabelsShowLabel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5725d-106">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5725d-106">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="5725d-107">数据点所属的分类。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5725d-107">Category for the point.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDataLabelsShowLabelAndPercent">
+      <MemberSignature Language="C#" Value="xlDataLabelsShowLabelAndPercent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelsType xlDataLabelsShowLabelAndPercent = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowLabelAndPercent" />
+      <MemberSignature Language="VB.NET" Value="xlDataLabelsShowLabelAndPercent" />
+      <MemberSignature Language="C++ CLI" Value="xlDataLabelsShowLabelAndPercent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5725d-108">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5725d-108">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="5725d-109">类别点和总计的百分比。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5725d-109">Percentage of the total, and category for the point.</span>
+          </span>
+          <span data-ttu-id="5725d-110">仅用于饼图和圆环图。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5725d-110">Available only for pie charts and doughnut charts.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDataLabelsShowNone">
+      <MemberSignature Language="C#" Value="xlDataLabelsShowNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelsType xlDataLabelsShowNone = int32(-4142)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowNone" />
+      <MemberSignature Language="VB.NET" Value="xlDataLabelsShowNone" />
+      <MemberSignature Language="C++ CLI" Value="xlDataLabelsShowNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4142</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5725d-111">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5725d-111">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="5725d-112">无数据标签。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5725d-112">No data labels.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDataLabelsShowPercent">
+      <MemberSignature Language="C#" Value="xlDataLabelsShowPercent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelsType xlDataLabelsShowPercent = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowPercent" />
+      <MemberSignature Language="VB.NET" Value="xlDataLabelsShowPercent" />
+      <MemberSignature Language="C++ CLI" Value="xlDataLabelsShowPercent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5725d-113">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5725d-113">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="5725d-114">总计的百分比。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5725d-114">Percentage of the total.</span>
+          </span>
+          <span data-ttu-id="5725d-115">仅用于饼图和圆环图。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5725d-115">Available only for pie charts and doughnut charts.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDataLabelsShowValue">
+      <MemberSignature Language="C#" Value="xlDataLabelsShowValue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.XlDataLabelsType xlDataLabelsShowValue = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.XlDataLabelsType.xlDataLabelsShowValue" />
+      <MemberSignature Language="VB.NET" Value="xlDataLabelsShowValue" />
+      <MemberSignature Language="C++ CLI" Value="xlDataLabelsShowValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.XlDataLabelsType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5725d-116">您应该从 Excel 主互操作程序集 (PIA) 访问和使用此枚举。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5725d-116">You should access and use this enumeration from the Excel primary interop assembly (PIA).</span>
+          </span>
+          <span data-ttu-id="5725d-117">（假定如果不指定此参数） 数据点的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5725d-117">Value for the point (assumed if this argument isn't specified).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

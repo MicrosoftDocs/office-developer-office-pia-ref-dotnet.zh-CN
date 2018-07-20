@@ -1,0 +1,945 @@
+<Type Name="MsoWarpFormat" FullName="Microsoft.Office.Core.MsoWarpFormat">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8eda844f2376748f054b51503398a161cb6f85eb" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658139" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoWarpFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoWarpFormat extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoWarpFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoWarpFormat" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoWarpFormat" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="9fcc1-101">指示各种图像弯曲格式。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9fcc1-101">Indicates various image warping formats.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoWarpFormat1">
+      <MemberSignature Language="C#" Value="msoWarpFormat1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat1 = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat1" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat1" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-102">指定“弯曲格式 1”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-102">Specifies Warp Format 1.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat10">
+      <MemberSignature Language="C#" Value="msoWarpFormat10" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat10 = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat10" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat10" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat10" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-103">指定“弯曲格式 10”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-103">Specifies Warp Format 10.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat11">
+      <MemberSignature Language="C#" Value="msoWarpFormat11" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat11 = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat11" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat11" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat11" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-104">指定“弯曲格式 11”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-104">Specifies Warp Format 11.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat12">
+      <MemberSignature Language="C#" Value="msoWarpFormat12" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat12 = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat12" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat12" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat12" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-105">指定“弯曲格式 12”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-105">Specifies Warp Format 12.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat13">
+      <MemberSignature Language="C#" Value="msoWarpFormat13" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat13 = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat13" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat13" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat13" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-106">指定“弯曲格式 13”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-106">Specifies Warp Format 13.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat14">
+      <MemberSignature Language="C#" Value="msoWarpFormat14" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat14 = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat14" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat14" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat14" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-107">指定“弯曲格式 14”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-107">Specifies Warp Format 14.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat15">
+      <MemberSignature Language="C#" Value="msoWarpFormat15" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat15 = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat15" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat15" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat15" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-108">指定“弯曲格式 15”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-108">Specifies Warp Format 15.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat16">
+      <MemberSignature Language="C#" Value="msoWarpFormat16" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat16 = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat16" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat16" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat16" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-109">指定“弯曲格式 16”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-109">Specifies Warp Format 16.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat17">
+      <MemberSignature Language="C#" Value="msoWarpFormat17" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat17 = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat17" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat17" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat17" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-110">指定“弯曲格式 17”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-110">Specifies Warp Format 17.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat18">
+      <MemberSignature Language="C#" Value="msoWarpFormat18" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat18 = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat18" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat18" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat18" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-111">指定“弯曲格式 18”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-111">Specifies Warp Format 18.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat19">
+      <MemberSignature Language="C#" Value="msoWarpFormat19" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat19 = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat19" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat19" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat19" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-112">指定“弯曲格式 19”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-112">Specifies Warp Format 19.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat2">
+      <MemberSignature Language="C#" Value="msoWarpFormat2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat2 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat2" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat2" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-113">指定“弯曲格式 2”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-113">Specifies Warp Format 2.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat20">
+      <MemberSignature Language="C#" Value="msoWarpFormat20" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat20 = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat20" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat20" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat20" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-114">指定“弯曲格式 20”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-114">Specifies Warp Format 20.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat21">
+      <MemberSignature Language="C#" Value="msoWarpFormat21" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat21 = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat21" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat21" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat21" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-115">指定“弯曲格式 21”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-115">Specifies Warp Format 21.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat22">
+      <MemberSignature Language="C#" Value="msoWarpFormat22" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat22 = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat22" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat22" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat22" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-116">指定“弯曲格式 22”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-116">Specifies Warp Format 22.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat23">
+      <MemberSignature Language="C#" Value="msoWarpFormat23" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat23 = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat23" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat23" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat23" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-117">指定“弯曲格式 23”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-117">Specifies Warp Format 23.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat24">
+      <MemberSignature Language="C#" Value="msoWarpFormat24" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat24 = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat24" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat24" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat24" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-118">指定“弯曲格式 24”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-118">Specifies Warp Format 24.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat25">
+      <MemberSignature Language="C#" Value="msoWarpFormat25" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat25 = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat25" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat25" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat25" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-119">指定“弯曲格式 25”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-119">Specifies Warp Format 25.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat26">
+      <MemberSignature Language="C#" Value="msoWarpFormat26" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat26 = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat26" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat26" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat26" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-120">指定“弯曲格式 26”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-120">Specifies Warp Format 26.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat27">
+      <MemberSignature Language="C#" Value="msoWarpFormat27" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat27 = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat27" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat27" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat27" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-121">指定“弯曲格式 27”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-121">Specifies Warp Format 27.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat28">
+      <MemberSignature Language="C#" Value="msoWarpFormat28" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat28 = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat28" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat28" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat28" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-122">指定“弯曲格式 28”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-122">Specifies Warp Format 28.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat29">
+      <MemberSignature Language="C#" Value="msoWarpFormat29" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat29 = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat29" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat29" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat29" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-123">指定“弯曲格式 29”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-123">Specifies Warp Format 29.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat3">
+      <MemberSignature Language="C#" Value="msoWarpFormat3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat3 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat3" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat3" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-124">指定“弯曲格式 3”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-124">Specifies Warp Format 3.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat30">
+      <MemberSignature Language="C#" Value="msoWarpFormat30" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat30 = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat30" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat30" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat30" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-125">指定“弯曲格式 30”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-125">Specifies Warp Format 30.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat31">
+      <MemberSignature Language="C#" Value="msoWarpFormat31" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat31 = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat31" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat31" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat31" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-126">指定弯曲格式 31。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-126">Specifies Warp Format 31.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat32">
+      <MemberSignature Language="C#" Value="msoWarpFormat32" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat32 = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat32" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat32" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat32" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-127">指定弯曲格式 32。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-127">Specifies Warp Format 32.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat33">
+      <MemberSignature Language="C#" Value="msoWarpFormat33" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat33 = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat33" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat33" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat33" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-128">指定弯曲格式 33。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-128">Specifies Warp Format 33.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat34">
+      <MemberSignature Language="C#" Value="msoWarpFormat34" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat34 = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat34" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat34" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat34" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-129">指定弯曲格式 34。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-129">Specifies Warp Format 34.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat35">
+      <MemberSignature Language="C#" Value="msoWarpFormat35" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat35 = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat35" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat35" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat35" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-130">指定弯曲格式 35。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-130">Specifies Warp Format 35.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat36">
+      <MemberSignature Language="C#" Value="msoWarpFormat36" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat36 = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat36" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat36" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat36" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-131">指定弯曲格式 36。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-131">Specifies Warp Format 36.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat37">
+      <MemberSignature Language="C#" Value="msoWarpFormat37" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat37 = int32(36)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat37" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat37" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat37" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>36</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-132">指定弯曲格式 37。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-132">Specifies Warp Format 37.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat4">
+      <MemberSignature Language="C#" Value="msoWarpFormat4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat4 = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat4" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat4" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-133">指定“弯曲格式 4”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-133">Specifies Warp Format 4.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat5">
+      <MemberSignature Language="C#" Value="msoWarpFormat5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat5 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat5" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat5" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-134">指定“弯曲格式 5”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-134">Specifies Warp Format 5.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat6">
+      <MemberSignature Language="C#" Value="msoWarpFormat6" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat6 = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat6" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat6" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat6" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-135">指定“弯曲格式 6”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-135">Specifies Warp Format 6.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat7">
+      <MemberSignature Language="C#" Value="msoWarpFormat7" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat7 = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat7" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat7" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat7" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-136">指定“弯曲格式 7”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-136">Specifies Warp Format 7.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat8">
+      <MemberSignature Language="C#" Value="msoWarpFormat8" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat8 = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat8" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat8" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-137">指定“弯曲格式 8”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-137">Specifies Warp Format 8.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormat9">
+      <MemberSignature Language="C#" Value="msoWarpFormat9" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormat9 = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormat9" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormat9" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormat9" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-138">指定“弯曲格式 9”。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-138">Specifies Warp Format 9.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoWarpFormatMixed">
+      <MemberSignature Language="C#" Value="msoWarpFormatMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoWarpFormat msoWarpFormatMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoWarpFormat.msoWarpFormatMixed" />
+      <MemberSignature Language="VB.NET" Value="msoWarpFormatMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoWarpFormatMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9fcc1-139">指定混和的弯曲格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9fcc1-139">Specifies a mix of warp formats.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,692 @@
+<Type Name="MsoControlType" FullName="Microsoft.Office.Core.MsoControlType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="dc2aea21eab3314ebec7550dde32f66b9caea87b" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657437" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoControlType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoControlType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoControlType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoControlType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoControlType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="f01a0-101">指定命令栏控件的类型。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f01a0-101">Specifies the type of the command bar control.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="f01a0-102">
+        <para>与<b>CommandBarControls</b>对象的<b>Add</b>方法一起使用。可以通过<b>CommandBars</b>对象模型创建仅一组有限的控件类型： <b>msoControlButton</b>、 <b>msoControlEdit</b>、 <b>msoControlDropdown</b>、 <b>msoControlComboBox</b>、 <b>msoControlPopup</b>和<b>msoControlActiveX</b>。其他控件类型可能存在于内置或加载项的命令栏上，但不能通过对象模型创建。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f01a0-102">
+          <para>Used with the <b>Add</b> method of the <b>CommandBarControls</b> object. Only a limited set of the control types can be created via the <b>CommandBars</b> object model: <b>msoControlButton</b>, <b>msoControlEdit</b>, <b>msoControlDropdown</b>, <b>msoControlComboBox</b>, <b>msoControlPopup</b>, and <b>msoControlActiveX</b>. Other control types may exist on built-in or add-in command bars, but cannot be created via the object model.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoControlActiveX">
+      <MemberSignature Language="C#" Value="msoControlActiveX" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlActiveX = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlActiveX" />
+      <MemberSignature Language="VB.NET" Value="msoControlActiveX" />
+      <MemberSignature Language="C++ CLI" Value="msoControlActiveX" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-103">ActiveX 控件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-103">ActiveX control.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlAutoCompleteCombo">
+      <MemberSignature Language="C#" Value="msoControlAutoCompleteCombo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlAutoCompleteCombo = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlAutoCompleteCombo" />
+      <MemberSignature Language="VB.NET" Value="msoControlAutoCompleteCombo" />
+      <MemberSignature Language="C++ CLI" Value="msoControlAutoCompleteCombo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p101">在用户键入时自动填充第一个匹配选项的组合框。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p101">Combo box in which the first matching choice is automatically filled in as the user types. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlButton">
+      <MemberSignature Language="C#" Value="msoControlButton" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlButton = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlButton" />
+      <MemberSignature Language="VB.NET" Value="msoControlButton" />
+      <MemberSignature Language="C++ CLI" Value="msoControlButton" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-106">命令按钮。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-106">Command button.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlButtonDropdown">
+      <MemberSignature Language="C#" Value="msoControlButtonDropdown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlButtonDropdown = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlButtonDropdown" />
+      <MemberSignature Language="VB.NET" Value="msoControlButtonDropdown" />
+      <MemberSignature Language="C++ CLI" Value="msoControlButtonDropdown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p102">下拉按钮。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p102">Drop-down button. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlButtonPopup">
+      <MemberSignature Language="C#" Value="msoControlButtonPopup" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlButtonPopup = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlButtonPopup" />
+      <MemberSignature Language="VB.NET" Value="msoControlButtonPopup" />
+      <MemberSignature Language="C++ CLI" Value="msoControlButtonPopup" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p103">弹出式按钮。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p103">Pop-up button. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlComboBox">
+      <MemberSignature Language="C#" Value="msoControlComboBox" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlComboBox = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlComboBox" />
+      <MemberSignature Language="VB.NET" Value="msoControlComboBox" />
+      <MemberSignature Language="C++ CLI" Value="msoControlComboBox" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-111">组合框。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-111">Combo box.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlCustom">
+      <MemberSignature Language="C#" Value="msoControlCustom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlCustom = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlCustom" />
+      <MemberSignature Language="VB.NET" Value="msoControlCustom" />
+      <MemberSignature Language="C++ CLI" Value="msoControlCustom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p104">自定义控件。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p104">Custom control. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlDropdown">
+      <MemberSignature Language="C#" Value="msoControlDropdown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlDropdown = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlDropdown" />
+      <MemberSignature Language="VB.NET" Value="msoControlDropdown" />
+      <MemberSignature Language="C++ CLI" Value="msoControlDropdown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-114">下拉列表。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-114">Drop-down list.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlEdit">
+      <MemberSignature Language="C#" Value="msoControlEdit" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlEdit = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlEdit" />
+      <MemberSignature Language="VB.NET" Value="msoControlEdit" />
+      <MemberSignature Language="C++ CLI" Value="msoControlEdit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-115">文本框。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-115">Text box.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlExpandingGrid">
+      <MemberSignature Language="C#" Value="msoControlExpandingGrid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlExpandingGrid = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlExpandingGrid" />
+      <MemberSignature Language="VB.NET" Value="msoControlExpandingGrid" />
+      <MemberSignature Language="C++ CLI" Value="msoControlExpandingGrid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p105">展开网格。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p105">Expanding grid. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlGauge">
+      <MemberSignature Language="C#" Value="msoControlGauge" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlGauge = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlGauge" />
+      <MemberSignature Language="VB.NET" Value="msoControlGauge" />
+      <MemberSignature Language="C++ CLI" Value="msoControlGauge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p106">计量表控件。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p106">Gauge control. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlGenericDropdown">
+      <MemberSignature Language="C#" Value="msoControlGenericDropdown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlGenericDropdown = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlGenericDropdown" />
+      <MemberSignature Language="VB.NET" Value="msoControlGenericDropdown" />
+      <MemberSignature Language="C++ CLI" Value="msoControlGenericDropdown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p107">一般下拉列表。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p107">Generic drop-down list. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlGraphicCombo">
+      <MemberSignature Language="C#" Value="msoControlGraphicCombo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlGraphicCombo = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlGraphicCombo" />
+      <MemberSignature Language="VB.NET" Value="msoControlGraphicCombo" />
+      <MemberSignature Language="C++ CLI" Value="msoControlGraphicCombo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p108">图形组合框。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p108">Graphic combo box. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlGraphicDropdown">
+      <MemberSignature Language="C#" Value="msoControlGraphicDropdown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlGraphicDropdown = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlGraphicDropdown" />
+      <MemberSignature Language="VB.NET" Value="msoControlGraphicDropdown" />
+      <MemberSignature Language="C++ CLI" Value="msoControlGraphicDropdown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p109">图形下拉列表。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p109">Graphic drop-down list. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlGraphicPopup">
+      <MemberSignature Language="C#" Value="msoControlGraphicPopup" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlGraphicPopup = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlGraphicPopup" />
+      <MemberSignature Language="VB.NET" Value="msoControlGraphicPopup" />
+      <MemberSignature Language="C++ CLI" Value="msoControlGraphicPopup" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p110">图形弹出菜单。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p110">Graphic pop-up menu. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlGrid">
+      <MemberSignature Language="C#" Value="msoControlGrid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlGrid = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlGrid" />
+      <MemberSignature Language="VB.NET" Value="msoControlGrid" />
+      <MemberSignature Language="C++ CLI" Value="msoControlGrid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p111">网格。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p111">Grid. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlLabel">
+      <MemberSignature Language="C#" Value="msoControlLabel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlLabel = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlLabel" />
+      <MemberSignature Language="VB.NET" Value="msoControlLabel" />
+      <MemberSignature Language="C++ CLI" Value="msoControlLabel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p112">标签。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p112">Label. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlLabelEx">
+      <MemberSignature Language="C#" Value="msoControlLabelEx" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlLabelEx = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlLabelEx" />
+      <MemberSignature Language="VB.NET" Value="msoControlLabelEx" />
+      <MemberSignature Language="C++ CLI" Value="msoControlLabelEx" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p113">扩展标签。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p113">Extended label. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlOCXDropdown">
+      <MemberSignature Language="C#" Value="msoControlOCXDropdown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlOCXDropdown = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlOCXDropdown" />
+      <MemberSignature Language="VB.NET" Value="msoControlOCXDropdown" />
+      <MemberSignature Language="C++ CLI" Value="msoControlOCXDropdown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p114">OCX 下拉列表。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p114">OCX drop-down list. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlPane">
+      <MemberSignature Language="C#" Value="msoControlPane" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlPane = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlPane" />
+      <MemberSignature Language="VB.NET" Value="msoControlPane" />
+      <MemberSignature Language="C++ CLI" Value="msoControlPane" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p115">窗格。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p115">Pane. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlPopup">
+      <MemberSignature Language="C#" Value="msoControlPopup" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlPopup = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlPopup" />
+      <MemberSignature Language="VB.NET" Value="msoControlPopup" />
+      <MemberSignature Language="C++ CLI" Value="msoControlPopup" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-138">弹出框。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-138">Pop-up.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlSpinner">
+      <MemberSignature Language="C#" Value="msoControlSpinner" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlSpinner = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlSpinner" />
+      <MemberSignature Language="VB.NET" Value="msoControlSpinner" />
+      <MemberSignature Language="C++ CLI" Value="msoControlSpinner" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p116">微调按钮。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p116">Spinner. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlSplitButtonMRUPopup">
+      <MemberSignature Language="C#" Value="msoControlSplitButtonMRUPopup" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlSplitButtonMRUPopup = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlSplitButtonMRUPopup" />
+      <MemberSignature Language="VB.NET" Value="msoControlSplitButtonMRUPopup" />
+      <MemberSignature Language="C++ CLI" Value="msoControlSplitButtonMRUPopup" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p117">最近使用过的 (MRU) 弹出框。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p117">Most Recently Used (MRU) pop-up. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlSplitButtonPopup">
+      <MemberSignature Language="C#" Value="msoControlSplitButtonPopup" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlSplitButtonPopup = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlSplitButtonPopup" />
+      <MemberSignature Language="VB.NET" Value="msoControlSplitButtonPopup" />
+      <MemberSignature Language="C++ CLI" Value="msoControlSplitButtonPopup" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p118">拆分按钮弹出框。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p118">Split button pop-up. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlSplitDropdown">
+      <MemberSignature Language="C#" Value="msoControlSplitDropdown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlSplitDropdown = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlSplitDropdown" />
+      <MemberSignature Language="VB.NET" Value="msoControlSplitDropdown" />
+      <MemberSignature Language="C++ CLI" Value="msoControlSplitDropdown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p119">拆分下拉列表。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p119">Split drop-down list. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlSplitExpandingGrid">
+      <MemberSignature Language="C#" Value="msoControlSplitExpandingGrid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlSplitExpandingGrid = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlSplitExpandingGrid" />
+      <MemberSignature Language="VB.NET" Value="msoControlSplitExpandingGrid" />
+      <MemberSignature Language="C++ CLI" Value="msoControlSplitExpandingGrid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p120">拆分展开网格。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p120">Split expanding grid. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoControlWorkPane">
+      <MemberSignature Language="C#" Value="msoControlWorkPane" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoControlType msoControlWorkPane = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoControlType.msoControlWorkPane" />
+      <MemberSignature Language="VB.NET" Value="msoControlWorkPane" />
+      <MemberSignature Language="C++ CLI" Value="msoControlWorkPane" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoControlType</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f01a0-p121">工作窗格。不能通过对象模型创建。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f01a0-p121">Work pane. Cannot be created through the object model.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

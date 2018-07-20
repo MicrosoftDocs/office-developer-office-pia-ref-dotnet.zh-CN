@@ -1,0 +1,1214 @@
+<Type Name="ChartFillFormat" FullName="Microsoft.Office.Core.ChartFillFormat">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ad17fe9c58844222d4104928f8ff92c37a542796" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658303" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ChartFillFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ChartFillFormat" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.ChartFillFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ChartFillFormat" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ChartFillFormat" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C171C-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="99b6c-p101">仅用于图表。代表图表元素的填充格式。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="99b6c-p101">Used only with charts. Represents fill formatting for chart elements.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="99b6c-103">
+        <para>使用<see cref="T:Microsoft.Office.Core.ChartFillFormat" />属性返回<see cref="T:Microsoft.Office.Core.ChartFillFormat" />对象。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="99b6c-103">
+          <para>Use the <see cref="T:Microsoft.Office.Core.ChartFillFormat" /> property to return a <see cref="T:Microsoft.Office.Core.ChartFillFormat" /> object.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartFillFormat.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99b6c-104">返回一个<b>Application</b>对象，代表容器应用程序的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-104">Returns an <b>Application</b> object that represents the container application for the object.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="99b6c-105">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-105">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ChartColorFormat BackColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.ChartColorFormat BackColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartFillFormat.BackColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BackColor As ChartColorFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ChartColorFormat ^ BackColor { Microsoft::Office::Core::ChartColorFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743816)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743816)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ChartColorFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99b6c-106">返回或设置的填充背景色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-106">Returns or sets the fill background color.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.ChartColorFormat" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartFillFormat.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99b6c-p102">返回一个 32 位整数，该整数指示在其中创建此对象的应用程序。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-p102">Returns a 32-bit integer that indicates the application in which this object was created. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="99b6c-109">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-109">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForeColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.ChartColorFormat ForeColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.ChartColorFormat ForeColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartFillFormat.ForeColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ForeColor As ChartColorFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::ChartColorFormat ^ ForeColor { Microsoft::Office::Core::ChartColorFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743817)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743817)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.ChartColorFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99b6c-110">返回或设置前景填充色或纯色。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-110">Returns or sets the foreground fill or solid color.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.ChartColorFormat" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GradientColorType">
+      <MemberSignature Language="C#" Value="public int GradientColorType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 GradientColorType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartFillFormat.GradientColorType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GradientColorType As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int GradientColorType { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743818)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743818)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99b6c-111">返回指定填充的渐变颜色类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-111">Returns the gradient color type for the specified fill.</span>
+          </span>
+          <span data-ttu-id="99b6c-112">只读</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-112">Read-only</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoGradientColorType" />
+        </value>
+        <remarks>
+          <span data-ttu-id="99b6c-113">
+            <para>
+              <see cref="T:Microsoft.Office.Core.MsoGradientColorType" />返回值仅表示指定范围中的其他状态的组合。使用<see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" />， <see cref="P:Microsoft.Office.Core.ChartFillFormat.PresetGradientType" />，或<see cref="M:Microsoft.Office.Core.ChartFillFormat.TwoColorGradient(System.Int32,System.Int32)" />方法可设置填充的渐变类型。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-113">
+              <para>
+                <see cref="T:Microsoft.Office.Core.MsoGradientColorType" /> is a return value only which indicates a combination of the other states in the specified range. Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" />, <see cref="P:Microsoft.Office.Core.ChartFillFormat.PresetGradientType" />, or <see cref="M:Microsoft.Office.Core.ChartFillFormat.TwoColorGradient(System.Int32,System.Int32)" /> method to set the gradient type for the fill.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GradientDegree">
+      <MemberSignature Language="C#" Value="public float GradientDegree { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 GradientDegree" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartFillFormat.GradientDegree" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GradientDegree As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float GradientDegree { float get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743819)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743819)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99b6c-114">返回指定底纹单色填充的渐变程度的浮点值从 0.0 （暗） 到 1.0 （亮）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-114">Returns the gradient degree of the specified one-color shaded fill as a floating-point value from 0.0 (dark) through 1.0 (light).</span>
+          </span>
+          <span data-ttu-id="99b6c-115">只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-115">Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="99b6c-116">
+            <b>Single</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-116">
+              <b>Single</b>
+            </span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="99b6c-117">
+            <para>此属性是只读的。使用<see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" />方法设置填充的渐变程度。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-117">
+              <para>This property is read-only. Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" /> method to set the gradient degree for the fill.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GradientStyle">
+      <MemberSignature Language="C#" Value="public int GradientStyle { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 GradientStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartFillFormat.GradientStyle" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GradientStyle As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int GradientStyle { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743820)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743820)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99b6c-118">返回指定填充的渐变样式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-118">Returns the gradient style for the specified fill.</span>
+          </span>
+          <span data-ttu-id="99b6c-119">只读</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-119">Read-only</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GradientVariant">
+      <MemberSignature Language="C#" Value="public int GradientVariant { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 GradientVariant" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartFillFormat.GradientVariant" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GradientVariant As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int GradientVariant { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743821)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743821)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99b6c-120">从 1 到 4，作为整数值返回指定的填充格式的底纹变量。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-120">Returns the shade variant for the specified fill as an integer value from 1 through 4.</span>
+          </span>
+          <span data-ttu-id="99b6c-121">此属性的值对应于填充效果对话框中渐变选项卡上的渐变变量 (按从左到右和从上到下的顺序编号)。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-121">The values for this property correspond to the gradient variants (numbered from left to right and from top to bottom) on the Gradient tab in the Fill Effects dialog box.</span>
+          </span>
+          <span data-ttu-id="99b6c-122">只读</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-122">Read-only</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="99b6c-123">
+            <b>Integer</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-123">
+              <b>Integer</b>
+            </span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="99b6c-124">
+            <para>此属性是只读的。使用<see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" />或<see cref="M:Microsoft.Office.Core.ChartFillFormat.TwoColorGradient(System.Int32,System.Int32)" />方法设置填充的渐变变量。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-124">
+              <para>This property is read-only. Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" /> or <see cref="M:Microsoft.Office.Core.ChartFillFormat.TwoColorGradient(System.Int32,System.Int32)" /> method to set the gradient variant for the fill.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OneColorGradient">
+      <MemberSignature Language="C#" Value="public void OneColorGradient (int Style, int Variant, float Degree);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OneColorGradient([in]int32 Style, [in]int32 Variant, [in]float32 Degree) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartFillFormat.OneColorGradient(System.Int32,System.Int32,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OneColorGradient (Style As Integer, Variant As Integer, Degree As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OneColorGradient(int Style, int Variant, float Degree);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Style" Type="System.Int32" />
+        <Parameter Name="Variant" Type="System.Int32" />
+        <Parameter Name="Degree" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Style">
+          <span data-ttu-id="99b6c-125">所需<see cref="T:Microsoft.Office.Core.MsoGradientStyle" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-125">Required <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />.</span>
+          </span>
+          <span data-ttu-id="99b6c-126">渐变样式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-126">The gradient style.</span>
+          </span>
+        </param>
+        <param name="Variant">
+          <span data-ttu-id="99b6c-127">
+            <b>必选。</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-127">Required <b>Integer</b>.</span>
+          </span>
+          <span data-ttu-id="99b6c-128">渐变变量。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-128">The gradient variant.</span>
+          </span>
+          <span data-ttu-id="99b6c-129">可以是介于 1 至 4，对应于一个填充效果对话框中过渡选项卡上的四个变量的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-129">Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box.</span>
+          </span>
+          <span data-ttu-id="99b6c-130">如果<paramref name="Style" />是<see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />，键入<paramref name="Variant" />参数只能是 1 或 2。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-130">If <paramref name="Style" /> is <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />, the <paramref name="Variant" /> argument can only be 1 or 2.</span>
+          </span>
+        </param>
+        <param name="Degree">
+          <span data-ttu-id="99b6c-131">
+            <b>必选。</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-131">Required <b>Single</b>.</span>
+          </span>
+          <span data-ttu-id="99b6c-132">渐变深度。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-132">The gradient degree.</span>
+          </span>
+          <span data-ttu-id="99b6c-133">可以是 0.0 之间的值 （暗） 到 1.0 （亮）。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-133">Can be a value from 0.0 (dark) through 1.0 (light).</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="99b6c-134">将指定填充设置为单色渐变。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-134">Sets the specified fill to a one-color gradient.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartFillFormat.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99b6c-p110">返回指定对象的父对象。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-p110">Returns the parent object for the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="99b6c-137">
+            <b>对象</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-137">
+              <b>Object</b>
+            </span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pattern">
+      <MemberSignature Language="C#" Value="public int Pattern { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Pattern" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartFillFormat.Pattern" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Pattern As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Pattern { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743822)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743822)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99b6c-138">返回或设置填充图案。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-138">Returns or sets the fill pattern.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoPatternType" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Patterned">
+      <MemberSignature Language="C#" Value="public void Patterned (int Pattern);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Patterned([in]int32 Pattern) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartFillFormat.Patterned(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Patterned (Pattern As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Patterned(int Pattern);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pattern" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Pattern">
+          <span data-ttu-id="99b6c-139">所需<see cref="T:Microsoft.Office.Core.MsoPatternType" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-139">Required <see cref="T:Microsoft.Office.Core.MsoPatternType" />.</span>
+          </span>
+          <span data-ttu-id="99b6c-140">图案的类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-140">The type of pattern.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="99b6c-141">将指定填充设置为一种图案。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-141">Sets the specified fill to a pattern.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresetGradient">
+      <MemberSignature Language="C#" Value="public void PresetGradient (int Style, int Variant, int PresetGradientType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PresetGradient([in]int32 Style, [in]int32 Variant, [in]int32 PresetGradientType) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartFillFormat.PresetGradient(System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PresetGradient (Style As Integer, Variant As Integer, PresetGradientType As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PresetGradient(int Style, int Variant, int PresetGradientType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743815)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Style" Type="System.Int32" />
+        <Parameter Name="Variant" Type="System.Int32" />
+        <Parameter Name="PresetGradientType" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Style">
+          <span data-ttu-id="99b6c-142">所需<see cref="T:Microsoft.Office.Core.MsoGradientStyle" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-142">Required <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />.</span>
+          </span>
+          <span data-ttu-id="99b6c-143">渐变样式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-143">The gradient style.</span>
+          </span>
+        </param>
+        <param name="Variant">
+          <span data-ttu-id="99b6c-144">
+            <b>必选。</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-144">Required <b>Integer</b>.</span>
+          </span>
+          <span data-ttu-id="99b6c-145">渐变变量。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-145">The gradient variant.</span>
+          </span>
+          <span data-ttu-id="99b6c-146">可以是介于 1 至 4，对应于一个填充效果对话框中过渡选项卡上的四个变量的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-146">Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box.</span>
+          </span>
+          <span data-ttu-id="99b6c-147">如果<paramref name="Style" />是<see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />，键入<paramref name="Variant" />参数只能是 1 或 2。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-147">If <paramref name="Style" /> is <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />, the <paramref name="Variant" /> argument can only be 1 or 2.</span>
+          </span>
+        </param>
+        <param name="PresetGradientType">To be added.</param>
+        <summary>
+          <span data-ttu-id="99b6c-148">将指定填充设置为一个预设的渐变。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-148">Sets the specified fill to a preset gradient.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresetGradientType">
+      <MemberSignature Language="C#" Value="public int PresetGradientType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PresetGradientType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartFillFormat.PresetGradientType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PresetGradientType As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PresetGradientType { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743823)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743823)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99b6c-p114">返回指定填充的预设渐变类型。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-p114">Returns the preset gradient type for the specified fill. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoPresetGradientType" />
+        </value>
+        <remarks>
+          <span data-ttu-id="99b6c-151">
+            <para>使用<see cref="M:Microsoft.Office.Core.ChartFillFormat.PresetGradient(System.Int32,System.Int32,System.Int32)" />方法设置填充的预设渐变类型。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-151">
+              <para>Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.PresetGradient(System.Int32,System.Int32,System.Int32)" /> method to set the preset gradient type for the fill.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresetTexture">
+      <MemberSignature Language="C#" Value="public int PresetTexture { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PresetTexture" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartFillFormat.PresetTexture" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PresetTexture As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PresetTexture { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743824)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743824)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99b6c-p115">返回指定填充的预设纹理。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-p115">Returns the preset texture for the specified fill. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoPresetTexture" />
+        </value>
+        <remarks>
+          <span data-ttu-id="99b6c-154">
+            <para>使用<see cref="M:Microsoft.Office.Core.ChartFillFormat.PresetTextured(System.Int32)" />方法可设置填充的预设的纹理。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-154">
+              <para>Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.PresetTextured(System.Int32)" /> method to set the preset texture for the fill.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresetTextured">
+      <MemberSignature Language="C#" Value="public void PresetTextured (int PresetTexture);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PresetTextured([in]int32 PresetTexture) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartFillFormat.PresetTextured(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PresetTextured (PresetTexture As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PresetTextured(int PresetTexture);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PresetTexture" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="PresetTexture">
+          <span data-ttu-id="99b6c-155">所需<see cref="T:Microsoft.Office.Core.MsoPresetTexture" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-155">Required <see cref="T:Microsoft.Office.Core.MsoPresetTexture" />.</span>
+          </span>
+          <span data-ttu-id="99b6c-156">要应用的纹理类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-156">The type of texture to apply.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="99b6c-157">将指定填充格式设为预设纹理。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-157">Sets the specified fill format to a preset texture.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Solid">
+      <MemberSignature Language="C#" Value="public void Solid ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Solid() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartFillFormat.Solid" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Solid ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Solid();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="99b6c-p117">将指定的填充格式设置为均匀的颜色。可用本方法将带有渐变、纹理、图案或背景的填充格式转换为单色的填充格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-p117">Sets the specified fill to a uniform color. Use this method to convert a gradient, textured, patterned, or background fill back to a solid fill.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextureName">
+      <MemberSignature Language="C#" Value="public string TextureName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TextureName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartFillFormat.TextureName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextureName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TextureName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743825)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743825)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99b6c-p118">返回指定填充的自定义纹理文件的名称。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-p118">Returns the name of the custom texture file for the specified fill. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="99b6c-162">
+            <b>字符串</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-162">
+              <b>String</b>
+            </span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="99b6c-163">
+            <para>使用<see cref="M:Microsoft.Office.Core.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" />或<see cref="M:Microsoft.Office.Core.FillFormat.UserTextured(System.String)" />方法可设置填充的纹理文件。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-163">
+              <para>Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" /> or <see cref="M:Microsoft.Office.Core.FillFormat.UserTextured(System.String)" /> method to set the texture file for the fill.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextureType">
+      <MemberSignature Language="C#" Value="public int TextureType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TextureType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartFillFormat.TextureType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextureType As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TextureType { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743826)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743826)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99b6c-p119">返回指定填充的纹理类型。只读。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-p119">Returns the texture type for the specified fill. Read-only.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoTextureType" />
+        </value>
+        <remarks>
+          <span data-ttu-id="99b6c-166">
+            <para>使用<see cref="M:Microsoft.Office.Core.ChartFillFormat.UserTextured(System.String)" />方法可设置填充的纹理类型。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-166">
+              <para>Use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserTextured(System.String)" /> method to set the texture type for the fill.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TwoColorGradient">
+      <MemberSignature Language="C#" Value="public void TwoColorGradient (int Style, int Variant);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void TwoColorGradient([in]int32 Style, [in]int32 Variant) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartFillFormat.TwoColorGradient(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub TwoColorGradient (Style As Integer, Variant As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void TwoColorGradient(int Style, int Variant);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Style" Type="System.Int32" />
+        <Parameter Name="Variant" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Style">
+          <span data-ttu-id="99b6c-167">所需<see cref="T:Microsoft.Office.Core.MsoGradientStyle" />。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-167">Required <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />.</span>
+          </span>
+          <span data-ttu-id="99b6c-168">渐变样式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-168">The gradient style.</span>
+          </span>
+        </param>
+        <param name="Variant">
+          <span data-ttu-id="99b6c-169">
+            <b>必选。</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-169">Required <b>Integer</b>.</span>
+          </span>
+          <span data-ttu-id="99b6c-170">渐变变量。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-170">The gradient variant.</span>
+          </span>
+          <span data-ttu-id="99b6c-171">可以是介于 1 至 4，对应于一个填充效果对话框中过渡选项卡上的四个变量的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-171">Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box.</span>
+          </span>
+          <span data-ttu-id="99b6c-172">如果<paramref name="Style" />是<see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />，键入<paramref name="Variant" />参数只能是 1 或 2。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-172">If <paramref name="Style" /> is <see cref="F:Microsoft.Office.Core.MsoGradientStyle.msoGradientFromCenter" />, the <paramref name="Variant" /> argument can only be 1 or 2.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="99b6c-173">将指定填充设置为双色渐变。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-173">Sets the specified fill to a two-color gradient.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public int Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartFillFormat.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Type { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743827)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743827)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99b6c-174">返回填充类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-174">Returns the fill type.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoFillType" />
+        </value>
+        <remarks>
+          <span data-ttu-id="99b6c-175">
+            <para>此属性也可返回<see cref="F:Microsoft.Office.Core.XlConstants.xlAutomatic" />或<see cref="F:Microsoft.Office.Core.XlConstants.xlNone" />。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-175">
+              <para>This property can also return <see cref="F:Microsoft.Office.Core.XlConstants.xlAutomatic" /> or <see cref="F:Microsoft.Office.Core.XlConstants.xlNone" />. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserPicture">
+      <MemberSignature Language="C#" Value="public void UserPicture (object PictureFile, object PictureFormat, object PictureStackUnit, object PicturePlacement);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UserPicture([in]object PictureFile, [in]object PictureFormat, [in]object PictureStackUnit, [in]object PicturePlacement) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UserPicture (PictureFile As Object, PictureFormat As Object, PictureStackUnit As Object, PicturePlacement As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void UserPicture(System::Object ^ PictureFile, System::Object ^ PictureFormat, System::Object ^ PictureStackUnit, System::Object ^ PicturePlacement);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PictureFile" Type="System.Object" />
+        <Parameter Name="PictureFormat" Type="System.Object" />
+        <Parameter Name="PictureStackUnit" Type="System.Object" />
+        <Parameter Name="PicturePlacement" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="PictureFile">
+          <span data-ttu-id="99b6c-176">可选的<b>对象</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-176">Optional <b>Object</b>.</span>
+          </span>
+          <span data-ttu-id="99b6c-177">图像的文件名。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-177">The filename of the image.</span>
+          </span>
+        </param>
+        <param name="PictureFormat">
+          <span data-ttu-id="99b6c-178">可选的<b>对象</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-178">Optional <b>Object</b>.</span>
+          </span>
+          <span data-ttu-id="99b6c-179">
+            <see cref="T:Microsoft.Office.Core.XlChartPictureType" />值，该值指示图片的格式。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-179">An <see cref="T:Microsoft.Office.Core.XlChartPictureType" /> value that indicates the format of the picture.</span>
+          </span>
+        </param>
+        <param name="PictureStackUnit">
+          <span data-ttu-id="99b6c-180">可选的<b>对象</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-180">Optional <b>Object</b>.</span>
+          </span>
+          <span data-ttu-id="99b6c-181">
+            <b>双精度</b>值，该值指定图片层叠或缩放单位 (取决于<paramref name="PictureFormat" />参数)。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-181">A <b>Double</b> value that specifies the picture stack or scale unit (depends on the <paramref name="PictureFormat" /> argument).</span>
+          </span>
+        </param>
+        <param name="PicturePlacement">
+          <span data-ttu-id="99b6c-182">可选的<b>对象</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-182">Optional <b>Object</b>.</span>
+          </span>
+          <span data-ttu-id="99b6c-183">用来表示图片位置的 <b>XlChartPicturePlacement</b> 值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-183">An <b>XlChartPicturePlacement</b> value that indicates the placement of the picture.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="99b6c-184">用图像填充指定的形状。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-184">Fills the specified shape with an image.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserTextured">
+      <MemberSignature Language="C#" Value="public void UserTextured (string TextureFile);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UserTextured([in]string TextureFile) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.ChartFillFormat.UserTextured(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UserTextured (TextureFile As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void UserTextured(System::String ^ TextureFile);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743814)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TextureFile" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="TextureFile">
+          <span data-ttu-id="99b6c-185">必需的 <b>字符串</b> 。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-185">Required <b>String</b>.</span>
+          </span>
+          <span data-ttu-id="99b6c-186">图片文件名。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-186">The name of the picture file.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="99b6c-187">用一张图像的平铺形式填充指定形状。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-187">Fills the specified shape with small tiles of an image.</span>
+          </span>
+          <span data-ttu-id="99b6c-188">如果要用一张大图像来填充形状，使用<see cref="M:Microsoft.Office.Core.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" />方法。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-188">If you want to fill the shape with one large image, use the <see cref="M:Microsoft.Office.Core.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" /> method.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public int Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.ChartFillFormat.Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Property Visible As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Visible { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743828)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743828)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743828)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="99b6c-189">返回或设置<see cref="T:Microsoft.Office.Core.MsoTriState" />值，它确定对象是否可见。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-189">Returns or sets a <see cref="T:Microsoft.Office.Core.MsoTriState" /> value that determines whether the object is visible.</span>
+          </span>
+          <span data-ttu-id="99b6c-190">可读/写。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="99b6c-190">Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoTriState" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

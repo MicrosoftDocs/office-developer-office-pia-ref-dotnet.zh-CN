@@ -1,0 +1,153 @@
+<Type Name="MsoPictureColorType" FullName="Microsoft.Office.Core.MsoPictureColorType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="83d95c3683ddb986431a26845b7af9945d0926c0" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657376" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoPictureColorType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPictureColorType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPictureColorType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoPictureColorType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoPictureColorType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="5687d-101">指定应用于图片的颜色转换设置。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5687d-101">Specifies the color transformation applied to a picture.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoPictureAutomatic">
+      <MemberSignature Language="C#" Value="msoPictureAutomatic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureColorType msoPictureAutomatic = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureColorType.msoPictureAutomatic" />
+      <MemberSignature Language="VB.NET" Value="msoPictureAutomatic" />
+      <MemberSignature Language="C++ CLI" Value="msoPictureAutomatic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5687d-102">默认颜色转换。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5687d-102">Default color transformation.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPictureBlackAndWhite">
+      <MemberSignature Language="C#" Value="msoPictureBlackAndWhite" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureColorType msoPictureBlackAndWhite = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureColorType.msoPictureBlackAndWhite" />
+      <MemberSignature Language="VB.NET" Value="msoPictureBlackAndWhite" />
+      <MemberSignature Language="C++ CLI" Value="msoPictureBlackAndWhite" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5687d-103">黑白转换。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5687d-103">Black-and-white transformation.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPictureGrayscale">
+      <MemberSignature Language="C#" Value="msoPictureGrayscale" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureColorType msoPictureGrayscale = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureColorType.msoPictureGrayscale" />
+      <MemberSignature Language="VB.NET" Value="msoPictureGrayscale" />
+      <MemberSignature Language="C++ CLI" Value="msoPictureGrayscale" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5687d-104">灰度转换。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5687d-104">Grayscale transformation.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPictureMixed">
+      <MemberSignature Language="C#" Value="msoPictureMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureColorType msoPictureMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureColorType.msoPictureMixed" />
+      <MemberSignature Language="VB.NET" Value="msoPictureMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoPictureMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5687d-105">混和转换。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5687d-105">Mixed transformation.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoPictureWatermark">
+      <MemberSignature Language="C#" Value="msoPictureWatermark" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureColorType msoPictureWatermark = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureColorType.msoPictureWatermark" />
+      <MemberSignature Language="VB.NET" Value="msoPictureWatermark" />
+      <MemberSignature Language="C++ CLI" Value="msoPictureWatermark" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureColorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5687d-106">水印转换。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5687d-106">Watermark transformation.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
