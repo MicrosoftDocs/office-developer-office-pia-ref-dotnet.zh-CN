@@ -1,0 +1,86 @@
+<Type Name="MsoScriptLocation" FullName="Microsoft.Office.Core.MsoScriptLocation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="54a0bca97659e9330be6c1adbe261c4244c6ce1f" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657910" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoScriptLocation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoScriptLocation extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoScriptLocation" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoScriptLocation" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoScriptLocation" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="3dbeb-101">指定文档中的脚本定位标记的位置。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="3dbeb-101">Specifies the location of the script anchor within a document.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoScriptLocationInBody">
+      <MemberSignature Language="C#" Value="msoScriptLocationInBody" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoScriptLocation msoScriptLocationInBody = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoScriptLocation.msoScriptLocationInBody" />
+      <MemberSignature Language="VB.NET" Value="msoScriptLocationInBody" />
+      <MemberSignature Language="C++ CLI" Value="msoScriptLocationInBody" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScriptLocation</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3dbeb-102">文档正文中的脚本定位标记。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3dbeb-102">Script anchor is in the body of the document.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoScriptLocationInHead">
+      <MemberSignature Language="C#" Value="msoScriptLocationInHead" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoScriptLocation msoScriptLocationInHead = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoScriptLocation.msoScriptLocationInHead" />
+      <MemberSignature Language="VB.NET" Value="msoScriptLocationInHead" />
+      <MemberSignature Language="C++ CLI" Value="msoScriptLocationInHead" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScriptLocation</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3dbeb-103">在文档的头部脚本定位标记。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3dbeb-103">Script anchor is in the head of the document.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

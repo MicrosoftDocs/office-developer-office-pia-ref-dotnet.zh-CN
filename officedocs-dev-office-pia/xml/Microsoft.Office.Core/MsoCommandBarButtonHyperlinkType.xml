@@ -1,0 +1,105 @@
+<Type Name="MsoCommandBarButtonHyperlinkType" FullName="Microsoft.Office.Core.MsoCommandBarButtonHyperlinkType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1b9409ee8c51d07c21ede8a8f93b53405fd143e3" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658205" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoCommandBarButtonHyperlinkType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoCommandBarButtonHyperlinkType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoCommandBarButtonHyperlinkType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoCommandBarButtonHyperlinkType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoCommandBarButtonHyperlinkType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="66047-p101">指定命令栏按钮是否是超链接。如果命令栏按钮是超链接，则进一步指定该超链接是启动其他应用程序（例如浏览器），还是在活动的选择点处插入图片。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="66047-p101">Specifies whether the command bar button is a hyperlink. If the command bar button is a hyperlink, further specifies whether the hyperlink should launch another application such as the browser or insert a picture at the active selection point.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoCommandBarButtonHyperlinkInsertPicture">
+      <MemberSignature Language="C#" Value="msoCommandBarButtonHyperlinkInsertPicture" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCommandBarButtonHyperlinkType msoCommandBarButtonHyperlinkInsertPicture = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCommandBarButtonHyperlinkType.msoCommandBarButtonHyperlinkInsertPicture" />
+      <MemberSignature Language="VB.NET" Value="msoCommandBarButtonHyperlinkInsertPicture" />
+      <MemberSignature Language="C++ CLI" Value="msoCommandBarButtonHyperlinkInsertPicture" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCommandBarButtonHyperlinkType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="66047-103">单击命令栏按钮在活动的选择点处插入图片。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="66047-103">Clicking the command bar button inserts a picture at the active selection point.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCommandBarButtonHyperlinkNone">
+      <MemberSignature Language="C#" Value="msoCommandBarButtonHyperlinkNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCommandBarButtonHyperlinkType msoCommandBarButtonHyperlinkNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCommandBarButtonHyperlinkType.msoCommandBarButtonHyperlinkNone" />
+      <MemberSignature Language="VB.NET" Value="msoCommandBarButtonHyperlinkNone" />
+      <MemberSignature Language="C++ CLI" Value="msoCommandBarButtonHyperlinkNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCommandBarButtonHyperlinkType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="66047-104">命令栏按钮不是超链接。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="66047-104">The command bar button is not a hyperlink.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoCommandBarButtonHyperlinkOpen">
+      <MemberSignature Language="C#" Value="msoCommandBarButtonHyperlinkOpen" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoCommandBarButtonHyperlinkType msoCommandBarButtonHyperlinkOpen = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoCommandBarButtonHyperlinkType.msoCommandBarButtonHyperlinkOpen" />
+      <MemberSignature Language="VB.NET" Value="msoCommandBarButtonHyperlinkOpen" />
+      <MemberSignature Language="C++ CLI" Value="msoCommandBarButtonHyperlinkOpen" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCommandBarButtonHyperlinkType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="66047-105">单击命令栏按钮打开在该命令栏按钮的<b>“TooltipText”</b>属性中指定的链接。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="66047-105">Clicking the command bar button opens the link specified in the command bar button's <b>TooltipText</b> property.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

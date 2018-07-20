@@ -1,0 +1,220 @@
+<Type Name="MsoEnvelopeClass" FullName="Microsoft.Office.Core.MsoEnvelopeClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3a682d20fddb33728f9ed5f2c5e03cb65f07e982" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657574" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class MsoEnvelopeClass : Microsoft.Office.Core.MsoEnvelope" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi MsoEnvelopeClass extends System.Object implements class Microsoft.Office.Core.IMsoEnvelopeVB, class Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event, class Microsoft.Office.Core.MsoEnvelope" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoEnvelopeClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class MsoEnvelopeClass&#xA;Implements MsoEnvelope" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MsoEnvelopeClass : Microsoft::Office::Core::MsoEnvelope" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core.MsoEnvelope</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Office.Core.IMsoEnvelopeVBEvents\0")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006F01A-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="fe183-101">仅供内部使用。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="fe183-101">Reserved for internal use.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CommandBars">
+      <MemberSignature Language="C#" Value="public virtual object CommandBars { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CommandBars" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.MsoEnvelopeClass.CommandBars" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property CommandBars As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ CommandBars { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.IMsoEnvelopeVB.CommandBars</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnvelopeHide">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler EnvelopeHide;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler EnvelopeHide" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core.MsoEnvelopeClass.EnvelopeHide" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event EnvelopeHide As IMsoEnvelopeVBEvents_EnvelopeHideEventHandler Implements EnvelopeHide" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Core::IMsoEnvelopeVBEvents_EnvelopeHideEventHandler ^ EnvelopeHide;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event.EnvelopeHide</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeHideEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnvelopeShow">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler EnvelopeShow;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler EnvelopeShow" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Core.MsoEnvelopeClass.EnvelopeShow" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event EnvelopeShow As IMsoEnvelopeVBEvents_EnvelopeShowEventHandler Implements EnvelopeShow" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Core::IMsoEnvelopeVBEvents_EnvelopeShowEventHandler ^ EnvelopeShow;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Core.IMsoEnvelopeVBEvents_Event.EnvelopeShow</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.IMsoEnvelopeVBEvents_EnvelopeShowEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Introduction">
+      <MemberSignature Language="C#" Value="public virtual string Introduction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Introduction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.MsoEnvelopeClass.Introduction" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Introduction As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Introduction { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.IMsoEnvelopeVB.Introduction</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public virtual object Item { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.MsoEnvelopeClass.Item" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Item As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Item { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.IMsoEnvelopeVB.Item</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public virtual object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.MsoEnvelopeClass.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core.IMsoEnvelopeVB.Parent</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

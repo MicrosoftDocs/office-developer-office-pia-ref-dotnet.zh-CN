@@ -1,0 +1,998 @@
+<Type Name="IFind" FullName="Microsoft.Office.Core.IFind">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4c944dc6fb6bd1a0082f383adc0e05bcb4df3018" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20658307" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IFind" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFind" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.IFind" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFind" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IFind" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0337-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Author">
+      <MemberSignature Language="C#" Value="public string Author { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Author" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.Author" />
+      <MemberSignature Language="VB.NET" Value="Public Property Author As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Author { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743812)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-101">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-101">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateCreatedFrom">
+      <MemberSignature Language="C#" Value="public object DateCreatedFrom { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object DateCreatedFrom" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.DateCreatedFrom" />
+      <MemberSignature Language="VB.NET" Value="Public Property DateCreatedFrom As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ DateCreatedFrom { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743822)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743822)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743822)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-102">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-102">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateCreatedTo">
+      <MemberSignature Language="C#" Value="public object DateCreatedTo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object DateCreatedTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.DateCreatedTo" />
+      <MemberSignature Language="VB.NET" Value="Public Property DateCreatedTo As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ DateCreatedTo { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743823)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743823)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743823)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-103">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-103">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateSavedFrom">
+      <MemberSignature Language="C#" Value="public object DateSavedFrom { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object DateSavedFrom" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.DateSavedFrom" />
+      <MemberSignature Language="VB.NET" Value="Public Property DateSavedFrom As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ DateSavedFrom { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743819)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743819)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743819)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-104">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-104">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateSavedTo">
+      <MemberSignature Language="C#" Value="public object DateSavedTo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object DateSavedTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.DateSavedTo" />
+      <MemberSignature Language="VB.NET" Value="Public Property DateSavedTo As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ DateSavedTo { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743820)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743820)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743820)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-105">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-105">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (string bstrQueryName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete([in]string bstrQueryName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IFind.Delete(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete (bstrQueryName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete(System::String ^ bstrQueryName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743853)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrQueryName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrQueryName">
+          <span data-ttu-id="0c031-106">此参数仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-106">This parameter is for Macintosh only and should not be used.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0c031-107">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-107">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Execute">
+      <MemberSignature Language="C#" Value="public void Execute ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Execute() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IFind.Execute" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Execute ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Execute();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743850)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-108">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-108">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileType">
+      <MemberSignature Language="C#" Value="public int FileType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 FileType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.FileType" />
+      <MemberSignature Language="VB.NET" Value="Public Property FileType As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int FileType { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743854)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743854)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743854)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-109">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-109">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Keywords">
+      <MemberSignature Language="C#" Value="public string Keywords { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Keywords" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.Keywords" />
+      <MemberSignature Language="VB.NET" Value="Public Property Keywords As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Keywords { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743813)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-110">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-110">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListBy">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoFileFindListBy ListBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoFileFindListBy ListBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.ListBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property ListBy As MsoFileFindListBy" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFileFindListBy ListBy { Microsoft::Office::Core::MsoFileFindListBy get(); void set(Microsoft::Office::Core::MsoFileFindListBy value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743826)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743826)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743826)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileFindListBy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-111">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-111">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (string bstrQueryName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Load([in]string bstrQueryName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IFind.Load(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Load (bstrQueryName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(System::String ^ bstrQueryName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743851)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrQueryName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrQueryName">
+          <span data-ttu-id="0c031-112">此参数仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-112">This parameter is for Macintosh only and should not be used.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0c031-113">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-113">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MatchCase">
+      <MemberSignature Language="C#" Value="public bool MatchCase { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MatchCase" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.MatchCase" />
+      <MemberSignature Language="VB.NET" Value="Public Property MatchCase As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MatchCase { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743816)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743816)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743816)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-114">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-114">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-115">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-115">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Options">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoFileFindOptions Options { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoFileFindOptions Options" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.Options" />
+      <MemberSignature Language="VB.NET" Value="Public Property Options As MsoFileFindOptions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFileFindOptions Options { Microsoft::Office::Core::MsoFileFindOptions get(); void set(Microsoft::Office::Core::MsoFileFindOptions value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743815)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743815)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743815)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileFindOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-116">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-116">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatternMatch">
+      <MemberSignature Language="C#" Value="public bool PatternMatch { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PatternMatch" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.PatternMatch" />
+      <MemberSignature Language="VB.NET" Value="Public Property PatternMatch As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PatternMatch { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743818)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743818)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743818)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-117">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-117">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Results">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.IFoundFiles Results { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.IFoundFiles Results" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.Results" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Results As IFoundFiles" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IFoundFiles ^ Results { Microsoft::Office::Core::IFoundFiles ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743828)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743828)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.IFoundFiles</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-118">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-118">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (string bstrQueryName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Save([in]string bstrQueryName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IFind.Save(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (bstrQueryName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(System::String ^ bstrQueryName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743852)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrQueryName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrQueryName">
+          <span data-ttu-id="0c031-119">此参数仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-119">This parameter is for Macintosh only and should not be used.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="0c031-120">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-120">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SavedBy">
+      <MemberSignature Language="C#" Value="public string SavedBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SavedBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.SavedBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property SavedBy As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SavedBy { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743821)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743821)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743821)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-121">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-121">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchPath">
+      <MemberSignature Language="C#" Value="public string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SearchPath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.SearchPath" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property SearchPath As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-122">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-122">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectedFile">
+      <MemberSignature Language="C#" Value="public int SelectedFile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SelectedFile" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.SelectedFile" />
+      <MemberSignature Language="VB.NET" Value="Public Property SelectedFile As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SelectedFile { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743827)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743827)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743827)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-123">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-123">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Show">
+      <MemberSignature Language="C#" Value="public int Show ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Show() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.IFind.Show" />
+      <MemberSignature Language="VB.NET" Value="Public Function Show () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int Show();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743829)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-124">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-124">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortBy">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoFileFindSortBy SortBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoFileFindSortBy SortBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.SortBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortBy As MsoFileFindSortBy" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFileFindSortBy SortBy { Microsoft::Office::Core::MsoFileFindSortBy get(); void set(Microsoft::Office::Core::MsoFileFindSortBy value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743825)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743825)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743825)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileFindSortBy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-125">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-125">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubDir">
+      <MemberSignature Language="C#" Value="public bool SubDir { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SubDir" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.SubDir" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubDir As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SubDir { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743810)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-126">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-126">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743814)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743814)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743814)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-127">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-127">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="public string Text { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Text" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.Text" />
+      <MemberSignature Language="VB.NET" Value="Public Property Text As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Text { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743817)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743817)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743817)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-128">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-128">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Title">
+      <MemberSignature Language="C#" Value="public string Title { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Title" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.Title" />
+      <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743811)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-129">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-129">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoFileFindView View { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoFileFindView View" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.IFind.View" />
+      <MemberSignature Language="VB.NET" Value="Public Property View As MsoFileFindView" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFileFindView View { Microsoft::Office::Core::MsoFileFindView get(); void set(Microsoft::Office::Core::MsoFileFindView value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743824)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743824)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1610743824)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileFindView</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0c031-130">此成员仅适用于 Macintosh 并且不应使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0c031-130">This member is for Macintosh only and should not be used.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

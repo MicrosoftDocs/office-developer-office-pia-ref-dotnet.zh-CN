@@ -1,0 +1,81 @@
+<Type Name="MsoFlipCmd" FullName="Microsoft.Office.Core.MsoFlipCmd">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="65866e4c2db5a26938f3f87a522b42fdb82e7e92" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657581" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoFlipCmd" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFlipCmd extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFlipCmd" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoFlipCmd" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoFlipCmd" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="d5b45-101">指定形状应水平翻转还是应垂直翻转。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d5b45-101">Specifies whether a shape should be flipped horizontally or vertically.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoFlipHorizontal">
+      <MemberSignature Language="C#" Value="msoFlipHorizontal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFlipCmd msoFlipHorizontal = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFlipCmd.msoFlipHorizontal" />
+      <MemberSignature Language="VB.NET" Value="msoFlipHorizontal" />
+      <MemberSignature Language="C++ CLI" Value="msoFlipHorizontal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFlipCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d5b45-102">水平翻转。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5b45-102">Flip horizontally.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFlipVertical">
+      <MemberSignature Language="C#" Value="msoFlipVertical" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFlipCmd msoFlipVertical = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFlipCmd.msoFlipVertical" />
+      <MemberSignature Language="VB.NET" Value="msoFlipVertical" />
+      <MemberSignature Language="C++ CLI" Value="msoFlipVertical" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFlipCmd</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d5b45-103">垂直翻转。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d5b45-103">Flip vertically.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,64 @@
+<Type Name="CommandBars" FullName="Microsoft.Office.Core.CommandBars">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f136918bdc6ba24b3cab7df3ec1d5efee2668ccc" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657557" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface CommandBars : Microsoft.Office.Core._CommandBars, Microsoft.Office.Core._CommandBarsEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CommandBars implements class Microsoft.Office.Core._CommandBars, class Microsoft.Office.Core._CommandBarsEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.CommandBars" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CommandBars&#xA;Implements _CommandBars, _CommandBarsEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CommandBars : Microsoft::Office::Core::_CommandBars, Microsoft::Office::Core::_CommandBarsEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._CommandBars</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._CommandBarsEvents_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Core.CommandBarsClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0302-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="6122c-101">一<see cref="T:Microsoft.Office.Core.CommandBar" />代表容器应用程序中的命令栏的对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="6122c-101">A collection of <see cref="T:Microsoft.Office.Core.CommandBar" /> objects that represent the command bars in the container application.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="6122c-102">
+        <para>使用<see cref="P:Microsoft.Office.Core.MsoEnvelopeClass.CommandBars" />属性可返回<b>CommandBars</b>集合。</para>
+        <para>使用<see cref="M:Microsoft.Office.Core._CommandBars.Add(System.Object,System.Object,System.Object,System.Object)" />方法向集合添加新的命令栏。</para>
+        <para>使用<b>CommandBars</b>(<paramref name="index" />)，其中<paramref name="index" />是名称或命令栏，返回单个<b>CommandBar</b>对象的索引号。</para>
+        <para>
+          <b>注意</b>： 可以使用的名称或索引号指定的可用菜单栏和工具栏中容器应用程序列表中的菜单栏或工具栏。但是，您必须使用名称来指定菜单、 快捷菜单或子菜单 （所有的<b>CommandBar</b>对象由表示）。如果两个或多个自定义菜单或子菜单具有相同的名称， <b>CommandBars</b>(<paramref name="index" />) 返回第一个。若要确保您返回正确的菜单或子菜单中，找到该弹出式控件显示的菜单。然后应用<see cref="P:Microsoft.Office.Core.CommandBarPopup.CommandBar" />属性可返回代表该菜单的命令栏弹出式控件。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="6122c-102">
+          <para>Use the <see cref="P:Microsoft.Office.Core.MsoEnvelopeClass.CommandBars" /> property to return the <b>CommandBars</b> collection.</para>
+          <para>Use the <see cref="M:Microsoft.Office.Core._CommandBars.Add(System.Object,System.Object,System.Object,System.Object)" /> method to add a new command bar to the collection.</para>
+          <para>Use <b>CommandBars</b>(<paramref name="index" />), where <paramref name="index" /> is the name or index number of a command bar, to return a single <b>CommandBar</b> object.</para>
+          <para>
+            <b>Note</b>: You can use the name or index number to specify a menu bar or toolbar in the list of available menu bars and toolbars in the container application. However, you must use the name to specify a menu, shortcut menu, or submenu (all of which are represented by <b>CommandBar</b> objects). If two or more custom menus or submenus have the same name, <b>CommandBars</b>(<paramref name="index" />) returns the first one. To ensure that you return the correct menu or submenu, locate the pop-up control that displays that menu. Then apply the <see cref="P:Microsoft.Office.Core.CommandBarPopup.CommandBar" /> property to the pop-up control to return the command bar that represents that menu.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

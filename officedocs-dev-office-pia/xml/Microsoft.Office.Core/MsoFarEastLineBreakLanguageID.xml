@@ -1,0 +1,129 @@
+<Type Name="MsoFarEastLineBreakLanguageID" FullName="Microsoft.Office.Core.MsoFarEastLineBreakLanguageID">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3b442490c6cff6cdf61d376d5b71318825203873" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657591" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoFarEastLineBreakLanguageID" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFarEastLineBreakLanguageID extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFarEastLineBreakLanguageID" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoFarEastLineBreakLanguageID" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoFarEastLineBreakLanguageID" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="0219f-101">指定某种语言，该语言用于确定换行控制选项打开时所使用的换行级别。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0219f-101">Specifies the language to use to determine which line break level is used when the line break control option is turned on.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="MsoFarEastLineBreakLanguageJapanese">
+      <MemberSignature Language="C#" Value="MsoFarEastLineBreakLanguageJapanese" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFarEastLineBreakLanguageID MsoFarEastLineBreakLanguageJapanese = int32(1041)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFarEastLineBreakLanguageID.MsoFarEastLineBreakLanguageJapanese" />
+      <MemberSignature Language="VB.NET" Value="MsoFarEastLineBreakLanguageJapanese" />
+      <MemberSignature Language="C++ CLI" Value="MsoFarEastLineBreakLanguageJapanese" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFarEastLineBreakLanguageID</ReturnType>
+      </ReturnValue>
+      <MemberValue>1041</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0219f-102">日语。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0219f-102">Japanese.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MsoFarEastLineBreakLanguageKorean">
+      <MemberSignature Language="C#" Value="MsoFarEastLineBreakLanguageKorean" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFarEastLineBreakLanguageID MsoFarEastLineBreakLanguageKorean = int32(1042)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFarEastLineBreakLanguageID.MsoFarEastLineBreakLanguageKorean" />
+      <MemberSignature Language="VB.NET" Value="MsoFarEastLineBreakLanguageKorean" />
+      <MemberSignature Language="C++ CLI" Value="MsoFarEastLineBreakLanguageKorean" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFarEastLineBreakLanguageID</ReturnType>
+      </ReturnValue>
+      <MemberValue>1042</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0219f-103">朝鲜语。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0219f-103">Korean.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MsoFarEastLineBreakLanguageSimplifiedChinese">
+      <MemberSignature Language="C#" Value="MsoFarEastLineBreakLanguageSimplifiedChinese" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFarEastLineBreakLanguageID MsoFarEastLineBreakLanguageSimplifiedChinese = int32(2052)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFarEastLineBreakLanguageID.MsoFarEastLineBreakLanguageSimplifiedChinese" />
+      <MemberSignature Language="VB.NET" Value="MsoFarEastLineBreakLanguageSimplifiedChinese" />
+      <MemberSignature Language="C++ CLI" Value="MsoFarEastLineBreakLanguageSimplifiedChinese" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFarEastLineBreakLanguageID</ReturnType>
+      </ReturnValue>
+      <MemberValue>2052</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0219f-104">简体中文。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0219f-104">Simplified Chinese.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MsoFarEastLineBreakLanguageTraditionalChinese">
+      <MemberSignature Language="C#" Value="MsoFarEastLineBreakLanguageTraditionalChinese" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFarEastLineBreakLanguageID MsoFarEastLineBreakLanguageTraditionalChinese = int32(1028)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFarEastLineBreakLanguageID.MsoFarEastLineBreakLanguageTraditionalChinese" />
+      <MemberSignature Language="VB.NET" Value="MsoFarEastLineBreakLanguageTraditionalChinese" />
+      <MemberSignature Language="C++ CLI" Value="MsoFarEastLineBreakLanguageTraditionalChinese" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFarEastLineBreakLanguageID</ReturnType>
+      </ReturnValue>
+      <MemberValue>1028</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0219f-105">繁体中文。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0219f-105">Traditional Chinese.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

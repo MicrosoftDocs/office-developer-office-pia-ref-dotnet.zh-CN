@@ -1,0 +1,364 @@
+<Type Name="DocumentLibraryVersions" FullName="Microsoft.Office.Core.DocumentLibraryVersions">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="123e8defea8d31835e303fa2fa57f7488c20b499" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657578" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface DocumentLibraryVersions : Microsoft.Office.Core._IMsoDispObj, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DocumentLibraryVersions implements class Microsoft.Office.Core._IMsoDispObj, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.DocumentLibraryVersions" />
+  <TypeSignature Language="VB.NET" Value="Public Interface DocumentLibraryVersions&#xA;Implements _IMsoDispObj, IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class DocumentLibraryVersions : Microsoft::Office::Core::_IMsoDispObj, System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0388-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="4c499-101">
+        <b>DocumentLibraryVersions</b>对象表示集合的<see cref="T:Microsoft.Office.Core.DocumentLibraryVersion" />对象。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4c499-101">The <b>DocumentLibraryVersions</b> object represents a collection of <see cref="T:Microsoft.Office.Core.DocumentLibraryVersion" /> objects.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="4c499-102">
+        <para>Microsoft Office Word 2003<b>文档</b>、 Microsoft Office Excel 2003<b>工作簿</b>中，和 Microsoft Office PowerPoint 2003<b>演示文稿</b>对象的<b>DocumentLibraryVersions</b>属性返回<b>DocumentLibraryVersions</b>对象。</para>
+        <para>使用<b>DocumentLibraryVersions</b>对象来确定是否为活动文档启用版本控制，如果启用版本控制，来管理文档的服务器上的 Windows SharePoint Services 文档库中存储的文档 （英文）<b>DocumentLibraryVersion</b>对象的集合。</para>
+        <para>每个<b>DocumentLibraryVersion</b>对象都代表一个保存活动文档的版本。下面列出的操作发生; 时启用版本控制时，在服务器上创建一个新版本其他版本不会创建每次用户保存对打开的文档的更改。</para>
+        <list type="bullet">
+          <item>
+            <para>检查英寸</para>
+          </item>
+          <item>
+            <para>保存的新版本的服务器上时创建用户首次保存文档后打开它。保存文档打开时的其他更改应用于同一个版本。</para>
+          </item>
+          <item>
+            <para>还原。</para>
+          </item>
+          <item>
+            <para>上载。</para>
+          </item>
+        </list>版本控制是启用还是禁用对活动文档， 
+      <para><b>DocumentLibraryVersions</b>对象模型都可用。<b>文档</b>、<b>工作簿</b>和<b>演示文稿</b>对象的<b>DocumentLibraryVersions</b>属性不返回<b>Nothing</b>活动文档不存储在文档库或版本控制是不时启用。使用<see cref="P:Microsoft.Office.Core.DocumentLibraryVersions.IsVersioningEnabled" />属性可以确定是否配置的文档库的备份副本或版本，每当将文档保存编辑网站上。</para><para /></span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4c499-102">
+          <para>The <b>DocumentLibraryVersions</b> property of the Microsoft Office Word 2003 <b>Document</b>, the Microsoft Office Excel 2003 <b>Workbook</b>, and the Microsoft Office PowerPoint 2003 <b>Presentation</b> objects returns a <b>DocumentLibraryVersions</b> object.</para>
+          <para>Use the <b>DocumentLibraryVersions</b> object with documents stored in a Windows SharePoint Services document library on the server to determine whether versioning is enabled for the active document and, if versioning is enabled, to manage the document's collection of <b>DocumentLibraryVersion</b> objects.</para>
+          <para>Each <b>DocumentLibraryVersion</b> object represents one saved version of the active document. When versioning is enabled, a new version is created on the server when the actions listed below occur; additional versions are not created each time the user saves changes to the open document.</para>
+          <list type="bullet">
+            <item>
+              <para>Check In.</para>
+            </item>
+            <item>
+              <para>Save - A new version is created on the server when the user first saves the document after opening it. Additional changes saved while the document is open apply to the same version.</para>
+            </item>
+            <item>
+              <para>Restore.</para>
+            </item>
+            <item>
+              <para>Upload.</para>
+            </item>
+          </list>
+          <para>The <b>DocumentLibraryVersions</b> object model is available whether versioning is enabled or disabled on the active document. The <b>DocumentLibraryVersions</b> property of the <b>Document</b>, <b>Workbook</b>, and <b>Presentation</b> objects does not return <b>Nothing</b> when the active document is not stored in a document library or versioning is not enabled. Use the <see cref="P:Microsoft.Office.Core.DocumentLibraryVersions.IsVersioningEnabled" /> property to determine whether the document library is configured to save a backup copy, or version, each time the document is edited on the web site.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentLibraryVersions.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4c499-103">返回一个<b>Application</b>对象，代表容器应用程序的对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4c499-103">Returns an <b>Application</b> object that represents the container application for the object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentLibraryVersions.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4c499-104">返回一个指示指定集合中的项目数的<b>整数</b>。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4c499-104">Returns an <b>Integer</b> indicating the number of items in the specified collection.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentLibraryVersions.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4c499-105">返回一个 32 位整数，它指示在其中创建指定的对象的应用程序。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4c499-105">Returns a 32-bit integer that indicates the application in which the specified object was created.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="4c499-106">
+            <para>如果 Microsoft Word 中创建对象，此属性返回 1297307460，它表示字符串 MSWD;在 Microsoft Excel 中，此属性返回 1480803660。也可以通过在 Word 中，常量<b>wdCreatorCode</b>或 Excel 中的<b>xlCreatorCode</b>表示此值。</para>主要设计
+          <para><b>Creator</b>属性用于 Macintosh，其中每个应用程序具有四个字符的创建者代码。例如，Microsoft Word 具有 MSWD 的创建者代码。有关此属性的其他信息，请咨询的语言参考 Microsoft Office Macintosh Edition 中包含的帮助。</para><para><b>Creator</b>属性始终返回活动应用程序的数字标识符一样<see cref="P:Microsoft.Office.Core.DocumentLibraryVersion.Application" />属性将始终返回字符串形式的活动应用程序的名称。使用<b>CreatedBy</b>属性<see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />， <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />，和<see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" />对象返回的人员创建这些对象的名称。使用文档属性可返回 Office 文档的作者信息。</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4c499-106">
+              <para>If the object was created in Microsoft Word, this property returns 1297307460, which represents the string MSWD; in Microsoft Excel, this property returns 1480803660. This value can also be represented by the constant <b>wdCreatorCode</b> in Word, or <b>xlCreatorCode</b> in Excel.</para>
+              <para>The <b>Creator</b> property was primarily designed to be used on the Macintosh, where each application has a four-character creator code. For example, Microsoft Word has the creator code MSWD. For additional information about this property, consult the language reference Help included with Microsoft Office Macintosh Edition.</para>
+              <para>The <b>Creator</b> property always returns the numeric identifier for the active application, just as the <see cref="P:Microsoft.Office.Core.DocumentLibraryVersion.Application" /> property always returns the name of the active application in string form. Use the <b>CreatedBy</b> property of the <see cref="T:Microsoft.Office.Core.SharedWorkspaceFile" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceFolder" />, <see cref="T:Microsoft.Office.Core.SharedWorkspaceLink" />, and <see cref="T:Microsoft.Office.Core.SharedWorkspaceTask" /> objects to return the name of the individual who created those objects. Use document properties to return information about the authors of Office documents.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Core.DocumentLibraryVersions.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVersioningEnabled">
+      <MemberSignature Language="C#" Value="public bool IsVersioningEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsVersioningEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentLibraryVersions.IsVersioningEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsVersioningEnabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVersioningEnabled { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4c499-107">返回一个<b>布尔</b>值，该值指示是否配置顺序在服务器保存活动文档的文档库创建的备份副本或版本，每次在网站编辑文件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4c499-107">Returns a <b>Boolean</b> value that indicates whether the document library in which the active document is saved on the server is configured to create a backup copy, or version, each time the file is edited on the Web site.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="4c499-108">
+            <para>启用或禁用对文档库，而不是在单个文档版本控制。因此<b>IsVersioningEnabled</b>属性的值取决于在其中保存文档的文档库。</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4c499-108">
+              <para>Versioning is enabled or disabled on the document library and not on individual documents. Therefore the value of the <b>IsVersioningEnabled</b> property depends on the document library in which the document is saved.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.DocumentLibraryVersion this[int lIndex] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.DocumentLibraryVersion Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentLibraryVersions.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(lIndex As Integer) As DocumentLibraryVersion" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::DocumentLibraryVersion ^ default[int] { Microsoft::Office::Core::DocumentLibraryVersion ^ get(int lIndex); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.DocumentLibraryVersion</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="lIndex" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="lIndex">
+          <span data-ttu-id="4c499-109">
+            <b>必选。</b>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4c499-109">Required <b>Integer</b>.</span>
+          </span>
+          <span data-ttu-id="4c499-110">返回的<b>DocumentLibraryVersion</b>的索引数。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4c499-110">The index number of the <b>DocumentLibraryVersion</b> returned.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="4c499-111">返回<see cref="T:Microsoft.Office.Core.DocumentLibraryVersion" />对象从<see cref="T:Microsoft.Office.Core.DocumentLibraryVersions" />集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4c499-111">Returns a <see cref="T:Microsoft.Office.Core.DocumentLibraryVersion" /> object from the <see cref="T:Microsoft.Office.Core.DocumentLibraryVersions" /> collection.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Core.DocumentLibraryVersions.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4c499-112">返回指定对象的父对象。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4c499-112">Returns the parent object for the specified object.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

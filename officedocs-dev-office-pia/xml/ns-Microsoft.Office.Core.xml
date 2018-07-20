@@ -1,0 +1,14 @@
+<Namespace Name="Microsoft.Office.Core">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2decee4d8a0fa18d8b93a80eb157eae2e3a309d4" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657580" />
+  </Metadata>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Namespace>

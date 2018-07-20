@@ -1,0 +1,172 @@
+<Type Name="MsoOrgChartLayoutType" FullName="Microsoft.Office.Core.MsoOrgChartLayoutType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ffc0b1f565529c302ce2cb491f62c50ea1070f0a" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657609" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoOrgChartLayoutType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoOrgChartLayoutType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoOrgChartLayoutType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoOrgChartLayoutType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoOrgChartLayoutType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="3c39c-101">指示如何设置组织结构图中子节点的格式。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="3c39c-101">Indicates how to format the child nodes in an organization chart.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoOrgChartLayoutBothHanging">
+      <MemberSignature Language="C#" Value="msoOrgChartLayoutBothHanging" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoOrgChartLayoutType msoOrgChartLayoutBothHanging = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoOrgChartLayoutType.msoOrgChartLayoutBothHanging" />
+      <MemberSignature Language="VB.NET" Value="msoOrgChartLayoutBothHanging" />
+      <MemberSignature Language="C++ CLI" Value="msoOrgChartLayoutBothHanging" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoOrgChartLayoutType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c39c-102">将子节点垂直置于左右两边的父节点之下。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c39c-102">Places child nodes vertically below the parent node on both the left and the right side.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoOrgChartLayoutDefault">
+      <MemberSignature Language="C#" Value="msoOrgChartLayoutDefault" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoOrgChartLayoutType msoOrgChartLayoutDefault = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoOrgChartLayoutType.msoOrgChartLayoutDefault" />
+      <MemberSignature Language="VB.NET" Value="msoOrgChartLayoutDefault" />
+      <MemberSignature Language="C++ CLI" Value="msoOrgChartLayoutDefault" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoOrgChartLayoutType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoOrgChartLayoutLeftHanging">
+      <MemberSignature Language="C#" Value="msoOrgChartLayoutLeftHanging" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoOrgChartLayoutType msoOrgChartLayoutLeftHanging = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoOrgChartLayoutType.msoOrgChartLayoutLeftHanging" />
+      <MemberSignature Language="VB.NET" Value="msoOrgChartLayoutLeftHanging" />
+      <MemberSignature Language="C++ CLI" Value="msoOrgChartLayoutLeftHanging" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoOrgChartLayoutType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c39c-103">将子节点垂直置于左边的父节点之下。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c39c-103">Places child nodes vertically below the parent node on the left side.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoOrgChartLayoutMixed">
+      <MemberSignature Language="C#" Value="msoOrgChartLayoutMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoOrgChartLayoutType msoOrgChartLayoutMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoOrgChartLayoutType.msoOrgChartLayoutMixed" />
+      <MemberSignature Language="VB.NET" Value="msoOrgChartLayoutMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoOrgChartLayoutMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoOrgChartLayoutType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c39c-104">返回父节点包含子使用多个<b>MsoOrgChartLayoutType</b>设置格式的值。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c39c-104">Return value for a parent node that has children formatted using more than one <b>MsoOrgChartLayoutType</b>.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoOrgChartLayoutRightHanging">
+      <MemberSignature Language="C#" Value="msoOrgChartLayoutRightHanging" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoOrgChartLayoutType msoOrgChartLayoutRightHanging = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoOrgChartLayoutType.msoOrgChartLayoutRightHanging" />
+      <MemberSignature Language="VB.NET" Value="msoOrgChartLayoutRightHanging" />
+      <MemberSignature Language="C++ CLI" Value="msoOrgChartLayoutRightHanging" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoOrgChartLayoutType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c39c-105">将子节点垂直置于右边的父节点之下。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c39c-105">Places child nodes vertically below the parent node on the right side.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoOrgChartLayoutStandard">
+      <MemberSignature Language="C#" Value="msoOrgChartLayoutStandard" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoOrgChartLayoutType msoOrgChartLayoutStandard = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoOrgChartLayoutType.msoOrgChartLayoutStandard" />
+      <MemberSignature Language="VB.NET" Value="msoOrgChartLayoutStandard" />
+      <MemberSignature Language="C++ CLI" Value="msoOrgChartLayoutStandard" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoOrgChartLayoutType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3c39c-106">将子节点水平置于父节点之下。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3c39c-106">Places child nodes horizontally below the parent node.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,560 @@
+<Type Name="MsoPictureEffectType" FullName="Microsoft.Office.Core.MsoPictureEffectType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8f619568ed65923ccc1c58db13cbc102b5142292" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657592" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoPictureEffectType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPictureEffectType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPictureEffectType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoPictureEffectType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoPictureEffectType" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoEffectBackgroundRemoval">
+      <MemberSignature Language="C#" Value="msoEffectBackgroundRemoval" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectBackgroundRemoval = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectBackgroundRemoval" />
+      <MemberSignature Language="VB.NET" Value="msoEffectBackgroundRemoval" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectBackgroundRemoval" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectBlur">
+      <MemberSignature Language="C#" Value="msoEffectBlur" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectBlur = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectBlur" />
+      <MemberSignature Language="VB.NET" Value="msoEffectBlur" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectBlur" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectBrightnessContrast">
+      <MemberSignature Language="C#" Value="msoEffectBrightnessContrast" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectBrightnessContrast = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectBrightnessContrast" />
+      <MemberSignature Language="VB.NET" Value="msoEffectBrightnessContrast" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectBrightnessContrast" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectCement">
+      <MemberSignature Language="C#" Value="msoEffectCement" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectCement = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectCement" />
+      <MemberSignature Language="VB.NET" Value="msoEffectCement" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectCement" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectChalkSketch">
+      <MemberSignature Language="C#" Value="msoEffectChalkSketch" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectChalkSketch = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectChalkSketch" />
+      <MemberSignature Language="VB.NET" Value="msoEffectChalkSketch" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectChalkSketch" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectColorTemperature">
+      <MemberSignature Language="C#" Value="msoEffectColorTemperature" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectColorTemperature = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectColorTemperature" />
+      <MemberSignature Language="VB.NET" Value="msoEffectColorTemperature" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectColorTemperature" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectCrisscrossEtching">
+      <MemberSignature Language="C#" Value="msoEffectCrisscrossEtching" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectCrisscrossEtching = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectCrisscrossEtching" />
+      <MemberSignature Language="VB.NET" Value="msoEffectCrisscrossEtching" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectCrisscrossEtching" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectCutout">
+      <MemberSignature Language="C#" Value="msoEffectCutout" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectCutout = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectCutout" />
+      <MemberSignature Language="VB.NET" Value="msoEffectCutout" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectCutout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectFilmGrain">
+      <MemberSignature Language="C#" Value="msoEffectFilmGrain" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectFilmGrain = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectFilmGrain" />
+      <MemberSignature Language="VB.NET" Value="msoEffectFilmGrain" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectFilmGrain" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectGlass">
+      <MemberSignature Language="C#" Value="msoEffectGlass" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectGlass = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectGlass" />
+      <MemberSignature Language="VB.NET" Value="msoEffectGlass" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectGlass" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectGlowDiffused">
+      <MemberSignature Language="C#" Value="msoEffectGlowDiffused" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectGlowDiffused = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectGlowDiffused" />
+      <MemberSignature Language="VB.NET" Value="msoEffectGlowDiffused" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectGlowDiffused" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectGlowEdges">
+      <MemberSignature Language="C#" Value="msoEffectGlowEdges" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectGlowEdges = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectGlowEdges" />
+      <MemberSignature Language="VB.NET" Value="msoEffectGlowEdges" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectGlowEdges" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectLightScreen">
+      <MemberSignature Language="C#" Value="msoEffectLightScreen" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectLightScreen = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectLightScreen" />
+      <MemberSignature Language="VB.NET" Value="msoEffectLightScreen" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectLightScreen" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectLineDrawing">
+      <MemberSignature Language="C#" Value="msoEffectLineDrawing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectLineDrawing = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectLineDrawing" />
+      <MemberSignature Language="VB.NET" Value="msoEffectLineDrawing" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectLineDrawing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectMarker">
+      <MemberSignature Language="C#" Value="msoEffectMarker" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectMarker = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectMarker" />
+      <MemberSignature Language="VB.NET" Value="msoEffectMarker" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectMarker" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectMosiaicBubbles">
+      <MemberSignature Language="C#" Value="msoEffectMosiaicBubbles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectMosiaicBubbles = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectMosiaicBubbles" />
+      <MemberSignature Language="VB.NET" Value="msoEffectMosiaicBubbles" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectMosiaicBubbles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectNone">
+      <MemberSignature Language="C#" Value="msoEffectNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectNone" />
+      <MemberSignature Language="VB.NET" Value="msoEffectNone" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectPaintBrush">
+      <MemberSignature Language="C#" Value="msoEffectPaintBrush" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectPaintBrush = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectPaintBrush" />
+      <MemberSignature Language="VB.NET" Value="msoEffectPaintBrush" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectPaintBrush" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectPaintStrokes">
+      <MemberSignature Language="C#" Value="msoEffectPaintStrokes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectPaintStrokes = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectPaintStrokes" />
+      <MemberSignature Language="VB.NET" Value="msoEffectPaintStrokes" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectPaintStrokes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectPastelsSmooth">
+      <MemberSignature Language="C#" Value="msoEffectPastelsSmooth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectPastelsSmooth = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectPastelsSmooth" />
+      <MemberSignature Language="VB.NET" Value="msoEffectPastelsSmooth" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectPastelsSmooth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectPencilGrayscale">
+      <MemberSignature Language="C#" Value="msoEffectPencilGrayscale" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectPencilGrayscale = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectPencilGrayscale" />
+      <MemberSignature Language="VB.NET" Value="msoEffectPencilGrayscale" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectPencilGrayscale" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectPencilSketch">
+      <MemberSignature Language="C#" Value="msoEffectPencilSketch" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectPencilSketch = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectPencilSketch" />
+      <MemberSignature Language="VB.NET" Value="msoEffectPencilSketch" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectPencilSketch" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectPhotocopy">
+      <MemberSignature Language="C#" Value="msoEffectPhotocopy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectPhotocopy = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectPhotocopy" />
+      <MemberSignature Language="VB.NET" Value="msoEffectPhotocopy" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectPhotocopy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectPlasticWrap">
+      <MemberSignature Language="C#" Value="msoEffectPlasticWrap" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectPlasticWrap = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectPlasticWrap" />
+      <MemberSignature Language="VB.NET" Value="msoEffectPlasticWrap" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectPlasticWrap" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectSaturation">
+      <MemberSignature Language="C#" Value="msoEffectSaturation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectSaturation = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectSaturation" />
+      <MemberSignature Language="VB.NET" Value="msoEffectSaturation" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectSaturation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectSharpenSoften">
+      <MemberSignature Language="C#" Value="msoEffectSharpenSoften" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectSharpenSoften = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectSharpenSoften" />
+      <MemberSignature Language="VB.NET" Value="msoEffectSharpenSoften" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectSharpenSoften" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectTexturizer">
+      <MemberSignature Language="C#" Value="msoEffectTexturizer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectTexturizer = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectTexturizer" />
+      <MemberSignature Language="VB.NET" Value="msoEffectTexturizer" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectTexturizer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msoEffectWatercolorSponge">
+      <MemberSignature Language="C#" Value="msoEffectWatercolorSponge" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPictureEffectType msoEffectWatercolorSponge = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPictureEffectType.msoEffectWatercolorSponge" />
+      <MemberSignature Language="VB.NET" Value="msoEffectWatercolorSponge" />
+      <MemberSignature Language="C++ CLI" Value="msoEffectWatercolorSponge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureEffectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

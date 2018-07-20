@@ -1,0 +1,129 @@
+<Type Name="MsoLineCapStyle" FullName="Microsoft.Office.Core.MsoLineCapStyle">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3fe8a55189eaa3b633c9e06295642fc00a0d1bf3" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657593" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoLineCapStyle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoLineCapStyle extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoLineCapStyle" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoLineCapStyle" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoLineCapStyle" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="0ea89-101">指定线条端的类型。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="0ea89-101">Specifies the type of line cap.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoLineCapFlat">
+      <MemberSignature Language="C#" Value="msoLineCapFlat" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineCapStyle msoLineCapFlat = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineCapStyle.msoLineCapFlat" />
+      <MemberSignature Language="VB.NET" Value="msoLineCapFlat" />
+      <MemberSignature Language="C++ CLI" Value="msoLineCapFlat" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineCapStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0ea89-102">指定 flat 线帽。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0ea89-102">Specifies a flat line cap.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineCapMixed">
+      <MemberSignature Language="C#" Value="msoLineCapMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineCapStyle msoLineCapMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineCapStyle.msoLineCapMixed" />
+      <MemberSignature Language="VB.NET" Value="msoLineCapMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoLineCapMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineCapStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0ea89-103">指定混和的线帽。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0ea89-103">Specifies a mixture of line caps.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineCapRound">
+      <MemberSignature Language="C#" Value="msoLineCapRound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineCapStyle msoLineCapRound = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineCapStyle.msoLineCapRound" />
+      <MemberSignature Language="VB.NET" Value="msoLineCapRound" />
+      <MemberSignature Language="C++ CLI" Value="msoLineCapRound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineCapStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0ea89-104">指定圆角的线帽。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0ea89-104">Specifies a rounded line cap.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoLineCapSquare">
+      <MemberSignature Language="C#" Value="msoLineCapSquare" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoLineCapStyle msoLineCapSquare = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoLineCapStyle.msoLineCapSquare" />
+      <MemberSignature Language="VB.NET" Value="msoLineCapSquare" />
+      <MemberSignature Language="C++ CLI" Value="msoLineCapSquare" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLineCapStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="0ea89-105">指定平方关闭线帽。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="0ea89-105">Specifies a squared-off line cap.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

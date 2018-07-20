@@ -1,0 +1,1268 @@
+<Type Name="MsoPresetTextEffect" FullName="Microsoft.Office.Core.MsoPresetTextEffect">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ee963c0ed6eeb5898f0ff543fe89764428071412" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657612" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoPresetTextEffect" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoPresetTextEffect extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoPresetTextEffect" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoPresetTextEffect" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoPresetTextEffect" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="f8157-101">指定<b>艺术字</b>对象上使用哪些文本效果。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f8157-101">Specifies what text effect to use on a <b>WordArt</b> object.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="f8157-102">
+        <para>引用支持艺术字，若要查看的每个效果预览任何 Microsoft Office 产品中的艺术字库对话框。<b>MsoPresetTextEffect</b>常量的值对应于艺术字库对话框 （从左到右，从上到下编号） 中列出的格式。</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f8157-102">
+          <para>Refer to the WordArt Gallery dialog box in any Microsoft Office product that supports WordArt to see a preview of each effect. The values of the <b>MsoPresetTextEffect</b> constants correspond to the formats listed in the WordArt Gallery dialog box (numbered from left to right and from top to bottom).</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoTextEffect1">
+      <MemberSignature Language="C#" Value="msoTextEffect1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect1 = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect1" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect1" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-103">第一个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-103">First text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect10">
+      <MemberSignature Language="C#" Value="msoTextEffect10" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect10 = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect10" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect10" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect10" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-104">第十个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-104">Tenth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect11">
+      <MemberSignature Language="C#" Value="msoTextEffect11" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect11 = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect11" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect11" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect11" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-105">第十一个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-105">Eleventh text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect12">
+      <MemberSignature Language="C#" Value="msoTextEffect12" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect12 = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect12" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect12" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect12" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-106">第十二个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-106">Twelfth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect13">
+      <MemberSignature Language="C#" Value="msoTextEffect13" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect13 = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect13" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect13" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect13" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-107">第十三个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-107">Thirteenth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect14">
+      <MemberSignature Language="C#" Value="msoTextEffect14" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect14 = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect14" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect14" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect14" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-108">第十四个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-108">Fourteenth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect15">
+      <MemberSignature Language="C#" Value="msoTextEffect15" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect15 = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect15" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect15" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect15" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-109">第十五个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-109">Fifteenth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect16">
+      <MemberSignature Language="C#" Value="msoTextEffect16" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect16 = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect16" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect16" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect16" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-110">第十六个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-110">Sixteenth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect17">
+      <MemberSignature Language="C#" Value="msoTextEffect17" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect17 = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect17" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect17" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect17" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-111">第十七个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-111">Seventeenth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect18">
+      <MemberSignature Language="C#" Value="msoTextEffect18" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect18 = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect18" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect18" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect18" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-112">第十八个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-112">Eighteenth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect19">
+      <MemberSignature Language="C#" Value="msoTextEffect19" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect19 = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect19" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect19" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect19" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-113">第十九个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-113">Nineteenth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect2">
+      <MemberSignature Language="C#" Value="msoTextEffect2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect2 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect2" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect2" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-114">第二个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-114">Second text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect20">
+      <MemberSignature Language="C#" Value="msoTextEffect20" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect20 = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect20" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect20" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect20" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-115">第二十个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-115">Twentieth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect21">
+      <MemberSignature Language="C#" Value="msoTextEffect21" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect21 = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect21" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect21" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect21" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-116">第二十一个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-116">Twenty-first text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect22">
+      <MemberSignature Language="C#" Value="msoTextEffect22" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect22 = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect22" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect22" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect22" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-117">第二十二个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-117">Twenty-second text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect23">
+      <MemberSignature Language="C#" Value="msoTextEffect23" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect23 = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect23" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect23" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect23" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-118">第二十三个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-118">Twenty-third text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect24">
+      <MemberSignature Language="C#" Value="msoTextEffect24" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect24 = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect24" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect24" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect24" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-119">第二十四个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-119">Twenty-fourth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect25">
+      <MemberSignature Language="C#" Value="msoTextEffect25" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect25 = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect25" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect25" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect25" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-120">第二十五个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-120">Twenty-fifth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect26">
+      <MemberSignature Language="C#" Value="msoTextEffect26" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect26 = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect26" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect26" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect26" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-121">第二十六个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-121">Twenty-sixth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect27">
+      <MemberSignature Language="C#" Value="msoTextEffect27" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect27 = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect27" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect27" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect27" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-122">第二十七个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-122">Twenty-seventh text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect28">
+      <MemberSignature Language="C#" Value="msoTextEffect28" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect28 = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect28" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect28" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect28" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-123">第二十八个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-123">Twenty-eighth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect29">
+      <MemberSignature Language="C#" Value="msoTextEffect29" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect29 = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect29" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect29" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect29" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-124">第二十九个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-124">Twenty-ninth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect3">
+      <MemberSignature Language="C#" Value="msoTextEffect3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect3 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect3" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect3" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-125">第三个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-125">Third text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect30">
+      <MemberSignature Language="C#" Value="msoTextEffect30" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect30 = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect30" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect30" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect30" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-126">第三十个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-126">Thirtieth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect31">
+      <MemberSignature Language="C#" Value="msoTextEffect31" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect31 = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect31" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect31" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect31" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-127">三十第一个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-127">Thirty-first text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect32">
+      <MemberSignature Language="C#" Value="msoTextEffect32" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect32 = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect32" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect32" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect32" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-128">三十-第二个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-128">Thirty-second text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect33">
+      <MemberSignature Language="C#" Value="msoTextEffect33" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect33 = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect33" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect33" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect33" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-129">三十第三文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-129">Thirty-third text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect34">
+      <MemberSignature Language="C#" Value="msoTextEffect34" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect34 = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect34" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect34" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect34" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-130">三十-第四个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-130">Thirty-fourth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect35">
+      <MemberSignature Language="C#" Value="msoTextEffect35" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect35 = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect35" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect35" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect35" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-131">三十-第五个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-131">Thirty-fifth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect36">
+      <MemberSignature Language="C#" Value="msoTextEffect36" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect36 = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect36" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect36" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect36" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-132">二十六三十个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-132">Thirty-sixth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect37">
+      <MemberSignature Language="C#" Value="msoTextEffect37" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect37 = int32(36)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect37" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect37" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect37" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>36</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-133">二十七三十个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-133">Thirty-seventh text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect38">
+      <MemberSignature Language="C#" Value="msoTextEffect38" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect38 = int32(37)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect38" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect38" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect38" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>37</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-134">二十八三十个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-134">Thirty-eighth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect39">
+      <MemberSignature Language="C#" Value="msoTextEffect39" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect39 = int32(38)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect39" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect39" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect39" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>38</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-135">二十九三十个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-135">Thirty-ninth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect4">
+      <MemberSignature Language="C#" Value="msoTextEffect4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect4 = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect4" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect4" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-136">第四个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-136">Fourth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect40">
+      <MemberSignature Language="C#" Value="msoTextEffect40" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect40 = int32(39)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect40" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect40" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect40" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>39</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-137">Fortieth 文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-137">Fortieth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect41">
+      <MemberSignature Language="C#" Value="msoTextEffect41" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect41 = int32(40)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect41" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect41" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect41" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>40</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-138">40 第一个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-138">Forty-first text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect42">
+      <MemberSignature Language="C#" Value="msoTextEffect42" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect42 = int32(41)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect42" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect42" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect42" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>41</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-139">第 42 个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-139">Forty-second text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect43">
+      <MemberSignature Language="C#" Value="msoTextEffect43" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect43 = int32(42)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect43" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect43" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect43" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>42</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-140">40 第三文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-140">Forty-third text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect44">
+      <MemberSignature Language="C#" Value="msoTextEffect44" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect44 = int32(43)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect44" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect44" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect44" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>43</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-141">40-第四个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-141">Forty-fourth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect45">
+      <MemberSignature Language="C#" Value="msoTextEffect45" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect45 = int32(44)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect45" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect45" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect45" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>44</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-142">40-第五个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-142">Forty-fifth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect46">
+      <MemberSignature Language="C#" Value="msoTextEffect46" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect46 = int32(45)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect46" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect46" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect46" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>45</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-143">40 二十六个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-143">Forty-sixth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect47">
+      <MemberSignature Language="C#" Value="msoTextEffect47" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect47 = int32(46)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect47" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect47" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect47" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>46</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-144">40 二十七个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-144">Forty-seventh text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect48">
+      <MemberSignature Language="C#" Value="msoTextEffect48" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect48 = int32(47)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect48" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect48" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect48" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>47</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-145">40 二十八个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-145">Forty-eighth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect49">
+      <MemberSignature Language="C#" Value="msoTextEffect49" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect49 = int32(48)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect49" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect49" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect49" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>48</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-146">40 二十九个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-146">Forty-ninth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect5">
+      <MemberSignature Language="C#" Value="msoTextEffect5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect5 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect5" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect5" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-147">第五个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-147">Fifth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect50">
+      <MemberSignature Language="C#" Value="msoTextEffect50" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect50 = int32(49)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect50" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect50" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect50" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>49</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-148">第 50 个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-148">Fiftieth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect6">
+      <MemberSignature Language="C#" Value="msoTextEffect6" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect6 = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect6" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect6" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect6" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-149">第六个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-149">Sixth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect7">
+      <MemberSignature Language="C#" Value="msoTextEffect7" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect7 = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect7" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect7" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect7" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-150">第七个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-150">Seventh text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect8">
+      <MemberSignature Language="C#" Value="msoTextEffect8" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect8 = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect8" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect8" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect8" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-151">第八个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-151">Eighth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffect9">
+      <MemberSignature Language="C#" Value="msoTextEffect9" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffect9 = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffect9" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffect9" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffect9" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-152">第九个文本效果。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-152">Ninth text effect.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoTextEffectMixed">
+      <MemberSignature Language="C#" Value="msoTextEffectMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoPresetTextEffect msoTextEffectMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoPresetTextEffect.msoTextEffectMixed" />
+      <MemberSignature Language="VB.NET" Value="msoTextEffectMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoTextEffectMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f8157-153">未使用。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f8157-153">Not used.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

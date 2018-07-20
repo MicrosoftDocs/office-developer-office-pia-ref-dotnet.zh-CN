@@ -1,0 +1,249 @@
+<Type Name="MsoFileDialogView" FullName="Microsoft.Office.Core.MsoFileDialogView">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3955df88576dc8afc391e5d81a6ed0a7a6b9830a" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657583" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoFileDialogView" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoFileDialogView extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoFileDialogView" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoFileDialogView" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoFileDialogView" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="7a287-101">指定在文件对话框中为用户显示的视图。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7a287-101">Specifies the view presented to the user in a file dialog box.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoFileDialogViewDetails">
+      <MemberSignature Language="C#" Value="msoFileDialogViewDetails" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileDialogView msoFileDialogViewDetails = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileDialogView.msoFileDialogViewDetails" />
+      <MemberSignature Language="VB.NET" Value="msoFileDialogViewDetails" />
+      <MemberSignature Language="C++ CLI" Value="msoFileDialogViewDetails" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileDialogView</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a287-102">文件以带有详细信息的列表形式显示。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a287-102">Files displayed in a list with detail information.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileDialogViewLargeIcons">
+      <MemberSignature Language="C#" Value="msoFileDialogViewLargeIcons" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileDialogView msoFileDialogViewLargeIcons = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileDialogView.msoFileDialogViewLargeIcons" />
+      <MemberSignature Language="VB.NET" Value="msoFileDialogViewLargeIcons" />
+      <MemberSignature Language="C++ CLI" Value="msoFileDialogViewLargeIcons" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileDialogView</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a287-103">文件显示为大图标。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a287-103">Files displayed as large icons.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileDialogViewList">
+      <MemberSignature Language="C#" Value="msoFileDialogViewList" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileDialogView msoFileDialogViewList = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileDialogView.msoFileDialogViewList" />
+      <MemberSignature Language="VB.NET" Value="msoFileDialogViewList" />
+      <MemberSignature Language="C++ CLI" Value="msoFileDialogViewList" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileDialogView</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a287-104">文件以不带详细信息的列表形式显示。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a287-104">Files displayed in a list without details.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileDialogViewPreview">
+      <MemberSignature Language="C#" Value="msoFileDialogViewPreview" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileDialogView msoFileDialogViewPreview = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileDialogView.msoFileDialogViewPreview" />
+      <MemberSignature Language="VB.NET" Value="msoFileDialogViewPreview" />
+      <MemberSignature Language="C++ CLI" Value="msoFileDialogViewPreview" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileDialogView</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a287-105">文件以列表形式显示，并在预览窗格中显示选定的文件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a287-105">Files displayed in a list with a preview pane showing the selected file.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileDialogViewProperties">
+      <MemberSignature Language="C#" Value="msoFileDialogViewProperties" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileDialogView msoFileDialogViewProperties = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileDialogView.msoFileDialogViewProperties" />
+      <MemberSignature Language="VB.NET" Value="msoFileDialogViewProperties" />
+      <MemberSignature Language="C++ CLI" Value="msoFileDialogViewProperties" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileDialogView</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a287-106">文件以列表形式显示，并在一个窗格中显示选定文件的属性。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a287-106">Files displayed in a list with a pane showing the selected file's properties.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileDialogViewSmallIcons">
+      <MemberSignature Language="C#" Value="msoFileDialogViewSmallIcons" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileDialogView msoFileDialogViewSmallIcons = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileDialogView.msoFileDialogViewSmallIcons" />
+      <MemberSignature Language="VB.NET" Value="msoFileDialogViewSmallIcons" />
+      <MemberSignature Language="C++ CLI" Value="msoFileDialogViewSmallIcons" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileDialogView</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a287-107">文件显示为小图标。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a287-107">Files displayed as small icons.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileDialogViewThumbnail">
+      <MemberSignature Language="C#" Value="msoFileDialogViewThumbnail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileDialogView msoFileDialogViewThumbnail = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileDialogView.msoFileDialogViewThumbnail" />
+      <MemberSignature Language="VB.NET" Value="msoFileDialogViewThumbnail" />
+      <MemberSignature Language="C++ CLI" Value="msoFileDialogViewThumbnail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileDialogView</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a287-108">文件显示为缩略图。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a287-108">Files displayed as thumbnails.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileDialogViewTiles">
+      <MemberSignature Language="C#" Value="msoFileDialogViewTiles" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileDialogView msoFileDialogViewTiles = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileDialogView.msoFileDialogViewTiles" />
+      <MemberSignature Language="VB.NET" Value="msoFileDialogViewTiles" />
+      <MemberSignature Language="C++ CLI" Value="msoFileDialogViewTiles" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileDialogView</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a287-109">文件显示为平铺图标。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a287-109">Files displayed as tiled icons.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoFileDialogViewWebView">
+      <MemberSignature Language="C#" Value="msoFileDialogViewWebView" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoFileDialogView msoFileDialogViewWebView = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoFileDialogView.msoFileDialogViewWebView" />
+      <MemberSignature Language="VB.NET" Value="msoFileDialogViewWebView" />
+      <MemberSignature Language="C++ CLI" Value="msoFileDialogViewWebView" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFileDialogView</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="7a287-110">文件显示在 Web 视图中。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="7a287-110">Files displayed in Web view.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

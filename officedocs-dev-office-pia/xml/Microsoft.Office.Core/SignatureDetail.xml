@@ -1,0 +1,561 @@
+<Type Name="SignatureDetail" FullName="Microsoft.Office.Core.SignatureDetail">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="451f0aa25fba8bda48ff0a253731e718958dbe67" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657427" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum SignatureDetail" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SignatureDetail extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.SignatureDetail" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SignatureDetail" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SignatureDetail" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="b1cfb-101">指示有关签名的附加信息。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b1cfb-101">Indicates additional information about a signature.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="sigdetApplicationName">
+      <MemberSignature Language="C#" Value="sigdetApplicationName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetApplicationName = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetApplicationName" />
+      <MemberSignature Language="VB.NET" Value="sigdetApplicationName" />
+      <MemberSignature Language="C++ CLI" Value="sigdetApplicationName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-102">指定应用程序名称。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-102">Specifies the application name.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetApplicationVersion">
+      <MemberSignature Language="C#" Value="sigdetApplicationVersion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetApplicationVersion = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetApplicationVersion" />
+      <MemberSignature Language="VB.NET" Value="sigdetApplicationVersion" />
+      <MemberSignature Language="C++ CLI" Value="sigdetApplicationVersion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-103">指定应用程序版本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-103">Specifies the application version.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetColorDepth">
+      <MemberSignature Language="C#" Value="sigdetColorDepth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetColorDepth = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetColorDepth" />
+      <MemberSignature Language="VB.NET" Value="sigdetColorDepth" />
+      <MemberSignature Language="C++ CLI" Value="sigdetColorDepth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-104">指定颜色深度。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-104">Specifies the color depth.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetDelSuggSigner">
+      <MemberSignature Language="C#" Value="sigdetDelSuggSigner" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetDelSuggSigner = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetDelSuggSigner" />
+      <MemberSignature Language="VB.NET" Value="sigdetDelSuggSigner" />
+      <MemberSignature Language="C++ CLI" Value="sigdetDelSuggSigner" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-105">指定建议的签名代理人。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-105">Specifies the suggested signer delegate.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetDelSuggSignerEmail">
+      <MemberSignature Language="C#" Value="sigdetDelSuggSignerEmail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetDelSuggSignerEmail = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetDelSuggSignerEmail" />
+      <MemberSignature Language="VB.NET" Value="sigdetDelSuggSignerEmail" />
+      <MemberSignature Language="C++ CLI" Value="sigdetDelSuggSignerEmail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-106">指定建议签名人的代理人的电子邮件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-106">Specifies the suggested signer's delegate's e-mail.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetDelSuggSignerEmailSet">
+      <MemberSignature Language="C#" Value="sigdetDelSuggSignerEmailSet" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetDelSuggSignerEmailSet = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetDelSuggSignerEmailSet" />
+      <MemberSignature Language="VB.NET" Value="sigdetDelSuggSignerEmailSet" />
+      <MemberSignature Language="C++ CLI" Value="sigdetDelSuggSignerEmailSet" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-107">指示是否已指定了建议签名代理人的电子邮件。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-107">Indicates whether an email for a suggested signer delegate has been specified.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetDelSuggSignerLine2">
+      <MemberSignature Language="C#" Value="sigdetDelSuggSignerLine2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetDelSuggSignerLine2 = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetDelSuggSignerLine2" />
+      <MemberSignature Language="VB.NET" Value="sigdetDelSuggSignerLine2" />
+      <MemberSignature Language="C++ CLI" Value="sigdetDelSuggSignerLine2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-108">指定建议签名人的代理人的签名行。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-108">Specifies the suggested signer's delegate's signature line.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetDelSuggSignerLine2Set">
+      <MemberSignature Language="C#" Value="sigdetDelSuggSignerLine2Set" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetDelSuggSignerLine2Set = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetDelSuggSignerLine2Set" />
+      <MemberSignature Language="VB.NET" Value="sigdetDelSuggSignerLine2Set" />
+      <MemberSignature Language="C++ CLI" Value="sigdetDelSuggSignerLine2Set" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-109">指定建议签名人的代理人的签名行集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-109">Specifies the set of suggested signer's delegate's signature lines.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetDelSuggSignerSet">
+      <MemberSignature Language="C#" Value="sigdetDelSuggSignerSet" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetDelSuggSignerSet = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetDelSuggSignerSet" />
+      <MemberSignature Language="VB.NET" Value="sigdetDelSuggSignerSet" />
+      <MemberSignature Language="C++ CLI" Value="sigdetDelSuggSignerSet" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-110">指定建议签名人的代理人集合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-110">Specifies the set of suggested signer's delegates.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetDocPreviewImg">
+      <MemberSignature Language="C#" Value="sigdetDocPreviewImg" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetDocPreviewImg = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetDocPreviewImg" />
+      <MemberSignature Language="VB.NET" Value="sigdetDocPreviewImg" />
+      <MemberSignature Language="C++ CLI" Value="sigdetDocPreviewImg" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-111">指定文档预览图像。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-111">Specifies the document preview image.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetHashAlgorithm">
+      <MemberSignature Language="C#" Value="sigdetHashAlgorithm" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetHashAlgorithm = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetHashAlgorithm" />
+      <MemberSignature Language="VB.NET" Value="sigdetHashAlgorithm" />
+      <MemberSignature Language="C++ CLI" Value="sigdetHashAlgorithm" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-112">指定哈希算法。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-112">Specifies the hash algorithm.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetHorizResolution">
+      <MemberSignature Language="C#" Value="sigdetHorizResolution" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetHorizResolution = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetHorizResolution" />
+      <MemberSignature Language="VB.NET" Value="sigdetHorizResolution" />
+      <MemberSignature Language="C++ CLI" Value="sigdetHorizResolution" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-113">指定水平分辨率。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-113">Specifies the horizontal resolution.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetIPCurrentView">
+      <MemberSignature Language="C#" Value="sigdetIPCurrentView" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetIPCurrentView = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetIPCurrentView" />
+      <MemberSignature Language="VB.NET" Value="sigdetIPCurrentView" />
+      <MemberSignature Language="C++ CLI" Value="sigdetIPCurrentView" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-114">指定 IP 当前视图。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-114">Specifies the IP current view.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetIPFormHash">
+      <MemberSignature Language="C#" Value="sigdetIPFormHash" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetIPFormHash = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetIPFormHash" />
+      <MemberSignature Language="VB.NET" Value="sigdetIPFormHash" />
+      <MemberSignature Language="C++ CLI" Value="sigdetIPFormHash" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-115">指定 IP 形态哈希。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-115">Specifies the IP form hash.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetLocalSigningTime">
+      <MemberSignature Language="C#" Value="sigdetLocalSigningTime" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetLocalSigningTime = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetLocalSigningTime" />
+      <MemberSignature Language="VB.NET" Value="sigdetLocalSigningTime" />
+      <MemberSignature Language="C++ CLI" Value="sigdetLocalSigningTime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-116">指定本地签名时间。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-116">Specifies the local signing time.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetNumberOfMonitors">
+      <MemberSignature Language="C#" Value="sigdetNumberOfMonitors" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetNumberOfMonitors = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetNumberOfMonitors" />
+      <MemberSignature Language="VB.NET" Value="sigdetNumberOfMonitors" />
+      <MemberSignature Language="C++ CLI" Value="sigdetNumberOfMonitors" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-117">指定监视器数量。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-117">Specifies the number of monitors</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetOfficeVersion">
+      <MemberSignature Language="C#" Value="sigdetOfficeVersion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetOfficeVersion = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetOfficeVersion" />
+      <MemberSignature Language="VB.NET" Value="sigdetOfficeVersion" />
+      <MemberSignature Language="C++ CLI" Value="sigdetOfficeVersion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-118">指定 Office 版本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-118">Specifies the Office version.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetShouldShowViewWarning">
+      <MemberSignature Language="C#" Value="sigdetShouldShowViewWarning" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetShouldShowViewWarning = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetShouldShowViewWarning" />
+      <MemberSignature Language="VB.NET" Value="sigdetShouldShowViewWarning" />
+      <MemberSignature Language="C++ CLI" Value="sigdetShouldShowViewWarning" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-119">指定“将显示视图警告”设置。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-119">Specifies the Should Show View Warning setting.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetSignatureType">
+      <MemberSignature Language="C#" Value="sigdetSignatureType" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetSignatureType = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetSignatureType" />
+      <MemberSignature Language="VB.NET" Value="sigdetSignatureType" />
+      <MemberSignature Language="C++ CLI" Value="sigdetSignatureType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-120">指定签名类型。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-120">Specifies the signature type.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetSignedData">
+      <MemberSignature Language="C#" Value="sigdetSignedData" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetSignedData = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetSignedData" />
+      <MemberSignature Language="VB.NET" Value="sigdetSignedData" />
+      <MemberSignature Language="C++ CLI" Value="sigdetSignedData" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-121">指定签名数据。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-121">Specifies the signed data.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetVertResolution">
+      <MemberSignature Language="C#" Value="sigdetVertResolution" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetVertResolution = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetVertResolution" />
+      <MemberSignature Language="VB.NET" Value="sigdetVertResolution" />
+      <MemberSignature Language="C++ CLI" Value="sigdetVertResolution" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-122">指定垂直分辨率。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-122">Specifies the vertical resolution.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sigdetWindowsVersion">
+      <MemberSignature Language="C#" Value="sigdetWindowsVersion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.SignatureDetail sigdetWindowsVersion = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.SignatureDetail.sigdetWindowsVersion" />
+      <MemberSignature Language="VB.NET" Value="sigdetWindowsVersion" />
+      <MemberSignature Language="C++ CLI" Value="sigdetWindowsVersion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.SignatureDetail</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b1cfb-123">指定 Windows 版本。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b1cfb-123">Specifies the Windows version.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

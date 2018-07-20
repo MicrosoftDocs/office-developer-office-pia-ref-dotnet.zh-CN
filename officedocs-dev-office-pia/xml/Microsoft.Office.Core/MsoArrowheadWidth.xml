@@ -1,0 +1,129 @@
+<Type Name="MsoArrowheadWidth" FullName="Microsoft.Office.Core.MsoArrowheadWidth">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="38be53a07411baaea9f3dcbe66f3ab44682a03dd" />
+    <Meta Name="ms.sourcegitcommit" Value="f41bc3cdd2c00b9a51a4340ac823a9e309633924" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20657571" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum MsoArrowheadWidth" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MsoArrowheadWidth extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Core.MsoArrowheadWidth" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MsoArrowheadWidth" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MsoArrowheadWidth" />
+  <AssemblyInfo>
+    <AssemblyName>office</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="4aefb-101">指定线条末端的箭头宽度。</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="4aefb-101">Specifies the width of the arrowhead at the end of a line.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="msoArrowheadNarrow">
+      <MemberSignature Language="C#" Value="msoArrowheadNarrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoArrowheadWidth msoArrowheadNarrow = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoArrowheadWidth.msoArrowheadNarrow" />
+      <MemberSignature Language="VB.NET" Value="msoArrowheadNarrow" />
+      <MemberSignature Language="C++ CLI" Value="msoArrowheadNarrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoArrowheadWidth</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aefb-102">窄。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aefb-102">Narrow.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoArrowheadWide">
+      <MemberSignature Language="C#" Value="msoArrowheadWide" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoArrowheadWidth msoArrowheadWide = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoArrowheadWidth.msoArrowheadWide" />
+      <MemberSignature Language="VB.NET" Value="msoArrowheadWide" />
+      <MemberSignature Language="C++ CLI" Value="msoArrowheadWide" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoArrowheadWidth</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aefb-103">宽。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aefb-103">Wide.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoArrowheadWidthMedium">
+      <MemberSignature Language="C#" Value="msoArrowheadWidthMedium" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoArrowheadWidth msoArrowheadWidthMedium = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoArrowheadWidth.msoArrowheadWidthMedium" />
+      <MemberSignature Language="VB.NET" Value="msoArrowheadWidthMedium" />
+      <MemberSignature Language="C++ CLI" Value="msoArrowheadWidthMedium" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoArrowheadWidth</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aefb-104">中等。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aefb-104">Medium.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="msoArrowheadWidthMixed">
+      <MemberSignature Language="C#" Value="msoArrowheadWidthMixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Core.MsoArrowheadWidth msoArrowheadWidthMixed = int32(-2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Core.MsoArrowheadWidth.msoArrowheadWidthMixed" />
+      <MemberSignature Language="VB.NET" Value="msoArrowheadWidthMixed" />
+      <MemberSignature Language="C++ CLI" Value="msoArrowheadWidthMixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>office</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoArrowheadWidth</ReturnType>
+      </ReturnValue>
+      <MemberValue>-2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="4aefb-105">只返回值，表示其他状态的组合。</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="4aefb-105">Return value only; indicates a combination of the other states.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
