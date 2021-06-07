@@ -39,6 +39,7 @@
       ]
     },
     "globalMetadata": {
+      "ocv-translation-feedback": true,
       "apiPlatform": "dotnet",
       "breadcrumb_path": "~/breadcrumb/toc.yml",
       "ROBOTS": "INDEX,FOLLOW",
